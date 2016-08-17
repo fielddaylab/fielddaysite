@@ -1,21 +1,21 @@
 {
-  "name": "the-yard",
+  "name": "fielddaysite",
   "version": "1.0.0",
-  "description": "website for the yard games",
+  "description": "website for Field Day Lab",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fielddaylab/the-yard.git"
+    "url": "https://github.com/fielddaylab/fielddaysite.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fielddaylab/the-yard/issues"
+    "url": "https://github.com/fielddaylab/fielddaysite/issues"
   },
-  "homepage": "https://github.com/fielddaylab/the-yard",
+  "homepage": "https://github.com/fielddaylab/fielddaysite",
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
