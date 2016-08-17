@@ -1,0 +1,143 @@
+
+.process {
+  @media #{$break-lg} {
+    height: 100vh;
+    position: relative;
+    overflow-y:hidden;
+    .infopane-wrap {
+      height: 100vh;
+      .infopane {
+        @include vertical-align;
+        padding: 10vw;
+      }
+    }
+    .spaceship-pane {
+      height: 100vh;
+      .vertical-align{
+        @include vertical-align;
+        width: 100%;
+        height: 90vh;
+        margin: 0 auto;
+        .illustration-wrap {
+          height: 100%;
+          width: 100%;
+          position: relative;
+          img {
+            height: 100%;
+            width: auto;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  .infopane {
+    padding: 5vw;
+  }
+  h2 {
+    text-transform: uppercase;
+    color: $yellow;
+    margin-left: 0px;
+    line-height: 35px;
+  }
+  p {
+    color: #fff;
+  }
+  &.blueprint {
+    background: $blue-black;
+  }
+  &.polished {
+    .bg {
+      position: absolute;
+      width: 25vw;
+      height: 20vw;
+      background:url(../img/illustrations/cloud.png) no-repeat;
+      background-size: contain;
+    }
+    .bg1 {
+      top: 10vw;
+      left: 5vw;
+    }
+    .bg2 {
+      top: 80vw;
+      left: -5vw;
+    }
+    .bg3 {
+      top: 5vw;
+      right: 15vw;
+    }
+    .bg4 {
+      top: 40vw;
+      right: -1vw;
+    }
+    background: linear-gradient(to bottom, rgba(81, 189, 211, 1.0) 0%, rgba(60, 129, 147, 1.0) 100%);
+    h2 { color: #fff; }
+    hr { background-color: #fff; }
+    .spaceplane {
+      position: absolute;
+      height: auto;
+      width: 100%;
+      top:0;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  }
+  &.polished2 {
+    background: linear-gradient(to bottom, rgba(60, 129, 147, 1.0) 0%, rgba(35, 55, 68, 1.0) 100%);
+  }
+  .button {
+    margin-top: 20px;
+  }
+  &.business {
+    background: $blue-black;
+    padding: 15vw;
+    color: #fff;
+    text-align: center;
+    height: auto;
+    h2,h3 {
+      text-transform: uppercase;
+      margin: 30px;
+      letter-spacing: 5px;
+      font-size:18px;
+    }
+    h2 {
+      color: $yellow;
+      font-size: 24px;
+      margin-bottom: 10vw;
+    }
+    img {
+      width: 120px;
+      height: auto;
+      margin: 0 auto;
+    }
+    col {
+      padding: 10vw;
+      margin-bottom: 10vw;
+    }
+  }
+  @media #{$break-md} {
+    .infopane {
+      padding-bottom: 15vw;
+      hr{
+        display: none;
+      }
+    }
+    .illustration-wrap {
+      img {
+      width: 70%;
+      height: auto;
+      margin: 0 auto;
+      padding: 5vw;
+      }
+    }
+  }
+}
+
+hr {
+  background: $yellow;
+  border:none;
+  outline:none;
+}
+
+
