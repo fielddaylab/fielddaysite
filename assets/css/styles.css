@@ -8516,7 +8516,7 @@ section {
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-        padding: 10vw; }
+        padding: 5vw; }
     .process .spaceship-pane {
       height: 100vh; }
       .process .spaceship-pane .vertical-align {
@@ -8537,17 +8537,23 @@ section {
             width: auto;
             display: block; } }
 
-.process .infopane {
-  padding: 5vw; }
-
 .process h2 {
   text-transform: uppercase;
   color: #F0C808;
   margin-left: 0px;
   line-height: 35px; }
+  @media only screen and (min-width: 1025px) {
+    .process h2 {
+      font-size: 16px; } }
+
+.process .infopane {
+  padding: 5vw; }
 
 .process p {
   color: #fff; }
+  @media only screen and (max-width: 1024px) {
+    .process p {
+      font-size: 14px; } }
 
 .process.blueprint {
   background: #202E3C; }
