@@ -8503,6 +8503,10 @@ section {
   100% {
     transform: translate(0px, 0px); } }
 
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
 @media only screen and (min-width: 1025px) {
   .process {
     height: 100vh;
@@ -8574,10 +8578,10 @@ section {
     left: -5vw; }
   .process.polished .bg3 {
     top: 5vw;
-    right: 15vw; }
+    right: 20vw; }
   .process.polished .bg4 {
     top: 40vw;
-    right: -1vw; }
+    right: 3vw; }
   .process.polished h2 {
     color: #fff; }
   .process.polished hr {
