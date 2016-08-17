@@ -7949,7 +7949,8 @@ p, a, li {
   width: 100%;
   display: block;
   display: none;
-  background-color: #202E3C; }
+  background-color: #202E3C;
+  text-align: center; }
   .small-nav ul {
     padding-left: 0; }
   .small-nav li {
@@ -7957,7 +7958,7 @@ p, a, li {
     padding: 20px;
     display: inline-block;
     position: relative;
-    width: 32.1%;
+    width: 29%;
     text-transform: uppercase; }
   .small-nav a {
     color: #fff;
