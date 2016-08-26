@@ -8512,11 +8512,9 @@ section {
   .process {
     height: 100vh;
     position: relative;
-    overflow-y: hidden;
-    z-index: 10; }
+    overflow-y: hidden; }
     .process .infopane-wrap {
-      height: 100vh;
-      z-index: 10; }
+      height: 100vh; }
       .process .infopane-wrap .infopane {
         position: relative;
         top: 50%;
@@ -8527,22 +8525,21 @@ section {
     .process .spaceship-pane {
       height: 100vh; }
       .process .spaceship-pane .vertical-align {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
         width: 100%;
         height: 90vh;
-        margin: 0 auto;
-        z-index: 10; }
+        margin: 0 auto; }
         .process .spaceship-pane .vertical-align .illustration-wrap {
           height: 100%;
           width: 100%;
-          position: relative;
-          margin: 0 auto;
-          margin-top: 2vw; }
+          position: relative; }
           .process .spaceship-pane .vertical-align .illustration-wrap img {
             height: 100%;
             width: auto;
-            position: absolute;
-            top: 0;
-            left: 0;
             display: block; } }
 
 .process h2 {
@@ -8590,47 +8587,16 @@ section {
     color: #fff; }
   .process.polished hr {
     background-color: #fff; }
-  .process.polished .illustration-wrap {
-    position: fixed; }
+  .process.polished .spaceplane {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0); }
 
 .process.polished2 {
   background: linear-gradient(to bottom, #3c8193 0%, #233744 100%); }
-  .process.polished2 .row::before {
-    content: ' ';
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: url("../img/illustrations/starfield.png");
-    background-size: 652px 360px;
-    will-change: transform;
-    z-index: 1; }
-  .process.polished2 .combined {
-    top: 5vw;
-    right: 10vw; }
-  .process.polished2 .spaceplane::before {
-    content: ' ';
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: url("../img/illustrations/spaceplane.png") no-repeat;
-    will-change: transform;
-    z-index: 1;
-    background-size: contain; }
-  .process.polished2 .launch-vehicle::before {
-    content: ' ';
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: url("../img/illustrations/delivery-rocket.png") no-repeat;
-    will-change: transform;
-    z-index: 1;
-    background-size: contain; }
 
 .process .button {
   margin-top: 20px; }
@@ -8651,8 +8617,8 @@ section {
     font-size: 24px;
     margin-bottom: 10vw; }
   .process.business img {
-    width: auto;
-    height: 130px;
+    width: 120px;
+    height: auto;
     margin: 0 auto; }
   .process.business col {
     padding: 10vw;
@@ -8673,13 +8639,6 @@ hr {
   background: #F0C808;
   border: none;
   outline: none; }
-
-.vertical-align {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
 
 /* Footer
 ------------------------------------------ */

@@ -7,10 +7,8 @@
     height: 100vh;
     position: relative;
     overflow-y:hidden;
-    z-index: 10;
     .infopane-wrap {
       height: 100vh;
-      z-index: 10;
       .infopane {
         @include vertical-align;
         padding: 5vw;
@@ -19,22 +17,17 @@
     .spaceship-pane {
       height: 100vh;
       .vertical-align{
+        @include vertical-align;
         width: 100%;
         height: 90vh;
         margin: 0 auto;
-        z-index: 10;
         .illustration-wrap {
           height: 100%;
           width: 100%;
           position: relative;
-          margin: 0 auto;
-          margin-top: 2vw;
           img {
             height: 100%;
             width: auto;
-            position: absolute;
-            top: 0;
-            left: 0;
             display: block;
           }
         }
@@ -89,58 +82,17 @@
     background: linear-gradient(to bottom, rgba(81, 189, 211, 1.0) 0%, rgba(60, 129, 147, 1.0) 100%);
     h2 { color: #fff; }
     hr { background-color: #fff; }
-    .illustration-wrap {
-      position: fixed;
+    .spaceplane {
+      position: absolute;
+      height: auto;
+      width: 100%;
+      top:0;
+      left: 50%;
+      transform: translate(-50%, 0);
     }
   }
   &.polished2 {
     background: linear-gradient(to bottom, rgba(60, 129, 147, 1.0) 0%, rgba(35, 55, 68, 1.0) 100%);
-    .row {
-      &::before {
-        content: ' ';
-        position: fixed; // instead of background-attachment
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background: url('../img/illustrations/starfield.png');
-        background-size: 652px 360px;
-        will-change: transform; // creates a new paint layer
-        z-index: 1;
-      }
-    }
-    .combined {
-      top: 5vw;
-      right: 10vw;
-    }
-    .spaceplane {
-      &::before {
-        content: ' ';
-        position: fixed; // instead of background-attachment
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background: url('../img/illustrations/spaceplane.png') no-repeat;
-        will-change: transform; // creates a new paint layer
-        z-index: 1;
-        background-size: contain;
-      }
-    }
-    .launch-vehicle {
-      &::before {
-        content: ' ';
-        position: fixed; // instead of background-attachment
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background: url('../img/illustrations/delivery-rocket.png') no-repeat;
-        will-change: transform; // creates a new paint layer
-        z-index: 1;
-        background-size: contain;
-      }
-    }
   }
   .button {
     margin-top: 20px;
@@ -163,8 +115,8 @@
       margin-bottom: 10vw;
     }
     img {
-      width: auto;
-      height: 130px;
+      width: 120px;
+      height: auto;
       margin: 0 auto;
     }
     col {
@@ -196,7 +148,4 @@ hr {
   outline:none;
 }
 
-.vertical-align {
-  @include vertical-align;
-}
 
