@@ -256,6 +256,7 @@ $('.drawerleft-toggle').click(function(){
   }
   $('body').removeClass('drawerright-open');
   $('body').removeClass('drawertop-open');
+  return false;
 });
 
 $('.drawerright-toggle').click(function(){
@@ -267,6 +268,7 @@ $('.drawerright-toggle').click(function(){
   }
   $('body').removeClass('drawerleft-open');
   $('body').removeClass('drawertop-open');
+  return false;
 });
 
 $('.drawertop-toggle').click(function(){
@@ -278,6 +280,13 @@ $('.drawertop-toggle').click(function(){
   }
   $('body').removeClass('drawerright-open');
   $('body').removeClass('drawerleft-open');
+  return false;
+});
+
+$('.hero').click(function(){
+  $('body').removeClass('drawerleft-open');
+  $('body').removeClass('drawerright-open');
+  $('body').removeClass('drawertop-open');
 });
 
 // remove tap delay on mobile
