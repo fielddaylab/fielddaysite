@@ -22,11 +22,11 @@
     background-size: 30vw auto;
     @media #{$break-sm} {
     width: 50vw;
+    max-width: 250px;
     height: 10vw;
     background-size: 50vw auto;
     }
   }
-
   .animated {
     width: 100%;
     height: inherit;
@@ -64,7 +64,7 @@
   }
   .image-bg {
     position: absolute;
-    background: linear-gradient(to bottom,rgba(21, 134, 156, 1.0), rgba(243, 253, 255, 0.0));
+    //background: linear-gradient(to bottom,rgba(21, 134, 156, 1.0), rgba(243, 253, 255, 0.0));
     background-size: 100% auto;
     background-position: center bottom;
     width: 100%;
@@ -130,40 +130,6 @@
         }
 
       }
-      .play-games {
-        color: $black;
-        background-color: white;
-        padding: 15px;
-        width: 240px;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-        font-size: 20px;
-        border-radius: 9999px;
-      }
     }
   }
-}
-
-
-@keyframes cloudMotion {
-  from { background-position: 0 0; }
-  to { background-position: 2000px 0; }
-}
-
-@keyframes cloudMotion2 {
-  from { background-position: 0 0; }
-  to { background-position: 900px 0; }
-}
-
-@keyframes balloonMotion {
-  from { transform:translate(0, 0); }
-  to { transform:translate(120vw, 0);  }
-}
-
-@keyframes balloonbounce {
-  0% { transform:translate(0px, 0px); }
-  50% { transform:translate(0px, -200px);  }
-  100% { transform:translate(0px, 0px);  }
 }

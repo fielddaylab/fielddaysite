@@ -1,18 +1,68 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+h2, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 h2 {
   letter-spacing: 4px;
   margin: 25px;
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+h3 {
+  letter-spacing: 2px;
+  margin: 25px;
+  font-size: 22px;
+  margin-left: 0px;
 }
 
 p, a, li {
- font-family: 'Open Sans', sans-serif;
- font-size: 1.1em;
- letter-spacing: .1em;
- line-height: 1.9em;
- font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  line-height: 40px;
+  font-weight: 400;
+  @media #{$break-md} {
+      font-size: 14px;
+      letter-spacing: 2px;
+      line-height: 35px;
+    }
+  @media #{$break-sm} {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 25px;
+  }
+  &.big {
+    font-size: 20px;
+    @media #{$break-md} {
+      font-size: 16px;
+      letter-spacing: 2px;
+      line-height: 35px;
+    }
+    @media #{$break-sm} {
+      font-size: 14px;
+      letter-spacing: 1px;
+      line-height: 25px;
+    }
+  }
+  &.small {
+    font-size: 14px;
+    line-height: 29px;
+    letter-spacing:1.4px;
+    @media #{$break-md} {
+      font-size: 12px;
+      letter-spacing: 1px;
+      line-height: 25px;
+    }
+  }
+  &.light {
+    font-weight: 300;
+    @media #{$break-sm} {
+      font-weight: 400;
+    }
+  }
 }
 
-.handwritten {
-  font-family: 'Sue Ellen Francisco', cursive;
-  text-transform: none;
-}
