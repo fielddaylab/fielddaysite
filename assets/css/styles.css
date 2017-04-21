@@ -7773,6 +7773,12 @@ h3 {
   font-size: 22px;
   margin-left: 0px; }
 
+a {
+  color: #E0BC4E; }
+  a:hover {
+    text-decoration: none;
+    color: #AA8820; }
+
 p, a, li {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -7917,7 +7923,7 @@ p, a, li {
       width: 20px;
       height: 20px;
       border: 2px solid #fff;
-      padding: 20px 17px;
+      padding: 20px 15px;
       border-radius: 35px;
       text-transform: uppercase;
       opacity: 0;
@@ -7932,7 +7938,8 @@ p, a, li {
       opacity: 0.9;
       transition: all .3s ease-in-out; }
       .drawer .draweritem:hover .draweritem-content {
-        background: rgba(0, 0, 0, 0.1); }
+        background: #e0bc4e;
+        color: #11141B; }
       .drawer .draweritem:hover .go {
         opacity: 1; }
 
@@ -8521,49 +8528,82 @@ section {
 
 .blogs {
   background: #fff; }
-  .blogs .blogpost-wrap .blogpost {
-    margin: 3vw;
-    padding: 3vw;
-    background: #fff;
-    box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.16);
-    position: relative;
-    z-index: 100; }
-    .blogs .blogpost-wrap .blogpost.one .thumb {
-      background: url(../img/thumbnails/blogthumb1.jpg) no-repeat;
-      background-size: cover; }
-    .blogs .blogpost-wrap .blogpost.two .thumb {
-      background: url(../img/thumbnails/blogthumb2.jpg) no-repeat;
-      background-size: cover; }
-    .blogs .blogpost-wrap .blogpost h3 {
-      font-weight: 500;
-      line-height: 30px;
-      font-size: 20px; }
-    .blogs .blogpost-wrap .blogpost .brief {
-      padding-left: 0; }
-      .blogs .blogpost-wrap .blogpost .brief p {
-        font-size: 12px;
-        letter-spacing: 1.3px;
-        line-height: 24px;
-        margin-bottom: 20px; }
-    .blogs .blogpost-wrap .blogpost .button {
-      padding: 0px 10px; }
-      .blogs .blogpost-wrap .blogpost .button .text {
-        padding: 8px 8px 8px 0px;
-        display: block;
-        float: left; }
-      .blogs .blogpost-wrap .blogpost .button .fa {
-        padding: 9px; }
-      .blogs .blogpost-wrap .blogpost .button .mediumlogo {
-        width: 20px;
-        height: 30px;
-        float: right;
-        border-left: 1px solid; }
-  .blogs .blogpost-wrap .thumb {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    bottom: -30px;
-    right: -50px; }
+  .blogs .blogpost-wrap {
+    z-index: 150;
+    position: relative; }
+    .blogs .blogpost-wrap .blogpost {
+      margin: 3vw;
+      background: #fff;
+      box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.16);
+      position: relative;
+      z-index: 200; }
+      .blogs .blogpost-wrap .blogpost .blogcontent {
+        padding: 3vw; }
+      .blogs .blogpost-wrap .blogpost.one .thumb {
+        background: url(../img/thumbnails/blogthumb1.jpg) no-repeat;
+        background-size: cover; }
+      .blogs .blogpost-wrap .blogpost.two .thumb {
+        background: url(../img/thumbnails/blogthumb2.jpg) no-repeat;
+        background-size: cover; }
+      .blogs .blogpost-wrap .blogpost.three .thumb {
+        background: url(../img/thumbnails/blogthumb3.png) no-repeat;
+        background-size: cover; }
+      .blogs .blogpost-wrap .blogpost.four .thumb {
+        background: url(../img/thumbnails/blogthumb4.png) no-repeat;
+        background-size: cover; }
+      .blogs .blogpost-wrap .blogpost h3 {
+        font-weight: 500;
+        line-height: 30px;
+        font-size: 20px; }
+      .blogs .blogpost-wrap .blogpost .brief {
+        padding-left: 0; }
+        .blogs .blogpost-wrap .blogpost .brief p {
+          font-size: 12px;
+          letter-spacing: 1.3px;
+          line-height: 24px;
+          margin-bottom: 20px; }
+      .blogs .blogpost-wrap .blogpost .button {
+        padding: 0px 10px; }
+        .blogs .blogpost-wrap .blogpost .button .text {
+          padding: 8px 8px 8px 0px;
+          display: block;
+          float: left; }
+        .blogs .blogpost-wrap .blogpost .button .fa {
+          padding: 9px; }
+        .blogs .blogpost-wrap .blogpost .button .mediumlogo {
+          width: 20px;
+          height: 30px;
+          float: right;
+          border-left: 1px solid; }
+    .blogs .blogpost-wrap .thumb {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      bottom: -30px;
+      right: -50px; }
+      @media only screen and (max-width: 1024px) {
+        .blogs .blogpost-wrap .thumb {
+          position: relative;
+          width: 100%;
+          height: 250px;
+          bottom: initial;
+          right: initial; } }
+
+.contact-modal {
+  background: #11141B;
+  color: #fff;
+  padding: 5vw;
+  text-align: center; }
+  .contact-modal h2 {
+    text-transform: uppercase; }
+  .contact-modal img {
+    margin: 0 auto;
+    width: 150px;
+    display: block;
+    margin-bottom: 20px; }
+  .contact-modal .close {
+    color: #fff;
+    opacity: 0.9; }
 
 /* hero
 ------------------------------------------ */

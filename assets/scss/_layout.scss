@@ -100,16 +100,21 @@ section {
     }
   }
 }
+
 .blogs {
   background: #fff;
   .blogpost-wrap {
+    z-index: 150;
+    position: relative;
     .blogpost {
       margin: 3vw;
-      padding: 3vw;
       background: #fff;
       box-shadow: 0 0 33px 0 rgba(0,0,0,0.16);
       position: relative;
-      z-index: 100;
+      z-index: 200;
+      .blogcontent {
+        padding: 3vw;
+      }
       &.one {
         .thumb {
           background:url(../img/thumbnails/blogthumb1.jpg) no-repeat;
@@ -119,6 +124,18 @@ section {
       &.two {
         .thumb {
           background:url(../img/thumbnails/blogthumb2.jpg) no-repeat;
+          background-size: cover;
+        }
+      }
+      &.three {
+        .thumb {
+          background:url(../img/thumbnails/blogthumb3.png) no-repeat;
+          background-size: cover;
+        }
+      }
+      &.four {
+        .thumb {
+          background:url(../img/thumbnails/blogthumb4.png) no-repeat;
           background-size: cover;
         }
       }
@@ -160,7 +177,34 @@ section {
       position: absolute;
       bottom: -30px;
       right: -50px;
+      @media #{$break-md} {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        bottom: initial;
+        right:initial;
+      }
     }
+  }
+}
+
+.contact-modal {
+  background: $black;
+  color: #fff;
+  padding: 5vw;
+  text-align: center;
+  h2 {
+    text-transform: uppercase;
+  }
+  img {
+    margin: 0 auto;
+    width: 150px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .close {
+    color: #fff;
+    opacity: 0.9;
   }
 }
 

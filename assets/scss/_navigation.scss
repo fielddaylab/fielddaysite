@@ -115,7 +115,7 @@
       width: 20px;
       height: 20px;
       border: 2px solid #fff;
-      padding: 20px 17px;
+      padding: 20px 15px;
       border-radius: 35px;
       text-transform: uppercase;
       opacity: 0;
@@ -131,7 +131,8 @@
       opacity: 0.9;
       transition: all .3s ease-in-out;
       .draweritem-content {
-        background: rgba(0, 0, 0, 0.1);
+        background: rgba(224, 188, 78, 1.0);
+        color: $black;
       }
       .go {
         opacity: 1;
