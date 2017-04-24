@@ -1,0 +1,373 @@
+.singleapp {
+  .app-hero {
+    height: 100vh;
+    background: $black;
+    .hero-content{
+      @include vertical-align;
+      color: #fff;
+      width: 80vw;
+      margin-left: 10vw;
+      .info-panel {
+        margin-bottom: 30px;
+        width: 100%;
+        border-bottom: 2px solid #fff;
+        position: relative;
+        .logo-small {
+          position: absolute;
+          display: block;
+          width: 40px;
+          height: auto;
+          right: 0;
+          top: 5px;
+        }
+        .breadcrumbs {
+          padding-left: 0;
+          .breadcrumb-arrow {
+            width: 8px;
+            height: auto;
+            margin-top:-1px;
+            margin: 0px 10px;
+          }
+          li {
+            list-style: none;
+            display: inline;
+            text-transform: uppercase;
+            font-size: 14px;
+            a {
+              font-size: inherit;
+              color: #fff;
+              &:hover {
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+      .app-info {
+        margin-bottom: 20px;
+        h1, p {
+          display: inline;
+          vertical-align: middle;
+        }
+        h1 {
+          text-transform: uppercase;
+          font-weight: 600;
+          font-size: 50px;
+          padding-right: 20px;
+          border-right: 2px solid #fff;
+        }
+        p {
+          margin-left: 20px;
+          font-family: 'volkhov', serif;
+          letter-spacing: 2px;
+          font-size: 20px;
+          width:60vw;
+        }
+      }
+      .app-description {
+          width: 50vw;
+          margin-bottom: 20px;
+        }
+    }
+  }
+  .small-nav {
+    transform:translateY(0px);
+    opacity: 1;
+    position: fixed;
+    z-index: 500;
+  }
+
+  .app-about {
+    padding-top:100px;
+    h2 {
+      text-transform: uppercase;
+      font-size: 25px;
+      padding-left:0;
+      margin-left: 0;
+      margin-top: 90px;
+    }
+    ul {
+      padding-left: 16px;
+    }
+    li {
+      font-size: 14px;
+    }
+    .about-nav {
+      padding-top: 100px;
+      ul {
+        padding-left: 0;
+      }
+      li {
+        text-transform: uppercase;
+        cursor:pointer;
+        list-style: none;
+      }
+     a {
+        color: #FF04FF;
+      }
+    }
+    .about-rightpanel {
+      padding-top: 80px;
+      padding-left: 80px;
+    }
+  }
+
+  .scroll-locked {
+    position: fixed;
+    top: 100px;
+    @media #{$break-sm} {
+      position: relative;
+      top: 0px;
+    }
+  }
+
+  .app-intro {
+    .intro-text {
+      h2 {
+        margin-left: 0px;
+        text-transform: uppercase;
+
+      }
+      padding: 5vw 5vw 5vw 1vw;
+    }
+  }
+
+
+
+  /* Template for Aris
+  ---------------------------*/
+  &.aris {
+    .biglogo {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .app-hero{
+      background:url(/assets/img/arishero.jpg) no-repeat;
+      background-size: cover;
+    }
+    .app-about {
+      background: #2C0416;
+      color: #fff;
+      .about-rightpanel {
+        h2 {
+          color: #89FDFD;
+        }
+        @media #{$break-sm} {
+          padding-left:0px;
+        }
+      }
+      .app-video {
+        padding: 10vw;
+        text-align: center;
+        margin: 0 auto;
+        p {
+          font-family: 'courier', serif;
+          color: #fff;
+        }
+      }
+    }
+    .aris-learn {
+      .learn-card {
+        img {
+          width: 100%;
+          height: auto;
+        }
+        padding: 60px;
+        text-align: center;
+      }
+    }
+  }
+
+  .embed-wrap {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  /* Slider CSS
+  ---------------------------*/
+
+.glide {
+
+  $that: '.glide' !default;
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  &__wrapper {
+    overflow: hidden;
+  }
+
+  &__track {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    touch-action: pan-Y;
+    overflow: hidden;
+    padding: 0;
+
+    &.dragging {
+      cursor: grabbing;
+      user-select: none;
+    }
+  }
+
+
+  &__slide {
+    width: 100%;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+
+    a {
+      user-select: none;
+      -webkit-user-drag: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+
+
+  &__arrows {
+    -webkit-touch-callout: none;
+    user-select: none;
+  }
+
+
+  &__arrow {
+    cursor: pointer;
+  }
+
+  &__bullets {
+    -webkit-touch-callout: none;
+    user-select: none;
+  }
+
+  &--slider {
+
+    #{$that}__slide {
+      float: left;
+      clear: none;
+    }
+
+    #{$that}__arrow {}
+
+  }
+
+
+  &--carousel {
+
+    &#{$that}--vertical {
+
+      #{$that}__track {
+        overflow: visible;
+      }
+
+    }
+
+    #{$that}__slide {
+      float: left;
+      clear: none;
+    }
+
+  }
+
+
+  &--slideshow {
+
+    #{$that}__wrapper {
+      height: 100%;
+    }
+
+    #{$that}__slide {
+      height: 100%;
+      position: absolute;
+      top: 0; left: 0;
+      z-index: -1;
+      // Flashing issue fix
+      -webkit-transform-style: preserve-3d;
+      -webkit-transform: translate3d(0px, 0px, 0px);
+
+      &.active {
+        z-index: 1;
+      }
+    }
+
+  }
+
+}
+.glide__bullets {
+  text-align: center;
+}
+.glide__bullet {
+  border-radius: 10px;
+  width: 15px;
+  height: 15px;
+  outline: none;
+  border-style: none;
+  border: 2px solid #efefef;
+  background-color: #fff;
+  margin: 5px;
+  &.active {
+    background-color: #efefef;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

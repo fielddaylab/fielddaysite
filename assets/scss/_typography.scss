@@ -1,7 +1,7 @@
 body {
   -webkit-font-smoothing: antialiased;
 }
-h2, h3 {
+h1, h2, h3 {
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -30,7 +30,7 @@ a {
 p, a, li {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  letter-spacing: 3px;
+  letter-spacing: 2.3px;
   line-height: 40px;
   font-weight: 400;
   @media #{$break-md} {
@@ -59,7 +59,7 @@ p, a, li {
   &.small {
     font-size: 14px;
     line-height: 29px;
-    letter-spacing:1.4px;
+    letter-spacing:2px;
     @media #{$break-md} {
       font-size: 12px;
       letter-spacing: 1px;
