@@ -9256,7 +9256,7 @@ hr {
     height: auto;
     display: block; }
   .singleapp.aris .app-hero {
-    background: url(/assets/img/arishero.jpg) no-repeat;
+    background: url(../img/arishero.jpg) no-repeat;
     background-size: cover; }
   .singleapp.aris .app-about {
     background: #2C0416;
