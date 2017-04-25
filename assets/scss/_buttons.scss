@@ -19,7 +19,7 @@
   margin-right:15px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  &:hover { cursor: pointer; text-decoration: none; }
+  &:hover { cursor: pointer; text-decoration: none; opacity: 0.9; }
   &:active, &:visited, &:focus { text-decoration: none; outline: none; }
   &:hover, &.filled {
     background: $dark_gray; color: #fff;

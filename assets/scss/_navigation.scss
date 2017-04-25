@@ -219,7 +219,7 @@
   }
 }
 
-.nav-fixed {
+.nav-fixed, .singleapp {
   .drawer {
     &.drawer-left, &.drawer-right {
       transform:translateY(-400px);
