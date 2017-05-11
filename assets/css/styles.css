@@ -7601,6 +7601,7 @@ button.close {
   text-align: center;
   text-decoration: none;
   margin-right: 15px;
+  margin-bottom: 15px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s; }
   .button:hover {
