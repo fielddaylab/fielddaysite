@@ -102,12 +102,8 @@
         cursor:pointer;
         list-style: none;
       }
-     a {
-        color: #FF04FF;
-      }
     }
     .about-rightpanel {
-      padding-top: 80px;
       padding-left: 80px;
     }
   }
@@ -133,6 +129,14 @@
   }
 
 
+  /* Template for atomTouch
+  ---------------------------*/
+  &.atomtouch {
+    .app-hero{
+      background:url(../img/atomtouchbg.jpg) no-repeat;
+      background-size: cover;
+    }
+  }
 
   /* Template for Aris
   ---------------------------*/
@@ -369,5 +373,3 @@
 
 
 }
-
-

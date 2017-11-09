@@ -7601,7 +7601,6 @@ button.close {
   text-align: center;
   text-decoration: none;
   margin-right: 15px;
-  margin-bottom: 15px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s; }
   .button:hover {
@@ -9145,6 +9144,8 @@ hr {
     opacity: 0.0; } }
 
 .singleapp {
+  /* Template for atomTouch
+  ---------------------------*/
   /* Template for Aris
   ---------------------------*/
   /* Slider CSS
@@ -9235,10 +9236,7 @@ hr {
         text-transform: uppercase;
         cursor: pointer;
         list-style: none; }
-      .singleapp .app-about .about-nav a {
-        color: #FF04FF; }
     .singleapp .app-about .about-rightpanel {
-      padding-top: 80px;
       padding-left: 80px; }
   .singleapp .scroll-locked {
     position: fixed;
@@ -9252,6 +9250,9 @@ hr {
     .singleapp .app-intro .intro-text h2 {
       margin-left: 0px;
       text-transform: uppercase; }
+  .singleapp.atomtouch .app-hero {
+    background: url(../img/atomtouchbg.jpg) no-repeat;
+    background-size: cover; }
   .singleapp.aris .biglogo {
     width: 100%;
     height: auto;
