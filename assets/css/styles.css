@@ -9250,6 +9250,10 @@ hr {
     .singleapp .app-intro .intro-text h2 {
       margin-left: 0px;
       text-transform: uppercase; }
+  .singleapp .play-button {
+    height: 43px;
+    width: auto;
+    margin: 5px; }
   .singleapp.atomtouch .app-hero {
     background: url(../img/atomtouchbg.jpg) no-repeat;
     background-size: cover; }
