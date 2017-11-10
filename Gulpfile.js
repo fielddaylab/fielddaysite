@@ -22,4 +22,18 @@ gulp.task('serve', function () {
 
 });
 
+gulp.task('proxy', function () {
+
+  proxy: "localhost:3000"
+  browserSync.init({
+    server: {
+      baseDir: './'
+    }
+  });
+
+  gulp.watch('./assets/scss/*scss', ['styles']);
+  gulp.watch('./**/*.html').on('change', browserSync.reload);
+
+});
+
 gulp.task('default', ['styles', 'serve']);
