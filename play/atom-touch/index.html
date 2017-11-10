@@ -157,13 +157,14 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
 </p></div>
     <div class="buttons">
-      <a target="_blank" href="https://itunes.apple.com/ca/app/aris/id371788434?mt=8" class="button xsmall white filled">Play Atom Touch</a>
+      <a target="_blank" href="#app-intro" class="button xsmall white filled">Play Atom Touch</a>
       <a target="_blank" href="#app-about" class="button xsmall white">Learn about Atom Touch</a>
     </div>
   </div>
 </section>
-<section class="app-intro">
-  <div id="content_play" style="width:880px; height:660px;" onclick="playContent()">Click Play</div>
+<section id="app-intro">
+  <h2>Play Atom Touch</h2>
+  <div id="content_play" style="width:880px; height:660px;" onclick="playContent()"><span class="button white filled">Play Atom Touch</span></div>
   <iframe id="content" scrolling="no" style="width:880px; height:660px; display:none; margin:10px auto; overflow:hidden; border:0px;" src="build/null.html"></iframe>
 </section>
 

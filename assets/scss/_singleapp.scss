@@ -136,6 +136,32 @@
       background:url(../img/atomtouchbg.jpg) no-repeat;
       background-size: cover;
     }
+    #app-about {
+      padding-top: 0px;
+    }
+    #app-intro {
+      padding: 5vw 0vw 5vw 0vw;
+      background: $ultralight_gray;
+      text-align: center;
+      h2 {
+        text-transform: uppercase;
+      }
+      .fullscreen {
+        text-align: right;
+        margin-top: 10px;
+        img {
+          vertical-align: middle;
+        }
+      }
+    }
+    #content_play {
+      background:url(../img/atomtouchbg.jpg) no-repeat;
+      margin: 0 auto;
+      text-align: center;
+      span {
+        margin-top: 300px;
+      }
+    }
   }
 
   /* Template for Aris

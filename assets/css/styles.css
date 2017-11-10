@@ -9253,6 +9253,25 @@ hr {
   .singleapp.atomtouch .app-hero {
     background: url(../img/atomtouchbg.jpg) no-repeat;
     background-size: cover; }
+  .singleapp.atomtouch #app-about {
+    padding-top: 0px; }
+  .singleapp.atomtouch #app-intro {
+    padding: 5vw 0vw 5vw 0vw;
+    background: #f5f5f5;
+    text-align: center; }
+    .singleapp.atomtouch #app-intro h2 {
+      text-transform: uppercase; }
+    .singleapp.atomtouch #app-intro .fullscreen {
+      text-align: right;
+      margin-top: 10px; }
+      .singleapp.atomtouch #app-intro .fullscreen img {
+        vertical-align: middle; }
+  .singleapp.atomtouch #content_play {
+    background: url(../img/atomtouchbg.jpg) no-repeat;
+    margin: 0 auto;
+    text-align: center; }
+    .singleapp.atomtouch #content_play span {
+      margin-top: 300px; }
   .singleapp.aris .biglogo {
     width: 100%;
     height: auto;
