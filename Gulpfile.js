@@ -22,4 +22,15 @@ gulp.task('serve', function () {
 
 });
 
+gulp.task('proxy', function () {
+  browserSync.init({
+    proxy: "http://localhost:8888/fieldDay/fielddaysite/"
+  });
+
+  gulp.watch('./assets/scss/*scss', ['styles']);
+  gulp.watch('./**/*.php').on('change', browserSync.reload);
+  gulp.watch('./**/*.html').on('change', browserSync.reload);
+
+});
+
 gulp.task('default', ['styles', 'serve']);
