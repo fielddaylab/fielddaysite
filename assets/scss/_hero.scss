@@ -12,144 +12,140 @@
   @media #{$break-sm} {
     height: 95vh;
   }
-  .main-mark {
-    background: url('../img/fd-logo-white.png') no-repeat;
-    width: 30vw;
-    margin: 0 auto;
-    height: 6vw;
-    text-indent: -9999px;
-    background-size: 30vw auto;
-    @media #{$break-sm} {
-    width: 50vw;
-    max-width: 250px;
-    height: 10vw;
-    background-size: 50vw auto;
+}
+
+.carousel-fade {
+  .carousel-inner {
+    .item {
+      transition-property: opacity;
+      height: inherit;
+      width: inherit;
+      .item-info {
+        @include vertical-align;
+        text-align: center;
+        color: #fff;
+        z-index:1000;
+        position:relative;
+      }
+      .main-mark {
+        background: url('../img/fd-logo-white.png') no-repeat;
+        width: 30vw;
+        margin: 0 auto;
+        height: 6vw;
+        text-indent: -9999px;
+        background-size: 30vw auto;
+        @media #{$break-sm} {
+          width: 50vw;
+          max-width: 250px;
+          height: 10vw;
+          background-size: 50vw auto;
+        }
+      }
+    }
+
+    .item,
+    .active.left,
+    .active.right {
+      opacity: 0;
+      width:100%;
+      height:100vh;
+    }
+
+    .active,
+    .next.left,
+    .prev.right {
+      opacity: 1;
+    }
+
+    .next,
+    .prev,
+    .active.left,
+    .active.right {
+      left: 0;
+      transform: translate3d(0, 0, 0);
     }
   }
-  .animated {
-    width: 100%;
-    height: inherit;
-    position: relative;
-    overflow: hidden;
-    .clouds {
-      position: absolute;
-      width: 100%;
-      height: 100vh;
-      display: block;
-      z-index: 100;
-      &.clouds1 {
-        background: url('../img/clouds-new2.png') repeat-x;
-        background-size: 2000px 600px;
-        opacity: 0.7;
-        top: 20vh;
-        left: 0;
-        animation: cloudMotion 70s linear infinite;
-        @media #{$break-lg} {
-          animation: cloudMotion 30s linear infinite;
-        }
-      }
-      &.clouds2 {
-        background: url('../img/clouds-new2.png') repeat-x;
-        background-size: 900px 300px;
-        top: 70vh;
-        left: 0;
-        opacity: 0.7;
-        animation: cloudMotion 70s linear infinite;
-         @media #{$break-lg} {
-          animation: cloudMotion 30s linear infinite;
-        }
-      }
-    }
-  }
-  .image-bg {
-    position: absolute;
-    //background: linear-gradient(to bottom,rgba(21, 134, 156, 1.0), rgba(243, 253, 255, 0.0));
-    background-size: 100% auto;
-    background-position: center bottom;
-    width: 100%;
-    height: 100%;
-    z-index: 200;
-    bottom: 0;
-    .main-cta-wrap {
-      height:100%;
-      position: relative;
-    }
 
-    .main-cta {
-      @include vertical-align;
-      position: absolute;
-      width: 100%;
-      height: auto;
-      color: #fff;
-      text-transform: uppercase;
-      text-align: center;
-      img {
-        width: 25vw;
-        max-width: 150px;
-        height: auto;
-        margin: 0 auto;
-        margin-bottom: 6vh;
-      }
-      p {
-        font-size: 18px;
-        letter-spacing: 6px;
-        width: 70vw;
-        margin: 0 auto;
-        max-width: 500px;
-        @media #{$break-sm} {
-          font-size: 16px;
-        }
-      }
-      h1,h2,h3 {
-        margin-bottom: 6vh;
-        text-shadow: 0px 2px 3px #6C6A6A;
-      }
-      h1 {
-        font-weight: 600;
-        font-size: 4.5vw;
-        letter-spacing: .4em;
-        line-height: 5vw;
-        @media #{$break-xl} {
-          font-size: 3vw;
-          line-height: 4vw;
-        }
-        @media #{$break-sm} {
-          font-size: 6vw;
-          line-height: 8vw;
-        }
-
-      }
-      h3 {
-        font-size: 3.5vw;
-         @media #{$break-xl} {
-          font-size: 2vw;
-        }
-        @media #{$break-sm} {
-          font-size: 4vw;
-        }
-
-      }
-    }
+  .carousel-control {
+    z-index: 2;
   }
 }
 
-#hero-slider {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  .hero-slide {
+.item:nth-child(1) {
+  background: url(../img/hero-images/hero1.jpg) no-repeat;
+  background-size:cover;
+}
+
+.item:nth-child(2) {
+  background: #51BCE8;
+}
+
+.item:nth-child(3) {
+  background: #E46653;
+}
+
+.item:nth-child(4) {
+  background: $red;
+}
+
+.carousel-indicators li {
+  width:initial;
+  height: initial;
+  text-indent:initial;
+  border:none;
+  border-radius:none;
+  background-color: transparent;
+  cursor:pointer;
+  width: 25vw;
+  &.active {
+    background-color:transparent;
+  }
+}
+.grad {
+  position:absolute;
+  bottom:0;
+  left:0;
+  height:80vh;
+  width: 100vw;
+  z-index:99;
+  display: block;
+  background: rgba(16,25,32,1.0); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgba(255,0,0,0), rgba(16,25,32,1.0), rgba(16,25,32,1.0)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(255,0,0,0), rgba(16,25,32,1.0)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(255,0,0,0), rgba(16,25,32,1.0)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(255,0,0,0), rgba(16,25,32,1.0)); /* Standard syntax */
+  .slide-bullets {
     position: absolute;
-    width:100%;
-    height: 100%;
-    display: block;
-    &.one {
-      background: $red;
-    }
-    &.two {
-      background: $blue;
-    }
-    &.three {
-      background: $yellow;
+    bottom: 0;
+    list-style-type: none !important;
+    width: 100vw;
+    left: 0;
+    padding:0px;
+    margin-left:0px;
+    display:flex;
+    .slide-bullet {
+      position: relative;
+      color: #fff;
+      z-index: 100;
+      display: inline-block;
+      text-align:center;
+      text-transform:uppercase;
+      font-size:14px;
+      .bullet {
+        width: 35px;
+        height: 35px;
+        background: url(../img/ui/bullet.png) no-repeat;
+        background-size: contain;
+        display: block;
+        margin: 0 auto;
+        transition: all .3s ease-in-out;
+      }
+      &.active{
+        .bullet {
+          background: url(../img/ui/bullet-filled.png) no-repeat;
+          background-size: contain;
+        }
+      }
     }
   }
 }

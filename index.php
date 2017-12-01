@@ -12,14 +12,35 @@
 <div id="mainwrapper">
   <!--hero-->
   <div id="carousel" class="hero carousel slide carousel-fade" data-ride="carousel">
-      <ol class="carousel-indicators">
-          <li data-target="#carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel" data-slide-to="1"></li>
-          <li data-target="#carousel" data-slide-to="2"></li>
-      </ol>
+      <div class="grad">
+        <ul class="carousel-indicators slide-bullets">
+            <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
+              <span class="bullet"></span>
+              <span>Field Day</span>
+            </li>
+            <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
+              <span class="bullet"></span>
+              <span>Field Day</span>
+            </li>
+            <li class="slide-bullet" data-target="#carousel" data-slide-to="2">
+              <span class="bullet"></span>
+              <span>Field Day</span>
+            </li>
+            <li class="slide-bullet" data-target="#carousel" data-slide-to="3">
+              <span class="bullet"></span>
+              <span>Field Day</span>
+            </li>
+        </ul>
+      </div>
       <!-- Carousel items -->
       <div class="carousel-inner">
-          <div class="active item"></div>
+          <div class="active item">
+            <div class="item-info">
+              <h1 class="main-mark">Field Day</h1>
+              <p class="corrected">Build innovative apps & games to help people explore your work</p>
+            </div>
+          </div>
+          <div class="item"></div>
           <div class="item"></div>
           <div class="item"></div>
       </div>
@@ -179,7 +200,6 @@
 
 <!--include modals-->
 <?php include 'includes/modals.php';?>
-
 
 <!--template js-->
 <script>
