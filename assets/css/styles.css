@@ -8895,7 +8895,7 @@ section {
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-        width: 50vw;
+        width: 60vw;
         margin-top: 0vw; } }
     @media only screen and (max-width: 768px) {
       .our_process .intro .intro-content {
@@ -9434,6 +9434,10 @@ hr {
       .exhaustwrap .exhaust.two.late {
         animation: burn 4s ease-in-out infinite;
         animation-delay: -2s; }
+
+.ourstuff {
+  background: #fff;
+  padding: 10vw; }
 
 /* Footer
 ------------------------------------------ */

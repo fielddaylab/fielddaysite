@@ -38,6 +38,7 @@
             <div class="item-info">
               <h1 class="main-mark">Field Day</h1>
               <p class="corrected">Build innovative apps & games to help people explore your work</p>
+              <a href="#" class="button white xsmall">Learn More</a>
             </div>
           </div>
           <div class="item"></div>
@@ -61,7 +62,7 @@
       <div class="intro-content">
         <img class="bg1trigger reveal float" src="assets/img/illustrations/astronaut1.png" class="astronaut">
         <h2 class="light">We are Field Day</h2>
-        <p class="corrected plainreveal big light">"What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We make games and apps to help foster that wonder. Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. " </p>
+        <p class="corrected plainreveal big light">What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We make games and apps to help foster that wonder. Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>
       </div>
       <div class="starfield topright">
         <span class="star star1"></span>
@@ -120,6 +121,25 @@
         <p>Are you a teacher looking to transform your classroom and build wonder and curiosity with your students?</p>
         <a class="button black" href="#">Use our stuff</a>
       </div>
+    </div>
+  </section>
+  <section class="ourstuff">
+    <div class="starfield topright">
+      <span class="star black star1"></span>
+      <span class="star black star2"></span>
+      <span class="star black star3"></span>
+      <span class="star black star4"></span>
+      <span class="star black star5"></span>
+    </div>
+    <div class="starfield topleft">
+      <span class="star black star1"></span>
+      <span class="star black star2"></span>
+      <span class="star black star3"></span>
+      <span class="star black star4"></span>
+      <span class="star black star5"></span>
+    </div>
+    <div class="container large">
+      <h2 class="header">What we Make</h2>
     </div>
   </section>
   <section class="blogs">

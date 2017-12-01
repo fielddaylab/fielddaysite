@@ -2,12 +2,12 @@
 <script src="assets/js/vendor/jquery-3.0.0.min.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script src='assets/js/vendor/fastclick.js'></script>
+<script src='assets/js/vender/gridder.js'></script>
 <script src='assets/js/vendor/buddysystem.jquery.js'></script>
 <script src='assets/js/vendor/scrollreveal.min.js'></script>
 <script src='assets/js/vendor/isscrolledintoview.js'></script>
 <script src='/assets/js/vendor/glide.min.js'></script>
 <script src='assets/js/app.js'></script>
-
 <section id="footer">
   <div class="starfield topright">
     <span class="star black star1"></span>
