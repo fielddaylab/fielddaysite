@@ -27,7 +27,7 @@ a {
   }
 }
 
-p, a, li {
+p, a, li{
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   letter-spacing: 2.3px;
@@ -74,3 +74,11 @@ p, a, li {
   }
 }
 
+.bright {
+  color:#fff;
+}
+.breath {
+  margin:15vw;
+  display:block;
+  text-align: center;
+}

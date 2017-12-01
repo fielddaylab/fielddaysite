@@ -9,7 +9,7 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 2px;
-  color: $dark_gray;
+  background-color: #fff;
   overflow-x:auto;
   &.nav-open {
     overflow: hidden;

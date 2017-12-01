@@ -96,6 +96,32 @@
         </div>
     </div>
   </section>
+  <section class="workit">
+    <div class="spaceplane-wrap">
+      <h2 class="light bright">We are Field Day</h2>
+      <img class="spaceplane-illustration" src="assets/img/illustrations/spaceplane-vertical.png">
+      <div class="exhaustwrap">
+        <img class="exhaust one" src="assets/img/illustrations/exhaust.png">
+        <img class="exhaust two" src="assets/img/illustrations/exhaust2.png">
+      </div>
+      <div class="exhaustwrap two">
+        <img class="exhaust one late" src="assets/img/illustrations/exhaust.png">
+        <img class="exhaust two late" src="assets/img/illustrations/exhaust2.png">
+      </div>
+    </div>
+    <div class="workit-content">
+      <div class="cta-card one">
+        <h3>Teach with apps and games</h3>
+        <p>Are you a teacher looking to transform your classroom and build wonder and curiosity with your students?</p>
+        <a class="button black" href="#">Use our stuff</a>
+      </div>
+      <div class="cta-card two">
+        <h3>Teach with apps and games</h3>
+        <p>Are you a teacher looking to transform your classroom and build wonder and curiosity with your students?</p>
+        <a class="button black" href="#">Use our stuff</a>
+      </div>
+    </div>
+  </section>
   <section class="blogs">
     <div class="row container large">
     <div class="starfield topright">
