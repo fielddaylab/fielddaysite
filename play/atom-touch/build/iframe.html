@@ -37,7 +37,7 @@
       var w_max = 800;
       var w = 0;
       var w_target = 0;
-      var h = 10;
+      var h = 20;
       var x = 880/2-w_max/2;
       var y = 660/2-h/2;
       var loading_div = document.createElement('div');
@@ -47,6 +47,8 @@
       loading_div.style.width = w+"px";
       loading_div.style.height = h+"px";
       loading_div.style.backgroundColor = "black";
+      loading_div.style.color = "white";
+      loading_div.innerHTML = "&nbsp;loading...";
       var first = true;
       var last = false;
       var running = true;
@@ -61,7 +63,7 @@
             if(p >= 1 && !last)
             {
               last = true;
-              setTimeout(function(){ running = false; document.getElementById("gameContainer").removeChild(loading_div);},4000);
+              setTimeout(function(){ running = false; document.getElementById("gameContainer").removeChild(loading_div);},3500);
             }
           }
         }
@@ -70,7 +72,7 @@
       approachTarget = function()
       {
         if(!running) return;
-        w = w+(0.1*(w_target-w));
+        w = w+(0.05*(w_target-w));
         loading_div.style.width = w+"px";
         setTimeout(approachTarget,10);
       }
