@@ -15,7 +15,7 @@
   background: linear-gradient(to bottom, rgba(31, 46, 59, 1.0) 0%, rgba(0, 0, 0, 1.0) 100%);
   opacity: 1;
   &.one {
-    background: linear-gradient(to bottom, rgba(31, 46, 59, 1.0) 0%, rgba(0, 0, 0, 1.0) 100%);    background-attachment: fixed;
+    background: #101920;
     &.bg1active {
       opacity: 1;
     }
@@ -47,29 +47,30 @@
 }
 
 .spacedust {
-  width: 300px;
-  height: 214px;
-  background: url(../img/illustrations/spacedust.png) no-repeat;
-  background-size: 600px 214px;
+  width: 512px;
+  height: 189px;
+  background: url(../img/illustrations/nebula.png) no-repeat;
+  background-size: 580px 189px;
   position: absolute;
   display: block;
   right:-150px;
   top: 10vh;
-  opacity: 0.2;
+  opacity: 1;
   @media #{$break-sm} {
     width: 150px;
     height: 107px;
     background-size: 300px 107px;
   }
   &.one {
-    left: 0; top: 50vh;
+    left: -230px;
+    top: 75vh;
     background-position: right center;
     @media #{$break-sm} {
-      top: 15vh;
+      top: 45vh;
     }
   }
   &.two {
-    right: 0;
+    right: -200px;
     top: 10vh;
   }
 }
@@ -203,7 +204,7 @@
   background-attachment:fixed;
   .intro {
     .intro-content {
-      width: 70vw;
+      width: 80vw;
       height: auto;
       text-align: center;
       margin: 0 auto;
@@ -211,7 +212,7 @@
       margin-top: 10vw;
       @media #{$break-lg} {
         @include vertical-align;
-        width: 30vw;
+        width: 50vw;
         margin-top: 0vw;
       }
       @media #{$break-sm} {
@@ -491,4 +492,3 @@ hr {
     opacity: 0.0;
   }
 }
-

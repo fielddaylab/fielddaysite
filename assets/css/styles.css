@@ -8109,11 +8109,6 @@ p, a, li {
       font-size: 12px;
       color: #11141B;
       cursor: pointer; }
-      @media only screen and (max-width: 1024px) {
-        .small-nav ul li a {
-          font-size: 12px;
-          letter-spacing: 2px;
-          line-height: 35px; } }
       .small-nav ul li a:hover {
         color: #AA8820;
         text-decoration: none; }
@@ -8614,7 +8609,6 @@ section {
   min-height: 40vw;
   z-index: 200;
   position: relative;
-  background: url("../img/space-bg.jpg") no-repeat;
   background-size: cover;
   background-position: bottom; }
   @media only screen and (max-width: 768px) {
@@ -8727,6 +8721,22 @@ section {
           .hero .image-bg .main-cta h3 {
             font-size: 4vw; } }
 
+#hero-slider {
+  position: relative;
+  width: 100%;
+  height: 100vh; }
+  #hero-slider .hero-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block; }
+    #hero-slider .hero-slide.one {
+      background: #DD1C1A; }
+    #hero-slider .hero-slide.two {
+      background: #06AED5; }
+    #hero-slider .hero-slide.three {
+      background: #E0BC4E; }
+
 .row {
   margin-left: 0px;
   margin-right: 0px; }
@@ -8743,8 +8753,7 @@ section {
   background: linear-gradient(to bottom, #1f2e3b 0%, black 100%);
   opacity: 1; }
   .processbg.one {
-    background: linear-gradient(to bottom, #1f2e3b 0%, black 100%);
-    background-attachment: fixed; }
+    background: #101920; }
     .processbg.one.bg1active {
       opacity: 1; }
   .processbg.two {
@@ -8766,29 +8775,29 @@ section {
       opacity: 1; }
 
 .spacedust {
-  width: 300px;
-  height: 214px;
-  background: url(../img/illustrations/spacedust.png) no-repeat;
-  background-size: 600px 214px;
+  width: 512px;
+  height: 189px;
+  background: url(../img/illustrations/nebula.png) no-repeat;
+  background-size: 580px 189px;
   position: absolute;
   display: block;
   right: -150px;
   top: 10vh;
-  opacity: 0.2; }
+  opacity: 1; }
   @media only screen and (max-width: 768px) {
     .spacedust {
       width: 150px;
       height: 107px;
       background-size: 300px 107px; } }
   .spacedust.one {
-    left: 0;
-    top: 50vh;
+    left: -230px;
+    top: 75vh;
     background-position: right center; }
     @media only screen and (max-width: 768px) {
       .spacedust.one {
-        top: 15vh; } }
+        top: 45vh; } }
   .spacedust.two {
-    right: 0;
+    right: -200px;
     top: 10vh; }
 
 .starfield {
@@ -8893,7 +8902,7 @@ section {
 .our_process {
   background-attachment: fixed; }
   .our_process .intro .intro-content {
-    width: 70vw;
+    width: 80vw;
     height: auto;
     text-align: center;
     margin: 0 auto;
@@ -8906,7 +8915,7 @@ section {
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-        width: 30vw;
+        width: 50vw;
         margin-top: 0vw; } }
     @media only screen and (max-width: 768px) {
       .our_process .intro .intro-content {
@@ -9395,6 +9404,42 @@ hr {
     margin: 5px; }
     .singleapp .glide__bullet.active {
       background-color: #efefef; }
+
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+  height: inherit;
+  width: inherit; }
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+  width: 100%;
+  height: 100vh; }
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0); }
+
+.carousel-fade .carousel-control {
+  z-index: 2; }
+
+.item:nth-child(1) {
+  background: #74C390; }
+
+.item:nth-child(2) {
+  background: #51BCE8; }
+
+.item:nth-child(3) {
+  background: #E46653; }
 
 /* Footer
 ------------------------------------------ */
