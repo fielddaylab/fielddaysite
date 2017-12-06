@@ -39,14 +39,20 @@
         color: #fff;
         z-index:1000;
         position:relative;
+        width: 45vw;
+        margin: 0 auto;
+        h2 {
+          margin-bottom: 10px;
+        }
       }
       .main-mark {
         background: url('../img/fd-logo-white.png') no-repeat;
-        width: 30vw;
+        width: 25vw;
         margin: 0 auto;
         height: 6vw;
         text-indent: -9999px;
-        background-size: 30vw auto;
+        background-size: 25vw auto;
+        margin-bottom: 10px;
         @media #{$break-sm} {
           width: 50vw;
           max-width: 250px;
@@ -67,7 +73,8 @@
     }
 
     .item:nth-child(3) {
-      background: #E46653;
+      background: url(../img/hero-images/hero3.jpg) no-repeat;
+      background-size:cover;
     }
 
     .item:nth-child(4) {
@@ -119,7 +126,6 @@
   position:absolute;
   bottom:0;
   left:0;
-  height:80vh;
   width: 100vw;
   z-index:99;
   display: block;

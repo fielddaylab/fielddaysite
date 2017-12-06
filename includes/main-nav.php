@@ -1,4 +1,4 @@
-<nav class="small-nav">
+<nav class="small-nav nav-fixed">
   <ul>
     <li class="logo"><img class="darklogo" src="assets/img/logos/fd.png"></li>
     <li class="small-navlink"><a class="drawerleft-toggle">Make</a></li>

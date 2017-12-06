@@ -11,10 +11,10 @@ $(window).scroll(function() {
     bd.removeClass('drawerleft-open');
     bd.removeClass('drawerright-open');
     bd.removeClass('drawertop-open');
-  } else {
+  } /*else {
     mn.removeClass(mns);
     bd.removeClass(mns);
-  }
+  }*/
 });
 
 // smooth scroll

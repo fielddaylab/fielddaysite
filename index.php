@@ -1,7 +1,7 @@
 <?php include 'includes/header.php';?>
 <title>Field Day Lab</title>
 </head>
-<body>
+<body class="nav-fixed">
 
 <!--include main navigation-->
 <?php include 'includes/main-nav.php';?>
@@ -20,11 +20,11 @@
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
               <span class="bullet"></span>
-              <span>Field Day</span>
+              <span>Discover Ice Cube</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="2">
               <span class="bullet"></span>
-              <span>Field Day</span>
+              <span>Teacher Fellowships</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="3">
               <span class="bullet"></span>
@@ -38,14 +38,26 @@
             <span class="grad"></span>
             <div class="item-info">
               <h1 class="main-mark">Field Day</h1>
-              <p class="corrected">Build innovative apps & games to help people explore your work</p>
+              <p class="corrected">Build innovative apps & games to help people explore your work.</p>
               <a href="#" class="button white xsmall">Learn More</a>
             </div>
           </div>
           <div class="item">
             <span class="grad"></span>
+            <div class="item-info">
+              <h2 class="uppercase">discover Ice Cube</h2>
+              <p class="corrected">Follow a neutrino through interstellar space and learn how the most remote lab in the world learns about black holes.</p>
+              <a href="#" class="button white xsmall">Learn More</a>
+            </div>
           </div>
-          <div class="item"></div>
+          <div class="item">
+            <span class="grad"></span>
+            <div class="item-info">
+              <h2 class="uppercase">Teacher Fellowships Now Open</h2>
+              <p class="corrected">Professionall development doesn’t have to be like chewing on sand. plus you get to make games for kids.</p>
+              <a href="#" class="button white xsmall">Discover Teacher Fellowships</a>
+            </div>
+          </div>
           <div class="item"></div>
       </div>
       <!-- Carousel nav -->
@@ -121,9 +133,9 @@
           <a class="button black" href="#">Use our stuff</a>
         </div>
         <div class="cta-card two">
-          <h3>Teach with apps and games</h3>
-          <p class="small">Are you a teacher looking to transform your classroom and build wonder and curiosity with your students?</p>
-          <a class="button black" href="#">Use our stuff</a>
+          <h3>Make Something awesome with us</h3>
+          <p class="small">Are you a researcher with an idea that will help people? Let’s build something that makes the world better.</p>
+          <a class="button black" href="#">Work with Us</a>
         </div>
       </div>
     </div>
@@ -226,7 +238,7 @@
         <img src="assets/img/partners/harvard.png">
         <img src="assets/img/partners/harvard.png">
         <img src="assets/img/partners/harvard.png">
-        
+
       </div>
   </div>
   </section>

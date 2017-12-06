@@ -178,10 +178,15 @@
     img {
       -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
       filter: grayscale(100%);
-      width: 15vw;
+      width: 20vw;
       height: auto;
       display: inline-block;
-      padding: 2vw;
+      padding: 4vw;
+      transition: all .3s ease-in-out;
+      &:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+      }
     }
   }
   .header-icon {
