@@ -528,9 +528,9 @@
   -webkit-transition-timing-function: swing;
   transition-timing-function: swing;
   z-index: 500;
-  @media #{$break-md} {
+  @media #{$break-sm} {
     display: block;
-    top: 4px;
+    top: 0px;
   }
   &:before {
     width: 60px;

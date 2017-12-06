@@ -16,19 +16,19 @@
         <ul class="carousel-indicators slide-bullets">
             <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
               <span class="bullet"></span>
-              <span>Field Day</span>
+              <span class="bullet-caption">Field Day</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
               <span class="bullet"></span>
-              <span>Discover Ice Cube</span>
+              <span class="bullet-caption">Discover Ice Cube</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="2">
               <span class="bullet"></span>
-              <span>Teacher Fellowships</span>
+              <span class="bullet-caption">Teacher Fellowships</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="3">
               <span class="bullet"></span>
-              <span>Field Day</span>
+              <span class="bullet-caption">Field Day</span>
             </li>
         </ul>
       </div>

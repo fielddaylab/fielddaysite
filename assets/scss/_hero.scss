@@ -44,6 +44,9 @@
         h2 {
           margin-bottom: 10px;
         }
+        @media #{$break-sm} {
+          width:70vw;
+        }
       }
       .main-mark {
         background: url('../img/fd-logo-white.png') no-repeat;
@@ -53,11 +56,10 @@
         text-indent: -9999px;
         background-size: 25vw auto;
         margin-bottom: 10px;
-        @media #{$break-sm} {
-          width: 50vw;
-          max-width: 250px;
+        @media #{$break-xs} {
+          width: 35vw;
+          background-size: 35vw auto;
           height: 10vw;
-          background-size: 50vw auto;
         }
       }
     }
@@ -65,16 +67,19 @@
     .item:nth-child(1) {
       background: url(../img/hero-images/hero1.jpg) no-repeat;
       background-size:cover;
+      background-position:center;
     }
 
     .item:nth-child(2) {
       background: url(../img/hero-images/hero2.jpg) no-repeat;
       background-size:cover;
+      background-position:center;
     }
 
     .item:nth-child(3) {
       background: url(../img/hero-images/hero3.jpg) no-repeat;
       background-size:cover;
+      background-position:center;
     }
 
     .item:nth-child(4) {
@@ -130,7 +135,6 @@
   z-index:99;
   display: block;
   .slide-bullets {
-    position: absolute;
     bottom: 0;
     list-style-type: none !important;
     width: 100vw;
@@ -138,6 +142,11 @@
     padding:0px;
     margin-left:0px;
     display:flex;
+    @media #{$break-sm-xs} {
+      width: 60vw;
+      margin: 0 auto;
+      position:relative;
+    }
     .slide-bullet {
       position: relative;
       color: #fff;
@@ -154,6 +163,15 @@
         display: block;
         margin: 0 auto;
         transition: all .3s ease-in-out;
+        @media #{$break-sm-xs} {
+          width: 20px;
+          height:20px;
+        }
+      }
+      .bullet-caption{
+        @media #{$break-sm-xs} {
+          display:none;
+        }
       }
       &.active{
         .bullet {

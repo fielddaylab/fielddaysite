@@ -8248,10 +8248,10 @@ p, a, li {
   -webkit-transition-timing-function: swing;
   transition-timing-function: swing;
   z-index: 500; }
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 768px) {
     .mobile-nav-toggle-wrap {
       display: block;
-      top: 4px; } }
+      top: 0px; } }
   .mobile-nav-toggle-wrap:before {
     width: 60px;
     height: 60px;
@@ -8638,6 +8638,9 @@ section {
     margin: 0 auto; }
     .hero-slider .carousel-inner .item .item-info h2 {
       margin-bottom: 10px; }
+    @media only screen and (max-width: 768px) {
+      .hero-slider .carousel-inner .item .item-info {
+        width: 70vw; } }
   .hero-slider .carousel-inner .item .main-mark {
     background: url("../img/fd-logo-white.png") no-repeat;
     width: 25vw;
@@ -8646,24 +8649,26 @@ section {
     text-indent: -9999px;
     background-size: 25vw auto;
     margin-bottom: 10px; }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-device-width: 400px), only screen and (max-width: 400px) {
       .hero-slider .carousel-inner .item .main-mark {
-        width: 50vw;
-        max-width: 250px;
-        height: 10vw;
-        background-size: 50vw auto; } }
+        width: 35vw;
+        background-size: 35vw auto;
+        height: 10vw; } }
 
 .hero-slider .carousel-inner .item:nth-child(1) {
   background: url(../img/hero-images/hero1.jpg) no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 .hero-slider .carousel-inner .item:nth-child(2) {
   background: url(../img/hero-images/hero2.jpg) no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 .hero-slider .carousel-inner .item:nth-child(3) {
   background: url(../img/hero-images/hero3.jpg) no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 .hero-slider .carousel-inner .item:nth-child(4) {
   background: #DD1C1A; }
@@ -8710,7 +8715,6 @@ section {
   z-index: 99;
   display: block; }
   .slide-wrap .slide-bullets {
-    position: absolute;
     bottom: 0;
     list-style-type: none !important;
     width: 100vw;
@@ -8718,6 +8722,11 @@ section {
     padding: 0px;
     margin-left: 0px;
     display: flex; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .slide-wrap .slide-bullets {
+        width: 60vw;
+        margin: 0 auto;
+        position: relative; } }
     .slide-wrap .slide-bullets .slide-bullet {
       position: relative;
       color: #fff;
@@ -8734,6 +8743,13 @@ section {
         display: block;
         margin: 0 auto;
         transition: all .3s ease-in-out; }
+        @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+          .slide-wrap .slide-bullets .slide-bullet .bullet {
+            width: 20px;
+            height: 20px; } }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .slide-wrap .slide-bullets .slide-bullet .bullet-caption {
+          display: none; } }
       .slide-wrap .slide-bullets .slide-bullet.active .bullet {
         background: url(../img/ui/bullet-filled.png) no-repeat;
         background-size: contain; }
@@ -8909,6 +8925,8 @@ section {
     margin: 0 auto;
     z-index: 5;
     margin-top: 10vw; }
+    .our_process .intro .intro-content p {
+      text-align: left; }
     @media only screen and (min-width: 1025px) {
       .our_process .intro .intro-content {
         position: relative;
@@ -8920,7 +8938,8 @@ section {
         margin-top: 0vw; } }
     @media only screen and (max-width: 768px) {
       .our_process .intro .intro-content {
-        padding: 10vw; } }
+        padding: 10vw;
+        width: 90vw; } }
     .our_process .intro .intro-content img {
       width: 130px;
       height: auto;
@@ -9110,6 +9129,9 @@ section {
         .our_process .process.process3 .astronaut {
           width: 20vw;
           z-index: 100; } }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .our_process .process.process3 .astronaut {
+          width: 15vw; } }
       .our_process .process.process3 .astronaut.one {
         left: 10%;
         top: 10%; }
