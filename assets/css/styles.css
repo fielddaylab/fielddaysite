@@ -7528,7 +7528,7 @@ button.close {
   color: #086788; }
 
 .blue-black {
-  color: #202E3C; }
+  color: #1D2B37; }
 
 .creme {
   color: #F6F6F3; }
@@ -7537,7 +7537,7 @@ button.close {
   color: #E0BC4E; }
 
 .dark-yellow {
-  color: #AA8820; }
+  color: #D6A718; }
 
 .ultralight-gray {
   color: #f5f5f5; }
@@ -7749,7 +7749,7 @@ a {
   color: #E0BC4E; }
   a:hover {
     text-decoration: none;
-    color: #AA8820; }
+    color: #D6A718; }
 
 p, a, li {
   font-family: 'Roboto', sans-serif;
@@ -8098,7 +8098,7 @@ p, a, li {
       color: #11141B;
       cursor: pointer; }
       .small-nav ul li a:hover {
-        color: #AA8820;
+        color: #D6A718;
         text-decoration: none; }
   .small-nav .workwithus {
     float: right;
@@ -8203,7 +8203,7 @@ p, a, li {
   position: fixed;
   top: 0;
   height: 100%;
-  background-color: #AA8820;
+  background-color: #D6A718;
   color: white;
   padding: 20px;
   width: 100%;
@@ -8607,6 +8607,23 @@ section {
   transition-property: opacity;
   height: inherit;
   width: inherit; }
+  .hero-slider .carousel-inner .item .grad {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 80vh;
+    width: 100vw;
+    display: block;
+    background: #101920;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(255, 0, 0, 0), #101920, #101920);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(255, 0, 0, 0), #101920);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(255, 0, 0, 0), #101920);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(255, 0, 0, 0), #101920);
+    /* Standard syntax */ }
   .hero-slider .carousel-inner .item .item-info {
     position: relative;
     top: 50%;
@@ -8632,11 +8649,11 @@ section {
         background-size: 50vw auto; } }
 
 .hero-slider .carousel-inner .item:nth-child(1) {
-  background: url(../img/hero-images/hero2.jpg) no-repeat;
+  background: url(../img/hero-images/hero1.jpg) no-repeat;
   background-size: cover; }
 
 .hero-slider .carousel-inner .item:nth-child(2) {
-  background: url(../img/hero-images/hero1.jpg) no-repeat;
+  background: url(../img/hero-images/hero2.jpg) no-repeat;
   background-size: cover; }
 
 .hero-slider .carousel-inner .item:nth-child(3) {
@@ -8679,25 +8696,15 @@ section {
   .slide-bullets li.active {
     background-color: transparent; }
 
-.grad {
+.slide-wrap {
   position: absolute;
   bottom: 0;
   left: 0;
   height: 80vh;
   width: 100vw;
   z-index: 99;
-  display: block;
-  background: #101920;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(rgba(255, 0, 0, 0), #101920, #101920);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(rgba(255, 0, 0, 0), #101920);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(rgba(255, 0, 0, 0), #101920);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgba(255, 0, 0, 0), #101920);
-  /* Standard syntax */ }
-  .grad .slide-bullets {
+  display: block; }
+  .slide-wrap .slide-bullets {
     position: absolute;
     bottom: 0;
     list-style-type: none !important;
@@ -8706,7 +8713,7 @@ section {
     padding: 0px;
     margin-left: 0px;
     display: flex; }
-    .grad .slide-bullets .slide-bullet {
+    .slide-wrap .slide-bullets .slide-bullet {
       position: relative;
       color: #fff;
       z-index: 100;
@@ -8714,7 +8721,7 @@ section {
       text-align: center;
       text-transform: uppercase;
       font-size: 14px; }
-      .grad .slide-bullets .slide-bullet .bullet {
+      .slide-wrap .slide-bullets .slide-bullet .bullet {
         width: 35px;
         height: 35px;
         background: url(../img/ui/bullet.png) no-repeat;
@@ -8722,7 +8729,7 @@ section {
         display: block;
         margin: 0 auto;
         transition: all .3s ease-in-out; }
-      .grad .slide-bullets .slide-bullet.active .bullet {
+      .slide-wrap .slide-bullets .slide-bullet.active .bullet {
         background: url(../img/ui/bullet-filled.png) no-repeat;
         background-size: contain; }
 
@@ -9408,10 +9415,16 @@ hr {
     .workit .workit-content .cta-card {
       background: #fff;
       width: 30vw;
-      padding: 5vw;
+      padding: 4vw;
       margin: 10vw;
       box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.16);
       z-index: 75; }
+      .workit .workit-content .cta-card h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        font-size: 30px; }
+      .workit .workit-content .cta-card p {
+        margin-bottom: 20px; }
   .workit .spaceplane-wrap {
     position: absolute;
     width: 100vw;
@@ -9511,6 +9524,58 @@ hr {
       .exhaustwrap .exhaust.two.late {
         animation: burn 4s ease-in-out infinite;
         animation-delay: -2s; }
+
+.stayupdated {
+  background: #D6A718; }
+  .stayupdated .container {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    color: #fff; }
+    .stayupdated .container p {
+      margin-bottom: 20px; }
+    .stayupdated .container > * {
+      width: 50%; }
+    .stayupdated .container .astro-flag img {
+      width: 200px;
+      height: auto; }
+
+.partners {
+  text-align: center;
+  background: #fff; }
+  .partners .partner-logos img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    width: 15vw;
+    height: auto;
+    display: inline-block;
+    padding: 2vw; }
+  .partners .header-icon {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto; }
+
+.workwithus {
+  background: #101920; }
+  .workwithus .maincta {
+    text-align: center;
+    width: 40vw;
+    padding: 5vw;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+    margin: 0 auto; }
+    .workwithus .maincta p {
+      margin-bottom: 30px; }
+    @media only screen and (max-width: 768px) {
+      .workwithus .maincta {
+        width: initial; } }
+    .workwithus .maincta img {
+      width: 30%;
+      height: auto;
+      margin-bottom: 20px; }
 
 .ourstuff {
   background: #fff;

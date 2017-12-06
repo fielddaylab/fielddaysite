@@ -12,7 +12,7 @@
 <div id="mainwrapper">
   <!--hero-->
   <div id="carousel" class="hero carousel slide carousel-fade hero-slider " data-ride="carousel">
-      <div class="grad">
+      <div class="slide-wrap">
         <ul class="carousel-indicators slide-bullets">
             <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
               <span class="bullet"></span>
@@ -35,13 +35,16 @@
       <!-- Carousel items -->
       <div class="carousel-inner">
           <div class="active item">
+            <span class="grad"></span>
             <div class="item-info">
               <h1 class="main-mark">Field Day</h1>
               <p class="corrected">Build innovative apps & games to help people explore your work</p>
               <a href="#" class="button white xsmall">Learn More</a>
             </div>
           </div>
-          <div class="item"></div>
+          <div class="item">
+            <span class="grad"></span>
+          </div>
           <div class="item"></div>
           <div class="item"></div>
       </div>
@@ -61,7 +64,7 @@
       <span class="offscreen test one"></span>
       <div class="intro-content">
         <img class="bg1trigger reveal float" src="assets/img/illustrations/astronaut1.png" class="astronaut">
-        <h2 class="light">We are Field Day</h2>
+        <h2 class="light centered uppercase">We are Field Day</h2>
         <p class="corrected plainreveal big light">What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We make games and apps to help foster that wonder. Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>
       </div>
       <div class="starfield topright">
@@ -93,14 +96,14 @@
         <span class="star star5"></span>
       </div>
       <div class="hideforsmall plainreveal scrollindicator">
-          <a href="#process1" class="icon-scroll"></a>
+          <a href="#workit" class="icon-scroll"></a>
         </div>
     </div>
   </section>
-  <section class="workit">
+  <section id="workit" class="workit">
     <div class="section-container">
       <div class="content-wrap spaceplane-wrap">
-        <h2 class="light bright">We are Field Day</h2>
+        <h2 class="light bright centered uppercase">We never work alone</h2>
         <img class="spaceplane-illustration" src="assets/img/illustrations/spaceplane-vertical.png">
         <div class="exhaustwrap">
           <img class="exhaust one" src="assets/img/illustrations/exhaust.png">
@@ -114,12 +117,12 @@
       <div class="content-wrap workit-content">
         <div class="cta-card one">
           <h3>Teach with apps and games</h3>
-          <p>Are you a teacher looking to transform your classroom and build wonder and curiosity with your students?</p>
+          <p class="small">Are you a teacher looking to transform your classroom and build wonder and curiosity with your students?</p>
           <a class="button black" href="#">Use our stuff</a>
         </div>
         <div class="cta-card two">
           <h3>Teach with apps and games</h3>
-          <p>Are you a teacher looking to transform your classroom and build wonder and curiosity with your students?</p>
+          <p class="small">Are you a teacher looking to transform your classroom and build wonder and curiosity with your students?</p>
           <a class="button black" href="#">Use our stuff</a>
         </div>
       </div>
@@ -194,6 +197,45 @@
             </div>
         </div>
         <!-- Carousel nav -->
+    </div>
+  </section>
+  <section class="stayupdated">
+    <div class="container">
+      <div class="astro-flag">
+        <img src="assets/img/illustrations/astro-flag.png">
+      </div>
+      <div class="info">
+        <h3 class="white">Stay in Touch</h3>
+        <p class="small white">We are constantly making new things, and improving what we’ve already made. Want to stay ahead of the curve? Join us!</p>
+        <a href="Stay in Touch" class="button xsmall white">Stay in Touch</a>
+      </div>
+    </div>
+  </section>
+  <section class="partners">
+    <div class="container">
+      <img src="assets/img/illustrations/skylab-small.png" class="header-icon">
+      <h3 class="centered uppercase">Who we work with</h3>
+      <p class="small">We literally work with the most interesting people in the world. </p>
+      <div class="partner-logos">
+        <img src="assets/img/partners/harvard.png">
+        <img src="assets/img/partners/harvard.png">
+        <img src="assets/img/partners/harvard.png">
+        <img src="assets/img/partners/harvard.png">
+        <img src="assets/img/partners/harvard.png">
+        <img src="assets/img/partners/harvard.png">
+        <img src="assets/img/partners/harvard.png">
+        <img src="assets/img/partners/harvard.png">
+        <img src="assets/img/partners/harvard.png">
+        
+      </div>
+  </div>
+  </section>
+  <section class="workwithus">
+    <div id="maincta" class="maincta">
+      <img src="assets/img/illustrations/spaceplane-flight.png">
+      <h2 class="uppercase">Work with Us</h2>
+      <p>We work with scientists, researchers, teachers, artists, story tellers, and all-around rad people to make things together to impact our communities.  </p>
+      <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Field Day</button>
     </div>
   </section>
   <section class="blogs">

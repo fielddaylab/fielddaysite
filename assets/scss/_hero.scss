@@ -20,6 +20,19 @@
       transition-property: opacity;
       height: inherit;
       width: inherit;
+      .grad {
+        position:absolute;
+        bottom:0;
+        left:0;
+        height:80vh;
+        width: 100vw;
+        display: block;
+        background: rgba(16,25,32,1.0); /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(rgba(255,0,0,0), rgba(16,25,32,1.0), rgba(16,25,32,1.0)); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(rgba(255,0,0,0), rgba(16,25,32,1.0)); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(rgba(255,0,0,0), rgba(16,25,32,1.0)); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(rgba(255,0,0,0), rgba(16,25,32,1.0)); /* Standard syntax */
+      }
       .item-info {
         @include vertical-align;
         text-align: center;
@@ -44,12 +57,12 @@
     }
 
     .item:nth-child(1) {
-      background: url(../img/hero-images/hero2.jpg) no-repeat;
+      background: url(../img/hero-images/hero1.jpg) no-repeat;
       background-size:cover;
     }
 
     .item:nth-child(2) {
-      background: url(../img/hero-images/hero1.jpg) no-repeat;
+      background: url(../img/hero-images/hero2.jpg) no-repeat;
       background-size:cover;
     }
 
@@ -102,7 +115,7 @@
     background-color:transparent;
   }
 }
-.grad {
+.slide-wrap {
   position:absolute;
   bottom:0;
   left:0;
@@ -110,11 +123,6 @@
   width: 100vw;
   z-index:99;
   display: block;
-  background: rgba(16,25,32,1.0); /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(rgba(255,0,0,0), rgba(16,25,32,1.0), rgba(16,25,32,1.0)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(rgba(255,0,0,0), rgba(16,25,32,1.0)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(rgba(255,0,0,0), rgba(16,25,32,1.0)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgba(255,0,0,0), rgba(16,25,32,1.0)); /* Standard syntax */
   .slide-bullets {
     position: absolute;
     bottom: 0;

@@ -13,10 +13,18 @@
     .cta-card {
       background: #fff;
       width: 30vw;
-      padding: 5vw;
+      padding: 4vw;
       margin: 10vw;
       box-shadow:0 0 33px 0 rgba(0, 0, 0, 0.16);
       z-index:75;
+      h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        font-size: 30px;
+      }
+      p{
+        margin-bottom:20px;
+      }
     }
   }
   .spaceplane-wrap {
@@ -139,6 +147,71 @@
         animation: burn 4s ease-in-out infinite;
         animation-delay: -2s;
       }
+    }
+  }
+}
+
+.stayupdated {
+  background: $dark-yellow;
+  .container {
+    max-width:800px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    p {
+      margin-bottom: 20px;
+    }
+    >*{
+      width: 50%;
+    }
+    .astro-flag img {
+      width:200px;
+      height: auto;
+    }
+  }
+}
+
+.partners {
+  text-align: center;
+  background: #fff;
+  .partner-logos {
+    img {
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      width: 15vw;
+      height: auto;
+      display: inline-block;
+      padding: 2vw;
+    }
+  }
+  .header-icon {
+    width: 150px;
+    height: auto;
+    display:block;
+    margin:0 auto;
+  }
+}
+
+.workwithus {
+  background: #101920;
+  .maincta {
+    text-align: center;
+    width: 40vw;
+    padding: 5vw;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+    margin: 0 auto;
+    p {
+      margin-bottom: 30px;
+    }
+    @media #{$break-sm} {
+       width: initial;
+    }
+    img {
+      width: 30%;
+      height: auto;
+      margin-bottom: 20px;
     }
   }
 }
