@@ -57,7 +57,7 @@ p, a, li{
     }
   }
   &.small {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 29px;
     letter-spacing:2px;
     @media #{$break-md} {
@@ -74,6 +74,10 @@ p, a, li{
   }
 }
 
+.typewriter {
+  font-family: 'Courier', 'courier-new', serif;
+}
+
 .bright {
   color:#fff;
 }
@@ -81,4 +85,12 @@ p, a, li{
   margin:15vw;
   display:block;
   text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }

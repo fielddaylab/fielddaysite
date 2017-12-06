@@ -11,7 +11,7 @@
 
 <div id="mainwrapper">
   <!--hero-->
-  <div id="carousel" class="hero carousel slide carousel-fade" data-ride="carousel">
+  <div id="carousel" class="hero carousel slide carousel-fade hero-slider " data-ride="carousel">
       <div class="grad">
         <ul class="carousel-indicators slide-bullets">
             <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
@@ -98,28 +98,30 @@
     </div>
   </section>
   <section class="workit">
-    <div class="spaceplane-wrap">
-      <h2 class="light bright">We are Field Day</h2>
-      <img class="spaceplane-illustration" src="assets/img/illustrations/spaceplane-vertical.png">
-      <div class="exhaustwrap">
-        <img class="exhaust one" src="assets/img/illustrations/exhaust.png">
-        <img class="exhaust two" src="assets/img/illustrations/exhaust2.png">
+    <div class="section-container">
+      <div class="content-wrap spaceplane-wrap">
+        <h2 class="light bright">We are Field Day</h2>
+        <img class="spaceplane-illustration" src="assets/img/illustrations/spaceplane-vertical.png">
+        <div class="exhaustwrap">
+          <img class="exhaust one" src="assets/img/illustrations/exhaust.png">
+          <img class="exhaust two" src="assets/img/illustrations/exhaust2.png">
+        </div>
+        <div class="exhaustwrap two">
+          <img class="exhaust one late" src="assets/img/illustrations/exhaust.png">
+          <img class="exhaust two late" src="assets/img/illustrations/exhaust2.png">
+        </div>
       </div>
-      <div class="exhaustwrap two">
-        <img class="exhaust one late" src="assets/img/illustrations/exhaust.png">
-        <img class="exhaust two late" src="assets/img/illustrations/exhaust2.png">
-      </div>
-    </div>
-    <div class="workit-content">
-      <div class="cta-card one">
-        <h3>Teach with apps and games</h3>
-        <p>Are you a teacher looking to transform your classroom and build wonder and curiosity with your students?</p>
-        <a class="button black" href="#">Use our stuff</a>
-      </div>
-      <div class="cta-card two">
-        <h3>Teach with apps and games</h3>
-        <p>Are you a teacher looking to transform your classroom and build wonder and curiosity with your students?</p>
-        <a class="button black" href="#">Use our stuff</a>
+      <div class="content-wrap workit-content">
+        <div class="cta-card one">
+          <h3>Teach with apps and games</h3>
+          <p>Are you a teacher looking to transform your classroom and build wonder and curiosity with your students?</p>
+          <a class="button black" href="#">Use our stuff</a>
+        </div>
+        <div class="cta-card two">
+          <h3>Teach with apps and games</h3>
+          <p>Are you a teacher looking to transform your classroom and build wonder and curiosity with your students?</p>
+          <a class="button black" href="#">Use our stuff</a>
+        </div>
       </div>
     </div>
   </section>
@@ -138,8 +140,60 @@
       <span class="star black star4"></span>
       <span class="star black star5"></span>
     </div>
-    <div class="container large">
-      <h2 class="header">What we Make</h2>
+    <div class="container">
+      <h2 class="uppercase centered header">What we Make</h2>
+    </div>
+    <div id="ourwork" class="carousel slide carousel-fade" data-ride="carousel">
+        <ul class="carousel-indicators app-bullets">
+            <li class="app-bullet active" data-target="#ourwork" data-slide-to="0">
+              <span>Games</span>
+            </li>
+            <li class="app-bullet" data-target="#ourwork" data-slide-to="1">
+              <span>Coding</span>
+            </li>
+            <li class="app-bullet" data-target="#ourwork" data-slide-to="2">
+              <span>Citizen Science / Field Work</span>
+            </li>
+        </ul>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item">
+              <!-- Gridder navigation -->
+              <ul class="apps gridder">
+                <li class="gridder-list app-card" data-griddercontent="#app1">
+                  <img src="assets/img/logos/colored/yard-logo.png" class="app-logo">
+                  <span>The Yard</span>
+                </li>
+                <li class="gridder-list app-card" data-griddercontent="#app2">
+                  <img src="assets/img/logos/colored/atomTouch-logo.png" class="app-logo">
+                  <span>Atom Touch</span>
+                </li>
+                <li class="gridder-list app-card" data-griddercontent="#app3">
+                  <img class="app-logo">
+                  <span>The N Game</span>
+                </li>
+              </ul>
+              <!-- Gridder content -->
+              <div id="app1" class="app-expanded gridder-content">
+                <div class="app-info app-pane left">
+                  <span class="close-app">
+                    <h2>The Yard Games</h2>
+                    <p class="small">The Yard Games are 10-20 minute interactive science games for kids in grades 5-7 to explore, play, and experiment with science. Designed to make complicated systems easier to understand, the games are quick to set up and simple to play. They run on any browser. No complicated user accounts or setup required - just type in the URL theyardgames.org and start playing!</p>
+                    <a class="button black" href="http://theyardgames.org" target="_blank">Play the Yard Games</a>
+                </div>
+                <div class="app-thumbnail app-pane right">
+                  <img src="assets/img/thumbs/yard-thumb.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              slide 2
+            </div>
+            <div class="item">
+              slide 3
+            </div>
+        </div>
+        <!-- Carousel nav -->
     </div>
   </section>
   <section class="blogs">
@@ -250,8 +304,20 @@
 <!--template js-->
 <script>
 
-//hero slider
+//carousels
 $('.carousel').carousel();
+
+$('.ourwork').carousel({
+  interval: false,
+  ride: false,
+  wrap: false
+});
+
+
+// toggle more partner logos
+$('.partner-toggle').click(function(){
+  $('partners').toggleClass('open');
+});
 
 // homepage scripts & scroll reveal elements & animations
 var fastreveal = {
@@ -302,6 +368,31 @@ sr.reveal('.blogpostreveal', 90);
 sr.reveal('.processreveal', 30);
 sr.reveal('.dockreveal', skylabreveal, 200);
 sr.reveal('.exhaustreveal', 90, { viewFactor: 0.1 });
+
+$(function() {
+
+    // Call Gridder
+    $('.gridder').gridderExpander({
+        scroll: true,
+        scrollOffset: 100,
+        scrollTo: "panel",                  // panel or listitem
+        animationSpeed: 900,
+        animationEasing: "easeInOutExpo",
+        showNav: true,                      // Show Navigation
+        nextText: "Next",                   // Next button text
+        prevText: "Previous",               // Previous button text
+        closeText: "Close",                 // Close button text
+        onStart: function(){
+            //Gridder Inititialized
+        },
+        onContent: function(){
+            //Gridder Content Loaded
+        },
+        onClosed: function(){
+            //Gridder Closed
+        }
+    });
+});
 </script>
 </body>
 </html>

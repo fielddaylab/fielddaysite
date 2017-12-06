@@ -14,7 +14,7 @@
   }
 }
 
-.carousel-fade {
+.hero-slider  {
   .carousel-inner {
     .item {
       transition-property: opacity;
@@ -41,6 +41,24 @@
           background-size: 50vw auto;
         }
       }
+    }
+
+    .item:nth-child(1) {
+      background: url(../img/hero-images/hero2.jpg) no-repeat;
+      background-size:cover;
+    }
+
+    .item:nth-child(2) {
+      background: url(../img/hero-images/hero1.jpg) no-repeat;
+      background-size:cover;
+    }
+
+    .item:nth-child(3) {
+      background: #E46653;
+    }
+
+    .item:nth-child(4) {
+      background: $red;
     }
 
     .item,
@@ -71,25 +89,7 @@
   }
 }
 
-.item:nth-child(1) {
-  background: url(../img/hero-images/hero2.jpg) no-repeat;
-  background-size:cover;
-}
-
-.item:nth-child(2) {
-  background: url(../img/hero-images/hero1.jpg) no-repeat;
-  background-size:cover;
-}
-
-.item:nth-child(3) {
-  background: #E46653;
-}
-
-.item:nth-child(4) {
-  background: $red;
-}
-
-.carousel-indicators li {
+.slide-bullets li {
   width:initial;
   height: initial;
   text-indent:initial;

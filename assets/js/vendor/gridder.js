@@ -154,7 +154,7 @@
                     var nextItem = ($(".selectedItem").next().next());
 
                     htmlcontent += "<div class=\"gridder-navigation\">";
-                    htmlcontent += "<div class=\"nav-left\"><a href=\"#\" class=\"gridder-close\"><i class=\"fa fa-close\"></i></a></div>";
+                    htmlcontent += "<div class=\"nav-left\"><a href=\"#\" class=\"gridder-close\"><img src=\"assets/img/ui/close-icon.png\"></a></div>";
                     htmlcontent += "<div class=\"nav-right\"><a href=\"#\" class=\"gridder-nav prev\"><i class=\"fa fa-arrow-left\"></i></a>";
                     htmlcontent += "<a href=\"#\" class=\"gridder-nav next\"><i class=\"fa fa-arrow-right\"></i></a>";
                     htmlcontent += "</div></div>";
