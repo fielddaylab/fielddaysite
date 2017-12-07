@@ -16,8 +16,11 @@
     background-position: top center;
     background-size:cover;
     display:flex;
+    height:100vh;
+    align-items: center;
     @media #{$break-sm-xs} {
       flex-direction:column;
+      height:auto;
     }
     .cta-card {
       background: #fff;
@@ -26,6 +29,11 @@
       margin: 10vw;
       box-shadow:0 0 33px 0 rgba(0, 0, 0, 0.16);
       z-index:75;
+
+      @media #{$break-md} {
+        width: 40vw;
+        margin: 5vw;
+      }
       @media #{$break-sm-xs} {
         width:100vw;
         margin:0;
@@ -38,6 +46,9 @@
         font-family: 'Roboto', sans-serif;
         font-weight: 200;
         font-size: 30px;
+        @media #{$break-md}{
+          font-size: 24px;
+        }
       }
       p{
         margin-bottom:20px;
@@ -76,6 +87,10 @@
     list-style-type: none !important;
     min-height: 10vw;
     text-align:center;
+    padding-left: 0;
+    @media #{$break-sm-xs} {
+      margin-bottom:20px;
+    }
     .app-bullet {
       position: relative;
       z-index: 100;
@@ -88,8 +103,18 @@
       border-bottom: 3px solid transparent;
       cursor:pointer;
       transition: all .3s ease-in-out;
+      @media #{$break-sm-xs} {
+        padding:7px;
+        margin:2px;
+        border-radius:10px;
+        border-bottom:initial;
+        border:2px solid transparent;
+      }
       &.active {
         border-bottom: 3px solid;
+        @media #{$break-sm-xs} {
+          border:2px solid;
+        }
       }
     }
   }
@@ -99,10 +124,18 @@
       background: #fff;
       width: 17vw;
       padding: 3vw 1vw;
-      box-shadow:0 0 23px 0 rgba(0, 0, 0, 0.10);
+      box-shadow:0 0 13px 0 rgba(0, 0, 0, 0.15);
       z-index:75;
       border-radius: 10px;
       text-align: center;
+      flex-direction:wrap;
+      @media #{$break-sm-xs} {
+        width: 35vw;
+        align-items: center;
+        padding:2vw;
+        box-shadow:none;
+        border:1px solid #DDDDDD;
+      }
       .app-logo {
         height:40px;
         width:auto;
@@ -110,28 +143,57 @@
         margin: 0 auto;
         margin-bottom: 20px;
       }
+      &:hover {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        box-shadow:0 2px 23px 0 rgba(0, 0, 0, 0.1);
+      }
       &.selectedItem {
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
         transform: scale(1.1);
-        box-shadow:0 7px 23px 0 rgba(0, 0, 0, 0.06);
-
+        box-shadow:0 2px 23px 0 rgba(0, 0, 0, 0.1);
+        @media #{$break-sm-xs} {
+          box-shadow:none;
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+    }
+    .gridder-show {
+      @media #{$break-sm-xs} {
+        margin-top:20px;
       }
     }
     .gridder-expanded-content {
       display:flex;
       align-items: center;
+      @media #{$break-sm-xs} {
+        display:block;
+      }
       .app-info {
         padding-right:30px;
+        @media #{$break-sm-xs} {
+          padding-right:0px;
+        }
       }
       .app-pane {
         width: 50%;
+        @media #{$break-sm-xs} {
+          width:100%;
+          display:block;
+        }
       }
       h2 {
         margin-left:0px;
         font-family: 'Roboto', sans-serif;
         font-weight: 200;
         font-size: 30px;
+        @media #{$break-sm-xs} {
+          margin-right:0px;
+        }
       }
       p {
         margin-bottom:20px;
@@ -205,6 +267,12 @@
     .astro-flag img {
       width:200px;
       height: auto;
+      float: right;
+      margin-right:30px;
+      @media #{$break-sm-xs} {
+        padding: 4vw;
+        margin-right:0px;
+      }
     }
   }
 }
@@ -213,14 +281,25 @@
   text-align: center;
   background: #fff;
   .partner-logos {
+    margin-top:75px;
+    overflow-x:scroll;
+    display:inline-block;
+    @media #{$break-sm-xs} {
+      margin-top:40px;
+      display:flex;
+    }
     img {
       -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
       filter: grayscale(100%);
-      width: 20vw;
+      width: 200px;
       height: auto;
-      display: inline-block;
-      padding: 4vw;
+      margin: 20px;
       transition: all .3s ease-in-out;
+      @media #{$break-sm-xs} {
+        width: auto;
+        margin: 15px;
+        height: 60px;
+      }
       &:hover {
         filter: grayscale(0%);
         -webkit-filter: grayscale(0%);
@@ -262,6 +341,11 @@
 .ourstuff {
   background: #fff;
   padding: 10vw;
+  .starfield {
+    @media #{$break-sm-xs} {
+      display:none;
+    }
+  }
 }
 
 /*

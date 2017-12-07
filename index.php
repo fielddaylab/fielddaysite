@@ -115,7 +115,7 @@
   <section id="workit" class="workit">
     <div class="section-container">
       <div class="content-wrap spaceplane-wrap">
-        <h2 class="light bright centered uppercase">We never work alone</h2>
+        <h2 class="light bright centered uppercase">Get involved</h2>
         <img class="spaceplane-illustration" src="assets/img/illustrations/spaceplane-vertical.png">
         <div class="exhaustwrap">
           <img class="exhaust one" src="assets/img/illustrations/exhaust.png">
@@ -155,10 +155,8 @@
       <span class="star black star4"></span>
       <span class="star black star5"></span>
     </div>
-    <div class="container">
-      <h2 class="uppercase centered header">What we Make</h2>
-    </div>
-    <div id="ourwork" class="carousel slide carousel-fade" data-ride="carousel">
+    <h2 class="uppercase centered header">What we Make</h2>
+    <div id="ourwork" class="slide carousel-fade">
         <ul class="carousel-indicators app-bullets">
             <li class="app-bullet active" data-target="#ourwork" data-slide-to="0">
               <span>Games</span>
@@ -167,7 +165,7 @@
               <span>Coding</span>
             </li>
             <li class="app-bullet" data-target="#ourwork" data-slide-to="2">
-              <span>Citizen Science / Field Work</span>
+              <span>Field Work</span>
             </li>
         </ul>
         <!-- Carousel items -->
@@ -251,6 +249,9 @@
     </div>
   </section>
   <section class="blogs">
+    <div class="container">
+      <h2 class="centered uppercase">From the blog</h2>
+    </div>
     <div class="row container large">
     <div class="starfield topright">
       <span class="star black star1"></span>
@@ -360,13 +361,7 @@
 
 //carousels
 $('.carousel').carousel();
-
-$('.ourwork').carousel({
-  interval: false,
-  ride: false,
-  wrap: false
-});
-
+$('.ourwork').carousel({interval: false });
 
 // toggle more partner logos
 $('.partner-toggle').click(function(){

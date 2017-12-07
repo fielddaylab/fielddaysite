@@ -112,6 +112,10 @@ section {
       box-shadow: 0 0 33px 0 rgba(0,0,0,0.16);
       position: relative;
       z-index: 200;
+      @media #{$break-sm-xs} {
+        margin:0vw;
+        margin-bottom:10vw;
+      }
       .blogcontent {
         padding: 3vw;
       }
@@ -207,4 +211,3 @@ section {
     opacity: 0.9;
   }
 }
-

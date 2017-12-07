@@ -4,6 +4,7 @@
   z-index:10;
   width: 100%;
   transition: all .3s ease-in-out;
+  overflow-x:hidden;
 }
 
 .drawerleft-open #mainwrapper {

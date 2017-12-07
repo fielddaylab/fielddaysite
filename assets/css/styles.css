@@ -7816,7 +7816,8 @@ p, a, li {
 #mainwrapper {
   z-index: 10;
   width: 100%;
-  transition: all .3s ease-in-out; }
+  transition: all .3s ease-in-out;
+  overflow-x: hidden; }
 
 .drawerleft-open #mainwrapper {
   transform: translateX(300px); }
@@ -8521,6 +8522,10 @@ section {
       box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.16);
       position: relative;
       z-index: 200; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .blogs .blogpost-wrap .blogpost {
+          margin: 0vw;
+          margin-bottom: 10vw; } }
       .blogs .blogpost-wrap .blogpost .blogcontent {
         padding: 3vw; }
       .blogs .blogpost-wrap .blogpost.one .thumb {
@@ -8947,13 +8952,13 @@ section {
         .our_process .intro .intro-content img {
           width: 90px; } }
   .our_process .process {
-    height: 140vh;
+    height: 110vh;
     position: relative;
     overflow: hidden;
     z-index: 10;
     color: #fff;
     margin: 0 auto; }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1024px) {
       .our_process .process {
         height: auto;
         text-align: center; } }
@@ -9441,10 +9446,13 @@ hr {
     background: url(../img/illustrations/space-fade.png);
     background-position: top center;
     background-size: cover;
-    display: flex; }
+    display: flex;
+    height: 100vh;
+    align-items: center; }
     @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
       .workit .workit-content {
-        flex-direction: column; } }
+        flex-direction: column;
+        height: auto; } }
     .workit .workit-content .cta-card {
       background: #fff;
       width: 30vw;
@@ -9452,6 +9460,10 @@ hr {
       margin: 10vw;
       box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.16);
       z-index: 75; }
+      @media only screen and (max-width: 1024px) {
+        .workit .workit-content .cta-card {
+          width: 40vw;
+          margin: 5vw; } }
       @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
         .workit .workit-content .cta-card {
           width: 100vw;
@@ -9464,6 +9476,9 @@ hr {
         font-family: 'Roboto', sans-serif;
         font-weight: 200;
         font-size: 30px; }
+        @media only screen and (max-width: 1024px) {
+          .workit .workit-content .cta-card h3 {
+            font-size: 24px; } }
       .workit .workit-content .cta-card p {
         margin-bottom: 20px; }
   .workit .spaceplane-wrap {
@@ -9492,7 +9507,11 @@ hr {
 #ourwork .app-bullets {
   list-style-type: none !important;
   min-height: 10vw;
-  text-align: center; }
+  text-align: center;
+  padding-left: 0; }
+  @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+    #ourwork .app-bullets {
+      margin-bottom: 20px; } }
   #ourwork .app-bullets .app-bullet {
     position: relative;
     z-index: 100;
@@ -9505,8 +9524,18 @@ hr {
     border-bottom: 3px solid transparent;
     cursor: pointer;
     transition: all .3s ease-in-out; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      #ourwork .app-bullets .app-bullet {
+        padding: 7px;
+        margin: 2px;
+        border-radius: 10px;
+        border-bottom: initial;
+        border: 2px solid transparent; } }
     #ourwork .app-bullets .app-bullet.active {
       border-bottom: 3px solid; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        #ourwork .app-bullets .app-bullet.active {
+          border: 2px solid; } }
 
 #ourwork .apps {
   text-align: center; }
@@ -9514,33 +9543,68 @@ hr {
     background: #fff;
     width: 17vw;
     padding: 3vw 1vw;
-    box-shadow: 0 0 23px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.15);
     z-index: 75;
     border-radius: 10px;
-    text-align: center; }
+    text-align: center;
+    flex-direction: wrap; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      #ourwork .apps .app-card {
+        width: 35vw;
+        align-items: center;
+        padding: 2vw;
+        box-shadow: none;
+        border: 1px solid #DDDDDD; } }
     #ourwork .apps .app-card .app-logo {
       height: 40px;
       width: auto;
       display: block;
       margin: 0 auto;
       margin-bottom: 20px; }
+    #ourwork .apps .app-card:hover {
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1); }
     #ourwork .apps .app-card.selectedItem {
       -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
       transform: scale(1.1);
-      box-shadow: 0 7px 23px 0 rgba(0, 0, 0, 0.06); }
+      box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1); }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        #ourwork .apps .app-card.selectedItem {
+          box-shadow: none;
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1); } }
+  @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+    #ourwork .apps .gridder-show {
+      margin-top: 20px; } }
   #ourwork .apps .gridder-expanded-content {
     display: flex;
     align-items: center; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      #ourwork .apps .gridder-expanded-content {
+        display: block; } }
     #ourwork .apps .gridder-expanded-content .app-info {
       padding-right: 30px; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        #ourwork .apps .gridder-expanded-content .app-info {
+          padding-right: 0px; } }
     #ourwork .apps .gridder-expanded-content .app-pane {
       width: 50%; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        #ourwork .apps .gridder-expanded-content .app-pane {
+          width: 100%;
+          display: block; } }
     #ourwork .apps .gridder-expanded-content h2 {
       margin-left: 0px;
       font-family: 'Roboto', sans-serif;
       font-weight: 200;
       font-size: 30px; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        #ourwork .apps .gridder-expanded-content h2 {
+          margin-right: 0px; } }
     #ourwork .apps .gridder-expanded-content p {
       margin-bottom: 20px; }
   #ourwork .apps .app-thumbnail img {
@@ -9600,23 +9664,41 @@ hr {
       width: 50%; }
     .stayupdated .container .astro-flag img {
       width: 200px;
-      height: auto; }
+      height: auto;
+      float: right;
+      margin-right: 30px; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .stayupdated .container .astro-flag img {
+          padding: 4vw;
+          margin-right: 0px; } }
 
 .partners {
   text-align: center;
   background: #fff; }
-  .partners .partner-logos img {
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    width: 20vw;
-    height: auto;
-    display: inline-block;
-    padding: 4vw;
-    transition: all .3s ease-in-out; }
-    .partners .partner-logos img:hover {
-      filter: grayscale(0%);
-      -webkit-filter: grayscale(0%); }
+  .partners .partner-logos {
+    margin-top: 75px;
+    overflow-x: scroll;
+    display: inline-block; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .partners .partner-logos {
+        margin-top: 40px;
+        display: flex; } }
+    .partners .partner-logos img {
+      -webkit-filter: grayscale(100%);
+      /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      width: 200px;
+      height: auto;
+      margin: 20px;
+      transition: all .3s ease-in-out; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .partners .partner-logos img {
+          width: auto;
+          margin: 15px;
+          height: 60px; } }
+      .partners .partner-logos img:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); }
   .partners .header-icon {
     width: 150px;
     height: auto;
@@ -9646,6 +9728,9 @@ hr {
 .ourstuff {
   background: #fff;
   padding: 10vw; }
+  @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+    .ourstuff .starfield {
+      display: none; } }
 
 /*
   Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)

@@ -238,13 +238,13 @@
     }
   }
   .process {
-    height: 140vh;
+    height: 110vh;
     position: relative;
     overflow:hidden;
     z-index: 10;
     color: #fff;
     margin: 0 auto;
-    @media #{$break-sm} {
+    @media #{$break-md} {
       height: auto;
       text-align: center;
     }
