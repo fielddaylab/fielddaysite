@@ -8614,15 +8614,13 @@ section {
     height: 80vh;
     width: 100vw;
     display: block;
-    background: #101920;
-    /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(rgba(255, 0, 0, 0), #101920, #101920);
+    background: -webkit-linear-gradient(rgba(16, 25, 32, 0), #101920);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(rgba(255, 0, 0, 0), #101920);
+    background: -o-linear-gradient(rgba(16, 25, 32, 0), #101920);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgba(255, 0, 0, 0), #101920);
+    background: -moz-linear-gradient(rgba(16, 25, 32, 0), #101920);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgba(255, 0, 0, 0), #101920);
+    background: linear-gradient(rgba(16, 25, 32, 0), #101920);
     /* Standard syntax */ }
   .hero-slider .carousel-inner .item .item-info {
     position: relative;
@@ -8669,9 +8667,6 @@ section {
   background: url(../img/hero-images/hero3.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
-
-.hero-slider .carousel-inner .item:nth-child(4) {
-  background: #DD1C1A; }
 
 .hero-slider .carousel-inner .item,
 .hero-slider .carousel-inner .active.left,
@@ -8925,8 +8920,10 @@ section {
     margin: 0 auto;
     z-index: 5;
     margin-top: 10vw; }
-    .our_process .intro .intro-content p {
-      text-align: left; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .our_process .intro .intro-content p {
+        text-align: left;
+        font-size: 16px; } }
     @media only screen and (min-width: 1025px) {
       .our_process .intro .intro-content {
         position: relative;
@@ -9430,15 +9427,24 @@ hr {
 
 .content-wrap {
   padding: 5vw; }
+  @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+    .content-wrap {
+      padding: 0; } }
 
 .workit {
   height: auto;
   background: #fff; }
+  @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+    .workit {
+      background: #101920; } }
   .workit .workit-content {
     background: url(../img/illustrations/space-fade.png);
     background-position: top center;
     background-size: cover;
     display: flex; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .workit .workit-content {
+        flex-direction: column; } }
     .workit .workit-content .cta-card {
       background: #fff;
       width: 30vw;
@@ -9446,6 +9452,14 @@ hr {
       margin: 10vw;
       box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.16);
       z-index: 75; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .workit .workit-content .cta-card {
+          width: 100vw;
+          margin: 0;
+          padding: 8vw;
+          padding-bottom: 14vw;
+          box-shadow: none;
+          border-bottom: 1px solid #DDDDDD; } }
       .workit .workit-content .cta-card h3 {
         font-family: 'Roboto', sans-serif;
         font-weight: 200;
@@ -9457,6 +9471,11 @@ hr {
     width: 100vw;
     height: 100vh;
     z-index: 50; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .workit .spaceplane-wrap {
+        position: relative;
+        height: auto;
+        margin-bottom: 13vw; } }
     .workit .spaceplane-wrap .spaceplane-illustration {
       margin: 0 auto;
       position: relative;
@@ -9536,21 +9555,37 @@ hr {
   width: 50vw;
   margin: 0 auto;
   margin-top: -5vw; }
+  @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+    .exhaustwrap {
+      width: 100vw;
+      margin-top: -11vw;
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); } }
   .exhaustwrap .exhaust {
     width: 50%;
     height: auto;
     animation: burn 4s ease-in-out infinite;
     position: absolute; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .exhaustwrap .exhaust {
+        animation: none; } }
     .exhaustwrap .exhaust.one {
       left: 0; }
       .exhaustwrap .exhaust.one.late {
         animation: burn 4s ease-in-out infinite;
         animation-delay: -2s; }
+        @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+          .exhaustwrap .exhaust.one.late {
+            animation: none; } }
     .exhaustwrap .exhaust.two {
       right: 0; }
       .exhaustwrap .exhaust.two.late {
         animation: burn 4s ease-in-out infinite;
         animation-delay: -2s; }
+        @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+          .exhaustwrap .exhaust.two.late {
+            animation: none; } }
 
 .stayupdated {
   background: #D6A718; }
