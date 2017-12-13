@@ -9180,6 +9180,8 @@ hr {
 .singleapp {
   /* Template for atomTouch
   ---------------------------*/
+  /* Template for Ice Cube
+  ---------------------------*/
   /* Template for Aris
   ---------------------------*/
   /* Slider CSS
@@ -9242,6 +9244,14 @@ hr {
           letter-spacing: 2px;
           font-size: 20px;
           width: 60vw; }
+        .singleapp .app-hero .hero-content .app-info.long-title h1, .singleapp .app-hero .hero-content .app-info.long-title p {
+          display: block; }
+        .singleapp .app-hero .hero-content .app-info.long-title h1 {
+          border-right: none;
+          margin-bottom: 0px; }
+        .singleapp .app-hero .hero-content .app-info.long-title p {
+          margin-left: 0px;
+          margin-top: 10px; }
       .singleapp .app-hero .hero-content .app-description {
         width: 50vw;
         margin-bottom: 20px; }
@@ -9310,6 +9320,11 @@ hr {
     text-align: center; }
     .singleapp.atomtouch #content_play span {
       margin-top: 300px; }
+  .singleapp.icecube .app-hero {
+    background: url(/assets/img/hero-images/hero2.jpg) no-repeat;
+    background-size: cover; }
+  .singleapp .app-about {
+    margin-bottom: 0px; }
   .singleapp.aris .biglogo {
     width: 100%;
     height: auto;

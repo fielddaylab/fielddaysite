@@ -63,6 +63,19 @@
           font-size: 20px;
           width:60vw;
         }
+        &.long-title{
+          h1,p {
+            display:block;
+          }
+          h1 {
+            border-right:none;
+            margin-bottom:0px;
+          }
+          p {
+            margin-left: 0px;
+            margin-top:10px;
+          }
+        }
       }
       .app-description {
           width: 50vw;
@@ -167,6 +180,18 @@
         margin-top: 300px;
       }
     }
+  }
+
+  /* Template for Ice Cube
+  ---------------------------*/
+  &.icecube {
+    .app-hero{
+      background:url(/assets/img/hero-images/hero2.jpg) no-repeat;
+      background-size: cover;
+    }
+  }
+  .app-about {
+    margin-bottom:0px;
   }
 
   /* Template for Aris
