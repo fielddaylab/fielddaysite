@@ -153,6 +153,19 @@
       text-align:center;
       text-transform:uppercase;
       font-size:14px;
+      .rule {
+        width: 19vw;
+        height: 2px;
+        background: #fff;
+        border-radius: 25px;
+        position: absolute;
+        top: 16px;
+        left: 50%;
+        margin-left: 3vw;
+        @media #{$break-sm} {
+          display:none;
+        }
+      }
       .bullet {
         width: 35px;
         height: 35px;
@@ -169,12 +182,14 @@
       .bullet-caption{
         @media #{$break-sm-xs} {
           display:none;
+          color:transparent;
         }
       }
       &.active{
         .bullet {
           background: url(../img/ui/bullet-filled.png) no-repeat;
           background-size: contain;
+          color:$black;
         }
       }
     }

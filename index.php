@@ -38,7 +38,7 @@
             <span class="grad"></span>
             <div class="item-info">
               <h1 class="main-mark">Field Day</h1>
-              <p class="corrected">Build innovative apps & games to help people explore your work.</p>
+              <p class="corrected">Building apps and games to help people explore the world, not escape from it.</p>
               <a href="#" class="button white xsmall">Learn More</a>
             </div>
           </div>
@@ -77,7 +77,7 @@
       <div class="intro-content">
         <img class="bg1trigger reveal float" src="assets/img/illustrations/astronaut1.png" class="astronaut">
         <h2 class="light centered uppercase">We are Field Day</h2>
-        <p class="corrected plainreveal big light">What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We make games and apps to help foster that wonder. Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>
+        <p class="corrected plainreveal big light">What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We make games and apps to help foster that wonder.</p><p class="corrected plainreveal big light">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>
       </div>
       <div class="starfield topright">
         <span class="star star1"></span>

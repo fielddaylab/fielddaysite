@@ -1,12 +1,13 @@
 <nav class="small-nav nav-fixed">
   <ul>
-    <li class="logo"><img class="darklogo" src="/assets/img/logos/fd.png"></li>
+    <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/fd.png"></a></li>
     <li class="small-navlink"><a class="drawerleft-toggle">Make</a></li>
     <li class="small-navlink"><a class="drawertop-toggle">Play</a></li>
     <li class="small-navlink"><a class="drawerright-toggle">Learn</a></li>
     <!--<li class="hideforsmall small-navlink"><a class="drawerright-toggle">For Teachers</a></li>-->
   </ul>
-  <button data-toggle="modal" data-target="#contactModal" class="workwithus button xsmall yellow filled hideforsmall">Work with us</button>
+  <!--<button data-toggle="modal" data-target="#contactModal" class="workwithus button xsmall yellow filled hideforsmall">Work with us</button>-->
+  <a href="/work" class="workwithus button xsmall yellow filled hideforsmall">Work with us</a>
   <div class="mobile-nav-toggle-wrap">
     <div class="mobile-nav-container">
       <div class="content">

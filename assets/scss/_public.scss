@@ -341,6 +341,10 @@
 .ourstuff {
   background: #fff;
   padding: 10vw;
+  h2 {
+    z-index: 1000;
+    position: relative;
+  }
   .starfield {
     @media #{$break-sm-xs} {
       display:none;
@@ -349,7 +353,7 @@
 }
 
 /*
-  Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
+  Bootstrap Fade Transition (for Bootstrap 3.3.x)
   CSS from:       http://codepen.io/transportedman/pen/NPWRGq
   and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
   Inspired from:  http://codepen.io/Rowno/pen/Afykb

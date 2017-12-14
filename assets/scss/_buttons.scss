@@ -4,7 +4,7 @@
 .button {
   display: inline-block;
   padding: 15px 15px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.2em;
   border: 1px solid $dark_gray;
   text-transform: uppercase;
@@ -90,7 +90,7 @@
       i { color: $black; }
     }
   }
-  &.small { min-width: auto; font-size: 11px; padding: 13px 20px; }
+  &.small { min-width: auto; font-size: 13px; padding: 10px 18px; }
   &.xsmall { min-width: auto; font-size: 10px; padding: 10px 15px; }
   &.full-width { text-align: center; }
   &.round { border-radius: 30px; }

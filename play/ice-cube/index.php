@@ -26,7 +26,6 @@
         <img class="breadcrumb-arrow" src="/assets/img/ui/breadcrumb-arrow.png">
         <li>Discover Ice Cube</li>
       </ul>
-      <img class="logo-small" src="/assets/img/logos/atomtouch-logo.png"></span>
     </div>
     <div class="app-info long-title">
       <h1 class="app-title">Discover Ice Cube</h1><br>
