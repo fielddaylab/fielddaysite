@@ -5,20 +5,20 @@
         <div class="nav-links">
           <div class="link-col main">
             <h3>field Day</h3>
-            <a href="/">Home</a>
-            <a href="#">Work with Us</a>
-            <a href="#">blog</a>
+            <a class="link-home" href="/">Home</a>
+            <a class="link-work" href="#">Work with Us</a>
+            <a target="_blank" href="https://medium.com/@fielddaylab">blog</a>
           </div>
           <div class="link-col">
             <h3>Make</h3>
-            <a href="/make/aris">Aris</a>
+            <a class="link-aris" href="/make/aris">Aris</a>
             <a target="_blank" href="siftr.org">Siftr</a>
             <a target="_blank" href="nomenproject.org">Nomen</a>
           </div>
           <div class="link-col">
             <h3>Play</h3>
             <a target="_blank" href="theyardgames.org">The Yard</a>
-            <a href="/play/atom-touch">Atom Touch</a>
+            <a class="link-atomtouch" href="/play/atom-touch">Atom Touch</a>
             <a target="_blank" href="https://www.thegamecrafter.com/games/the-n-game">The N Game</a>
           </div>
           <div class="link-col">

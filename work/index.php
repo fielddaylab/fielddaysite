@@ -4,7 +4,7 @@
 <title>Work with Field Day</title>
 </head>
 
-<body class="nav-fixed workwithus">
+<body class="nav-fixed workwithus link-work">
 <!--include Main Navigation
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/main-nav.php";  include_once($path); ?>
@@ -70,6 +70,15 @@
           <!-- Carousel items -->
           <div class="carousel-inner">
               <div class="active item">
+                <div class="info">
+                <span class="">Let's talk</span>
+                <h3>It starts with a conversation</h3>
+                <p>Each project is unique so we like to start with a couple conversations. Share your goals and check out our portfolio. Some things you’ll learn about us: we always include teachers in our projects, we can help find funding.</p>
+                <button class="button white small">Work with us</button>
+                </div>
+                <div class="graphic">
+                  <img src="/assets/img/illustrations/spaceplane-blueprint.png">
+                </div>
               </div>
               <div class="item">
               </div>

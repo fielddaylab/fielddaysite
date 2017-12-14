@@ -8346,6 +8346,8 @@ p, a, li {
               display: block;
               margin-bottom: 15px;
               text-transform: uppercase; }
+              .mobile-nav-toggle-wrap .mobile-nav-container .content .nav-content .nav-links .link-col a.activepage {
+                color: #06AED5; }
       .mobile-nav-toggle-wrap .mobile-nav-container .content hr {
         height: 3px;
         border: 0;
@@ -9899,7 +9901,65 @@ hr {
       right: 0; }
 
 .workwithus .carousel .slide-wrap {
-  top: 5vw; }
+  top: 5vw;
+  height: 5vh; }
+
+.workwithus .carousel .carousel-inner {
+  height: 100%; }
+  .workwithus .carousel .carousel-inner .item {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center; }
+    .workwithus .carousel .carousel-inner .item.active {
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .workwithus .carousel .carousel-inner .item .info {
+      width: 60%;
+      padding: 8vw; }
+      .workwithus .carousel .carousel-inner .item .info span {
+        color: #fff;
+        font-family: 'Merriweather', serif;
+        font-weight: 400;
+        font-style: italic;
+        margin-bottom: -10px; }
+      .workwithus .carousel .carousel-inner .item .info h3, .workwithus .carousel .carousel-inner .item .info p {
+        color: #fff; }
+      .workwithus .carousel .carousel-inner .item .info h3 {
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-top: 10px; }
+      .workwithus .carousel .carousel-inner .item .info p {
+        margin-bottom: 20px; }
+    .workwithus .carousel .carousel-inner .item .graphic {
+      width: 40%; }
+      .workwithus .carousel .carousel-inner .item .graphic img {
+        width: 70%;
+        height: auto;
+        margin: 0 auto; }
+  .workwithus .carousel .carousel-inner .item:nth-child(1) {
+    background: #92cdf0;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #92cdf0 0%, #53cbf1 40%, #528bb2 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #92cdf0 0%, #53cbf1 40%, #528bb2 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #92cdf0 0%, #53cbf1 40%, #528bb2 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92cdf0', endColorstr='#528bb2',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */ }
+  .workwithus .carousel .carousel-inner .item:nth-child(2) {
+    background: #8d90bf;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #8d90bf 0%, #ffffff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #8d90bf 0%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #8d90bf 0%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d90bf', endColorstr='#ffffff',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */ }
 
 /* Gridder Game Grid
 --------------------------- */
