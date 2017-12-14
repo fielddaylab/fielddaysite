@@ -66,6 +66,16 @@ p, a, li{
       line-height: 25px;
     }
   }
+  &.supersmall {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing:2px;
+    @media #{$break-md} {
+      font-size: 12px;
+      letter-spacing: 1px;
+      line-height: 25px;
+    }
+  }
   &.light {
     font-weight: 300;
     @media #{$break-sm} {

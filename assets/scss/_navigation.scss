@@ -511,7 +511,6 @@
 /* mobile navigation
 ----------------------------------------*/
 
-
 @keyframes navDrop {
   from { top: -90px }
   to { top: 0px; }
@@ -565,15 +564,68 @@
     .content {
       opacity: 0;
       transition: opacity .3s ease-in-out;
-      img {
-        width: 100px;
-        margin-bottom: 30px;
-      }
+      display:block;
+
       @include vertical-align;
       width: 90vw;
       height: auto;
       margin: 0 auto;
       text-align: center;
+      .nav-content{
+        width: 65vw;
+        height:auto;
+        margin:0 auto;
+        @media #{$break-md-lg} {
+          width:90vw;
+        }
+        .fd-info{
+          text-align:left;
+          margin-top:7vw;
+          .social-links{
+            text-align:center;
+            margin-top:5vw;
+            a img{
+              width:auto;
+              height:30px;
+              margin:20px;
+            }
+          }
+          img{
+            width:200px;
+            margin-bottom:20px;
+          }
+          p{
+            color:#fff;
+          }
+        }
+        .nav-links {
+          display:flex;
+          @media #{$break-sm} {
+            display:block;
+          }
+          .link-col{
+            text-align:left;
+            width:21%;
+            &.main {
+              width:28%;
+              border-right:2px solid #fff ;
+              margin-right:5vw;
+            }
+            h3{
+              color:#fff;
+              text-transform:uppercase;
+              font-weight:600;
+              letter-spacing:4px;
+            }
+            a{
+              display:block;
+              margin-bottom:15px;
+              text-transform:uppercase;
+            }
+          }
+        }
+      }
+
       hr {
         height: 3px;
         border: 0;

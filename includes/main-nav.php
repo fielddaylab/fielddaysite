@@ -8,24 +8,9 @@
   </ul>
   <!--<button data-toggle="modal" data-target="#contactModal" class="workwithus button xsmall yellow filled hideforsmall">Work with us</button>-->
   <a href="/work" class="workwithus button xsmall yellow filled hideforsmall">Work with us</a>
-  <div class="mobile-nav-toggle-wrap">
-    <div class="mobile-nav-container">
-      <div class="content">
-        <img src="/assets/img/illustrations/spaceplane-flight.png">
-        <ul class="mobile-links">
-          <li>
-            <a target="_blank" href="https://medium.com/@fielddaylab">blog</a>
-          </li>
-          <li>
-            <a href="mailto:djgagnon@wisc.edu"  target="_blank" class="button white">Work with Field Day</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="nav-toggle">
-      <div class="icon"></div>
-    </div>
-  </div>
+
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
+
 </nav>
 
 <div class="drawer drawer-left make">
