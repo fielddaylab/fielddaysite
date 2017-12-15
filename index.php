@@ -54,7 +54,7 @@
             <span class="grad"></span>
             <div class="item-info">
               <h2 class="uppercase">Teacher Fellowships Now Open</h2>
-              <p class="corrected">Professionall development doesn’t have to be like chewing on sand. plus you get to make games for kids.</p>
+              <p class="corrected">Professional development doesn’t have to be like chewing on sand. plus you get to make games for kids.</p>
               <a href="#" class="button white xsmall">Discover Teacher Fellowships</a>
             </div>
           </div>
