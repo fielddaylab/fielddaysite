@@ -123,13 +123,13 @@
     .app-card {
       background: #fff;
       width: 17vw;
-      padding: 3vw 1vw;
+      padding: 3vw 2vw;
       box-shadow:0 0 13px 0 rgba(0, 0, 0, 0.15);
       z-index:75;
       border-radius: 10px;
       text-align: center;
       flex-direction:wrap;
-      @media #{$break-sm-xs} {
+      @media #{$break-sm} {
         width: 35vw;
         align-items: center;
         padding:2vw;
@@ -137,11 +137,15 @@
         border:1px solid #DDDDDD;
       }
       .app-logo {
-        height:40px;
+        height:5vw;
         width:auto;
         display: block;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-top:10px;
+        margin-bottom:15px;
+        @media #{$break-sm-xs} {
+          height:10vw;
+        }
       }
       &:hover {
         -webkit-transform: scale(1.05);

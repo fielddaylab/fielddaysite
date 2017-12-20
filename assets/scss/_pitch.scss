@@ -398,14 +398,14 @@
           left: 0;
             &.late {
               animation: burn 4s ease-in-out infinite;
-              animation-delay: -2s;
+              animation-delay: -1.5s;
             }
           }
           &.two {
             right: 0;
             &.late {
               animation: burn 4s ease-in-out infinite;
-              animation-delay: -2s;
+              animation-delay: -1.5s;
             }
           }
         }
@@ -419,45 +419,6 @@
         background:url(../img/illustrations/spaceplane.png) no-repeat;
         background-size: 100% auto;
         background-position: top center;
-      }
-      .skylab {
-        width: 60%;
-        height: auto;
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(58%, 92%) !important;
-        @media #{$break-sm} {
-          width:82%;
-          transform: translate(36%, 88%) !important;
-        }
-      }
-      .astronaut {
-        width: 9vw;
-        height: auto;
-        position: absolute;
-        @media #{$break-sm} {
-          width: 20vw;
-          z-index: 100;
-        }
-        @media #{$break-sm-xs} {
-          width: 15vw;
-        }
-        &.one {
-          left: 10%;
-          top: 10%;
-          @media #{$break-sm} {
-            left: -25%;
-          }
-        }
-        &.two {
-          right: 10%;
-          top: 5%;
-          @media #{$break-sm} {
-            right: -25%;
-            top:-8%;
-          }
-        }
       }
     }
   }
@@ -486,6 +447,18 @@ hr {
   }
   100% {
     transform: translatey(0px);
+  }
+}
+
+@keyframes float-horiz {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0px);
   }
 }
 

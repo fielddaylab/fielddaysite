@@ -140,75 +140,9 @@
       </div>
     </div>
   </section>
-  <section class="ourstuff">
-    <div class="starfield topright">
-      <span class="star black star1"></span>
-      <span class="star black star2"></span>
-      <span class="star black star3"></span>
-      <span class="star black star4"></span>
-      <span class="star black star5"></span>
-    </div>
-    <div class="starfield topleft">
-      <span class="star black star1"></span>
-      <span class="star black star2"></span>
-      <span class="star black star3"></span>
-      <span class="star black star4"></span>
-      <span class="star black star5"></span>
-    </div>
-    <h2 class="uppercase centered header">What we Make</h2>
-    <div id="ourwork" class="slide carousel-fade">
-        <ul class="carousel-indicators app-bullets">
-            <li class="app-bullet active" data-target="#ourwork" data-slide-to="0">
-              <span>Games</span>
-            </li>
-            <li class="app-bullet" data-target="#ourwork" data-slide-to="1">
-              <span>Coding</span>
-            </li>
-            <li class="app-bullet" data-target="#ourwork" data-slide-to="2">
-              <span>Field Work</span>
-            </li>
-        </ul>
-        <!-- Carousel items -->
-        <div class="carousel-inner">
-            <div class="active item">
-              <!-- Gridder navigation -->
-              <ul class="apps gridder">
-                <li class="gridder-list app-card" data-griddercontent="#app1">
-                  <img src="assets/img/logos/colored/yard-logo.png" class="app-logo">
-                  <span>The Yard</span>
-                </li>
-                <li class="gridder-list app-card" data-griddercontent="#app2">
-                  <img src="assets/img/logos/colored/atomTouch-logo.png" class="app-logo">
-                  <span>Atom Touch</span>
-                </li>
-                <li class="gridder-list app-card" data-griddercontent="#app3">
-                  <img class="app-logo">
-                  <span>The N Game</span>
-                </li>
-              </ul>
-              <!-- Gridder content -->
-              <div id="app1" class="app-expanded gridder-content">
-                <div class="app-info app-pane left">
-                  <span class="close-app">
-                    <h2>The Yard Games</h2>
-                    <p class="small">The Yard Games are 10-20 minute interactive science games for kids in grades 5-7 to explore, play, and experiment with science. Designed to make complicated systems easier to understand, the games are quick to set up and simple to play. They run on any browser. No complicated user accounts or setup required - just type in the URL theyardgames.org and start playing!</p>
-                    <a class="button black" href="http://theyardgames.org" target="_blank">Play the Yard Games</a>
-                </div>
-                <div class="app-thumbnail app-pane right">
-                  <img src="assets/img/thumbs/yard-thumb.jpg">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              slide 2
-            </div>
-            <div class="item">
-              slide 3
-            </div>
-        </div>
-        <!-- Carousel nav -->
-    </div>
-  </section>
+
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/ourstuff.php";  include_once($path); ?>
+
   <section class="stayupdated">
     <div class="container">
       <div class="astro-flag">
