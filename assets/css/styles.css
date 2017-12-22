@@ -8298,16 +8298,13 @@ p, a, li {
     transition-duration: 0.66s;
     -webkit-transition-timing-function: swing;
     transition-timing-function: swing;
-    transform: translateY(-500px); }
+    transform: translateY(-500px);
+    display: flex;
+    align-items: center; }
     .mobile-nav-toggle-wrap .mobile-nav-container .content {
       opacity: 0;
       transition: opacity .3s ease-in-out;
       display: block;
-      position: relative;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
       width: 90vw;
       height: auto;
       margin: 0 auto;
@@ -8338,14 +8335,22 @@ p, a, li {
           display: flex; }
           @media only screen and (max-width: 768px) {
             .mobile-nav-toggle-wrap .mobile-nav-container .content .nav-content .nav-links {
-              display: block; } }
+              flex-wrap: wrap; } }
           .mobile-nav-toggle-wrap .mobile-nav-container .content .nav-content .nav-links .link-col {
             text-align: left;
             width: 21%; }
+            @media only screen and (max-width: 768px) {
+              .mobile-nav-toggle-wrap .mobile-nav-container .content .nav-content .nav-links .link-col {
+                width: 50%; } }
             .mobile-nav-toggle-wrap .mobile-nav-container .content .nav-content .nav-links .link-col.main {
               width: 28%;
               border-right: 2px solid #fff;
               margin-right: 5vw; }
+              @media only screen and (max-width: 768px) {
+                .mobile-nav-toggle-wrap .mobile-nav-container .content .nav-content .nav-links .link-col.main {
+                  border-right: 0;
+                  width: 50%;
+                  margin-right: 0; } }
             .mobile-nav-toggle-wrap .mobile-nav-container .content .nav-content .nav-links .link-col h3 {
               color: #fff;
               text-transform: uppercase;
@@ -8418,6 +8423,9 @@ p, a, li {
   transform: translateY(0px);
   width: 100vw;
   height: 100vh; }
+  @media only screen and (max-width: 768px) {
+    .nav-open .mobile-nav-toggle-wrap .mobile-nav-container {
+      height: auto; } }
 
 .mobile-nav-toggle-wrap .icon:before,
 .mobile-nav-toggle-wrap .icon:after {

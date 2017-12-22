@@ -569,12 +569,12 @@
     -webkit-transition-timing-function: swing;
     transition-timing-function: swing;
     transform:translateY(-500px);
+    display:flex;
+    align-items:center;
     .content {
       opacity: 0;
       transition: opacity .3s ease-in-out;
       display:block;
-
-      @include vertical-align;
       width: 90vw;
       height: auto;
       margin: 0 auto;
@@ -609,15 +609,23 @@
         .nav-links {
           display:flex;
           @media #{$break-sm} {
-            display:block;
+            flex-wrap:wrap;
           }
           .link-col{
             text-align:left;
             width:21%;
+            @media #{$break-sm} {
+              width:50%;
+            }
             &.main {
               width:28%;
               border-right:2px solid #fff ;
               margin-right:5vw;
+              @media #{$break-sm} {
+                border-right:0;
+                width:50%;
+                margin-right:0;
+              }
             }
             h3{
               color:#fff;
@@ -709,6 +717,9 @@
   transform:translateY(0px);
   width: 100vw;
   height: 100vh;
+  @media #{$break-sm} {
+    height: auto;
+  }
 }
 
 .mobile-nav-toggle-wrap .icon:before,
