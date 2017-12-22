@@ -4,7 +4,7 @@
 <title>Field Day - Teachers</title>
 </head>
 
-<body class="nav-fixed teachers link-work page">
+<body class="nav-fixed teachers link-teachers page">
 <!--include Main Navigation
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/main-nav.php";  include_once($path); ?>

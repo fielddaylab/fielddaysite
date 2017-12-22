@@ -6,6 +6,7 @@
           <div class="link-col main">
             <h3>field Day</h3>
             <a class="link-home" href="/">Home</a>
+            <a class="link-teachers" href="#">Teachers</a>
             <a class="link-work" href="#">Work with Us</a>
             <a target="_blank" href="https://medium.com/@fielddaylab">blog</a>
           </div>
