@@ -1,16 +1,17 @@
+
 <!--include head
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 <title>Work with Field Day</title>
 </head>
 
-<body class="nav-fixed workwithus link-work">
+<body class="nav-fixed workwithus link-work page">
 <!--include Main Navigation
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/main-nav.php";  include_once($path); ?>
 
   <div id="mainwrapper">
-    <section class="singlehero work_hero">
+    <section class="singlehero page_hero">
       <div class="info">
         <h1 class="corrected">Work with Field Day</h1>
         <p>We partner with researchers, labs and museums to engage the public with innovative digital media like augmented and mixed reality, games, youth digital media production, coding and </p>
@@ -130,7 +131,7 @@
           <!-- Carousel nav -->
       </div>
     </section>
-    <section class="work-facts">
+    <section class="page-facts">
 
       <div class="fact">
         <div class="info">
