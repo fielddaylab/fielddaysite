@@ -1,15 +1,23 @@
 <nav class="small-nav nav-fixed">
-  <ul>
-    <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/fd.png"></a></li>
-    <li class="small-navlink"><a class="drawerleft-toggle">Make</a></li>
-    <li class="small-navlink"><a class="drawertop-toggle">Play</a></li>
-    <li class="small-navlink"><a class="drawerright-toggle">Learn</a></li>
-    <!--<li class="hideforsmall small-navlink"><a class="drawerright-toggle">For Teachers</a></li>-->
-  </ul>
-  <!--<button data-toggle="modal" data-target="#contactModal" class="workwithus button xsmall yellow filled hideforsmall">Work with us</button>-->
-  <a href="/work" class="workwithus button xsmall yellow filled hideforsmall">Work with us</a>
+  <div class="left">
+    <ul>
+      <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/fd.png"></a></li>
+      <li class="small-navlink"><a class="drawerleft-toggle">Make</a></li>
+      <li class="small-navlink"><a class="drawertop-toggle">Play</a></li>
+      <li class="small-navlink"><a class="drawerright-toggle">Learn</a></li>
+    </ul>
+  </div>
+  <div class="right">
+    <ul>
+      <li class="small-navlink hideforsmall"><a href="/teachers">teachers</a></li>
+      <a href="/work" class="workwithus button xsmall yellow filled hideforsmall">Work with us</a>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
+    </ul>
+  </div>
 
-  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
+
+
+
 
 </nav>
 

@@ -317,11 +317,12 @@
 
 .small-nav{
   background: #fff;
+  display:flex;
   position:fixed;
+  justify-content: space-between;
   top:0;
   left:0;
   width: 100%;
-  text-align: left;
   z-index: 1000;
   opacity: 0;
   z-index: 0;
@@ -329,10 +330,15 @@
   transition: opacity .3s ease-in-out;
   box-shadow: 0 0 33px 0 rgba(0,0,0,0.16);
   transform:translateY(-60px);
+  .right {
+    li {
+      border-left: 2px solid $ultralight_gray;
+    }
+
+  }
     &.nav-fixed {
     opacity: 1;
     z-index: 1000;
-    display: block;
     transform:translateY(0px);
   }
   @media #{$break-md} {
@@ -349,11 +355,15 @@
     }
   }
   ul{
+    width:auto;
+    margin-bottom: 0px;
     li {
       display: inline-block;
-      float: left;
-      padding: 10px;
+      padding: 10px 20px;
       border-right: 2px solid $ultralight_gray;
+      @media #{$break-sm} {
+        padding: 10px;
+      }
       a {
         text-transform: uppercase;
         font-size: 12px;
@@ -367,9 +377,7 @@
     }
   }
   .workwithus {
-    float: right;
-    margin-right: 60px;
-    margin-top:5px;
+    margin: 0px 55px 0px 15px;
     @media #{$break-md} {
       margin-top: 1px;
     }
