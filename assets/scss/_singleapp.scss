@@ -2,8 +2,13 @@
   .app-hero {
     height: 100vh;
     background: $black;
+    display:flex;
+    align-items: center;
+    @media #{$break-sm} {
+      height:auto;
+      padding:25vw 0vw 15vw 0vw;
+    }
     .hero-content{
-      @include vertical-align;
       color: #fff;
       width: 80vw;
       margin-left: 10vw;
@@ -33,6 +38,10 @@
             display: inline;
             text-transform: uppercase;
             font-size: 14px;
+            @media #{$break-sm} {
+              font-size:11px;
+              font-weight:600;
+            }
             a {
               font-size: inherit;
               color: #fff;
@@ -62,6 +71,9 @@
           letter-spacing: 2px;
           font-size: 20px;
           width:60vw;
+          @media #{$break-sm} {
+            width:80vw;
+          }
         }
         &.long-title{
           h1,p {
@@ -80,6 +92,9 @@
       .app-description {
           width: 50vw;
           margin-bottom: 20px;
+          @media #{$break-sm} {
+            width:80vw;
+          }
         }
     }
   }
@@ -92,12 +107,18 @@
 
   .app-about {
     padding-top:100px;
+    @media #{$break-sm} {
+      padding-top:0px;
+    }
     h2 {
       text-transform: uppercase;
       font-size: 25px;
       padding-left:0;
       margin-left: 0;
       margin-top: 90px;
+      @media #{$break-sm} {
+        margin-top:20px;
+      }
     }
     ul {
       padding-left: 16px;
@@ -107,17 +128,36 @@
     }
     .about-nav {
       padding-top: 100px;
+      @media #{$break-sm} {
+        padding-top:0px;
+        border-bottom:1px solid $yellow;
+        margin-bottom:30px;
+        @media #{$break-xs} {
+          display:none;
+        }
+      }
       ul {
         padding-left: 0;
+        @media #{$break-sm} {
+          padding: 10px;
+          text-align:center;
+        }
       }
       li {
         text-transform: uppercase;
         cursor:pointer;
         list-style: none;
+        @media #{$break-sm} {
+          display:inline;
+          margin-right:20px;
+        }
       }
     }
     .about-rightpanel {
       padding-left: 80px;
+      @media #{$break-sm} {
+        padding-left:0px;
+      }
     }
   }
 
@@ -188,6 +228,7 @@
     .app-hero{
       background:url(/assets/img/hero-images/hero2.jpg) no-repeat;
       background-size: cover;
+      background-position:center;
     }
   }
   .app-about {
@@ -203,8 +244,9 @@
       display: block;
     }
     .app-hero{
-      background:url(../img/arishero.jpg) no-repeat;
+      background:url(/assets/img/hero-images/arishero.jpg) no-repeat;
       background-size: cover;
+      background-position:center;
     }
     .app-about {
       background: #2C0416;

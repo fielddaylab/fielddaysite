@@ -1,10 +1,5 @@
 .workwithus {
-  .work_hero {
-    height: auto;
-    display:flex;
-    align-items:center;
-    overflow:hidden;
-    background: #ffb3b3; /* Old browsers */
+  .page_hero {
     background: -moz-linear-gradient(-35deg, #ffb3b3 0%, #b8deff 52%, #ffffff 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-35deg, #ffb3b3 0%,#b8deff 52%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(155deg, #ffb3b3 10%,#b8deff 32%,#ffffff 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -170,7 +165,7 @@
             }
           }
           .astronaut {
-            width: 9vw;
+            width: 8vw;
             height: auto;
             position: absolute;
             @media #{$break-sm} {
@@ -182,14 +177,14 @@
             }
             &.one {
               left: 10%;
-              top: 10%;
+              top: 35%;
               @media #{$break-sm} {
                 left: -25%;
               }
             }
             &.two {
-              right: 10%;
-              top: 5%;
+              right: 15%;
+              top: 25%;
               @media #{$break-sm} {
                 right: -25%;
                 top:-8%;
@@ -225,44 +220,6 @@
         background: -webkit-linear-gradient(-45deg, #122D3D 0%,#183E4C 100%); /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(135deg, #122D3D 0%,#183E4C 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122D3D', endColorstr='#183E4C',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-      }
-    }
-  }
-  .work-facts {
-    .fact{
-      display:flex;
-      align-items:center;
-      background: #fff;
-      @media #{$break-sm} {
-        flex-direction:column;
-        &:nth-child(even) {
-          flex-direction:column-reverse;
-        }
-      }
-      >div {
-        width: 50%;
-        @media #{$break-sm} {
-          width:90%;
-        }
-      }
-    }
-
-    .info {
-      padding:8vw;
-      h3{
-        text-transform:uppercase;
-        font-size:30px;
-        margin-top:10px;
-      }
-      img {
-        width:20px;
-        margin-bottom:20px;
-      }
-    }
-    .photo{
-      img {
-        width:100%;
-        height:auto;
       }
     }
   }

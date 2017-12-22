@@ -79,7 +79,7 @@
                 <span class="close-app">
                   <h2>The Crystal Cave</h2>
                   <p class="small">Join the kids from <a class="small" href="http://theyardgames.org" target="_blank">The Yard</a> as they discover how crystals are formed at the molecular level while you dig up some sweet crystals to add to your crystal museum.</p>
-                  <a class="button black" href="http://theyardgames.org" target="_blank">Play Crystal Cave</a>
+                  <a class="button black" href="https://theyardgames.org/game/crystal.html" target="_blank">Play Crystal Cave</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/crystal-thumb.png">

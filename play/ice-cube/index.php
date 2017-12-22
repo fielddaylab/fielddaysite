@@ -1,6 +1,6 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 
-<title>Discover Ice Cube</title>
+<title>Field Day - Discover Ice Cube</title>
 <script>
   function playContent()
   {
@@ -69,7 +69,8 @@ Along the way, you will be able to take in awe inspiring views from the edge of 
       <h2 id="source">Source Code</h2>
       <p>This is a MIT Licensed, Opensource project. We would love to have some help in developing new potentials. Contribute to the code at <a href="https://github.com/fielddaylab/icecube" target="_blank">https://github.com/fielddaylab/atomtouch</a></p>
       <h2 id="funding">Funding</h2>
-      <p>funding info goes here</p>
+      <img src="/assets/img/logos/colored/nsf1.jpg">
+      <p>This project was funded by NSF OPP #1612504</p>
     </div>
   </div>
 </section>

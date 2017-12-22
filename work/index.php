@@ -110,6 +110,8 @@
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Us</button>
                 </div>
                 <div class="graphic">
+                  <img class="astronaut one float" src="/assets/img/illustrations/astronaut1.png">
+                  <img class="astronaut two floatslow" src="/assets/img/illustrations/astronaut2.png">
                   <img class="slideimg" src="/assets/img/illustrations/ship-docked.png">
                 </div>
               </div>

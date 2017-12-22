@@ -1,0 +1,76 @@
+.teachers {
+  .page_hero {
+    background: $blue-black;
+    padding: 10vw 0vw;
+    @media #{$break-sm} {
+      flex-direction: column-reverse;
+      height: auto;
+      padding: 2vw;
+    }
+    .info {
+      color: #fff;
+      width: 50%;
+      padding: 8vw 0vw 8vw 8vw;
+      @media #{$break-sm} {
+        padding:3vw;
+        width:100%;
+      }
+      h1{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 50px;
+        @media #{$break-sm} {
+          font-size:40px;
+        }
+      }
+    }
+    .graphic {
+      width: 50%;
+      @media #{$break-sm} {
+        height: 40vw;
+        width:100%;
+        margin-top:20vw;
+      }
+      .teachernaut{
+        width: 12vw;
+        margin-right:8vw;
+        @media #{$break-sm} {
+          width:25vw;
+        }
+      }
+      .kidstronaut{
+        position:relative;
+        z-index:200;
+        width: 7vw;
+        @media #{$break-sm} {
+          width: 15vw;
+        }
+        &.two {
+          margin-top:-20vw;
+          margin-left:2vw;
+        }
+        &.three{
+          margin-bottom:-20vw;
+        }
+      }
+      .cloud {
+        width: 350px;
+        height: auto;
+        position: absolute;
+        top: 12vw;
+        right:5vw;
+        opacity:0.4;
+        z-index:101;
+        animation: float-horiz 10s ease-in-out infinite;
+        &.two{
+          top:35vw;
+          right:20vw;
+          width:300px;
+          opacity:0.4;
+          z-index:99;
+          animation: float-horiz 6s 6s ease-in-out infinite;
+        }
+      }
+    }
+  }
+}

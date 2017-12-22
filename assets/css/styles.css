@@ -7528,7 +7528,7 @@ button.close {
   color: #086788; }
 
 .blue-black {
-  color: #1D2B37; }
+  color: #1F2E3B; }
 
 .creme {
   color: #F6F6F3; }
@@ -7729,7 +7729,7 @@ hr {
 
 @media only screen and (max-width: 768px) {
   .hide-for-small {
-    display: none; } }
+    display: none !important; } }
 
 body {
   -webkit-font-smoothing: antialiased; }
@@ -9232,13 +9232,14 @@ hr {
   ---------------------------*/ }
   .singleapp .app-hero {
     height: 100vh;
-    background: #222830; }
+    background: #222830;
+    display: flex;
+    align-items: center; }
+    @media only screen and (max-width: 768px) {
+      .singleapp .app-hero {
+        height: auto;
+        padding: 25vw 0vw 15vw 0vw; } }
     .singleapp .app-hero .hero-content {
-      position: relative;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
       color: #fff;
       width: 80vw;
       margin-left: 10vw; }
@@ -9266,6 +9267,10 @@ hr {
             display: inline;
             text-transform: uppercase;
             font-size: 14px; }
+            @media only screen and (max-width: 768px) {
+              .singleapp .app-hero .hero-content .info-panel .breadcrumbs li {
+                font-size: 11px;
+                font-weight: 600; } }
             .singleapp .app-hero .hero-content .info-panel .breadcrumbs li a {
               font-size: inherit;
               color: #fff; }
@@ -9288,6 +9293,9 @@ hr {
           letter-spacing: 2px;
           font-size: 20px;
           width: 60vw; }
+          @media only screen and (max-width: 768px) {
+            .singleapp .app-hero .hero-content .app-info p {
+              width: 80vw; } }
         .singleapp .app-hero .hero-content .app-info.long-title h1, .singleapp .app-hero .hero-content .app-info.long-title p {
           display: block; }
         .singleapp .app-hero .hero-content .app-info.long-title h1 {
@@ -9299,6 +9307,9 @@ hr {
       .singleapp .app-hero .hero-content .app-description {
         width: 50vw;
         margin-bottom: 20px; }
+        @media only screen and (max-width: 768px) {
+          .singleapp .app-hero .hero-content .app-description {
+            width: 80vw; } }
   .singleapp .small-nav {
     transform: translateY(0px);
     opacity: 1;
@@ -9306,26 +9317,51 @@ hr {
     z-index: 500; }
   .singleapp .app-about {
     padding-top: 100px; }
+    @media only screen and (max-width: 768px) {
+      .singleapp .app-about {
+        padding-top: 0px; } }
     .singleapp .app-about h2 {
       text-transform: uppercase;
       font-size: 25px;
       padding-left: 0;
       margin-left: 0;
       margin-top: 90px; }
+      @media only screen and (max-width: 768px) {
+        .singleapp .app-about h2 {
+          margin-top: 20px; } }
     .singleapp .app-about ul {
       padding-left: 16px; }
     .singleapp .app-about li {
       font-size: 14px; }
     .singleapp .app-about .about-nav {
       padding-top: 100px; }
+      @media only screen and (max-width: 768px) {
+        .singleapp .app-about .about-nav {
+          padding-top: 0px;
+          border-bottom: 1px solid #E0BC4E;
+          margin-bottom: 30px; } }
+  @media only screen and (max-width: 768px) and (max-device-width: 400px), only screen and (max-width: 768px) and (max-width: 400px) {
+    .singleapp .app-about .about-nav {
+      display: none; } }
       .singleapp .app-about .about-nav ul {
         padding-left: 0; }
+        @media only screen and (max-width: 768px) {
+          .singleapp .app-about .about-nav ul {
+            padding: 10px;
+            text-align: center; } }
       .singleapp .app-about .about-nav li {
         text-transform: uppercase;
         cursor: pointer;
         list-style: none; }
+        @media only screen and (max-width: 768px) {
+          .singleapp .app-about .about-nav li {
+            display: inline;
+            margin-right: 20px; } }
     .singleapp .app-about .about-rightpanel {
       padding-left: 80px; }
+      @media only screen and (max-width: 768px) {
+        .singleapp .app-about .about-rightpanel {
+          padding-left: 0px; } }
   .singleapp .scroll-locked {
     position: fixed;
     top: 100px; }
@@ -9366,7 +9402,8 @@ hr {
       margin-top: 300px; }
   .singleapp.icecube .app-hero {
     background: url(/assets/img/hero-images/hero2.jpg) no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    background-position: center; }
   .singleapp .app-about {
     margin-bottom: 0px; }
   .singleapp.aris .biglogo {
@@ -9374,8 +9411,9 @@ hr {
     height: auto;
     display: block; }
   .singleapp.aris .app-hero {
-    background: url(../img/arishero.jpg) no-repeat;
-    background-size: cover; }
+    background: url(/assets/img/hero-images/arishero.jpg) no-repeat;
+    background-size: cover;
+    background-position: center; }
   .singleapp.aris .app-about {
     background: #2C0416;
     color: #fff; }
@@ -9846,31 +9884,21 @@ hr {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
 
-.workwithus .work_hero {
+.page .page_hero {
   height: auto;
   display: flex;
   align-items: center;
-  overflow: hidden;
-  background: #ffb3b3;
-  /* Old browsers */
-  background: -moz-linear-gradient(-35deg, #ffb3b3 0%, #b8deff 52%, #ffffff 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(-35deg, #ffb3b3 0%, #b8deff 52%, #ffffff 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(155deg, #ffb3b3 10%, #b8deff 32%, #ffffff 70%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb3b3', endColorstr='#ffffff',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */ }
-  .workwithus .work_hero .info {
+  overflow: hidden; }
+  .page .page_hero .info {
     width: 50%;
     padding: 8vw 0vw 8vw 8vw; }
-    .workwithus .work_hero .info h1 {
+    .page .page_hero .info h1 {
       text-transform: uppercase;
       font-weight: 600;
       font-size: 50px; }
-  .workwithus .work_hero .graphic {
+  .page .page_hero .graphic {
     width: 50%; }
-    .workwithus .work_hero .graphic .cloud {
+    .page .page_hero .graphic .cloud {
       width: 350px;
       height: auto;
       position: absolute;
@@ -9879,14 +9907,14 @@ hr {
       opacity: 0.7;
       z-index: 101;
       animation: float-horiz 10s ease-in-out infinite; }
-      .workwithus .work_hero .graphic .cloud.two {
+      .page .page_hero .graphic .cloud.two {
         top: 28vw;
         right: 20vw;
         width: 300px;
         opacity: 1;
         z-index: 99;
         animation: float-horiz 6s 6s ease-in-out infinite; }
-    .workwithus .work_hero .graphic .spaceplane-illustration {
+    .page .page_hero .graphic .spaceplane-illustration {
       margin: 0 auto;
       height: 70vh;
       display: block;
@@ -9894,7 +9922,138 @@ hr {
       margin-bottom: 4vw;
       position: relative;
       z-index: 100; }
-    .workwithus .work_hero .graphic .exhaustwrap {
+    .page .page_hero .graphic .exhaustwrap {
+      position: absolute;
+      bottom: 10vw;
+      right: 0;
+      z-index: 102; }
+
+.page .page-facts .fact {
+  display: flex;
+  align-items: center;
+  background: #fff; }
+  @media only screen and (max-width: 768px) {
+    .page .page-facts .fact {
+      flex-direction: column; }
+      .page .page-facts .fact:nth-child(even) {
+        flex-direction: column-reverse; } }
+  .page .page-facts .fact > div {
+    width: 50%; }
+    @media only screen and (max-width: 768px) {
+      .page .page-facts .fact > div {
+        width: 90%; } }
+
+.page .page-facts .info {
+  padding: 8vw; }
+  .page .page-facts .info h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 10px; }
+  .page .page-facts .info img {
+    width: 20px;
+    margin-bottom: 20px; }
+
+.page .page-facts .photo img {
+  width: 100%;
+  height: auto; }
+
+.page .threeup {
+  display: flex;
+  padding: 8vw; }
+  @media only screen and (max-width: 768px) {
+    .page .threeup {
+      flex-direction: column; } }
+  .page .threeup .card {
+    padding: 2vw; }
+    .page .threeup .card h2 {
+      margin-left: 0;
+      font-size: 16px;
+      text-transform: uppercase; }
+
+.page .faq {
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 6vw; }
+
+.page #faq {
+  display: flex;
+  align-items: flex-start;
+  padding: 5vw; }
+  @media only screen and (max-width: 768px) {
+    .page #faq {
+      flex-direction: column; } }
+  .page #faq .questions {
+    width: 55%; }
+    @media only screen and (max-width: 768px) {
+      .page #faq .questions {
+        width: 100%; } }
+    .page #faq .questions ul {
+      list-style: none;
+      font-size: 12px;
+      text-indent: 0;
+      margin-left: 0;
+      padding-left: 0;
+      margin-bottom: 20px; }
+      .page #faq .questions ul li {
+        font-size: 16px;
+        margin-bottom: 10px;
+        cursor: pointer; }
+        .page #faq .questions ul li.active {
+          color: #D6A718; }
+  .page #faq .answers {
+    width: 45%; }
+    @media only screen and (max-width: 768px) {
+      .page #faq .answers {
+        width: 100%; } }
+    .page #faq .answers h3 {
+      margin-top: 0;
+      text-transform: uppercase; }
+  .page #faq > div {
+    min-height: 15vw; }
+
+.workwithus .page_hero {
+  background: -moz-linear-gradient(-35deg, #ffb3b3 0%, #b8deff 52%, #ffffff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-35deg, #ffb3b3 0%, #b8deff 52%, #ffffff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(155deg, #ffb3b3 10%, #b8deff 32%, #ffffff 70%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb3b3', endColorstr='#ffffff',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  .workwithus .page_hero .info {
+    width: 50%;
+    padding: 8vw 0vw 8vw 8vw; }
+    .workwithus .page_hero .info h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 50px; }
+  .workwithus .page_hero .graphic {
+    width: 50%; }
+    .workwithus .page_hero .graphic .cloud {
+      width: 350px;
+      height: auto;
+      position: absolute;
+      top: 12vw;
+      right: 5vw;
+      opacity: 0.7;
+      z-index: 101;
+      animation: float-horiz 10s ease-in-out infinite; }
+      .workwithus .page_hero .graphic .cloud.two {
+        top: 28vw;
+        right: 20vw;
+        width: 300px;
+        opacity: 1;
+        z-index: 99;
+        animation: float-horiz 6s 6s ease-in-out infinite; }
+    .workwithus .page_hero .graphic .spaceplane-illustration {
+      margin: 0 auto;
+      height: 70vh;
+      display: block;
+      margin-top: 10vw;
+      margin-bottom: 4vw;
+      position: relative;
+      z-index: 100; }
+    .workwithus .page_hero .graphic .exhaustwrap {
       position: absolute;
       bottom: 10vw;
       right: 0;
@@ -10001,7 +10160,7 @@ hr {
           .workwithus .carousel .carousel-inner .item .graphic .exhaustwrap .exhaust {
             width: 50%; }
         .workwithus .carousel .carousel-inner .item .graphic .astronaut {
-          width: 9vw;
+          width: 8vw;
           height: auto;
           position: absolute; }
           @media only screen and (max-width: 768px) {
@@ -10013,13 +10172,13 @@ hr {
               width: 15vw; } }
           .workwithus .carousel .carousel-inner .item .graphic .astronaut.one {
             left: 10%;
-            top: 10%; }
+            top: 35%; }
             @media only screen and (max-width: 768px) {
               .workwithus .carousel .carousel-inner .item .graphic .astronaut.one {
                 left: -25%; } }
           .workwithus .carousel .carousel-inner .item .graphic .astronaut.two {
-            right: 10%;
-            top: 5%; }
+            right: 15%;
+            top: 25%; }
             @media only screen and (max-width: 768px) {
               .workwithus .carousel .carousel-inner .item .graphic .astronaut.two {
                 right: -25%;
@@ -10069,34 +10228,70 @@ hr {
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122D3D', endColorstr='#183E4C',GradientType=1 );
       /* IE6-9 fallback on horizontal gradient */ }
 
-.workwithus .work-facts .fact {
-  display: flex;
-  align-items: center;
-  background: #fff; }
+.teachers .page_hero {
+  background: #1F2E3B;
+  padding: 10vw 0vw; }
   @media only screen and (max-width: 768px) {
-    .workwithus .work-facts .fact {
-      flex-direction: column; }
-      .workwithus .work-facts .fact:nth-child(even) {
-        flex-direction: column-reverse; } }
-  .workwithus .work-facts .fact > div {
+    .teachers .page_hero {
+      flex-direction: column-reverse;
+      height: auto;
+      padding: 2vw; } }
+  .teachers .page_hero .info {
+    color: #fff;
+    width: 50%;
+    padding: 8vw 0vw 8vw 8vw; }
+    @media only screen and (max-width: 768px) {
+      .teachers .page_hero .info {
+        padding: 3vw;
+        width: 100%; } }
+    .teachers .page_hero .info h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 50px; }
+      @media only screen and (max-width: 768px) {
+        .teachers .page_hero .info h1 {
+          font-size: 40px; } }
+  .teachers .page_hero .graphic {
     width: 50%; }
     @media only screen and (max-width: 768px) {
-      .workwithus .work-facts .fact > div {
-        width: 90%; } }
-
-.workwithus .work-facts .info {
-  padding: 8vw; }
-  .workwithus .work-facts .info h3 {
-    text-transform: uppercase;
-    font-size: 30px;
-    margin-top: 10px; }
-  .workwithus .work-facts .info img {
-    width: 20px;
-    margin-bottom: 20px; }
-
-.workwithus .work-facts .photo img {
-  width: 100%;
-  height: auto; }
+      .teachers .page_hero .graphic {
+        height: 40vw;
+        width: 100%;
+        margin-top: 20vw; } }
+    .teachers .page_hero .graphic .teachernaut {
+      width: 12vw;
+      margin-right: 8vw; }
+      @media only screen and (max-width: 768px) {
+        .teachers .page_hero .graphic .teachernaut {
+          width: 25vw; } }
+    .teachers .page_hero .graphic .kidstronaut {
+      position: relative;
+      z-index: 200;
+      width: 7vw; }
+      @media only screen and (max-width: 768px) {
+        .teachers .page_hero .graphic .kidstronaut {
+          width: 15vw; } }
+      .teachers .page_hero .graphic .kidstronaut.two {
+        margin-top: -20vw;
+        margin-left: 2vw; }
+      .teachers .page_hero .graphic .kidstronaut.three {
+        margin-bottom: -20vw; }
+    .teachers .page_hero .graphic .cloud {
+      width: 350px;
+      height: auto;
+      position: absolute;
+      top: 12vw;
+      right: 5vw;
+      opacity: 0.4;
+      z-index: 101;
+      animation: float-horiz 10s ease-in-out infinite; }
+      .teachers .page_hero .graphic .cloud.two {
+        top: 35vw;
+        right: 20vw;
+        width: 300px;
+        opacity: 0.4;
+        z-index: 99;
+        animation: float-horiz 6s 6s ease-in-out infinite; }
 
 /* Gridder Game Grid
 --------------------------- */
