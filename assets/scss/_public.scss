@@ -284,6 +284,9 @@
 .partners {
   text-align: center;
   background: #fff;
+  .container {
+    max-width: initial;
+  }
   .partner-logos {
     margin-top:75px;
     overflow-x:scroll;
@@ -295,9 +298,9 @@
     img {
       -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
       filter: grayscale(100%);
-      width: 200px;
+      width: 150px;
       height: auto;
-      margin: 20px;
+      margin: 3vw;
       transition: all .3s ease-in-out;
       @media #{$break-sm-xs} {
         width: auto;

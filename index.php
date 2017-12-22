@@ -161,16 +161,29 @@
       <h3 class="centered uppercase">Who we work with</h3>
       <p class="small">We literally work with the most interesting people in the world. </p>
       <div class="partner-logos">
-        <img src="assets/img/partners/harvard.png">
-        <img src="assets/img/partners/harvard.png">
-        <img src="assets/img/partners/harvard.png">
-        <img src="assets/img/partners/harvard.png">
-        <img src="assets/img/partners/harvard.png">
-        <img src="assets/img/partners/harvard.png">
-        <img src="assets/img/partners/harvard.png">
-        <img src="assets/img/partners/harvard.png">
-        <img src="assets/img/partners/harvard.png">
-
+        <img src="/assets/img/logos/partnerlogos/partnerlogo1.jpg">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo2.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo3.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo4.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo5.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo6.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo7.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo8.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo9.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo10.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo11.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo12.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo13.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo14.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo15.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo16.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo17.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo18.jpeg">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo19.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo20.jpg">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo21.jpeg">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo22.jpg">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo23.png">
       </div>
   </div>
   </section>
