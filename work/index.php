@@ -18,8 +18,8 @@
         <a href="#how-we-work" class="button black small">Learn how we work</a>
       </div>
       <div class="graphic">
-        <img class="cloud one hide-for-small" src="/assets/img/illustrations/cloud.png">
-        <img class="cloud two hide-for-small" src="/assets/img/illustrations/cloud.png">
+        <img class="cloud one" src="/assets/img/illustrations/cloud.png">
+        <img class="cloud two" src="/assets/img/illustrations/cloud.png">
 
         <div class="starfield topright">
           <span class="star star1"></span>
@@ -85,7 +85,7 @@
                 </div>
               </div>
               <div class="item">
-                <div class="info">
+                <div class="info color-switch">
                   <span class="">Blast Off</span>
                   <h3>Project Kick-Off to Final Product</h3>
                   <p class="small">You will join us for a 1-2 day kick-off where we clarify the goals and the audience and design direction for our new project. We create a production schedule where you join us frequently. We design, test and evaluate at each phase of the project with you either in person or remotely. Our iterative design process includes our designers, your subject expertise and audience representatives  at each phase of the design. </p>

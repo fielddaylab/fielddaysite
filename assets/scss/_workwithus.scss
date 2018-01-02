@@ -93,8 +93,22 @@
           width:50%;
           padding:8vw;
           margin-top:40px;
+          &.color-switch{
+            @media #{$break-sm} {
+              background: #fff;
+              h3, p{
+                color: $black;
+              }
+              .button {
+                color:$black;
+                border:2px solid $black;
+              }
+            }
+
+          }
           @media #{$break-sm} {
             width:100%;
+            margin-top: 20px;
           }
           span{
             color:#fff;
@@ -121,12 +135,16 @@
           display:flex;
           @media #{$break-sm} {
             height:300px;
+            margin-top:40px;
           }
           &.fixed{
             margin:0;
             margin-bottom: auto;
             height:100vh;
             justify-content: flex-end;
+            @media #{$break-sm} {
+              height:auto;
+            }
           }
           .slideimg{
             margin: 0 auto;
@@ -160,6 +178,7 @@
             @media #{$break-sm} {
               right: -25vw;
               width: 100vw;
+              bottom:5vw;
             }
             .exhaust{
               width:50%;

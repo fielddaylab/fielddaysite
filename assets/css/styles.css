@@ -10115,8 +10115,17 @@ hr {
         padding: 8vw;
         margin-top: 40px; }
         @media only screen and (max-width: 768px) {
+          .workwithus .carousel .carousel-inner .item .info.color-switch {
+            background: #fff; }
+            .workwithus .carousel .carousel-inner .item .info.color-switch h3, .workwithus .carousel .carousel-inner .item .info.color-switch p {
+              color: #222830; }
+            .workwithus .carousel .carousel-inner .item .info.color-switch .button {
+              color: #222830;
+              border: 2px solid #222830; } }
+        @media only screen and (max-width: 768px) {
           .workwithus .carousel .carousel-inner .item .info {
-            width: 100%; } }
+            width: 100%;
+            margin-top: 20px; } }
         .workwithus .carousel .carousel-inner .item .info span {
           color: #fff;
           font-family: 'Merriweather', serif;
@@ -10137,12 +10146,16 @@ hr {
         display: flex; }
         @media only screen and (max-width: 768px) {
           .workwithus .carousel .carousel-inner .item .graphic {
-            height: 300px; } }
+            height: 300px;
+            margin-top: 40px; } }
         .workwithus .carousel .carousel-inner .item .graphic.fixed {
           margin: 0;
           margin-bottom: auto;
           height: 100vh;
           justify-content: flex-end; }
+          @media only screen and (max-width: 768px) {
+            .workwithus .carousel .carousel-inner .item .graphic.fixed {
+              height: auto; } }
         .workwithus .carousel .carousel-inner .item .graphic .slideimg {
           margin: 0 auto;
           height: 70vh;
@@ -10172,7 +10185,8 @@ hr {
           @media only screen and (max-width: 768px) {
             .workwithus .carousel .carousel-inner .item .graphic .exhaustwrap {
               right: -25vw;
-              width: 100vw; } }
+              width: 100vw;
+              bottom: 5vw; } }
           .workwithus .carousel .carousel-inner .item .graphic .exhaustwrap .exhaust {
             width: 50%; }
         .workwithus .carousel .carousel-inner .item .graphic .astronaut {
