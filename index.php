@@ -8,7 +8,6 @@
 
 <!-- start page template -->
 
-
 <div id="mainwrapper">
   <!--hero-->
   <div id="carousel" class="hero carousel slide carousel-fade hero-slider " data-ride="carousel">
@@ -20,7 +19,7 @@
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
               <span class="bullet"></span>
-              <span class="bullet-caption">Discover Ice Cube</span>
+              <span class="bullet-caption">Alien Gardener</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="2">
               <span class="bullet"></span>
@@ -28,37 +27,54 @@
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="3">
               <span class="bullet"></span>
-              <span class="bullet-caption">Field Day</span>
+              <span class="bullet-caption">Siftr</span>
             </li>
         </ul>
       </div>
       <!-- Carousel items -->
       <div class="carousel-inner">
-          <div class="active item">
+        <div class="active item">
+          <div class="info-wrap">
             <span class="grad"></span>
             <div class="item-info">
               <h1 class="main-mark">Field Day</h1>
               <p class="corrected">Building apps and games to help people explore the world, not escape from it.</p>
-              <a href="#" class="button white xsmall">Learn More</a>
+              <a href="#intro" class="button white small">Learn More</a>
             </div>
           </div>
-          <div class="item">
+        </div>
+        <div class="item">
+          <div class="info-wrap">
             <span class="grad"></span>
             <div class="item-info">
-              <h2 class="uppercase">discover Ice Cube</h2>
-              <p class="corrected">Follow a neutrino through interstellar space and learn how the most remote lab in the world learns about black holes.</p>
-              <a href="#" class="button white xsmall">Learn More</a>
+              <h2 class="uppercase">Alien Gardener</h2>
+              <p class="corrected"> You’re humanity’s most important gardener… and it’s up to you to help astronauts survive.</p>
+              <a href="/play/alien-gardener" class="button white small">Learn More</a>
             </div>
           </div>
-          <div class="item">
+        </div>
+        <div class="item">
+          <div class="info-wrap">
             <span class="grad"></span>
             <div class="item-info">
               <h2 class="uppercase">Teacher Fellowships Now Open</h2>
               <p class="corrected">Professional development doesn’t have to be like chewing on sand. plus you get to make games for kids.</p>
-              <a href="#" class="button white xsmall">Discover Teacher Fellowships</a>
+              <a href="https://fielddaylab.wisc.edu/fellowships/" target="_blank" class="button white small">Discover Teacher Fellowships</a>
             </div>
           </div>
-          <div class="item"></div>
+        </div>
+        <div class="item">
+          <div class="info-wrap">
+            <span class="grad"></span>
+            <div class="item-info">
+              <img class="" src="/assets/img/logos/siftr-logo.png">
+              <h2 class="uppercase">Siftr</h2>
+              <p class="corrected">Explore your world, share your discoveries</p>
+              <a class="button small white" href="https://itunes.apple.com/us/app/siftr-explore-your-world/id1169649470?mt=8" target="_blank">Siftr for IOS</a>
+              <a class="button small white" href="https://play.google.com/store/apps/details?id=org.siftr.client&hl=en" target="_blank">Siftr for Android</a>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- Carousel nav -->
   </div>
@@ -68,7 +84,7 @@
   <a class="drawer-toggle drawertop-toggle"><span class="drawer-button"><img src="assets/img/ui/arrow.svg"><p>Play</p></span></a>
   <a class="drawer-toggle drawerright-toggle"><span class="drawer-button"><img src="assets/img/ui/arrow.svg"><p>Learn</p></span></a>-->
 
-  <section id="our_process" class="our_process">
+  <section id="intro" class="our_process">
     <div class="processbg one"></div>
     <div class="process intro">
       <span class="veryslowreveal spacedust one"></span>
@@ -77,7 +93,8 @@
       <div class="intro-content">
         <img class="bg1trigger reveal float" src="assets/img/illustrations/astronaut1.png" class="astronaut">
         <h2 class="light centered uppercase">We are Field Day</h2>
-        <p class="corrected plainreveal big light">What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We make games and apps to help foster that wonder.</p><p class="corrected plainreveal big light">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>
+        <p class="corrected plainreveal big light">What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We make games and apps to help foster that wonder.</p>
+        <!--<p class="corrected plainreveal big light">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>-->
       </div>
       <div class="starfield topright">
         <span class="star star1"></span>

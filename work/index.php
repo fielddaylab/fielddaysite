@@ -14,7 +14,7 @@
     <section class="singlehero page_hero">
       <div class="info">
         <h1 class="corrected">Work with Field Day</h1>
-        <p>We partner with researchers, labs and museums to engage the public with innovative digital media like augmented and mixed reality, games, youth digital media production, coding and </p>
+        <p class="corrected">Ground-breaking research is not reaching enough people. We bring your research to huge audiences through games, virtual reality, and citizen science apps.</p>
         <a href="#how-we-work" class="button black small">Learn how we work</a>
       </div>
       <div class="graphic">
@@ -47,7 +47,7 @@
       </div>
     </section>
     <section id="how-we-work" class="how-we-work">
-      <div id="carousel" class="carousel slide carousel-fade " data-ride="carousel">
+      <div id="carousel" class="reveal carousel slide carousel-fade " data-ride="carousel">
           <div class="slide-wrap">
             <ul class="carousel-indicators slide-bullets">
                 <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
@@ -77,7 +77,7 @@
                 <div class="info">
                   <span class="">Let's talk</span>
                   <h3>It starts with a conversation</h3>
-                  <p class="small">Each project is unique so we like to start with a couple conversations. Share your goals and check out our portfolio. Some things you’ll learn about us: we always include teachers in our projects, we can help find funding.</p>
+                  <p class="small">There's no application or formal boxes to check. We start every project the same way, a conversation. We'll get to know </p>
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Us</button>
                 </div>
                 <div class="graphic">
@@ -140,13 +140,13 @@
           <p class="small">At a bare minimum, we provide real time complex analytics for who, how long and when people play your game or app into every project we do. Our real passion comes from using these games an instruments to measure and understand learning. If the project budget allows, we are able to use this data as part of a larger research and evaluation protocol to understand what and how our audience is learning. These analysis lead to design revisions, academic publications and research grant proposals. </p>
         </div>
         <div class="photo">
-          <img src="/assets/img/hero-images/arishero.jpg">
+          <img src="/assets/img/callouts/teacher-thumb.jpg">
         </div>
       </div>
 
       <div class="fact">
         <div class="photo">
-          <img src="/assets/img/hero-images/arishero.jpg">
+          <img src="/assets/img/callouts/kid-thumb.jpg">
         </div>
         <div class="info">
           <img src="/assets/img/ui/dots.png">
@@ -189,6 +189,9 @@
 
 <script>
   $('.carousel').carousel({interval: false });
+
+  window.sr = ScrollReveal({ duration: 1000, mobile: false});
+  sr.reveal('.reveal', fastreveal, { viewFactor: 0.3 });
 
   $(function() {
 

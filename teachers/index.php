@@ -58,22 +58,28 @@
       <div class="fact">
         <div class="info">
           <img src="/assets/img/ui/dots.png">
-          <h3>We are a Research Lab</h3>
-          <p class="small">At a bare minimum, we provide real time complex analytics for who, how long and when people play your game or app into every project we do. Our real passion comes from using these games an instruments to measure and understand learning. If the project budget allows, we are able to use this data as part of a larger research and evaluation protocol to understand what and how our audience is learning. These analysis lead to design revisions, academic publications and research grant proposals. </p>
+          <h3>Courses and online forumns</h3>
+          <p class="small">Teachers use games and simulations for a reason: they’re awesome! But sometimes it’s hard to know where to start. Get connected with other teachers:
+
+<br><a href="https://fielddaylab.wisc.edu/courses/" target="_blank">Online Courses</a><br>
+
+<a href="https://fielddaylab.org/forums/" target="_blank">Forums</a>
+</p>
         </div>
         <div class="photo">
-          <img src="/assets/img/hero-images/arishero.jpg">
+          <img src="/assets/img/callouts/teacher-thumb2.jpg">
         </div>
       </div>
 
       <div class="fact">
         <div class="photo">
-          <img src="/assets/img/hero-images/arishero.jpg">
+          <img src="/assets/img/callouts/teacher-group.jpg">
         </div>
         <div class="info">
           <img src="/assets/img/ui/dots.png">
-          <h3>What can we build together?</h3>
-          <p class="small">Learning Games - short and long<br>Digital Field Guides<br>VR and AR experiences<br>Citizen Science Apps<br>Museum apps<br>Teacher Fellowships - Partner with us to work directly with a group of teachers.</p>
+          <h3>Join a Fellowship</h3>
+          <p class="small">Our fellowships help teachers bring new, creative ideas to the classroom. How can you get plugged in? Start by getting to know other creative teachers at an event or fellowship. Share resources and join online discussions on our forums. Or just wear a Field Day T-shirt around all the time, like we do. Sign up below to get invites to our fellowships, events and new projects.</p>
+          <a href="https://fielddaylab.wisc.edu/fellowships/" class="button black xsmall" target="_blank">Join a Fellowship</a>
         </div>
       </div>
     </section>

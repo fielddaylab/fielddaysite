@@ -18,13 +18,13 @@
   .carousel-inner {
     .item {
       transition-property: opacity;
-      height: inherit;
-      width: inherit;
+      width: 100%;
+      height: 100vh;
       .grad {
         position:absolute;
         bottom:0;
         left:0;
-        height:80vh;
+        height:100vh;
         width: 100vw;
         display: block;
         background: -webkit-linear-gradient(rgba(16,25,32,0), rgba(16,25,32,1.0)); /* For Safari 5.1 to 6.0 */
@@ -32,8 +32,13 @@
         background: -moz-linear-gradient(rgba(16,25,32,0), rgba(16,25,32,1.0)); /* For Firefox 3.6 to 15 */
         background: linear-gradient(rgba(16,25,32,0), rgba(16,25,32,1.0)); /* Standard syntax */
       }
+      .info-wrap {
+        width: 100%;
+        height: 100vh;
+        display:flex;
+        align-items:center;
+      }
       .item-info {
-        @include vertical-align;
         text-align: center;
         color: #fff;
         z-index:1000;
@@ -70,7 +75,7 @@
     }
 
     .item:nth-child(2) {
-      background: url(../img/hero-images/hero2.jpg) no-repeat;
+      background: url(../img/hero-images/aliengardener.jpg) no-repeat;
       background-size:cover;
       background-position:center;
     }
@@ -82,6 +87,9 @@
     }
 
     .item:nth-child(4) {
+      background: url(../img/hero-images/siftr-header.jpg) no-repeat;
+      background-size:cover;
+      background-position:center;
     }
 
     .item,

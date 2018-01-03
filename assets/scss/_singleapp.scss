@@ -8,10 +8,25 @@
       height:auto;
       padding:25vw 0vw 15vw 0vw;
     }
+    .grad {
+      position:absolute;
+      bottom:0;
+      left:0;
+      height:100vh;
+      width: 100vw;
+      display: block;
+      z-index:10;
+      background: -webkit-linear-gradient(rgba(16,25,32,0), rgba(16,25,32,1.0)); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(rgba(16,25,32,0), rgba(16,25,32,1.0)); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(rgba(16,25,32,0), rgba(16,25,32,1.0)); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(rgba(16,25,32,0), rgba(16,25,32,1.0)); /* Standard syntax */
+    }
     .hero-content{
       color: #fff;
       width: 80vw;
       margin-left: 10vw;
+      position:relative;
+      z-index:100;
       .info-panel {
         margin-bottom: 30px;
         width: 100%;
@@ -68,9 +83,10 @@
         p {
           margin-left: 20px;
           font-family: 'volkhov', serif;
-          letter-spacing: 2px;
-          font-size: 20px;
+          letter-spacing: 1px;
+          font-size: 24px;
           width:60vw;
+          line-height:25px;
           @media #{$break-sm} {
             width:80vw;
           }
@@ -227,6 +243,19 @@
   &.icecube {
     .app-hero{
       background:url(/assets/img/hero-images/hero2.jpg) no-repeat;
+      background-size: cover;
+      background-position:center;
+    }
+  }
+  .app-about {
+    margin-bottom:0px;
+  }
+
+  /* Template for Alien Gardener
+  ---------------------------*/
+  &.aliengardener {
+    .app-hero{
+      background:url(/assets/img/hero-images/aliengardener.jpg) no-repeat;
       background-size: cover;
       background-position:center;
     }

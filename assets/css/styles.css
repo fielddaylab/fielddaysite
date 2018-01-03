@@ -8680,13 +8680,13 @@ section {
 
 .hero-slider .carousel-inner .item {
   transition-property: opacity;
-  height: inherit;
-  width: inherit; }
+  width: 100%;
+  height: 100vh; }
   .hero-slider .carousel-inner .item .grad {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     display: block;
     background: -webkit-linear-gradient(rgba(16, 25, 32, 0), #101920);
@@ -8697,12 +8697,12 @@ section {
     /* For Firefox 3.6 to 15 */
     background: linear-gradient(rgba(16, 25, 32, 0), #101920);
     /* Standard syntax */ }
+  .hero-slider .carousel-inner .item .info-wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center; }
   .hero-slider .carousel-inner .item .item-info {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
     text-align: center;
     color: #fff;
     z-index: 1000;
@@ -8734,12 +8734,17 @@ section {
   background-position: center; }
 
 .hero-slider .carousel-inner .item:nth-child(2) {
-  background: url(../img/hero-images/hero2.jpg) no-repeat;
+  background: url(../img/hero-images/aliengardener.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
 
 .hero-slider .carousel-inner .item:nth-child(3) {
   background: url(../img/hero-images/hero3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.hero-slider .carousel-inner .item:nth-child(4) {
+  background: url(../img/hero-images/siftr-header.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
 
@@ -9239,6 +9244,8 @@ hr {
   ---------------------------*/
   /* Template for Ice Cube
   ---------------------------*/
+  /* Template for Alien Gardener
+  ---------------------------*/
   /* Template for Aris
   ---------------------------*/
   /* Slider CSS
@@ -9252,10 +9259,28 @@ hr {
       .singleapp .app-hero {
         height: auto;
         padding: 25vw 0vw 15vw 0vw; } }
+    .singleapp .app-hero .grad {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      display: block;
+      z-index: 10;
+      background: -webkit-linear-gradient(rgba(16, 25, 32, 0), #101920);
+      /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(rgba(16, 25, 32, 0), #101920);
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(rgba(16, 25, 32, 0), #101920);
+      /* For Firefox 3.6 to 15 */
+      background: linear-gradient(rgba(16, 25, 32, 0), #101920);
+      /* Standard syntax */ }
     .singleapp .app-hero .hero-content {
       color: #fff;
       width: 80vw;
-      margin-left: 10vw; }
+      margin-left: 10vw;
+      position: relative;
+      z-index: 100; }
       .singleapp .app-hero .hero-content .info-panel {
         margin-bottom: 30px;
         width: 100%;
@@ -9303,9 +9328,10 @@ hr {
         .singleapp .app-hero .hero-content .app-info p {
           margin-left: 20px;
           font-family: 'volkhov', serif;
-          letter-spacing: 2px;
-          font-size: 20px;
-          width: 60vw; }
+          letter-spacing: 1px;
+          font-size: 24px;
+          width: 60vw;
+          line-height: 25px; }
           @media only screen and (max-width: 768px) {
             .singleapp .app-hero .hero-content .app-info p {
               width: 80vw; } }
@@ -9415,6 +9441,12 @@ hr {
       margin-top: 300px; }
   .singleapp.icecube .app-hero {
     background: url(/assets/img/hero-images/hero2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center; }
+  .singleapp .app-about {
+    margin-bottom: 0px; }
+  .singleapp.aliengardener .app-hero {
+    background: url(/assets/img/hero-images/aliengardener.jpg) no-repeat;
     background-size: cover;
     background-position: center; }
   .singleapp .app-about {
