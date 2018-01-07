@@ -5,7 +5,7 @@ var mn = $(".small-nav");
     hdr = $('.hero').height();
 
 $(window).scroll(function() {
-  if( $(this).scrollTop() > hdr ) {
+  if( $(this).scrollTop() > 120 ) {
     mn.addClass(mns);
     bd.addClass(mns);
     bd.removeClass('drawerleft-open');

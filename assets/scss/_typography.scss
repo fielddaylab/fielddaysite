@@ -59,7 +59,8 @@ p, a, li{
   &.small {
     font-size: 16px;
     line-height: 29px;
-    letter-spacing:2px;
+    letter-spacing:1.5px;
+    margin-bottom:20px;
     @media #{$break-md} {
       font-size: 12px;
       letter-spacing: 1px;
@@ -69,7 +70,7 @@ p, a, li{
   &.supersmall {
     font-size: 14px;
     line-height: 25px;
-    letter-spacing:2px;
+    letter-spacing:1.5px;
     @media #{$break-md} {
       font-size: 12px;
       letter-spacing: 1px;

@@ -38,8 +38,6 @@
 </p></div>
     <div class="buttons">
       <a target="_blank" href="#app-about" class="button xsmall white filled">Learn More</a>
-      <a target="_blank" href="#app-about" class="button xsmall white">Read the Story</a>
-
     </div>
   </div>
   <span class="grad"></span>
@@ -61,7 +59,7 @@
     </div>
 
     <div id="about" class="col-sm-8 about-rightpanel">
-      <h2>About Alien Gardener</h2>
+      <h2>Alien Gardener</h2> <span class="small comingsoon">Coming soon</span>
       <p>You are a biosphere scientist based on Earth — it’s your job to research optimal growing conditions for an EcoCELL on the alien world. The lives of the astronauts colonizing other planets depends on your success. If you fail, the astronauts are at risk. If you succeed, the colonies of this new planet can grow and flourish.</p>
       <p>While on Earth, you will simulate the growing conditions that the astronaut gardeners experience so you can create experiments to help understand their unique growing conditions. Based on the insights you gain from your experiments, you can recommend that the astronauts adjust variables like water, sunlight, oxygen, soil composition, and more, to improve crop output or to provide some other key benefit.
 </p>

@@ -46,7 +46,7 @@
       <p class="small" >Honestly, a lot of the learning games online are pretty bad. We set out to research great learning games, but the kinds of games we were looking for didn’t even exist. So we make our own games and platforms. Check them out and see what you think. </p>
     </div>
     <div class="card">
-      <h2>Learn how to teachwith games </h2>
+      <h2>Learn how to teach with games </h2>
       <p class="small" >Many online games reduce to flashy quizzes or concepts glued to unrelated activities. Great games allow a kid to explore and experiment with complex concepts in playful contexts.Together, we explore new ways to bring cutting-edge technology and theory to the classroom.</p>
     </div>
     <div class="card">
@@ -59,12 +59,9 @@
         <div class="info">
           <img src="/assets/img/ui/dots.png">
           <h3>Courses and online forumns</h3>
-          <p class="small">Teachers use games and simulations for a reason: they’re awesome! But sometimes it’s hard to know where to start. Get connected with other teachers:
-
-<br><a href="https://fielddaylab.wisc.edu/courses/" target="_blank">Online Courses</a><br>
-
-<a href="https://fielddaylab.org/forums/" target="_blank">Forums</a>
-</p>
+          <p class="small">Teachers use games and simulations for a reason: they’re awesome! But sometimes it’s hard to know where to start. Get connected with other teachers:</p>
+          <a class="button black xsmall" href="https://fielddaylab.wisc.edu/courses/" target="_blank">Online Courses</a>
+          <a class="button black xsmall" href="https://fielddaylab.org/forums/" target="_blank">Forums</a>
         </div>
         <div class="photo">
           <img src="/assets/img/callouts/teacher-thumb2.jpg">
@@ -109,7 +106,7 @@
           </div>
           <div class="item">
             <h3>Yes.</h3>
-            <p class="small" >We know it’s not enough to just offer free resources. We also work to make sure our tools work on the devices you use. We don’t require logins or downloads. Our games work from a browser. Our mobile citizen science and A/R apps require a mobile device. We build our fellowships around the needs and schedules of teachers.
+            <p class="small" >We know it’s not enough to just offer free resources. We also work to make sure our tools work on the devices you use. We don’t require logins or downloads. Our games work from a browser. Our mobile citizen science and AR apps require a mobile device. We build our fellowships around the needs and schedules of teachers.
   </p>
           </div>
           <div class="item">

@@ -150,8 +150,7 @@
                 <span class="close-app">
                   <h2>Siftr</h2>
                   <p class="small">Siftr extends learning beyond your computer, books, classroom walls - preparing people of all ages to learn in the wild. A tool for teachers and curious people. Siftr supports you as you explore the world.</p>
-                  <a class="button black" href="https://itunes.apple.com/us/app/siftr-explore-your-world/id1169649470?mt=8" target="_blank">Siftr for IOS</a>
-                  <a class="button black" href="https://play.google.com/store/apps/details?id=org.siftr.client&hl=en" target="_blank">Siftr for Android</a>
+                  <a class="button black" href="http://siftr.org" target="_blank">Get Siftr</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/hero-images/arishero.jpg">

@@ -7786,7 +7786,8 @@ p, a, li {
   p.small, a.small, li.small {
     font-size: 16px;
     line-height: 29px;
-    letter-spacing: 2px; }
+    letter-spacing: 1.5px;
+    margin-bottom: 20px; }
     @media only screen and (max-width: 1024px) {
       p.small, a.small, li.small {
         font-size: 12px;
@@ -7795,7 +7796,7 @@ p, a, li {
   p.supersmall, a.supersmall, li.supersmall {
     font-size: 14px;
     line-height: 25px;
-    letter-spacing: 2px; }
+    letter-spacing: 1.5px; }
     @media only screen and (max-width: 1024px) {
       p.supersmall, a.supersmall, li.supersmall {
         font-size: 12px;

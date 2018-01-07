@@ -190,9 +190,6 @@
 <script>
   $('.carousel').carousel({interval: false });
 
-  window.sr = ScrollReveal({ duration: 1000, mobile: false});
-  sr.reveal('.reveal', fastreveal, { viewFactor: 0.3 });
-
   $(function() {
 
       // Call Gridder
