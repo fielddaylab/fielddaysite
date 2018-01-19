@@ -79,6 +79,7 @@
           font-size: 50px;
           padding-right: 20px;
           border-right: 2px solid #fff;
+          display:inline-block;
         }
         p {
           margin-left: 20px;
@@ -91,9 +92,16 @@
             width:80vw;
           }
         }
+        .coming-soon{
+          padding:5px;
+          background:#fff;
+          color:$black;
+          border-radius:5px;
+          line-height: 14px;
+        }
         &.long-title{
           h1,p {
-            display:block;
+            display:inline-block;
           }
           h1 {
             border-right:none;
