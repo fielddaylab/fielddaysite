@@ -48,7 +48,7 @@
             <span class="grad"></span>
             <div class="item-info">
               <h2 class="uppercase">Alien Gardener</h2>
-              <p class="corrected"> You’re humanity’s most important gardener. It’s up to you to help astronauts survive.</p>
+              <p class="corrected"> In this game, you’re humanity’s most important gardener. It’s up to you to help astronauts survive.</p>
               <a href="/play/alien-gardener" class="button white small">Learn More</a>
             </div>
           </div>
@@ -58,7 +58,7 @@
             <span class="grad"></span>
             <div class="item-info">
               <h2 class="uppercase">Teacher Fellowships Now Open</h2>
-              <p class="corrected">Professional development for teachers who like to play, make messes, and learn outside the classroom. </p>
+              <p class="corrected">Professional development for teachers who like to play, make messes, and learn outside. </p>
               <a href="https://fielddaylab.wisc.edu/fellowships/" target="_blank" class="button white small">Join a Fellowship</a>
             </div>
           </div>
@@ -69,7 +69,7 @@
             <div class="item-info">
               <img class="" src="/assets/img/logos/siftr-logo.png">
               <h2 class="uppercase"></h2>
-              <p class="corrected">Use Siftr to make fieldwork easy. Siftr organizes data collected in the field and creates beautiful visualizations.</p>
+              <p class="corrected">Use Siftr to make fieldwork easy. Collect data in the field and create beautiful visualizations.</p>
               <a class="button small white" href="https://itunes.apple.com/us/app/siftr-explore-your-world/id1169649470?mt=8" target="_blank">Siftr for IOS</a>
               <a class="button small white" href="https://play.google.com/store/apps/details?id=org.siftr.client&hl=en" target="_blank">Siftr for Android</a>
             </div>
