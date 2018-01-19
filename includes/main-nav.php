@@ -18,9 +18,9 @@
 
 <div class="drawer drawer-left make">
   <div class="drawer-contents">
-    <a href="" class="draweritem drawer-intro"><div class="draweritem-content"><img src="/assets/img/logos/fd-arrow.png" class="nav-thumb"><h2>Make</h2><p>Discover the world, tell meaningful stories, Explore what’s around you. Free, remixable apps by Field Day.</p></div></a>
-    <a target="_blank" href="/make/aris/" style="background: url('/assets/img/thumbnails/bg1.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/aris-logo.png" class="nav-thumb"><h2>Aris</h2><p>Make mobile games, tours and interactive stories and games.</p><span class="go">go</span></div></a>
-    <a target="_blank" href="http://siftr.org" style="background: url('/assets/img/thumbnails/bg5.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/siftr-logo.png" class="nav-thumb"><h2>Siftr</h2><p>Use Siftr to make field research activities easy.</p><span class="go">go</span></div></a>
+    <a href="" class="draweritem drawer-intro"><div class="draweritem-content"><img src="/assets/img/logos/fd-arrow.png" class="nav-thumb"><h2>Make</h2><p>Get your hands dirty. Time to start making. Free, remixable apps by Field Day.</p></div></a>
+    <a target="_blank" href="/make/aris/" style="background: url('/assets/img/thumbnails/bg1.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/aris-logo.png" class="nav-thumb"><h2>Aris</h2><p>Researchers, teachers and students use ARIS to make mobile games, tours and interactive stories.</p><span class="go">go</span></div></a>
+    <a target="_blank" href="http://siftr.org" style="background: url('/assets/img/thumbnails/bg5.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/siftr-logo.png" class="nav-thumb"><h2>Siftr</h2><p>Use Siftr to make fieldwork easy. Got five minutes? Anybody can make a Siftr.</p><span class="go">go</span></div></a>
     <a target="_blank" href="https://nomenproject.org/" style="background: url('/assets/img/thumbnails/bg3.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/nomen-logo.png" class="nav-thumb"><h2>Nomen</h2><p>Create your own digital field guide, no coding required.</p><span class="go">go</span></div></a>
   </div>
 </div>

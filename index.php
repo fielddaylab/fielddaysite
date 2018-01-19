@@ -38,7 +38,7 @@
             <span class="grad"></span>
             <div class="item-info">
               <h1 class="main-mark">Field Day</h1>
-              <p class="corrected">Building apps and games to help people explore the world, not escape from it.</p>
+              <p class="corrected">Sharing research outside the university is crucial. It takes a lot of effort but it still doesn’t reach enough people.</p>
               <a href="#intro" class="button white small">Learn More</a>
             </div>
           </div>
@@ -48,7 +48,7 @@
             <span class="grad"></span>
             <div class="item-info">
               <h2 class="uppercase">Alien Gardener</h2>
-              <p class="corrected"> You’re humanity’s most important gardener… and it’s up to you to help astronauts survive.</p>
+              <p class="corrected"> You’re humanity’s most important gardener. It’s up to you to help astronauts survive.</p>
               <a href="/play/alien-gardener" class="button white small">Learn More</a>
             </div>
           </div>
@@ -58,8 +58,8 @@
             <span class="grad"></span>
             <div class="item-info">
               <h2 class="uppercase">Teacher Fellowships Now Open</h2>
-              <p class="corrected">Professional development doesn’t have to be like chewing on sand. plus you get to make games for kids.</p>
-              <a href="https://fielddaylab.wisc.edu/fellowships/" target="_blank" class="button white small">Discover Teacher Fellowships</a>
+              <p class="corrected">Professional development for teachers who like to play, make messes, and learn outside the classroom. </p>
+              <a href="https://fielddaylab.wisc.edu/fellowships/" target="_blank" class="button white small">Join a Fellowship</a>
             </div>
           </div>
         </div>
@@ -68,8 +68,8 @@
             <span class="grad"></span>
             <div class="item-info">
               <img class="" src="/assets/img/logos/siftr-logo.png">
-              <h2 class="uppercase">Siftr</h2>
-              <p class="corrected">Explore your world, share your discoveries</p>
+              <h2 class="uppercase"></h2>
+              <p class="corrected">Use Siftr to make fieldwork easy. Siftr organizes data collected in the field and creates beautiful visualizations.</p>
               <a class="button small white" href="https://itunes.apple.com/us/app/siftr-explore-your-world/id1169649470?mt=8" target="_blank">Siftr for IOS</a>
               <a class="button small white" href="https://play.google.com/store/apps/details?id=org.siftr.client&hl=en" target="_blank">Siftr for Android</a>
             </div>
@@ -93,7 +93,7 @@
       <div class="intro-content">
         <img class="bg1trigger reveal float" src="assets/img/illustrations/astronaut1.png" class="astronaut">
         <h2 class="light centered uppercase">We are Field Day</h2>
-        <p class="corrected plainreveal big light">What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We make games and apps to help foster that wonder.</p>
+        <p class="corrected plainreveal big light">What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We foster that wonder by creating learning games, virtual reality experiences and citizen science apps. Teachers and subject experts work with us to design fun ways to connect people to research. Our mission is to explain big ideas in playful ways, bridging the gap between the university and the public.</p>
         <!--<p class="corrected plainreveal big light">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>-->
       </div>
       <div class="starfield topright">
@@ -145,13 +145,13 @@
       </div>
       <div class="content-wrap workit-content">
         <div class="cta-card one">
-          <h3>Teach with apps and games</h3>
-          <p class="small">Are you a teacher looking to transform your classroom and build wonder and curiosity with your students?</p>
-          <a class="button black" href="#">Use our stuff</a>
+          <h3>Teach with apps & games</h3>
+          <p class="small">Are you a teachers looking to use games & apps? Take an online course or join a fellowship for Professional Development.</p>
+          <a class="button black" href="#">Get started</a>
         </div>
         <div class="cta-card two">
-          <h3>Make Something awesome with us</h3>
-          <p class="small">Are you a researcher with an idea that will help people? Let’s build something that makes the world better.</p>
+          <h3>Make something with us</h3>
+          <p class="small">Are you from a research lab looking to design public outreach with games, vr experiences, or a citizen science app?</p>
           <a class="button black" href="#">Work with Us</a>
         </div>
       </div>
@@ -214,7 +214,7 @@
   </section>
   <section class="blogs">
     <div class="container">
-      <h2 class="centered uppercase">From the blog</h2>
+      <h2 class="centered uppercase">from the blog</h2>
     </div>
     <div class="row container large">
     <div class="starfield topright">

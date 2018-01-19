@@ -42,24 +42,27 @@
     </section>
     <section class="threeup">
     <div class="card">
-      <h2>Teach with our free apps and games</h2>
-      <p class="small" >Honestly, a lot of the learning games online are pretty bad. We set out to research great learning games, but the kinds of games we were looking for didn’t even exist. So we make our own games and platforms. Check them out and see what you think. </p>
+      <h2>Teach</h2>
+       <p class="small" >Use our free games and apps</p>
+      <p class="small" >We apply the best learning theory from the University of Wisconsin games and learning research to design games for your classroom. Our games and apps are free and available online.</p>
     </div>
     <div class="card">
-      <h2>Learn how to teach with games </h2>
-      <p class="small" >Many online games reduce to flashy quizzes or concepts glued to unrelated activities. Great games allow a kid to explore and experiment with complex concepts in playful contexts.Together, we explore new ways to bring cutting-edge technology and theory to the classroom.</p>
+      <h2>Learn</h2>
+      <p class="small" >Join our courses and fellowships</p>
+      <p class="small" >Use our courses and fellowships to find games and tools that work in your classroom. We want to help you become a master teacher with this new media.</p>
     </div>
     <div class="card">
-      <h2>Connect with Creative Teachers</h2>
-      <p class="small" >We’re building a community of inspired teachers who know how to ignite their students’ curiosity. Good learning games aren’t a way to escape the world but to dive into exploring it.</p>
+      <h2>Connect</h2>
+      <p class="small" >Sign up to get connected</p>
+      <p class="small" >We’re building a community of teachers who are willing to try new things, even when it’s messy. Join Field Day to get updates about meetups, events, fellowships and new games.</p>
     </div>
     </section>
     <section class="page-facts">
       <div class="fact">
         <div class="info">
           <img src="/assets/img/ui/dots.png">
-          <h3>Courses and online forumns</h3>
-          <p class="small">Teachers use games and simulations for a reason: they’re awesome! But sometimes it’s hard to know where to start. Get connected with other teachers:</p>
+          <h3>Courses and forumns</h3>
+          <p class="small">Teachers use games and simulations for a reason: they’re awesome! But sometimes it’s hard to know where to start. Get support by joining our courses and forums.</p>
           <a class="button black xsmall" href="https://fielddaylab.wisc.edu/courses/" target="_blank">Online Courses</a>
           <a class="button black xsmall" href="https://fielddaylab.org/forums/" target="_blank">Forums</a>
         </div>
@@ -74,8 +77,8 @@
         </div>
         <div class="info">
           <img src="/assets/img/ui/dots.png">
-          <h3>Join a Fellowship</h3>
-          <p class="small">Our fellowships help teachers bring new, creative ideas to the classroom. How can you get plugged in? Start by getting to know other creative teachers at an event or fellowship. Share resources and join online discussions on our forums. Or just wear a Field Day T-shirt around all the time, like we do. Sign up below to get invites to our fellowships, events and new projects.</p>
+          <h3>Professional Development</h3>
+          <p class="small">Our program is aligned with the most current research on effective professional development. We recruit a cohort of the best teachers in Wisconsin to participate in a mix of face-to-face and online activities over a period of months. As a teacher fellow, you’ll implement an innovative teaching practice in your classroom. We help teachers leverage new technologies and teaching approaches. Each cohort will produce courses, games or designs that benefit other teachers on a national scale.</p>
           <a href="https://fielddaylab.wisc.edu/fellowships/" class="button black xsmall" target="_blank">Join a Fellowship</a>
         </div>
       </div>

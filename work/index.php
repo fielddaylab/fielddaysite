@@ -14,7 +14,7 @@
     <section class="singlehero page_hero">
       <div class="info">
         <h1 class="corrected">Work with Field Day</h1>
-        <p class="corrected">Ground-breaking research is not reaching enough people. We bring your research to huge audiences through games, virtual reality, and citizen science apps.</p>
+        <p class="corrected">Sharing research outside the university is crucial. It takes a lot of effort but it still doesn’t reach enough people. We bring your research to huge audiences with games, virtual reality experiences and citizen science apps.</p>
         <a href="#how-we-work" class="button black small">Learn how we work</a>
       </div>
       <div class="graphic">
@@ -77,7 +77,7 @@
                 <div class="info">
                   <span class="">Let's talk</span>
                   <h3>It starts with a conversation</h3>
-                  <p class="small">There's no application or formal boxes to check. We start every project the same way, a conversation. We'll get to know </p>
+                  <p class="small">We start every project the same way. A conversation.  While we have specific process, each project is unique and will vary in size, topic and scope. We are sure you have a lot of questions.  Send us an email and we’ll meet over coffee.</p>
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Us</button>
                 </div>
                 <div class="graphic">
@@ -88,7 +88,7 @@
                 <div class="info color-switch">
                   <span class="">Blast Off</span>
                   <h3>Project Kick-Off to Final Product</h3>
-                  <p class="small">You will join us for a 1-2 day kick-off where we clarify the goals and the audience and design direction for our new project. We create a production schedule where you join us frequently. We design, test and evaluate at each phase of the project with you either in person or remotely. Our iterative design process includes our designers, your subject expertise and audience representatives  at each phase of the design. </p>
+                  <p class="small">You’ll join us for a 1-2 day kick-off meeting where we come together as a complete team for the first time. We include three key teams at each phase of the design: our design and research team, audience representatives and you, the subject expert. You will join us frequently during production. We can conduct all the design, testing and evaluation with you either in person or remotely.</p>
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Us</button>
                 </div>
                 <div class="graphic">
@@ -107,7 +107,7 @@
                 <div class="info">
                   <span class="">Distribution</span>
                   <h3>How we get 100s of thousands of plays</h3>
-                  <p class="small">We have a three part strategy for getting big play numbers. First, we give everything we make away to the public for free removing the cost barrier for play. Second we don’t require login for players which allows schools to use our games. Third, we network with public schools, public television, media outlets and large online distributors. Because of this we typically see hundreds of thousands of plays on our projects. <a href="https://datastudio.google.com/open/0B3XkHYR1Or_fMVdxOVZ6M3I2TEE" target="_blank">See live data from the Yard Games:</a></p>
+                  <p class="small">First, we give our games and apps for free to the public, removing the cost barrier for play. Second, we don’t require logins for players, which allows schools to use our games. Third, we network with public schools, public television, media outlets and large online distributors.  <a href="https://datastudio.google.com/open/0B3XkHYR1Or_fMVdxOVZ6M3I2TEE" target="_blank">See live data from the Yard Games</a></p>
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Us</button>
                 </div>
                 <div class="graphic">
@@ -120,7 +120,7 @@
                 <div class="info">
                   <span class="">Evaluation</span>
                   <h3>Learning from Big Data</h3>
-                  <p class="small">At a bare minimum, we provide real time complex analytics for who, how long and when people play your game or app into every project we do. Our real passion comes from using these games an instruments to measure and understand learning. If the project budget allows, we are able to use this data as part of a larger research and evaluation protocol to understand what and how our audience is learning. These analysis lead to design revisions, academic publications and research grant proposals.</p>
+                  <p class="small">We provide real-time analytics so you can see  who, how long and when people play your game or app. We also use these games as instruments to measure and understand learning for our own research. If the project budget allows, we will use this data as part of a larger research and evaluation protocol to understand what and how our audience is learning. This analysis leads to design revisions, academic publications and research grant proposals.</p>
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Us</button>
                 </div>
                 <div class="graphic fixed">
@@ -137,7 +137,7 @@
         <div class="info">
           <img src="/assets/img/ui/dots.png">
           <h3>We are a Research Lab</h3>
-          <p class="small">At a bare minimum, we provide real time complex analytics for who, how long and when people play your game or app into every project we do. Our real passion comes from using these games an instruments to measure and understand learning. If the project budget allows, we are able to use this data as part of a larger research and evaluation protocol to understand what and how our audience is learning. These analysis lead to design revisions, academic publications and research grant proposals. </p>
+          <p class="small">Field Day is an education media research lab within the Wisconsin Center for Education Research at the University of Wisconsin - Madison. Our work lies at the intersection of interactive media and theories of situated and sociocultural learning. In that pursuit, we create new technologies such as augmented and virtual reality, video games, coding platforms and mobile apps that act as research platforms to understand how people learn.</p>
         </div>
         <div class="photo">
           <img src="/assets/img/callouts/teacher-thumb.jpg">
@@ -151,7 +151,7 @@
         <div class="info">
           <img src="/assets/img/ui/dots.png">
           <h3>What can we build together?</h3>
-          <p class="small">Learning Games - short and long<br>Digital Field Guides<br>VR and AR experiences<br>Citizen Science Apps<br>Museum apps<br>Teacher Fellowships - Partner with us to work directly with a group of teachers.</p>
+          <p class="small">Learning Games<br>Digital Field Guides<br>VR & AR experiences<br>Citizen Science Apps<br>Museum apps<br>Teacher Fellowships</p>
         </div>
       </div>
 
@@ -159,7 +159,7 @@
         <div class="info">
           <img src="/assets/img/ui/dots.png">
           <h3>What Does a Game Cost?</h3>
-          <p class="small">The entry point for our games start around $30,000. Where can you find tens or even hundreds of thousands of dollars? Well, we have a plan. We raise money in partnership with you through three methods. The first type of funding we look for is the Broader Impacts on your research grants. We work with you to design the Broader Impacts project and write the section of your grant. The next approach is through local university grants.  And finally if these approaches aren’t available we do a search of options for tech, education and public outreach grants. We work with you to find and write the grants.</p>
+          <p class="small">Our games vary widely in cost. They can take anywhere from a few months to several years to produce. Many labs don’t have this kind of funding, but we have a plan. We partner with you to write the grants that will pay for the project. We start by looking for seed funds available through your organization to develop a game concept. Next we use this concept, complete with sample art and clearly articulated goals, to write public engagement and outreach grants or to write the Broader Impacts or Public Outreach section of your research grant.</p>
         </div>
 
         <div class="photo">

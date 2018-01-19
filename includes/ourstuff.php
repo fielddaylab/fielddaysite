@@ -54,7 +54,7 @@
               <div class="app-info app-pane left">
                 <span class="close-app">
                   <h2>The Yard Games</h2>
-                  <p class="small">The Yard Games are 10-20 minute interactive science games for kids in grades 5-7 to explore, play, and experiment with science. Designed to make complicated systems easier to understand, the games are quick to set up and simple to play. They run on any browser. No complicated user accounts or setup required - just type in the URL theyardgames.org and start playing!</p>
+                  <p class="small">The Yard Games are 10-20 minute interactive science games for kids in grades 5-8 to explore, play, and experiment with science. Designed to make complicated systems easier to understand, the games are quick to set up and simple to play. They run on any browser. No complicated user accounts or setup required.</p>
                   <a class="button black" href="http://theyardgames.org" target="_blank">Play the Yard Games</a>
               </div>
               <div class="app-thumbnail app-pane right">
@@ -66,7 +66,7 @@
               <div class="app-info app-pane left">
                 <span class="close-app">
                   <h2>Atom Touch</h2>
-                  <p class="small">AtomTouch is a molecular simulation app, created through a partnership between UW MRSEC and Field Day Lab, that allows learners to explore principles of thermodynamics and molecular dynamics in an tactile, exploratory way.</p>
+                  <p class="small">Explore the atomic world. Play with these tiny building blocks in Atom Touch. You’ll explore principles of thermodynamics and molecular dynamics as you learn the structures and attributes of particles all the way down at the molecular level.</p>
                   <a class="button black" href="/play/atom-touch" target="_blank">Play Atom Touch</a>
               </div>
               <div class="app-thumbnail app-pane right">
@@ -90,7 +90,7 @@
               <div class="app-info app-pane left">
                 <span class="close-app">
                   <h2>The N Game</h2>
-                  <p class="small">Learn about the Nitrogen Cycle in this exciting board game! Players move their Nitrogen (N) tokens on the game board through the various “pools” (chemical forms) of the Nitrogen Cycle and back to the starting N2 pool. When one player has moved three of his/her N tokens through the cycle and back to N2, the game is over, and total scores determine the winner.</p>
+                  <p class="small">Learn about the Nitrogen Cycle in this exciting board game! The N Game takes about an hour to play. Designed originally for a college level course, but simple enough for middle and high school students.</p>
                   <a class="button black" href="https://www.thegamecrafter.com/games/the-n-game" target="_blank">Order the N Game</a>
               </div>
               <div class="app-thumbnail app-pane right">
@@ -116,7 +116,7 @@
               <div class="app-info app-pane left">
                 <span class="close-app">
                   <h2>ARIS</h2>
-                  <p class="small">Create mobile games, tours and interactive stories with ARIS games. Players experience a hybrid world of virtual characters and media in physical space. With ARIS, you can build an interactive story, tour or game that takes the player Players can complete quests, collect items, and talk to virtual characters, all while exploring the world around them.</p>
+                  <p class="small">Create mobile games, tours and interactive stories with ARIS games. Players experience a hybrid world of virtual characters and media in physical space. Anyone who can read can play and design these games. Used in classrooms or informally. IOS device required.</p>
                   <a class="button black" href="/make/aris" target="_blank">Make a game with ARIS</a>
               </div>
               <div class="app-thumbnail app-pane right">
@@ -128,7 +128,7 @@
               <div class="app-info app-pane left">
                 <span class="close-app">
                   <h2>Ice Cube</h2>
-                  <p class="small">The IceCube VR experience puts you in the role of an astrophysicist who journeys deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica. At the research station at the South Pole, you will see the large instrument, buried in the ice, detect a mesage from across the universe. Using your “impossibility drive,” you will follow the neutrinos path back to the black hole it was emitted from.</p>
+                  <p class="small">The IceCube Virtual Reality experience puts you in the role of an astrophysicist. You will journey deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica. Players learn about the IceCube observatory at the South Pole and the neutrinos they detect. Play the the Wisconsin Institute for Discovery in Madison WI or download for your own VR device.</p>
                   <a class="button black" href="/play/ice-cube" target="_blank">Learn about Ice Cube</a>
               </div>
               <div class="app-thumbnail app-pane right">
@@ -149,7 +149,7 @@
               <div class="app-info app-pane left">
                 <span class="close-app">
                   <h2>Siftr</h2>
-                  <p class="small">Siftr extends learning beyond your computer, books, classroom walls - preparing people of all ages to learn in the wild. A tool for teachers and curious people. Siftr supports you as you explore the world.</p>
+                  <p class="small">Use Siftr to make fieldwork activities easy. Teachers take 5 minutes to create a Siftr and students use mobile devices to collect data and observations outside of the classroom. Siftr helps you focus students, organizes their data and creates automatic visualizations to facilitate discussions in classrooms or online.</p>
                   <a class="button black" href="http://siftr.org" target="_blank">Get Siftr</a>
               </div>
               <div class="app-thumbnail app-pane right">

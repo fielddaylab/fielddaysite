@@ -37,7 +37,7 @@
   <div class="row container">
     <div class="col-md-6 intro-text">
       <h2>What can I build with ARIS?</h2>
-      <p class="small">With ARIS, you can build an interactive story, tour or game that takes the player Players can complete quests, collect items, and talk to virtual characters, all while exploring the world around them. </p>
+      <p class="small">With ARIS, you can build an interactive story, tour or game. Players can complete quests, collect items, and talk to virtual characters, all while exploring the world around them. </p>
       <a href="https://itunes.apple.com/ca/app/aris/id371788434?mt=8" target="_blank" class="button black xsmall">get ARIS</a>
     </div>
     <div class="col-md-6">
