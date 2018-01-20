@@ -59,7 +59,7 @@ p, a, li{
   &.small {
     font-size: 16px;
     line-height: 29px;
-    letter-spacing:1.5px;
+    letter-spacing:1px;
     margin-bottom:20px;
     @media #{$break-md} {
       font-size: 12px;

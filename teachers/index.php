@@ -13,7 +13,7 @@
     <section class="singlehero page_hero">
       <div class="info">
         <h1 class="corrected">Field Day is for teachers</h1>
-        <p>Games aren’t just entertainment. They help kids learn. Join a community of teachers who teach with games.</p>
+        <p class="corrected">Games aren’t just entertainment. They help kids learn. Join a community of teachers who teach with games.</p>
         <a href="#how-we-work" class="button white small">Learn More</a>
       </div>
       <div class="graphic">
@@ -21,13 +21,6 @@
         <img class="cloud two hide-for-small" src="/assets/img/illustrations/cloud.png">
 
         <div class="starfield topright hide-for-small">
-          <span class="star star1"></span>
-          <span class="star star2"></span>
-          <span class="star star3"></span>
-          <span class="star star4"></span>
-          <span class="star star5"></span>
-        </div>
-        <div class="starfield topleft big hide-for-small">
           <span class="star star1"></span>
           <span class="star star2"></span>
           <span class="star star3"></span>
@@ -43,7 +36,7 @@
     <section class="threeup">
     <div class="card">
       <h2>Teach</h2>
-       <p class="small" >Use our free games and apps</p>
+       <h3>Use our free games and apps</h3>
       <p class="small" >We apply the best learning theory from the University of Wisconsin games and learning research to design games for your classroom. Our games and apps are free and available online.</p>
     </div>
     <div class="card">

@@ -11,6 +11,12 @@
   @media #{$break-sm-xs} {
     background: #101920;
   }
+  .header{
+    background:#101920;
+    h2{
+      margin-bottom:0;
+    }
+  }
   .workit-content{
     background:url(../img/illustrations/space-fade.png);
     background-position: top center;
