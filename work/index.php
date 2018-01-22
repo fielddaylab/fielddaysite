@@ -77,7 +77,7 @@
                 <div class="info">
                   <span class="">Let's talk</span>
                   <h3>It starts with a conversation</h3>
-                  <p class="small">We start every project the same way. A conversation.  While we have specific process, each project is unique and will vary in size, topic and scope. We are sure you have a lot of questions.  Send us an email and we’ll meet over coffee.</p>
+                  <p class="small">We start every project the same way. A conversation.  While we have specific processes, each project is unique. We want to hear your ideas! Send us an email and we’ll meet over coffee.</p>
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Us</button>
                 </div>
                 <div class="graphic">
@@ -88,7 +88,7 @@
                 <div class="info color-switch">
                   <span class="">Blast Off</span>
                   <h3>Project Kick-Off to Final Product</h3>
-                  <p class="small">You’ll join us for a 1-2 day kick-off meeting where we come together as a complete team for the first time. We include three key teams at each phase of the design: our design and research team, audience representatives and you, the subject expert. You will join us frequently during production. We can conduct all the design, testing and evaluation with you either in person or remotely.</p>
+                  <p class="small">You’ll join us for a 1-2 day kick-off event where we come together as a team for the first time. We include three key teams at each phase of the design: our design and research team, audience representatives and you, the subject expert. You will join us frequently during production. We can conduct all the design, testing and evaluation with you either in person or remotely.</p>
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Us</button>
                 </div>
                 <div class="graphic">
@@ -106,7 +106,7 @@
               <div class="item">
                 <div class="info">
                   <span class="">Distribution</span>
-                  <h3>How we get 100s of thousands of plays</h3>
+                  <h3>We get hundreds of thousands of plays</h3>
                   <p class="small">First, we give our games and apps for free to the public, removing the cost barrier for play. Second, we don’t require logins for players, which allows schools to use our games. Third, we network with public schools, public television, media outlets and large online distributors.  <a href="https://datastudio.google.com/open/0B3XkHYR1Or_fMVdxOVZ6M3I2TEE" target="_blank">See live data from the Yard Games</a></p>
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Us</button>
                 </div>
