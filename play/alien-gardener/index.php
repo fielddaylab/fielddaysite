@@ -29,8 +29,7 @@
       <img class="logo-small" src="/assets/img/logos/aliengardener.png"></span>
     </div>
     <div class="app-info long-title">
-      <h1 class="app-title">Alien Gardener</h1><span class="coming soon">coming soon</span><br>
-
+      <h1 class="app-title">Alien Gardener</h1><span class="coming-soon">coming soon</span><br>
       <p class="app-tag"> You’re humanity’s most important gardener… and it’s up to you to help astronauts survive.</p>
     </div>
     <div class="app-description"><p class="small">You are a biosphere scientist based on Earth — it’s your job to research optimal growing conditions for an EcoCELL on the alien world. The lives of the astronauts colonizing other planets depends on your success. If you fail, the astronauts are at risk. If you succeed, the colonies of this new planet can grow and flourish.</p></div>

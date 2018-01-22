@@ -131,8 +131,10 @@
   </section>
   <section id="workit" class="workit">
     <div class="section-container">
-      <div class="content-wrap spaceplane-wrap">
+      <div class="header">
         <h2 class="light bright centered uppercase">Get involved</h2>
+      </div>
+      <div class="content-wrap spaceplane-wrap">
         <img class="spaceplane-illustration" src="assets/img/illustrations/spaceplane-vertical.png">
         <div class="exhaustwrap">
           <img class="exhaust one" src="assets/img/illustrations/exhaust.png">

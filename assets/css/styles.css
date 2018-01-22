@@ -7786,7 +7786,7 @@ p, a, li {
   p.small, a.small, li.small {
     font-size: 16px;
     line-height: 29px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     margin-bottom: 20px; }
     @media only screen and (max-width: 1024px) {
       p.small, a.small, li.small {
@@ -9268,13 +9268,13 @@ hr {
       width: 100vw;
       display: block;
       z-index: 10;
-      background: -webkit-linear-gradient(rgba(16, 25, 32, 0), #101920);
+      background: -webkit-linear-gradient(rgba(16, 25, 32, 0.2), #101920);
       /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(rgba(16, 25, 32, 0), #101920);
+      background: -o-linear-gradient(rgba(16, 25, 32, 0.2), #101920);
       /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(rgba(16, 25, 32, 0), #101920);
+      background: -moz-linear-gradient(rgba(16, 25, 32, 0.2), #101920);
       /* For Firefox 3.6 to 15 */
-      background: linear-gradient(rgba(16, 25, 32, 0), #101920);
+      background: linear-gradient(rgba(16, 25, 32, 0.2), #101920);
       /* Standard syntax */ }
     .singleapp .app-hero .hero-content {
       color: #fff;
@@ -9316,7 +9316,7 @@ hr {
               .singleapp .app-hero .hero-content .info-panel .breadcrumbs li a:hover {
                 opacity: 0.7; }
       .singleapp .app-hero .hero-content .app-info {
-        margin-bottom: 20px; }
+        margin-bottom: 10px; }
         .singleapp .app-hero .hero-content .app-info h1, .singleapp .app-hero .hero-content .app-info p {
           display: inline;
           vertical-align: middle; }
@@ -9325,19 +9325,28 @@ hr {
           font-weight: 600;
           font-size: 50px;
           padding-right: 20px;
-          border-right: 2px solid #fff; }
+          border-right: 2px solid #fff;
+          display: inline-block; }
         .singleapp .app-hero .hero-content .app-info p {
           margin-left: 20px;
-          font-family: 'volkhov', serif;
+          font-family: 'Crete Round', serif;
+          font-style: italic;
           letter-spacing: 1px;
           font-size: 24px;
           width: 60vw;
-          line-height: 25px; }
+          line-height: 30px; }
           @media only screen and (max-width: 768px) {
             .singleapp .app-hero .hero-content .app-info p {
               width: 80vw; } }
+        .singleapp .app-hero .hero-content .app-info .coming-soon {
+          padding: 5px;
+          background: #fff;
+          color: #222830;
+          border-radius: 5px;
+          display: inline-block; }
         .singleapp .app-hero .hero-content .app-info.long-title h1, .singleapp .app-hero .hero-content .app-info.long-title p {
-          display: block; }
+          display: inline-block;
+          margin: 10px 0px 0px 0px; }
         .singleapp .app-hero .hero-content .app-info.long-title h1 {
           border-right: none;
           margin-bottom: 0px; }
@@ -9585,6 +9594,10 @@ hr {
   @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
     .workit {
       background: #101920; } }
+  .workit .header {
+    background: #101920; }
+    .workit .header h2 {
+      margin-bottom: 0; }
   .workit .workit-content {
     background: url(../img/illustrations/space-fade.png);
     background-position: top center;
@@ -10129,7 +10142,8 @@ hr {
       display: flex;
       align-items: center;
       overflow: hidden;
-      align-items: center; }
+      align-items: center;
+      z-index: 10; }
       @media only screen and (max-width: 768px) {
         .workwithus .carousel .carousel-inner .item {
           overflow: visible;
@@ -10139,7 +10153,8 @@ hr {
       .workwithus .carousel .carousel-inner .item.active {
         position: absolute;
         top: 0;
-        left: 0; }
+        left: 0;
+        z-index: 11; }
         @media only screen and (max-width: 768px) {
           .workwithus .carousel .carousel-inner .item.active {
             position: relative; } }
@@ -10249,24 +10264,24 @@ hr {
     .workwithus .carousel .carousel-inner .item:nth-child(1) {
       background: #92cdf0;
       /* Old browsers */
-      background: -moz-linear-gradient(-45deg, #92cdf0 0%, #53cbf1 40%, #528bb2 100%);
+      background: -moz-linear-gradient(-45deg, #528bb2 0%, #92cdf0 100%);
       /* FF3.6-15 */
-      background: -webkit-linear-gradient(-45deg, #92cdf0 0%, #53cbf1 40%, #528bb2 100%);
+      background: -webkit-linear-gradient(-45deg, #528bb2 0%, #92cdf0 100%);
       /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(135deg, #92cdf0 0%, #53cbf1 40%, #528bb2 100%);
+      background: linear-gradient(135deg, #528bb2 0%, #92cdf0 100%);
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92cdf0', endColorstr='#528bb2',GradientType=1 );
       /* IE6-9 fallback on horizontal gradient */ }
     .workwithus .carousel .carousel-inner .item:nth-child(2) {
       background: #8d90bf;
       /* Old browsers */
-      background: -moz-linear-gradient(-45deg, #8d90bf 0%, #ffffff 100%);
+      background: -moz-linear-gradient(-45deg, #6D72B5 0%, #ffffff 100%);
       /* FF3.6-15 */
-      background: -webkit-linear-gradient(-45deg, #8d90bf 0%, #ffffff 100%);
+      background: -webkit-linear-gradient(-45deg, #6D72B5 0%, #ffffff 100%);
       /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(135deg, #8d90bf 0%, #ffffff 100%);
+      background: linear-gradient(135deg, #6D72B5 0%, #ffffff 100%);
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d90bf', endColorstr='#ffffff',GradientType=1 );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6D72B5', endColorstr='#ffffff',GradientType=1 );
       /* IE6-9 fallback on horizontal gradient */ }
     .workwithus .carousel .carousel-inner .item:nth-child(3) {
       background: #8d90bf;
@@ -10292,7 +10307,16 @@ hr {
       /* IE6-9 fallback on horizontal gradient */ }
 
 .teachers .page_hero {
-  background: #1F2E3B;
+  background: #8d90bf;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #122D3D 0%, #183E4C 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #122D3D 0%, #183E4C 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #122D3D 0%, #183E4C 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122D3D', endColorstr='#183E4C',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
   padding: 10vw 0vw; }
   @media only screen and (max-width: 768px) {
     .teachers .page_hero {

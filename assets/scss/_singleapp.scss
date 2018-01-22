@@ -16,10 +16,10 @@
       width: 100vw;
       display: block;
       z-index:10;
-      background: -webkit-linear-gradient(rgba(16,25,32,0), rgba(16,25,32,1.0)); /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(rgba(16,25,32,0), rgba(16,25,32,1.0)); /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(rgba(16,25,32,0), rgba(16,25,32,1.0)); /* For Firefox 3.6 to 15 */
-      background: linear-gradient(rgba(16,25,32,0), rgba(16,25,32,1.0)); /* Standard syntax */
+      background: -webkit-linear-gradient(rgba(16,25,32,0.2), rgba(16,25,32,1.0)); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(rgba(16,25,32,0.2), rgba(16,25,32,1.0)); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(rgba(16,25,32,0.2), rgba(16,25,32,1.0)); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(rgba(16,25,32,0.2), rgba(16,25,32,1.0)); /* Standard syntax */
     }
     .hero-content{
       color: #fff;
@@ -68,7 +68,7 @@
         }
       }
       .app-info {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         h1, p {
           display: inline;
           vertical-align: middle;
@@ -79,21 +79,32 @@
           font-size: 50px;
           padding-right: 20px;
           border-right: 2px solid #fff;
+          display:inline-block;
         }
         p {
           margin-left: 20px;
-          font-family: 'volkhov', serif;
+          font-family: 'Crete Round', serif;
+          font-style:italic;
           letter-spacing: 1px;
           font-size: 24px;
           width:60vw;
-          line-height:25px;
+          line-height:30px;
           @media #{$break-sm} {
             width:80vw;
           }
         }
+        .coming-soon{
+          padding:5px;
+          background:#fff;
+          color:$black;
+          border-radius:5px;
+          display:inline-block;
+
+        }
         &.long-title{
           h1,p {
-            display:block;
+            display:inline-block;
+            margin:10px 0px 0px 0px;
           }
           h1 {
             border-right:none;

@@ -1,6 +1,10 @@
 .teachers {
   .page_hero {
-    background: $blue-black;
+    background: #8d90bf; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #122D3D 0%, #183E4C 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #122D3D 0%,#183E4C 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #122D3D 0%,#183E4C 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122D3D', endColorstr='#183E4C',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     padding: 10vw 0vw;
     @media #{$break-sm} {
       flex-direction: column-reverse;
