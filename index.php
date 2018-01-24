@@ -39,7 +39,7 @@
             <div class="item-info">
               <h1 class="main-mark">Field Day</h1>
               <p class="corrected">Games are a magical way to share research from the university to the public.</p>
-              <a href="#intro" class="button white small">Get Involved</a>
+              <a href="#intro" class="button white small">Get Started</a>
             </div>
           </div>
         </div>
