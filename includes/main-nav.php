@@ -10,7 +10,7 @@
   <div class="right">
     <ul>
       <li class="small-navlink hideforsmall"><a href="/teachers">teachers</a></li>
-      <a href="/work" class="workwithus button xsmall yellow filled hideforsmall">Work with us</a>
+      <span class="worklink"></span>
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
     </ul>
   </div>

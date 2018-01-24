@@ -126,3 +126,12 @@ $(window).scroll(function () {
 });
 
 $('.corrected').buddySystem();
+
+$(document).ready(function(){
+  if ($("body").hasClass("workwithus")){
+    $('.worklink').append('<button data-toggle="modal" data-target="#contactModal" class="workwithus button xsmall yellow filled hideforsmall">Schedule a meeting</button>');
+  }
+  else {
+    $('.worklink').append('<a href="/work" class="workwithus button xsmall yellow filled hideforsmall">Work with us</a>');
+  }
+});
