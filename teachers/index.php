@@ -33,7 +33,7 @@
         <img class="kidstronaut three floatslow" src="/assets/img/illustrations/kidstronaut3.png">
       </div>
     </section>
-    <section class="threeup">
+    <section id="how-we-work" class="threeup">
     <div class="card">
       <h2>Teach</h2>
        <h3>Use our free games and apps</h3>
