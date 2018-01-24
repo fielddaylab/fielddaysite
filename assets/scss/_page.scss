@@ -97,10 +97,20 @@
     }
     .card {
       padding: 2vw;
+      width:33%;
       h2 {
         margin-left: 0;
-        font-size: 16px;
+        font-size: 20px;
         text-transform:uppercase;
+        margin-bottom: 5px;
+      }
+      h3{
+        font-family: 'Crete Round', serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size:16px;
+        margin-top:15px;
+        line-height:25px;
       }
     }
   }

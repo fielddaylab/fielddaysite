@@ -10025,11 +10025,20 @@ hr {
     .page .threeup {
       flex-direction: column; } }
   .page .threeup .card {
-    padding: 2vw; }
+    padding: 2vw;
+    width: 33%; }
     .page .threeup .card h2 {
       margin-left: 0;
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 5px; }
+    .page .threeup .card h3 {
+      font-family: 'Crete Round', serif;
+      font-weight: 400;
+      font-style: italic;
       font-size: 16px;
-      text-transform: uppercase; }
+      margin-top: 15px;
+      line-height: 25px; }
 
 .page .faq {
   max-width: 1500px;

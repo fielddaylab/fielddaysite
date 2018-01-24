@@ -41,12 +41,12 @@
     </div>
     <div class="card">
       <h2>Learn</h2>
-      <p class="small" >Join our courses and fellowships</p>
+      <h3>Join our courses and fellowships</h3>
       <p class="small" >Use our courses and fellowships to find games and tools that work in your classroom. We want to help you become a master teacher with this new media.</p>
     </div>
     <div class="card">
       <h2>Connect</h2>
-      <p class="small" >Sign up to get connected</p>
+      <h3>Sign up to get connected</h3>
       <p class="small" >We’re building a community of teachers who are willing to try new things, even when it’s messy. Join Field Day to get updates about meetups, events, fellowships and new games.</p>
     </div>
     </section>

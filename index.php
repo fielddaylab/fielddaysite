@@ -148,12 +148,12 @@
         <div class="cta-card one">
           <h3>Teach with apps & games</h3>
           <p class="small">Are you a teacher looking to use games & apps? Take an online course or join a fellowship for Professional Development.</p>
-          <a class="button black" href="#">Get started</a>
+          <a class="button black" href="/teachers">Get started</a>
         </div>
         <div class="cta-card two">
           <h3>Make something with us</h3>
           <p class="small">Are you from a research lab looking to design public outreach with games, a virtual reality experience, or a citizen science app?</p>
-          <a class="button black" href="#">Work with Us</a>
+          <a class="button black" href="/work">Work with Us</a>
         </div>
       </div>
     </div>
