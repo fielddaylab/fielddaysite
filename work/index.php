@@ -106,11 +106,8 @@
               <div class="item">
                 <div class="info">
                   <span class="">Distribution</span>
-<<<<<<< HEAD
                   <h3>We get hundreds of thousands of plays</h3>
-                  <p class="small">First, we give our games and apps for free to the public, removing the cost barrier for play. Second, we don’t require logins for players, which allows schools to use our games. Third, we network with public schools, public television, media outlets and large online distributors.  <a href="https://datastudio.google.com/open/0B3XkHYR1Or_fMVdxOVZ6M3I2TEE" target="_blank">See live data from the Yard Games</a></p>
-=======
-                  
+                  <p class="small">First, we give our games and apps for free to the public, removing the cost barrier for play. Second, we don’t require logins for players, which allows schools to use our games. Third, we network with public schools, public television, media outlets and large online distributors.  <a href="https://datastudio.google.com/open/0B3XkHYR1Or_fMVdxOVZ6M3I2TEE" target="_blank">See live data from the Yard Games</a></p>  
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Schedule a Meeting</button>
                 </div>
                 <div class="graphic">
