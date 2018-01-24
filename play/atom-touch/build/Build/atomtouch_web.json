@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 402653184,
+"dataUrl": "atomtouch_web.data.unityweb",
+"asmCodeUrl": "atomtouch_web.asm.code.unityweb",
+"asmMemoryUrl": "atomtouch_web.asm.memory.unityweb",
+"asmFrameworkUrl": "atomtouch_web.asm.framework.unityweb",
+"splashScreenStyle": "Light",
+"backgroundColor": "#FFFFFF"
+}
