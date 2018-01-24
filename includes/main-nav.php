@@ -9,8 +9,8 @@
   </div>
   <div class="right">
     <ul>
-      <li class="small-navlink hideforsmall"><a href="/teachers">teachers</a></li>
-      <span class="worklink"></span>
+      <li class="small-navlink hide-for-nav"><a href="/teachers">teachers</a></li>
+      <span class="worklink hide-for-nav"></span>
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
     </ul>
   </div>

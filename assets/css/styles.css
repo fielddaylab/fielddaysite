@@ -7731,6 +7731,10 @@ hr {
   .hide-for-small {
     display: none !important; } }
 
+@media only screen and (max-device-width: 800px), only screen and (max-width: 800px) {
+  .hide-for-nav {
+    display: none !important; } }
+
 body {
   -webkit-font-smoothing: antialiased; }
 
@@ -10025,8 +10029,7 @@ hr {
     .page .threeup {
       flex-direction: column; } }
   .page .threeup .card {
-    padding: 2vw;
-    width: 33%; }
+    padding: 2vw; }
     .page .threeup .card h2 {
       margin-left: 0;
       font-size: 20px;
@@ -10093,10 +10096,17 @@ hr {
   .workwithus .page_hero .info {
     width: 50%;
     padding: 8vw 0vw 8vw 8vw; }
+    @media only screen and (max-width: 768px) {
+      .workwithus .page_hero .info {
+        width: 70%;
+        padding: 14vw 0vw 8vw 8vw; } }
     .workwithus .page_hero .info h1 {
       text-transform: uppercase;
       font-weight: 600;
       font-size: 50px; }
+      @media only screen and (max-width: 768px) {
+        .workwithus .page_hero .info h1 {
+          font-size: 40px; } }
   .workwithus .page_hero .graphic {
     width: 50%; }
     .workwithus .page_hero .graphic .cloud {
@@ -10128,6 +10138,15 @@ hr {
       bottom: 10vw;
       right: 0;
       z-index: 102; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .workwithus .page_hero .graphic .exhaustwrap {
+          bottom: 10vw;
+          right: 0; } }
+      @media only screen and (max-device-width: 400px), only screen and (max-width: 400px) {
+        .workwithus .page_hero .graphic .exhaustwrap {
+          right: -75%;
+          width: 115vw;
+          bottom: 16vw; } }
 
 .workwithus .carousel {
   height: 100vh; }

@@ -18,8 +18,8 @@
         <a href="#how-we-work" class="button black small">Learn how we work</a>
       </div>
       <div class="graphic">
-        <img class="cloud one" src="/assets/img/illustrations/cloud.png">
-        <img class="cloud two" src="/assets/img/illustrations/cloud.png">
+        <img class="hideforsmall cloud one" src="/assets/img/illustrations/cloud.png">
+        <img class="hideforsmall cloud two" src="/assets/img/illustrations/cloud.png">
 
         <div class="starfield topright">
           <span class="star star1"></span>
@@ -107,7 +107,7 @@
                 <div class="info">
                   <span class="">Distribution</span>
                   <h3>We get hundreds of thousands of plays</h3>
-                  <p class="small">First, we give our games and apps for free to the public, removing the cost barrier for play. Second, we don’t require logins for players, which allows schools to use our games. Third, we network with public schools, public television, media outlets and large online distributors.  <a href="https://datastudio.google.com/open/0B3XkHYR1Or_fMVdxOVZ6M3I2TEE" target="_blank">See live data from the Yard Games</a></p>  
+                  <p class="small">First, we give our games and apps for free to the public, removing the cost barrier for play. Second, we don’t require logins for players, which allows schools to use our games. Third, we network with public schools, public television, media outlets and large online distributors.  <a href="https://datastudio.google.com/open/0B3XkHYR1Or_fMVdxOVZ6M3I2TEE" target="_blank">See live data from the Yard Games</a></p>
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Schedule a Meeting</button>
                 </div>
                 <div class="graphic">

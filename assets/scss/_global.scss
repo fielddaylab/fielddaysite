@@ -39,3 +39,9 @@ hr {
     display:none !important;
   }
 }
+
+.hide-for-nav{
+  @media #{$break-nav} {
+    display:none !important;
+  }
+}
