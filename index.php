@@ -70,8 +70,7 @@
               <img class="" src="/assets/img/logos/siftr-logo.png">
               <h2 class="uppercase"></h2>
               <p class="corrected">Use Siftr to make fieldwork easy. Collect data in the field and create beautiful visualizations.</p>
-              <a class="button small white" href="https://itunes.apple.com/us/app/siftr-explore-your-world/id1169649470?mt=8" target="_blank">Siftr for IOS</a>
-              <a class="button small white" href="https://play.google.com/store/apps/details?id=org.siftr.client&hl=en" target="_blank">Siftr for Android</a>
+              <a class="button small white" href="https://siftr.org" target="_blank">Go to Siftr</a>
             </div>
           </div>
         </div>
