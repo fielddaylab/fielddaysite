@@ -38,8 +38,8 @@
             <span class="grad"></span>
             <div class="item-info">
               <h1 class="main-mark">Field Day</h1>
-              <p class="corrected">Sharing research outside the university is crucial. It takes a lot of effort but it still doesn’t reach enough people.</p>
-              <a href="#intro" class="button white small">Learn More</a>
+              <p class="corrected">Games are a magical way to share research from the university to the public.</p>
+              <a href="#intro" class="button white small">Get Involved</a>
             </div>
           </div>
         </div>
@@ -148,12 +148,12 @@
       <div class="content-wrap workit-content">
         <div class="cta-card one">
           <h3>Teach with apps & games</h3>
-          <p class="small">Are you a teachers looking to use games & apps? Take an online course or join a fellowship for Professional Development.</p>
+          <p class="small">Are you a teacher looking to use games & apps? Take an online course or join a fellowship for Professional Development.</p>
           <a class="button black" href="#">Get started</a>
         </div>
         <div class="cta-card two">
           <h3>Make something with us</h3>
-          <p class="small">Are you from a research lab looking to design public outreach with games, vr experiences, or a citizen science app?</p>
+          <p class="small">Are you from a research lab looking to design public outreach with games, a virtual reality experience, or a citizen science app?</p>
           <a class="button black" href="#">Work with Us</a>
         </div>
       </div>
@@ -211,7 +211,7 @@
       <img src="assets/img/illustrations/spaceplane-flight.png">
       <h2 class="uppercase">Work with Us</h2>
       <p>We work with scientists, researchers, teachers, artists, story tellers, and all-around rad people to make things together to impact our communities.  </p>
-      <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Field Day</button>
+      <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
     </div>
   </section>
   <section class="blogs">

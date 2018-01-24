@@ -78,7 +78,7 @@
                   <span class="">Let's talk</span>
                   <h3>It starts with a conversation</h3>
                   <p class="small">We start every project the same way. A conversation.  While we have specific processes, each project is unique. We want to hear your ideas! Send us an email and we’ll meet over coffee.</p>
-                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Us</button>
+                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Schedule a Meeting</button>
                 </div>
                 <div class="graphic">
                   <img class="slideimg" src="/assets/img/illustrations/spaceplane-blueprint.png">
@@ -89,7 +89,7 @@
                   <span class="">Blast Off</span>
                   <h3>Project Kick-Off to Final Product</h3>
                   <p class="small">You’ll join us for a 1-2 day kick-off event where we come together as a team for the first time. We include three key teams at each phase of the design: our design and research team, audience representatives and you, the subject expert. You will join us frequently during production. We can conduct all the design, testing and evaluation with you either in person or remotely.</p>
-                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Us</button>
+                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Schedule a Meeting</button>
                 </div>
                 <div class="graphic">
                   <img class="slideimg" src="/assets/img/illustrations/spaceplane-vertical.png">
@@ -110,10 +110,8 @@
                   <h3>We get hundreds of thousands of plays</h3>
                   <p class="small">First, we give our games and apps for free to the public, removing the cost barrier for play. Second, we don’t require logins for players, which allows schools to use our games. Third, we network with public schools, public television, media outlets and large online distributors.  <a href="https://datastudio.google.com/open/0B3XkHYR1Or_fMVdxOVZ6M3I2TEE" target="_blank">See live data from the Yard Games</a></p>
 =======
-                  <h3>How we get 100s of thousands of plays</h3>
-                  <p class="small">First, we give our games and apps for free to the public, removing the cost barrier for play. Second, we don’t require logins for players, which allows schools to use our games. Third, we network with public schools, public television, media outlets and large online distributors.  <a class="small" href="https://datastudio.google.com/open/0B3XkHYR1Or_fMVdxOVZ6M3I2TEE" target="_blank">See live data from the Yard Games</a></p>
->>>>>>> aea68a6581a2aa2880f7ce6c584a86c7f1102210
-                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Us</button>
+                  
+                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Schedule a Meeting</button>
                 </div>
                 <div class="graphic">
                   <img class="astronaut one float" src="/assets/img/illustrations/astronaut1.png">
@@ -126,7 +124,7 @@
                   <span class="">Evaluation</span>
                   <h3>Learning from Big Data</h3>
                   <p class="small">We provide real-time analytics so you can see  who, how long and when people play your game or app. We also use these games as instruments to measure and understand learning for our own research. If the project budget allows, we will use this data as part of a larger research and evaluation protocol to understand what and how our audience is learning. This analysis leads to design revisions, academic publications and research grant proposals.</p>
-                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Us</button>
+                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Schedule a Meeting</button>
                 </div>
                 <div class="graphic fixed">
                   <img class="slideimg fixed" src="/assets/img/illustrations/mountainrange.png">
@@ -181,7 +179,7 @@
         <img src="/assets/img/illustrations/spaceplane-flight.png">
         <h2 class="uppercase">Work with Us</h2>
         <p>We work with scientists, researchers, teachers, artists, story tellers, and all-around rad people to make things together to impact our communities.  </p>
-        <button data-toggle="modal" data-target="#contactModal" class="button small white" >Work with Field Day</button>
+        <button data-toggle="modal" data-target="#contactModal" class="button small white" >Schedule a Meeting</button>
       </div>
     </section>
   </div>

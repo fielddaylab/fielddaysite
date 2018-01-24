@@ -6,8 +6,8 @@
           <span aria-hidden="true">&times;</span>
         </button>
       <img src="/assets/img/illustrations/spaceplane-flight.png">
-      <h2>Work with field Day</h2>
-      <p class="small">You have a great idea, we are a team that can partner with you to make your idea reach people who will benefit most from it. Drop David Gagnon an email at <a class="small" href="mailto:djgagnon@wisc.edu">djgagnon@wisc.edu</a> and let's get talking.</p>
+      <h2>Schedule a Meeting</h2>
+      <p class="small">Use games & apps to share research with huge audiences. Schedule a meeting to get started. Email David Gagnon at <a class="small" href="mailto:djgagnon@wisc.edu">djgagnon@wisc.edu</a>.</p>
     </div>
   </div>
 </div>
