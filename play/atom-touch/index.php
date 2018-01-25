@@ -80,7 +80,7 @@
         <li>Size and Scale</li>
       </ul>
       <h2 id="support">Teacher Support</h2>
-      <p>Download the <a href="/userdownloads/Teacher-Guide-for-the-Free-AtomTouch-App.docx" target="_blank">Teacher Guide</a> and the <a href="/userdownloads/Atomtouch_teacherslides_ieg_1_2016.pptx" target="_blankg">Powerpoint Slides for Class.</a></p>
+      <p>Download the <a href="Teacher-Guide-for-the-Free-AtomTouch-App.docx" target="_blank">Teacher Guide</a> and the <a href="Atomtouch_teacherslides_ieg_1_2016.pptx" target="_blankg">Powerpoint Slides for Class.</a></p>
       <h2 id="features">Features</h2>
       <ul>
         <li>Lennard Jones and Buckingham Simulation Engine</li>
