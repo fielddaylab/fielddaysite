@@ -32,7 +32,7 @@
       <h1 class="app-title">Atom Touch</h1>
       <p class="app-tag">Explore the Atomic World</p>
     </div>
-    <div class="app-description"><p class="small">AtomTouch is a molecular simulation app, created through a partnership between UW MRSEC and Field Day Lab, that allows learners to explore principles of thermodynamics and molecular dynamics in an tactile, exploratory way.
+    <div class="app-description"><p class="small">AtomTouch is a molecular simulation app, created through a partnership between UW MRSEC and Field Day Lab, that allows learners to explore principles of thermodynamics and molecular dynamics in a tactile, exploratory way.
 
 </p></div>
     <div class="buttons">
@@ -67,7 +67,7 @@
 
     <div id="about" class="col-sm-8 about-rightpanel">
       <h2>About Atom Touch</h2>
-      <p>AtomTouch is a molecular simulation app, created through a partnership between UW MRSEC and Field Day Lab. It allows learners to explore principles of thermodynamics and molecular dynamics in an tactile, exploratory way. The simulation was developed to help students understand the structures and attributes of particles at the molecular level, providing real-time feedback and responding to students’ actions.</p>
+      <p>AtomTouch is a molecular simulation app, created through a partnership between UW MRSEC and Field Day Lab. It allows learners to explore principles of thermodynamics and molecular dynamics in a tactile, exploratory way. The simulation was developed to help students understand the structures and attributes of particles at the molecular level, providing real-time feedback and responding to students’ actions.</p>
       <h2 id="standards">Aligned with Standards</h2>
       <p>AtomTouch can be used to address the Next Generation Science Standards in multiple curricular units, including:</p>
       <ul>

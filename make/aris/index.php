@@ -247,8 +247,7 @@ mess-make. </p>
     </div>
   </section>
 
-<!--include footer
------------------------->
+<!--include footer------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/footer.php";  include_once($path); ?>
 
 <script>
@@ -258,5 +257,8 @@ mess-make. </p>
     startAt: 1,
   });
 </script>
+
+<iframe src="https://arisgames.org/server/status/" style="width: 100%; height: 300px; border: none; margin: 0; padding: 0;"></iframe>
+
 </body>
 </html>
