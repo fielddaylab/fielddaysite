@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics Atom Touch-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72694027-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-72694027-7');
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <script src="https://cdn.brainpop.com/games/assets/js/html2canvas.js"></script>
@@ -15,7 +23,60 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/atomtouch_web2.json", {onProgress: UnityProgress});
+    /*
+      //notes on loader:
+      unity "UnityLoader" callback (which needs to get passed to "UnityProgress") actually only
+      passes the percentage of the ajax call (I think) to get the assets. Point is- that takes
+      ~3 seconds [from 0% to 100%] at time of writing this. There's an additional ~5s "white screen"
+      that hogs the CPU, and I have no access to what it's doing/how far it is going in doing it.
+      So- I get the "percentage", and I try to lerp _shown_ percentage towards that @ 10% per frame.
+      Since "real percentage" is 100% for a majority of its loading, this gives the illusion that
+      it's "still working on measuring progress" (even though it's long since "loaded" by unity's def).
+      ^ All this garbage explains the complex timeout below. good luck.
+    */
+      var w_max = 800;
+      var w = 0;
+      var w_target = 0;
+      var h = 20;
+      var x = 880/2-w_max/2;
+      var y = 660/2-h/2;
+      var loading_div = document.createElement('div');
+      loading_div.style.position = "absolute";
+      loading_div.style.top = y+"px";
+      loading_div.style.left = x+"px";
+      loading_div.style.width = w+"px";
+      loading_div.style.height = h+"px";
+      loading_div.style.backgroundColor = "black";
+      loading_div.style.color = "white";
+      loading_div.innerHTML = "&nbsp;loading...";
+      var first = true;
+      var last = false;
+      var running = true;
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/atomtouch.json",
+        {
+          onProgress:function(obj,p)
+          {
+            if(first) document.getElementById("gameContainer").appendChild(loading_div);
+            first = false;
+            UnityProgress(obj,p);
+            w_target = p*w_max;
+            if(p >= 1 && !last)
+            {
+              last = true;
+              setTimeout(function(){ running = false; document.getElementById("gameContainer").removeChild(loading_div);},3500);
+            }
+          }
+        }
+      );
+      var approachTarget;
+      approachTarget = function()
+      {
+        if(!running) return;
+        w = w+(0.05*(w_target-w));
+        loading_div.style.width = w+"px";
+        setTimeout(approachTarget,10);
+      }
+      approachTarget();
     </script>
   </head>
   <body>
