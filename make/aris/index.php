@@ -1,12 +1,3 @@
-<!--include head
------------------------->
-<?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
-<title>Field Day - Aris</title>
-</head>
-
-<body class="singleapp aris">
-<!--include Main Navigation
------------------------->
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/main-nav.php";  include_once($path); ?>
 
 <section class="app-hero">
