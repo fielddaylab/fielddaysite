@@ -102,7 +102,7 @@ Along the way, you will be able to take in awe inspiring views from the edge of 
       </ul>
       
       <h2 id="source">Source Code</h2>
-      <p>This is a MIT Licensed, Opensource project. We would love to have some help in developing new potentials. Contribute to the code at <a href="https://github.com/fielddaylab/ICECUBEVR" target="_blank">https://github.com/fielddaylab/ICECUBEVR</a></p>
+      <p>This is a MIT Licensed, Opensource project. Contribute to the code at <a href="https://github.com/fielddaylab/ICECUBEVR" target="_blank">https://github.com/fielddaylab/ICECUBEVR</a></p>
       
       <h2 id="funding">Funding</h2>
       <img src="/assets/img/logos/colored/nsf1.jpg">
