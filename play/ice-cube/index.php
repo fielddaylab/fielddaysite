@@ -88,7 +88,7 @@ Along the way, you will be able to take in awe inspiring views from the edge of 
       <h2 id="production">Production Team</h2>
       <ul>
         <li>Kevin Ponto : Principal Investigator</li>
-        <li>David Gagnon : Production Managment, Audio Engineering</li>
+        <li>David Gagnon : VR Producer, Audio Engineering</li>
         <li>Sarah Gagnon : Art Direction</li>
         <li>Phil Dougherty : Software Engineering</li>
         <li>Eric Lang : UI/UX, 2d Art</li>
