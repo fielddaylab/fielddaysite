@@ -1,6 +1,6 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 
-<title>Field Day - Discover Ice Cube</title>
+<title>Field Day - Discover IceCube</title>
 <script>
   function playContent()
   {
@@ -24,11 +24,11 @@
         <img class="breadcrumb-arrow" src="/assets/img/ui/breadcrumb-arrow.png">
         <li>Play</li>
         <img class="breadcrumb-arrow" src="/assets/img/ui/breadcrumb-arrow.png">
-        <li>Discover Ice Cube</li>
+        <li>Discover IceCube</li>
       </ul>
     </div>
     <div class="app-info long-title">
-      <h1 class="app-title">Discover Ice Cube</h1><br>
+      <h1 class="app-title">Discover IceCube</h1><br>
       <p class="app-tag">Chasing down the most extreme objects in the universe from the South Pole</p>
     </div>
     <div class="app-description"><p class="small">The IceCube VR experience puts you in the role of an astrophysicist who journeys deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica.
@@ -68,7 +68,7 @@
     </div>
 
     <div id="about" class="col-sm-8 about-rightpanel">
-      <h2>About Discover Ice Cube</h2>
+      <h2>About Discover IceCube</h2>
       <p>The IceCube VR experience puts you in the role of an astrophysicist who journeys deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica. At the research station at the South Pole, you will see the large instrument, buried in the ice, detect a mesage from across the universe. Using your “impossibility drive,” you will follow the neutrinos path back to the black hole it was emitted from.
 Along the way, you will be able to take in awe inspiring views from the edge of the solar system, looking back from the milky way and dangerously close to a black hole. You will be able to see using not only your normal visible spectrum, but also using X-ray vision and neutrino vision, revealing entirely different views of space.
 </p>
