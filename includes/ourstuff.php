@@ -130,7 +130,7 @@
                 <span class="close-app">
                   <h2>IceCube</h2>
                   <p class="small">The IceCube Virtual Reality experience puts you in the role of an astrophysicist. You will journey deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica. Players learn about the IceCube observatory at the South Pole and the neutrinos they detect. Play the the Wisconsin Institute for Discovery in Madison WI or download for your own VR device.</p>
-                  <a class="button black" href="/play/ice-cube" target="_blank">Learn about IceCube</a>
+                  <a class="button black" href="/play/ice-cube" target="_blank">Learn about Discover IceCube</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/icecube-thumb.png">
