@@ -27,6 +27,7 @@
       margin-left: 10vw;
       position:relative;
       z-index:100;
+      margin-top:3vw;
       .info-panel {
         margin-bottom: 30px;
         width: 100%;
@@ -142,7 +143,7 @@
       font-size: 25px;
       padding-left:0;
       margin-left: 0;
-      margin-top: 90px;
+      padding-top: 90px;
       @media #{$break-sm} {
         margin-top:20px;
       }
@@ -246,6 +247,46 @@
       span {
         margin-top: 300px;
       }
+    }
+  }
+
+  /* Template for Jo Wilder
+  ---------------------------*/
+
+  &.jowilder {
+    #app-intro {
+      padding: 5vw 0vw 5vw 0vw;
+      text-align: center;
+      h2 {
+        text-transform: uppercase;
+      }
+      .fullscreen {
+        text-align: right;
+        margin-top: 10px;
+        img {
+          vertical-align: middle;
+        }
+      }
+    }
+    #app-about {
+      h3 {
+        margin: 25px 0px 10px 0px;
+      }
+    }
+    .app-hero{
+      background:url(../img/hero-images/jowilder-bg.jpg) no-repeat;
+      background-size: cover;
+    }
+    .info-panel {
+      border-bottom: 0px !important;
+    }
+    .app-title {
+      text-indent:-9999px;
+      background:url(../img/logos/jowilder.png) no-repeat;
+      background-size:cover;
+      border-right:0px !important;
+      width: 31vw;
+      height: 14vw;
     }
   }
 

@@ -7748,7 +7748,7 @@ h2 {
   line-height: 35px; }
 
 h3 {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin: 25px;
   font-size: 22px;
   margin-left: 0px; }
@@ -9247,6 +9247,8 @@ hr {
 .singleapp {
   /* Template for atomTouch
   ---------------------------*/
+  /* Template for Jo Wilder
+  ---------------------------*/
   /* Template for Ice Cube
   ---------------------------*/
   /* Template for Alien Gardener
@@ -9285,7 +9287,8 @@ hr {
       width: 80vw;
       margin-left: 10vw;
       position: relative;
-      z-index: 100; }
+      z-index: 100;
+      margin-top: 3vw; }
       .singleapp .app-hero .hero-content .info-panel {
         margin-bottom: 30px;
         width: 100%;
@@ -9378,7 +9381,7 @@ hr {
       font-size: 25px;
       padding-left: 0;
       margin-left: 0;
-      margin-top: 90px; }
+      padding-top: 90px; }
       @media only screen and (max-width: 768px) {
         .singleapp .app-about h2 {
           margin-top: 20px; } }
@@ -9453,6 +9456,30 @@ hr {
     text-align: center; }
     .singleapp.atomtouch #content_play span {
       margin-top: 300px; }
+  .singleapp.jowilder #app-intro {
+    padding: 5vw 0vw 5vw 0vw;
+    text-align: center; }
+    .singleapp.jowilder #app-intro h2 {
+      text-transform: uppercase; }
+    .singleapp.jowilder #app-intro .fullscreen {
+      text-align: right;
+      margin-top: 10px; }
+      .singleapp.jowilder #app-intro .fullscreen img {
+        vertical-align: middle; }
+  .singleapp.jowilder #app-about h3 {
+    margin: 25px 0px 10px 0px; }
+  .singleapp.jowilder .app-hero {
+    background: url(../img/hero-images/jowilder-bg.jpg) no-repeat;
+    background-size: cover; }
+  .singleapp.jowilder .info-panel {
+    border-bottom: 0px !important; }
+  .singleapp.jowilder .app-title {
+    text-indent: -9999px;
+    background: url(../img/logos/jowilder.png) no-repeat;
+    background-size: cover;
+    border-right: 0px !important;
+    width: 31vw;
+    height: 14vw; }
   .singleapp.icecube .app-hero {
     background: url(/assets/img/hero-images/ice-cube.jpg) no-repeat;
     background-size: cover;
