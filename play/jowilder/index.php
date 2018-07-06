@@ -41,7 +41,7 @@
 </section>
 <section id="app-intro">
   <h2>Play Jo Wilder and the Capitol Case</h2>
-  <iframe id="content" scrolling="no" style="width:880px; height:660px; margin:10px auto; overflow:hidden; border:0px;" src="build/iframe.html"></iframe>
+  <iframe id="content" scrolling="no" style="width:880px; height:660px; margin:10px auto; overflow:hidden; border:0px;" src="capitol_prototype/iframe.html"></iframe>
 </section>
 
 <section id="app-about" class="app-about">
