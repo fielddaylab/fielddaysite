@@ -1,0 +1,3 @@
+[submodule "play/jowilder/capitol_prototype"]
+	path = play/jowilder/capitol_prototype
+	url = https://github.com/fielddaylab/capitol_prototype
