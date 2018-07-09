@@ -1,14 +1,11 @@
-<!--include head
------------------------->
+<!--include head-->
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
-<title>Field Day - Aris</title>
+<title>Field Day - ARIS</title>
 </head>
 
 <body class="singleapp aris">
-<!--include Main Navigation
------------------------->
+<!--include Main Navigation-->
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/main-nav.php";  include_once($path); ?>
-
 <section class="app-hero">
   <div class="hero-content">
     <div class="info-panel">
@@ -200,7 +197,8 @@
   </div>
 </section>
 
-<!--include footer------------------------>
+
+<!--include footer-->
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/footer.php";  include_once($path); ?>
 
 <script>

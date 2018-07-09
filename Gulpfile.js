@@ -17,14 +17,14 @@ gulp.task('serve', function () {
     }
   });
 
-  gulp.watch('./assets/scss/*scss', ['styles']);
+  gulp.watch('./assets/scss/*scss', ['styles']).on('change', browserSync.reload);
   gulp.watch('./**/*.html').on('change', browserSync.reload);
 
 });
 
 gulp.task('proxy', function () {
   browserSync.init({
-    proxy: "http://localhost:8888"
+    proxy: "field-day-website.local"
   });
 
   gulp.watch('./assets/scss/*scss', ['styles']);

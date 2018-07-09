@@ -19,7 +19,7 @@
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
               <span class="bullet"></span>
-              <span class="bullet-caption">Alien Gardener</span>
+              <span class="bullet-caption">Discover IceCube VR</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="2">
               <span class="bullet"></span>
@@ -47,9 +47,9 @@
           <div class="info-wrap">
             <span class="grad"></span>
             <div class="item-info">
-              <h2 class="uppercase">Alien Gardener</h2>
-              <p class="corrected"> In this game, you’re humanity’s most important gardener. It’s up to you to help astronauts survive.</p>
-              <a href="/play/alien-gardener" class="button white small">Learn More</a>
+              <h2 class="uppercase">Discover IceCube VR</h2>
+              <p class="corrected"> Journey deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica.</p>
+              <a href="/play/ice-cube" class="button white small">Learn More</a>
             </div>
           </div>
         </div>
