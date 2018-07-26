@@ -196,6 +196,31 @@
 <!--include footer
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/footer.php";  include_once($path); ?>
+<script>
+$(function() {
 
+    // Call Gridder
+    $('.gridder').gridderExpander({
+        scroll: true,
+        scrollOffset: 100,
+        scrollTo: "panel",                  // panel or listitem
+        animationSpeed: 900,
+        animationEasing: "easeInOutExpo",
+        showNav: true,                      // Show Navigation
+        nextText: "Next",                   // Next button text
+        prevText: "Previous",               // Previous button text
+        closeText: "Close",                 // Close button text
+        onStart: function(){
+            //Gridder Inititialized
+        },
+        onContent: function(){
+            //Gridder Content Loaded
+        },
+        onClosed: function(){
+            //Gridder Closed
+        }
+    });
+});
+</script>
 </body>
 </html>

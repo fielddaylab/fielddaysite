@@ -1,11 +1,11 @@
 .research {
-  a {
-    color:#EF8270;
-  }
   .page_hero {
     background: $blue-black;
     padding: 3vw 0vw;
     position:relative;
+    a {
+      color:#EF8270;
+    }
     @media #{$break-sm} {
       flex-direction: column-reverse;
       height: auto;

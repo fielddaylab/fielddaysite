@@ -9742,14 +9742,18 @@ hr {
           border: 2px solid; } }
 
 #ourwork .apps {
-  text-align: center; }
+  text-align: center;
+  padding: 20px; }
+  @media only screen and (max-width: 768px) {
+    #ourwork .apps {
+      padding: 0px; } }
   #ourwork .apps .app-card {
     background: #fff;
     width: 17vw;
     padding: 3vw 2vw;
     box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.15);
     z-index: 75;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     flex-direction: wrap; }
     @media only screen and (max-width: 768px) {
@@ -9773,7 +9777,7 @@ hr {
       -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
       transform: scale(1.05);
-      box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1); }
+      box-shadow: 0 0px 40px 0 rgba(0, 0, 0, 0.1); }
     #ourwork .apps .app-card.selectedItem {
       -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
@@ -9939,7 +9943,7 @@ hr {
   background: #fff;
   padding: 10vw; }
   .ourstuff h2 {
-    z-index: 1000;
+    z-index: 100;
     position: relative; }
   @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
     .ourstuff .starfield {
@@ -10452,13 +10456,12 @@ hr {
         z-index: 99;
         animation: float-horiz 6s 6s ease-in-out infinite; }
 
-.research a {
-  color: #EF8270; }
-
 .research .page_hero {
   background: #1F2E3B;
   padding: 3vw 0vw;
   position: relative; }
+  .research .page_hero a {
+    color: #EF8270; }
   @media only screen and (max-width: 768px) {
     .research .page_hero {
       flex-direction: column-reverse;
@@ -10611,7 +10614,7 @@ hr {
   margin: 1%;
   margin-bottom: 2%;
   cursor: pointer;
-  transition: all .3s ease-in-out; }
+  transition: all .1s ease-in-out; }
   @media only screen and (max-width: 1324px) {
     .gridder-list {
       width: 47%; } }
