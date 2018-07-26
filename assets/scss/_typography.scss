@@ -30,17 +30,20 @@ a {
 p, a, li{
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  letter-spacing: 2.3px;
+  letter-spacing: 1.5px;
   line-height: 35px;
   font-weight: 400;
+  .bold {
+    font-weight:600;
+  }
   @media #{$break-md} {
       font-size: 14px;
-      letter-spacing: 2px;
-      line-height: 35px;
+      letter-spacing: 1px;
+      line-height: 30px;
     }
   @media #{$break-sm} {
-    font-size: 12px;
-    letter-spacing: 2px;
+    font-size: 13px;
+    letter-spacing: 1px;
     line-height: 25px;
   }
   &.big {
@@ -62,8 +65,8 @@ p, a, li{
     letter-spacing:1px;
     margin-bottom:20px;
     @media #{$break-md} {
-      font-size: 12px;
-      letter-spacing: 1px;
+      font-size: 14px;
+      letter-spacing: 0px;
       line-height: 25px;
     }
   }

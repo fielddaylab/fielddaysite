@@ -333,6 +333,9 @@
   .right {
     li {
       border-left: 2px solid $ultralight_gray;
+      &:first-child{
+        border-right:none;
+      }
     }
 
   }
@@ -680,6 +683,7 @@
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
     transiting-timing-function: swing;
+    
   }
 }
 

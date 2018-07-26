@@ -1,4 +1,4 @@
-<section class="ourstuff">
+<section id="ourstuff" class="ourstuff">
   <div class="starfield topright">
     <span class="star black star1"></span>
     <span class="star black star2"></span>

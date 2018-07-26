@@ -7646,6 +7646,17 @@ button.close {
       color: #fff; }
       .button.light-blue:hover i, .button.light-blue.filled i {
         color: #fff; }
+  .button.blue-black {
+    color: #1F2E3B;
+    border-color: #1F2E3B;
+    background: transparent; }
+    .button.blue-black i {
+      color: #1F2E3B; }
+    .button.blue-black:hover, .button.blue-black.filled {
+      background: #222830;
+      color: #fff; }
+      .button.blue-black:hover i, .button.blue-black.filled i {
+        color: #fff; }
   .button.dark_gray {
     color: #2B303B;
     border-color: #2B303B;
@@ -7731,7 +7742,7 @@ hr {
   .hide-for-small {
     display: none !important; } }
 
-@media only screen and (max-device-width: 800px), only screen and (max-width: 800px) {
+@media only screen and (max-device-width: 850px), only screen and (max-width: 850px) {
   .hide-for-nav {
     display: none !important; } }
 
@@ -7762,18 +7773,20 @@ a {
 p, a, li {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  letter-spacing: 2.3px;
+  letter-spacing: 1.5px;
   line-height: 35px;
   font-weight: 400; }
+  p .bold, a .bold, li .bold {
+    font-weight: 600; }
   @media only screen and (max-width: 1024px) {
     p, a, li {
       font-size: 14px;
-      letter-spacing: 2px;
-      line-height: 35px; } }
+      letter-spacing: 1px;
+      line-height: 30px; } }
   @media only screen and (max-width: 768px) {
     p, a, li {
-      font-size: 12px;
-      letter-spacing: 2px;
+      font-size: 13px;
+      letter-spacing: 1px;
       line-height: 25px; } }
   p.big, a.big, li.big {
     font-size: 20px; }
@@ -7794,8 +7807,8 @@ p, a, li {
     margin-bottom: 20px; }
     @media only screen and (max-width: 1024px) {
       p.small, a.small, li.small {
-        font-size: 12px;
-        letter-spacing: 1px;
+        font-size: 14px;
+        letter-spacing: 0px;
         line-height: 25px; } }
   p.supersmall, a.supersmall, li.supersmall {
     font-size: 14px;
@@ -8094,6 +8107,8 @@ p, a, li {
   transform: translateY(-60px); }
   .small-nav .right li {
     border-left: 2px solid #f5f5f5; }
+    .small-nav .right li:first-child {
+      border-right: none; }
   .small-nav.nav-fixed {
     opacity: 1;
     z-index: 1000;
@@ -8917,6 +8932,8 @@ section {
   position: absolute;
   z-index: 1;
   display: block; }
+  .starfield.top-pad {
+    top: 20px; }
   .starfield .star {
     width: 17px;
     height: 17px;
@@ -10434,6 +10451,139 @@ hr {
         opacity: 0.4;
         z-index: 99;
         animation: float-horiz 6s 6s ease-in-out infinite; }
+
+.research a {
+  color: #EF8270; }
+
+.research .page_hero {
+  background: #1F2E3B;
+  padding: 3vw 0vw;
+  position: relative; }
+  @media only screen and (max-width: 768px) {
+    .research .page_hero {
+      flex-direction: column-reverse;
+      height: auto;
+      padding: 2vw; } }
+  .research .page_hero .info {
+    color: #fff;
+    width: 60%;
+    padding: 8vw 5vw 8vw 8vw; }
+    @media only screen and (max-width: 768px) {
+      .research .page_hero .info {
+        padding: 3vw;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center; } }
+    .research .page_hero .info h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 50px;
+      position: relative;
+      display: inline-block;
+      margin-bottom: 25px;
+      z-index: 1; }
+      @media only screen and (max-width: 768px) {
+        .research .page_hero .info h1 {
+          margin-top: 60px; } }
+      .research .page_hero .info h1:before {
+        content: "";
+        width: 105%;
+        height: 17px;
+        background: #EF8270;
+        display: block;
+        position: absolute;
+        z-index: -1;
+        bottom: 5px;
+        left: -8px; }
+      @media only screen and (max-width: 768px) {
+        .research .page_hero .info h1 {
+          font-size: 40px; } }
+  .research .page_hero .graphic {
+    width: 40%; }
+    @media only screen and (max-width: 768px) {
+      .research .page_hero .graphic {
+        height: 40vw;
+        width: 100%;
+        margin-top: 20vw; } }
+    .research .page_hero .graphic .astroblogger {
+      width: 25vw;
+      margin-left: 5vw; }
+      @media only screen and (max-width: 768px) {
+        .research .page_hero .graphic .astroblogger {
+          width: 40vw;
+          margin: 0 auto;
+          display: block; } }
+
+@media only screen and (max-width: 768px) {
+  .research .pub-nav-wrap {
+    display: none; } }
+
+.research .pub-nav ul {
+  background: #f5f5f5;
+  display: inline-block;
+  padding: 20px 30px;
+  list-style: none;
+  border-radius: 5px; }
+  .research .pub-nav ul li {
+    margin-bottom: 20px; }
+    .research .pub-nav ul li a {
+      color: #1F2E3B;
+      font-size: 16px; }
+      .research .pub-nav ul li a:hover {
+        color: #5A5F6A;
+        border-bottom: 2px solid #5A5F6A; }
+
+.research .research-toggles {
+  position: absolute;
+  margin-left: 8vw;
+  bottom: 0;
+  left: 0;
+  border-bottom: none; }
+  @media only screen and (max-width: 768px) {
+    .research .research-toggles {
+      margin-left: 4vw; } }
+  .research .research-toggles ul {
+    list-style: none;
+    display: inline;
+    padding-left: 0; }
+    .research .research-toggles ul li {
+      display: inline;
+      text-transform: uppercase;
+      cursor: pointer; }
+      .research .research-toggles ul li.active a {
+        color: #1F2E3B;
+        background: #fff; }
+      .research .research-toggles ul li a {
+        font-size: 12px;
+        color: #fff;
+        text-decoration: none;
+        padding: 20px; }
+
+.research .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; }
+
+.research .tab-content {
+  padding-top: 5vw;
+  margin-left: 6vw;
+  margin-right: 6vw; }
+  .research .tab-content .pub-wrap {
+    padding: 20px 0px;
+    border-bottom: 3px solid #f5f5f5; }
+  .research .tab-content h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    letter-spacing: 2px; }
+    .research .tab-content h2:first-child {
+      margin-top: 0;
+      padding-top: 0; }
+  .research .tab-content p {
+    margin-bottom: 10px; }
 
 /* Gridder Game Grid
 --------------------------- */
