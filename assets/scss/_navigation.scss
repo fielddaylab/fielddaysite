@@ -539,7 +539,8 @@
 
 .mobile-nav-container {
   position: absolute;
-  z-index:-100;
+  transform: translateY(-100vh);
+  z-index:-1000;
   opacity:0;
   background: $blue-black;
   left: 0;

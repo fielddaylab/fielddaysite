@@ -19,6 +19,7 @@
         <div class="link-col">
           <h3>Play</h3>
           <a target="_blank" href="http://theyardgames.org">The Yard</a>
+          <a href="/jowilder">Jo Wilder</a>
           <a class="link-atomtouch" href="/play/atom-touch">Atom Touch</a>
           <a class="link-atomtouch" href="/play/alien-gardener">Alien Gardener</a>
           <a target="_blank" href="https://www.thegamecrafter.com/games/the-n-game">The N Game</a>

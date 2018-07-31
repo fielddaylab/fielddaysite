@@ -8286,7 +8286,8 @@ p, a, li {
 
 .mobile-nav-container {
   position: absolute;
-  z-index: -100;
+  transform: translateY(-100vh);
+  z-index: -1000;
   opacity: 0;
   background: #1F2E3B;
   left: 0;
@@ -9464,7 +9465,8 @@ hr {
     margin: 25px 0px 10px 0px; }
   .singleapp.jowilder .app-hero {
     background: url(../img/hero-images/jowilder-bg.jpg) no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    background-position: right; }
   .singleapp.jowilder .info-panel {
     border-bottom: 0px !important; }
   .singleapp.jowilder .app-title {

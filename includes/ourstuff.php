@@ -32,6 +32,10 @@
           <div class="active item">
             <!-- Gridder navigation -->
             <ul class="apps gridder">
+              <li class="gridder-list app-card" data-griddercontent="#game-app5">
+                <img src="/assets/img/logos/jowilder-dark-small.png" class="app-logo">
+                <span>Jo Wilder</span>
+              </li>
               <li class="gridder-list app-card" data-griddercontent="#game-app1">
                 <img src="/assets/img/logos/colored/yard-logo.png" class="app-logo">
                 <span>The Yard</span>
@@ -96,6 +100,18 @@
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/ngame-thumb.jpg">
+              </div>
+            </div>
+
+            <div id="game-app5" class="app-expanded gridder-content">
+              <div class="app-info app-pane left">
+                <span class="close-app">
+                  <h2>Jo Wilder and the Capitol Case</h2>
+                  <p class="small">Play as Jo Wilder, a scrappy girl who spends her days with her pet badger Teddy and her grandpa, a historian. When some mysterious artifacts show up at the History Museum, you must unravel the clues to find the real stories behind the artifacts. </p>
+                  <a class="button small black" href="/play/jowilder">Play Jo Wilder</a>
+              </div>
+              <div class="app-thumbnail app-pane right">
+                <img src="/assets/img/thumbs/jowilder-thumb.jpg">
               </div>
             </div>
 
