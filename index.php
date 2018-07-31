@@ -91,7 +91,7 @@
       <span class="offscreen test one"></span>
       <div class="intro-content">
         <img class="bg1trigger reveal float" src="assets/img/illustrations/astronaut1.png" class="astronaut">
-        <h2 class="light centered uppercase">We are Field Day</h2>
+        <h2 class="light centered plainreveal uppercase">We are Field Day</h2>
         <p class="corrected plainreveal big light">What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We foster that wonder by creating learning games, virtual reality experiences and citizen science apps. Teachers and subject experts work with us to design fun ways to connect people to research. Our mission is to explain big ideas in playful ways, bridging the gap between the university and the public.</p>
         <!--<p class="corrected plainreveal big light">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>-->
       </div>
@@ -343,7 +343,7 @@ var fastreveal = {
 
 var plainreveal = {
   delay    : 00,
-  distance : '0px',
+  distance : '30px',
   easing   : 'ease-in-out',
   scale    : 1.0
 };
@@ -370,7 +370,7 @@ var skylabreveal = {
   easing   : 'ease-in-out'
 };
 
-window.sr = ScrollReveal({ duration: 1000, mobile: false});
+window.sr = ScrollReveal({ duration: 500, mobile: false});
 sr.reveal('.reveal', fastreveal, { viewFactor: 0.3 });
 sr.reveal('.slowreveal', slowreveal, { viewFactor: 0.3 });
 sr.reveal('.revealfull', fastreveal, { viewFactor: 0.8 });

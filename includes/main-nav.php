@@ -1,4 +1,5 @@
 <nav class="small-nav nav-fixed">
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
   <div class="left">
     <ul>
       <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/fd.png"></a></li>
@@ -12,7 +13,11 @@
       <li class="small-navlink hide-for-nav"><a href="/research">research</a></li>
       <li class="small-navlink hide-for-nav"><a href="/teachers">teachers</a></li>
       <span class="worklink hide-for-nav"></span>
-      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
+      <div class="mobile-nav-toggle-wrap">
+        <div class="nav-toggle">
+          <div class="icon"></div>
+        </div>
+      </div>
     </ul>
   </div>
 </nav>
