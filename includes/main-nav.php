@@ -37,7 +37,7 @@
 
     <a target="_blank" href="http://theyardgames.org" style="background: url('/assets/img/thumbnails/bg7.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/yard-logo.png" class="nav-thumb"><h2>The Yard Games</h2><p>Teach Science with free, beautiful games on the web.</p><span class="go">go</span></div></a>
 
-    <a target="_blank" href="/play/ice-cube" style="background: url('/assets/img/thumbnails/bg12.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/aliengardener.png" class="nav-thumb"><h2>Discover IceCube VR</h2><p>Journey deep into space to track down the source of a neutrino</p><span class="go">go</span></div></a>
+    <a target="_blank" href="/play/ice-cube" style="background: url('/assets/img/thumbnails/bg12.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/ice-cube-logo-white.png" class="nav-thumb"><h2>Discover IceCube VR</h2><p>Journey deep into space to track down the source of a neutrino</p><span class="go">go</span></div></a>
 
     <a target="_blank" href="/play/atom-touch" style="background: url('/assets/img/thumbnails/bg9.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/atomtouch-logo.png" class="nav-thumb"><h2>Atom Touch</h2><p>Explore how atoms work with this tactile simulation. 8+</p><span class="go">go</span></div></a>
 
