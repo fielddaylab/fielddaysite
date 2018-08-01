@@ -39,7 +39,7 @@
             <div class="item-info">
               <img class="" src="/assets/img/logos/jowilder.png">
               <h2 class="uppercase"></h2>
-              <p class="corrected">Use Siftr to make fieldwork easy. Collect data in the field and create beautiful visualizations.</p>
+              <p class="corrected">Play as Jo Wilder, a scrappy girl who spends her days with her pet badger Teddy and her grandpa, a historian. When some mysterious artifacts show up at the History Museum, you must unravel the clues to find the real stories behind the artifacts.</p>
               <a class="button small white" href="/play/jowilder">Play Jo Wilder</a>
             </div>
           </div>
@@ -68,7 +68,7 @@
           <div class="info-wrap">
             <span class="grad"></span>
             <div class="item-info">
-              <img class="" src="/assets/img/logos/siftr-logo.png">
+              <img class="small_hero_img" src="/assets/img/logos/siftr-logo.png">
               <h2 class="uppercase"></h2>
               <p class="corrected">Use Siftr to make fieldwork easy. Collect data in the field and create beautiful visualizations.</p>
               <a class="button small white" href="https://siftr.org" target="_blank">Go to Siftr</a>

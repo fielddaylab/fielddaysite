@@ -8712,6 +8712,13 @@ section {
     position: relative;
     width: 45vw;
     margin: 0 auto; }
+    .hero-slider .carousel-inner .item .item-info img {
+      width: 30vw;
+      min-width: 250px; }
+      .hero-slider .carousel-inner .item .item-info img.small_hero_img {
+        width: 150px;
+        height: auto;
+        min-width: initial; }
     .hero-slider .carousel-inner .item .item-info h2 {
       margin-bottom: 10px; }
     @media only screen and (max-width: 768px) {
@@ -9459,6 +9466,15 @@ hr {
   .singleapp.jowilder #app-intro {
     padding: 5vw 0vw 5vw 0vw;
     text-align: center; }
+    .singleapp.jowilder #app-intro .iframe-bg {
+      width: 880px;
+      height: 660px;
+      display: block;
+      margin: 0px auto;
+      overflow: hidden;
+      border: 0px;
+      background: url(../img/iframe_img.jpg) no-repeat;
+      background-size: cover; }
     .singleapp.jowilder #app-intro h2 {
       text-transform: uppercase; }
     .singleapp.jowilder #app-intro .fullscreen {
@@ -10493,8 +10509,9 @@ hr {
         width: 100%;
         margin-top: 20vw; } }
     .research .page_hero .graphic .astroblogger {
-      width: 25vw;
-      margin-left: 5vw; }
+      width: 20vw;
+      margin-left: 5vw;
+      margin-top: 3vw; }
       @media only screen and (max-width: 768px) {
         .research .page_hero .graphic .astroblogger {
           width: 40vw;
@@ -10533,8 +10550,9 @@ hr {
       margin-left: 4vw; } }
   .research .research-toggles ul {
     list-style: none;
-    display: inline;
-    padding-left: 0; }
+    display: block;
+    padding-left: 0;
+    margin-bottom: 3px; }
     .research .research-toggles ul li {
       display: inline;
       text-transform: uppercase;
@@ -10547,6 +10565,9 @@ hr {
         color: #fff;
         text-decoration: none;
         padding: 20px; }
+        @media only screen and (max-width: 768px) {
+          .research .research-toggles ul li a {
+            font-size: 11px; } }
 
 .research .sticky {
   position: -webkit-sticky;

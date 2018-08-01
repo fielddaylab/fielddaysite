@@ -60,7 +60,7 @@
             <div class="pub-nav">
               <ul>
                 <li><a href="#pub1">Augmented Reality</a></li>
-                <li><a href="#pub2">Learning Games & Virtual Reality</a></li>
+                <li><a href="#pub2">Citizen Science & Digital Field Work</a></li>
                 <li><a href="#pub3">Professional Development & Youth Digital Media Production</a></li>
               </ul>
           </div>
@@ -68,22 +68,131 @@
           <div class="col-sm-7">
             <h2 id="pub1">Augmented Reality</h2>
             <div class="pub-wrap">
-              <p class="small"><span class="bold">ARISE (2010-2018). </span><br>Department of Labor. $4M. PI _____. Develop 150 augmented reality simulations, to enhance learning,  for use within 26 nursing education programs in Wisconsin</p>
-            </div>
-            <h2 id="pub2">Learning Games & Virtual Reality</h2>
-            <h2 id="pub3">Professional Development & Youth Digital Media Production</h2>
-            <h2 id="pub4">Conference Papers</h2>
-            <div class="pub-wrap">
-              <p class="small"><span class="bold">Gagnon, D. (2015)</span><br> “Educational Mobile Games and the Tools that Invite Participation into Ecological Investigations. ” In “Innovation in Environmental Education: ICT and intergenerational learning" International conference proceedings (Ugolini F., Raschi A., Papageorgiou F. Eds.). 24-25 September 2015, Firenze, Italy. IBIMET-CNR, Firenze, Italy. pp. 150. ISBN: 9788895597287
+              <p class="small">Augmented Reality and Interactive Storytelling (ARIS) (2008-). Combined funding from MacArthur Foundation (PI Squire,K.), ENGAGE, New Learning Institute, Pearson Foundation, Library of Congress Teaching with Primary Sources (PI Brown, L.), Minnesota Historical Society, Covenant Foundation (PIr Gottlieb, O.), SITIAC Fund, UW Children’s Hospital, NSF and WI department of public instruction. An open source mobile AR experience design platform used by over 100,000 researchers, designers and learners worldwide.
 </p>
             </div>
             <div class="pub-wrap">
-              <p class="small"><span class="bold">Gagnon, D., Stidwill, P., Hass, J., Snow, B., Osterweil, S. (2014)</span><br> “Ghost Stories from Learning Game Design: Surprises: Good outcomes we weren’t expecting and things we’ll know to worry about next time.”. Paper presented at Games+Learning+Society Conference. June 11. Madison, WI.
-</p>
+              <p class="small">
+
+              </p>
             </div>
             <div class="pub-wrap">
-              <p class="small"><span class="bold">Gagnon, D., Holden, C., Gottlieb, O., Long, K., Quintanilla, E., Kavaloski, A., Lynch, S., Leach, D. (2014)</span><br> “Inquiry and Learning through Mobile Game Design”. Paper presented at Games+Learning+Society Conference. June 12. Madison, WI.
-</p>
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <h2 id="pub2">Citizen Science & Digital Field Work</h2>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <h2 id="pub3">Learning Games & Virtual Reality</h2>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <h2 id="pub4">Professional Development & Youth Digital Media Production</h2>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
+            </div>
+            <div class="pub-wrap">
+              <p class="small">
+
+              </p>
             </div>
           </div>
         </div>
@@ -160,7 +269,7 @@
       <p>press</p>
     </div>
   </div>
-  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/modals.php";  include_once($path); ?>
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/ourstuff.php";  include_once($path); ?>
   <!----------------------
   End page content -->
   </div>

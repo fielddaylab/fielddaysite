@@ -257,6 +257,16 @@
     #app-intro {
       padding: 5vw 0vw 5vw 0vw;
       text-align: center;
+      .iframe-bg {
+        width:880px;
+        height:660px;
+        display:block;
+        margin:0px auto;
+        overflow:hidden;
+        border:0px;
+        background:url(../img/iframe_img.jpg) no-repeat;
+        background-size: cover;
+      }
       h2 {
         text-transform: uppercase;
       }

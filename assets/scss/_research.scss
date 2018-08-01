@@ -56,8 +56,9 @@
         margin-top:20vw;
       }
       .astroblogger{
-        width: 25vw;
+        width: 20vw;
         margin-left:5vw;
+        margin-top:3vw;
         @media #{$break-sm} {
           width:40vw;
           margin:0 auto;
@@ -104,8 +105,9 @@
     }
     ul {
       list-style:none;
-      display:inline;
+      display:block;
       padding-left:0;
+      margin-bottom:3px;
       li {
         display:inline;
         text-transform: uppercase;
@@ -121,6 +123,9 @@
           color: #fff;
           text-decoration: none;
           padding:20px;
+          @media #{$break-sm} {
+            font-size:11px;
+          }
         }
       }
     }

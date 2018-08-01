@@ -39,6 +39,15 @@
         align-items:center;
       }
       .item-info {
+        img {
+          width: 30vw;
+          min-width: 250px;
+          &.small_hero_img {
+            width: 150px;
+            height: auto;
+            min-width: initial;
+          }
+        }
         text-align: center;
         color: #fff;
         z-index:1000;

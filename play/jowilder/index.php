@@ -49,7 +49,7 @@ window.onload = function()
 </section>
 <section id="app-intro">
   <h2>Play Jo Wilder and the Capitol Case</h2>
-  <div id="clickload" scrolling="no" style="background-size: cover; width:880px; height:660px; display:block; margin:0px auto; overflow:hidden; border:0px;">
+  <div class="iframe-bg" id="clickload" scrolling="no">
     <span class="playbutton"
       style="
         background-image: url(capitol_prototype/assets/play.png);
