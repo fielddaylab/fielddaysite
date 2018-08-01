@@ -9,7 +9,7 @@ window.onload = function()
 
   function loadiframe()
   {
-    iframe.style.display = "visible";
+    iframe.style.display = "block";
     iframe.src = "capitol_prototype/iframe.html";
     clickload.removeEventListener("click",loadiframe);
     clickload.parentNode.removeChild(clickload);
@@ -61,7 +61,7 @@ window.onload = function()
         margin-top: 400px;">
     </span>
   </div>
-  <iframe id="content" scrolling="no" style="display:none; width:880px; height:660px; display:block; margin:0px auto; overflow:hidden; border:0px;"></iframe>
+  <iframe id="content" scrolling="no" style="display:none; width:880px; height:660px; margin:0px auto; overflow:hidden; border:0px;"></iframe>
 </section>
 
 <section id="app-about" class="app-about">
