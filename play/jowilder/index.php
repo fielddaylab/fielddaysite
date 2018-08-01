@@ -210,6 +210,31 @@ window.onload = function()
       </ul>
       <h2 id="standards">Standards</h2>
       <p>Jo Wilder and the Capitol Case leverages primary source documents. The game is aligned with the <a target="_blank" href="https://dpi.wi.gov/sites/default/files/imce/standards/New%20pdfs/2018_WI_Social_Studies_Standards.pdf">Wisconsin Department of Public Instruction’s newly revised 3-5th grade Wisconsin Standards for Social Studies.</a> These Standards for Social Studies “...provide an important foundation to prepare students to become engaged, informed participants committed to the ideas and values of our democratic republic, able to apply the skills of inquiry, collaboration, decision-making, and problem-solving (adapted from the National Council for the Social Studies definition).” Jo Wilder and the Capitol Case was designed in close partnership with the DPI and the Wisconsin Historical Society in order to embody these new standards and their shift toward inquiry-driven pedagogy, specifically targeting the 3-5th grade standards outlined below.</p>
+      <div class="row standards-block">
+        <div class="col-sm-7">
+          <p class="small"><span class="bold">SS.Inq2.b.i </span><br>Evaluate resources to determine which best support the inquiry and supporting questions.</p>
+          <p class="small"><span class="bold">SS.Inq3.b.i </span><br>Select appropriate evidence from sources to support a claim.</p>
+        </div>
+        <div class="col-sm-5">
+          <p class="small standards-explanation">These standards are addressed in the challenge sequences in the game, in which the player must select appropriate evidence to complete a logical claim about a historical interpretation.</p>
+        </div>
+      </div>
+      <div class="row standards-block">
+        <div class="col-sm-7">
+          <p class="small"><span class="bold">SS.Inq2.b.i </span><br>Analyze individuals, groups, and events to understand why their contributions are important to historical change and/or continuity.</p>
+        </div>
+        <div class="col-sm-5">
+          <p class="small standards-explanation">This standard is addressed through the historical content of the game--suffrage and environmentalism.</p>
+        </div>
+      </div>
+      <div class="row standards-block">
+        <div class="col-sm-7">
+          <p class="small"><span class="bold">SS.Hist4.c.i</span><br>Describe the intended purpose of a specific primary or secondary source.</p>
+        </div>
+        <div class="col-sm-5">
+          <p class="small standards-explanation">This standard is addressed by the basic mechanic of the game--discovering the true intended purpose of specific primary source artifacts.</p>
+        </div>
+      </div>
       <h2 id="resources">Resources for Teaching</h2>
       <p>Teacher resources and tips were developed in partnership with Wisconsin Public Television.  Coming soon in the Fall of 2018</p>
       <h2 id="source">Source Code</h2>

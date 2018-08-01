@@ -9383,53 +9383,63 @@ hr {
     opacity: 1;
     position: fixed;
     z-index: 500; }
-  .singleapp .app-about {
+  @media only screen and (max-width: 768px) {
+    .singleapp .app-about {
+      padding-top: 0px; } }
+  .singleapp .app-about h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-left: 0;
+    margin-left: 0;
+    padding-top: 90px; }
+    @media only screen and (max-width: 768px) {
+      .singleapp .app-about h2 {
+        margin-top: 20px; } }
+  .singleapp .app-about .standards-block {
+    background: #f5f5f5;
+    padding: 2vw;
+    margin: 2vw 0vw;
+    border-radius: 5px; }
+    .singleapp .app-about .standards-block .bold {
+      font-size: 20px; }
+    .singleapp .app-about .standards-block .standards-explanation {
+      font-style: italic;
+      letter-spacing: 0px;
+      border-left: 2px solid #fff;
+      padding-left: 15px; }
+  .singleapp .app-about ul {
+    padding-left: 16px; }
+  .singleapp .app-about li {
+    font-size: 15px; }
+  .singleapp .app-about .about-nav {
     padding-top: 100px; }
     @media only screen and (max-width: 768px) {
-      .singleapp .app-about {
-        padding-top: 0px; } }
-    .singleapp .app-about h2 {
-      text-transform: uppercase;
-      font-size: 25px;
-      padding-left: 0;
-      margin-left: 0;
-      padding-top: 90px; }
-      @media only screen and (max-width: 768px) {
-        .singleapp .app-about h2 {
-          margin-top: 20px; } }
-    .singleapp .app-about ul {
-      padding-left: 16px; }
-    .singleapp .app-about li {
-      font-size: 15px; }
-    .singleapp .app-about .about-nav {
-      padding-top: 100px; }
-      @media only screen and (max-width: 768px) {
-        .singleapp .app-about .about-nav {
-          padding-top: 0px;
-          border-bottom: 1px solid #E0BC4E;
-          margin-bottom: 30px; } }
+      .singleapp .app-about .about-nav {
+        padding-top: 0px;
+        border-bottom: 1px solid #E0BC4E;
+        margin-bottom: 30px; } }
   @media only screen and (max-width: 768px) and (max-device-width: 400px), only screen and (max-width: 768px) and (max-width: 400px) {
     .singleapp .app-about .about-nav {
       display: none; } }
-      .singleapp .app-about .about-nav ul {
-        padding-left: 0; }
-        @media only screen and (max-width: 768px) {
-          .singleapp .app-about .about-nav ul {
-            padding: 10px;
-            text-align: center; } }
-      .singleapp .app-about .about-nav li {
-        text-transform: uppercase;
-        cursor: pointer;
-        list-style: none; }
-        @media only screen and (max-width: 768px) {
-          .singleapp .app-about .about-nav li {
-            display: inline;
-            margin-right: 20px; } }
-    .singleapp .app-about .about-rightpanel {
-      padding-left: 80px; }
+    .singleapp .app-about .about-nav ul {
+      padding-left: 0; }
       @media only screen and (max-width: 768px) {
-        .singleapp .app-about .about-rightpanel {
-          padding-left: 0px; } }
+        .singleapp .app-about .about-nav ul {
+          padding: 10px;
+          text-align: center; } }
+    .singleapp .app-about .about-nav li {
+      text-transform: uppercase;
+      cursor: pointer;
+      list-style: none; }
+      @media only screen and (max-width: 768px) {
+        .singleapp .app-about .about-nav li {
+          display: inline;
+          margin-right: 20px; } }
+  .singleapp .app-about .about-rightpanel {
+    padding-left: 80px; }
+    @media only screen and (max-width: 768px) {
+      .singleapp .app-about .about-rightpanel {
+        padding-left: 0px; } }
   .singleapp .scroll-locked {
     position: fixed;
     top: 100px; }

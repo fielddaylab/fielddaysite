@@ -140,7 +140,6 @@
   }
 
   .app-about {
-    padding-top:100px;
     @media #{$break-sm} {
       padding-top:0px;
     }
@@ -152,6 +151,21 @@
       padding-top: 90px;
       @media #{$break-sm} {
         margin-top:20px;
+      }
+    }
+    .standards-block{
+      background: $ultralight_gray;
+      padding:2vw;
+      margin:2vw 0vw;
+      border-radius:5px;
+      .bold {
+        font-size:20px;
+      }
+      .standards-explanation{
+        font-style:italic;
+        letter-spacing:0px;
+        border-left: 2px solid #fff;
+        padding-left: 15px;
       }
     }
     ul {
