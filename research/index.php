@@ -68,130 +68,131 @@
           <div class="col-sm-7">
             <h2 id="pub1">Augmented Reality</h2>
             <div class="pub-wrap">
-              <p class="small">Augmented Reality and Interactive Storytelling (ARIS) (2008-). Combined funding from MacArthur Foundation (PI Squire,K.), ENGAGE, New Learning Institute, Pearson Foundation, Library of Congress Teaching with Primary Sources (PI Brown, L.), Minnesota Historical Society, Covenant Foundation (PIr Gottlieb, O.), SITIAC Fund, UW Children’s Hospital, NSF and WI department of public instruction. An open source mobile AR experience design platform used by over 100,000 researchers, designers and learners worldwide.
-</p>
+              <p class="small">
+                <span class="bold">Augmented Reality and Interactive Storytelling (ARIS) (2008-).</span><br>Combined funding from MacArthur Foundation (PI Squire,K.), ENGAGE, New Learning Institute, Pearson Foundation, Library of Congress Teaching with Primary Sources (PI Brown, L.), Minnesota Historical Society, Covenant Foundation (PIr Gottlieb, O.), SITIAC Fund, UW Children’s Hospital, NSF and WI department of public instruction. An open source mobile AR experience design platform used by over 100,000 researchers, designers and learners worldwide.</p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">ARISE (2010-2018).</span><br> Department of Labor. $1.3M. Wisconsin Technical College System (WTCS). Develop 150 Augmented Reality simulated learning experiences for use by students in various health care disciplines including Nursing, Respiratory Therapy, Medical Assistant, and EMT-Paramedic across 26 nursing colleges in Wisconsin.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Play the Past (2010-2018).</span><br> Mixed funding including NEH, MN Legacy Fund and Best Buy. $4M. PI J. Sly & W. Jones. Design a mixed-reality mobile game to enhance the 21st century field trip experience and connect that experience back to the classroom.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Sustainable U (2015).</span><br> University of Wisconsin Office of Sustainability. $48,554. PIs Gagnon, D, Middlecamp, C., Lupton, C. Design a locative mobile game that engages new audiences to sustainability topics.
               </p>
             </div>
             <h2 id="pub2">Citizen Science & Digital Field Work</h2>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">SIFTR (2013-).</span><br> Project Director. Combined funding provided by University of Wisconsin Year of Innovation Committee, WI Department of Public Instruction, Library of Congress Teaching with Primary Sources (PI Brown, L.), Reilly Baldwin Wisconsin Idea Endowment. An open source field work and citizen science platform used by over 25,000 users worldwide.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">WI Flora Citizen Science and Database (2016-).</span><br> Reilly Baldwin Wisconsin Idea Endowment. PIs Gagnon, D. & Woodward, C. $130,000. Develop a new platform for identifying and recording observations, training educators and researching outcomes of participation.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Mobile Field Research Platform (2014).</span><br> University of Wisconsin Education Innovation Award. $63,120. PIs Gagnon, D, Middlecamp. Design and produce a suite of tools that support the distributed creation of mobile field guides, citizen science and citizen ethnography projects.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">WeBIRD(2013).</span><br> University of Wisconsin Mobile Learning Incubator. PIs Gagnon, D. & Berres, M. $30,000. Collaboration with Ornithology Department  through Mobile Learning Incubator. A pilot to research the affordances and results of adding specific game mechanics to a field research mobile app.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Nomen (2012).</span><br> University of Wisconsin Mobile Learning Incubator. PIs Gagnon, D. & McGee, S.. $30,000. Develop a mobile utility for identifying prairie grasses flowers, a research study into the efficiency and accuracy of digital application in comparison to traditional dichotomous keys.
+                Wisconsin Key to Woody Plants (2011). Wisconsin Environmental Education Board (WEEB). PI Woodward, C. $12,000. Develop a mobile application for identifying trees shrubs and vines.
               </p>
             </div>
             <h2 id="pub3">Learning Games & Virtual Reality</h2>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Jo Wilder and the Capitol Case (2018).</span><br> Combined funding from Wisconsin Department of Public Instruction, Friends of Wisconsin Public Television and Wisconsin Center for Education Research. PI Gagnon, D. $64,264. Develop a game to playfully introduce practices of historical inquiry.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Material Research Science and Engineering Center Education Outreach Games (2016-).</span><br> NSF MRSEC. PI Abbott, N. $176,000 out of $15.6M total budget. Produce digital video games for public engagement of material science research.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Polar Virtual Reality Exhibit (2017-2018).</span><br> NSF AISL. PI Ponto, K. $359,799. Develop a joint Virtual Reality and Multi Touch tabletop interactive for informal science learning about the IceCube observatory and astrophysics research.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">The Yard Games (2015-2016).</span><br> WI Virtual Schools. PI Gagnon, D. $250,000. Develop a series of simulation games to teach complex science topics, grades 5-8.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">AtomTouch (2015).</span><br> NSF MRSEC SEED. PIs Morgan, D. Gillian Daniels, AL. & Gagnon, D. $60,000. Develop an educational 3d touchscreen app to simulate molecular dynamics properties at an atomic scale.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">The FIRM (2014).</span><br> University of Wisconsin School of Business. PI Gagnon, D. $7,000. Produce a game prototype to teach international currency trading strategies.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Thermo-Golf (2011-2014).</span><br> NSF TUES. PI Pfotenhauer, J. $199,000. Develop a game to teach introductory thermodynamics, study the effects of game aesthetics on player engagement and develop methods of real-time assessment based on player logs.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">The N Game (2010).</span><br> ENGAGE. PI Balser, T.  $50,000. Design and produce a card game to teach the nitrogen cycle.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Harmony Mixer (2010).</span><br> ENGAGE. PI Henke, J. $37,000.  Develop a game to teach introductory music theory.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Cool-It (2008).</span><br> ENGAGE. $142,000. PI Pfotenhauer, J. Develop a digital simulation game to teach cryogenics as well as a method for assessing player competencies from in-game activity.
               </p>
             </div>
             <h2 id="pub4">Professional Development & Youth Digital Media Production</h2>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">AR Girls (2017-).</span><br> NSF ITEST. PI Stylinski, C. $1M. Research the impact of developing AR experiences on young women's interest in ICT careers, self-efficacy for doing science or becoming a lifelong learner in science, and perspectives on what constitutes doing science research.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Rally Wisconsin (2014-).</span><br> WI Department of Public Instruction. PI Gagnon, D. $998,000. Promote and support the use of games and making statewide through educator engagement and digital content production.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">University of Wisconsin Mobile Learning Incubator (2010-2013).</span><br> University of Wisconsin SITIAC Fund. PI Gagnon, D. $302,980. Explore the affordances of mobile media in higher education teaching and learning.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Designing Wisconsin Experiences (2014).</span><br> Collaboration with UW Madison English department through Mobile Learning Incubator.  Develop a design facilitation approach for student designed mobile experiences, research the ways in which learners make meaning through re-representation using digital media.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Learning History and Culture through Designing Mobile Games (2013).</span><br> Collaboration with UW Madison English department  through Mobile Learning Incubator.  Develop a design facilitation approach for student designed mobile experiences.
               </p>
             </div>
             <div class="pub-wrap">
               <p class="small">
-
+                <span class="bold">Designing for Digital Literacy (2013).</span><br> Collaboration with UW Madison Curriculum and Instruction, UW Engage Situated Learning award. Develop a design facilitation approach for student designed mobile experiences in effort to increase digital literacy.
               </p>
             </div>
           </div>
