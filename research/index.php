@@ -63,9 +63,9 @@
                 <li><a href="#pub2">Citizen Science & Digital Field Work</a></li>
                 <li><a href="#pub3">Professional Development & Youth Digital Media Production</a></li>
               </ul>
+            </div>
           </div>
-          </div>
-          <div class="col-sm-7">
+          <div class="col-sm-8">
             <h2 id="pub1">Augmented Reality</h2>
             <div class="pub-wrap">
               <p class="small">
@@ -110,7 +110,7 @@
             <div class="pub-wrap">
               <p class="small">
                 <span class="bold">Nomen (2012).</span><br> University of Wisconsin Mobile Learning Incubator. PIs Gagnon, D. & McGee, S.. $30,000. Develop a mobile utility for identifying prairie grasses flowers, a research study into the efficiency and accuracy of digital application in comparison to traditional dichotomous keys.
-                Wisconsin Key to Woody Plants (2011). Wisconsin Environmental Education Board (WEEB). PI Woodward, C. $12,000. Develop a mobile application for identifying trees shrubs and vines.
+                <br><a href="http://itunes.apple.com/us/app/key-to-woody-plants-wisconsin/id462075116?mt=8" target="_blank">Wisconsin Key to Woody Plants</a> (2011). Wisconsin Environmental Education Board (WEEB). PI Woodward, C. $12,000. Develop a mobile application for identifying trees shrubs and vines.
               </p>
             </div>
             <h2 id="pub3">Learning Games & Virtual Reality</h2>
@@ -201,67 +201,267 @@
     </div>
     <div role="tabpanel" class="tab-pane fade" id="publications">
       <div class="row">
-        <div class="col-md-12">
-          <h2>Significant Projects and Funding</h2>
+        <div class="pub-nav-wrap sticky col-sm-4">
+          <div class="pub-nav">
+            <ul>
+              <li><a href="#pub4">Written by Field Day Lab Staff</a></li>
+              <li><a href="#pub5">Utilizing Field Day Platforms</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <h2 id="pub4">Written by Field Day Lab Staff</h2>
           <div class="pub-wrap">
-            <p class="small"></p>
+            <p class="small">
+DuBois, T.A., Olson, R., Cederström, B.M., Mathews, J., Gagnon, D. (In Press) Siftr: A Tool for the Folklore Classroom. Journal for Folklore and Education.
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">AR Girls (2017-). Sub Award Principal Investigator. $101,538. NSF ITEST. Research the impact of developing AR experiences on young women's interest in ICT careers, self-efficacy for doing science or becoming a lifelong learner in science, and perspectives on what constitutes doing science research.
-</p>
+            <p class="small">
+              Mathews, J., & Holden, C. (2018). The Design and Play of Geogames as Place-Based Education. In Geogames and Geoplay (pp. 161-176). Springer, Cham.
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">Rally Wisconsin (2014-). Principal Investigator. $998,000. WI Department of Public Instruction. Promote and support the use of games and making statewide through educator engagement and digital content production. </p>
+            <p class="small">
+Carlson, K., Gagnon, D. (2016). Augmented Reality Integrated Simulation Education in Health Care. Clinical Simulation in Nursing, 12(4), 123-127. DOI:<a href="http://dx.doi.org/10.1016/j.ecns.2015.12.005" target="_blank">10.1016/j.ecns.2015.12.005</a>
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">The Yard Games (2015-2016). Principal Investigator, project producer. $250,000. WI Virtual Schools. Develop a series of simulation games to teach complex science topics, grades 5-8.
-</p>
+            <p class="small">
+Gagnon, D. (2015) Educational Mobile Games and the Tools that Invite Participation into Ecological Investigations. In Ugolini F., Raschi A., Papageorgiou F. (Eds), Proceedings of Environmental Education: Innovation in ICT and intergenerational learning. (pp. 24-25). IBIMET-CNR: Firenze, Italy.
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">Material Research Science and Engineering Center Education Outreach Games (2016-). Sub Award Principal Investigator. $176,000. Principal Investigator Nicholas Abbott. NSF MRSEC. Develop a program to produce video games for public engagement of research and educator development.
-</p>
+            <p class="small">
+              Gagnon, D., Vang, R., & Litts, B. K. (2015). Learning through design: ARIS. In K. Caldwell, S. Seyler, A. Ochsner, & C. Steinkuehler (Eds), Proceedings of the eleventh annual Games+Learning+Society Conference (pp. 282-288). ETC Press: Pittsburgh, PA.
+
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">Polar Virtual Reality Exhibit (2017-). Sub-Award Principal Investigator. $226,000. NSF AISL (Principal Investigator Kevin Ponto). Develop a joint Virtual Reality and Multi Touch tabletop interactive for informal science learning about the IceCube observatory and research.
-</p>
+            <p class="small">
+Silbernagel, J., Host, G., Hagley, C., Hart, D., Axler, R., Fortner, R., Axler, M., Smith, V., Drewes, A., Bartsch, W., Danz, N., Mathews, J., & Wagler, M. (2015). Linking place-based science to people through spatial narratives of coastal stewardship. Journal of Coastal Conservation, 19(2), 181-198.
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">WI Flora Citizen Science and Database (2016-). Co-Principal Investigator. $130,000. Reilly Baldwin Wisconsin Idea Endowment. Develop a new platform for identifying and recording observations, training educators and researching outcomes of participation.
-</p>
+            <p class="small">
+Gagnon, D., Stidwill, P., Hass, J., Snow, B., Osterweil, S. (2014). Ghost Stories from Learning Game Design: Surprises: Good outcomes we weren’t expecting and things we’ll know to worry about next time. In A. Ochsner, J. Deitmeier, C. Willaims, & C. Steinkuehler (Eds), Proceedings of the tenth annual Games+Learning+Society Conference. ETC Press: Pittsburgh, PA.
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">SIFTR (2013-). Project Director. Combined funding provided by University of Wisconsin Year of Innovation Committee, WI Department of Public Instruction, Library of Congress Teaching with Primary Sources (Principal Investigator Lucianne Brown), Reilly Baldwin Wisconsin Idea Endowment.  An open source field work and citizen science platform used by over 25,000 users worldwide.</p>
+            <p class="small">
+Gagnon, D., Holden, C., Gottlieb, O., Long, K., Quintanilla, E., Kavaloski, A., Lynch, S., Leach, D. (2014). Inquiry and Learning through Mobile Game Design. In A. Ochsner, J. Deitmeier, C. Willaims, & C. Steinkuehler (Eds), Proceedings of the tenth annual Games+Learning+Society Conference (pp. 458-459). ETC Press: Pittsburgh, PA.
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">Augmented Reality and Interactive Storytelling (ARIS) (2008-). Project Director. Combined funding from MacArthur (Principal Investigator Kurt Squire), ENGAGE, New Learning Institute, Pearson Foundation, Library of Congress Teaching with Primary Sources (Principal Investigator Lucianne Brown), Minnesota Historical Society, Covenant Foundation (Principal Investigator Owen Gottlieb), SITIAC Fund, UW Children’s Hospital and WI department of public instruction. An open source mobile AR experience design platform used by over 100,000 researchers, designers and learners worldwide.
-</p>
+            <p class="small">
+              Holden, C. L., Gagnon, D. J., Litts, B. K., & Smith, G. (2014). ARIS: An Open-Source Platform for Widespread Mobile Augmented Reality Experimentation. In F. Neto (Eds.), Technology Platform Innovations and Forthcoming Trends in Ubiquitous Learning (pp. 19-34). Hershey, PA: IGI Global. doi:10.4018/978-1-4666-4542-4.ch002
+
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">AtomTouch (2015). Principal Investigator with Dane Morgan and Anne Lynn Gillian Daniels. $60,000. NSF MRSEC SEED. Develop an educational 3d touchscreen app to simulate molecular dynamics properties at an atom scale.</p>
+            <p class="small">
+Gagnon, D. McGee, S., Litts, B., Martin, J., Moeller, J., Heindl, N., Dougherty, P. (2014). Mobile‐Enhanced Field Research: Increasing Plant Identification Accuracy and Efficiency. University of Wisconsin Mobile Learning Incubator.
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">Mobile Field Research Platform (2014). Principal Investigator with Cathy Middlecamp. $63,120 University of Wisconsin Education Innovation Award. Design and produce a suite of tools that support the distributed creation of mobile field guides, citizen science and citizen ethnography projects.
-</p>
+            <p class="small">
+              Gagnon, D., McGee, S., Litts, B. K., & Martin, J. (2014). Mobile-enhanced field research: BioCore plant identification. In A. Ochsner, J. Deitmeier, C. Willaims, & C. Steinkuehler (Eds), Proceedings of the tenth annual Games+Learning+Society Conference (pp. 458-459). ETC Press: Pittsburgh, PA.
+
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">Sustainable U (2015). Principal Investigator with Cathy Middlecamp and Chris Lupton. $48,554. University of Wisconsin Office of Sustainability Grant. Design a locative mobile game that engages new audiences to sustainability topics.
-</p>
+            <p class="small">
+Litts, B.K., Vang, R., Martin, J., & Gagnon, D. (2014). Learning Through Design with ARIS: Iteration 2 Digital Literacies Course. University of Wisconsin-Madison Mobile Learning Incubator.
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">University of Wisconsin Mobile Learning Incubator (2010-2013). Program Manager. $302,980. University of Wisconsin Student Information Technology Initiative. Direct a team of designers, developers and education research to explore the intersections of learning science and mobile media.
-</p>
+            <p class="small">
+Litts, B. K., Smith, G., Gagnon, D., Martin, J., Mathews, J. (2013). Situated learning and mobile technologies: Connecting theory to design. In C. Willaims, A. Ochsner, J. Deitmeier, & C. Steinkuehler (Eds), Proceedings of the ninth annual Games+Learning+Society Conference (pp. 210-215). ETC Press: Pittsburgh, PA.
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">Play the Past (2010-2014). Mobile development director, game co-designer, software developer. Project leaders J. Sly & W. Jones. The Minnesota Historical Society. $2,500,000. Design a mixed-reality mobile game to enhance the 21st century field trip experience and connect that experience back to the classroom.</p>
+            <p class="small">
+Smith, G. W., Martin, J.G., Gagnon, D.J., Litts, B.K., & Gottlieb, O. (2013). Designing and Building Mobile, Locative Games with ARIS. In C. Willaims, A. Ochsner, J. Deitmeier, & C. Steinkuehler (Eds), Proceedings of the ninth annual Games+Learning+Society Conference (pp. 430-434). ETC Press: Pittsburgh, PA.
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">Thermo-Golf (2011-2014). Producer. Principal Investigator John Pfotenhauer. $199,000. NSF TUES. A game to teach introductory thermodynamics, study the effects of game aesthetics on player engagement and develop methods of real-time assessment based on player logs.</p>
+            <p class="small">
+Gagnon, D., McGee, S., Litts, B.K., Martin, J., et al. (2013). Mobile-Enhanced Field Research: Increasing plant identification accuracy and efficiency. University of Wisconsin-Madison Mobile Learning Incubator.
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">The N Game (2010). Producer and game co-designer. Principal Investigator Teri Balser. $50,000. Engage Program. A card game to teach the nitrogen cycle.</p>
+            <p class="small">
+              Litts, B.K., Martin, J., & Gagnon, D. (2013). Learning Through Design with ARIS: Iteration 1 Digital Literacies Course. University of Wisconsin-Madison Mobile Learning Incubator.
+
+            </p>
           </div>
           <div class="pub-wrap">
-            <p class="small">Cool-It (2008). Producer and game co-designer. Principal Investigator John Pfotenhauer. $142,000. Engage Program.  A digital simulation game to teach cryogenics; a method for assessing player competencies from in-game activity.</p>
+            <p class="small">
+Martin, J., Dikkers, S., Squire, K., Gagnon, D. (2013). <a href="http://link.springer.com/article/10.1007/s11528-013-0718-1?sa_campaign=email/event/articleAuthor/onlineFirst" target="_blank">Participatory Scaling Through Augmented Reality Learning Through Local Games.</a> TechTrends, 58(1), 35-41. DOI 10.1007/s11528-013-0718-1.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+              Mathews, J. & Holden, R. (2012). Place–based design for civic participation. In S. Dikkers, J. Martin, & B. Coulter (Eds.). Mobile media learning: Amazing uses of mobile devices for teaching and learning (131-148). Pittsburgh, PA: ETC Press.
+
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Wagler, M. & Mathews, J. (2012). Up River: Place, ethnography, and design in the St. Louis River Estuary. In S. Dikkers, J. Martin, & B. Coulter (Eds.). Mobile media learning: Amazing uses of mobile devices for teaching and learning (41-60). Pittsburgh, PA: ETC Press.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Gagnon, D. (2011). What teachers can learn from Rock Band, Facebook and Angry Birds. In Proceedings of 27th Annual Conference on Distance Teaching and Learning Conference.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Gagnon, D. (2010). Mobile Learning Environments. Educause Quarterly, 33(1). <br><a href="http://www.educause.edu/ero/article/mobile-learning-environments" target="blank">http://www.educause.edu/ero/article/mobile-learning-environments</a>
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Gagnon, D. (2010). ARIS: An open source platform for developing mobile learning experiences. Unpublished Master’s thesis.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+              Mathews, J. (2010). Using a studio-based pedagogy to engage students in the design of mobile-based media. English Teaching: Practice and Critique, 9(1), 87-102.
+              Mathews, J. & Squire, K. (2009). Augmented Reality gaming and game design as a new literacy practice. In K. Tyner (Ed.), Media literacy: New agendas in communication (209-232). New York: Routledge.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+              Mathews, J & Wagler, M. (2009). Getting places: Using mobile media to augment place-based learning. Connect: Innovations in K-8 Science, Math, and Technology. 23(1) 22-25.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+              Pfotenhauer, J., Gagnon, D., Litzkow, M., Blakesley C. (2009). Designing and Using an Online Game to Teach Engineering. In Proceedings of the 39th Annual ASEE/IEEE Frontiers in Education Conference.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Mathews, J. (2008). I was there: Place-based Augmented Reality games in the classroom. The Journal of Media Literacy. 54 (2,3) 60-65.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Squire, K.D., Jan, M., Mathews, J., Wagler, M., Martin, J., Devane, B. & Holden, C. (2007). Wherever you go, there you are: The design of local games for learning. In B. Sheldon & D. Wiley (Eds.), The design and use of simulation computer games in education (265-296). Rotterdam, Netherlands: Sense Publishing.
+            </p>
+          </div>
+          <h2 id="pub5">Utilizing Field Day Platforms</h2>
+          <div class="pub-wrap">
+            <p class="small">
+Hellermann, J., Thorne, S. L., & Fodor, P. (2017). Mobile reading as social and embodied practice. Classroom Discourse, 8(2), 99-121.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Searle, K.A., Casort, T., Litts, B.K., & Benson, S. (2017). Connecting Space and Narrative in Culturally Responsive Making in ARIS with Indigenous Youth. In Proceedings of 2017 FabLearn Conference on Creativity and Fabrication in Education. ACM.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Thorne, S. L., & Hellermann, J. (2017). Mobile augmented reality: Hyper contextualization and situated language usage events. In Proceedings of the XVIII International CALL Conference: CALL in Context (pp. 721-730). Berkeley, CA: University of California at Berkeley.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Bressler, D. M. (2016). Engaging science learners through lived practice via a collaborative mobile game. In H. Crompton, & J. Traxler (Eds.), Mobile Learning and STEM: Case studies in practice (pp. 139-149). New York: Routledge.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Adam, F., & Perales, V. (2015). Experimenting with locative media games and storytelling in fine arts. In Mobile media learning (pp. 123-135). ETC Press.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Bressler, D. M. (2015). School Scene Investigators: A collaborative AR game for middle school science inquiry. In C. Holden, S. Dikkers, J. Martin, & B. Litts (Eds.), Mobile Media Learning: Innovation and Inspiration (pp. 87-100). Pittsburgh, PA: ETC Press.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Holden, C., Dikkers, S., Martin, J., & Litts, B K. (Eds). (2015). Mobile Media Learning: Iterations and Innovations. ETC Press.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Markouzis, D., & Fessakis, G. (2015). Interactive storytelling and mobile augmented reality applications for learning and entertainment—a rapid prototyping perspective. In Interactive Mobile Communication Technologies and Learning (IMCL), 2015 International Conference on (pp. 4-8). IEEE.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Perry, B. (2015). Gamifying French Language Learning: a case study examining a quest-based, augmented reality mobile learning-tool.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Thorne, S. L., Hellermann, J., Jones, A., & Lester, D. (2015). Interactional practices and artifact orientation in mobile augmented reality game play. PsychNology Journal.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Crandall, P. G., Engler III, R. K., Beck, D. E., Killian, S. A., O'Bryan, C. A., Jarvis, N., & Clausen, E. (2015). Development of an augmented reality game to teach abstract concepts in food chemistry. Journal of Food Science Education, 14(1), 18-23.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Crandall, P. G., Engler III, R. K., Beck, D. E., Killian, S. A., O'Bryan, C. A., Jarvis, N., & Clausen, E. (2015). Development of an augmented reality game to teach abstract concepts in food chemistry. Journal of Food Science Education, 14(1), 18-23.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Andrews, A., Litts, B. K., & Kalaitzidis, T.J. (2014). Participatory pedagogy: Designing a new literacies classroom. National Council of Teachers of English Assembly for Research: Elmhurst, IL.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Bressler, D. M. (2014). Is it all in the game? Flow experience and scientific practices during an INPLACE mobile game. (Unpublished doctoral dissertation). Lehigh University, Bethlehem, PA
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Bressler, D. (2014). Better than business-as-usual: Improving scientific practices during discourse and writing by playing a collaborative mystery game. Double Helix: A Journal of Critical Thinking and Writing, 2, 1-13.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Kalaitzidis, T.J., Litts, B. K., & Halverson, E. (2014). Designing for mobile media, collaborative production, and new literacies in college classrooms. American Educational Research Association Annual Meeting: Philadelphia, PA.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Kalaitzidis, T.J., Andrews, A., & Litts, B. K. (2014). Participatory pedagogy: Designing for change. 35th Annual Ethnographic in Education Research Forum: Philadelphia, PA.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Bressler, D., & Bodzin, A. (2013). A mixed methods assessment of students’ flow experience during a mobile augmented reality science game. Journal of Computer Assisted Learning, 29(6), 505-517.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Roy, C., & Frandy, T. (2013). Examining augmented reality as a platform for situated ethnography through the lens of the ARIS Wisconsin uprising game. The Journal of American Folklore, 126(499), 70-78.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Shea, A., & Ito, J. (2013). Project Tamago: Design and Development of an Augmented Reality Mobile Game for Japanese Language Learning. In EdMedia: World Conference on Educational Media and Technology (pp. 2281-2285). Association for the Advancement of Computing in Education (AACE).
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Sykes, J. M. (2013). Technology—“Just” playing games? A look at the use of digital games for language learning. Language, 32.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+              Paterson, C. (2012). Learning history with augmented reality. Teaching History, 46(3), 23.
+            </p>
           </div>
         </div>
       </div>
