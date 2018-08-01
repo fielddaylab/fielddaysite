@@ -122,7 +122,7 @@ window.onload = function()
         <li>Sarah Gagnon</li>
         <li>Lindy Biller</li>
         <li>Eric Lang</li>
-        <li>Philip Dougherty</li>
+        <li>Phil Dougherty</li>
       </ul>
       <h3>Original Music and Sound</h3>
       <ul>
