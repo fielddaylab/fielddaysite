@@ -9269,6 +9269,8 @@ hr {
     background: #222830;
     display: flex;
     align-items: center; }
+    .singleapp .app-hero .button {
+      margin-bottom: 10px; }
     @media only screen and (max-width: 768px) {
       .singleapp .app-hero {
         height: auto;
@@ -9301,6 +9303,9 @@ hr {
         width: 100%;
         border-bottom: 2px solid #fff;
         position: relative; }
+        @media only screen and (max-width: 768px) {
+          .singleapp .app-hero .hero-content .info-panel {
+            display: none; } }
         .singleapp .app-hero .hero-content .info-panel .logo-small {
           position: absolute;
           display: block;

@@ -4,6 +4,9 @@
     background: $black;
     display:flex;
     align-items: center;
+    .button {
+      margin-bottom:10px;
+    }
     @media #{$break-sm} {
       height:auto;
       padding:25vw 0vw 15vw 0vw;
@@ -33,6 +36,9 @@
         width: 100%;
         border-bottom: 2px solid #fff;
         position: relative;
+        @media #{$break-sm} {
+          display:none;
+        }
         .logo-small {
           position: absolute;
           display: block;
