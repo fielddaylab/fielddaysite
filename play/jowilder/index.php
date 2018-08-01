@@ -2,13 +2,21 @@
 
 <title>Field Day - Jo Wilder and the Capitol Case</title>
 <script>
-  function playContent()
+window.onload = function()
+{
+  var clickload = document.getElementById("clickload");
+  var iframe = document.getElementById("content");
+
+  function loadiframe()
   {
-    document.getElementById("content_play").innerHTML = "";
-    document.getElementById("content_play").style.display = "none";
-    document.getElementById("content").src = "build/iframe.html";
-    document.getElementById("content").style.display = "block";
+    iframe.style.display = "visible";
+    iframe.src = "capitol_prototype/iframe.html";
+    clickload.removeEventListener("click",loadiframe);
+    clickload.parentNode.removeChild(clickload);
+    clickload = null;
   }
+  clickload.addEventListener("click",loadiframe);
+};
 </script>
 </head>
 <body class="singleapp jowilder">
@@ -41,7 +49,19 @@
 </section>
 <section id="app-intro">
   <h2>Play Jo Wilder and the Capitol Case</h2>
-  <iframe id="content" scrolling="no" style="width:880px; height:660px; margin:10px auto; overflow:hidden; border:0px;" src="capitol_prototype/iframe.html"></iframe>
+  <div id="clickload" scrolling="no" style="background-size: cover; width:880px; height:660px; display:block; margin:0px auto; overflow:hidden; border:0px;">
+    <span class="playbutton"
+      style="
+        background-image: url(capitol_prototype/assets/play.png);
+        background-size: cover;
+        width: 300px;
+        height: 95px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 400px;">
+    </span>
+  </div>
+  <iframe id="content" scrolling="no" style="display:none; width:880px; height:660px; display:block; margin:0px auto; overflow:hidden; border:0px;"></iframe>
 </section>
 
 <section id="app-about" class="app-about">
