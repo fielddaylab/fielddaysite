@@ -81,6 +81,9 @@
   position: absolute;
   z-index: 1;
   display: block;
+  &.top-pad  {
+    top:20px;
+  }
   .star {
     width: 17px;
     height: 17px;

@@ -15,7 +15,7 @@
         <ul class="carousel-indicators slide-bullets">
             <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
               <span class="bullet"></span>
-              <span class="bullet-caption">Field Day</span>
+              <span class="bullet-caption">Jo Wilder</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
               <span class="bullet"></span>
@@ -37,9 +37,10 @@
           <div class="info-wrap">
             <span class="grad"></span>
             <div class="item-info">
-              <h1 class="main-mark">Field Day</h1>
-              <p class="corrected">Games are a magical way to share research from the university to the public.</p>
-              <a href="#intro" class="button white small">Get Started</a>
+              <img class="" src="/assets/img/logos/jowilder.png">
+              <h2 class="uppercase"></h2>
+              <p class="corrected">Play as Jo Wilder, a scrappy girl who spends her days with her pet badger Teddy and her grandpa, a historian. When some mysterious artifacts show up at the History Museum, you must unravel the clues to find the real stories behind the artifacts.</p>
+              <a class="button small white" href="/play/jowilder">Play Jo Wilder</a>
             </div>
           </div>
         </div>
@@ -67,7 +68,7 @@
           <div class="info-wrap">
             <span class="grad"></span>
             <div class="item-info">
-              <img class="" src="/assets/img/logos/siftr-logo.png">
+              <img class="small_hero_img" src="/assets/img/logos/siftr-logo.png">
               <h2 class="uppercase"></h2>
               <p class="corrected">Use Siftr to make fieldwork easy. Collect data in the field and create beautiful visualizations.</p>
               <a class="button small white" href="https://siftr.org" target="_blank">Go to Siftr</a>
@@ -91,7 +92,7 @@
       <span class="offscreen test one"></span>
       <div class="intro-content">
         <img class="bg1trigger reveal float" src="assets/img/illustrations/astronaut1.png" class="astronaut">
-        <h2 class="light centered uppercase">We are Field Day</h2>
+        <h2 class="light centered plainreveal uppercase">We are Field Day</h2>
         <p class="corrected plainreveal big light">What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We foster that wonder by creating learning games, virtual reality experiences and citizen science apps. Teachers and subject experts work with us to design fun ways to connect people to research. Our mission is to explain big ideas in playful ways, bridging the gap between the university and the public.</p>
         <!--<p class="corrected plainreveal big light">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>-->
       </div>
@@ -343,7 +344,7 @@ var fastreveal = {
 
 var plainreveal = {
   delay    : 00,
-  distance : '0px',
+  distance : '30px',
   easing   : 'ease-in-out',
   scale    : 1.0
 };
@@ -370,7 +371,7 @@ var skylabreveal = {
   easing   : 'ease-in-out'
 };
 
-window.sr = ScrollReveal({ duration: 1000, mobile: false});
+window.sr = ScrollReveal({ duration: 500, mobile: false});
 sr.reveal('.reveal', fastreveal, { viewFactor: 0.3 });
 sr.reveal('.slowreveal', slowreveal, { viewFactor: 0.3 });
 sr.reveal('.revealfull', fastreveal, { viewFactor: 0.8 });

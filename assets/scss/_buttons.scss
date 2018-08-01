@@ -66,6 +66,14 @@
       i { color: #fff; }
     }
   }
+  &.blue-black {
+    color: $blue-black; border-color: $blue-black; background: transparent;
+    i { color: $blue-black; }
+    &:hover, &.filled {
+      background: $black; color: #fff;
+      i { color: #fff; }
+    }
+  }
   &.dark_gray {
     color: $dark_gray; border-color: $dark_gray; background: transparent;
     i { color: $dark_gray; }

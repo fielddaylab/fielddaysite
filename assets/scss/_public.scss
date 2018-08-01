@@ -126,13 +126,17 @@
   }
   .apps {
     text-align:center;
+    padding:20px;
+    @media #{$break-sm} {
+      padding:0px;
+    }
     .app-card {
       background: #fff;
       width: 17vw;
       padding: 3vw 2vw;
-      box-shadow:0 0 13px 0 rgba(0, 0, 0, 0.15);
+      box-shadow:0 0px 13px 0 rgba(0, 0, 0, 0.15);
       z-index:75;
-      border-radius: 10px;
+      border-radius: 3px;
       text-align: center;
       flex-direction:wrap;
       @media #{$break-sm} {
@@ -157,7 +161,7 @@
         -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
         transform: scale(1.05);
-        box-shadow:0 2px 23px 0 rgba(0, 0, 0, 0.1);
+        box-shadow:0 10px 40px 0 rgba(0, 0, 0, 0.1);
       }
       &.selectedItem {
         -webkit-transform: scale(1.1);
@@ -355,7 +359,7 @@
   background: #fff;
   padding: 10vw;
   h2 {
-    z-index: 1000;
+    z-index: 100;
     position: relative;
   }
   .starfield {

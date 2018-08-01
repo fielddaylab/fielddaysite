@@ -17,9 +17,13 @@ $(window).scroll(function() {
   }*/
 });
 
+// stickyfill
+var elements = document.querySelectorAll('.sticky');
+Stickyfill.add(elements);
+
 // smooth scroll
 $(document).ready(function(){
-  $('a[href^="#"]').on('click',function (e) {
+  $('a[href^="#"]:not([data-toggle="tab"])').on('click',function (e) {
       e.preventDefault();
 
       var target = this.hash;
@@ -125,6 +129,8 @@ $(window).scroll(function () {
    });
 });
 
+
+
 $('.corrected').buddySystem();
 
 $(document).ready(function(){
@@ -132,6 +138,6 @@ $(document).ready(function(){
     $('.worklink').append('<button data-toggle="modal" data-target="#contactModal" class="workwithus button xsmall yellow filled hideforsmall">Schedule a meeting</button>');
   }
   else {
-    $('.worklink').append('<a href="/work" class="workwithus button xsmall yellow filled hideforsmall">Work with us</a>');
+    $('.worklink').append('<a href="/work" class="workwithus button xsmall blue-black filled hideforsmall">Work with us</a>');
   }
 });

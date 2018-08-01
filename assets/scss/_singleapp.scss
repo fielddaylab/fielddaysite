@@ -4,6 +4,9 @@
     background: $black;
     display:flex;
     align-items: center;
+    .button {
+      margin-bottom:10px;
+    }
     @media #{$break-sm} {
       height:auto;
       padding:25vw 0vw 15vw 0vw;
@@ -33,6 +36,9 @@
         width: 100%;
         border-bottom: 2px solid #fff;
         position: relative;
+        @media #{$break-sm} {
+          display:none;
+        }
         .logo-small {
           position: absolute;
           display: block;
@@ -134,7 +140,6 @@
   }
 
   .app-about {
-    padding-top:100px;
     @media #{$break-sm} {
       padding-top:0px;
     }
@@ -148,11 +153,26 @@
         margin-top:20px;
       }
     }
+    .standards-block{
+      background: $ultralight_gray;
+      padding:2vw;
+      margin:2vw 0vw;
+      border-radius:5px;
+      .bold {
+        font-size:20px;
+      }
+      .standards-explanation{
+        font-style:italic;
+        letter-spacing:0px;
+        border-left: 2px solid #fff;
+        padding-left: 15px;
+      }
+    }
     ul {
       padding-left: 16px;
     }
     li {
-      font-size: 14px;
+      font-size: 15px;
     }
     .about-nav {
       padding-top: 100px;
@@ -257,6 +277,16 @@
     #app-intro {
       padding: 5vw 0vw 5vw 0vw;
       text-align: center;
+      .iframe-bg {
+        width:880px;
+        height:660px;
+        display:block;
+        margin:0px auto;
+        overflow:hidden;
+        border:0px;
+        background:url(../img/iframe_img.jpg) no-repeat;
+        background-size: cover;
+      }
       h2 {
         text-transform: uppercase;
       }
@@ -276,6 +306,7 @@
     .app-hero{
       background:url(../img/hero-images/jowilder-bg.jpg) no-repeat;
       background-size: cover;
+      background-position:right;
     }
     .info-panel {
       border-bottom: 0px !important;

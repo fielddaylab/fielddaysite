@@ -1,4 +1,5 @@
 <nav class="small-nav nav-fixed">
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
   <div class="left">
     <ul>
       <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/fd.png"></a></li>
@@ -9,9 +10,14 @@
   </div>
   <div class="right">
     <ul>
+      <li class="small-navlink hide-for-nav"><a href="/research">research</a></li>
       <li class="small-navlink hide-for-nav"><a href="/teachers">teachers</a></li>
       <span class="worklink hide-for-nav"></span>
-      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
+      <div class="mobile-nav-toggle-wrap">
+        <div class="nav-toggle">
+          <div class="icon"></div>
+        </div>
+      </div>
     </ul>
   </div>
 </nav>
@@ -27,16 +33,18 @@
 <div class="drawer drawer-top play">
   <div class="drawer-contents">
     <div class="draweritem drawer-intro"><div class="draweritem-content"><img src="/assets/img/logos/fd-arrow.png" class="nav-thumb"><h2>Play</h2><p>Field Day makes apps that change the way people see the world. play around, or remix them.</p></div></div>
+    <a target="_blank" href="/play/jowilder" style="background: url('/assets/img/thumbnails/jowilder-bg.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/jowilder-small.png" class="nav-thumb"><h2>Jo Wilder and the Capitol Case</h2><p>Unravel the stories behind mysterious artifacts at the museum.</p><span class="go">go</span></div></a>
+
     <a target="_blank" href="http://theyardgames.org" style="background: url('/assets/img/thumbnails/bg7.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/yard-logo.png" class="nav-thumb"><h2>The Yard Games</h2><p>Teach Science with free, beautiful games on the web.</p><span class="go">go</span></div></a>
 
-    <a target="_blank" href="/play/ice-cube" style="background: url('/assets/img/thumbnails/bg12.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/aliengardener.png" class="nav-thumb"><h2>Discover IceCube VR</h2><p>Journey deep into space to track down the source of a neutrino</p><span class="go">go</span></div></a>
+    <a target="_blank" href="/play/ice-cube" style="background: url('/assets/img/thumbnails/bg12.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/ice-cube-logo-white.png" class="nav-thumb"><h2>Discover IceCube VR</h2><p>Journey deep into space to track down the source of a neutrino</p><span class="go">go</span></div></a>
 
-    <a target="_blank" href="/play/atom-touch" style="background: url('/assets/img/thumbnails/bg9.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/atomtouch-logo.png" class="nav-thumb"><h2>Atom Touch</h2><p>Explore how atoms work with this tactile simulation. 8+</p><span class="go">go</span></div></a>  
+    <a target="_blank" href="/play/atom-touch" style="background: url('/assets/img/thumbnails/bg9.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/atomtouch-logo.png" class="nav-thumb"><h2>Atom Touch</h2><p>Explore how atoms work with this tactile simulation. 8+</p><span class="go">go</span></div></a>
 
     <a target="_blank" href="/play/alien-gardener" style="background: url('/assets/img/thumbnails/bg12.png'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/aliengardener.png" class="nav-thumb"><h2>Alien Gardener</h2><p>Save a martian colony through research.</p><span class="go">go</span></div></a>
-    
+
     <a target="_blank" href="https://www.thegamecrafter.com/games/the-n-game" style="background: url('/assets/img/thumbnails/bg8.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/nitrogen-logo.png" class="nav-thumb"><h2>The N Game</h2><p>Explore the complicated Nitrogen Cycle with this board game, 16+</p><span class="go">go</span></div></a>
-    
+
     <a target="_blank" href="https://medium.com/@fielddaylab/wisco-teacher-dominique-lark-teaches-like-a-gamer-b8ecb973e735#.hvr69qt4e" style="background: url('/assets/img/thumbnails/medium1.jpg'); background-size: cover;" class="draweritem"><div class="draweritem-content"><img src="/assets/img/logos/fd-arrow.png" class="nav-thumb"><h2>Dominique Lark Teaches like a gamer.</h2><span class="go">go</span></div></a>
   </div>
 </div>
