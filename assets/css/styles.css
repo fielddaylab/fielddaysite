@@ -7753,13 +7753,13 @@ h1, h2, h3 {
   font-family: 'Josefin Sans', sans-serif; }
 
 h2 {
-  letter-spacing: 4px;
+  letter-spacing: 1px;
   margin: 25px;
   font-size: 20px;
   line-height: 35px; }
 
 h3 {
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   margin: 25px;
   font-size: 22px;
   margin-left: 0px; }
@@ -7773,7 +7773,7 @@ a {
 p, a, li {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   line-height: 35px;
   font-weight: 400; }
   p .bold, a .bold, li .bold {
@@ -7805,6 +7805,11 @@ p, a, li {
     line-height: 29px;
     letter-spacing: 1px;
     margin-bottom: 20px; }
+    p.small a, a.small a, li.small a {
+      font-size: 16px;
+      line-height: 29px;
+      letter-spacing: 1px;
+      margin-bottom: 20px; }
     @media only screen and (max-width: 1024px) {
       p.small, a.small, li.small {
         font-size: 14px;
@@ -8727,7 +8732,7 @@ section {
         height: 10vw; } }
 
 .hero-slider .carousel-inner .item:nth-child(1) {
-  background: url(../img/hero-images/hero1.jpg) no-repeat;
+  background: url(../img/hero-images/jowilder-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
 
@@ -9383,7 +9388,7 @@ hr {
     .singleapp .app-about ul {
       padding-left: 16px; }
     .singleapp .app-about li {
-      font-size: 14px; }
+      font-size: 15px; }
     .singleapp .app-about .about-nav {
       padding-top: 100px; }
       @media only screen and (max-width: 768px) {
@@ -10507,13 +10512,15 @@ hr {
   list-style: none;
   border-radius: 5px; }
   .research .pub-nav ul li {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    border-left: 4px solid #fff;
+    padding-left: 10px;
+    line-height: 25px; }
+    .research .pub-nav ul li:hover {
+      border-left: 4px solid #1F2E3B; }
     .research .pub-nav ul li a {
       color: #1F2E3B;
       font-size: 16px; }
-      .research .pub-nav ul li a:hover {
-        color: #5A5F6A;
-        border-bottom: 2px solid #5A5F6A; }
 
 .research .research-toggles {
   position: absolute;

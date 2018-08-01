@@ -15,7 +15,7 @@
         <ul class="carousel-indicators slide-bullets">
             <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
               <span class="bullet"></span>
-              <span class="bullet-caption">Field Day</span>
+              <span class="bullet-caption">Jo Wilder</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
               <span class="bullet"></span>
@@ -37,9 +37,10 @@
           <div class="info-wrap">
             <span class="grad"></span>
             <div class="item-info">
-              <h1 class="main-mark">Field Day</h1>
-              <p class="corrected">Games are a magical way to share research from the university to the public.</p>
-              <a href="#intro" class="button white small">Get Started</a>
+              <img class="" src="/assets/img/logos/jowilder.png">
+              <h2 class="uppercase"></h2>
+              <p class="corrected">Use Siftr to make fieldwork easy. Collect data in the field and create beautiful visualizations.</p>
+              <a class="button small white" href="/play/jowilder">Play Jo Wilder</a>
             </div>
           </div>
         </div>
