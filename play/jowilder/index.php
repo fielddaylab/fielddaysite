@@ -10,7 +10,7 @@ window.onload = function()
   function loadiframe()
   {
     iframe.style.display = "block";
-    iframe.src = "capitol_prototype/iframe.html";
+    iframe.src = "game/iframe.html";
     clickload.removeEventListener("click",loadiframe);
     clickload.parentNode.removeChild(clickload);
     clickload = null;
@@ -52,7 +52,7 @@ window.onload = function()
   <div class="iframe-bg" id="clickload" scrolling="no">
     <span class="playbutton"
       style="
-        background-image: url(capitol_prototype/assets/play.png);
+        background-image: url(game/assets/play.png);
         background-size: cover;
         width: 300px;
         height: 95px;
