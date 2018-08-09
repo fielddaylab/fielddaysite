@@ -20,31 +20,26 @@ window.onload = function()
   {
     var w = 880;
     var h = 660;
+    var bogus_h_pad = 50;
     if( typeof( window.innerWidth ) == 'number' ) //Non-IE
     {
       w = window.innerWidth;
-      h = window.innerHeight;
+      h = window.innerHeight-bogus_h_pad;
     }
     else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) //IE 6+ in 'standards compliant mode'
     {
       w = document.documentElement.clientWidth;
-      h = document.documentElement.clientHeight;
+      h = document.documentElement.clientHeight-bogus_h_pad;
     }
     else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) //IE 4 compatible
     {
       w = document.body.clientWidth;
-      h = document.body.clientHeight;
+      h = document.body.clientHeight-bogus_h_pad;
     }
 
-    var wtoh = w/h;
-    if(wtoh < 880/660) h = w/880*660;
+    if(w/h < 880/660) h = w/880*660;
     else               w = h/660*880;
-
-    if(w > 880)
-    {
-      w = 880;
-      h = 660;
-    }
+    if(w > 880) { w = 880; h = 660; }
 
     iframe.style.width = w+"px";
     iframe.style.height = h+"px";
