@@ -267,7 +267,7 @@ window.onload = function()
       <h2 id="resources">Resources for Teaching</h2>
       <p>Teacher resources and tips were developed in partnership with Wisconsin Public Television.  Coming soon in the Fall of 2018</p>
       <h2 id="source">Source Code</h2>
-      <p>Jo Wilder and the Capitol Case is an open source project licensed under the MIT License: <a target="_blank" href="https://hitbut.com/fielddaylab/capitol_prototype">https://hitbut.com/fielddaylab/capitol_prototype</a></p>
+      <p>Jo Wilder and the Capitol Case is an open source project licensed under the MIT License: <a target="_blank" href="https://github.com/fielddaylab/jo_wilder">https://github.com/fielddaylab/jo_wilder</a></p>
       <h2 id="funding">Funding</h2>
       <ul>
         <li>Wisconsin Department of Public Instruction</li>
