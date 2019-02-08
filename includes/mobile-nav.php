@@ -13,8 +13,8 @@
         <div class="link-col">
           <h3>Make</h3>
           <a class="link-aris" href="/make/aris">Aris</a>
-          <a target="_blank" href="siftr.org">Siftr</a>
-          <a target="_blank" href="nomenproject.org">Nomen</a>
+          <a target="_blank" href="https://siftr.org">Siftr</a>
+          <a target="_blank" href="https://nomenproject.org">Nomen</a>
         </div>
         <div class="link-col">
           <h3>Play</h3>
