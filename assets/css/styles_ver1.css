@@ -9256,6 +9256,8 @@ hr {
   ---------------------------*/
   /* Template for Jo Wilder
   ---------------------------*/
+  /* Template for Forevor Mine
+  ---------------------------*/
   /* Template for Ice Cube
   ---------------------------*/
   /* Template for Alien Gardener
@@ -9512,6 +9514,41 @@ hr {
     border-right: 0px !important;
     width: 31vw;
     height: 14vw; }
+  .singleapp.forevermine #app-intro {
+    padding: 5vw 0vw 6vw 0vw;
+    text-align: center; }
+    .singleapp.forevermine #app-intro .iframe-bg {
+      width: 880px;
+      height: 660px;
+      display: block;
+      margin: 0px auto;
+      overflow: hidden;
+      border: 0px;
+      background: url(../img/iframe_img.jpg) no-repeat;
+      background-size: cover; }
+    .singleapp.forevermine #app-intro h2 {
+      text-transform: uppercase; }
+    .singleapp.forevermine #app-intro .fullscreen {
+      text-align: right;
+      margin-top: 10px; }
+      .singleapp.forevermine #app-intro .fullscreen img {
+        vertical-align: middle; }
+  .singleapp.forevermine #app-about h3 {
+    margin: 25px 0px 10px 0px; }
+  .singleapp.forevermine .app-hero {
+    background: url(/assets/img/hero-images/forevermine.jpg) no-repeat;
+    background-size: cover;
+    background-position: right; }
+  .singleapp.forevermine .info-panel {
+    border-bottom: 0px !important; }
+  .singleapp.forevermine .app-title {
+    text-indent: -9999px;
+    background: url(/assets/img/logos/forevermine-white.png) no-repeat;
+    background-size: contain;
+    background-position: left;
+    border-right: 0px !important;
+    width: 335px;
+    height: 200px; }
   .singleapp.icecube .app-hero {
     background: url(/assets/img/hero-images/ice-cube.jpg) no-repeat;
     background-size: cover;
@@ -9837,7 +9874,8 @@ hr {
   #ourwork .apps .app-thumbnail img {
     width: 100%;
     height: auto;
-    display: block; }
+    display: block;
+    border-radius: 5px; }
 
 .exhaustwrap {
   position: relative;

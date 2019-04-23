@@ -36,6 +36,10 @@
                 <img src="/assets/img/logos/jowilder-dark-small.png" class="app-logo">
                 <span>Jo Wilder</span>
               </li>
+              <li class="gridder-list app-card" data-griddercontent="#game-app6">
+                <img src="/assets/img/logos/colored/forevermine.png" class="app-logo">
+                <span>Forever Mine</span>
+              </li>
               <li class="gridder-list app-card" data-griddercontent="#game-app1">
                 <img src="/assets/img/logos/colored/yard-logo.png" class="app-logo">
                 <span>The Yard</span>
@@ -112,6 +116,17 @@
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/jowilder-thumb.jpg">
+              </div>
+            </div>
+            <div id="game-app6" class="app-expanded gridder-content">
+              <div class="app-info app-pane left">
+                <span class="close-app">
+                  <h2>Lost at the Forever Mine</h2>
+                  <p class="small">You play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out. </p>
+                  <a class="button small black" href="/play/forevermine" target="_blank">Play the Game</a>
+              </div>
+              <div class="app-thumbnail app-pane right">
+                <img src="/assets/img/thumbs/forevermine.jpg">
               </div>
             </div>
 

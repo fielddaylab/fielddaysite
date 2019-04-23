@@ -321,6 +321,57 @@
     }
   }
 
+  /* Template for Forevor Mine
+  ---------------------------*/
+  &.forevermine {
+    #app-intro {
+      padding: 5vw 0vw 6vw 0vw;
+      text-align: center;
+      .iframe-bg {
+        width:880px;
+        height:660px;
+        display:block;
+        margin:0px auto;
+        overflow:hidden;
+        border:0px;
+        background:url(../img/iframe_img.jpg) no-repeat;
+        background-size: cover;
+      }
+      h2 {
+        text-transform: uppercase;
+      }
+      .fullscreen {
+        text-align: right;
+        margin-top: 10px;
+        img {
+          vertical-align: middle;
+        }
+      }
+    }
+    #app-about {
+      h3 {
+        margin: 25px 0px 10px 0px;
+      }
+    }
+    .app-hero{
+      background:url(/assets/img/hero-images/forevermine.jpg) no-repeat;
+      background-size: cover;
+      background-position:right;
+    }
+    .info-panel {
+      border-bottom: 0px !important;
+    }
+    .app-title {
+      text-indent:-9999px;
+      background:url(/assets/img/logos/forevermine-white.png) no-repeat;
+      background-size:contain;
+      background-position: left;
+      border-right:0px !important;
+      width: 335px;
+      height: 200px;
+    }
+  }
+
   /* Template for Ice Cube
   ---------------------------*/
   &.icecube {
@@ -552,34 +603,5 @@
     background-color: #efefef;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
