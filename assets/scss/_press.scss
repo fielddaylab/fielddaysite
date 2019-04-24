@@ -1,4 +1,6 @@
-.research {
+
+
+.press {
   #mainwrapper {
     overflow-x:initial;
   }
@@ -39,7 +41,7 @@
           content: "";
           width:105%;
           height:17px;
-          background:#EF8270;
+          background:$yellow;
           display:block;
           position:absolute;
           z-index:-1;
@@ -97,7 +99,7 @@
       }
     }
   }
-  .research-toggles {
+  .press-toggles {
     position:absolute;
     margin-left: 8vw;
     bottom:0;
@@ -133,11 +135,6 @@
       }
     }
   }
-  .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
   .tab-content{
     padding-top:5vw;
     margin-left: 6vw;
@@ -161,6 +158,43 @@
     }
     p {
       margin-bottom:10px;
+    }
+    .playstats {
+      display:flex;
+      flex-direction: row;
+      .playstat {
+        height:200px;
+        width:33%;
+        background:$yellow;
+        margin:10px;
+        border-radius:10px;
+        text-align:center;
+        padding:2vw;
+        img {
+          height:40px;
+          margin-bottom:10px;
+        }
+        &:nth-child(1n){
+          background:$blue;
+        }
+        &:nth-child(2n){
+          background:$yellow;
+        }
+        &:nth-child(3n){
+          background:$light_red;
+        }
+        h3 {
+          font-family:roboto;
+          font-weight:700;
+          text-transform: uppercase;
+          font-size:50px;
+          margin:0;
+        }
+        p {
+          font-size:16px;
+          line-height:17px;
+        }
+      }
     }
   }
 }

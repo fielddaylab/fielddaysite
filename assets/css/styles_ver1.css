@@ -7746,6 +7746,10 @@ hr {
   .hide-for-nav {
     display: none !important; } }
 
+.sticky {
+  position: sticky;
+  top: 100px; }
+
 body {
   -webkit-font-smoothing: antialiased; }
 
@@ -7829,6 +7833,11 @@ p, a, li {
     @media only screen and (max-width: 768px) {
       p.light, a.light, li.light {
         font-weight: 400; } }
+
+p {
+  font-family: 'courier', sans-serif;
+  font-weight: 200;
+  letter-spacing: .5px; }
 
 .typewriter {
   font-family: 'Courier', 'courier-new', serif; }
@@ -9538,7 +9547,7 @@ hr {
   .singleapp.forevermine .app-hero {
     background: url(/assets/img/hero-images/forevermine.jpg) no-repeat;
     background-size: cover;
-    background-position: right; }
+    background-position: right bottom; }
   .singleapp.forevermine .info-panel {
     border-bottom: 0px !important; }
   .singleapp.forevermine .app-title {
@@ -10509,6 +10518,9 @@ hr {
         z-index: 99;
         animation: float-horiz 6s 6s ease-in-out infinite; }
 
+.research #mainwrapper {
+  overflow-x: initial; }
+
 .research .page_hero {
   background: #1F2E3B;
   padding: 3vw 0vw;
@@ -10647,6 +10659,172 @@ hr {
       padding-top: 0; }
   .research .tab-content p {
     margin-bottom: 10px; }
+
+.press #mainwrapper {
+  overflow-x: initial; }
+
+.press .page_hero {
+  background: #1F2E3B;
+  padding: 3vw 0vw;
+  position: relative; }
+  .press .page_hero a {
+    color: #EF8270; }
+  @media only screen and (max-width: 768px) {
+    .press .page_hero {
+      flex-direction: column-reverse;
+      height: auto;
+      padding: 2vw; } }
+  .press .page_hero .info {
+    color: #fff;
+    width: 60%;
+    padding: 8vw 5vw 8vw 8vw; }
+    @media only screen and (max-width: 768px) {
+      .press .page_hero .info {
+        padding: 3vw;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center; } }
+    .press .page_hero .info h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 50px;
+      position: relative;
+      display: inline-block;
+      margin-bottom: 25px;
+      z-index: 1; }
+      @media only screen and (max-width: 768px) {
+        .press .page_hero .info h1 {
+          margin-top: 60px; } }
+      .press .page_hero .info h1:before {
+        content: "";
+        width: 105%;
+        height: 17px;
+        background: #E0BC4E;
+        display: block;
+        position: absolute;
+        z-index: -1;
+        bottom: 5px;
+        left: -8px; }
+      @media only screen and (max-width: 768px) {
+        .press .page_hero .info h1 {
+          font-size: 40px; } }
+  .press .page_hero .graphic {
+    width: 40%; }
+    @media only screen and (max-width: 768px) {
+      .press .page_hero .graphic {
+        height: 40vw;
+        width: 100%;
+        margin-top: 20vw; } }
+    .press .page_hero .graphic .astroblogger {
+      width: 20vw;
+      margin-left: 5vw;
+      margin-top: 3vw; }
+      @media only screen and (max-width: 768px) {
+        .press .page_hero .graphic .astroblogger {
+          width: 40vw;
+          margin: 0 auto;
+          display: block; } }
+
+@media only screen and (max-width: 768px) {
+  .press .pub-nav-wrap {
+    display: none; } }
+
+.press .pub-nav ul {
+  background: #f5f5f5;
+  display: inline-block;
+  padding: 35px 20px 20px 30px;
+  list-style: none;
+  border-radius: 5px; }
+  .press .pub-nav ul li {
+    margin-bottom: 20px;
+    border-left: 4px solid #fff;
+    padding-left: 10px;
+    line-height: 25px; }
+    .press .pub-nav ul li:hover {
+      border-left: 4px solid #1F2E3B; }
+    .press .pub-nav ul li a {
+      color: #1F2E3B;
+      font-size: 16px; }
+
+.press .press-toggles {
+  position: absolute;
+  margin-left: 8vw;
+  bottom: 0;
+  left: 0;
+  border-bottom: none; }
+  @media only screen and (max-width: 768px) {
+    .press .press-toggles {
+      margin-left: 4vw; } }
+  .press .press-toggles ul {
+    list-style: none;
+    display: block;
+    padding-left: 0;
+    margin-bottom: 3px; }
+    .press .press-toggles ul li {
+      display: inline;
+      text-transform: uppercase;
+      cursor: pointer; }
+      .press .press-toggles ul li.active a {
+        color: #1F2E3B;
+        background: #fff; }
+      .press .press-toggles ul li a {
+        font-size: 12px;
+        color: #fff;
+        text-decoration: none;
+        padding: 20px; }
+        @media only screen and (max-width: 768px) {
+          .press .press-toggles ul li a {
+            font-size: 11px; } }
+
+.press .tab-content {
+  padding-top: 5vw;
+  margin-left: 6vw;
+  margin-right: 6vw; }
+  .press .tab-content .pub-wrap {
+    padding: 20px 0px;
+    border-bottom: 3px solid #f5f5f5; }
+  .press .tab-content h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    letter-spacing: 2px; }
+    .press .tab-content h2:first-child {
+      margin-top: 0;
+      padding-top: 0; }
+  .press .tab-content p {
+    margin-bottom: 10px; }
+  .press .tab-content .playstats {
+    display: flex;
+    flex-direction: row; }
+    .press .tab-content .playstats .playstat {
+      height: 200px;
+      width: 33%;
+      background: #E0BC4E;
+      margin: 10px;
+      border-radius: 10px;
+      text-align: center;
+      padding: 2vw; }
+      .press .tab-content .playstats .playstat img {
+        height: 40px;
+        margin-bottom: 10px; }
+      .press .tab-content .playstats .playstat:nth-child(1n) {
+        background: #06AED5; }
+      .press .tab-content .playstats .playstat:nth-child(2n) {
+        background: #E0BC4E; }
+      .press .tab-content .playstats .playstat:nth-child(3n) {
+        background: #FCC9C2; }
+      .press .tab-content .playstats .playstat h3 {
+        font-family: roboto;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 50px;
+        margin: 0; }
+      .press .tab-content .playstats .playstat p {
+        font-size: 16px;
+        line-height: 17px; }
 
 /* Gridder Game Grid
 --------------------------- */
