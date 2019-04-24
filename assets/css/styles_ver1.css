@@ -9524,7 +9524,7 @@ hr {
       margin: 0px auto;
       overflow: hidden;
       border: 0px;
-      background: url(../img/iframe_img.jpg) no-repeat;
+      background: url(../img/mine-iframe.jpg) no-repeat;
       background-size: cover; }
     .singleapp.forevermine #app-intro h2 {
       text-transform: uppercase; }
@@ -10841,7 +10841,8 @@ hr {
 /* Footer
 ------------------------------------------ */
 #footer {
-  background: #fff; }
+  background: #fff;
+  z-index: 100; }
 
 .footer {
   background: #fff;
