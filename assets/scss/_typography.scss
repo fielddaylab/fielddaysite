@@ -85,6 +85,10 @@ p, a, li{
       line-height: 25px;
     }
   }
+  &.note {
+    font-style:italic;
+    color:$gray;
+  }
   &.supersmall {
     font-size: 14px;
     line-height: 25px;

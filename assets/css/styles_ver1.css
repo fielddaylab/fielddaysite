@@ -7828,6 +7828,9 @@ p, a, li {
         font-size: 14px;
         letter-spacing: 0px;
         line-height: 25px; } }
+  p.note, a.note, li.note {
+    font-style: italic;
+    color: #5A5F6A; }
   p.supersmall, a.supersmall, li.supersmall {
     font-size: 14px;
     line-height: 25px;
