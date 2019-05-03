@@ -15,66 +15,71 @@
         <ul class="carousel-indicators slide-bullets">
             <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
               <span class="bullet"></span>
-              <span class="bullet-caption">Jo Wilder</span>
+              <span class="bullet-caption">forever Mine</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
               <span class="bullet"></span>
-              <span class="bullet-caption">Discover IceCube VR</span>
+              <span class="bullet-caption">Siftr</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="2">
               <span class="bullet"></span>
-              <span class="bullet-caption">Teacher Fellowships</span>
+              <span class="bullet-caption">Jo Wilder</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="3">
               <span class="bullet"></span>
-              <span class="bullet-caption">Siftr</span>
+              <span class="bullet-caption">Discover IceCube VR</span>
             </li>
         </ul>
       </div>
       <!-- Carousel items -->
       <div class="carousel-inner">
+
         <div class="active item">
           <div class="info-wrap">
-            <span class="grad"></span>
+            <div class="item-info">
+              <img class="" src="/assets/img/logos/forevermine-white.png">
+              <h2 class="uppercase"></h2>
+              <p class="corrected">Play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out.</p>
+              <a class="button xsmall white" href="/play/forevermine">Play the Game</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="info-wrap">
+            <div class="item-info dark">
+              <img class="small_hero_img" src="/assets/img/logos/colored/siftr-logo.png">
+              <h2 class="uppercase"></h2>
+              <p class="corrected">Siftr is a citizen science app that allows you to create projects for any topic, from biology and ecology to photography and language studies. Participants will use your project to go out into the field and collect data.</p>
+              <a class="button xsmall black filled" href="https://siftr.org" target="_blank">Go to Siftr</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="info-wrap">
             <div class="item-info">
               <img class="" src="/assets/img/logos/jowilder.png">
               <h2 class="uppercase"></h2>
               <p class="corrected">Play as Jo Wilder, a scrappy girl who spends her days with her pet badger Teddy and her grandpa, a historian. When some mysterious artifacts show up at the History Museum, you must unravel the clues to find the real stories behind the artifacts.</p>
-              <a class="button small white" href="/play/jowilder">Play Jo Wilder</a>
+              <a class="button xsmall white" href="/play/jowilder">Play Jo Wilder</a>
             </div>
           </div>
         </div>
+
         <div class="item">
           <div class="info-wrap">
-            <span class="grad"></span>
             <div class="item-info">
+              <img class="" src="/assets/img/logos/ice-cube-logo-white.png">
               <h2 class="uppercase">Discover IceCube VR</h2>
               <p class="corrected"> Journey deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica.</p>
-              <a href="/play/ice-cube" class="button white small">Learn More</a>
+              <a href="/play/ice-cube" class="button white xsmall">Learn More</a>
             </div>
           </div>
         </div>
-        <div class="item">
-          <div class="info-wrap">
-            <span class="grad"></span>
-            <div class="item-info">
-              <h2 class="uppercase">Teacher Fellowships Now Open</h2>
-              <p class="corrected">Professional development for teachers who like to play, make messes, and learn outside. </p>
-              <a href="https://fielddaylab.wisc.edu/fellowships/" target="_blank" class="button white small">Join a Fellowship</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="info-wrap">
-            <span class="grad"></span>
-            <div class="item-info">
-              <img class="small_hero_img" src="/assets/img/logos/siftr-logo.png">
-              <h2 class="uppercase"></h2>
-              <p class="corrected">Use Siftr to make fieldwork easy. Collect data in the field and create beautiful visualizations.</p>
-              <a class="button small white" href="https://siftr.org" target="_blank">Go to Siftr</a>
-            </div>
-          </div>
-        </div>
+
+
+
       </div>
       <!-- Carousel nav -->
   </div>
@@ -93,7 +98,7 @@
       <div class="intro-content">
         <img class="bg1trigger reveal float" src="assets/img/illustrations/astronaut1.png" class="astronaut">
         <h2 class="light centered plainreveal uppercase">We are Field Day</h2>
-        <p class="corrected plainreveal big light">What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We foster that wonder by creating learning games, virtual reality experiences and citizen science apps. Teachers and subject experts work with us to design fun ways to connect people to research. Our mission is to explain big ideas in playful ways, bridging the gap between the university and the public.</p>
+        <p class="corrected plainreveal light">What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We foster that wonder by creating learning games, virtual reality experiences and citizen science apps. Teachers and subject experts work with us to design fun ways to connect people to research. Our mission is to explain big ideas in playful ways, bridging the gap between the university and the public.</p>
         <!--<p class="corrected plainreveal big light">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>-->
       </div>
       <div class="starfield topright">
@@ -371,7 +376,7 @@ var skylabreveal = {
   easing   : 'ease-in-out'
 };
 
-window.sr = ScrollReveal({ duration: 500, mobile: false});
+window.sr = ScrollReveal({ duration: 300, mobile: false});
 sr.reveal('.reveal', fastreveal, { viewFactor: 0.3 });
 sr.reveal('.slowreveal', slowreveal, { viewFactor: 0.3 });
 sr.reveal('.revealfull', fastreveal, { viewFactor: 0.8 });

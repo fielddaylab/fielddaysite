@@ -65,7 +65,7 @@ window.onload = function()
         margin-top: 400px;">
     </span>
   </div>
-  <iframe id="content" scrolling="no" style="display:none; width:880px; height:660px; margin:0px auto; overflow:hidden; border:0px;"></iframe>
+  <iframe id="content" scrolling="no" style="display:none; width:1024px; height:660px; margin:0px auto; overflow:hidden; border:0px;"></iframe>
 </section>
 
 <section id="app-about" class="app-about">
