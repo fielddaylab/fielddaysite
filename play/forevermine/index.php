@@ -41,10 +41,7 @@ window.onload = function()
     <div class="app-info">
       <h1 class="app-title">Lost at the Forever Mine</h1>
     </div>
-    <div class="app-description"><p class="small">In this Math Drama, Play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out.
-
-
-</p></div>
+    <div class="app-description"><p class="small">In this Math Drama, Play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out.</p></div>
     <div class="buttons">
       <a target="_blank" href="./game" class="button xsmall white filled">Play the Game</a>
       <a target="_blank" href="#teach" class="button xsmall white">Teach with the Game</a>
@@ -97,6 +94,7 @@ window.onload = function()
       <p>You play as a scientist who just crash-landed on an abandoned mining planet. You’re out of fuel, and your suit’s oxygen is running low. You need to mine enough fuel to power your ship, or you won’t survive.</p>
       <p>You stumble into the old mining facility. That’s where you meet MAL, the mine’s Artificial Intelligence, who is thrilled to have someone to talk to. With MAL’s help, you’ll use mathematical models to predict if you’re mining fast enough and what you need to do next. </p>
       <p>Each level puts the student in the role of the scientific modeler. Students will set up equations, work with graphs, input data, and use models to make predictions. Along the way, as obstacles keep popping up, students will experience how models are used as a tool to make decisions.</p>
+      <p class="note">Note: For best compatibility, use Chrome</p>
       <h2 id="teach">Teach with Lost at the Forever Mine</h2>
       <a class="button small yellow filled" target="_blank" href="https://docs.google.com/document/d/1jDi1Otff-5r4LN8vPcJxZju1SjGcAyM07rnA0Hf-7zo/edit?usp=sharing">View the Teaching Guide</a>
       <p>Stranded at the Forever Mine could be used to introduce units on graphing for math classes and scientific modeling. This game was designed to give kids an experience that will help them experience the need for math to make predictions. This story based math game gives a context for why graphing, math equations and collecting data help us solve problems.</p>
