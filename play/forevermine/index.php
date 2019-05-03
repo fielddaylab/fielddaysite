@@ -41,13 +41,13 @@ window.onload = function()
     <div class="app-info">
       <h1 class="app-title">Lost at the Forever Mine</h1>
     </div>
-    <div class="app-description"><p class="small">You play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out.
+    <div class="app-description"><p class="small">In this Math Drama, Play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out.
 
 
 </p></div>
     <div class="buttons">
       <a target="_blank" href="./game" class="button xsmall white filled">Play the Game</a>
-      <a target="_blank" href="#app-about" class="button xsmall white">Teach with the Game</a>
+      <a target="_blank" href="#teach" class="button xsmall white">Teach with the Game</a>
     </div>
   </div>
 </section>
@@ -98,6 +98,7 @@ window.onload = function()
       <p>You stumble into the old mining facility. That’s where you meet MAL, the mine’s Artificial Intelligence, who is thrilled to have someone to talk to. With MAL’s help, you’ll use mathematical models to predict if you’re mining fast enough and what you need to do next. </p>
       <p>Each level puts the student in the role of the scientific modeler. Students will set up equations, work with graphs, input data, and use models to make predictions. Along the way, as obstacles keep popping up, students will experience how models are used as a tool to make decisions.</p>
       <h2 id="teach">Teach with Lost at the Forever Mine</h2>
+      <a class="button small yellow filled" target="_blank" href="https://docs.google.com/document/d/1jDi1Otff-5r4LN8vPcJxZju1SjGcAyM07rnA0Hf-7zo/edit?usp=sharing">View the Teaching Guide</a>
       <p>Stranded at the Forever Mine could be used to introduce units on graphing for math classes and scientific modeling. This game was designed to give kids an experience that will help them experience the need for math to make predictions. This story based math game gives a context for why graphing, math equations and collecting data help us solve problems.</p>
       <p>Try introducing a unit with this game. Let the kids figure out how the game works with little introduction. Remember, struggling to figure it out is part of the process for games. Games can be safe places for struggle and failure where it is part of the fun process.</p>
       <h3>Learning Objectives</h3>
@@ -108,28 +109,19 @@ window.onload = function()
       <h3>Teaching Standards</h3>
       <p>The game addresses Next Generation Science Standards, including: </p>
       <div class="row standards-block">
-        <div class="col-sm-7">
-          <p class="small"><span class="bold">SS.Inq2.b.i </span><br>Evaluate resources to determine which best support the inquiry and supporting questions.</p>
-          <p class="small"><span class="bold">SS.Inq3.b.i </span><br>Select appropriate evidence from sources to support a claim.</p>
+        <div class="col-sm-8">
+          <p class="small"><span class="bold">NGSS</span><br>Developing and using models is one of the eight cross-cutting science and engineering practices in the NGSS framework. In the NGSS Framework “Developing and Using Models -  a practice of both science and engineering is to use and construct models as helpful tools for representing ideas and explanations. These tools include diagrams, drawings, physical replicas, mathematical representations, analogies, and computer simulations.</p>
         </div>
-        <div class="col-sm-5">
-          <p class="small standards-explanation">These standards are addressed in the challenge sequences in the game, in which the player must select appropriate evidence to complete a logical claim about a historical interpretation.</p>
-        </div>
-      </div>
-      <div class="row standards-block">
-        <div class="col-sm-7">
-          <p class="small"><span class="bold">SS.Inq2.b.i </span><br>Analyze individuals, groups, and events to understand why their contributions are important to historical change and/or continuity.</p>
-        </div>
-        <div class="col-sm-5">
-          <p class="small standards-explanation">This standard is addressed through the historical content of the game--suffrage and environmentalism.</p>
+        <div class="col-sm-4">
+          <p class="small standards-explanation">This game is designed as an introduction to mathematical models and their utility in describing and predicting phenomena.</p>
         </div>
       </div>
       <div class="row standards-block">
         <div class="col-sm-7">
-          <p class="small"><span class="bold">SS.Hist4.c.i</span><br>Describe the intended purpose of a specific primary or secondary source.</p>
+          <p class="small"><span class="bold">MS-ETS1-4</span><br>Develop a model to generate data for iterative testing and modification of a proposed object, tool, or process such that an optimal design can be achieved.</p>
         </div>
         <div class="col-sm-5">
-          <p class="small standards-explanation">This standard is addressed by the basic mechanic of the game--discovering the true intended purpose of specific primary source artifacts.</p>
+          <p class="small standards-explanation">This standard is met in the game by having the player iteratively improve the mining process such that an optimal design can be achieved and the player survives.</p>
         </div>
       </div>
       <h2 id="partners">Partners</h2>
