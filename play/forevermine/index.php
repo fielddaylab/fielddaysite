@@ -95,7 +95,7 @@ window.onload = function()
       </ul>
       <h2 id="About">About the Game</h2>
       <p>You play as a scientist who just crash-landed on an abandoned mining planet. You’re out of fuel, and your suit’s oxygen is running low. You need to mine enough fuel to power your ship, or you won’t survive.</p>
-      <p>You stumble into the old mining facility. That’s where you meet MAL, the mine’s Artificial Intelligence, who is thrilled to have someone to talk to. With MAL’s help, you’ll use mathematical models to predict if you’re mining fast enough and what you need to do next. </p>
+      <p>You stumble into the old mining facility. That’s where you meet MAL, the mine’s Artificial Intelligence, who is thrilled to have someone to talk to. With MAL’s help, you’ll build scientific models to predict if you’re mining fast enough and what you need to do next. </p>
       <p>Each level puts the student in the role of the scientific modeler. Students will set up equations, work with graphs, input data, and use models to make predictions. Along the way, as obstacles keep popping up, students will experience how models are used as a tool to make decisions.</p>
       <h2 id="teach">Teach with Lost at the Forever Mine</h2>
       <a class="button small yellow filled" target="_blank" href="https://docs.google.com/document/d/1jDi1Otff-5r4LN8vPcJxZju1SjGcAyM07rnA0Hf-7zo/edit?usp=sharing">View the Teaching Guide</a>
@@ -103,19 +103,14 @@ window.onload = function()
       <p>Try introducing a unit with this game. Let the kids figure out how the game works with little introduction. Remember, struggling to figure it out is part of the process for games. Games can be safe places for struggle and failure where it is part of the fun process.</p>
       <h3>Learning Objectives</h3>
       <ul>
-        <li>What is a model?</li>
-        <li>How can you use models as a scientific tool? </li>
+        <li>Models are tools for scientific inquiry that allow us to describe and predict complex phenomena</li>
+        <li>Models must first fit known data before they are usefull as prediction tools</li>
+        <li>Models must be evauluated and refined</li>
       </ul>
       <h3>Teaching Standards</h3>
-      <p>The game addresses Next Generation Science Standards, including: </p>
-      <div class="row standards-block">
-        <div class="col-sm-8">
-          <p class="small"><span class="bold">NGSS</span><br>Developing and using models is one of the eight cross-cutting science and engineering practices in the NGSS framework. In the NGSS Framework “Developing and Using Models -  a practice of both science and engineering is to use and construct models as helpful tools for representing ideas and explanations. These tools include diagrams, drawings, physical replicas, mathematical representations, analogies, and computer simulations.</p>
-        </div>
-        <div class="col-sm-4">
-          <p class="small standards-explanation">This game is designed as an introduction to mathematical models and their utility in describing and predicting phenomena.</p>
-        </div>
-      </div>
+      <p>Developing and using models is one of the eight cross-cutting science and engineering practices in the NGSS framework. In the NGSS Framework “Developing and Using Models -  a practice of both science and engineering is to use and construct models as helpful tools for representing ideas and explanations. These tools include diagrams, drawings, physical replicas, mathematical representations, analogies, and computer simulations.</p>
+      <p>This game is designed as an introduction to mathematical models and their utility in describing and predicting phenomena.</p>
+      
       <div class="row standards-block">
         <div class="col-sm-7">
           <p class="small"><span class="bold">MS-ETS1-4</span><br>Develop a model to generate data for iterative testing and modification of a proposed object, tool, or process such that an optimal design can be achieved.</p>
@@ -131,16 +126,25 @@ window.onload = function()
       </ul>
       <h2 id="production">Production Team</h2>
       <ul>
-        <li>David Gagnon: Executive Producer </li>
-        <li>Jim Mathews: Education Director</li>
-        <li>Sarah Gagnon: Producer & Creative Director</li>
-        <li>Phil Dougherty: Game Designer & Software Development</li>
-        <li>Eric Lang: Art Direction & Graphic Design </li>
-        <li>Rodney Lambright II: Art and Animation </li>
-        <li>Reyna Groff: Art and Animation</li>
-        <li>Mike Tolly: Software Development</li>
-        <li>Lindy Biller: Writing</li>
-        <li>Cyril Peck: Original Music and Sound</li>
+      <li>Executive Producer: Anne Lynn Gillian-Daniel</li>
+      <li>Producer: David Gagnon</li>
+      <li>Education Fellows Director: Jim Mathews</li>
+      <li>Creative Director: Sarah Gagnon</li>
+      <li>Software Development: Philip Dougherty</li>
+      <li>Graphic Design and User Interface: Eric Lang</li>
+      <li>Art & Animation: Reyna Groff, Eric Lang, Rodney Lambright II</li>
+      <li>Content: Anne Lynn Gillian-Daniel, Matthew Stilwell, David Gagnon</li>
+      <li>Content Consultants: Wendy Crone, Amanda Smith, Eli Towle, Benjamin Afflerbach, Tesia Janicki, Marc Brousseau, Noah Edelstein, Sarah Sprangers & MRSEC faculty, graduate students, and staff</li>
+      <li>Writing: Lindy Biller, Sarah Gagnon, Eric Lang, Philip Dougherty</li>
+      <li>Original Music & Sound: Cyril Peck</li>
+      <li>Administration Support: Angel Cartagena, Adam Chase, Ahna Holliday, Becki Kohl, Jim Lyne</li>
+      <li>Testing and Design Feedback: Joe Rieder and the students of Wisconsin Rapids Public School, Olivia Dachel and the students of Merril High School, Jenny Karpelenia and the students of Bartles Middle School, Marsella Aguila and the students of Waterford Graded School District</li>
+      </ul>
+      <h2 id="funding">Funding</h2>
+      <ul>
+        <li>NSF through the University of Wisconsin Materials Research Science and Engineering Center (DMR-1720415)</li>
+        <li>Wisconsin Center for Education Research</li>
+        <li>Wisconsin Department of Public Instruction</li>
       </ul>
       <h2 id="source">Source Code</h2>
       <p>Stranded at the Forever Mine is an open-source project licensed under the <a target="_blank" href="https://opensource.org/licenses/MIT">MIT license</a></p>
