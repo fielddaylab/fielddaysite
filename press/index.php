@@ -52,28 +52,30 @@
         <div class="col-md-9">
           <h2 id="whatis">What is Field Day?</h2>
           <div class="pub-wrap">
-            <p class="small">We perform research at the intersection of theories of interactive media and situated and sociocultural learning. Our research addresses Mobile Mixed Reality, Games and Learning, and Learning Through Making.</p>
-            <p class="small">Our team includes a professional design/production studio, which creates games and apps used by over a million users yearly. This affords us a unique opportunity to explore the ways in which large numbers of users create fine-grained data that inform our understanding of how to assess, design and theorize about how learning takes occurs. </p>
-            <p class="small">In the course of our own design research, we have produced tools that allow researchers, educators, and designers broadly (including kids!) to create their own interactive media. This has led to collaborations and inspiration beyond our wildest dreams!</p>
+            <h3>Our Research</h3>
+            <p class="small">Field Day Lab develops games and use them as instruments to understand learning. We use game analytics, including machine learning, to understand how players interact with our games. Our research includes desktop, mobile, virtual reality, and augmented reality games. </p>
+            <h3>Our Studio</h3>
+            <p class="small">The Field Day team is made up of designers, artists, storytellers, educators, engineers, and subject experts. We create high-quality games that get millions of plays. This allows us to collect large data sets and conduct research on games informed by specific learning theories. Plus, we get to share exciting research! </p>
+            <h3>Why Games</h3>
+            <p class="small">Through games, kids can dive into complex systems at their own pace. This can opens up windows for them into the greatest wonders and mysteries of the universe. Games have a unique ability to teach, assess, and scale high-quality learning.</p>
             <h2 id="stats">Over 1 Million plays yearly</h2>
             <div class="playstats">
-              <div class="playstat">
+              <a target="_blank" href="https://theyardgames.org/" class="playstat">
                 <img src="/assets/img/logos/yard-logo.png" />
                 <h3>870k</h3>
                 <p>Plays on the yard games</p>
-              </div>
-              <div class="playstat">
+              </a>
+              <a target="_blank" href="/play/jowilder" class="playstat">
                 <img src="/assets/img/logos/jowilder-small.png" />
-
                 <h3>52k</h3>
-                <p>Plays on Jo Wilder and the Capitol Case
-              </div>
-              <div class="playstat">
+                <p>Plays on Jo Wilder and the Capitol Case</p>
+              </a>
+              <a target="_blank" href="/play/atom-touch" class="playstat">
                 <img src="/assets/img/logos/atomtouch-logo.png" />
 
                 <h3>84k</h3>
-                <p>AtomTouch
-              </div>
+                <p>AtomTouch</p>
+              </a>
             </div>
           </div>
         </div>

@@ -48,5 +48,6 @@ hr {
 
 .sticky {
   position: sticky;
+  position: -webkit-sticky;
   top: 100px;
 }

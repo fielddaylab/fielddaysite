@@ -7748,13 +7748,23 @@ hr {
 
 .sticky {
   position: sticky;
+  position: -webkit-sticky;
   top: 100px; }
 
 body {
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 1px;
+  margin-bottom: 20px; }
 
 h1, h2, h3 {
-  font-family: 'Josefin Sans', sans-serif; }
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+h1 {
+  letter-spacing: 3px; }
 
 h2 {
   letter-spacing: 1px;
@@ -7775,8 +7785,7 @@ a {
     color: #D6A718; }
 
 p, a, li {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-family: 'futura-pt', sans-serif;
   letter-spacing: 1px;
   line-height: 35px;
   font-weight: 400; }
@@ -9394,6 +9403,15 @@ hr {
     opacity: 1;
     position: fixed;
     z-index: 500; }
+  .singleapp .app-about #glance ul {
+    background: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px; }
+    .singleapp .app-about #glance ul li {
+      font-size: 18px; }
+      .singleapp .app-about #glance ul li::before {
+        content: "•";
+        color: #E0BC4E; }
   @media only screen and (max-width: 768px) {
     .singleapp .app-about {
       padding-top: 0px; } }
@@ -9419,7 +9437,8 @@ hr {
       border-left: 2px solid #fff;
       padding-left: 15px; }
   .singleapp .app-about ul {
-    padding-left: 16px; }
+    padding-left: 16px;
+    list-style: none; }
   .singleapp .app-about li {
     font-size: 15px; }
   .singleapp .app-about .about-nav {
@@ -9433,7 +9452,8 @@ hr {
     .singleapp .app-about .about-nav {
       display: none; } }
     .singleapp .app-about .about-nav ul {
-      padding-left: 0; }
+      padding-left: 0;
+      list-style: none; }
       @media only screen and (max-width: 768px) {
         .singleapp .app-about .about-nav ul {
           padding: 10px;
@@ -10599,10 +10619,12 @@ hr {
     padding-left: 10px;
     line-height: 25px; }
     .research .pub-nav ul li:hover {
-      border-left: 4px solid #1F2E3B; }
+      border-left: 4px solid #FCC9C2; }
     .research .pub-nav ul li a {
       color: #1F2E3B;
-      font-size: 16px; }
+      font-size: 16px;
+      letter-spacing: 0px;
+      text-transform: uppercase; }
 
 .research .research-toggles {
   position: absolute;
@@ -10633,11 +10655,6 @@ hr {
         @media only screen and (max-width: 768px) {
           .research .research-toggles ul li a {
             font-size: 11px; } }
-
-.research .sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0; }
 
 .research .tab-content {
   padding-top: 5vw;
@@ -10699,7 +10716,7 @@ hr {
         content: "";
         width: 105%;
         height: 17px;
-        background: #E0BC4E;
+        background: #D6A718;
         display: block;
         position: absolute;
         z-index: -1;
@@ -10741,10 +10758,12 @@ hr {
     padding-left: 10px;
     line-height: 25px; }
     .press .pub-nav ul li:hover {
-      border-left: 4px solid #1F2E3B; }
+      border-left: 4px solid #D6A718; }
     .press .pub-nav ul li a {
       color: #1F2E3B;
-      font-size: 16px; }
+      font-size: 16px;
+      letter-spacing: 0px;
+      text-transform: uppercase; }
 
 .press .press-toggles {
   position: absolute;
@@ -10772,6 +10791,8 @@ hr {
         color: #fff;
         text-decoration: none;
         padding: 20px; }
+        .press .press-toggles ul li a:hover {
+          text-decoration: none; }
         @media only screen and (max-width: 768px) {
           .press .press-toggles ul li a {
             font-size: 11px; } }
@@ -10794,6 +10815,8 @@ hr {
     .press .tab-content h2:first-child {
       margin-top: 0;
       padding-top: 0; }
+  .press .tab-content h3 {
+    margin: 40px 0px 10px 0px; }
   .press .tab-content p {
     margin-bottom: 10px; }
   .press .tab-content .playstats {
@@ -10806,7 +10829,11 @@ hr {
       margin: 10px;
       border-radius: 10px;
       text-align: center;
-      padding: 2vw; }
+      padding: 2vw;
+      color: #222830;
+      transition: all 0.1s ease-in-out; }
+      .press .tab-content .playstats .playstat:hover {
+        transform: scale(1.03); }
       .press .tab-content .playstats .playstat img {
         height: 40px;
         margin-bottom: 10px; }

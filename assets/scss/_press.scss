@@ -41,7 +41,7 @@
           content: "";
           width:105%;
           height:17px;
-          background:$yellow;
+          background:$dark-yellow;
           display:block;
           position:absolute;
           z-index:-1;
@@ -90,11 +90,13 @@
         padding-left: 10px;
         line-height: 25px;
         &:hover {
-          border-left:4px solid $blue-black;
+          border-left:4px solid $dark-yellow;
         }
         a {
           color: $blue-black;
           font-size:16px;
+          letter-spacing:0px;
+          text-transform:uppercase;
         }
       }
     }
@@ -128,6 +130,9 @@
           color: #fff;
           text-decoration: none;
           padding:20px;
+          &:hover {
+            text-decoration:none;
+          }
           @media #{$break-sm} {
             font-size:11px;
           }
@@ -156,6 +161,9 @@
         padding-top:0;
       }
     }
+    h3 {
+      margin:40px 0px 10px 0px;
+    }
     p {
       margin-bottom:10px;
     }
@@ -170,6 +178,11 @@
         border-radius:10px;
         text-align:center;
         padding:2vw;
+        color:$black;
+        transition: all 0.1s ease-in-out;
+        &:hover {
+          transform:scale(1.03);
+        }
         img {
           height:40px;
           margin-bottom:10px;

@@ -1,8 +1,18 @@
 body {
   -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing:1px;
+  margin-bottom:20px;
 }
 h1, h2, h3 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  letter-spacing:3px;
 }
 
 h2 {
@@ -28,8 +38,7 @@ a {
 }
 
 p, a, li{
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-family: 'futura-pt', sans-serif;
   letter-spacing: 1px;
   line-height: 35px;
   font-weight: 400;

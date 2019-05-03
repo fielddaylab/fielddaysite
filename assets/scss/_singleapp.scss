@@ -140,6 +140,17 @@
   }
 
   .app-about {
+    #glance {
+      ul {
+        background:$ultralight_gray;
+        padding:10px;
+        border-radius:10px;
+        li {
+          font-size:18px;
+          &::before {content: "•"; color: $yellow;}
+        }
+      }
+    }
     @media #{$break-sm} {
       padding-top:0px;
     }
@@ -170,6 +181,7 @@
     }
     ul {
       padding-left: 16px;
+      list-style:none;
     }
     li {
       font-size: 15px;
@@ -186,6 +198,7 @@
       }
       ul {
         padding-left: 0;
+        list-style:none;
         @media #{$break-sm} {
           padding: 10px;
           text-align:center;

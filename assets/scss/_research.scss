@@ -88,11 +88,13 @@
         padding-left: 10px;
         line-height: 25px;
         &:hover {
-          border-left:4px solid $blue-black;
+          border-left:4px solid $light_red;
         }
         a {
           color: $blue-black;
           font-size:16px;
+          letter-spacing:0px;
+          text-transform:uppercase;
         }
       }
     }
@@ -132,11 +134,6 @@
         }
       }
     }
-  }
-  .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
   }
   .tab-content{
     padding-top:5vw;
