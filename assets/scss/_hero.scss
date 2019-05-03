@@ -20,16 +20,26 @@
       transition-property: opacity;
       width: 100%;
       height: 100vh;
+      @media #{$break-sm} {
+        height: 95vh;
+      }
       .info-wrap {
         width: 100%;
         height: 100vh;
         display:flex;
         align-items:center;
+        @media #{$break-sm} {
+          height: 95vh;
+          background:rgba(16,25,32,0.5);
+        }
       }
       .item-info {
         img {
           height:15vw;
           width:auto;
+          @media #{$break-sm} {
+            height:30vw;
+          }
           &.small_hero_img {
             width: 150px;
             height: auto;
@@ -47,6 +57,11 @@
         h2 {
           margin-bottom: 10px;
           margin-left:0;
+        }
+        p {
+          @media #{$break-sm} {
+            width:80vw;
+          }
         }
         @media #{$break-sm} {
           width:70vw;
@@ -72,6 +87,9 @@
       background: url(../img/hero-images/forevermine.jpg) no-repeat;
       background-size:cover;
       background-position:center;
+      @media #{$break-sm} {
+        background-position:right;
+      }
     }
 
     .item:nth-child(2) {
@@ -84,6 +102,9 @@
       background: url(../img/hero-images/jowilder-bg.jpg) no-repeat;
       background-size:cover;
       background-position:center;
+      @media #{$break-sm} {
+        background-position:right;
+      }
     }
 
     .item:nth-child(4) {
@@ -98,6 +119,9 @@
       opacity: 0;
       width:100%;
       height:100vh;
+      @media #{$break-sm} {
+        height: 95vh;
+      }
     }
 
     .active,

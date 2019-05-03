@@ -1,7 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 
 <title>Field Day - Lost at the Forevor Mine</title>
-<script>
+<!--<script>
 window.onload = function()
 {
   var clickload = document.getElementById("clickload");
@@ -20,7 +20,7 @@ window.onload = function()
   }
   clickload.addEventListener("click",loadiframe);
 };
-</script>
+</script>-->
 </head>
 <body class="singleapp forevermine">
 
@@ -46,12 +46,12 @@ window.onload = function()
 
 </p></div>
     <div class="buttons">
-      <a target="_blank" href="#app-intro" class="button xsmall white filled">Play the Game</a>
+      <a target="_blank" href="./game" class="button xsmall white filled">Play the Game</a>
       <a target="_blank" href="#app-about" class="button xsmall white">Teach with the Game</a>
     </div>
   </div>
 </section>
-<section id="app-intro">
+<!--<section id="app-intro">
   <h2>Lost at the Forever Mine</h2>
   <div class="iframe-bg" id="clickload" scrolling="no">
     <span class="playbutton"
@@ -66,7 +66,7 @@ window.onload = function()
     </span>
   </div>
   <iframe id="content" scrolling="no" style="display:none; width:1024px; height:660px; margin:0px auto; overflow:hidden; border:0px;"></iframe>
-</section>
+</section>-->
 
 <section id="app-about" class="app-about">
 

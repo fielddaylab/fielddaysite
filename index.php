@@ -39,8 +39,8 @@
             <div class="item-info">
               <img class="" src="/assets/img/logos/forevermine-white.png">
               <h2 class="uppercase"></h2>
-              <p class="corrected">Play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out.</p>
-              <a class="button xsmall white" href="/play/forevermine">Play the Game</a>
+              <p class="corrected">In this Math Drama, Play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out.</p>
+              <a class="button xsmall white" href="/play/forevermine">Learn More</a>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@
               <img class="" src="/assets/img/logos/jowilder.png">
               <h2 class="uppercase"></h2>
               <p class="corrected">Play as Jo Wilder, a scrappy girl who spends her days with her pet badger Teddy and her grandpa, a historian. When some mysterious artifacts show up at the History Museum, you must unravel the clues to find the real stories behind the artifacts.</p>
-              <a class="button xsmall white" href="/play/jowilder">Play Jo Wilder</a>
+              <a class="button xsmall white" href="/play/jowilder">Learn More</a>
             </div>
           </div>
         </div>
@@ -154,12 +154,12 @@
         <div class="cta-card one">
           <h3>Teach with apps & games</h3>
           <p class="small">Are you a teacher looking to use games & apps? Take an online course or join a fellowship for Professional Development.</p>
-          <a class="button black" href="/teachers">Get started</a>
+          <a class="button xsmall black" href="/teachers">Get started</a>
         </div>
         <div class="cta-card two">
-          <h3>Make something with us</h3>
+          <h3>Work with us</h3>
           <p class="small">Are you from a research lab looking to design public outreach with games, a virtual reality experience, or a citizen science app?</p>
-          <a class="button black" href="/work">Work with Us</a>
+          <a class="button xsmall black" href="/work">Work with Us</a>
         </div>
       </div>
     </div>
