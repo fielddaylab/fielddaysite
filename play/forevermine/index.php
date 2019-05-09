@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 
-<title>Field Day - Lost at the Forevor Mine</title>
+<title>Field Day - Lost at the Forever Mine</title>
+<description>In this Math Drama, Play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out.</description>
 <!--<script>
 window.onload = function()
 {
@@ -91,7 +92,7 @@ window.onload = function()
         <li>Free to play </li>
       </ul>
       <h2 id="About">About the Game</h2>
-      <p>You play as a scientist who just crash-landed on an abandoned mining planet. You’re out of fuel, and your suit’s oxygen is running low. You need to mine enough fuel to power your ship, or you won’t survive.</p>
+      <p>You are a material scientist who just crash-landed on an abandoned mining planet. You’re out of fuel, and your suit’s oxygen is running low. You need to mine enough fuel to power your ship, or you won’t survive.</p>
       <p>You stumble into the old mining facility. That’s where you meet MAL, the mine’s Artificial Intelligence, who is thrilled to have someone to talk to. With MAL’s help, you’ll build scientific models to predict if you’re mining fast enough and what you need to do next. </p>
       <p>Each level puts the student in the role of the scientific modeler. Students will set up equations, work with graphs, input data, and use models to make predictions. Along the way, as obstacles keep popping up, students will experience how models are used as a tool to make decisions.</p>
       <p class="note">Note: For best compatibility, use Chrome</p>
@@ -102,8 +103,8 @@ window.onload = function()
       <h3>Learning Objectives</h3>
       <ul>
         <li>Models are tools for scientific inquiry that allow us to describe and predict complex phenomena</li>
-        <li>Models must first fit known data before they are usefull as prediction tools</li>
-        <li>Models must be evauluated and refined</li>
+        <li>Models must first fit known data before they are useful as prediction tools</li>
+        <li>Models must be evaluated and refined</li>
       </ul>
       <h3>Teaching Standards</h3>
       <p>Developing and using models is one of the eight cross-cutting science and engineering practices in the NGSS framework. In the NGSS Framework “Developing and Using Models -  a practice of both science and engineering is to use and construct models as helpful tools for representing ideas and explanations. These tools include diagrams, drawings, physical replicas, mathematical representations, analogies, and computer simulations.</p>
