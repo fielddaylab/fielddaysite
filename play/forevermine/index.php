@@ -137,7 +137,7 @@ window.onload = function()
       <li>Writing: Lindy Biller, Sarah Gagnon, Eric Lang, Philip Dougherty</li>
       <li>Original Music & Sound: Cyril Peck</li>
       <li>Administration Support: Angel Cartagena, Adam Chase, Ahna Holliday, Becki Kohl, Jim Lyne</li>
-      <li>Testing and Design Feedback: Joe Riederer and the students of Wisconsin Rapids Area Middle School, Olivia Dachel and the students of Merril High School, Jenny Karpelenia and the students of Bartles Middle School, Marsella Aguila and the students of Waterford Graded School District</li>
+      <li>Testing and Design Feedback: Joe Riederer and the students of Wisconsin Rapids Area Middle School, Olivia Dachel and the students of Merrill High School, Jenny Karpelenia and the students of Bartles Middle School, Marsella Aguila and the students of Waterford Graded School District</li>
       </ul>
       <h2 id="funding">Funding</h2>
       <ul>
