@@ -2,6 +2,10 @@
 
 build:
 	gulp styles
+	update-submodules
+
+update-submodules:
+	git submodule update --remote --merge
 
 deploy-wcer:
 	rsync -vrc * dgagnon@website.education.wisc.edu:/var/www/site/fielddaylab --exclude-from rsync-exclude
