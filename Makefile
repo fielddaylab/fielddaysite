@@ -2,7 +2,7 @@
 
 build:
 	gulp styles
-	update-submodules
+	make update-submodules
 
 update-submodules:
 	git submodule update --remote --merge
