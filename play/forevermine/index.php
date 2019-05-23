@@ -125,19 +125,19 @@ window.onload = function()
       </ul>
       <h2 id="production">Production Team</h2>
       <ul>
-      <li>Executive Producer: Anne Lynn Gillian-Daniel</li>
-      <li>Producer: David Gagnon</li>
-      <li>Education Fellows Director: Jim Mathews</li>
-      <li>Creative Director: Sarah Gagnon</li>
-      <li>Software Development: Philip Dougherty</li>
-      <li>Graphic Design and User Interface: Eric Lang</li>
-      <li>Art & Animation: Reyna Groff, Eric Lang, Rodney Lambright II</li>
-      <li>Content: Anne Lynn Gillian-Daniel, Matthew Stilwell, David Gagnon</li>
-      <li>Content Consultants: Wendy Crone, Amanda Smith, Eli Towle, Benjamin Afflerbach, Tesia Janicki, Marc Brousseau, Noah Edelstein, Sarah Sprangers & MRSEC faculty, graduate students, and staff</li>
-      <li>Writing: Lindy Biller, Sarah Gagnon, Eric Lang, Philip Dougherty</li>
-      <li>Original Music & Sound: Cyril Peck</li>
-      <li>Administration Support: Angel Cartagena, Adam Chase, Ahna Holliday, Becki Kohl, Jim Lyne</li>
-      <li>Testing and Design Feedback: Joe Riederer and the students of Wisconsin Rapids Area Middle School, Olivia Dachel and the students of Merrill High School, Jenny Karpelenia and the students of Bartles Middle School, Marsella Aguila and the students of Waterford Graded School District</li>
+        <li>Executive Producer: Anne Lynn Gillian-Daniel</li>
+        <li>Producer: David Gagnon</li>
+        <li>Education Fellows Director: Jim Mathews</li>
+        <li>Creative Director: Sarah Gagnon</li>
+        <li>Software Development: Philip Dougherty</li>
+        <li>Graphic Design and User Interface: Eric Lang</li>
+        <li>Art & Animation: Reyna Groff, Eric Lang, Rodney Lambright II</li>
+        <li>Content: Anne Lynn Gillian-Daniel, Matthew Stilwell, David Gagnon</li>
+        <li>Content Consultants: Wendy Crone, Amanda Smith, Eli Towle, Benjamin Afflerbach, Tesia Janicki, Marc Brousseau, Noah Edelstein, Sarah Sprangers & MRSEC faculty, graduate students, and staff</li>
+        <li>Writing: Lindy Biller, Sarah Gagnon, Eric Lang, Philip Dougherty</li>
+        <li>Original Music & Sound: Cyril Peck</li>
+        <li>Administration Support: Angel Cartagena, Adam Chase, Ahna Holliday, Becki Kohl, Jim Lyne</li>
+        <li>Testing and Design Feedback: Joe Riederer and the students of Wisconsin Rapids Area Middle School, Olivia Dachel and the students of Merrill High School, Jenny Karpelenia and the students of Bartles Middle School, Marsella Aguilar and the students of Waterford Graded School District</li>
       </ul>
       <h2 id="funding">Funding</h2>
       <ul>
