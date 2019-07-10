@@ -191,7 +191,7 @@ window.onload = function()
         <li>Wisconsin Department of Public Instruction</li>
       </ul>
       <h2 id="source">Source Code</h2>
-      <p>Lost at the Forever Mine is an open-source project licensed under the <a target="_blank" href="https://opensource.org/licenses/MIT">MIT license</a></p>
+      <p>Lost at the Forever Mine is an open-source project licensed under the <a target="_blank" href="https://opensource.org/licenses/MIT">MIT license</a> and is available at <a target="_blank" href="https://github.com/fielddaylab/forevermine">https://github.com/fielddaylab/forevermine</a></p>
     </div>
   </div>
 </section>
