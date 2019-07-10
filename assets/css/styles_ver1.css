@@ -9331,8 +9331,7 @@ hr {
       width: 80vw;
       margin-left: 10vw;
       position: relative;
-      z-index: 100;
-      margin-top: 3vw; }
+      z-index: 100; }
       .singleapp .app-hero .hero-content .info-panel {
         margin-bottom: 30px;
         width: 100%;
