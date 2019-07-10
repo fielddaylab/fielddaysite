@@ -123,21 +123,66 @@ window.onload = function()
         <li>Wisconsin Department of Public Instruction</li>
       </ul>
       <h2 id="production">Production Team</h2>
-      <ul>
-      <li>Executive Producer: Anne Lynn Gillian-Daniel</li>
-      <li>Producer: David Gagnon</li>
-      <li>Education Fellows Director: Jim Mathews</li>
-      <li>Creative Director: Sarah Gagnon</li>
-      <li>Software Development: Philip Dougherty</li>
-      <li>Graphic Design and User Interface: Eric Lang</li>
-      <li>Art & Animation: Reyna Groff, Eric Lang, Rodney Lambright II</li>
-      <li>Content: Anne Lynn Gillian-Daniel, Matthew Stilwell, David Gagnon</li>
-      <li>Content Consultants: Wendy Crone, Amanda Smith, Eli Towle, Benjamin Afflerbach, Tesia Janicki, Marc Brousseau, Noah Edelstein, Sarah Sprangers & MRSEC faculty, graduate students, and staff</li>
-      <li>Writing: Lindy Biller, Sarah Gagnon, Eric Lang, Philip Dougherty</li>
-      <li>Original Music & Sound: Cyril Peck</li>
-      <li>Administration Support: Angel Cartagena, Adam Chase, Ahna Holliday, Becki Kohl, Jim Lyne</li>
-      <li>Testing and Design Feedback: Joe Rieder and the students of Wisconsin Rapids Public School, Olivia Dachel and the students of Merril High School, Jenny Karpelenia and the students of Bartles Middle School, Marsella Aguila and the students of Waterford Graded School District</li>
-      </ul>
+        <h3>Executive Producer</h3>
+        <ul><li>Anne Lynn Gillian-Daniel</li></ul>
+        <h3>Producer</h3>
+        <ul><li>David Gagnon</li></ul>
+        <h3>Education Fellows Director</h3>
+        <ul><li>Jim Mathews</li></ul>
+        <h3>Creative Director</h3>
+        <ul><li>Sarah Gagnon</li></ul>
+        <h3>Software Development</h3>
+        <ul><li>Philip Dougherty</li></ul>
+        <h3>Graphic Design and User Interface</h3>
+        <ul><li>Eric Lang</li></ul>
+        <h3>Art & Animation</h3>
+        <ul>
+          <li>Reyna Groff</li>
+          <li>Eric Lang</li>
+          <li>Rodney Lambright II</li>
+        </ul>
+        <h3>Content</h3>
+        <ul>
+          <li>Anne Lynn Gillian-Daniel</li>
+          <li>Matthew Stilwell</li>
+          <li>David Gagnon</li>
+        </ul>
+        <h3>Content Consultants</h3>
+        <ul>
+          <li>Wendy Crone</li>
+          <li>Amanda Smith</li>
+          <li>Eli Towle</li>
+          <li>Benjamin Afflerbach</li>
+          <li>Tesia Janicki</li>
+          <li>Marc Brousseau</li>
+          <li>Noah Edelstein</li>
+          <li>Sarah Sprangers</li>
+          <li>MRSEC faculty, graduate students, and staff</li>
+        </ul>
+        <h3>Writing</h3>
+        <ul>
+          <li>Lindy Biller</li>
+          <li>Sarah Gagnon</li>
+          <li>Eric Lang</li>
+          <li>Philip Dougherty</li>
+        </ul>
+        <h3>Original Music & Sound</h3>
+        <ul><li>Cyril Peck</li></ul>
+        <h3>Administration Support</h3>
+        <ul>
+          <li>Angel Cartagena</li>
+          <li>Adam Chase</li>
+          <li>Ahna Holliday</li>
+          <li>Becki Kohl</li>
+          <li>Jim Lyne</li>
+        </ul>
+        <h3>Testing and Design Feedback</h3>
+        <ul>
+          <li>Joe Rieder and the students of Wisconsin Rapids Public School</li>
+          <li>Olivia Dachel and the students of Merril High School</li>
+          <li>Jenny Karpelenia and the students of Bartles Middle School</li>
+          <li>Marsella Aguila and the students of Waterford Graded School District</li>
+        </ul>
       <h2 id="funding">Funding</h2>
       <ul>
         <li>NSF through the University of Wisconsin Materials Research Science and Engineering Center (DMR-1720415)</li>
