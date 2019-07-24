@@ -9289,6 +9289,8 @@ hr {
   ---------------------------*/
   /* Template for Jo Wilder
   ---------------------------*/
+  /* Template for Lakeland
+  ---------------------------*/
   /* Template for Forevor Mine
   ---------------------------*/
   /* Template for Ice Cube
@@ -9557,6 +9559,41 @@ hr {
     border-right: 0px !important;
     width: 31vw;
     height: 14vw; }
+  .singleapp.lakeland #app-intro {
+    padding: 5vw 0vw 6vw 0vw;
+    text-align: center; }
+    .singleapp.lakeland #app-intro .iframe-bg {
+      width: 880px;
+      height: 660px;
+      display: block;
+      margin: 0px auto;
+      overflow: hidden;
+      border: 0px;
+      background: url(../img/mine-iframe.jpg) no-repeat;
+      background-size: cover; }
+    .singleapp.lakeland #app-intro h2 {
+      text-transform: uppercase; }
+    .singleapp.lakeland #app-intro .fullscreen {
+      text-align: right;
+      margin-top: 10px; }
+      .singleapp.lakeland #app-intro .fullscreen img {
+        vertical-align: middle; }
+  .singleapp.lakeland #app-about h3 {
+    margin: 25px 0px 10px 0px; }
+  .singleapp.lakeland .app-hero {
+    background: url(/assets/img/hero-images/lakeland.jpg) no-repeat;
+    background-size: cover;
+    background-position: right bottom; }
+  .singleapp.lakeland .info-panel {
+    border-bottom: 0px !important; }
+  .singleapp.lakeland .app-title {
+    text-indent: -9999px;
+    background: url(/assets/img/logos/lakeland-logo.png) no-repeat;
+    background-size: contain;
+    background-position: left;
+    border-right: 0px !important;
+    width: 500px;
+    height: 200px; }
   .singleapp.forevermine #app-intro {
     padding: 5vw 0vw 6vw 0vw;
     text-align: center; }

@@ -1,6 +1,6 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 
-<title>Field Day - Lost at the Forever Mine</title>
+<title>Field Day - Welcome to Lakeland</title>
 <meta name="description" content="In this Math Drama, Play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out." />
 <!--<script>
 window.onload = function()
@@ -23,7 +23,7 @@ window.onload = function()
 };
 </script>-->
 </head>
-<body class="singleapp forevermine">
+<body class="singleapp lakeland">
 
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/main-nav.php";  include_once($path); ?>
 
@@ -42,7 +42,8 @@ window.onload = function()
     <div class="app-info">
       <h1 class="app-title">Lost at the Forever Mine</h1>
     </div>
-    <div class="app-description"><p class="small">In this Math Drama, you are a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out.</p></div>
+    <div class="app-description"><p class="small">The folks in Lakeland love their lakes! Swimming, fishing, boating; They love it all.
+But they also love cheese, and ice cream, I mean, who doesn’t? To make cheese they need cows, and with cows comes a whooooole lotta poop. Poop is great, it feeds plants, but it also make a lot of nutrients. Why do nutrients matter? Play and see!</p></div>
     <div class="buttons">
       <a target="_blank" href="./game" class="button xsmall white filled">Play the Game</a>
       <a target="_blank" href="#teach" class="button xsmall white">Teach with the Game</a>
