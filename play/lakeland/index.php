@@ -2,7 +2,7 @@
 
 <title>Field Day - Welcome to Lakeland</title>
 <meta name="description" content="In this Math Drama, Play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out." />
-<!--<script>
+<script>x
 window.onload = function()
 {
   var clickload = document.getElementById("clickload");
@@ -12,16 +12,16 @@ window.onload = function()
   {
     iframe.style.display = "block";
     if(location.href.indexOf("?") > -1)
-      iframe.src = "game/iframe.html"+location.href.substring(location.href.indexOf("?"))
+      iframe.src = "usda/iframe.html"+location.href.substring(location.href.indexOf("?"))
     else
-      iframe.src = "game/iframe.html";
+      iframe.src = "usda/iframe.html";
     clickload.removeEventListener("click",loadiframe);
     clickload.parentNode.removeChild(clickload);
     clickload = null;
   }
   clickload.addEventListener("click",loadiframe);
 };
-</script>-->
+</script>
 </head>
 <body class="singleapp lakeland">
 
@@ -40,7 +40,7 @@ window.onload = function()
       </ul>
     </div>
     <div class="app-info">
-      <h1 class="app-title">Lost at the Forever Mine</h1>
+      <h1 class="app-title">Welcome to Lakeland</h1>
     </div>
     <div class="app-description"><p class="small">The folks in Lakeland love their lakes! Swimming, fishing, boating; They love it all.
 But they also love cheese, and ice cream, I mean, who doesn’t? To make cheese they need cows, and with cows comes a whooooole lotta poop. Poop is great, it feeds plants, but it also make a lot of nutrients. Why do nutrients matter? Play and see!</p></div>
@@ -50,12 +50,12 @@ But they also love cheese, and ice cream, I mean, who doesn’t? To make cheese 
     </div>
   </div>
 </section>
-<!--<section id="app-intro">
-  <h2>Lost at the Forever Mine</h2>
-  <div class="iframe-bg" id="clickload" scrolling="no">
+<section id="app-intro">
+  <h2>Welcome to Lakeland</h2>
+  <div class="iframe-bg" id="clickload" scrolling="no" style="background-image: url(usda/assets/menu-bg.jpg); background-size: cover;">
     <span class="playbutton"
       style="
-        background-image: url(game/assets/play.png);
+        background-image: url("");
         background-size: cover;
         width: 300px;
         height: 95px;
@@ -65,7 +65,7 @@ But they also love cheese, and ice cream, I mean, who doesn’t? To make cheese 
     </span>
   </div>
   <iframe id="content" scrolling="no" style="display:none; width:1024px; height:660px; margin:0px auto; overflow:hidden; border:0px;"></iframe>
-</section>-->
+</section>
 
 <section id="app-about" class="app-about">
 

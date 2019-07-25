@@ -9,7 +9,7 @@
     }
     @media #{$break-sm} {
       height:auto;
-      padding:25vw 0vw 15vw 0vw;
+      padding:15vw 0vw 15vw 0vw;
     }
     .grad {
       position:absolute;
@@ -346,7 +346,6 @@
         margin:0px auto;
         overflow:hidden;
         border:0px;
-        background:url(../img/mine-iframe.jpg) no-repeat;
         background-size: cover;
       }
       h2 {
@@ -366,9 +365,12 @@
       }
     }
     .app-hero{
-      background:url(/assets/img/hero-images/lakeland.jpg) no-repeat;
+      background-image: linear-gradient(99deg, rgba(14,36,57,0.3) 0%, rgba(14,36,57,0.4) 100%), url('/assets/img/hero-images/lakeland.jpg');
       background-size: cover;
       background-position:right bottom;
+      @media #{$break-sm} {
+        background-image: linear-gradient(99deg, rgba(14,36,57,0.7) 0%, rgba(14,36,57,0.6) 100%), url('/assets/img/hero-images/lakeland.jpg');
+      }
     }
     .info-panel {
       border-bottom: 0px !important;
@@ -379,8 +381,13 @@
       background-size:contain;
       background-position: left;
       border-right:0px !important;
-      width: 500px;
-      height: 200px;
+      width:400px;
+      height:120px;
+      margin-bottom:20px;
+      @media #{$break-sm} {
+        width: auto;
+        height: 150px;
+      }
     }
   }
 

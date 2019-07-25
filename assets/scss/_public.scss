@@ -153,6 +153,7 @@
         margin: 0 auto;
         margin-top:10px;
         margin-bottom:15px;
+        max-width: 100%;
         @media #{$break-sm-xs} {
           height:10vw;
         }

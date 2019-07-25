@@ -32,6 +32,10 @@
           <div class="active item">
             <!-- Gridder navigation -->
             <ul class="apps gridder">
+              <li class="gridder-list app-card" data-griddercontent="#game-app7">
+                <img src="/assets/img/logos/colored/lakeland-logo.png" class="app-logo">
+                <span>Welcome to Lakeland</span>
+              </li>
               <li class="gridder-list app-card" data-griddercontent="#game-app5">
                 <img src="/assets/img/logos/jowilder-dark-small.png" class="app-logo">
                 <span>Jo Wilder</span>
@@ -118,6 +122,8 @@
                 <img src="/assets/img/thumbs/jowilder-thumb.jpg">
               </div>
             </div>
+
+
             <div id="game-app6" class="app-expanded gridder-content">
               <div class="app-info app-pane left">
                 <span class="close-app">
@@ -127,6 +133,18 @@
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/forevermine.jpg">
+              </div>
+            </div>
+
+            <div id="game-app7" class="app-expanded gridder-content">
+              <div class="app-info app-pane left">
+                <span class="close-app">
+                  <h2>Welcome to Lakeland!</h2>
+                  <p class="small">Play as Jo Wilder, a scrappy girl who spends her days with her pet badger Teddy and her grandpa, a historian. When some mysterious artifacts show up at the History Museum, you must unravel the clues to find the real stories behind the artifacts. </p>
+                  <a class="button small black" href="/play/lakeland">Play Lakeland</a>
+              </div>
+              <div class="app-thumbnail app-pane right">
+                <img src="/assets/img/thumbs/lakeland-thumb.jpg">
               </div>
             </div>
 
