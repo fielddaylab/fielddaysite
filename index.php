@@ -15,19 +15,19 @@
         <ul class="carousel-indicators slide-bullets">
             <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
               <span class="bullet"></span>
-              <span class="bullet-caption">forever Mine</span>
+              <span class="bullet-caption">Lakeland</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
               <span class="bullet"></span>
-              <span class="bullet-caption">Siftr</span>
+              <span class="bullet-caption">forever mine</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="2">
               <span class="bullet"></span>
-              <span class="bullet-caption">Jo Wilder</span>
+              <span class="bullet-caption">Siftr</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="3">
               <span class="bullet"></span>
-              <span class="bullet-caption">Discover IceCube VR</span>
+              <span class="bullet-caption">Jo Wilder</span>
             </li>
         </ul>
       </div>
@@ -35,6 +35,17 @@
       <div class="carousel-inner">
 
         <div class="active item">
+          <div class="info-wrap">
+            <div class="item-info">
+              <img class="" src="/assets/img/logos/lakeland-logo.png">
+              <p class="corrected">The folks in Lakeland love their lakes! Swimming, fishing, boating; They love it all.
+          But they also love cheese, and ice cream, I mean, who doesn’t? To make cheese they need cows, and with cows comes a whooooole lotta poop. Poop is great, it feeds plants, but it also make a lot of nutrients. Why do nutrients matter? Play and see!</p>
+              <a href="/play/lakeland" class="button white xsmall">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
           <div class="info-wrap">
             <div class="item-info">
               <img class="" src="/assets/img/logos/forevermine-white.png">
@@ -66,18 +77,6 @@
             </div>
           </div>
         </div>
-
-        <div class="item">
-          <div class="info-wrap">
-            <div class="item-info">
-              <img class="" src="/assets/img/logos/ice-cube-logo-white.png">
-              <h2 class="uppercase">Discover IceCube VR</h2>
-              <p class="corrected"> Journey deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica.</p>
-              <a href="/play/ice-cube" class="button white xsmall">Learn More</a>
-            </div>
-          </div>
-        </div>
-
 
 
       </div>

@@ -84,7 +84,7 @@
     }
 
     .item:nth-child(1) {
-      background: url(../img/hero-images/forevermine.jpg) no-repeat;
+      background: url(../img/hero-images/lakeland.jpg) no-repeat;
       background-size:cover;
       background-position:center;
       @media #{$break-sm} {
@@ -93,13 +93,13 @@
     }
 
     .item:nth-child(2) {
-      background: url(../img/hero-images/siftr-hero.jpg) no-repeat;
+      background: url(../img/hero-images/forevermine.jpg) no-repeat;
       background-size:cover;
       background-position:center;
     }
 
     .item:nth-child(3) {
-      background: url(../img/hero-images/jowilder-bg.jpg) no-repeat;
+      background: url(../img/hero-images/siftr-hero.jpg) no-repeat;
       background-size:cover;
       background-position:center;
       @media #{$break-sm} {
@@ -108,7 +108,7 @@
     }
 
     .item:nth-child(4) {
-      background: url(../img/hero-images/ice-cube.jpg) no-repeat;
+      background: url(../img/hero-images/jowilder-bg.jpg) no-repeat;
       background-size:cover;
       background-position:center;
     }

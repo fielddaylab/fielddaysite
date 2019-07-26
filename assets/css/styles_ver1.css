@@ -8760,7 +8760,7 @@ section {
         height: 10vw; } }
 
 .hero-slider .carousel-inner .item:nth-child(1) {
-  background: url(../img/hero-images/forevermine.jpg) no-repeat;
+  background: url(../img/hero-images/lakeland.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
   @media only screen and (max-width: 768px) {
@@ -8768,12 +8768,12 @@ section {
       background-position: right; } }
 
 .hero-slider .carousel-inner .item:nth-child(2) {
-  background: url(../img/hero-images/siftr-hero.jpg) no-repeat;
+  background: url(../img/hero-images/forevermine.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
 
 .hero-slider .carousel-inner .item:nth-child(3) {
-  background: url(../img/hero-images/jowilder-bg.jpg) no-repeat;
+  background: url(../img/hero-images/siftr-hero.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
   @media only screen and (max-width: 768px) {
@@ -8781,7 +8781,7 @@ section {
       background-position: right; } }
 
 .hero-slider .carousel-inner .item:nth-child(4) {
-  background: url(../img/hero-images/ice-cube.jpg) no-repeat;
+  background: url(../img/hero-images/jowilder-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
 
@@ -9594,9 +9594,8 @@ hr {
     background-size: contain;
     background-position: left;
     border-right: 0px !important;
-    width: 400px;
-    height: 120px;
-    margin-bottom: 20px; }
+    width: 700px;
+    height: 200px; }
     @media only screen and (max-width: 768px) {
       .singleapp.lakeland .app-title {
         width: auto;
