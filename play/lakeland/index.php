@@ -36,7 +36,7 @@ window.onload = function()
         <img class="breadcrumb-arrow" src="../../assets/img/ui/breadcrumb-arrow.png">
         <li>Play</li>
         <img class="breadcrumb-arrow" src="../../assets/img/ui/breadcrumb-arrow.png">
-        <li>Lost at the Forever Mine</li>
+        <li>Welcome to Lakeland</li>
       </ul>
     </div>
     <div class="app-info">
@@ -45,8 +45,8 @@ window.onload = function()
     <div class="app-description"><p class="small">The folks in Lakeland love their lakes! Swimming, fishing, boating; They love it all.
 But they also love cheese, and ice cream, I mean, who doesn’t? To make cheese they need cows, and with cows comes a whooooole lotta poop. Poop is great, it feeds plants, but it also make a lot of nutrients. Why do nutrients matter? Play and see!</p></div>
     <div class="buttons">
-      <a target="_blank" href="./game" class="button xsmall white filled">Play the Game</a>
-      <a target="_blank" href="#teach" class="button xsmall white">Teach with the Game</a>
+      <a target="_blank" href="#app-intro" class="button xsmall white filled">Play the Game</a>
+      <!--<a target="_blank" href="#teach" class="button xsmall white">Teach with the Game</a>-->
     </div>
   </div>
 </section>
@@ -67,7 +67,7 @@ But they also love cheese, and ice cream, I mean, who doesn’t? To make cheese 
   <iframe id="content" scrolling="no" style="display:none; width:1024px; height:660px; margin:0px auto; overflow:hidden; border:0px;"></iframe>
 </section>
 
-<section id="app-about" class="app-about">
+<!--<section id="app-about" class="app-about">
 
   <div class="row container">
     <div class="col-sm-4">
@@ -195,7 +195,7 @@ But they also love cheese, and ice cream, I mean, who doesn’t? To make cheese 
       <p>Lost at the Forever Mine is an open-source project licensed under the <a target="_blank" href="https://opensource.org/licenses/MIT">MIT license</a> and is available at <a target="_blank" href="https://github.com/fielddaylab/forevermine">https://github.com/fielddaylab/forevermine</a></p>
     </div>
   </div>
-</section>
+</section>-->
 
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/footer.php";  include_once($path); ?>
 
