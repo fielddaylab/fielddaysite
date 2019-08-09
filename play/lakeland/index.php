@@ -2,7 +2,7 @@
 
 <title>Field Day - Welcome to Lakeland</title>
 <meta name="description" content="In this Math Drama, Play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out." />
-<script>x
+<script>
 window.onload = function()
 {
   var clickload = document.getElementById("clickload");
@@ -20,6 +20,8 @@ window.onload = function()
     clickload = null;
   }
   clickload.addEventListener("click",loadiframe);
+  console.log("v0.0.1");
+  loadiframe();
 };
 </script>
 </head>
@@ -53,16 +55,7 @@ But they also love cheese, and ice cream, I mean, who doesn’t? To make cheese 
 <section id="app-intro">
   <h2>Welcome to Lakeland</h2>
   <div class="iframe-bg" id="clickload" scrolling="no" style="background-image: url(usda/assets/menu-bg.jpg); background-size: cover;">
-    <span class="playbutton"
-      style="
-        background-image: url("");
-        background-size: cover;
-        width: 300px;
-        height: 95px;
-        margin: 0 auto;
-        display: block;
-        margin-top: 400px;">
-    </span>
+
   </div>
   <iframe id="content" scrolling="no" style="display:none; width:1024px; height:660px; margin:0px auto; overflow:hidden; border:0px;"></iframe>
 </section>
