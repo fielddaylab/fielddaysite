@@ -5,7 +5,7 @@ build:
 	make update-submodules
 
 update-submodules:
-	git submodule update --remote --merge
+	git submodule update --init --remote --merge
 
 deploy-wcer:
 	rsync -vrc * dgagnon@website.education.wisc.edu:/var/www/site/fielddaylab --exclude-from rsync-exclude
