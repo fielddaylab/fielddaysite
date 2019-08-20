@@ -37,7 +37,7 @@
         <div class="active item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" src="/assets/img/logos/lakeland-logo.png">
+              <img class="" src="/assets/img/logos/lakeland-logo.png?cb=20190820">
               <p class="corrected">The folks in Lakeland love their lakes! Swimming, fishing, boating; They love it all.
           But they also love cheese, and ice cream, I mean, who doesn’t? To make cheese they need cows, and with cows comes a whooooole lotta poop. Poop is great, it feeds plants, but it also make a lot of nutrients. Why do nutrients matter? Play and see!</p>
               <a href="/play/lakeland" class="button white xsmall">Learn More</a>
@@ -48,7 +48,7 @@
         <div class="item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" src="/assets/img/logos/forevermine-white.png">
+              <img class="" src="/assets/img/logos/forevermine-white.png?cb=20190820">
               <h2 class="uppercase"></h2>
               <p class="corrected">In this Math Drama, Play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out.</p>
               <a class="button xsmall white" href="/play/forevermine">Learn More</a>
@@ -59,7 +59,7 @@
         <div class="item">
           <div class="info-wrap">
             <div class="item-info dark">
-              <img class="small_hero_img" src="/assets/img/logos/colored/siftr-logo.png">
+              <img class="small_hero_img" src="/assets/img/logos/colored/siftr-logo.png?cb=20190820">
               <h2 class="uppercase"></h2>
               <p class="corrected">Siftr is a citizen science app that allows you to create projects for any topic, from biology and ecology to photography and language studies. Participants will use your project to go out into the field and collect data.</p>
               <a class="button xsmall black filled" href="https://siftr.org" target="_blank">Go to Siftr</a>
@@ -70,7 +70,7 @@
         <div class="item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" src="/assets/img/logos/jowilder.png">
+              <img class="" src="/assets/img/logos/jowilder.png?cb=20190820">
               <h2 class="uppercase"></h2>
               <p class="corrected">Play as Jo Wilder, a scrappy girl who spends her days with her pet badger Teddy and her grandpa, a historian. When some mysterious artifacts show up at the History Museum, you must unravel the clues to find the real stories behind the artifacts.</p>
               <a class="button xsmall white" href="/play/jowilder">Learn More</a>
@@ -184,29 +184,29 @@
       <h3 class="centered uppercase">Who we work with</h3>
       <p class="small">We literally work with the most interesting people in the world. </p>
       <div class="partner-logos">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo1.jpg">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo2.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo3.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo4.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo5.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo6.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo7.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo8.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo9.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo10.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo11.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo12.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo13.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo14.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo15.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo16.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo17.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo18.jpeg">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo19.png">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo20.jpg">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo21.jpeg">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo22.jpg">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo23.png">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo1.jpg?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo2.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo3.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo4.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo5.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo6.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo7.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo8.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo9.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo10.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo11.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo12.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo13.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo14.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo15.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo16.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo17.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo18.jpeg?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo19.png?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo20.jpg?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo21.jpeg?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo22.jpg?cb=20190820">
+        <img src="/assets/img/logos/partnerlogos/partnerlogo23.png?cb=20190820">
       </div>
   </div>
   </section>
