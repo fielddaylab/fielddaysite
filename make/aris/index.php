@@ -132,7 +132,7 @@
     <div class="col-sm-4 learn-card">
       <img src="assets/img/logo-thumb3.png">
       <h3>Forums</h3>
-      <p class="small">Whether your are a beginner, have design questions or want to dive into more complicated technical question you can find help at the <a class="small" href="https://fielddaylab.wisc.edu/forums/viewforum.php?f=1" onclick="ga('send', 'event', 'Forums', 'Click');">ARIS Forums.</a></p>
+      <p class="small">Whether you are a beginner, have design questions, or want to dive into more complicated technical questions, you can find help at the <a class="small" href="https://www.facebook.com/groups/951713645185184/" onclick="ga('send', 'event', 'Forums', 'Click');">ARIS User Group.</a></p>
     </div>
   </div>
 
