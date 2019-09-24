@@ -35,15 +35,10 @@ Source code for this website and related data processing is available on <a targ
       <section class="publications">
         <div class="row">
           <div class="pub-nav-wrap sticky col-sm-3">
-            <div class="pub-nav">
-              <ul>
-                <li><a href="#pub1">Wave Game</a></li>
-                <li><a href="#pub2">Crystal Game</a></li>
-              </ul>
-            </div>
+            <h2>Select Game:</h2></h2>
+            <select id="mySelect"></select>
           </div>
           <div class="col-sm-9">
-            <h2>Wave Game Data</h2>
             <table id="table"></table>
           </div>
         </div>

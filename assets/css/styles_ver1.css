@@ -10977,7 +10977,9 @@ hr {
       width: 30vw;
       margin-left: 5vw;
       margin-top: 3vw;
-      float: right; }
+      position: absolute;
+      right: 0;
+      bottom: 0; }
       @media only screen and (max-width: 768px) {
         .opengamedata .page_hero .graphic .graph_img {
           width: 40vw;
@@ -11100,6 +11102,12 @@ hr {
         font-size: 16px;
         line-height: 17px; }
 
+select {
+  border: none;
+  padding: 20px;
+  background: #DDDDDD;
+  border: 10px solid #DDDDDD; }
+
 /* Table styling
 -------------------------*/
 .limiter {
@@ -11126,7 +11134,8 @@ table {
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
-  position: relative; }
+  position: relative;
+  font-size: 14px; }
   table a {
     color: #5B95A1; }
 
@@ -11143,7 +11152,7 @@ table tr:first-child {
   table tr:first-child th {
     font-family: OpenSans-Regular;
     font-weight: 200;
-    font-size: 18px; }
+    font-size: 16px; }
 
 table tbody tr {
   height: 50px; }
