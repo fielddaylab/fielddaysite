@@ -7518,6 +7518,9 @@ button.close {
 .light-red {
   color: #FCC9C2; }
 
+.light_blue {
+  color: #5B95A1; }
+
 .fd_blue {
   color: #2E31E0; }
 
@@ -7785,7 +7788,6 @@ a {
     color: #D6A718; }
 
 p, a, li {
-  font-family: 'futura-pt', sans-serif;
   letter-spacing: 1px;
   line-height: 35px;
   font-weight: 400; }
@@ -10915,6 +10917,347 @@ hr {
       .press .tab-content .playstats .playstat p {
         font-size: 16px;
         line-height: 17px; }
+
+.opengamedata #mainwrapper {
+  overflow-x: initial; }
+
+.opengamedata .page_hero {
+  background: #1F2E3B;
+  padding: 3vw 0vw 0vw 0vw;
+  position: relative; }
+  .opengamedata .page_hero a {
+    color: #5B95A1; }
+  @media only screen and (max-width: 768px) {
+    .opengamedata .page_hero {
+      flex-direction: column-reverse;
+      height: auto;
+      padding: 2vw; } }
+  .opengamedata .page_hero .info {
+    color: #fff;
+    width: 60%;
+    padding: 8vw 5vw 8vw 8vw; }
+    @media only screen and (max-width: 768px) {
+      .opengamedata .page_hero .info {
+        padding: 3vw;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center; } }
+    .opengamedata .page_hero .info h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 50px;
+      position: relative;
+      display: inline-block;
+      margin-bottom: 25px;
+      z-index: 1; }
+      @media only screen and (max-width: 768px) {
+        .opengamedata .page_hero .info h1 {
+          margin-top: 60px; } }
+      .opengamedata .page_hero .info h1:before {
+        content: "";
+        width: 105%;
+        height: 17px;
+        background: #5B95A1;
+        display: block;
+        position: absolute;
+        z-index: -1;
+        bottom: 5px;
+        left: -8px; }
+      @media only screen and (max-width: 768px) {
+        .opengamedata .page_hero .info h1 {
+          font-size: 40px; } }
+  .opengamedata .page_hero .graphic {
+    height: 100%; }
+    @media only screen and (max-width: 768px) {
+      .opengamedata .page_hero .graphic {
+        height: 40vw;
+        width: 100%;
+        margin-top: 20vw; } }
+    .opengamedata .page_hero .graphic .graph_img {
+      width: 30vw;
+      margin-left: 5vw;
+      margin-top: 3vw;
+      float: right; }
+      @media only screen and (max-width: 768px) {
+        .opengamedata .page_hero .graphic .graph_img {
+          width: 40vw;
+          margin: 0 auto;
+          display: block; } }
+
+@media only screen and (max-width: 768px) {
+  .opengamedata .pub-nav-wrap {
+    display: none; } }
+
+.opengamedata .pub-nav h2 {
+  margin-bottom: 80px; }
+
+.opengamedata .pub-nav ul {
+  background: #f5f5f5;
+  display: inline-block;
+  padding: 35px 20px 20px 30px;
+  list-style: none;
+  border-radius: 5px; }
+  .opengamedata .pub-nav ul li {
+    margin-bottom: 20px;
+    border-left: 4px solid #fff;
+    padding-left: 10px;
+    line-height: 25px; }
+    .opengamedata .pub-nav ul li:hover {
+      border-left: 4px solid #D6A718; }
+    .opengamedata .pub-nav ul li a {
+      color: #1F2E3B;
+      font-size: 16px;
+      letter-spacing: 0px;
+      text-transform: uppercase; }
+
+.opengamedata .press-toggles {
+  position: absolute;
+  margin-left: 8vw;
+  bottom: 0;
+  left: 0;
+  border-bottom: none; }
+  @media only screen and (max-width: 768px) {
+    .opengamedata .press-toggles {
+      margin-left: 4vw; } }
+  .opengamedata .press-toggles ul {
+    list-style: none;
+    display: block;
+    padding-left: 0;
+    margin-bottom: 3px; }
+    .opengamedata .press-toggles ul li {
+      display: inline;
+      text-transform: uppercase;
+      cursor: pointer; }
+      .opengamedata .press-toggles ul li.active a {
+        color: #1F2E3B;
+        background: #fff; }
+      .opengamedata .press-toggles ul li a {
+        font-size: 12px;
+        color: #fff;
+        text-decoration: none;
+        padding: 20px; }
+        .opengamedata .press-toggles ul li a:hover {
+          text-decoration: none; }
+        @media only screen and (max-width: 768px) {
+          .opengamedata .press-toggles ul li a {
+            font-size: 11px; } }
+
+.opengamedata .tab-content {
+  padding-top: 5vw;
+  margin-left: 6vw;
+  margin-right: 6vw; }
+  .opengamedata .tab-content .pub-wrap {
+    padding: 20px 0px;
+    border-bottom: 3px solid #f5f5f5; }
+  .opengamedata .tab-content h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    letter-spacing: 2px; }
+    .opengamedata .tab-content h2:first-child {
+      margin-top: 0;
+      padding-top: 0; }
+  .opengamedata .tab-content h3 {
+    margin: 40px 0px 10px 0px; }
+  .opengamedata .tab-content p {
+    margin-bottom: 10px; }
+  .opengamedata .tab-content .playstats {
+    display: flex;
+    flex-direction: row; }
+    .opengamedata .tab-content .playstats .playstat {
+      flex-direction: column;
+      display: flex;
+      width: 33%;
+      background: #E0BC4E;
+      margin: 10px;
+      border-radius: 10px;
+      text-align: center;
+      align-items: center;
+      padding: 2vw;
+      color: #222830;
+      transition: all 0.1s ease-in-out; }
+      .opengamedata .tab-content .playstats .playstat:hover {
+        transform: scale(1.03); }
+      .opengamedata .tab-content .playstats .playstat img {
+        height: 40px;
+        margin-bottom: 10px; }
+      .opengamedata .tab-content .playstats .playstat:nth-child(1n) {
+        background: #06AED5; }
+      .opengamedata .tab-content .playstats .playstat:nth-child(2n) {
+        background: #E0BC4E; }
+      .opengamedata .tab-content .playstats .playstat:nth-child(3n) {
+        background: #FCC9C2; }
+      .opengamedata .tab-content .playstats .playstat h3 {
+        font-family: roboto;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 50px;
+        margin: 0; }
+      .opengamedata .tab-content .playstats .playstat p {
+        font-size: 16px;
+        line-height: 17px; }
+
+/* Table styling
+-------------------------*/
+.limiter {
+  width: 100%;
+  margin: 0 auto; }
+
+.container-table100 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px; }
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative; }
+  table a {
+    color: #5B95A1; }
+
+table * {
+  position: relative; }
+
+table td, table th {
+  padding-left: 8px; }
+
+table tr:first-child {
+  height: 60px;
+  background: #1F2E3B;
+  color: #fff; }
+  table tr:first-child th {
+    font-family: OpenSans-Regular;
+    font-weight: 200;
+    font-size: 18px; }
+
+table tbody tr {
+  height: 50px; }
+
+table tbody tr:last-child {
+  border: 0; }
+
+table td, table th {
+  text-align: left; }
+
+table td.l, table th.l {
+  text-align: right; }
+
+table td.c, table th.c {
+  text-align: center; }
+
+table td.r, table th.r {
+  text-align: center; }
+
+.table100-head th {
+  font-family: OpenSans-Regular;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset; }
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5; }
+
+tbody tr {
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.2;
+  font-weight: unset; }
+
+.column1 {
+  width: 170px;
+  padding-left: 40px; }
+
+.column2 {
+  width: 170px; }
+
+.column3 {
+  width: 170px; }
+
+.column4 {
+  width: 110px;
+  text-align: right; }
+
+.column5 {
+  width: 170px;
+  text-align: right; }
+
+.column6 {
+  width: 280px;
+  text-align: right;
+  padding-right: 32px; }
+
+@media screen and (max-width: 992px) {
+  table {
+    display: block; }
+  table > *, table tr, table td, table th {
+    display: block; }
+  table thead {
+    display: none; }
+  table tbody tr {
+    height: auto;
+    padding: 37px 0; }
+  table tbody tr td {
+    padding-left: 40% !important;
+    margin-bottom: 24px; }
+  table tbody tr td:last-child {
+    margin-bottom: 0; }
+  table tbody tr td:before {
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.2;
+    font-weight: unset;
+    position: absolute;
+    width: 40%;
+    left: 30px;
+    top: 0; }
+  table tbody tr td:nth-child(1):before {
+    content: "Date"; }
+  table tbody tr td:nth-child(2):before {
+    content: "Order ID"; }
+  table tbody tr td:nth-child(3):before {
+    content: "Name"; }
+  table tbody tr td:nth-child(4):before {
+    content: "Price"; }
+  table tbody tr td:nth-child(5):before {
+    content: "Quantity"; }
+  table tbody tr td:nth-child(6):before {
+    content: "Total"; }
+  .column4,
+  .column5,
+  .column6 {
+    text-align: left; }
+  .column4,
+  .column5,
+  .column6,
+  .column1,
+  .column2,
+  .column3 {
+    width: 100%; }
+  tbody tr {
+    font-size: 14px; } }
+
+@media (max-width: 576px) {
+  .container-table100 {
+    padding-left: 15px;
+    padding-right: 15px; } }
 
 /* Gridder Game Grid
 --------------------------- */
