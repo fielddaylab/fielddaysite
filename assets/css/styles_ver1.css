@@ -9431,6 +9431,8 @@ hr {
   @media only screen and (max-width: 768px) {
     .singleapp .app-about {
       padding-top: 0px; } }
+  .singleapp .app-about p {
+    margin-bottom: 28px; }
   .singleapp .app-about h2 {
     text-transform: uppercase;
     font-size: 25px;
@@ -9445,6 +9447,8 @@ hr {
     padding: 2vw;
     margin: 2vw 0vw;
     border-radius: 5px; }
+    .singleapp .app-about .standards-block p {
+      margin-bottom: 0px; }
     .singleapp .app-about .standards-block .bold {
       font-size: 20px; }
     .singleapp .app-about .standards-block .standards-explanation {

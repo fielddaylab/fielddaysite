@@ -74,7 +74,7 @@ window.onload = function()
         <ul>
         <li><a href="#glance">At a Glance</a></li>
         <li><a href="#about">About the Game</a></li>
-        <li><a href="#teach">Teach with Lost at the Forevor Mine</a></li>
+        <li><a href="#teach">Teach with Lost at the Forever Mine</a></li>
         <li><a href="#partners">Partners</a></li>
         <li><a href="#production">Production Team</a></li>
         <li><a href="#source">Source Code</a></li>
