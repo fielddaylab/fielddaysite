@@ -4,10 +4,14 @@
 #footer {
   background: #fff;
   z-index:100;
+  padding:5vw;
+  border-top:3px solid $ultralight_gray;
 }
 .footer {
   background: #fff;
   text-align: left;
+  margin:0 auto;
+  max-width:1800px;
   .footerinfo {
     padding: 3vw;
   }

@@ -1,7 +1,7 @@
 <!--include head
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
-<title>Field Day - Press Pack</title>
+<title>Field Day - Open Game Data</title>
 </head>
 
 <body class="singleapp page opengamedata">
@@ -9,15 +9,13 @@
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/main-nav.php";  include_once($path); ?>
 
-  <div id="mainwrapper">
+<div id="mainwrapper">
   <!--Start page content
   ------------------------>
   <section class="singlehero page_hero">
     <div class="info">
       <h1 class="corrected">Open Game Data</h1>
-      <p class="corrected">These anonymous data are provided in service of future educational data mining research. They are made available under the <a target="_blank" href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CCO 1.0 Universal license.</a><br />
-
-Source code for this website and related data processing is available on <a target="_blank" href="https://github.com/fielddaylab/opengamedata">github</a></p>
+      <p class="">These anonymous data are provided in service of future educational data mining research. They are made available under the <a target="_blank" href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CCO 1.0 Universal license.</a> Source code for this website and related data processing is available on <a target="_blank" href="https://github.com/fielddaylab/opengamedata">github</a></p>
     </div>
     <div class="graphic">
       <img class="graph_img" src="/assets/img/illustrations/mountainrange.png">
@@ -81,9 +79,10 @@ Source code for this website and related data processing is available on <a targ
       </div>
     </div>
   </div>
+  <span class="spreader"></span>
   <!----------------------
   End page content -->
-  </div>
+</div>
 
 <!--include footer
 ------------------------>

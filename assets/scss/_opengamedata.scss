@@ -10,6 +10,9 @@
     position:relative;
     a {
       color:$light_blue;
+      &:hover {
+        color:$yellow;
+      }
     }
     @media #{$break-sm} {
       flex-direction: column-reverse;
@@ -152,7 +155,6 @@
     margin-right:6vw;
     .pub-wrap {
       padding: 20px 0px;
-      border-bottom:3px solid $ultralight_gray;
     }
     h2 {
       font-family: 'Roboto', sans-serif;
@@ -235,24 +237,11 @@ select {
   margin: 0 auto;
 }
 
-.container-table100 {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top:40px;
-}
-
 table {
   border-spacing: 1;
   border-collapse: collapse;
   background: white;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
