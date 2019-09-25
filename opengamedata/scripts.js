@@ -62,7 +62,7 @@ function generateTable(table, data, headers) {
             var linkText = document.createTextNode("Raw");
             raw_link.appendChild(linkText);
             raw_link.title = "Raw";
-            raw_link.href = set["raw"];
+            raw_link.href = set["raw"].replace('./', 'https://opengamedata.fielddaylab.wisc.edu/');
             cell.appendChild(raw_link);
             cell.append(document.createTextNode(' - '))
 
@@ -70,7 +70,7 @@ function generateTable(table, data, headers) {
             var linkText = document.createTextNode("Processed");
             sql_link.appendChild(linkText);
             sql_link.title = "Processed";
-            sql_link.href = set["proc"];
+            sql_link.href = set["proc"].replace('./', 'https://opengamedata.fielddaylab.wisc.edu/');
             cell.appendChild(sql_link);
             cell.append(document.createTextNode(' - '))
 
@@ -78,7 +78,7 @@ function generateTable(table, data, headers) {
             var linkText = document.createTextNode("SQL");
             sql_link.appendChild(linkText);
             sql_link.title = "SQL Dump";
-            sql_link.href = set["sql"];
+            sql_link.href = set["sql"].replace('./', 'https://opengamedata.fielddaylab.wisc.edu/');
             cell.appendChild(sql_link);
           break;
         default:
