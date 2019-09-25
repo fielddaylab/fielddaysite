@@ -18,7 +18,7 @@
     <span class="star black star5"></span>
   </div>
   <div class="footer">
-    <div class="row container">
+    <div class="row">
       <div class="col-md-3">
         <div class="footer-signup">
           <img class="signup-badge img-responsive" src="/assets/img/illustrations/astro-badge.png">

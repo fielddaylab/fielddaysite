@@ -140,7 +140,7 @@
               <div class="app-info app-pane left">
                 <span class="close-app">
                   <h2>Welcome to Lakeland!</h2>
-                  <p class="small">Play as Jo Wilder, a scrappy girl who spends her days with her pet badger Teddy and her grandpa, a historian. When some mysterious artifacts show up at the History Museum, you must unravel the clues to find the real stories behind the artifacts. </p>
+                  <p class="small">Congratulations! You just started a new town called Lakeland! Your people need food and money, so you get them farming. The downside: cows don’t just produce milk. They also produce lots and lots of poop, which pollutes the lakes your people love so much. Poor Lakeland. Your mission: grow your town without destroying their lakes!</p>
                   <a class="button small black" href="/play/lakeland">Play Lakeland</a>
               </div>
               <div class="app-thumbnail app-pane right">
