@@ -56,6 +56,7 @@
               <li><a href="javascript:change_games(sess_list, 'LAKELAND');">Lakeland</a></li>
               <li><a href="javascript:change_games(sess_list, 'JOWILDER');">Jo Wilder</a></li>
             </ul>
+            <ul id="session_list"></ul>
           </div>
         </div>
         <div class="col-md-9">
