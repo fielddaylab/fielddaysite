@@ -4,7 +4,7 @@
 <title>Field Day - Open Game Data</title>
 </head>
 
-<body class="singleapp page opengamedata">
+<body class="singleapp page opengamedata" onload="onload()">
 <!--include Main Navigation
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/main-nav.php";  include_once($path); ?>
@@ -47,11 +47,14 @@
         <div class="pub-nav-wrap sticky col-sm-3">
           <div class="pub-nav">
             <h2 id="whatis">Choose a game:</h2>
+            <p>View sessions with Player IDs: 
+            <input type="checkbox" id="require_pid" value="View sessions with Player IDs">
+            </p> 
             <ul>
-              <li><a href="#whatis">Crystal</a></li>
-              <li><a href="#stats">Waves</a></li>
-              <li><a href="#stats">Lakeland</a></li>
-              <li><a href="#stats">Jo Wilder</a></li>
+              <li><a href="javascript:change_games(sess_list, 'CRYSTAL');">Crystal</a></li>
+              <li><a href="javascript:change_games(sess_list, 'WAVES');">Waves</a></li>
+              <li><a href="javascript:change_games(sess_list, 'LAKELAND');">Lakeland</a></li>
+              <li><a href="javascript:change_games(sess_list, 'JOWILDER');">Jo Wilder</a></li>
             </ul>
           </div>
         </div>
@@ -88,6 +91,8 @@
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/footer.php";  include_once($path); ?>
 <script src="scripts.js"></script>
+<script src="RTServer.js"></script>
+<script src="realtime.js"></script>
 <script>
 $(function() {
 
