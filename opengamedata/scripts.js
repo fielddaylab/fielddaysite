@@ -22,12 +22,12 @@ function change_tables(value, start=false) {
       generateTable(table, Object.values(tables)[0], headers);
       generate_options();
       console.log(tables)
-      document.getElementById("readme_fname").href = `data/${Object.keys(tables)[0]}/readme.md`;
+      // document.getElementById("readme_fname").href = `data/${Object.keys(tables)[0]}/readme.md`;
     }
     else
     {
       generateTable(table, tables[value], headers);
-      document.getElementById("readme_fname").href = `data/${value}/readme.md`;
+      // document.getElementById("readme_fname").href = `data/${value}/readme.md`;
     }
   });
 }

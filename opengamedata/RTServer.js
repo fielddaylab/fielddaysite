@@ -77,7 +77,7 @@ class Server
             // console.log(`Status for ${post_string} is ${this.statusText}`);
          }
       }
-      req.open("POST", "realtime.cgi", true);
+      req.open("POST", "https://opengamedata.fielddaylab.wisc.edu/realtime.cgi", true);
       req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
       req.send(post_string);
    }

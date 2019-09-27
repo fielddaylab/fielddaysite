@@ -60,7 +60,7 @@
           </div>
         </div>
         <div class="col-md-9">
-          <div class="playstats">
+          <div class="playstats" id="playstats">
             <span class="playstat">
               <p>Odds of player completing level 1</p>
               <h3>75%</h3>

@@ -101,7 +101,9 @@ class SessionList
       that.active_session_ids = Array.from(Object.keys(that.active_sessions));
       that.refreshSessionDisplayList();
     };
-    Server.get_all_active_sessions(active_sessions_handler, this.active_game, this.require_player_id);
+    // Server.get_all_active_sessions(active_sessions_handler, this.active_game, this.require_player_id);
+    let temp_waves_sessions = '{"19080515273765540": {"session_id": "19080514372295030", "max_level": 1, "cur_level": 2, "seconds_inactive": 73}, "19080514394930610": {"session_id": "19080514394930610", "max_level": 0, "cur_level": 0, "seconds_inactive": 109}, "19080515372858520": {"session_id": "19080515372858520", "max_level": 3, "cur_level": 4, "seconds_inactive": 6}}'
+    active_sessions_handler(temp_waves_sessions)
   }
 
   /**
@@ -169,8 +171,7 @@ class SessionList
   displaySelectedSession(session_id) {
     let that = this;
     this.selected_session_id = session_id;
-    let display_area = document.getElementById("playstats");
-    display_area.innerText = `Session ID: ${session_id}`;
+    let playstats = document.getElementById("playstats");
     let predictions_handler = function(result) {
       let predictions_raw = 'null';
       try
@@ -183,10 +184,6 @@ class SessionList
         return;
       }
       let prediction_list = predictions_raw[that.selected_session_id]
-      prediction_list = {
-        pred1: '80%',
-        pred5: 5*10
-      };
       // loop over all predictions, adding to the UI.
       for (let prediction_name in prediction_list) {
         let prediction_value = prediction_list[prediction_name];
@@ -203,10 +200,12 @@ class SessionList
         value.id = `${prediction_name}_val`;
         value.innerText = prediction_value;
         next_prediction.appendChild(value);
-        display_area.appendChild(next_prediction);
+        playstats.appendChild(next_prediction);
       }
     };
-    Server.get_predictions_by_sessID(predictions_handler, session_id, that.active_game);
+    //Server.get_predictions_by_sessID(predictions_handler, session_id, that.active_game);
+    let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
+    predictions_handler(dummy_preds);
   }
 
   /**
@@ -239,7 +238,9 @@ class SessionList
         value.innerText = prediction_value;
       }
     };
-    Server.get_predictions_by_sessID(predictions_handler, that.selected_session_id, that.active_game);
+    //Server.get_predictions_by_sessID(predictions_handler, that.selected_session_id, that.active_game);
+    let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
+    predictions_handler(dummy_preds);
   }
 
   /**
@@ -250,7 +251,6 @@ class SessionList
   clearSelected() {
     // here we'll just clear the stuff displayed in the prediction area.
     let playstats = document.getElementById("playstats");
-    playstats.innerText = '';
     while (playstats.firstChild > 0) {
       playstats.removeChild(playstats.firstChild);
     }
