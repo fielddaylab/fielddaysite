@@ -1,9 +1,0 @@
-[submodule "play/jowilder/game"]
-	path = play/jowilder/game
-	url = https://github.com/fielddaylab/capitol_prototype
-[submodule "play/forevermine/game"]
-	path = play/forevermine/game
-	url = https://github.com/FieldDayLab/modeller
-[submodule "play/lakeland/usda"]
-	path = play/lakeland/usda
-	url = https://github.com/fielddaylab/usda
