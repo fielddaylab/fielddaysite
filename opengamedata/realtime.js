@@ -101,9 +101,9 @@ class SessionList
       that.active_session_ids = Array.from(Object.keys(that.active_sessions));
       that.refreshSessionDisplayList();
     };
-    // Server.get_all_active_sessions(active_sessions_handler, this.active_game, this.require_player_id);
-    let temp_waves_sessions = '{"19080515273765540": {"session_id": "19080514372295030", "max_level": 1, "cur_level": 2, "seconds_inactive": 73}, "19080514394930610": {"session_id": "19080514394930610", "max_level": 0, "cur_level": 0, "seconds_inactive": 109}, "19080515372858520": {"session_id": "19080515372858520", "max_level": 3, "cur_level": 4, "seconds_inactive": 6}}'
-    active_sessions_handler(temp_waves_sessions)
+    Server.get_all_active_sessions(active_sessions_handler, this.active_game, this.require_player_id);
+    // let temp_waves_sessions = '{"19080515273765540": {"session_id": "19080514372295030", "max_level": 1, "cur_level": 2, "seconds_inactive": 73}, "19080514394930610": {"session_id": "19080514394930610", "max_level": 0, "cur_level": 0, "seconds_inactive": 109}, "19080515372858520": {"session_id": "19080515372858520", "max_level": 3, "cur_level": 4, "seconds_inactive": 6}}'
+    // active_sessions_handler(temp_waves_sessions)
   }
 
   /**
@@ -170,6 +170,7 @@ class SessionList
    */
   displaySelectedSession(session_id) {
     let that = this;
+    this.clearSelected();
     this.selected_session_id = session_id;
     let playstats = document.getElementById("playstats");
     let predictions_handler = function(result) {
@@ -203,9 +204,9 @@ class SessionList
         playstats.appendChild(next_prediction);
       }
     };
-    //Server.get_predictions_by_sessID(predictions_handler, session_id, that.active_game);
-    let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
-    predictions_handler(dummy_preds);
+    Server.get_predictions_by_sessID(predictions_handler, session_id, that.active_game);
+    // let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
+    // predictions_handler(dummy_preds);
   }
 
   /**
@@ -238,9 +239,9 @@ class SessionList
         value.innerText = prediction_value;
       }
     };
-    //Server.get_predictions_by_sessID(predictions_handler, that.selected_session_id, that.active_game);
-    let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
-    predictions_handler(dummy_preds);
+    Server.get_predictions_by_sessID(predictions_handler, that.selected_session_id, that.active_game);
+    // let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
+    // predictions_handler(dummy_preds);
   }
 
   /**
@@ -251,7 +252,7 @@ class SessionList
   clearSelected() {
     // here we'll just clear the stuff displayed in the prediction area.
     let playstats = document.getElementById("playstats");
-    while (playstats.firstChild > 0) {
+    while (playstats.firstChild) {
       playstats.removeChild(playstats.firstChild);
     }
     this.selected_session_id = -1;
