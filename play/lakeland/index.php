@@ -12,9 +12,9 @@ window.onload = function()
   {
     iframe.style.display = "block";
     if(location.href.indexOf("?") > -1)
-      iframe.src = "usda/iframe.html"+location.href.substring(location.href.indexOf("?"))
+      iframe.src = "game/iframe.html"+location.href.substring(location.href.indexOf("?"))
     else
-      iframe.src = "usda/iframe.html";
+      iframe.src = "game/iframe.html";
     clickload.removeEventListener("click",loadiframe);
     clickload.parentNode.removeChild(clickload);
     clickload = null;
@@ -46,14 +46,14 @@ window.onload = function()
     </div>
     <div class="app-description"><p class="small">Congratulations! You just started a new town called Lakeland! Your people need food and money, so you get them farming. The downside: cows don’t just produce milk. They also produce lots and lots of poop, which pollutes the lakes your people love so much. Poor Lakeland. Your mission: grow your town without destroying their lakes! </p></div>
     <div class="buttons">
-      <a class="button xsmall white filled" href="javascript:window.open('usda/iframe.html','lakeland','width=1024,height=660')">Play the Game</a>
+      <a class="button xsmall white filled" href="javascript:window.open('game/iframe.html','lakeland','width=1024,height=660')">Play the Game</a>
       <a target="_blank" href="#teach" class="button xsmall white">Teach with the Game</a>
     </div>
   </div>
 </section>
 <!--<section id="app-intro">
   <h2>Welcome to Lakeland</h2>
-  <div class="iframe-bg" id="clickload" scrolling="no" style="background-image: url(usda/assets/menu-bg.jpg); background-size: cover;">
+  <div class="iframe-bg" id="clickload" scrolling="no" style="background-image: url(game/assets/menu-bg.jpg); background-size: cover;">
 
   </div>
   <iframe id="content" scrolling="no" style="display:none; width:1024px; height:660px; margin:0px auto; overflow:hidden; border:0px;"></iframe>
