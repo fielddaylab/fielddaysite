@@ -44,10 +44,10 @@
     </div>
     <div role="tabpanel" class="tab-pane fade in" id="realtime">
       <div class="row">
-        <div class="pub-nav-wrap sticky col-sm-2">
+        <div class="col-sm-2">
           <div class="pub-nav">
             <h2 id="whatis">Choose a game:</h2>
-            <p>View sessions with Player IDs: 
+            <p>View sessions by Player ID: 
             <input type="checkbox" id="require_pid" value="View sessions with Player IDs">
             </p> 
             <ul>
@@ -59,9 +59,10 @@
           </div>
         </div>
         <div class="col-sm-2">
-        <ul id="session_list"></ul>
+        <h2 id="whatis">Choose a session:</h2>
+        <ul class="session_list" id="session_list"></ul>
         </div>
-        <div class="wrap col-md-8">
+        <div class="col-md-8">
           <div class="playstats" id="playstats">
             <span class="playstat">
               <p>Odds of player completing level 1</p>
