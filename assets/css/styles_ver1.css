@@ -11075,11 +11075,12 @@ hr {
     margin-bottom: 10px; }
   .opengamedata .tab-content .playstats {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
     .opengamedata .tab-content .playstats .playstat {
       flex-direction: column;
       display: flex;
-      width: 33%;
+      width: 30%;
       background: #E0BC4E;
       margin: 10px;
       border-radius: 10px;
