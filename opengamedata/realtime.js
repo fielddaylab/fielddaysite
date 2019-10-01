@@ -33,7 +33,7 @@ function onload()
  * @param {} list The SessionList instance for tracking the game and its sessions.
  * @param {*} game_name The name of the game to switch to.
  */
-function change_games(list, game_name){
+function rt_change_games(list, game_name){
   list.active_game = game_name;
   list.refreshActiveSessionList();
   list.clearSelected();
@@ -97,13 +97,14 @@ class SessionList
         return;
       }
       that.active_sessions = parsed_sessions;
-      console.log(`Refreshed session IDs: ${that.active_sessions}`);
+      console.log('Refreshed session IDs:');
+      console.log(that.active_sessions);
       that.active_session_ids = Array.from(Object.keys(that.active_sessions));
       that.refreshSessionDisplayList();
     };
     Server.get_all_active_sessions(active_sessions_handler, this.active_game, this.require_player_id);
-    // let temp_waves_sessions = '{"19080515273765540": {"session_id": "19080514372295030", "max_level": 1, "cur_level": 2, "seconds_inactive": 73}, "19080514394930610": {"session_id": "19080514394930610", "max_level": 0, "cur_level": 0, "seconds_inactive": 109}, "19080515372858520": {"session_id": "19080515372858520", "max_level": 3, "cur_level": 4, "seconds_inactive": 6}}'
-    // active_sessions_handler(temp_waves_sessions)
+    //let temp_waves_sessions = '{"19080515273765540": {"session_id": "19080514372295030", "max_level": 1, "cur_level": 2, "seconds_inactive": 73}, "19080514394930610": {"session_id": "19080514394930610", "max_level": 0, "cur_level": 0, "seconds_inactive": 109}, "19080515372858520": {"session_id": "19080515372858520", "max_level": 3, "cur_level": 4, "seconds_inactive": 6}}'
+    //active_sessions_handler(temp_waves_sessions)
   }
 
   /**
@@ -144,7 +145,7 @@ class SessionList
       let session_div = document.createElement("div");
       session_div.id = session_id;
       let session_link = document.createElement("a");
-      session_link.onclick = function() { that.displaySelectedSession(session_id); }
+      session_link.onclick = function() { that.displaySelectedSession(session_id); return false;}
       session_link.innerText = session_id;
       session_link.href = `#${session_id}`;
       session_div.appendChild(session_link);
@@ -205,8 +206,8 @@ class SessionList
       }
     };
     Server.get_predictions_by_sessID(predictions_handler, session_id, that.active_game);
-    // let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
-    // predictions_handler(dummy_preds);
+    //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
+    //predictions_handler(dummy_preds);
   }
 
   /**
@@ -222,7 +223,7 @@ class SessionList
       let predictions_raw = 'null';
       try
       {
-        // console.log(`Got back model results: ${result}`);
+        console.log(`Got back model results: ${result}`);
         predictions_raw = JSON.parse(result);
       }
       catch (err)
@@ -240,8 +241,8 @@ class SessionList
       }
     };
     Server.get_predictions_by_sessID(predictions_handler, that.selected_session_id, that.active_game);
-    // let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
-    // predictions_handler(dummy_preds);
+    //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
+    //predictions_handler(dummy_preds);
   }
 
   /**
