@@ -9,6 +9,11 @@ function onload()
   sess_list = new SessionList();
   document.getElementById("require_pid").onclick = function() {
       sess_list.require_player_id = this.checked;
+      sess_list.refreshActiveSessionList();
+      if (sess_list.selected_session_id != -1)
+      {
+        sess_list.refreshDisplayedSession();
+      }
   }
   window.setInterval(() => {
     try {
@@ -142,11 +147,13 @@ class SessionList
     // loop over all newly active sessions, adding them to the list.
     for (let id of add_set) {
       let session_id = id;
+      let player_id = this.active_sessions[session_id]["player_id"];
+      // start constructing the element
       let session_div = document.createElement("div");
       session_div.id = session_id;
       let session_link = document.createElement("a");
       session_link.onclick = function() { that.displaySelectedSession(session_id); return false;}
-      session_link.innerText = session_id;
+      session_link.innerText = !["", "null"].includes(player_id) ? player_id : session_id;
       session_link.href = `#${session_id}`;
       session_div.appendChild(session_link);
       let cur_level_div = document.createElement("div");
