@@ -222,7 +222,7 @@ class SessionList
       let predictions_raw = 'null';
       try
       {
-        console.log(`Got back model results: ${result}`);
+        // console.log(`Got back model results: ${result}`);
         predictions_raw = JSON.parse(result);
       }
       catch (err)
@@ -234,7 +234,7 @@ class SessionList
       // After getting the prediction values, loop over whole list,
       // updating values.
       for (let prediction_name in prediction_list) {
-        let prediction_value = prediction_list[prediction_name];
+        let prediction_value = prediction_list[prediction_name]["value"];
         let value = document.getElementById(`${prediction_name}_val`);
         value.innerText = prediction_value;
       }
