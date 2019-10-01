@@ -187,14 +187,14 @@ class SessionList
       let prediction_list = predictions_raw[that.selected_session_id]
       // loop over all predictions, adding to the UI.
       for (let prediction_name in prediction_list) {
-        let prediction_value = prediction_list[prediction_name];
+        let prediction_value = prediction_list[prediction_name]["value"];
         // first, make a div for everything to sit in.
         let next_prediction = document.createElement("span");
         next_prediction.id=prediction_name;
         next_prediction.className="playstat";
         // then, add an element with prediction title to the div
         let title = document.createElement("p");
-        title.innerText = prediction_name;
+        title.innerText = prediction_list[prediction_name]["name"];
         next_prediction.appendChild(title);
         // finally, add an element for the prediction value to the div.
         let value = document.createElement("h3");
