@@ -28,6 +28,8 @@ function onload()
       throw err;
     }
   }, 5000);
+
+  rt_change_games(sess_list, "CRYSTAL")
 }
 
 
@@ -42,6 +44,13 @@ function rt_change_games(list, game_name){
   list.active_game = game_name;
   list.refreshActiveSessionList();
   list.clearSelected();
+
+  document.getElementById('rt_game_title').innerHTML = game_name+ " Realtime Player Data";
+  document.getElementById('rt_game_readme').href = readmes[game_name];
+  document.getElementById('rt_game_img').src = thumbs[game_name];
+  document.getElementById('rt_game_img').alt = "Example image of "+game_name;
+
+
   let message = document.createElement("p")
   message.appendChild(document.createTextNode("Please choose a "+game_name+" session or another game."))
   let playstats = document.getElementById("playstats");
@@ -196,7 +205,7 @@ class SessionList
     this.selected_session_id = session_id;
     let playstats = document.getElementById("playstats");
     let message = document.createElement("h4")
-    message.appendChild(document.createTextNode(that.active_game+" Session "+session_id));
+    message.appendChild(document.createTextNode("Session "+session_id));
     message.style.width = "-webkit-fill-available";
     playstats.appendChild(message);
     let predictions_handler = function(result) {

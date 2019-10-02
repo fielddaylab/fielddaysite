@@ -14,28 +14,35 @@ var readmes = {
   'CRYSTAL': 'https://github.com/fielddaylab/crystal/blob/master/README.md',
   'JOWILDER': 'https://github.com/fielddaylab/jo_wilder/blob/master/README.md'
 }
+var thumbs = {
+  'WAVES': '../assets/img/thumbs/waves-thumb.jpg',
+  'LAKELAND': '../assets/img/thumbs/lakeland-thumb.jpg',
+  'CRYSTAL': '../assets/img/thumbs/crystal-thumb.png',
+  'JOWILDER': '../assets/img/thumbs/jowilder-thumb.jpg'
+}
+
 function change_tables(value, start=false) {
   let table = document.querySelector("table");
   table.innerHTML = '';
   jQuery.getJSON("data/file_list.json",function(result){
     tables = result;
+    value = start ? Object.keys(tables)[0] : value
     let table = document.querySelector("table");
     let table_name;
     generateTableHead(table, headers);
     if(start)
     {
-      generateTable(table, Object.values(tables)[0], headers);
       generate_options();
       console.log(tables)
-      document.getElementById('readme_link').href = readmes[Object.keys(tables)[0]];
       // document.getElementById("readme_fname").href = `data/${Object.keys(tables)[0]}/readme.md`;
     }
-    else
-    {
-      generateTable(table, tables[value], headers);
-      document.getElementById('readme_link').href = readmes[value];
-      // document.getElementById("readme_fname").href = `data/${value}/readme.md`;
-    }
+    generateTable(table, tables[value], headers);
+    document.getElementById('game_title').innerHTML = value;
+    document.getElementById('game_readme').href = readmes[value];
+    document.getElementById('game_img').src = thumbs[value];
+    document.getElementById('game_img').alt = "Example image of "+value;
+
+    
   });
 }
 

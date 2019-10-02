@@ -35,10 +35,11 @@
           <div class="pub-nav-wrap sticky col-sm-3">
             <h2>Select Game:</h2></h2>
             <select id="mySelect"></select>
-            <br>
-            <a id="readme_link" href="">View README</a>
           </div>
           <div class="col-sm-9">
+            <h3 id="game_title"></h3>
+            <img id="game_img" src="" alt="" style="width:100%">
+            <a id="game_readme" href="">View README</a>
             <table id="table"></table>
           </div>
         </div>
@@ -65,9 +66,10 @@
         <ul class="session_list" id="session_list"></ul>
         </div>
         <div class="col-xl-8 col-md-7 col-sm-5 col-xs-12">
-        <h2 id="whatis">Realtime Player Data</h2>
+        <h2 id="rt_game_title">Realtime Player Data</h2>
+        <img id="rt_game_img" src="" alt="" style="width:100%">
+        <a id="rt_game_readme" href="">View README</a>
           <div class="playstats" id="playstats">
-            <p>You have not yet chosen a session.</p>
           </div>
           <div class="pub-wrap">
             <h3>About Realtime Player Data</h3>
