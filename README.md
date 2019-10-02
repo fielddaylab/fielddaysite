@@ -8,4 +8,4 @@ node
 npm
 
 Run npm install
-gulp serve
+make sure your localhost is spinning up at localhost:8888 and run gulp proxy
