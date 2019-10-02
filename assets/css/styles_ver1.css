@@ -11086,6 +11086,7 @@ hr {
       flex-direction: column;
       display: flex;
       width: 30%;
+      min-width: 130px;
       background: #E0BC4E;
       margin: 10px;
       border-radius: 10px;

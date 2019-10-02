@@ -42,6 +42,11 @@ function rt_change_games(list, game_name){
   list.active_game = game_name;
   list.refreshActiveSessionList();
   list.clearSelected();
+  let message = document.createElement("p")
+  message.appendChild(document.createTextNode("Please choose a "+game_name+" session or another game."))
+  let playstats = document.getElementById("playstats");
+  playstats.appendChild(message);
+  
   // TODO: it may be that I should clear the selected session ID.
   //       will check on this later.
 }
@@ -124,6 +129,9 @@ class SessionList
     let remove_set = setMinus(display_set, active_set); // subtract active from display to get inactives, which are currently displayed.
     let add_set    = setMinus(active_set, display_set); // subtract display from active to get new sessions, which were not displayed yet.
     let session_list_area = document.getElementById("session_list");
+    if(this.displayed_session_ids.length == 0){
+      session_list_area.innerHTML = '';
+    }
 
     // First, refresh what's in the list.
     let child_nodes = Array.from(session_list_area.children);
@@ -168,6 +176,12 @@ class SessionList
       session_list_area.appendChild(session_div);
     }
     this.displayed_session_ids = [...this.active_session_ids]; // at this point, these should theoretically be the same.
+    if(this.displayed_session_ids.length == 0){
+      let message = document.createElement("p")
+      let player_id_msg = that.require_player_id ? " Try viewing sessions without player IDs." : "";
+      message.appendChild(document.createTextNode("No sessions currently available."+player_id_msg))
+      session_list_area.appendChild(message);
+    }
   }
 
   /**
@@ -181,6 +195,10 @@ class SessionList
     this.clearSelected();
     this.selected_session_id = session_id;
     let playstats = document.getElementById("playstats");
+    let message = document.createElement("h4")
+    message.appendChild(document.createTextNode(that.active_game+" Session "+session_id));
+    message.style.width = "-webkit-fill-available";
+    playstats.appendChild(message);
     let predictions_handler = function(result) {
       let predictions_raw = 'null';
       try
@@ -190,6 +208,11 @@ class SessionList
       catch (err)
       {
         console.log(`Could not parse result as JSON:\n ${result}`);
+        let message = document.createElement("p")
+        message.appendChild(document.createTextNode("No statistics currently available."))
+        let playstats = document.getElementById("playstats");
+        playstats.appendChild(message);
+
         return;
       }
       let prediction_list = predictions_raw[that.selected_session_id]
