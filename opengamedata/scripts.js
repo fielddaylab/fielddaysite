@@ -7,28 +7,49 @@ var headers = {
   "Dataset ID": "Dataset ID",
   "sessions": "Sessions",
   "raw": "Downloads",
-
 }
+var active_game;
+var readmes = {
+  'WAVES': 'https://github.com/fielddaylab/waves/blob/master/README.md',
+  'LAKELAND': 'https://github.com/fielddaylab/lakeland/blob/master/README.md',
+  'CRYSTAL': 'https://github.com/fielddaylab/crystal/blob/master/README.md',
+  'JOWILDER': 'https://github.com/fielddaylab/jo_wilder/blob/master/README.md'
+}
+var thumbs = {
+  'WAVES': '../assets/img/thumbs/waves-thumb.jpg',
+  'LAKELAND': '../assets/img/thumbs/lakeland-thumb.jpg',
+  'CRYSTAL': '../assets/img/thumbs/crystal-thumb.png',
+  'JOWILDER': '../assets/img/thumbs/jowilder-thumb.jpg'
+}
+var data_readmes = {
+  'WAVES': 'https://opengamedata.fielddaylab.wisc.edu/data/WAVES/readme.md',
+  'LAKELAND': 'https://opengamedata.fielddaylab.wisc.edu/data/LAKELAND/readme.md',
+  'CRYSTAL': 'https://opengamedata.fielddaylab.wisc.edu/data/CRYSTAL/readme.md',
+  'JOWILDER': 'https://opengamedata.fielddaylab.wisc.edu/data/JOWILDER/readme.md',
+}
+
 function change_tables(value, start=false) {
   let table = document.querySelector("table");
   table.innerHTML = '';
   jQuery.getJSON("data/file_list.json",function(result){
     tables = result;
+    value = start ? Object.keys(tables)[0] : value
     let table = document.querySelector("table");
     let table_name;
     generateTableHead(table, headers);
     if(start)
     {
-      generateTable(table, Object.values(tables)[0], headers);
       generate_options();
       console.log(tables)
       // document.getElementById("readme_fname").href = `data/${Object.keys(tables)[0]}/readme.md`;
     }
-    else
-    {
-      generateTable(table, tables[value], headers);
-      // document.getElementById("readme_fname").href = `data/${value}/readme.md`;
-    }
+    generateTable(table, tables[value], headers);
+    document.getElementById('game_title').innerHTML = value;
+    document.getElementById('game_readme').href = data_readmes[value];
+    document.getElementById('game_img').src = thumbs[value];
+    document.getElementById('game_img').alt = "Example image of "+value;
+
+    
   });
 }
 
@@ -91,13 +112,18 @@ function generateTable(table, data, headers) {
 }
 
 function generate_options(){
-  select = document.getElementById("mySelect");
-  select.onchange = function(){if (this.value) change_tables(this.value);};
-  for(table_name in tables){
-    var option = document.createElement("option");
-    option.text = table_name;
-    select.add(option);
+  for(let game_name in tables){
+    let li = document.createElement("li");
+    let gamelink = document.createElement("a");
+    gamelink.onclick = function(){
+      change_tables(game_name);
+      return false;
+    }
+    gamelink.href = '';
+    gamelink.innerText= game_name;
+    li.appendChild(gamelink);
+    document.getElementById('gameselect').appendChild(li);
   }
 }
 
-change_tables("CRYSTAL",true);
+change_tables("CRYSTAL",true); // Note that the table name is irrelevant if start is marked "true"

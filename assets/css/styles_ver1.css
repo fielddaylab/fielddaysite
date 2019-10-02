@@ -10942,7 +10942,7 @@ hr {
       padding: 2vw; } }
   .opengamedata .page_hero .info {
     color: #fff;
-    width: 60%;
+    width: 75%;
     padding: 8vw 5vw 8vw 8vw; }
     @media only screen and (max-width: 768px) {
       .opengamedata .page_hero .info {
@@ -10982,7 +10982,7 @@ hr {
         width: 100%;
         margin-top: 20vw; } }
     .opengamedata .page_hero .graphic .graph_img {
-      width: 30vw;
+      width: 35vw;
       margin-left: 5vw;
       margin-top: 3vw;
       position: absolute;
@@ -11072,6 +11072,14 @@ hr {
   .opengamedata .tab-content h3 {
     margin: 40px 0px 10px 0px; }
   .opengamedata .tab-content p {
+<<<<<<< HEAD
+    margin-bottom: 30px; }
+  .opengamedata .tab-content #session_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .opengamedata .tab-content #session_list > div {
+=======
     margin-bottom: 10px; }
   .opengamedata .tab-content .session_list {
     overflow-y: scroll;
@@ -11083,9 +11091,11 @@ hr {
     flex-direction: row;
     flex-wrap: wrap; }
     .opengamedata .tab-content .playstats .playstat {
+>>>>>>> 0a802b4cf3d6f5db68e9e22db057681ef591231d
       flex-direction: column;
       display: flex;
       width: 30%;
+      min-width: 130px;
       background: #E0BC4E;
       margin: 10px;
       border-radius: 10px;
@@ -11094,24 +11104,30 @@ hr {
       padding: 2vw;
       color: #222830;
       transition: all 0.1s ease-in-out; }
-      .opengamedata .tab-content .playstats .playstat:hover {
+      .opengamedata .tab-content #session_list > div a {
+        color: #222830;
+        font-family: 'Courier', 'courier-new', serif;
+        font-size: 20px; }
+      .opengamedata .tab-content #session_list > div:hover {
         transform: scale(1.03); }
-      .opengamedata .tab-content .playstats .playstat img {
+      .opengamedata .tab-content #session_list > div img {
         height: 40px;
         margin-bottom: 10px; }
-      .opengamedata .tab-content .playstats .playstat:nth-child(1n) {
+      .opengamedata .tab-content #session_list > div:nth-child(1n) {
         background: #06AED5; }
-      .opengamedata .tab-content .playstats .playstat:nth-child(2n) {
+      .opengamedata .tab-content #session_list > div:nth-child(2n) {
         background: #E0BC4E; }
-      .opengamedata .tab-content .playstats .playstat:nth-child(3n) {
+      .opengamedata .tab-content #session_list > div:nth-child(3n) {
         background: #FCC9C2; }
-      .opengamedata .tab-content .playstats .playstat h3 {
+      .opengamedata .tab-content #session_list > div:nth-child(4n) {
+        background: #E0BC4E; }
+      .opengamedata .tab-content #session_list > div h3 {
         font-family: roboto;
         font-weight: 700;
         text-transform: uppercase;
         font-size: 50px;
         margin: 0; }
-      .opengamedata .tab-content .playstats .playstat p {
+      .opengamedata .tab-content #session_list > div p {
         font-size: 16px;
         line-height: 17px; }
 
@@ -11136,7 +11152,8 @@ table {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  font-size: 14px; }
+  font-size: 14px;
+  margin-bottom: 30px; }
   table a {
     color: #5B95A1; }
 
