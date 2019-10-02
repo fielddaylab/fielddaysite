@@ -34,7 +34,7 @@
         <div class="row">
           <div class="pub-nav-wrap sticky col-sm-3">
             <h2>Select Game:</h2></h2>
-            <select id="mySelect"></select>
+            <ul id="gameselect"></ul>
           </div>
           <div class="col-sm-9">
             <h3 id="game_title"></h3>
@@ -68,7 +68,7 @@ WAVES Feature Extractor Readme [link]</p>
             <p>View sessions by Player ID:
             <input type="checkbox" id="require_pid" value="View only sessions with Player IDs">
             </p>
-            <ul>
+            <ul id="rt_gameselect">
               <li><a href="javascript:rt_change_games(sess_list, 'CRYSTAL');">Crystal</a></li>
               <li><a href="javascript:rt_change_games(sess_list, 'WAVES');">Waves</a></li>
               <li><a href="javascript:rt_change_games(sess_list, 'LAKELAND');">Lakeland</a></li>

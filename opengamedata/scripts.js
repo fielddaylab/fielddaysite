@@ -8,6 +8,7 @@ var headers = {
   "sessions": "Sessions",
   "raw": "Downloads",
 }
+var active_game;
 var readmes = {
   'WAVES': 'https://github.com/fielddaylab/waves/blob/master/README.md',
   'LAKELAND': 'https://github.com/fielddaylab/lakeland/blob/master/README.md',
@@ -111,12 +112,17 @@ function generateTable(table, data, headers) {
 }
 
 function generate_options(){
-  select = document.getElementById("mySelect");
-  select.onchange = function(){if (this.value) change_tables(this.value);};
-  for(table_name in tables){
-    var option = document.createElement("option");
-    option.text = table_name;
-    select.add(option);
+  for(let game_name in tables){
+    let li = document.createElement("li");
+    let gamelink = document.createElement("a");
+    gamelink.onclick = function(){
+      change_tables(game_name);
+      return false;
+    }
+    gamelink.href = '';
+    gamelink.innerText= game_name;
+    li.appendChild(gamelink);
+    document.getElementById('gameselect').appendChild(li);
   }
 }
 

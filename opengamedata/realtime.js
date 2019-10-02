@@ -87,7 +87,7 @@ class SessionList
    * and a selected ID (for detailed display).
    */
   constructor() {
-    this.active_game = document.getElementById("mySelect").value;
+    this.active_game = "WAVES";
     this.active_sessions = [];
     this.active_session_ids = [];
     this.displayed_session_ids = [];
