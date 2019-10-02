@@ -212,6 +212,7 @@ class SessionList
         playstats.appendChild(next_prediction);
       }
     };
+    Server.get_features_by_sessID(predictions_handler, session_id, that.active_game, ["percentAmplitudeMoves", "percentOffsetMoves", "percentWavelengthMoves", "closenessSlope"]);
     Server.get_predictions_by_sessID(predictions_handler, session_id, that.active_game);
     //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
     //predictions_handler(dummy_preds);
