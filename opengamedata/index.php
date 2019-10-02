@@ -37,6 +37,9 @@
             <select id="mySelect"></select>
           </div>
           <div class="col-sm-9">
+            <h3 id="game_title"></h3>
+            <img id="game_img" src="" alt="" style="width:100%">
+            <a id="game_readme" href="">View README</a>
             <table id="table"></table>
             <div class="pub-wrap">
               <h2>How does this work?</h2>
@@ -78,9 +81,10 @@ WAVES Feature Extractor Readme [link]</p>
         <ul class="session_list" id="session_list"></ul>
         </div>
         <div class="col-xl-8 col-md-7 col-sm-5 col-xs-12">
-        <h2 id="whatis">Realtime Player Data</h2>
+        <h2 id="rt_game_title">Realtime Player Data</h2>
+        <img id="rt_game_img" src="" alt="" style="width:100%">
+        <a id="rt_game_readme" href="">View README</a>
           <div class="playstats" id="playstats">
-            <p>You have not yet chosen a session.</p>
           </div>
           <div class="pub-wrap">
             <h3>About Realtime Player Data</h3>
