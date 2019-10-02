@@ -39,7 +39,7 @@
           <div class="col-sm-9">
             <h3 id="game_title"></h3>
             <img id="game_img" src="" alt="" style="width:100%">
-            <a id="game_readme" href="">View README</a>
+            <a id="game_readme" href="">View README for data downloads</a>
             <table id="table"></table>
           </div>
         </div>
@@ -68,7 +68,7 @@
         <div class="col-xl-8 col-md-7 col-sm-5 col-xs-12">
         <h2 id="rt_game_title">Realtime Player Data</h2>
         <img id="rt_game_img" src="" alt="" style="width:100%">
-        <a id="rt_game_readme" href="">View README</a>
+        <a id="rt_game_readme" href="">View README for the game</a>
           <div class="playstats" id="playstats">
           </div>
           <div class="pub-wrap">

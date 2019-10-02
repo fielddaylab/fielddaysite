@@ -20,6 +20,12 @@ var thumbs = {
   'CRYSTAL': '../assets/img/thumbs/crystal-thumb.png',
   'JOWILDER': '../assets/img/thumbs/jowilder-thumb.jpg'
 }
+var data_readmes = {
+  'WAVES': 'https://opengamedata.fielddaylab.wisc.edu/data/WAVES/readme.md',
+  'LAKELAND': 'https://opengamedata.fielddaylab.wisc.edu/data/LAKELAND/readme.md',
+  'CRYSTAL': 'https://opengamedata.fielddaylab.wisc.edu/data/CRYSTAL/readme.md',
+  'JOWILDER': 'https://opengamedata.fielddaylab.wisc.edu/data/JOWILDER/readme.md',
+}
 
 function change_tables(value, start=false) {
   let table = document.querySelector("table");
@@ -38,7 +44,7 @@ function change_tables(value, start=false) {
     }
     generateTable(table, tables[value], headers);
     document.getElementById('game_title').innerHTML = value;
-    document.getElementById('game_readme').href = readmes[value];
+    document.getElementById('game_readme').href = data_readmes[value];
     document.getElementById('game_img').src = thumbs[value];
     document.getElementById('game_img').alt = "Example image of "+value;
 
