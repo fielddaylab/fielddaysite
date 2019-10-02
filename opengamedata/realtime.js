@@ -9,6 +9,11 @@ function onload()
   sess_list = new SessionList();
   document.getElementById("require_pid").onclick = function() {
       sess_list.require_player_id = this.checked;
+      sess_list.refreshActiveSessionList();
+      if (sess_list.selected_session_id != -1)
+      {
+        sess_list.refreshDisplayedSession();
+      }
   }
   window.setInterval(() => {
     try {
@@ -33,7 +38,7 @@ function onload()
  * @param {} list The SessionList instance for tracking the game and its sessions.
  * @param {*} game_name The name of the game to switch to.
  */
-function change_games(list, game_name){
+function rt_change_games(list, game_name){
   list.active_game = game_name;
   list.refreshActiveSessionList();
   list.clearSelected();
@@ -97,13 +102,14 @@ class SessionList
         return;
       }
       that.active_sessions = parsed_sessions;
-      console.log(`Refreshed session IDs: ${that.active_sessions}`);
+      console.log('Refreshed session IDs:');
+      console.log(that.active_sessions);
       that.active_session_ids = Array.from(Object.keys(that.active_sessions));
       that.refreshSessionDisplayList();
     };
     Server.get_all_active_sessions(active_sessions_handler, this.active_game, this.require_player_id);
-    // let temp_waves_sessions = '{"19080515273765540": {"session_id": "19080514372295030", "max_level": 1, "cur_level": 2, "seconds_inactive": 73}, "19080514394930610": {"session_id": "19080514394930610", "max_level": 0, "cur_level": 0, "seconds_inactive": 109}, "19080515372858520": {"session_id": "19080515372858520", "max_level": 3, "cur_level": 4, "seconds_inactive": 6}}'
-    // active_sessions_handler(temp_waves_sessions)
+    //let temp_waves_sessions = '{"19080515273765540": {"session_id": "19080514372295030", "max_level": 1, "cur_level": 2, "seconds_inactive": 73}, "19080514394930610": {"session_id": "19080514394930610", "max_level": 0, "cur_level": 0, "seconds_inactive": 109}, "19080515372858520": {"session_id": "19080515372858520", "max_level": 3, "cur_level": 4, "seconds_inactive": 6}}'
+    //active_sessions_handler(temp_waves_sessions)
   }
 
   /**
@@ -141,11 +147,13 @@ class SessionList
     // loop over all newly active sessions, adding them to the list.
     for (let id of add_set) {
       let session_id = id;
+      let player_id = this.active_sessions[session_id]["player_id"];
+      // start constructing the element
       let session_div = document.createElement("div");
       session_div.id = session_id;
       let session_link = document.createElement("a");
-      session_link.onclick = function() { that.displaySelectedSession(session_id); }
-      session_link.innerText = session_id;
+      session_link.onclick = function() { that.displaySelectedSession(session_id); return false;}
+      session_link.innerText = !["", "null"].includes(player_id) ? player_id : session_id;
       session_link.href = `#${session_id}`;
       session_div.appendChild(session_link);
       let cur_level_div = document.createElement("div");
@@ -187,14 +195,14 @@ class SessionList
       let prediction_list = predictions_raw[that.selected_session_id]
       // loop over all predictions, adding to the UI.
       for (let prediction_name in prediction_list) {
-        let prediction_value = prediction_list[prediction_name];
+        let prediction_value = prediction_list[prediction_name]["value"];
         // first, make a div for everything to sit in.
         let next_prediction = document.createElement("span");
         next_prediction.id=prediction_name;
         next_prediction.className="playstat";
         // then, add an element with prediction title to the div
         let title = document.createElement("p");
-        title.innerText = prediction_name;
+        title.innerText = prediction_list[prediction_name]["name"];
         next_prediction.appendChild(title);
         // finally, add an element for the prediction value to the div.
         let value = document.createElement("h3");
@@ -205,8 +213,8 @@ class SessionList
       }
     };
     Server.get_predictions_by_sessID(predictions_handler, session_id, that.active_game);
-    // let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
-    // predictions_handler(dummy_preds);
+    //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
+    //predictions_handler(dummy_preds);
   }
 
   /**
@@ -234,14 +242,14 @@ class SessionList
       // After getting the prediction values, loop over whole list,
       // updating values.
       for (let prediction_name in prediction_list) {
-        let prediction_value = prediction_list[prediction_name];
+        let prediction_value = prediction_list[prediction_name]["value"];
         let value = document.getElementById(`${prediction_name}_val`);
         value.innerText = prediction_value;
       }
     };
     Server.get_predictions_by_sessID(predictions_handler, that.selected_session_id, that.active_game);
-    // let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
-    // predictions_handler(dummy_preds);
+    //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
+    //predictions_handler(dummy_preds);
   }
 
   /**

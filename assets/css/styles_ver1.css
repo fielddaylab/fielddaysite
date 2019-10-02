@@ -11072,12 +11072,26 @@ hr {
   .opengamedata .tab-content h3 {
     margin: 40px 0px 10px 0px; }
   .opengamedata .tab-content p {
+<<<<<<< HEAD
     margin-bottom: 30px; }
   .opengamedata .tab-content #session_list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; }
     .opengamedata .tab-content #session_list > div {
+=======
+    margin-bottom: 10px; }
+  .opengamedata .tab-content .session_list {
+    overflow-y: scroll;
+    max-height: 800px; 
+    padding-left: 0;
+    background: #f5f5f5; }
+  .opengamedata .tab-content .playstats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .opengamedata .tab-content .playstats .playstat {
+>>>>>>> 0a802b4cf3d6f5db68e9e22db057681ef591231d
       flex-direction: column;
       display: flex;
       width: 30%;

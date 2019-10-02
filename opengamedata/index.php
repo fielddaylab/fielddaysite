@@ -59,34 +59,29 @@ WAVES Feature Extractor Readme [link]</p>
     </div>
     <div role="tabpanel" class="tab-pane fade in" id="realtime">
       <div class="row">
-        <div class="pub-nav-wrap sticky col-sm-3">
+        <div class="col-sm-2">
           <div class="pub-nav">
             <h2 id="whatis">Choose a game:</h2>
-            <p>View sessions with Player IDs:
+            <p>View sessions by Player ID:
             <input type="checkbox" id="require_pid" value="View sessions with Player IDs">
             </p>
             <ul>
-              <li><a href="javascript:change_games(sess_list, 'CRYSTAL');">Crystal</a></li>
-              <li><a href="javascript:change_games(sess_list, 'WAVES');">Waves</a></li>
-              <li><a href="javascript:change_games(sess_list, 'LAKELAND');">Lakeland</a></li>
-              <li><a href="javascript:change_games(sess_list, 'JOWILDER');">Jo Wilder</a></li>
+              <li><a href="javascript:rt_change_games(sess_list, 'CRYSTAL');">Crystal</a></li>
+              <li><a href="javascript:rt_change_games(sess_list, 'WAVES');">Waves</a></li>
+              <li><a href="javascript:rt_change_games(sess_list, 'LAKELAND');">Lakeland</a></li>
+              <li><a href="javascript:rt_change_games(sess_list, 'JOWILDER');">Jo Wilder</a></li>
             </ul>
           </div>
         </div>
-        <div class="col-md-9">
-          <ul id="session_list"></ul>
+        <div class="col-sm-2">
+        <h2 id="whatis">Choose a session:</h2>
+        <ul class="session_list" id="session_list"></ul>
+        </div>
+        <div class="col-md-8">
           <div class="playstats" id="playstats">
             <span class="playstat">
               <p>Odds of player completing level 1</p>
               <h3>75%</h3>
-            </span>
-            <span class="playstat">
-              <p>Odds of player completing level 2</p>
-              <h3>50%</h3>
-            </span>
-            <span class="playstat">
-              <p>Odds of player completing level 3</p>
-              <h3>40%</h3>
             </span>
           </div>
           <h2 id="whatis">Heading 1</h2>
