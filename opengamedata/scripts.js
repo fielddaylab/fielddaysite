@@ -7,7 +7,12 @@ var headers = {
   "Dataset ID": "Dataset ID",
   "sessions": "Sessions",
   "raw": "Downloads",
-
+}
+var readmes = {
+  'WAVES': 'https://github.com/fielddaylab/waves/blob/master/README.md',
+  'LAKELAND': 'https://github.com/fielddaylab/lakeland/blob/master/README.md',
+  'CRYSTAL': 'https://github.com/fielddaylab/crystal/blob/master/README.md',
+  'JOWILDER': 'https://github.com/fielddaylab/jo_wilder/blob/master/README.md'
 }
 function change_tables(value, start=false) {
   let table = document.querySelector("table");
@@ -22,11 +27,13 @@ function change_tables(value, start=false) {
       generateTable(table, Object.values(tables)[0], headers);
       generate_options();
       console.log(tables)
+      document.getElementById('readme_link').href = readmes[Object.keys(tables)[0]];
       // document.getElementById("readme_fname").href = `data/${Object.keys(tables)[0]}/readme.md`;
     }
     else
     {
       generateTable(table, tables[value], headers);
+      document.getElementById('readme_link').href = readmes[value];
       // document.getElementById("readme_fname").href = `data/${value}/readme.md`;
     }
   });
@@ -100,4 +107,4 @@ function generate_options(){
   }
 }
 
-change_tables("CRYSTAL",true);
+change_tables("CRYSTAL",true); // Note that the table name is irrelevant if start is marked "true"

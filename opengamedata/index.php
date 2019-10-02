@@ -35,6 +35,8 @@
           <div class="pub-nav-wrap sticky col-sm-3">
             <h2>Select Game:</h2></h2>
             <select id="mySelect"></select>
+            <br>
+            <a id="readme_link" href="">View README</a>
           </div>
           <div class="col-sm-9">
             <table id="table"></table>
