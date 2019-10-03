@@ -151,8 +151,8 @@
   }
   .tab-content{
     padding-top:5vw;
-    margin-left: 6vw;
-    margin-right:6vw;
+    margin-left: 3vw;
+    margin-right:3vw;
     .pub-wrap {
       padding: 20px 0px;
     }
@@ -169,51 +169,34 @@
         padding-top:0;
       }
     }
-    h3 {
-      margin:40px 0px 10px 0px;
-    }
-    p {
-      margin-bottom:30px;
-    }
     #session_list {
-      display:flex;
       flex-direction: row;
       flex-wrap: wrap;
+      padding: 0px;
       >div {
-        flex-direction: column;
-        display:flex;
-        width:30%;
-        background:$yellow;
         margin:10px;
         border-radius:10px;
-        text-align:center;
-        align-items: center;
-        padding:2vw;
+        padding:15px;
         color:$black;
-        transition: all 0.1s ease-in-out;
+        box-shadow: 0 0 33px 0 rgba(0,0,0,0.16);
+        float:left;
+        display:inline;
+        >* {
+          display:flex;
+          align-items: center;
+        }
         a {
           color:$black;
           font-family: 'Courier', 'courier-new', serif;
-          font-size:20px;
+          font-size:16px;
         }
         &:hover {
           transform:scale(1.03);
         }
         img {
-          height:40px;
+          height:60px;
           margin-bottom:10px;
-        }
-        &:nth-child(1n){
-          background:$blue;
-        }
-        &:nth-child(2n){
-          background:$yellow;
-        }
-        &:nth-child(3n){
-          background:$light_red;
-        }
-        &:nth-child(4n){
-          background:$yellow;
+          float:left;
         }
         h3 {
           font-family:roboto;
@@ -228,6 +211,35 @@
         }
       }
     }
+  }
+}
+
+.ui_column {
+  min-height:100vh;
+  border-right:2px solid $ultralight_gray;
+  padding:0vw 2vw;
+  p {
+    font-size:16px;
+  }
+  &:last-child{
+    border-right:0px;
+  }
+}
+
+.game_info {
+  background:$ultralight_gray;
+  padding:2vw;
+  border-radius:10px;
+  margin-bottom:20px;
+  h3 {
+    margin:0px;
+  }
+  #rt_game_img, #game_img {
+    width:100%;
+    height:auto;
+    display:inline-block;
+    float:left;
+    border-radius:5px;
   }
 }
 
