@@ -215,6 +215,7 @@ class SessionList
     alert_msg.id = `idle_${session_id}`;
     alert_msg.innerText = "Inactive!";
     alert_msg.classList.add("player_inactive");
+    session_div.appendChild(alert_msg);
 
     return session_div
   }
