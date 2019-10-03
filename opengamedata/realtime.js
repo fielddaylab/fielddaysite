@@ -55,7 +55,7 @@ function rt_change_games(list, game_name){
   message.appendChild(document.createTextNode("Please choose a "+game_name+" session or another game."))
   let playstats = document.getElementById("playstats");
   playstats.appendChild(message);
-  
+
   // TODO: it may be that I should clear the selected session ID.
   //       will check on this later.
 }
@@ -98,7 +98,7 @@ class SessionList
 
   /**
    * Function to retrieve a list of currently active sessions.
-   * First, we call the CGI backend to get the list. 
+   * First, we call the CGI backend to get the list.
    * In the handler, the returned list updates the SessionList data,
    * and then makes a further call to refresh the display list.
    */
@@ -128,7 +128,7 @@ class SessionList
 
   /**
    * Function to update the list of displayed session IDs.
-   * This is done in a way that preserves the order of session IDs 
+   * This is done in a way that preserves the order of session IDs
    * as much as possible.
    */
   refreshSessionDisplayList() {
@@ -168,6 +168,9 @@ class SessionList
       // start constructing the element
       let session_div = document.createElement("div");
       session_div.id = session_id;
+      let avatar_img = document.createElement('img');
+      avatar_img.src = 'http://tinygraphs.com/spaceinvaders/' + session_id + '?theme=seascape&numcolors=4';
+      session_div.appendChild(avatar_img);
       let session_link = document.createElement("a");
       session_link.onclick = function() { that.displaySelectedSession(session_id); return false;}
       session_link.innerText = !["", "null"].includes(player_id) ? player_id : session_id;

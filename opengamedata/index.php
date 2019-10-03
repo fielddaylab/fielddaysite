@@ -32,14 +32,20 @@
     <div role="tabpanel" class="tab-pane fade in active" id="data">
       <section class="publications">
         <div class="row">
-          <div class="pub-nav-wrap sticky col-sm-3">
-            <h2>Select Game:</h2></h2>
+          <div class="pub-nav-wrap pub-nav sticky col-sm-3">
+            <h2>Choose a Game:</h2></h2>
             <ul id="gameselect"></ul>
           </div>
           <div class="col-sm-9">
-            <h3 id="game_title"></h3>
-            <img id="game_img" src="" alt="" style="width:100%">
-            <a id="game_readme" href="">View README for data downloads</a>
+            <div class="game_info row">
+              <div class="col-md-4">
+                <img id="game_img" src="" alt="">
+              </div>
+              <div class="col-md-8">
+                <h2 id="game_title">Realtime Player Data</h2>
+                <a id="game_readme" href="" target="_blank">View README for the game</a>
+              </div>
+            </div>
             <table id="table"></table>
             <div class="pub-wrap">
               <h2>How does this work?</h2>
@@ -62,8 +68,9 @@ WAVES Feature Extractor Readme [link]</p>
     </div>
     <div role="tabpanel" class="tab-pane fade in" id="realtime">
       <div class="row">
-        <div class="col-xl-2 col-md-2 col-sm-3 col-xs-12">
+        <div class="col-xl-2 col-md-2 col-sm-3 col-xs-12 ui_column">
           <div class="pub-nav">
+            <!--<img src="http://tinygraphs.com/spaceinvaders/19090314233329190">-->
             <h2 id="whatis">Choose a game:</h2>
             <p>View sessions by Player ID:
             <input type="checkbox" id="require_pid" value="View only sessions with Player IDs">
@@ -76,15 +83,22 @@ WAVES Feature Extractor Readme [link]</p>
             </ul>
           </div>
         </div>
-        <div class="col-xl-2 col-md-3 col-sm-4 col-xs-12">
+        <div class="col-xl-2 col-md-3 col-sm-4 col-xs-12 ui_column">
         <h2 id="whatis">Choose a session:</h2>
         <ul class="session_list" id="session_list"></ul>
         </div>
-        <div class="col-xl-8 col-md-7 col-sm-5 col-xs-12">
-        <h2 id="rt_game_title">Realtime Player Data</h2>
-        <img id="rt_game_img" src="" alt="" style="width:100%">
-        <a id="rt_game_readme" href="">View README for the game</a>
-          <div class="playstats" id="playstats">
+        <div class="col-xl-8 col-md-7 col-sm-5 col-xs-12 ui_column">
+          <div class="game_info">
+            <div class="row">
+              <div class="col-md-4">
+                <img id="rt_game_img" src="" alt="">
+              </div>
+              <div class="col-md-8">
+                <h2 id="rt_game_title">Realtime Player Data</h2>
+                <a id="rt_game_readme" href="" target="_blank">View README for the game</a>
+              </div>
+            </div>
+            <div class="playstats" id="playstats"></div>
           </div>
           <div class="pub-wrap">
             <h3>About Realtime Player Data</h3>
