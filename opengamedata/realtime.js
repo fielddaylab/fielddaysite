@@ -235,28 +235,43 @@ class SessionList
     message.appendChild(document.createTextNode("Session "+session_id));
     message.style.width = "-webkit-fill-available";
     playstats.appendChild(message);
-    let feature_list = {"totalSliderMoves":"int", "totalLevelTime":"int", "closenessSlope":"float", "percentOffsetMoves":"pct", "percentAmplitudeMoves":"pct", "percentWavelengthMoves":"pct"};
+    let feature_request_list = {
+      "totalSliderMoves":{"name": "Total Slider Moves", "type": "int"}, 
+      "totalLevelTime":{"name": "Total Level Time", "type": "int"}, 
+      "closenessSlope":{"name": "Closeness Slope", "type": "float"}, 
+      "percentOffsetMoves":{"name": "Percent Moves: Offset", "type":"pct"}, 
+      "percentAmplitudeMoves":{"name": "Percent Moves: Amplitude", "type": "pct"}, 
+      "percentWavelengthMoves":{"name": "Percent Moves: Wavelength", "type": "pct"}
+    };
+    let features_handler = function(result) {
+      let features_raw = that.parseJSONResult(result);
+      let features_parsed = features_raw[that.selected_session_id]
+      // loop over all predictions, adding to the UI.
+      for (let feature_name in features_parsed) {
+        let raw_value = features_parsed[feature_name]["value"];
+        let feature_value = SessionList.formatValue(raw_value, feature_request_list[feature_name]["type"]);
+        // first, make a div for everything to sit in.
+        let next_feature_span = document.createElement("span");
+        next_feature_span.id=feature_name;
+        next_feature_span.className="playstat";
+        // then, add an element with prediction title to the div
+        let title = document.createElement("p");
+        title.innerText = feature_request_list[feature_name]["name"];
+        next_feature_span.appendChild(title);
+        // finally, add an element for the prediction value to the div.
+        let value_elem = document.createElement("h3");
+        value_elem.id = `${feature_name}_val`;
+        value_elem.innerText = feature_value;
+        next_feature_span.appendChild(value_elem);
+        playstats.appendChild(next_feature_span);
+      }
+    };
     let predictions_handler = function(result) {
-      let predictions_raw = 'null';
-      try
-      {
-        predictions_raw = JSON.parse(result);
-      }
-      catch (err)
-      {
-        console.log(`Could not parse result as JSON:\n ${result}`);
-        let message = document.createElement("p")
-        message.appendChild(document.createTextNode("No statistics currently available."))
-        let playstats = document.getElementById("playstats");
-        playstats.appendChild(message);
-
-        return;
-      }
+      let predictions_raw = that.parseJSONResult(result);
       let prediction_list = predictions_raw[that.selected_session_id]
       // loop over all predictions, adding to the UI.
       for (let prediction_name in prediction_list) {
-        let raw_value = prediction_list[prediction_name]["value"];
-        let prediction_value = SessionList.formatValue(raw_value, feature_list[prediction_name]);
+        let prediction_value = prediction_list[prediction_name]["value"];
         // first, make a div for everything to sit in.
         let next_prediction = document.createElement("span");
         next_prediction.id=prediction_name;
@@ -273,8 +288,8 @@ class SessionList
         playstats.appendChild(next_prediction);
       }
     };
-    Server.get_features_by_sessID(predictions_handler, this.selected_session_id, this.active_game, Object.keys(feature_list));
     Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game);
+    Server.get_features_by_sessID(features_handler, this.selected_session_id, this.active_game, Object.keys(feature_request_list));
     //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
     //predictions_handler(dummy_preds);
   }
@@ -287,32 +302,41 @@ class SessionList
   refreshSelectedSession()
   {
     let that = this;
-    let feature_list = {"totalSliderMoves":"int", "totalLevelTime":"int", "closenessSlope":"float", "percentOffsetMoves":"pct", "percentAmplitudeMoves":"pct", "percentWavelengthMoves":"pct"};
+    let feature_request_list = {
+      "totalSliderMoves":{"name": "Total Slider Moves", "type": "int"}, 
+      "totalLevelTime":{"name": "Total Level Time", "type": "int"}, 
+      "closenessSlope":{"name": "Closeness Slope", "type": "float"}, 
+      "percentOffsetMoves":{"name": "Percent Moves: Offset", "type":"pct"}, 
+      "percentAmplitudeMoves":{"name": "Percent Moves: Amplitude", "type": "pct"}, 
+      "percentWavelengthMoves":{"name": "Percent Moves: Wavelength", "type": "pct"}
+    };
+    let features_handler = function(result) {
+      // console.log(`Got back predictions: ${result}`);
+      let features_raw = that.parseJSONResult(result);
+      let features_parsed = features_raw[that.selected_session_id]
+      // After getting the feature values, loop over whole list,
+      // updating values.
+      for (let feature_name in features_parsed) {
+        let raw_value = features_parsed[feature_name]["value"];
+        let feature_value = SessionList.formatValue(raw_value, feature_request_list[feature_name]["type"]);
+        let value_elem = document.getElementById(`${feature_name}_val`);
+        value_elem.innerText = feature_value;
+      }
+    };
     let predictions_handler = function(result) {
       // console.log(`Got back predictions: ${result}`);
-      let predictions_raw = 'null';
-      try
-      {
-        console.log(`Got back model results: ${result}`);
-        predictions_raw = JSON.parse(result);
-      }
-      catch (err)
-      {
-        console.log(`Could not parse result as JSON:\n ${result}`);
-        return;
-      }
+      let predictions_raw = that.parseJSONResult(result);
       let prediction_list = predictions_raw[that.selected_session_id]
       // After getting the prediction values, loop over whole list,
       // updating values.
       for (let prediction_name in prediction_list) {
-        let raw_value = prediction_list[prediction_name]["value"];
-        let prediction_value = SessionList.formatValue(raw_value, feature_list[prediction_name]);
+        let prediction_value = prediction_list[prediction_name]["value"];
         let value_elem = document.getElementById(`${prediction_name}_val`);
         value_elem.innerText = prediction_value;
       }
     };
-    Server.get_features_by_sessID(predictions_handler, this.selected_session_id, this.active_game, Object.keys(feature_list));
     Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game);
+    Server.get_features_by_sessID(features_handler, this.selected_session_id, this.active_game, Object.keys(feature_request_list));
     //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
     //predictions_handler(dummy_preds);
   }
@@ -329,6 +353,28 @@ class SessionList
       playstats.removeChild(playstats.firstChild);
     }
     this.selected_session_id = -1;
+  }
+
+  parseJSONResult(json_result)
+  {   let ret_val = 'null';
+      try
+      {
+        let predictions_raw = JSON.parse(json_result);
+        ret_val = predictions_raw;
+      }
+      catch (err)
+      {
+        console.log(`Could not parse result as JSON:\n ${json_result}`);
+        console.log(`Full error: ${err.toString()}`);
+        let message = document.createElement("p")
+        message.appendChild(document.createTextNode("No statistics currently available."))
+        let playstats = document.getElementById("playstats");
+        playstats.appendChild(message);
+      }
+      finally
+      {
+        return ret_val;
+      }
   }
 
   static formatValue(val, format)
