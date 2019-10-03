@@ -211,6 +211,7 @@ class SessionList
     message.appendChild(document.createTextNode("Session "+session_id));
     message.style.width = "-webkit-fill-available";
     playstats.appendChild(message);
+    let feature_list = ["totalSliderMoves", "totalLevelTime", "closenessSlope", "percentOffsetMoves" ,"percentAmplitudeMoves", "percentWavelengthMoves"];
     let predictions_handler = function(result) {
       let predictions_raw = 'null';
       try
@@ -230,7 +231,8 @@ class SessionList
       let prediction_list = predictions_raw[that.selected_session_id]
       // loop over all predictions, adding to the UI.
       for (let prediction_name in prediction_list) {
-        let prediction_value = prediction_list[prediction_name]["value"];
+        let raw_value = prediction_list[prediction_name]["value"];
+        let prediction_value = SessionList.formatValue(raw_value, features[prediction_name]);
         // first, make a div for everything to sit in.
         let next_prediction = document.createElement("span");
         next_prediction.id=prediction_name;
@@ -240,14 +242,13 @@ class SessionList
         title.innerText = prediction_list[prediction_name]["name"];
         next_prediction.appendChild(title);
         // finally, add an element for the prediction value to the div.
-        let value = document.createElement("h3");
-        value.id = `${prediction_name}_val`;
-        value.innerText = prediction_value;
-        next_prediction.appendChild(value);
+        let value_elem = document.createElement("h3");
+        value_elem.id = `${prediction_name}_val`;
+        value_elem.innerText = prediction_value;
+        next_prediction.appendChild(value_elem);
         playstats.appendChild(next_prediction);
       }
     };
-    let feature_list = ["totalSliderMoves", "totalLevelTime", "closenessSlope", "percentOffsetMoves" ,"percentAmplitudeMoves", "percentWavelengthMoves"];
     Server.get_features_by_sessID(predictions_handler, this.selected_session_id, this.active_game, feature_list);
     Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game);
     //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
@@ -262,6 +263,7 @@ class SessionList
   refreshDisplayedSession()
   {
     let that = this;
+    let features = {"totalSliderMoves":"int", "totalLevelTime":"int", "closenessSlope":"float", "percentOffsetMoves":"pct", "percentAmplitudeMoves":"pct", "percentWavelengthMoves":"pct"};
     let predictions_handler = function(result) {
       // console.log(`Got back predictions: ${result}`);
       let predictions_raw = 'null';
@@ -279,12 +281,12 @@ class SessionList
       // After getting the prediction values, loop over whole list,
       // updating values.
       for (let prediction_name in prediction_list) {
-        let prediction_value = prediction_list[prediction_name]["value"];
-        let value = document.getElementById(`${prediction_name}_val`);
-        value.innerText = prediction_value;
+        let raw_value = prediction_list[prediction_name]["value"];
+        let prediction_value = SessionList.formatValue(raw_value, features[prediction_name]);
+        let value_elem = document.getElementById(`${prediction_name}_val`);
+        value_elem.innerText = prediction_value;
       }
     };
-    let feature_list = ["totalSliderMoves", "totalLevelTime", "closenessSlope", "percentOffsetMoves" ,"percentAmplitudeMoves", "percentWavelengthMoves"];
     Server.get_features_by_sessID(predictions_handler, this.selected_session_id, this.active_game, feature_list);
     Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game);
     //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
@@ -303,5 +305,28 @@ class SessionList
       playstats.removeChild(playstats.firstChild);
     }
     this.selected_session_id = -1;
+  }
+
+  static formatValue(val, format)
+  {
+      let ret_val;
+      if (format == "int")
+      {
+        ret_val = raw_value.toFixed(0);
+      }
+      else if (format == "float")
+      {
+        ret_val = raw_value.toFixed(2);
+      }
+      else if (format == "pct")
+      {
+        ret_val = `${(raw_value*100).toFixed(0)} %`;
+      }
+      else 
+      {
+        console.log(`Display value had unrecognized format ${format}. Using raw value ${val}`);
+        ret_val = raw_value;
+      }
+      return ret_val;
   }
 }
