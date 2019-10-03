@@ -247,7 +247,8 @@ class SessionList
         playstats.appendChild(next_prediction);
       }
     };
-    Server.get_features_by_sessID(predictions_handler, this.selected_session_id, this.active_game, ["percentAmplitudeMoves", "percentOffsetMoves", "percentWavelengthMoves", "closenessSlope"]);
+    let feature_list = ["totalSliderMoves", "totalLevelTime", "closenessSlope", "percentOffsetMoves" ,"percentAmplitudeMoves", "percentWavelengthMoves"];
+    Server.get_features_by_sessID(predictions_handler, this.selected_session_id, this.active_game, feature_list);
     Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game);
     //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
     //predictions_handler(dummy_preds);
@@ -283,7 +284,8 @@ class SessionList
         value.innerText = prediction_value;
       }
     };
-    Server.get_features_by_sessID(predictions_handler, this.selected_session_id, this.active_game, ["percentAmplitudeMoves", "percentOffsetMoves", "percentWavelengthMoves", "closenessSlope"]);
+    let feature_list = ["totalSliderMoves", "totalLevelTime", "closenessSlope", "percentOffsetMoves" ,"percentAmplitudeMoves", "percentWavelengthMoves"];
+    Server.get_features_by_sessID(predictions_handler, this.selected_session_id, this.active_game, feature_list);
     Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game);
     //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
     //predictions_handler(dummy_preds);
