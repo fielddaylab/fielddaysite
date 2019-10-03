@@ -188,12 +188,14 @@ class SessionList
 
   constructListedSession(session_id, player_id)
   {
+    let game_themes = {"CRYSTAL": "seascape", "WAVES":"daisygarden", "JOWILDER": "heatwave", "LAKELAND": "summerwarmth"}
     let that = this; // needed for onclick handler.
 
     let session_div = document.createElement("div");
     session_div.id = session_id;
     let avatar_img = document.createElement('img');
-    avatar_img.src = 'http://tinygraphs.com/spaceinvaders/' + session_id + '?theme=seascape&numcolors=4';
+    // avatar_img.src = 'http://tinygraphs.com/spaceinvaders/' + session_id + `?theme=seascape&numcolors=4`;
+    avatar_img.src = 'http://tinygraphs.com/spaceinvaders/' + session_id + `?theme=${game_themes[this.active_game]}&numcolors=4`;
     session_div.appendChild(avatar_img);
     let session_link = document.createElement("a");
     session_link.onclick = function() { that.displaySelectedSession(session_id); return false;}
