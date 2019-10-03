@@ -132,7 +132,6 @@ class SessionList
    * as much as possible.
    */
   refreshSessionDisplayList() {
-    let that = this;
     let display_set = new Set(this.displayed_session_ids);
     let active_set = new Set(this.active_session_ids);
     let remove_set = setMinus(display_set, active_set); // subtract active from display to get inactives, which are currently displayed.
@@ -159,6 +158,15 @@ class SessionList
         cur_level_div.innerText = `current: ${this.active_sessions[session_id]["cur_level"].toString()}`;
         let max_level_div = document.getElementById(`max_level_${session_id}`);
         max_level_div.innerText = `max: ${this.active_sessions[session_id]["max_level"].toString()}`;
+        let inactive_span = document.getElementById(`idle_${session_id}`);
+        if (this.active_sessions[session_id]["idle_time"] > 60)
+        {
+          inactive_span.style.display = "inline";
+        }
+        else
+        {
+          inactive_span.style.display = "none";
+        }
       }
     }
     // loop over all newly active sessions, adding them to the list.
@@ -166,34 +174,49 @@ class SessionList
       let session_id = id;
       let player_id = this.active_sessions[session_id]["player_id"];
       // start constructing the element
-      let session_div = document.createElement("div");
-      session_div.id = session_id;
-      let avatar_img = document.createElement('img');
-      avatar_img.src = 'http://tinygraphs.com/spaceinvaders/' + session_id + '?theme=seascape&numcolors=4';
-      session_div.appendChild(avatar_img);
-      let session_link = document.createElement("a");
-      session_link.onclick = function() { that.displaySelectedSession(session_id); return false;}
-      session_link.innerText = !["", "null"].includes(player_id) ? player_id : session_id;
-      session_link.href = `#${session_id}`;
-      session_div.appendChild(session_link);
-      let cur_level_div = document.createElement("div");
-      cur_level_div.id = `cur_level_${session_id}`;
-      cur_level_div.innerText = `current: ${this.active_sessions[session_id]["cur_level"].toString()}`;
-      session_div.appendChild(cur_level_div);
-      let max_level_div = document.createElement("div");
-      max_level_div.id = `max_level_${session_id}`;
-      max_level_div.innerText = `max: ${this.active_sessions[session_id]["max_level"].toString()}`;
-      session_div.appendChild(max_level_div);
-      session_div.appendChild(document.createElement("br"));
+      let session_div = this.constructListedSession(session_id, player_id); 
       session_list_area.appendChild(session_div);
     }
     this.displayed_session_ids = [...this.active_session_ids]; // at this point, these should theoretically be the same.
     if(this.displayed_session_ids.length == 0){
       let message = document.createElement("p")
-      let player_id_msg = that.require_player_id ? " Try viewing sessions without player IDs." : "";
+      let player_id_msg = this.require_player_id ? " Try viewing sessions without player IDs." : "";
       message.appendChild(document.createTextNode("No sessions currently available."+player_id_msg))
       session_list_area.appendChild(message);
     }
+  }
+
+  constructListedSession(session_id, player_id)
+  {
+    let that = this; // needed for onclick handler.
+
+    let session_div = document.createElement("div");
+    session_div.id = session_id;
+    let avatar_img = document.createElement('img');
+    avatar_img.src = 'http://tinygraphs.com/spaceinvaders/' + session_id + '?theme=seascape&numcolors=4';
+    session_div.appendChild(avatar_img);
+    let session_link = document.createElement("a");
+    session_link.onclick = function() { that.displaySelectedSession(session_id); return false;}
+    session_link.innerText = !["", "null"].includes(player_id) ? player_id : session_id;
+    session_link.href = `#${session_id}`;
+    session_div.appendChild(session_link);
+    let cur_level_div = document.createElement("div");
+    cur_level_div.id = `cur_level_${session_id}`;
+    cur_level_div.innerText = `current: ${this.active_sessions[session_id]["cur_level"].toString()}`;
+    session_div.appendChild(cur_level_div);
+    let max_level_div = document.createElement("div");
+    max_level_div.id = `max_level_${session_id}`;
+    max_level_div.innerText = `max: ${this.active_sessions[session_id]["max_level"].toString()}`;
+    session_div.appendChild(max_level_div);
+    session_div.appendChild(document.createElement("br"));
+
+
+    let alert_msg = document.createElement("span");
+    alert_msg.id = `idle_${session_id}`;
+    alert_msg.innerText = "Inactive!";
+    alert_msg.classList.add("player_inactive");
+
+    return session_div
   }
 
   /**
