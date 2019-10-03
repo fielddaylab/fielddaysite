@@ -53,7 +53,7 @@
 
 <p class="small">The processed CSV contains calculated features from each game play session and organizes them all in one row. These features are described in the game's readme.md file in the opengamedata repository, and linked below.</p>
 
-<p class="small">WAVES Game Readme [link]
+<p class="small">WAVES Game <a targdt="_blank" href="https://github.com/fielddaylab/waves/blob/master/README.md">Readme</a>
 WAVES Feature Extractor Readme [link]</p>
 
 <p class="small">For simple educational data mining purposes, the processed files can be used as examples to predict behaviors such as quitting or performance on an embedded assessment.</p>

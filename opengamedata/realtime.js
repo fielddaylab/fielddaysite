@@ -174,7 +174,7 @@ class SessionList
       let session_id = id;
       let player_id = this.active_sessions[session_id]["player_id"];
       // start constructing the element
-      let session_div = this.constructListedSession(session_id, player_id); 
+      let session_div = this.constructListedSession(session_id, player_id);
       session_list_area.appendChild(session_div);
     }
     this.displayed_session_ids = [...this.active_session_ids]; // at this point, these should theoretically be the same.
@@ -215,7 +215,7 @@ class SessionList
 
     let alert_msg = document.createElement("span");
     alert_msg.id = `idle_${session_id}`;
-    alert_msg.innerText = "Inactive!";
+    alert_msg.innerText = "Inactive";
     alert_msg.classList.add("player_inactive");
     session_div.appendChild(alert_msg);
 
@@ -238,11 +238,11 @@ class SessionList
     message.style.width = "-webkit-fill-available";
     playstats.appendChild(message);
     let feature_request_list = {
-      "totalSliderMoves":{"name": "Total Slider Moves", "type": "int"}, 
-      "totalLevelTime":{"name": "Total Level Time", "type": "int"}, 
-      "closenessSlope":{"name": "Closeness Slope", "type": "float"}, 
-      "percentOffsetMoves":{"name": "Percent Moves: Offset", "type":"pct"}, 
-      "percentAmplitudeMoves":{"name": "Percent Moves: Amplitude", "type": "pct"}, 
+      "totalSliderMoves":{"name": "Total Slider Moves", "type": "int"},
+      "totalLevelTime":{"name": "Total Level Time", "type": "int"},
+      "closenessSlope":{"name": "Closeness Slope", "type": "float"},
+      "percentOffsetMoves":{"name": "Percent Moves: Offset", "type":"pct"},
+      "percentAmplitudeMoves":{"name": "Percent Moves: Amplitude", "type": "pct"},
       "percentWavelengthMoves":{"name": "Percent Moves: Wavelength", "type": "pct"}
     };
     let features_handler = function(result) {
@@ -305,11 +305,11 @@ class SessionList
   {
     let that = this;
     let feature_request_list = {
-      "totalSliderMoves":{"name": "Total Slider Moves", "type": "int"}, 
-      "totalLevelTime":{"name": "Total Level Time", "type": "int"}, 
-      "closenessSlope":{"name": "Closeness Slope", "type": "float"}, 
-      "percentOffsetMoves":{"name": "Percent Moves: Offset", "type":"pct"}, 
-      "percentAmplitudeMoves":{"name": "Percent Moves: Amplitude", "type": "pct"}, 
+      "totalSliderMoves":{"name": "Total Slider Moves", "type": "int"},
+      "totalLevelTime":{"name": "Total Level Time", "type": "int"},
+      "closenessSlope":{"name": "Closeness Slope", "type": "float"},
+      "percentOffsetMoves":{"name": "Percent Moves: Offset", "type":"pct"},
+      "percentAmplitudeMoves":{"name": "Percent Moves: Amplitude", "type": "pct"},
       "percentWavelengthMoves":{"name": "Percent Moves: Wavelength", "type": "pct"}
     };
     let features_handler = function(result) {
@@ -394,7 +394,7 @@ class SessionList
       {
         ret_val = `${(parseFloat(val)*100).toFixed(0)} %`;
       }
-      else 
+      else
       {
         console.log(`Display value had unrecognized format ${format}. Using raw value ${val}`);
         ret_val = val;
