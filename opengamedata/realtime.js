@@ -169,7 +169,7 @@ class SessionList
       let session_div = document.createElement("div");
       session_div.id = session_id;
       let avatar_img = document.createElement('img');
-      avatar_img.src = 'http://tinygraphs.com/spaceinvaders/' + session_id + '?theme=seascape&numcolors=3';
+      avatar_img.src = 'http://tinygraphs.com/spaceinvaders/' + session_id + '?theme=seascape&numcolors=4';
       session_div.appendChild(avatar_img);
       let session_link = document.createElement("a");
       session_link.onclick = function() { that.displaySelectedSession(session_id); return false;}

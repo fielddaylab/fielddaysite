@@ -11078,21 +11078,28 @@ hr {
       border-radius: 10px;
       padding: 15px;
       color: #222830;
-      box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.16);
+      box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.1);
       float: left;
       display: inline; }
       .opengamedata .tab-content #session_list > div > * {
-        display: flex;
-        align-items: center; }
+        display: inline;
+        align-items: center;
+        color: #5A5F6A;
+        margin-right: 10px;
+        font-size: 13px;
+        font-style: italic; }
       .opengamedata .tab-content #session_list > div a {
         color: #222830;
         font-family: 'Courier', 'courier-new', serif;
-        font-size: 16px; }
+        font-size: 14px;
+        display: flex;
+        line-height: 26px;
+        letter-spacing: 0px;
+        font-style: normal; }
       .opengamedata .tab-content #session_list > div:hover {
         transform: scale(1.03); }
       .opengamedata .tab-content #session_list > div img {
         height: 60px;
-        margin-bottom: 10px;
         float: left; }
       .opengamedata .tab-content #session_list > div h3 {
         font-family: roboto;
@@ -11118,6 +11125,40 @@ hr {
   padding: 2vw;
   border-radius: 10px;
   margin-bottom: 20px; }
+  .game_info .playstats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .game_info .playstats .playstat {
+      height: 200px;
+      width: 28%;
+      background: #E0BC4E;
+      margin: 10px;
+      border-radius: 10px;
+      text-align: center;
+      padding: 2vw;
+      color: #222830;
+      transition: all 0.1s ease-in-out; }
+      .game_info .playstats .playstat:hover {
+        transform: scale(1.03); }
+      .game_info .playstats .playstat img {
+        height: 40px;
+        margin-bottom: 10px; }
+      .game_info .playstats .playstat:nth-child(1n) {
+        background: #06AED5; }
+      .game_info .playstats .playstat:nth-child(2n) {
+        background: #E0BC4E; }
+      .game_info .playstats .playstat:nth-child(3n) {
+        background: #FCC9C2; }
+      .game_info .playstats .playstat h3 {
+        font-family: roboto;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 50px;
+        margin: 0; }
+      .game_info .playstats .playstat p {
+        font-size: 16px;
+        line-height: 17px; }
   .game_info h3 {
     margin: 0px; }
   .game_info #rt_game_img, .game_info #game_img {
