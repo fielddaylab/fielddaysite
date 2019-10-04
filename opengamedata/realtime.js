@@ -94,6 +94,7 @@ class SessionList
     this.displayed_session_ids = [];
     this.selected_session_id = -1;
     this.require_player_id = document.getElementById("require_pid").checked;
+    this.statistics_NA_msg = false;
     this.refreshActiveSessionList();
   }
 
@@ -356,6 +357,7 @@ class SessionList
       playstats.removeChild(playstats.firstChild);
     }
     this.selected_session_id = -1;
+    this.statistics_NA_msg = false;
   }
 
   parseJSONResult(json_result)
@@ -369,10 +371,14 @@ class SessionList
       {
         console.log(`Could not parse result as JSON:\n ${json_result}`);
         console.log(`Full error: ${err.toString()}`);
-        let message = document.createElement("p")
-        message.appendChild(document.createTextNode("No statistics currently available."))
-        let playstats = document.getElementById("playstats");
-        playstats.appendChild(message);
+
+        if (!this.statistics_NA_msg){
+          let message = document.createElement("p")
+          message.appendChild(document.createTextNode("No statistics currently available."))
+          let playstats = document.getElementById("playstats");
+          playstats.appendChild(message);
+          this.statistics_NA_msg = true;
+        }
       }
       finally
       {
