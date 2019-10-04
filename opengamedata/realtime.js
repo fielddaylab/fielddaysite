@@ -236,7 +236,9 @@ class SessionList
     this.selected_session_id = session_id;
     let playstats = document.getElementById("playstats");
     let message = document.createElement("h4")
-    message.appendChild(document.createTextNode("Session "+session_id));
+    let player_id = that.active_sessions[session_id]['player_id']
+    let player_msg = !["", "null"].includes(player_id) ? " (Player "+player_id+")" : '';
+    message.appendChild(document.createTextNode("Session "+session_id+player_msg));
     message.style.width = "-webkit-fill-available";
     playstats.appendChild(message);
     let feature_request_list = {
