@@ -46,8 +46,9 @@ function rt_change_games(list, game_name){
   list.clearSelected();
 
   document.getElementById('rt_game_title').innerHTML = game_name+ " Realtime Player Data";
-  document.getElementById('rt_game_readme').href = feature_readmes[game_name];
-  document.getElementById('rt_game_img').src = thumbs[game_name];
+  document.getElementById('rt_game_events_readme').href = data_readmes[game_name];
+  document.getElementById('rt_game_features_readme').href = feature_readmes[game_name];
+  document.getElementById('rt_game_link').href = game_links[game_name];  document.getElementById('rt_game_img').src = thumbs[game_name];
   document.getElementById('rt_game_img').alt = "Example image of "+game_name;
 
 

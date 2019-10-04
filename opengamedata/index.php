@@ -97,7 +97,9 @@ WAVES Feature Extractor <a href='https://opengamedata.fielddaylab.wisc.edu/data/
               </div>
               <div class="col-md-8">
                 <h2 id="rt_game_title">Realtime Player Data</h2>
-                <a id="rt_game_readme" href="" target="_blank">View README for the game</a>
+                <a id="rt_game_events_readme" href="" target="_blank">View README for the game events</a><br>
+                <a id="rt_game_features_readme" href="" target="_blank">View README for the processed features</a><br>
+                <a id="rt_game_link" href="" target="_blank">Play the game</a>
               </div>
             </div>
             <div class="playstats" id="playstats"></div>
