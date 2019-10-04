@@ -241,14 +241,7 @@ class SessionList
     message.appendChild(document.createTextNode("Session "+session_id+player_msg));
     message.style.width = "-webkit-fill-available";
     playstats.appendChild(message);
-    let feature_request_list = (this.active_game !== 'WAVES') ? {} :  {
-      "totalSliderMoves":{"name": "Total Slider Moves", "type": "int"},
-      "totalLevelTime":{"name": "Total Level Time", "type": "int"},
-      "closenessSlope":{"name": "Closeness Slope", "type": "float"},
-      "percentOffsetMoves":{"name": "Percent Moves: Offset", "type":"pct"},
-      "percentAmplitudeMoves":{"name": "Percent Moves: Amplitude", "type": "pct"},
-      "percentWavelengthMoves":{"name": "Percent Moves: Wavelength", "type": "pct"}
-    };
+    let feature_request_list = this.get_feature_request_list();
     let features_handler = function(result) {
       let features_raw = that.parseJSONResult(result);
       let features_parsed = features_raw[that.selected_session_id]
@@ -271,6 +264,10 @@ class SessionList
         next_feature_span.appendChild(value_elem);
         playstats.appendChild(next_feature_span);
       }
+
+      if(features_raw === 'null'){
+        playstats_message('No features available.')
+      } 
     };
     let predictions_handler = function(result) {
       let predictions_raw = that.parseJSONResult(result);
@@ -292,10 +289,15 @@ class SessionList
         value_elem.innerText = prediction_value;
         next_prediction.appendChild(value_elem);
         playstats.appendChild(next_prediction);
+
+      }
+      if(predictions_raw === 'null'){
+        playstats_message('No predictions available.')
       }
     };
     Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game);
     Server.get_features_by_sessID(features_handler, this.selected_session_id, this.active_game, Object.keys(feature_request_list));
+
     //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
     //predictions_handler(dummy_preds);
   }
@@ -308,14 +310,7 @@ class SessionList
   refreshSelectedSession()
   {
     let that = this;
-    let feature_request_list = (this.active_game !== 'WAVES') ? {} :  {
-      "totalSliderMoves":{"name": "Total Slider Moves", "type": "int"},
-      "totalLevelTime":{"name": "Total Level Time", "type": "int"},
-      "closenessSlope":{"name": "Closeness Slope", "type": "float"},
-      "percentOffsetMoves":{"name": "Percent Moves: Offset", "type":"pct"},
-      "percentAmplitudeMoves":{"name": "Percent Moves: Amplitude", "type": "pct"},
-      "percentWavelengthMoves":{"name": "Percent Moves: Wavelength", "type": "pct"}
-    };
+    let feature_request_list = this.get_feature_request_list();
     let features_handler = function(result) {
       // console.log(`Got back predictions: ${result}`);
       let features_raw = that.parseJSONResult(result);
@@ -373,20 +368,38 @@ class SessionList
       {
         console.log(`Could not parse result as JSON:\n ${json_result}`);
         console.log(`Full error: ${err.toString()}`);
-
-        if (!this.statistics_NA_msg){
-          let message = document.createElement("p")
-          message.appendChild(document.createTextNode("No statistics currently available."))
-          let playstats = document.getElementById("playstats");
-          playstats.appendChild(message);
-          this.statistics_NA_msg = true;
-        }
       }
       finally
       {
         return ret_val;
       }
   }
+
+  get_feature_request_list()
+  {
+    let feature_request_list = {};
+    if(this.active_game === 'WAVES'){
+      feature_request_list = {
+        "totalSliderMoves":{"name": "Total Slider Moves", "type": "int"},
+        "totalLevelTime":{"name": "Total Level Time", "type": "int"},
+        "closenessSlope":{"name": "Closeness Slope", "type": "float"},
+        "percentOffsetMoves":{"name": "Percent Moves: Offset", "type":"pct"},
+        "percentAmplitudeMoves":{"name": "Percent Moves: Amplitude", "type": "pct"},
+        "percentWavelengthMoves":{"name": "Percent Moves: Wavelength", "type": "pct"}
+      };
+    } else if(this.active_game === 'CRYSTAL'){
+      feature_request_list = {
+        "sessionEventCount":{"name": "Session Event Count", "type": "int"} 
+      }
+    } else if(this.active_game === 'LAKELAND'){
+      feature_request_list = {
+        "sess_count_tired_txt_emotes_per_capita":{"name": "Test", "type": "float"}
+      }
+    }
+    return feature_request_list;
+  }
+
+
 
   static formatValue(val, format)
   {
@@ -410,4 +423,12 @@ class SessionList
       }
       return ret_val;
   }
+}
+
+function playstats_message(msg){
+  let message = document.createElement("p")
+  message.appendChild(document.createTextNode(msg))
+  message.style.width = "-webkit-fill-available";
+  let playstats = document.getElementById("playstats");
+  playstats.appendChild(message);
 }
