@@ -46,7 +46,7 @@ function rt_change_games(list, game_name){
   list.clearSelected();
 
   document.getElementById('rt_game_title').innerHTML = game_name+ " Realtime Player Data";
-  document.getElementById('rt_game_readme').href = readmes[game_name];
+  document.getElementById('rt_game_readme').href = feature_readmes[game_name];
   document.getElementById('rt_game_img').src = thumbs[game_name];
   document.getElementById('rt_game_img').alt = "Example image of "+game_name;
 
