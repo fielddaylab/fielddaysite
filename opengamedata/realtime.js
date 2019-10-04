@@ -241,7 +241,7 @@ class SessionList
     message.appendChild(document.createTextNode("Session "+session_id+player_msg));
     message.style.width = "-webkit-fill-available";
     playstats.appendChild(message);
-    let feature_request_list = {
+    let feature_request_list = (this.active_game !== 'WAVES') ? {} :  {
       "totalSliderMoves":{"name": "Total Slider Moves", "type": "int"},
       "totalLevelTime":{"name": "Total Level Time", "type": "int"},
       "closenessSlope":{"name": "Closeness Slope", "type": "float"},
@@ -308,7 +308,7 @@ class SessionList
   refreshSelectedSession()
   {
     let that = this;
-    let feature_request_list = {
+    let feature_request_list = (this.active_game !== 'WAVES') ? {} :  {
       "totalSliderMoves":{"name": "Total Slider Moves", "type": "int"},
       "totalLevelTime":{"name": "Total Level Time", "type": "int"},
       "closenessSlope":{"name": "Closeness Slope", "type": "float"},
