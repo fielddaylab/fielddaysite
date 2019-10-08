@@ -77,7 +77,9 @@ class Server
             // console.log(`Status for ${post_string} is ${this.statusText}`);
          }
       }
-      req.open("POST", "https://opengamedata.fielddaylab.wisc.edu/realtime.cgi", true);
+      // use this to set any desired custom path to the "realtime" cgi script.
+      let config = {host: "https://opengamedata.fielddaylab.wisc.edu", path: "realtime.cgi"};
+      req.open("POST", `${config.host}/${config.path}`, true);
       req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
       req.send(post_string);
    }
