@@ -53,9 +53,6 @@ function rt_change_games(list, game_name){
   message.appendChild(document.createTextNode("Please choose a "+game_name+" session or another game."))
   let playstats = document.getElementById("playstats");
   playstats.appendChild(message);
-
-  // TODO: it may be that I should clear the selected session ID.
-  //       will check on this later.
 }
 
 /**
@@ -132,8 +129,6 @@ class SessionList
     {
       console.log(`Request count is ${this.request_count}, not making another.`);
     }
-    //let temp_waves_sessions = '{"19080515273765540": {"session_id": "19080514372295030", "max_level": 1, "cur_level": 2, "seconds_inactive": 73}, "19080514394930610": {"session_id": "19080514394930610", "max_level": 0, "cur_level": 0, "seconds_inactive": 109}, "19080515372858520": {"session_id": "19080515372858520", "max_level": 3, "cur_level": 4, "seconds_inactive": 6}}'
-    //active_sessions_handler(temp_waves_sessions)
   }
 
   /**
@@ -204,7 +199,6 @@ class SessionList
     let session_div = document.createElement("div");
     session_div.id = session_id;
     let avatar_img = document.createElement('img');
-    // avatar_img.src = 'http://tinygraphs.com/spaceinvaders/' + session_id + `?theme=seascape&numcolors=4`;
     avatar_img.src = 'http://tinygraphs.com/spaceinvaders/' + session_id + `?theme=${game_themes[this.active_game]}&numcolors=4`;
     session_div.appendChild(avatar_img);
     let session_link = document.createElement("a");
@@ -305,9 +299,6 @@ class SessionList
     };
     Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game);
     Server.get_features_by_sessID(features_handler, this.selected_session_id, this.active_game, Object.keys(feature_request_list));
-
-    //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
-    //predictions_handler(dummy_preds);
   }
 
   /**
@@ -364,8 +355,6 @@ class SessionList
     {
       console.log(`Request count is ${this.request_count}, not making another.`);
     }
-    //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
-    //predictions_handler(dummy_preds);
   }
 
   /**
