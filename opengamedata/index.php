@@ -123,6 +123,7 @@ WAVES Feature Extractor <a href='https://opengamedata.fielddaylab.wisc.edu/data/
 <script src="scripts.js"></script>
 <script src="RTServer.js"></script>
 <script src="realtime.js"></script>
+<script src="realtime_config.js"></script>
 <script>
 $(function() {
 
