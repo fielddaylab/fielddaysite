@@ -1,0 +1,5 @@
+rt_config = {
+    host: "",
+    path: "cgi-bin/opengamedata/realtime.cgi",
+    max_outstanding_requests: 20
+};

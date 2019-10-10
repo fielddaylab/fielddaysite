@@ -3,16 +3,15 @@
  */
 function onload()
 {
-  let check = 0
-  console.log(`update check: ${check}`);
   // Create a SessionList instance for tracking state, and start the refresh loop.
   sess_list = new SessionList();
+  rt_change_games(sess_list, "CRYSTAL");
   document.getElementById("require_pid").onclick = function() {
       sess_list.require_player_id = this.checked;
       sess_list.refreshActiveSessionList();
       if (sess_list.selected_session_id != -1)
       {
-        sess_list.refreshDisplayedSession();
+        sess_list.refreshSelectedSession();
       }
   }
   window.setInterval(() => {
@@ -28,8 +27,6 @@ function onload()
       throw err;
     }
   }, 5000);
-
-  rt_change_games(sess_list, "CRYSTAL")
 }
 
 
@@ -95,6 +92,7 @@ class SessionList
     this.selected_session_id = -1;
     this.require_player_id = document.getElementById("require_pid").checked;
     this.statistics_NA_msg = false;
+    this.request_count = 0;
     this.refreshActiveSessionList();
   }
 
@@ -115,6 +113,7 @@ class SessionList
       catch (err)
       {
         console.log(`Could not parse result as JSON:\n ${result}`);
+        that.request_count--;
         return;
       }
       that.active_sessions = parsed_sessions;
@@ -122,8 +121,17 @@ class SessionList
       console.log(that.active_sessions);
       that.active_session_ids = Array.from(Object.keys(that.active_sessions));
       that.refreshSessionDisplayList();
+      that.request_count--;
     };
-    Server.get_all_active_sessions(active_sessions_handler, this.active_game, this.require_player_id);
+    if (this.request_count < rt_config.max_outstanding_requests)
+    {
+      this.request_count++;
+      Server.get_all_active_sessions(active_sessions_handler, this.active_game, this.require_player_id);
+    }
+    else
+    {
+      console.log(`Request count is ${this.request_count}, not making another.`);
+    }
     //let temp_waves_sessions = '{"19080515273765540": {"session_id": "19080514372295030", "max_level": 1, "cur_level": 2, "seconds_inactive": 73}, "19080514394930610": {"session_id": "19080514394930610", "max_level": 0, "cur_level": 0, "seconds_inactive": 109}, "19080515372858520": {"session_id": "19080515372858520", "max_level": 3, "cur_level": 4, "seconds_inactive": 6}}'
     //active_sessions_handler(temp_waves_sessions)
   }
@@ -323,6 +331,7 @@ class SessionList
         let value_elem = document.getElementById(`${feature_name}_val`);
         value_elem.innerText = feature_value;
       }
+      that.request_count--;
     };
     let predictions_handler = function(result) {
       // console.log(`Got back predictions: ${result}`);
@@ -335,9 +344,26 @@ class SessionList
         let value_elem = document.getElementById(`${prediction_name}_val`);
         value_elem.innerText = prediction_value;
       }
+      that.request_count--;
     };
-    Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game);
-    Server.get_features_by_sessID(features_handler, this.selected_session_id, this.active_game, Object.keys(feature_request_list));
+    if (this.request_count < rt_config.max_outstanding_requests)
+    {
+      this.request_count++;
+      Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game);
+    }
+    else
+    {
+      console.log(`Request count is ${this.request_count}, not making another.`);
+    }
+    if (this.request_count < rt_config.max_outstanding_requests)
+    {
+      this.request_count++;
+      Server.get_features_by_sessID(features_handler, this.selected_session_id, this.active_game, Object.keys(feature_request_list));
+    }
+    else
+    {
+      console.log(`Request count is ${this.request_count}, not making another.`);
+    }
     //let dummy_preds = '{"19080515273765540": {"max_level": 0, "cur_level": 1, "seconds_inactive": 38, "predictQuitBeforeLvl8": 0.5}}';
     //predictions_handler(dummy_preds);
   }
@@ -368,6 +394,7 @@ class SessionList
       {
         console.log(`Could not parse result as JSON:\n ${json_result}`);
         console.log(`Full error: ${err.toString()}`);
+        ret_val = {"message": json_result.toString()};
       }
       finally
       {
