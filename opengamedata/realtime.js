@@ -6,6 +6,10 @@ function onload()
   // Create a SessionList instance for tracking state, and start the refresh loop.
   sess_list = new SessionList();
   rt_change_games(sess_list, "CRYSTAL");
+  if (rt_config.custom_title !== null)
+  {
+    document.title = rt_config.custom_title;
+  }
   document.getElementById("require_pid").onclick = function() {
       sess_list.require_player_id = this.checked;
       sess_list.refreshActiveSessionList();
