@@ -63,6 +63,12 @@ class Server
       Server._execute_request(callback, post_string)
    }
 
+   /**
+    * Private function to do actual execution of a request. 
+    * Creates a post request with given callback and parameter string.
+    * @param {*} callback 
+    * @param {*} post_string 
+    */
    static _execute_request(callback, post_string)
    {
       var req = new XMLHttpRequest();
