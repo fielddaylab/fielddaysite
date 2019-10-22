@@ -37,7 +37,7 @@ var game_links = {
 function change_tables(value, start=false) {
   let table = document.querySelector("table");
   table.innerHTML = '';
-  jQuery.getJSON("data/file_list.json",function(result){
+  let loadIndexCallback = function(result){
     tables = result;
     value = start ? Object.keys(tables)[0] : value
     let table = document.querySelector("table");
@@ -58,7 +58,8 @@ function change_tables(value, start=false) {
     document.getElementById('game_img').alt = "Example image of "+value;
 
     
-  });
+  };
+  jQuery.getJSON("https://opengamedata.fielddaylab.wisc.edu/data/file_list.json", loadIndexCallback);
 }
 
 function generateTableHead(table, headers) {
