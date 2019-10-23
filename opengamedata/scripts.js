@@ -59,7 +59,7 @@ function change_tables(value, start=false) {
 
     
   };
-  jQuery.getJSON("https://opengamedata.fielddaylab.wisc.edu/data/file_list.json", loadIndexCallback);
+  jQuery.getJSON(`https://opengamedata.fielddaylab.wisc.edu/data/file_list.json`, loadIndexCallback);
 }
 
 function generateTableHead(table, headers) {
@@ -119,9 +119,17 @@ function generateTable(table, data, headers) {
           }
           break;
         default:
-            text = document.createTextNode(set[key].toString());
-            cell.appendChild(text);
-
+          let text_val;
+          if (set[key] != null)
+          {
+            text_val = set[key].toString();
+          }
+          else
+          {
+            text_val = "null";
+          }
+          text = document.createTextNode(text_val);
+          cell.appendChild(text);
       }
     }
   }
