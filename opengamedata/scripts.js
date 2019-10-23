@@ -88,6 +88,8 @@ function generateTable(table, data, headers) {
           cell.appendChild(text);
           break;
         case "raw":
+          if (set["raw"] != null)
+          {
             var raw_link = document.createElement('a');
             var linkText = document.createTextNode("Raw");
             raw_link.appendChild(linkText);
@@ -95,24 +97,29 @@ function generateTable(table, data, headers) {
             raw_link.href = set["raw"].replace('./', 'https://opengamedata.fielddaylab.wisc.edu/');
             cell.appendChild(raw_link);
             cell.append(document.createTextNode(' - '))
-
-            var sql_link = document.createElement('a');
+          }
+          if (set["proc"] != null)
+          {
+            var proc_link = document.createElement('a');
             var linkText = document.createTextNode("Processed");
-            sql_link.appendChild(linkText);
-            sql_link.title = "Processed";
-            sql_link.href = set["proc"].replace('./', 'https://opengamedata.fielddaylab.wisc.edu/');
-            cell.appendChild(sql_link);
+            proc_link.appendChild(linkText);
+            proc_link.title = "Processed";
+            proc_link.href = set["proc"].replace('./', 'https://opengamedata.fielddaylab.wisc.edu/');
+            cell.appendChild(proc_link);
             cell.append(document.createTextNode(' - '))
-
+          }
+          if (set["sql"] != null)
+          {
             var sql_link = document.createElement('a');
             var linkText = document.createTextNode("SQL");
             sql_link.appendChild(linkText);
             sql_link.title = "SQL Dump";
             sql_link.href = set["sql"].replace('./', 'https://opengamedata.fielddaylab.wisc.edu/');
             cell.appendChild(sql_link);
+          }
           break;
         default:
-            text = document.createTextNode(set[key]);
+            text = document.createTextNode(set[key].toString());
             cell.appendChild(text);
 
       }
