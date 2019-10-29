@@ -183,7 +183,7 @@ class SessionList
       let session_id = id;
       let player_id = this.active_sessions[session_id]["player_id"];
       // start constructing the element
-      let session_div = this.constructListedSession(session_id, player_id);
+      let session_div = this.constructDisplayedSession(session_id, player_id);
       session_list_area.appendChild(session_div);
     }
     this.displayed_session_ids = [...this.active_session_ids]; // at this point, these should theoretically be the same.
@@ -195,7 +195,7 @@ class SessionList
     }
   }
 
-  constructListedSession(session_id, player_id)
+  constructDisplayedSession(session_id, player_id)
   {
     let game_themes = {"CRYSTAL": "seascape", "WAVES":"daisygarden", "JOWILDER": "heatwave", "LAKELAND": "summerwarmth"}
     let that = this; // needed for onclick handler.
