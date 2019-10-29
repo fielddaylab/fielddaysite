@@ -121,7 +121,7 @@ class SessionList
       console.log('Refreshed session IDs:');
       console.log(that.active_sessions);
       that.active_session_ids = Array.from(Object.keys(that.active_sessions));
-      that.refreshSessionDisplayList();
+      that.refreshDisplayedSessionList();
       that.request_count--;
     };
     if (this.request_count < rt_config.max_outstanding_requests)
@@ -140,7 +140,7 @@ class SessionList
    * This is done in a way that preserves the order of session IDs
    * as much as possible.
    */
-  refreshSessionDisplayList() {
+  refreshDisplayedSessionList() {
     let display_set = new Set(this.displayed_session_ids);
     let active_set = new Set(this.active_session_ids);
     let remove_set = setMinus(display_set, active_set); // subtract active from display to get inactives, which are currently displayed.
@@ -163,19 +163,7 @@ class SessionList
       }
       // B) Else, update the max and current levels.
       else {
-        let cur_level_div = document.getElementById(`cur_level_${session_id}`);
-        cur_level_div.innerText = `current: ${this.active_sessions[session_id]["cur_level"].toString()}`;
-        let max_level_div = document.getElementById(`max_level_${session_id}`);
-        max_level_div.innerText = `max: ${this.active_sessions[session_id]["max_level"].toString()}`;
-        let inactive_span = document.getElementById(`idle_${session_id}`);
-        if (this.active_sessions[session_id]["idle_time"] > 60)
-        {
-          inactive_span.style.display = "inline";
-        }
-        else
-        {
-          inactive_span.style.display = "none";
-        }
+        this.populateDisplayedSession(session_id);
       }
     }
     // loop over all newly active sessions, adding them to the list.
@@ -212,14 +200,11 @@ class SessionList
     session_div.appendChild(session_link);
     let cur_level_div = document.createElement("div");
     cur_level_div.id = `cur_level_${session_id}`;
-    cur_level_div.innerText = `current: ${this.active_sessions[session_id]["cur_level"].toString()}`;
     session_div.appendChild(cur_level_div);
     let max_level_div = document.createElement("div");
     max_level_div.id = `max_level_${session_id}`;
-    max_level_div.innerText = `max: ${this.active_sessions[session_id]["max_level"].toString()}`;
     session_div.appendChild(max_level_div);
     session_div.appendChild(document.createElement("br"));
-
 
     let alert_msg = document.createElement("span");
     alert_msg.id = `idle_${session_id}`;
@@ -227,7 +212,25 @@ class SessionList
     alert_msg.classList.add("player_inactive");
     session_div.appendChild(alert_msg);
 
+    this.populateDisplayedSession(session_id);
+
     return session_div
+  }
+
+  populateDisplayedSession(session_id) {
+    let cur_level_div = document.getElementById(`cur_level_${session_id}`);
+    cur_level_div.innerText = `current: ${this.active_sessions[session_id]["cur_level"].toString()}`;
+    let max_level_div = document.getElementById(`max_level_${session_id}`);
+    max_level_div.innerText = `max: ${this.active_sessions[session_id]["max_level"].toString()}`;
+    let inactive_span = document.getElementById(`idle_${session_id}`);
+    if (this.active_sessions[session_id]["idle_time"] > 60)
+    {
+      inactive_span.style.display = "inline";
+    }
+    else
+    {
+      inactive_span.style.display = "none";
+    }
   }
 
   /**
@@ -250,11 +253,9 @@ class SessionList
     let feature_request_list = this.get_feature_request_list();
     let features_handler = function(result) {
       let features_raw = that.parseJSONResult(result);
-      let features_parsed = features_raw[that.selected_session_id]
+      let features_parsed = features_raw[that.selected_session_id];
       // loop over all predictions, adding to the UI.
       for (let feature_name in features_parsed) {
-        let raw_value = features_parsed[feature_name]["value"];
-        let feature_value = SessionList.formatValue(raw_value, feature_request_list[feature_name]["type"]);
         // first, make a div for everything to sit in.
         let next_feature_span = document.createElement("span");
         next_feature_span.id=feature_name;
@@ -266,9 +267,9 @@ class SessionList
         // finally, add an element for the prediction value to the div.
         let value_elem = document.createElement("h3");
         value_elem.id = `${feature_name}_val`;
-        value_elem.innerText = feature_value;
         next_feature_span.appendChild(value_elem);
         playstats.appendChild(next_feature_span);
+        that.populateFeatureBox(feature_name, features_parsed);
       }
 
       if(features_raw === 'null'){
@@ -280,7 +281,6 @@ class SessionList
       let prediction_list = predictions_raw[that.selected_session_id]
       // loop over all predictions, adding to the UI.
       for (let prediction_name in prediction_list) {
-        let prediction_value = prediction_list[prediction_name]["value"];
         // first, make a div for everything to sit in.
         let next_prediction = document.createElement("span");
         next_prediction.id=prediction_name;
@@ -292,10 +292,9 @@ class SessionList
         // finally, add an element for the prediction value to the div.
         let value_elem = document.createElement("h3");
         value_elem.id = `${prediction_name}_val`;
-        value_elem.innerText = prediction_value;
         next_prediction.appendChild(value_elem);
         playstats.appendChild(next_prediction);
-
+        that.populatePredictionBox(prediction_name, prediction_list);
       }
       if(predictions_raw === 'null'){
         playstats_message('No predictions available.')
@@ -321,10 +320,7 @@ class SessionList
       // After getting the feature values, loop over whole list,
       // updating values.
       for (let feature_name in features_parsed) {
-        let raw_value = features_parsed[feature_name]["value"];
-        let feature_value = SessionList.formatValue(raw_value, feature_request_list[feature_name]["type"]);
-        let value_elem = document.getElementById(`${feature_name}_val`);
-        value_elem.innerText = feature_value;
+        that.populateFeatureBox(feature_name, features_parsed);
       }
       that.request_count--;
     };
@@ -335,9 +331,7 @@ class SessionList
       // After getting the prediction values, loop over whole list,
       // updating values.
       for (let prediction_name in prediction_list) {
-        let prediction_value = prediction_list[prediction_name]["value"];
-        let value_elem = document.getElementById(`${prediction_name}_val`);
-        value_elem.innerText = prediction_value;
+        that.populatePredictionBox(prediction_name, prediction_list);
       }
       that.request_count--;
     };
@@ -352,6 +346,19 @@ class SessionList
     {
       console.log(`Request count is ${this.request_count}, not making another.`);
     }
+  }
+
+  populateFeatureBox(feature_name, features_parsed) {
+    let raw_value = features_parsed[feature_name]["value"];
+    let feature_value = SessionList.formatValue(raw_value, feature_request_list[feature_name]["type"]);
+    let value_elem = document.getElementById(`${feature_name}_val`);
+    value_elem.innerText = feature_value;
+  }
+
+  populatePredictionBox(prediction_name, prediction_list) {
+    let prediction_value = prediction_list[prediction_name]["value"];
+    let value_elem = document.getElementById(`${prediction_name}_val`);
+    value_elem.innerText = prediction_value;
   }
 
   /**
