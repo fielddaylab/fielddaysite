@@ -345,13 +345,6 @@ class SessionList
     {
       this.request_count++;
       Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game);
-    }
-    else
-    {
-      console.log(`Request count is ${this.request_count}, not making another.`);
-    }
-    if (this.request_count < rt_config.max_outstanding_requests)
-    {
       this.request_count++;
       Server.get_features_by_sessID(features_handler, this.selected_session_id, this.active_game, Object.keys(feature_request_list));
     }
