@@ -173,6 +173,7 @@ class SessionList
       // start constructing the element
       let session_div = this.constructDisplayedSession(session_id, player_id);
       session_list_area.appendChild(session_div);
+      this.populateDisplayedSession(session_id);
     }
     this.displayed_session_ids = [...this.active_session_ids]; // at this point, these should theoretically be the same.
     if(this.displayed_session_ids.length == 0){
@@ -211,8 +212,6 @@ class SessionList
     alert_msg.innerText = "Inactive";
     alert_msg.classList.add("player_inactive");
     session_div.appendChild(alert_msg);
-
-    this.populateDisplayedSession(session_id);
 
     return session_div
   }
@@ -269,7 +268,7 @@ class SessionList
         value_elem.id = `${feature_name}_val`;
         next_feature_span.appendChild(value_elem);
         playstats.appendChild(next_feature_span);
-        that.populateFeatureBox(feature_name, features_parsed);
+        that.populateFeatureBox(feature_name, features_parsed, feature_request_list);
       }
 
       if(features_raw === 'null'){
@@ -320,7 +319,7 @@ class SessionList
       // After getting the feature values, loop over whole list,
       // updating values.
       for (let feature_name in features_parsed) {
-        that.populateFeatureBox(feature_name, features_parsed);
+        that.populateFeatureBox(feature_name, features_parsed, feature_request_list);
       }
       that.request_count--;
     };
@@ -348,7 +347,7 @@ class SessionList
     }
   }
 
-  populateFeatureBox(feature_name, features_parsed) {
+  populateFeatureBox(feature_name, features_parsed, feature_request_list) {
     let raw_value = features_parsed[feature_name]["value"];
     let feature_value = SessionList.formatValue(raw_value, feature_request_list[feature_name]["type"]);
     let value_elem = document.getElementById(`${feature_name}_val`);
