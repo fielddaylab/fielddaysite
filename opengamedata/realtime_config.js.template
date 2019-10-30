@@ -1,4 +1,5 @@
 rt_config = {
+    protocol: "https",
     host: "",
     path: "cgi-bin/opengamedata/realtime.cgi",
     max_outstanding_requests: 20,
