@@ -412,7 +412,18 @@ class SessionList
       }
     } else if(this.active_game === 'LAKELAND'){
       feature_request_list = {
-        "sess_count_tired_txt_emotes_per_capita":{"name": "Test", "type": "float"}
+        "sess_count_achievements":{"name": "# Achievements", "type": "int"},
+        "sess_count_encounter_tutorial":{"name": "# Tutorials", "type": "int"},
+        "sess_count_skips":{"name": "# Skip Tutorials", "type": "int"},
+        "sess_count_buy_home":{"name": "# Buy Home", "type": "int"},
+        "sess_count_buy_farm":{"name": "# Buy Farm", "type": "int"},
+        "sess_count_buy_fertilizer":{"name": "# Buy Fertilizer", "type": "int"},
+        "sess_count_buy_livestock":{"name": "# Buy Livestock", "type": "int"},
+        "sess_money_earned":{"name": "Money Earned", "type": "int"},
+        "sess_count_deaths":{"name": "# Deaths", "type": "int"},
+        "sess_percent_building_a_farm_on_highest_nutrition_tile":{"name": "% Build Farm on Highest Nutrition Tile", "type": "int"},
+        "sess_percent_placing_fertilizer_on_lowest_nutrient_farm":{"name": "% Fertilizer on Lowest Nutrient Farm", "type": "int"},
+        "sess_ActiveEventCount":{"name": "Active Event Count", "type": "int"},
       }
     }
     return feature_request_list;
