@@ -9,30 +9,6 @@ var headers = {
   "raw": "Downloads",
 }
 var active_game;
-var thumbs = {
-  'WAVES': '../assets/img/thumbs/waves-thumb.jpg',
-  'LAKELAND': '../assets/img/thumbs/lakeland-thumb.jpg',
-  'CRYSTAL': '../assets/img/thumbs/crystal-thumb.png',
-  'JOWILDER': '../assets/img/thumbs/jowilder-thumb.jpg'
-}
-var data_readmes = {
-  'WAVES': 'https://github.com/fielddaylab/waves/blob/master/README.md',
-  'LAKELAND': 'https://github.com/fielddaylab/lakeland/blob/master/README.md',
-  'CRYSTAL': 'https://github.com/fielddaylab/crystal/blob/master/README.md',
-  'JOWILDER': 'https://github.com/fielddaylab/jo_wilder/blob/master/README.md'
-}
-var feature_readmes = {
-  'WAVES': 'https://opengamedata.fielddaylab.wisc.edu/data/WAVES/readme.md',
-  'LAKELAND': 'https://opengamedata.fielddaylab.wisc.edu/data/LAKELAND/readme.md',
-  'CRYSTAL': 'https://opengamedata.fielddaylab.wisc.edu/data/CRYSTAL/readme.md',
-  'JOWILDER': 'https://opengamedata.fielddaylab.wisc.edu/data/JOWILDER/readme.md',
-}
-var game_links = {
-  'WAVES': 'https://theyardgames.org/game/waves.html',
-  'LAKELAND': 'https://fielddaylab.wisc.edu/play/lakeland/game/iframe.html',
-  'CRYSTAL': 'https://theyardgames.org/game/crystal.html',
-  'JOWILDER': 'https://wpteducation.org/CapitolCase',
-}
 
 function change_tables(value, start=false) {
   let table = document.querySelector("table");
