@@ -27,8 +27,11 @@ function change_tables(value, start=false) {
     }
     generateTable(table, tables[value], headers);
     document.getElementById('game_title').innerHTML = value;
+    document.getElementById('game_title_2').innerHTML = value;
     document.getElementById('game_events_readme').href = data_readmes[value];
+    document.getElementById('game_events_readme_2').href = data_readmes[value];
     document.getElementById('game_features_readme').href = feature_readmes[value];
+    document.getElementById('game_features_readme_2').href = feature_readmes[value];
     document.getElementById('game_link').href = game_links[value];
     document.getElementById('game_img').src = thumbs[value];
     document.getElementById('game_img').alt = "Example image of "+value;
