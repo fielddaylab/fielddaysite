@@ -28,6 +28,7 @@ function change_tables(value, start=false) {
     generateTable(table, tables[value], headers);
     document.getElementById('game_title').innerHTML = value;
     document.getElementById('game_title_2').innerHTML = value;
+    document.getElementById('game_title_3').innerHTML = value;
     document.getElementById('game_events_readme').href = data_readmes[value];
     document.getElementById('game_events_readme_2').href = data_readmes[value];
     document.getElementById('game_features_readme').href = feature_readmes[value];
