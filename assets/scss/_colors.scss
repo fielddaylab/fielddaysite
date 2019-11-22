@@ -6,6 +6,9 @@ $light_red: #FCC9C2;
 .red { color: $red; }
 .light-red { color: $light_red; }
 
+$pink: #FAD9D9;
+.pink { color: $pink; }
+
 $light_blue: #5B95A1;
 $blue: #06AED5;
 $dark_blue: #086788;
@@ -27,9 +30,10 @@ $dark-yellow: #D6A718;
 
 $ultralight_gray: #f5f5f5;
 $light_gray: #DDDDDD;
+$mid_gray: #A3A3A3;
 $gray: #5A5F6A;
 $dark_gray: #2B303B;
-$black: #222830;
+$black: #001E2A;
 .ultralight-gray { color: $ultralight_gray; }
 .light-gray { color: $light_gray; }
 .gray { color: $gray; }

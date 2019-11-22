@@ -7518,6 +7518,9 @@ button.close {
 .light-red {
   color: #FCC9C2; }
 
+.pink {
+  color: #FAD9D9; }
+
 .light_blue {
   color: #5B95A1; }
 
@@ -7555,20 +7558,21 @@ button.close {
   color: #2B303B; }
 
 .black {
-  color: #222830; }
+  color: #001E2A; }
 
 /* Buttons
 ------------------------------------------ */
 .button {
   display: inline-block;
   padding: 15px 15px;
-  font-size: 16px;
+  font-family: futura-pt, sans-serif;
+  font-size: 18px;
   line-height: 1.2em;
   border: 1px solid #2B303B;
   text-transform: uppercase;
-  letter-spacing: .15em;
-  color: #222830;
-  font-weight: 400;
+  letter-spacing: .2em;
+  color: #001E2A;
+  font-weight: 600;
   background: transparent;
   box-shadow: none;
   border-radius: 5px;
@@ -7605,6 +7609,17 @@ button.close {
       color: #fff; }
       .button.red:hover i, .button.red.filled i {
         color: #fff; }
+  .button.pink {
+    color: #FAD9D9;
+    border-color: #FAD9D9;
+    background: transparent; }
+    .button.pink i {
+      color: #FAD9D9; }
+    .button.pink:hover, .button.pink.filled {
+      background: #FAD9D9;
+      color: #001E2A; }
+      .button.pink:hover i, .button.pink.filled i {
+        color: #fff; }
   .button.light-red {
     color: #FCC9C2;
     border-color: #FCC9C2;
@@ -7635,9 +7650,9 @@ button.close {
       color: #E0BC4E; }
     .button.yellow:hover, .button.yellow.filled {
       background: #E0BC4E;
-      color: #222830; }
+      color: #001E2A; }
       .button.yellow:hover i, .button.yellow.filled i {
-        color: #222830; }
+        color: #001E2A; }
   .button.light-blue {
     color: #086788;
     border-color: #086788;
@@ -7656,7 +7671,7 @@ button.close {
     .button.blue-black i {
       color: #1F2E3B; }
     .button.blue-black:hover, .button.blue-black.filled {
-      background: #222830;
+      background: #001E2A;
       color: #fff; }
       .button.blue-black:hover i, .button.blue-black.filled i {
         color: #fff; }
@@ -7690,17 +7705,18 @@ button.close {
       color: #fff; }
     .button.white:hover, .button.white.filled {
       background: #fff;
-      color: #222830 !important; }
+      color: #001E2A !important; }
       .button.white:hover i, .button.white.filled i {
-        color: #222830; }
+        color: #001E2A; }
   .button.small {
+    letter-spacing: 3px;
     min-width: auto;
-    font-size: 13px;
-    padding: 10px 18px; }
+    font-size: 14px;
+    padding: 6px 15px; }
   .button.xsmall {
     min-width: auto;
-    font-size: 10px;
-    padding: 10px 15px; }
+    font-size: 12px;
+    padding: 8px 13px; }
   .button.full-width {
     text-align: center; }
   .button.round {
@@ -7767,8 +7783,8 @@ body {
   letter-spacing: 1px;
   margin-bottom: 20px; }
 
-h1, h2, h3 {
-  font-family: futura-pt, sans-serif;
+h1, h2, h3, h4 {
+  font-family: brandon-grotesque, futura-pt, sans-serif;
   font-weight: 400;
   font-style: normal; }
 
@@ -7799,14 +7815,9 @@ p, a, li {
   font-weight: 400; }
   p .bold, a .bold, li .bold {
     font-weight: 600; }
-  @media only screen and (max-width: 1024px) {
-    p, a, li {
-      font-size: 14px;
-      letter-spacing: 1px;
-      line-height: 30px; } }
   @media only screen and (max-width: 768px) {
     p, a, li {
-      font-size: 13px;
+      font-size: 16px;
       letter-spacing: 1px;
       line-height: 25px; } }
   p.big, a.big, li.big {
@@ -7985,7 +7996,7 @@ p {
       text-transform: uppercase;
       opacity: 0;
       margin: 0;
-      color: #222830;
+      color: #001E2A;
       background: #fff;
       transition: all .3s ease-in-out; }
       @media only screen and (max-width: 768px) {
@@ -7996,7 +8007,7 @@ p {
       transition: all .3s ease-in-out; }
       .drawer .draweritem:hover .draweritem-content {
         background: #e0bc4e;
-        color: #222830; }
+        color: #001E2A; }
       .drawer .draweritem:hover .go {
         opacity: 1; }
 
@@ -8172,7 +8183,7 @@ p {
       .small-nav ul li a {
         text-transform: uppercase;
         font-size: 12px;
-        color: #222830;
+        color: #001E2A;
         cursor: pointer; }
         .small-nav ul li a:hover {
           color: #D6A718;
@@ -8378,7 +8389,7 @@ p {
               width: 50%; } }
           .mobile-nav-container .content .nav-content .nav-links .link-col.main {
             width: 28%;
-            border-right: 2px solid #222830;
+            border-right: 2px solid #001E2A;
             margin-right: 5vw; }
             @media only screen and (max-width: 768px) {
               .mobile-nav-container .content .nav-content .nav-links .link-col.main {
@@ -8419,7 +8430,7 @@ p {
 .icon {
   width: 20px;
   height: 2px;
-  background-color: #222830;
+  background-color: #001E2A;
   position: absolute;
   top: 23px;
   left: 15px;
@@ -8463,7 +8474,7 @@ p {
 .mobile-nav-toggle-wrap .icon:after {
   width: 20px;
   height: 2px;
-  background-color: #222830;
+  background-color: #001E2A;
   content: "";
   border-radius: 10px;
   position: absolute;
@@ -8558,7 +8569,7 @@ section {
     height: 130vh;
     -webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
-    background: #222830;
+    background: #001E2A;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -8681,7 +8692,7 @@ section {
           right: initial; } }
 
 .contact-modal {
-  background: #222830;
+  background: #001E2A;
   color: #fff;
   padding: 5vw;
   text-align: center; }
@@ -8743,7 +8754,7 @@ section {
         height: auto;
         min-width: initial; }
     .hero-slider .carousel-inner .item .item-info.dark {
-      color: #222830; }
+      color: #001E2A; }
     .hero-slider .carousel-inner .item .item-info h2 {
       margin-bottom: 10px;
       margin-left: 0; }
@@ -8892,7 +8903,7 @@ section {
       .slide-wrap .slide-bullets .slide-bullet.active .bullet {
         background: url(../img/ui/bullet-filled.png) no-repeat;
         background-size: contain;
-        color: #222830; }
+        color: #001E2A; }
 
 .row {
   margin-left: 0px;
@@ -9218,7 +9229,7 @@ section {
       .our_process .process.process2 {
         background: linear-gradient(to bottom, #a4a6cc 0%, white 100%); } }
     .our_process .process.process2 h2, .our_process .process.process2 p {
-      color: #222830; }
+      color: #001E2A; }
     .our_process .process.process2 .spaceplane {
       background: url(../img/illustrations/spaceplane-delivery.png) no-repeat;
       background-size: 100% auto;
@@ -9311,7 +9322,7 @@ hr {
   ---------------------------*/ }
   .singleapp .app-hero {
     height: 100vh;
-    background: #222830;
+    background: #001E2A;
     display: flex;
     align-items: center; }
     .singleapp .app-hero .button {
@@ -9404,7 +9415,7 @@ hr {
         .singleapp .app-hero .hero-content .app-info .coming-soon {
           padding: 5px;
           background: #fff;
-          color: #222830;
+          color: #001E2A;
           border-radius: 5px;
           display: inline-block; }
         .singleapp .app-hero .hero-content .app-info.long-title h1, .singleapp .app-hero .hero-content .app-info.long-title p {
@@ -10395,10 +10406,10 @@ hr {
           .workwithus .carousel .carousel-inner .item .info.color-switch {
             background: #fff; }
             .workwithus .carousel .carousel-inner .item .info.color-switch h3, .workwithus .carousel .carousel-inner .item .info.color-switch p {
-              color: #222830; }
+              color: #001E2A; }
             .workwithus .carousel .carousel-inner .item .info.color-switch .button {
-              color: #222830;
-              border: 2px solid #222830; } }
+              color: #001E2A;
+              border: 2px solid #001E2A; } }
         @media only screen and (max-width: 768px) {
           .workwithus .carousel .carousel-inner .item .info {
             width: 100%;
@@ -10535,18 +10546,175 @@ hr {
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122D3D', endColorstr='#183E4C',GradientType=1 );
       /* IE6-9 fallback on horizontal gradient */ }
 
+.teachers #mainwrapper {
+  background: #FAD9D9; }
+  .teachers #mainwrapper .section-title {
+    font-size: 36px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding: 5vw;
+    background: url(/assets/img/illustrations/cloud-white.png) no-repeat;
+    background-size: 300px 100px;
+    background-position: center; }
+
+.teachers .fellowships-content {
+  background: #fff;
+  padding: 5vw; }
+  .teachers .fellowships-content .gridder-list {
+    width: 31%;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.14);
+    text-align: left; }
+    @media only screen and (max-width: 1060px) {
+      .teachers .fellowships-content .gridder-list {
+        width: 47%; } }
+    @media only screen and (max-width: 768px) {
+      .teachers .fellowships-content .gridder-list {
+        width: 98%; } }
+    .teachers .fellowships-content .gridder-list:hover {
+      background: #001E2A; }
+    .teachers .fellowships-content .gridder-list.selectedItem {
+      background: #001E2A; }
+    .teachers .fellowships-content .gridder-list .game-thumbnail {
+      height: 200px; }
+      @media only screen and (max-width: 768px) {
+        .teachers .fellowships-content .gridder-list .game-thumbnail {
+          height: 275px; } }
+    .teachers .fellowships-content .gridder-list .card-summary h3 {
+      line-height: 30px;
+      letter-spacing: 3px; }
+    .teachers .fellowships-content .gridder-list .card-summary h4 {
+      color: #A3A3A3;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+    .teachers .fellowships-content .gridder-list .card-triangle {
+      border-top: 15px solid #001E2A; }
+  .teachers .fellowships-content .gridder-expanded-content {
+    margin: 0 auto;
+    width: 98%;
+    margin-top: 5vw;
+    margin-bottom: 5vw; }
+    .teachers .fellowships-content .gridder-expanded-content .fellows-list, .teachers .fellowships-content .gridder-expanded-content .fellowship-summary {
+      margin-top: 20px;
+      padding: 2vw; }
+      .teachers .fellowships-content .gridder-expanded-content .fellows-list .fellows, .teachers .fellowships-content .gridder-expanded-content .fellowship-summary .fellows {
+        font-family: 'Courier', 'courier-new', serif;
+        column-count: 2; }
+        .teachers .fellowships-content .gridder-expanded-content .fellows-list .fellows a, .teachers .fellowships-content .gridder-expanded-content .fellowship-summary .fellows a {
+          display: block;
+          color: #EE8F8F; }
+    .teachers .fellowships-content .gridder-expanded-content h4 {
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 30px; }
+    .teachers .fellowships-content .gridder-expanded-content .groupshot {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-top: 10px; }
+    .teachers .fellowships-content .gridder-expanded-content h3 {
+      font-size: 40px; }
+    .teachers .fellowships-content .gridder-expanded-content .game-expanded {
+      padding-left: 0px;
+      margin-top: 20px; }
+    .teachers .fellowships-content .gridder-expanded-content .expanded-thumb {
+      border-radius: 5px;
+      width: 100%;
+      margin-top: 25px; }
+    .teachers .fellowships-content .gridder-expanded-content span {
+      font-family: brandon-grotesque, futura-pt, sans-serif;
+      display: inline;
+      margin-right: 30px;
+      color: #A3A3A3;
+      text-transform: uppercase;
+      letter-spacing: 3px; }
+      .teachers .fellowships-content .gridder-expanded-content span a {
+        color: #EE8F8F;
+        letter-spacing: 3px; }
+  .teachers .fellowships-content .gridder-navigation {
+    border-top: none;
+    border-bottom: none; }
+    .teachers .fellowships-content .gridder-navigation .nav-left a {
+      border-left: none;
+      border-right: none; }
+
+.teachers .page-facts {
+  background: #FAD9D9; }
+  .teachers .page-facts .info {
+    padding: 6vw; }
+  .teachers .page-facts .fact {
+    background: none; }
+    .teachers .page-facts .fact .photo {
+      padding: 5vw;
+      display: flex;
+      position: relative;
+      justify-content: center; }
+      .teachers .page-facts .fact .photo img {
+        width: 15vw;
+        height: auto; }
+      .teachers .page-facts .fact .photo .astro-book {
+        animation: float 6s ease-in-out infinite;
+        height: 15vw;
+        margin-top: 4vw; }
+        @media only screen and (max-width: 768px) {
+          .teachers .page-facts .fact .photo .astro-book {
+            height: 23vw;
+            width: 33vw;
+            margin-top: 15vw; } }
+      .teachers .page-facts .fact .photo .astro-confused {
+        animation: float 7s ease-in-out infinite;
+        height: 24vw; }
+        @media only screen and (max-width: 768px) {
+          .teachers .page-facts .fact .photo .astro-confused {
+            height: 47vw;
+            width: 30vw; } }
+      .teachers .page-facts .fact .photo .astro-flight {
+        height: 27vw;
+        width: 10vw;
+        z-index: 100; }
+        @media only screen and (max-width: 768px) {
+          .teachers .page-facts .fact .photo .astro-flight {
+            height: 45vw;
+            width: 16vw; } }
+      .teachers .page-facts .fact .photo .astro-flame {
+        height: 15vw;
+        width: 8vw;
+        position: absolute;
+        animation: burn 1.5s ease-in-out infinite;
+        z-index: 10;
+        top: 25vw; }
+        @media only screen and (max-width: 768px) {
+          .teachers .page-facts .fact .photo .astro-flame {
+            top: 35vw;
+            height: 20vw;
+            width: 10vw; } }
+      .teachers .page-facts .fact .photo .astro-flame2 {
+        height: 15vw;
+        width: 8vw;
+        position: absolute;
+        z-index: 10;
+        top: 25vw;
+        animation: burn 1.5s ease-in-out infinite;
+        animation-delay: -.5s; }
+        @media only screen and (max-width: 768px) {
+          .teachers .page-facts .fact .photo .astro-flame2 {
+            top: 35vw;
+            height: 20vw;
+            width: 10vw; } }
+      .teachers .page-facts .fact .photo .flight-lines {
+        width: 5vw;
+        height: 20vw;
+        transform: translateX(-3vw); }
+        @media only screen and (max-width: 768px) {
+          .teachers .page-facts .fact .photo .flight-lines {
+            height: 30vw;
+            width: 7.5vw;
+            margin-top: 8vw; } }
+        .teachers .page-facts .fact .photo .flight-lines.two {
+          transform: translateX(3vw); }
+
 .teachers .page_hero {
-  background: #8d90bf;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #122D3D 0%, #183E4C 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #122D3D 0%, #183E4C 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #122D3D 0%, #183E4C 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122D3D', endColorstr='#183E4C',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */
-  padding: 10vw 0vw; }
+  background: #001E2A;
+  padding: 5vw 0vw; }
   @media only screen and (max-width: 768px) {
     .teachers .page_hero {
       flex-direction: column-reverse;
@@ -10554,11 +10722,13 @@ hr {
       padding: 2vw; } }
   .teachers .page_hero .info {
     color: #fff;
-    width: 50%;
-    padding: 8vw 0vw 8vw 8vw; }
+    width: 40%;
+    padding: 8vw 0vw 8vw 8vw;
+    margin-right: 10%; }
+    .teachers .page_hero .info p {
+      margin-bottom: 20px; }
     @media only screen and (max-width: 768px) {
       .teachers .page_hero .info {
-        padding: 3vw;
         width: 100%; } }
     .teachers .page_hero .info h1 {
       text-transform: uppercase;
@@ -10568,46 +10738,69 @@ hr {
         .teachers .page_hero .info h1 {
           font-size: 40px; } }
   .teachers .page_hero .graphic {
-    width: 50%; }
+    width: 50%;
+    margin-top: 5vw; }
     @media only screen and (max-width: 768px) {
       .teachers .page_hero .graphic {
         height: 40vw;
         width: 100%;
         margin-top: 20vw; } }
     .teachers .page_hero .graphic .teachernaut {
-      width: 12vw;
-      margin-right: 8vw; }
+      width: 10vw;
+      margin-right: 6vw; }
       @media only screen and (max-width: 768px) {
         .teachers .page_hero .graphic .teachernaut {
-          width: 25vw; } }
+          width: 30vw;
+          margin-left: 2vw; } }
     .teachers .page_hero .graphic .kidstronaut {
       position: relative;
       z-index: 200;
-      width: 7vw; }
+      width: 7vw;
+      margin-right: -1vw; }
       @media only screen and (max-width: 768px) {
         .teachers .page_hero .graphic .kidstronaut {
-          width: 15vw; } }
+          width: 16vw;
+          margin-left: 3vw; } }
       .teachers .page_hero .graphic .kidstronaut.two {
         margin-top: -20vw;
-        margin-left: 2vw; }
+        margin-left: 2vw;
+        width: 10vw; }
+        @media only screen and (max-width: 768px) {
+          .teachers .page_hero .graphic .kidstronaut.two {
+            width: 14vw; } }
       .teachers .page_hero .graphic .kidstronaut.three {
-        margin-bottom: -20vw; }
+        margin-bottom: -10vw;
+        width: 9vw; }
+        @media only screen and (max-width: 768px) {
+          .teachers .page_hero .graphic .kidstronaut.three {
+            width: 13vw; } }
     .teachers .page_hero .graphic .cloud {
-      width: 350px;
+      width: 300px;
       height: auto;
       position: absolute;
-      top: 12vw;
-      right: 5vw;
-      opacity: 0.4;
+      top: 10vw;
+      right: 25vw;
       z-index: 101;
-      animation: float-horiz 10s ease-in-out infinite; }
+      animation: float-horiz 10s ease-in-out infinite;
+      opacity: 1; }
+      @media only screen and (max-width: 1024px) {
+        .teachers .page_hero .graphic .cloud {
+          width: 150px;
+          right: -15vw;
+          opacity: .5; } }
       .teachers .page_hero .graphic .cloud.two {
-        top: 35vw;
-        right: 20vw;
+        top: initial;
+        bottom: 50px;
+        right: 12vw;
         width: 300px;
-        opacity: 0.4;
         z-index: 99;
         animation: float-horiz 6s 6s ease-in-out infinite; }
+        @media only screen and (max-width: 1024px) {
+          .teachers .page_hero .graphic .cloud.two {
+            width: 150px;
+            top: 60vw;
+            right: 6vw;
+            opacity: .5; } }
 
 .research #mainwrapper {
   overflow-x: initial; }
@@ -10901,7 +11094,7 @@ hr {
       border-radius: 10px;
       text-align: center;
       padding: 2vw;
-      color: #222830;
+      color: #001E2A;
       transition: all 0.1s ease-in-out; }
       .press .tab-content .playstats .playstat:hover {
         transform: scale(1.03); }
@@ -11077,7 +11270,7 @@ hr {
       margin: 15px 0px;
       border-radius: 10px;
       padding: 15px;
-      color: #222830;
+      color: #001E2A;
       box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.1);
       float: left;
       display: inline;
@@ -11101,7 +11294,7 @@ hr {
         font-size: 13px;
         font-style: italic; }
       .opengamedata .tab-content #session_list > div a {
-        color: #222830;
+        color: #001E2A;
         font-family: 'Courier', 'courier-new', serif;
         font-size: 14px;
         display: flex;
@@ -11149,7 +11342,7 @@ hr {
       border-radius: 10px;
       text-align: center;
       padding: 2vw;
-      color: #222830;
+      color: #001E2A;
       transition: all 0.1s ease-in-out; }
       .game_info .playstats .playstat:hover {
         transform: scale(1.03); }
@@ -11558,4 +11751,4 @@ tbody tr {
     font-size: 14px;
     letter-spacing: 2.5px;
     line-height: 27px;
-    color: #222830; }
+    color: #001E2A; }
