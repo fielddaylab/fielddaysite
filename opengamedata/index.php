@@ -60,7 +60,7 @@
 
 <p class="small">For simple educational data mining purposes, the processed files can be used as examples to predict behaviors such as quitting or performance on an embedded assessment.</p>
 
-<p class="small">Alternately, the feature extractor code may be modified to perform your own feature engineering. In this case, you will likely want to import the raw SLQ files into your own server, clone the opengamedata repository and run "python main [arguments]" to generate your own processed files. If you derive any interesting features, please share them back with us!</p>
+<p class="small">Alternately, the feature extractor code may be modified to perform your own feature engineering. In this case, you will likely want to import the raw SQL files into your own server, clone the opengamedata repository and run "python main [arguments]" to generate your own processed files. If you derive any interesting features, please share them back with us!</p>
 
 <p class="small">We are actively looking for research collaborators. Reach out and we can discuss potential research project and funding options.</p>
             </div>
