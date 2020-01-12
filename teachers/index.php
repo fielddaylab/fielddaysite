@@ -191,7 +191,7 @@
         <div class="card-summary">
           <div class="info">
             <h3>Farming and Phosphorus Game Design Fellowship</h3>
-            <h4 class="date">Fall 2019</h4>
+            <h4 class="date">Fall 2018</h4>
           </div>
           <span class="card-triangle"></span>
         </div>
@@ -204,7 +204,7 @@
         <div class="card-summary">
           <div class="info">
             <h3>Doing History with Games Fellowship</h3>
-            <h4 class="date">Fall 2019</h4>
+            <h4 class="date">Fall 2018</h4>
           </div>
           <span class="card-triangle"></span>
         </div>
@@ -217,7 +217,7 @@
         <div class="card-summary">
           <div class="info">
             <h3>State Capitol Game Production Fellowship</h3>
-            <h4 class="date">Fall 2019</h4>
+            <h4 class="date">Spring 2018</h4>
           </div>
           <span class="card-triangle"></span>
         </div>
@@ -230,7 +230,7 @@
         <div class="card-summary">
           <div class="info">
             <h3>Fieldwork Across the Curriculum Fellowship</h3>
-            <h4 class="date">Fall 2019</h4>
+            <h4 class="date">Spring 2018</h4>
           </div>
           <span class="card-triangle"></span>
         </div>
@@ -243,7 +243,7 @@
         <div class="card-summary">
           <div class="info">
             <h3>Wisconsin State Capitol Game Design Fellowship </h3>
-            <h4 class="date">Fall 2019</h4>
+            <h4 class="date">Summer and Fall 2017</h4>
           </div>
           <span class="card-triangle"></span>
         </div>
@@ -256,7 +256,7 @@
         <div class="card-summary">
           <div class="info">
             <h3>Material Science Research Experience</h3>
-            <h4 class="date">Fall 2019</h4>
+            <h4 class="date">Summer 2017</h4>
           </div>
           <span class="card-triangle"></span>
         </div>
@@ -269,7 +269,7 @@
         <div class="card-summary">
           <div class="info">
             <h3>Material Science Game Design</h3>
-            <h4 class="date">Fall 2019</h4>
+            <h4 class="date">Spring 2017</h4>
           </div>
           <span class="card-triangle"></span>
         </div>
@@ -282,7 +282,7 @@
         <div class="card-summary">
           <div class="info">
             <h3>Games for Humanity Fellowship</h3>
-            <h4 class="date">Fall 2019</h4>
+            <h4 class="date">Spring 2017</h4>
           </div>
           <span class="card-triangle"></span>
         </div>
@@ -295,7 +295,7 @@
         <div class="card-summary">
           <div class="info">
             <h3>Game On</h3>
-            <h4 class="date">Fall 2019</h4>
+            <h4 class="date">Fall 2016</h4>
           </div>
           <span class="card-triangle"></span>
         </div>
@@ -308,7 +308,7 @@
         <div class="card-summary">
           <div class="info">
             <h3>WDLC Game Design Course</h3>
-            <h4 class="date">Fall 2019</h4>
+            <h4 class="date">Summer 2016</h4>
           </div>
           <span class="card-triangle"></span>
         </div>
@@ -321,7 +321,7 @@
         <div class="card-summary">
           <div class="info">
             <h3>Student Game Design</h3>
-            <h4 class="date">Fall 2019</h4>
+            <h4 class="date">Spring 2016</h4>
           </div>
           <span class="card-triangle"></span>
         </div>
@@ -334,7 +334,7 @@
         <div class="card-summary">
           <div class="info">
             <h3>Science Mini Games</h3>
-            <h4 class="date">Fall 2019</h4>
+            <h4 class="date">Spring 2016</h4>
           </div>
           <span class="card-triangle"></span>
         </div>
@@ -348,7 +348,7 @@
         <div class="card-summary">
           <div class="info">
             <h3>Field Research</h3>
-            <h4 class="date">Fall 2019</h4>
+            <h4 class="date">Fall 2015 and Spring 2016</h4>
           </div>
           <span class="card-triangle"></span>
         </div>
