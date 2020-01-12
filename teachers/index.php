@@ -387,7 +387,7 @@
         <a class="button small filled black" href="https://docs.google.com/forms/d/e/1FAIpQLSelgpUrxb5LLe_5rvFuhP6fhJUVIPYhB-qdZe7LIb73gayMgA/viewform?usp=sf_link" onclick="ga('send', 'event', 'Apply', 'Click')" target="_blank">Apply Now</a>
       </div>
       <div class="col-md-5 cta">
-        <img class="expanded-thumb img-responsive" src="/assets/img/thumbs/thumb-shipwreck.jpg">
+        <img class="expanded-thumb img-responsive" src="/assets/img/fellowships/aqualab.jpg">
       </div>
     </div>
   </div>
