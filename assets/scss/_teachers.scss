@@ -1,6 +1,5 @@
 .teachers {
   #mainwrapper {
-    background: $pink;
     .section-title {
       font-size:36px;
       letter-spacing: 6px;
@@ -9,7 +8,11 @@
       background:url(/assets/img/illustrations/cloud-white.png) no-repeat;
       background-size:300px 100px;
       background-position: center;
+      margin-top:0px;
     }
+  }
+  .intro-section {
+    background: $pink;
   }
   .fellowships-content {
     background:#fff;
@@ -37,6 +40,9 @@
         }
       }
       .card-summary {
+        display: flex;
+        align-items: center;
+        min-height:200px;
         h3 {
           line-height:30px;
           letter-spacing:3px;
@@ -54,8 +60,11 @@
     .gridder-expanded-content {
       margin:0 auto;
       width:98%;
-      margin-top:5vw;
+      margin-top:2vw;
       margin-bottom:5vw;
+      .wrapper {
+        display:flex;
+      }
       .fellows-list, .fellowship-summary {
         margin-top:20px;
         padding:2vw;
@@ -93,7 +102,7 @@
       }
       span {
         font-family: brandon-grotesque, futura-pt, sans-serif;
-        display:inline;
+        display:block;
         margin-right:30px;
         color:$mid_gray;
         text-transform: uppercase;
@@ -107,6 +116,8 @@
     .gridder-navigation {
       border-top:none;
       border-bottom:none;
+      margin-left: 1vw;
+      width: 98%;
       .nav-left a {
         border-left:none;
         border-right:none;

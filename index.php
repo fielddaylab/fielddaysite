@@ -3,6 +3,8 @@
 </head>
 <body class="nav-fixed">
 
+<!--<?php include 'includes/curtain.php';?>-->
+
 <!--include main navigation-->
 <?php include 'includes/main-nav.php';?>
 
