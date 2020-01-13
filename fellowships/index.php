@@ -1,7 +1,7 @@
 <!--include head
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
-<title>Field Day - Teachers</title>
+<title>Field Day - Fellowships</title>
 </head>
 
 <body class="nav-fixed teachers link-teachers page">

@@ -155,7 +155,7 @@
         <div class="cta-card one">
           <h3>Teach with apps & games</h3>
           <p class="small">Are you a teacher looking to use games & apps? Take an online course or join a fellowship for Professional Development.</p>
-          <a class="button xsmall black" href="/teachers">Get started</a>
+          <a class="button xsmall black" href="/fellowships">Get started</a>
         </div>
         <div class="cta-card two">
           <h3>Work with us</h3>

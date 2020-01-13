@@ -13,7 +13,7 @@
   <div class="right">
     <ul>
       <li class="small-navlink hide-for-nav"><a href="/research">research</a></li>
-      <li class="small-navlink hide-for-nav"><a href="/teachers">teachers</a></li>
+      <li class="small-navlink hide-for-nav"><a href="/fellowships">fellowships</a></li>
       <span class="worklink hide-for-nav"></span>
       <div class="mobile-nav-toggle-wrap">
         <div class="nav-toggle">
