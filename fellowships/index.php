@@ -368,7 +368,7 @@
     <span><a target="_blank" href="https://docs.google.com/document/d/1hAIGTx-a0YG0m0tkhxP4RDMchMyWq8ic9IXJuC0nmA4/edit">More Info</a></span>
     <div class="wrapper">
       <div class="col-md-7 game-expanded">
-        <p>When Jenn was a teacher, she wanted a way to track students’ progress while they were playing learning games. In this fellowship, you will join Jenn and our other designers to create a dashboard to monitor the progress of all your students. Blending the newest machine learning and assessment research with your teaching expertise, we will create a tool that supports teaching. This dashboard will be designed for use with Field Day's newest game, Lakeland, but will it serve as a model to be used across all our games.</p>
+        <p>When Jenn was a teacher, she wanted a way to track students’ progress while they were playing learning games. In this fellowship, you will join Jenn and our other designers to create a dashboard to monitor the progress of all your students. Blending the newest machine learning and assessment research with your teaching expertise, we will create a tool that supports teaching. This dashboard will be designed for use with Field Day's newest game, Lakeland, but it will serve as a model to be used across all our games.</p>
         <a class="button small filled black" href="https://docs.google.com/forms/d/e/1FAIpQLScOW0_zHIbhtQldUcc7x6StN3JImY_wOE-Z8QTZDDLf9ncabw/viewform?usp=sf_link" onclick="ga('send', 'event', 'Apply', 'Click')" target="_blank">Apply Now</a>
       </div>
       <div class="col-md-5 cta">
