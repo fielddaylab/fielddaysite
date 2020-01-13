@@ -1,4 +1,6 @@
+
 <nav class="small-nav nav-fixed">
+  <!--<span class="curtain-toggle"><img src="/assets/img/ui/icon-ornament.png" /></span>-->
   <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
   <div class="left">
     <ul>

@@ -1,0 +1,41 @@
+.curtain {
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/hero-images/ice-cube.jpg) no-repeat;
+  background-size: cover;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  text-align: center;
+  z-index:1000;
+  position:absolute;
+  &.curtain-hidden {
+    transform:translateY(-100vh);
+  }
+  .curtain-content {
+    width:60vw;
+    margin:0 auto;
+  }
+  h1,p {
+    color:#fff;
+  }
+  h1 {
+    text-transform: uppercase;
+  }
+}
+
+.curtain-toggle {
+position:absolute;
+background:#719945;
+padding:5px 10px;
+cursor:pointer;
+font-size:12px;
+top: 100%;
+z-index: 1000;
+border-radius: 0px 0px 5px 5px;
+left: 20px;
+  img {
+    width:40px;
+    height:auto;
+  }
+}

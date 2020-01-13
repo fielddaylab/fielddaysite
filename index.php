@@ -3,6 +3,8 @@
 </head>
 <body class="nav-fixed">
 
+<!--<?php include 'includes/curtain.php';?>-->
+
 <!--include main navigation-->
 <?php include 'includes/main-nav.php';?>
 
@@ -385,6 +387,7 @@ sr.reveal('.star', 90, { mobile: true });
 sr.reveal('.blueprint-icon', 90);
 sr.reveal('.blogpostreveal', 90);
 sr.reveal('.processreveal', 30);
+sr.reveal('.upreveal', upreveal);
 sr.reveal('.dockreveal', skylabreveal, 200);
 sr.reveal('.exhaustreveal', 90, { viewFactor: 0.1 });
 

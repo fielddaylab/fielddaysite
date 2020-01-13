@@ -4,13 +4,14 @@
 .button {
   display: inline-block;
   padding: 15px 15px;
-  font-size: 16px;
+  font-family: futura-pt, sans-serif;
+  font-size: 18px;
   line-height: 1.2em;
   border: 1px solid $dark_gray;
   text-transform: uppercase;
-  letter-spacing: .15em;
+  letter-spacing: .2em;
   color: $black;
-  font-weight: 400;
+  font-weight: 600;
   background: transparent;
   box-shadow: none;
   border-radius: 5px;
@@ -31,6 +32,15 @@
     i { color: $red; }
     &:hover, &.filled {
       background: $red; color: #fff;
+      i { color: #fff; }
+    }
+  }
+
+  &.pink {
+    color: $pink; border-color: $pink; background: transparent;
+    i { color: $pink; }
+    &:hover, &.filled {
+      background: $pink; color: $black;
       i { color: #fff; }
     }
   }
@@ -98,8 +108,8 @@
       i { color: $black; }
     }
   }
-  &.small { min-width: auto; font-size: 13px; padding: 10px 18px; }
-  &.xsmall { min-width: auto; font-size: 10px; padding: 10px 15px; }
+  &.small { letter-spacing:3px; min-width: auto; font-size: 14px; padding: 6px 15px; }
+  &.xsmall { min-width: auto; font-size: 12px; padding: 8px 13px; }
   &.full-width { text-align: center; }
   &.round { border-radius: 30px; }
   &[disabled='disabled'] { opacity: 0.5; cursor: not-allowed; }

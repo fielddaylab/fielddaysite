@@ -8,6 +8,7 @@
 <script src='/assets/js/vendor/isscrolledintoview.js'></script>
 <script src='/assets/js/vendor/glide.min.js'></script>
 <script src='/assets/js/vendor/stickyfill.js'></script>
+<script src='/assets/js/featured.js'></script>
 <script src='/assets/js/app.js'></script>
 <section id="footer">
   <div class="starfield topright">
