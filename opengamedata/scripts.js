@@ -70,11 +70,14 @@ function generateTable(table, data, headers) {
         case "raw":
           if (set["raw"] != null)
           {
+            
             var raw_link = document.createElement('a');
             var linkText = document.createTextNode("Raw");
             raw_link.appendChild(linkText);
             raw_link.title = "Raw";
+            if(!document.getElementById('game_title').innerText.toUpperCase() == 'LAKELAND'){
             raw_link.href = set["raw"].replace('./', 'https://opengamedata.fielddaylab.wisc.edu/');
+            }
             cell.appendChild(raw_link);
             cell.append(document.createTextNode(' - '))
           }
@@ -94,7 +97,9 @@ function generateTable(table, data, headers) {
             var linkText = document.createTextNode("SQL");
             sql_link.appendChild(linkText);
             sql_link.title = "SQL Dump";
+            if(!document.getElementById('game_title').innerText.toUpperCase() == 'LAKELAND'){
             sql_link.href = set["sql"].replace('./', 'https://opengamedata.fielddaylab.wisc.edu/');
+            }
             cell.appendChild(sql_link);
           }
           break;
