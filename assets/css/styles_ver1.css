@@ -10316,9 +10316,12 @@ hr {
       .page #faq .questions ul li {
         font-size: 16px;
         margin-bottom: 10px;
+        font-family: brandon-grotesque, futura-pt, sans-serif;
+        font-size: 20px;
         cursor: pointer; }
         .page #faq .questions ul li.active {
-          color: #D6A718; }
+          color: #D6A718;
+          text-decoration: underline; }
   .page #faq .answers {
     width: 45%; }
     @media only screen and (max-width: 768px) {

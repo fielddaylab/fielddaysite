@@ -13,7 +13,7 @@
     <section class="singlehero page_hero">
       <div class="info">
         <h1 class="corrected">Teacher <br />Fellowships</h1>
-        <p class="corrected">Our project at Field Day is to make games that inspire wonder in kids. Because we want our games to reach classrooms, we’re partnering up with the classroom experts: teachers like you. Join us at a fellowship event and design a game with us. </p>
+        <p class="corrected">We want our games to reach classrooms, so we’re partnering up with the classroom experts: teachers like you. Join us at a Teacher Fellowship and design a game with us.</p>
         <a href="#page-facts" class="button pink filled small">Learn More</a>
       </div>
       <div class="graphic">
@@ -66,17 +66,18 @@
           <img class="astro-confused" src="/assets/img/illustrations/astro-confused.png">
         </div>
         <div class="info">
-          <h3>We'll design a game together</h3>
-          <p class="small">Located at our studio in the heart of Madison, WI, and at special locations across campus, each fellowship is a pop-up community that makes space for creating something totally new.</p>
-          <p>You’ll come out for a few overnights and join our design team. Each event brings together an uncommon collection of artists, educators, subject experts, and designers. We’ll design a game around a specific theme, like underwater archaeology or Wisconsin history. As an expert educator, you’ll work side-by-side with people in the field, like underwater archaeologists, biologists, or archivists.</p>
+          <h3>Design a game with us</h3>
+          <p class="small">Located at our studio in the heart of Madison, WI, each game design fellowship is a pop-up community that makes space for creating something totally new. You’ll come out for an overnight or two and join our design team.</p>
+          <p>Each event brings together an uncommon collection of artists, educators, subject experts, and designers. As an expert educator, you’ll do game design side-by-side with other experts, like underwater archaeologists, biologists, or archivists.</p>
         </div>
       </div>
 
       <div class="fact">
         <div class="info">
           <h3>A new kind of Workshop</h3>
-          <p class="small">Our teacher fellowships are boutique events—not normal PD workshops—that are carefully crafted to inspire you. Each event mixes the best of talks, art, tours, music, games, and design to create a game that will reach kids across the world. We’ll start with a cozy get-together, where we’ll sip drinks and chat. Then we’ll transition into the main event: two days of learning, inspiration, and design work. After the event, you’ll stay connected with a handful of online meet-ups, plus a few ways to involve your kids in design work.</p>
-          <p>We offer four fellowships each year. Join us!</p>
+          <p class="small">Our teacher fellowships are boutique events—not normal PD workshops—that are carefully crafted to inspire you. Each event mixes the best of talks, design, tours, and inspiration like art, music and game playing. .</p>
+          <p>We’ll start with a cozy get-together, where we’ll sip drinks and chat.  Then we’ll transition into two days of learning, inspiration, and design. After the event, stay connected with online meet-ups, plus a few ways to get kids involved in design work. We’ll end up with a brand new game that will reach kids across the world.</p>
+          <p>We offer four fellowships each year. Join us! </p>
           <a href="#fellowships" class="button black filled small" target="_blank">View Fellowships</a>
         </div>
         <div class="photo">
@@ -100,6 +101,9 @@
                 How can I get my students involved?
               </li>
               <li class="" data-target="#faq" data-slide-to="2">
+                Are the classroom game tests worth the student’s time?
+              </li>
+              <li class="" data-target="#faq" data-slide-to="2">
                 Can I get credit for professional development?
               </li>
               <li class="" data-target="#faq" data-slide-to="3">
@@ -108,27 +112,35 @@
               <li class="" data-target="#faq" data-slide-to="4">
                 Do you have resources for teaching with games?
               </li>
+              <li class="" data-target="#faq" data-slide-to="4">
+                Why do you give games away instead of selling them?
+              </li>
           </ul>
         </div>
         <div class="answers carousel-inner">
           <div class="item active">
-            <p class="small" >Each fellowship pays a different amount. We’ll always cover your travel expenses. Please see individual fellowships for details.</p>
+            <h3>A stipend and travel costs.</h3>
+            <p class="small" >Each fellowship pays a different amount. We’ll always cover your travel expenses. (Please see individual fellowships for details.) This isn’t a training that you pay for. While we think you’ll learn a lot, you are coming as a professional. We see teachers as experts!</p>
           </div>
           <div class="item">
-            <h3>Your kids will become game testers!</h3>
-            <p class="small">You’ll have your students play the game in class and share their opinions. Kids love getting behind the scenes and seeing the game in different stages of development. Their feedback will help inform the final version of the game. </p>
+            <h3>Your kids will become game testers which is really cool for them. </h3>
+            <p class="small">You’ll have your students play the game in class and share their opinions. Kids love getting behind the scenes and seeing the game in different stages of development. Their feedback will help inform the final version of the game.  </p>
           </div>
           <div class="item">
-            <h3>Absolutely</h3>
-            <p class="small" >We’ll even help you with the paperwork you need to get your required PD credits.</p>
+            <h3>We think so! </h3>
+            <p class="small" >This process can be very inspiring for career inspiration and critical thinking. When kids see behind the scenes of how a game is made, it opens their eyes to the details of the design process. Some kids get a vision for becoming a designer or maker. Other kids learn about the subject experts who work on the project and realize new career options they had never imagined (like Underwater Archaeologist!). Plus kids we work with love seeing how their input get implemented into the designs. Its super empowering for them.</p>
           </div>
           <div class="item">
-            <h3>For Sure!</h3>
-            <p class="small" >We love it when teachers return. Many of our projects continue over a few semesters and include a few fellowship cohorts. We give priority to teachers who have come to past fellowships.</p>
+            <h3>Absolutely. </h3>
+            <p class="small" >We’ll help you with the paperwork you need to get your required PD credits.</p>
           </div>
           <div class="item">
             <h3>Yes!</h3>
-            <p class="small" >All of our games are designed for classrooms, so check out the ones on our site. Want to know how to choose games for your classroom? Check out our blog and online courses.</p>
+            <p class="small" >We love it when teachers return. Many of our projects continue over a few semesters and include a few fellowship cohorts. We give priority to teachers who have come to past fellowships. More than anything, we want to build a community of like minded educators to inspire us and each other. Once you join the Field Day community, you are part of our team. </p>
+          </div>
+          <div class="item">
+            <h3>We do!</h3>
+            <p class="small" >All of our games are designed for classrooms, so check out the ones on our site. Want to know how to choose games for your classroom? Check out our blog and online courses. </p>
           </div>
         </div>
       </div>
