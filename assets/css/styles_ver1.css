@@ -7534,7 +7534,7 @@ button.close {
   color: #086788; }
 
 .blue-black {
-  color: #1F2E3B; }
+  color: #001E2A; }
 
 .creme {
   color: #F6F6F3; }
@@ -7665,11 +7665,11 @@ button.close {
       .button.light-blue:hover i, .button.light-blue.filled i {
         color: #fff; }
   .button.blue-black {
-    color: #1F2E3B;
-    border-color: #1F2E3B;
+    color: #001E2A;
+    border-color: #001E2A;
     background: transparent; }
     .button.blue-black i {
-      color: #1F2E3B; }
+      color: #001E2A; }
     .button.blue-black:hover, .button.blue-black.filled {
       background: #001E2A;
       color: #fff; }
@@ -7761,7 +7761,7 @@ hr {
   .hide-for-small {
     display: none !important; } }
 
-@media only screen and (max-device-width: 850px), only screen and (max-width: 850px) {
+@media only screen and (max-device-width: 890px), only screen and (max-width: 890px) {
   .hide-for-nav {
     display: none !important; } }
 
@@ -7898,10 +7898,10 @@ p {
   position: relative; }
 
 .drawerleft-open #mainwrapper {
-  transform: translateX(300px); }
+  transform: translateX(800px); }
 
 .drawertop-open #mainwrapper {
-  transform: translateY(400px); }
+  transform: translateY(800px); }
 
 .drawerright-open #mainwrapper {
   transform: translateX(-300px); }
@@ -7912,104 +7912,13 @@ p {
   height: 100%;
   display: block;
   transition: all .3s ease-in-out;
+  width: 100%;
+  transform: translateY(-400px);
   background: #2B303B; }
   .drawer ::-webkit-scrollbar {
     display: none;
     background: transparent;
     /* optional: just make scrollbar invisible */ }
-  .drawer .drawer-contents {
-    overflow-y: scroll;
-    position: fixed;
-    height: 100%; }
-  .drawer.drawer-left {
-    width: 300px;
-    left: 0;
-    height: 100%;
-    opacity: 0;
-    transform: translateX(-100px); }
-  .drawer.drawer-right {
-    width: 300px;
-    right: 0;
-    height: 100%;
-    opacity: 0;
-    transform: translateX(100px); }
-  .drawer.drawer-top {
-    height: 400px;
-    width: 100%;
-    transform: translateY(-400px); }
-    .drawer.drawer-top .drawer-contents {
-      position: relative;
-      width: auto;
-      height: 400px;
-      overflow-y: hidden;
-      overflow-x: auto;
-      white-space: nowrap; }
-      .drawer.drawer-top .drawer-contents .draweritem {
-        height: 100%;
-        width: 300px;
-        vertical-align: bottom;
-        float: none;
-        display: inline-block;
-        margin-right: -5px;
-        white-space: initial; }
-        .drawer.drawer-top .drawer-contents .draweritem .draweritem-content {
-          height: 100%;
-          width: 100%; }
-  .drawer .draweritem {
-    width: 300px;
-    height: auto;
-    float: left;
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-    background: #2B303B; }
-    .drawer .draweritem .draweritem-content {
-      background: rgba(0, 0, 0, 0.6);
-      transition: all .3s ease-in-out;
-      padding: 40px 30px; }
-    .drawer .draweritem h2 {
-      text-transform: uppercase;
-      font-size: 18px;
-      line-height: 23px; }
-    .drawer .draweritem.drawer-intro {
-      text-align: left;
-      background: #2B303B; }
-      .drawer .draweritem.drawer-intro h2 {
-        margin: 20px 20px 20px 0px; }
-    .drawer .draweritem img {
-      width: 70px;
-      height: auto; }
-    .drawer .draweritem p {
-      margin-bottom: 60px;
-      font-size: 14px;
-      line-height: 25px; }
-      @media only screen and (max-width: 768px) {
-        .drawer .draweritem p {
-          font-size: 12px;
-          line-height: 20px; } }
-    .drawer .draweritem .go {
-      width: 20px;
-      height: 20px;
-      border: 2px solid #fff;
-      padding: 18px 15px;
-      border-radius: 35px;
-      text-transform: uppercase;
-      opacity: 0;
-      margin: 0;
-      color: #001E2A;
-      background: #fff;
-      transition: all .3s ease-in-out; }
-      @media only screen and (max-width: 768px) {
-        .drawer .draweritem .go {
-          opacity: 1; } }
-    .drawer .draweritem:hover {
-      opacity: 0.9;
-      transition: all .3s ease-in-out; }
-      .drawer .draweritem:hover .draweritem-content {
-        background: #e0bc4e;
-        color: #001E2A; }
-      .drawer .draweritem:hover .go {
-        opacity: 1; }
 
 .drawerright-open .drawer-right {
   transform: translateX(0px);
@@ -8021,72 +7930,91 @@ p {
   opacity: 1;
   z-index: 1000; }
 
-.drawertop-open .drawer-top {
-  opacity: 1;
-  transform: translateY(0px);
-  z-index: 1000; }
-
-@media only screen and (max-width: 1024px) {
-  .drawer.drawer-left, .drawer.drawer-right {
-    transform: translateY(-400px);
-    width: 100%;
-    left: 0;
-    top: 0;
-    height: 400px;
-    opacity: 0;
-    transform: translateX(0px); }
-    .drawer.drawer-left .drawer-contents, .drawer.drawer-right .drawer-contents {
-      position: relative;
-      width: auto;
-      height: 400px;
-      overflow-x: auto;
-      white-space: nowrap; }
-      .drawer.drawer-left .drawer-contents .draweritem, .drawer.drawer-right .drawer-contents .draweritem {
-        height: 100%;
-        width: 300px;
-        vertical-align: bottom;
-        float: none;
-        display: inline-block;
-        margin-right: -5px;
-        white-space: initial; }
-        .drawer.drawer-left .drawer-contents .draweritem .draweritem-content, .drawer.drawer-right .drawer-contents .draweritem .draweritem-content {
-          height: 100%;
-          width: 100%; }
-  .drawerleft-open #mainwrapper {
-    transform: translateY(400px); }
-  .drawerright-open #mainwrapper {
-    transform: translateY(400px); }
-  .drawerright-open .drawer-right {
-    transform: translateX(0px);
-    opacity: 1; }
-  .drawerleft-open .drawer-left {
-    transform: translateX(0px);
-    opacity: 1; } }
-
 .nav-fixed .drawer.drawer-left, .nav-fixed .drawer.drawer-right, .singleapp .drawer.drawer-left, .singleapp .drawer.drawer-right {
   transform: translateY(-400px);
   width: 100%;
   left: 0;
   top: 0;
-  height: 400px;
-  opacity: 0; }
+  height: auto;
+  opacity: 0;
+  background: #001E2A; }
   .nav-fixed .drawer.drawer-left .drawer-contents, .nav-fixed .drawer.drawer-right .drawer-contents, .singleapp .drawer.drawer-left .drawer-contents, .singleapp .drawer.drawer-right .drawer-contents {
-    position: relative;
+    position: relative !important;
     width: auto;
-    height: 400px;
-    overflow-x: auto;
-    white-space: nowrap; }
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 100vh;
+    padding: 5vw;
+    padding-top: 8vw;
+    padding-bottom: 6vw; }
+    @media only screen and (max-width: 1024px) {
+      .nav-fixed .drawer.drawer-left .drawer-contents, .nav-fixed .drawer.drawer-right .drawer-contents, .singleapp .drawer.drawer-left .drawer-contents, .singleapp .drawer.drawer-right .drawer-contents {
+        padding-top: 10vw; } }
     .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
-      height: 100%;
-      width: 300px;
+      height: 20vw;
+      width: 19vw;
       vertical-align: bottom;
-      float: none;
-      display: inline-block;
-      margin-right: -5px;
-      white-space: initial; }
-      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem .draweritem-content, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem .draweritem-content, .singleapp .drawer.drawer-left .drawer-contents .draweritem .draweritem-content, .singleapp .drawer.drawer-right .drawer-contents .draweritem .draweritem-content {
-        height: 100%;
-        width: 100%; }
+      border-radius: 20px;
+      margin: 1.7vw;
+      color: #fff;
+      transition: all .1s ease-in-out;
+      max-height: 500px;
+      min-height: 220px; }
+      @media only screen and (max-width: 1024px) {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
+          width: 26vw;
+          max-width: initial;
+          max-width: 350px; } }
+      @media only screen and (max-width: 768px) {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
+          width: 39vw; } }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
+          max-width: initial;
+          margin: 3vw;
+          margin-bottom: 10vw; } }
+      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem:hover, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem:hover, .singleapp .drawer.drawer-left .drawer-contents .draweritem:hover, .singleapp .drawer.drawer-right .drawer-contents .draweritem:hover {
+        transform: scale(1.05); }
+      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail, .singleapp .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .singleapp .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail {
+        height: 90%;
+        width: 100%;
+        border-radius: 15px; }
+      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem span, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem span, .singleapp .drawer.drawer-left .drawer-contents .draweritem span, .singleapp .drawer.drawer-right .drawer-contents .draweritem span {
+        color: #fff;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: brandon-grotesque, futura-pt, sans-serif;
+        margin-top: 20px;
+        letter-spacing: 3px;
+        line-height: 24px; }
+      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro {
+        position: relative; }
+        @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro {
+            width: 100vw;
+            margin-top: 10vw;
+            margin-bottom: 3vw;
+            height: auto;
+            min-height: initial; } }
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro:hover, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro:hover, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro:hover, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro:hover {
+          transform: scale(1); }
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2 {
+          margin-left: 0px;
+          margin-top: 0px;
+          font-size: 34px;
+          text-transform: uppercase;
+          letter-spacing: 3px; }
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro p, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro p, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro p, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro p {
+          line-height: 28px; }
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro .intro-bg, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro .intro-bg, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro .intro-bg, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro .intro-bg {
+          width: 120px;
+          height: 120px;
+          position: absolute;
+          top: -30px;
+          right: -20px;
+          opacity: .5; }
 
 .nav-fixed.drawerleft-open #mainwrapper, .singleapp.drawerleft-open #mainwrapper {
   transform: translateY(400px); }
@@ -8105,7 +8033,7 @@ p {
 #navbar {
   color: white;
   width: 100%;
-  z-index: 500;
+  z-index: 10000;
   position: absolute;
   padding: 20px; }
   #navbar .main-links {
@@ -8144,20 +8072,18 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 2000;
   opacity: 0;
-  z-index: 0;
+  z-index: 10000;
   transition: transform .3s ease-in-out;
   transition: opacity .3s ease-in-out;
   box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.16);
   transform: translateY(-60px); }
-  .small-nav .right li {
-    border-left: 2px solid #f5f5f5; }
-    .small-nav .right li:first-child {
-      border-right: none; }
+  .small-nav .right li:first-child {
+    border-right: none; }
   .small-nav.nav-fixed {
     opacity: 1;
-    z-index: 1000;
+    z-index: 2000;
     transform: translateY(0px); }
   @media only screen and (max-width: 1024px) {
     .small-nav {
@@ -8166,7 +8092,8 @@ p {
       z-index: 1000; } }
   .small-nav .logo {
     width: 120px;
-    margin-left: -36px; }
+    margin-left: -36px;
+    padding: 10px; }
     .small-nav .logo img {
       width: 100%;
       height: auto; }
@@ -8189,15 +8116,10 @@ p {
           color: #D6A718;
           text-decoration: none; }
   .small-nav .workwithus {
-    margin: 0px 55px 0px 15px; }
+    margin: 0px 35px 0px 15px; }
     @media only screen and (max-width: 1024px) {
       .small-nav .workwithus {
         margin-top: 1px; } }
-
-.drawerright-open .small-nav, .drawerleft-open .small-nav, .drawertop-open .small-nav {
-  top: 400px;
-  transition-property: top;
-  transition-duration: 0.25s; }
 
 /* Drawer navigation
 ----------------------------------------*/
@@ -8334,7 +8256,7 @@ p {
   transform: translateY(-100vh);
   z-index: -1000;
   opacity: 0;
-  background: #1F2E3B;
+  background: #001E2A;
   left: 0;
   top: 0;
   width: 100vw;
@@ -8511,6 +8433,15 @@ p {
   position: absolute;
   left: 50%;
   content: '';
+  z-index: 1000; }
+
+.icon-close {
+  position: absolute;
+  width: 30px;
+  height: auto;
+  right: 30px;
+  top: 81px;
+  cursor: pointer;
   z-index: 1000; }
 
 .icon-scroll {
@@ -10851,10 +10782,11 @@ hr {
             opacity: .5; } }
 
 .research #mainwrapper {
-  overflow-x: initial; }
+  overflow-x: initial;
+  background: #fff; }
 
 .research .page_hero {
-  background: #1F2E3B;
+  background: #001E2A;
   padding: 3vw 0vw;
   position: relative; }
   .research .page_hero a {
@@ -10933,7 +10865,7 @@ hr {
     .research .pub-nav ul li:hover {
       border-left: 4px solid #FCC9C2; }
     .research .pub-nav ul li a {
-      color: #1F2E3B;
+      color: #001E2A;
       font-size: 16px;
       letter-spacing: 0px;
       text-transform: uppercase; }
@@ -10957,7 +10889,7 @@ hr {
       text-transform: uppercase;
       cursor: pointer; }
       .research .research-toggles ul li.active a {
-        color: #1F2E3B;
+        color: #001E2A;
         background: #fff; }
       .research .research-toggles ul li a {
         font-size: 12px;
@@ -10990,10 +10922,11 @@ hr {
     margin-bottom: 10px; }
 
 .press #mainwrapper {
-  overflow-x: initial; }
+  overflow-x: initial;
+  background: #fff; }
 
 .press .page_hero {
-  background: #1F2E3B;
+  background: #001E2A;
   padding: 3vw 0vw;
   position: relative; }
   .press .page_hero a {
@@ -11072,7 +11005,7 @@ hr {
     .press .pub-nav ul li:hover {
       border-left: 4px solid #D6A718; }
     .press .pub-nav ul li a {
-      color: #1F2E3B;
+      color: #001E2A;
       font-size: 16px;
       letter-spacing: 0px;
       text-transform: uppercase; }
@@ -11096,7 +11029,7 @@ hr {
       text-transform: uppercase;
       cursor: pointer; }
       .press .press-toggles ul li.active a {
-        color: #1F2E3B;
+        color: #001E2A;
         background: #fff; }
       .press .press-toggles ul li a {
         font-size: 12px;
@@ -11166,10 +11099,11 @@ hr {
         line-height: 17px; }
 
 .opengamedata #mainwrapper {
-  overflow-x: initial; }
+  overflow-x: initial;
+  background: #fff; }
 
 .opengamedata .page_hero {
-  background: #1F2E3B;
+  background: #001E2A;
   padding: 3vw 0vw 0vw 0vw;
   position: relative; }
   .opengamedata .page_hero a {
@@ -11256,7 +11190,7 @@ hr {
     .opengamedata .pub-nav ul li:hover {
       border-left: 4px solid #D6A718; }
     .opengamedata .pub-nav ul li a {
-      color: #1F2E3B;
+      color: #001E2A;
       font-size: 16px;
       letter-spacing: 0px;
       text-transform: uppercase; }
@@ -11280,7 +11214,7 @@ hr {
       text-transform: uppercase;
       cursor: pointer; }
       .opengamedata .press-toggles ul li.active a {
-        color: #1F2E3B;
+        color: #001E2A;
         background: #fff; }
       .opengamedata .press-toggles ul li a {
         font-size: 12px;

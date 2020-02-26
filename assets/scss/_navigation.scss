@@ -10,11 +10,11 @@
 }
 
 .drawerleft-open #mainwrapper {
-  transform:translateX(300px);
+  transform:translateX(800px);
 }
 
 .drawertop-open #mainwrapper {
-  transform:translateY(400px);
+  transform:translateY(800px);
 }
 
 .drawerright-open #mainwrapper {
@@ -27,120 +27,12 @@
   height:100%;
   display: block;
   transition: all .3s ease-in-out;
+  width:100%;
+  transform:translateY(-400px);
   background: $dark_gray;
   ::-webkit-scrollbar {
     display: none;
     background: transparent;  /* optional: just make scrollbar invisible */
-  }
-  .drawer-contents {
-    overflow-y: scroll;
-    position: fixed;
-    height: 100%;
-  }
-  &.drawer-left {
-    width: 300px;
-    left:0;
-    height:100%;
-    opacity: 0;
-    transform:translateX(-100px);
-  }
-  &.drawer-right {
-    width: 300px;
-    right:0;
-    height:100%;
-    opacity: 0;
-    transform:translateX(100px);
-  }
-  &.drawer-top {
-    height: 400px;
-    width:100%;
-    transform:translateY(-400px);
-    .drawer-contents {
-      position: relative;
-      width: auto;
-      height: 400px;
-      overflow-y:hidden;
-      overflow-x:auto;
-      white-space: nowrap;
-      .draweritem {
-        height: 100%;
-        width:300px;
-        vertical-align: bottom;
-        float: none;
-        display: inline-block;
-        margin-right: -5px;
-        white-space: initial;
-        .draweritem-content {
-          height: 100%;
-          width:100%;
-        }
-      }
-    }
-  }
-  .draweritem {
-    width: 300px; height: auto;
-    float: left;
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-    background: $dark_gray;
-    .draweritem-content {
-      background: rgba(0, 0, 0, 0.6);
-      transition: all .3s ease-in-out;
-      padding: 40px 30px;
-    }
-    h2 {
-      text-transform: uppercase;
-      font-size: 18px;
-      line-height: 23px;
-    }
-    &.drawer-intro {
-      text-align: left;
-      background: $dark_gray;
-      h2 {
-        margin: 20px 20px 20px 0px;
-      }
-    }
-    img {
-      width: 70px;
-      height: auto;
-    }
-    p {
-      margin-bottom: 60px;
-      font-size: 14px;
-      line-height: 25px;
-      @media #{$break-sm} {
-        font-size:12px;
-        line-height: 20px;
-      }
-    }
-    .go {
-      width: 20px;
-      height: 20px;
-      border: 2px solid #fff;
-      padding: 18px 15px;
-      border-radius: 35px;
-      text-transform: uppercase;
-      opacity: 0;
-      margin: 0;
-      color: $black;
-      background: #fff;
-      transition: all .3s ease-in-out;
-      @media #{$break-sm} {
-        opacity: 1;
-      }
-    }
-    &:hover {
-      opacity: 0.9;
-      transition: all .3s ease-in-out;
-      .draweritem-content {
-        background: rgba(224, 188, 78, 1.0);
-        color: $black;
-      }
-      .go {
-        opacity: 1;
-      }
-    }
   }
 }
 
@@ -152,73 +44,11 @@
   }
 
 }
-
 .drawerleft-open {
   .drawer-left {
     transform:translateX(0px);
     opacity: 1;
     z-index: 1000;
-  }
-}
-
-.drawertop-open {
-  .drawer-top {
-    opacity: 1;
-    transform:translateY(0px);
-    z-index: 1000;
-  }
-}
-
-@media #{$break-md} {
-  .drawer {
-    &.drawer-left, &.drawer-right {
-      transform:translateY(-400px);
-      width: 100%;
-      left:0;
-      top: 0;
-      height:400px;
-      opacity: 0;
-      transform:translateX(0px);
-      .drawer-contents {
-        position: relative;
-        width: auto;
-        height: 400px;
-        overflow-x:auto;
-        white-space: nowrap;
-        .draweritem {
-          height: 100%;
-          width:300px;
-          vertical-align: bottom;
-          float: none;
-          display: inline-block;
-          margin-right: -5px;
-          white-space: initial;
-          .draweritem-content {
-            height: 100%;
-            width:100%;
-          }
-        }
-      }
-    }
-  }
-  .drawerleft-open #mainwrapper {
-    transform:translateY(400px);
-  }
-  .drawerright-open #mainwrapper {
-    transform:translateY(400px);
-  }
-  .drawerright-open {
-    .drawer-right {
-      transform:translateX(0px);
-      opacity: 1;
-    }
-  }
-
-  .drawerleft-open {
-    .drawer-left {
-      transform:translateX(0px);
-      opacity: 1;
-    }
   }
 }
 
@@ -229,25 +59,93 @@
       width: 100%;
       left:0;
       top: 0;
-      height:400px;
+      height: auto;
       opacity: 0;
+      background: $blue-black;
       .drawer-contents {
-        position: relative;
+        position: relative !important;
         width: auto;
-        height: 400px;
-        overflow-x:auto;
-        white-space: nowrap;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        min-height: 100vh;
+        padding: 5vw;
+        padding-top: 8vw;
+        padding-bottom:6vw;
+        @media #{$break-md} {
+          padding-top:10vw;
+        }
         .draweritem {
-          height: 100%;
-          width:300px;
+          height: 20vw;
+          width: 19vw;
           vertical-align: bottom;
-          float: none;
-          display: inline-block;
-          margin-right: -5px;
-          white-space: initial;
-          .draweritem-content {
-            height: 100%;
+          border-radius:20px;
+          margin:1.7vw;
+          color:#fff;
+          transition: all .1s ease-in-out;
+          max-height:500px;
+          min-height:220px;
+          @media #{$break-md} {
+            width:26vw;
+            max-width:initial;
+            max-width:350px;
+          }
+          @media #{$break-sm} {
+            width:39vw
+          }
+          @media #{$break-sm-xs} {
+            max-width:initial;
+            margin:3vw;
+            margin-bottom:10vw;
+          }
+          &:hover {
+            transform: scale(1.05);
+          }
+          .draweritem-thumbnail {
+            height:90%;
             width:100%;
+            border-radius:15px;
+          }
+          span {
+            color:#fff;
+            display:block;
+            text-align:center;
+            text-transform: uppercase;
+            font-family: brandon-grotesque, futura-pt, sans-serif;
+            margin-top:20px;
+            letter-spacing:3px;
+            line-height:24px;
+          }
+          &.drawer-intro {
+            position:relative;
+            @media #{$break-sm-xs} {
+              width:100vw;
+              margin-top:10vw;
+              margin-bottom:3vw;
+              height:auto;
+              min-height:initial;
+            }
+            &:hover{
+              transform: scale(1);
+            }
+            h2 {
+              margin-left:0px;
+              margin-top:0px;
+              font-size:34px;
+              text-transform:uppercase;
+              letter-spacing: 3px;
+            }
+            p{
+              line-height:28px;
+            }
+            .intro-bg {
+              width:120px;
+              height:120px;
+              position:absolute;
+              top:-30px;
+              right:-20px;
+              opacity:.5;
+            }
           }
         }
       }
@@ -277,15 +175,15 @@
 #navbar {
   color: white;
   width: 100%;
-  z-index: 500;
+  z-index: 10000;
   position: absolute;
   padding: 20px;
   .main-links {
     display: inline-block;
     height: 100%;
     @media #{$break-md} {
-    display: none;
-  }
+      display: none;
+    }
     li {
       display: inline;
       line-height: 5em;
@@ -324,16 +222,15 @@
   top:0;
   left:0;
   width: 100%;
-  z-index: 1000;
+  z-index: 2000;
   opacity: 0;
-  z-index: 0;
+  z-index: 10000;
   transition: transform .3s ease-in-out;
   transition: opacity .3s ease-in-out;
   box-shadow: 0 0 33px 0 rgba(0,0,0,0.16);
   transform:translateY(-60px);
   .right {
     li {
-      border-left: 2px solid $ultralight_gray;
       &:first-child{
         border-right:none;
       }
@@ -342,7 +239,7 @@
   }
     &.nav-fixed {
     opacity: 1;
-    z-index: 1000;
+    z-index: 2000;
     transform:translateY(0px);
   }
   @media #{$break-md} {
@@ -353,6 +250,7 @@
   .logo {
     width: 120px;
     margin-left: -36px;
+    padding:10px;
     img {
       width: 100%;
       height: auto;
@@ -381,18 +279,10 @@
     }
   }
   .workwithus {
-    margin: 0px 55px 0px 15px;
+    margin: 0px 35px 0px 15px;
     @media #{$break-md} {
       margin-top: 1px;
     }
-  }
-}
-
-.drawerright-open, .drawerleft-open, .drawertop-open {
-  .small-nav {
-    top:400px;
-    transition-property: top;
-    transition-duration: 0.25s;
   }
 }
 
@@ -753,6 +643,15 @@
   z-index:1000;
 }
 
+.icon-close {
+  position:absolute;
+  width:30px;
+  height:auto;
+  right: 30px;
+  top: 81px;
+  cursor:pointer;
+  z-index:1000;
+}
 
 .icon-scroll {
   width: 25px;

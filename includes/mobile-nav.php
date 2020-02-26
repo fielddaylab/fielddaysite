@@ -11,18 +11,20 @@
           <a target="_blank" href="https://medium.com/@fielddaylab">blog</a>
         </div>
         <div class="link-col">
-          <h3>Make</h3>
+          <h3>Games</h3>
+          <a class="link-atomtouch" href="/play/lakeland">Lakeland</a>
+          <a href="/play/jowilder">Jo Wilder</a>
+          <a href="/play/forevermine">Forever Mine</a>
+          <a target="_blank" href="http://theyardgames.org">The Yard</a>
+          <a class="link-atomtouch" href="/play/atom-touch">Atom Touch</a>
+          <a target="_blank" href="https://www.thegamecrafter.com/play/the-n-game">The N Game</a>
+        </div>
+        <div class="link-col">
+          <h3>Mixed Reality</h3>
+          <a href="/jowilder">Discover Ice Cube</a>
           <a class="link-aris" href="/make/aris">Aris</a>
           <a target="_blank" href="https://siftr.org">Siftr</a>
           <a target="_blank" href="https://nomenproject.org">Nomen</a>
-        </div>
-        <div class="link-col">
-          <h3>Play</h3>
-          <a class="link-atomtouch" href="/play/lakeland">Lakeland</a>
-          <a target="_blank" href="http://theyardgames.org">The Yard</a>
-          <a href="/jowilder">Jo Wilder</a>
-          <a class="link-atomtouch" href="/play/atom-touch">Atom Touch</a>
-          <a target="_blank" href="https://www.thegamecrafter.com/games/the-n-game">The N Game</a>
         </div>
         <div class="link-col">
           <h3>Learn</h3>

@@ -21,10 +21,7 @@
             <span>Games</span>
           </li>
           <li class="app-bullet" data-target="#ourwork" data-slide-to="1">
-            <span>AR/VR</span>
-          </li>
-          <li class="app-bullet" data-target="#ourwork" data-slide-to="2">
-            <span>Field Work</span>
+            <span>Mixed Reality</span>
           </li>
       </ul>
       <!-- Carousel items -->
@@ -80,7 +77,7 @@
                 <span class="close-app">
                   <h2>Atom Touch</h2>
                   <p class="small">Explore the atomic world. Play with these tiny building blocks in Atom Touch. You’ll explore principles of thermodynamics and molecular dynamics as you learn the structures and attributes of particles all the way down at the molecular level.</p>
-                  <a class="button small black" href="/play/atom-touch" target="_blank">Play Atom Touch</a>
+                  <a class="button small black" href="/games/atom-touch" target="_blank">Play Atom Touch</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/atomtouchbg.jpg">
@@ -116,7 +113,7 @@
                 <span class="close-app">
                   <h2>Jo Wilder and the Capitol Case</h2>
                   <p class="small">Play as Jo Wilder, a scrappy girl who spends her days with her pet badger Teddy and her grandpa, a historian. When some mysterious artifacts show up at the History Museum, you must unravel the clues to find the real stories behind the artifacts. </p>
-                  <a class="button small black" href="/play/jowilder">Play Jo Wilder</a>
+                  <a class="button small black" href="/games/jowilder">Play Jo Wilder</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/jowilder-thumb.jpg">
@@ -129,7 +126,7 @@
                 <span class="close-app">
                   <h2>Lost at the Forever Mine</h2>
                   <p class="small">You play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out. </p>
-                  <a class="button small black" href="/play/forevermine" target="_blank">Play the Game</a>
+                  <a class="button small black" href="/games/forevermine" target="_blank">Play the Game</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/forevermine.jpg">
@@ -141,7 +138,7 @@
                 <span class="close-app">
                   <h2>Welcome to Lakeland!</h2>
                   <p class="small">Congratulations! You just started a new town called Lakeland! Your people need food and money, so you get them farming. The downside: cows don’t just produce milk. They also produce lots and lots of poop, which pollutes the lakes your people love so much. Poor Lakeland. Your mission: grow your town without destroying their lakes!</p>
-                  <a class="button small black" href="/play/lakeland">Play Lakeland</a>
+                  <a class="button small black" href="/games/lakeland">Play Lakeland</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/lakeland-thumb.jpg">
@@ -179,7 +176,7 @@
                 <span class="close-app">
                   <h2>IceCube</h2>
                   <p class="small">The IceCube Virtual Reality experience puts you in the role of an astrophysicist. You will journey deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica. Players learn about the IceCube observatory at the South Pole and the neutrinos they detect. Play at the Wisconsin Institute for Discovery in Madison, WI or download for your own VR device.</p>
-                  <a class="button small black" href="/play/ice-cube" target="_blank">Learn about Discover IceCube</a>
+                  <a class="button small black" href="/games/ice-cube" target="_blank">Learn about Discover IceCube</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/icecube-thumb.png">

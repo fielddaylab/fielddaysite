@@ -5,7 +5,7 @@ var mn = $(".small-nav");
     hdr = $('.hero').height();
 
 $(window).scroll(function() {
-  if( $(this).scrollTop() > 120 ) {
+  if( $(this).scrollTop() > 300 ) {
     mn.addClass(mns);
     bd.addClass(mns);
     bd.removeClass('drawerleft-open');
@@ -90,6 +90,12 @@ $('.drawertop-toggle').click(function(){
 });
 
 $('.hero').click(function(){
+  $('body').removeClass('drawerleft-open');
+  $('body').removeClass('drawerright-open');
+  $('body').removeClass('drawertop-open');
+});
+
+$('.drawerclose').click(function(){
   $('body').removeClass('drawerleft-open');
   $('body').removeClass('drawerright-open');
   $('body').removeClass('drawertop-open');

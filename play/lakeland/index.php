@@ -289,7 +289,7 @@ window.onload = function()
       <h2 id="source">Source Code</h2>
       <p>Lakeland is an open-source project licensed under the MIT license.  <a target="_blank" href="https://opensource.org/licenses/MIT">learn more</a></p>
       <h3>Funding Provided By</h3>
-      <p>United States Dairy Association Innovations at the Nexus of Food, Energy, and Water (USDA INFEWS). Principal Investigator: Victor M. Zavala</p>
+      <p>United States Department of Agriculture Innovations at the Nexus of Food, Energy, and Water (USDA INFEWS). Principal Investigator: Victor M. Zavala</p>
       <h3>Additional Funding Provided By</h3>
       <p>Wisconsin Department of Public Instruction,<br />
       Wisconsin Center for Education Research</p>
