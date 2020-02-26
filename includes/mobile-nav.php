@@ -21,7 +21,7 @@
         </div>
         <div class="link-col">
           <h3>Mixed Reality</h3>
-          <a href="/jowilder">Discover Ice Cube</a>
+          <a href="/play/ice-cube">Discover Ice Cube</a>
           <a class="link-aris" href="/make/aris">Aris</a>
           <a target="_blank" href="https://siftr.org">Siftr</a>
           <a target="_blank" href="https://nomenproject.org">Nomen</a>
