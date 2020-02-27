@@ -2,3 +2,4 @@ node_modules/
 assets/css/styles_ver1.css
 .DS_Store
 ExportErrorReport.log
+package-lock.json
