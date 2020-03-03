@@ -263,7 +263,7 @@
             <h3 class="corrected">Seth McGee’s Prairie Plant Companion app increases speed and accuracy for plant identification in the field</h3>
             <div class="row">
               <div class="col-md-8 brief">
-                <p class="corrected">When Seth’s students use this app they start becoming real botanists! The students are significantly more efficient and accurate in the plant identification with this Prairie Plant Companion. We leverage human skills at visual pattern recognition, and computing’s ability to sort and filter to create a new approach to teaching students.
+                <p class="corrected">When Seth’s students use this app they start becoming real botanists! The students are more efficient and accurate in the plant identification with this Prairie Plant Companion. We leverage human skills at visual pattern recognition, and computing’s ability to sort and filter to create a new approach to teaching students.
     exploratory way.</p>
                 <a target="_blank" href="https://medium.com/@fielddaylab/students-increase-their-speed-and-accuracy-in-plant-identification-with-new-field-day-tool-c45f1920b702#.6zu9mh7sy" class="button xsmall"><span class="text">Read story</span> <span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
               </div>
