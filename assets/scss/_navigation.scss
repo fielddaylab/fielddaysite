@@ -436,7 +436,7 @@
   left: 0;
   top: 0;
   width: 100vw;
-  height: 100vh;
+  height: 0vh;
   transition: all .3s ease-in-out;
   /*-webkit-transition-duration: 0.66s;
   transition-duration: 0.66s;
@@ -585,6 +585,7 @@
 .nav-open .mobile-nav-container{
   transform:translateY(0px);
   z-index:1000;
+  height:100vh;
   opacity:1;
   position:fixed;
   @media #{$break-sm} {

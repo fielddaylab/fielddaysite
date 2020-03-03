@@ -2,15 +2,15 @@
 <title>Field Day Lab</title>
 </head>
 <body class="nav-fixed">
-
-<!--<?php include 'includes/curtain.php';?>-->
-
 <!--include main navigation-->
 <?php include 'includes/main-nav.php';?>
+<div class="test">
 
+</div>
 <!-- start page template -->
-
 <div id="mainwrapper">
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/curtain.php";  include_once($path); ?>
+
   <!--hero-->
   <div id="carousel" class="hero carousel slide carousel-fade hero-slider " data-ride="carousel">
       <div class="slide-wrap">
@@ -130,9 +130,9 @@
         <span class="star star4"></span>
         <span class="star star5"></span>
       </div>
-      <div class="hideforsmall plainreveal scrollindicator">
+      <!--<div class="hideforsmall plainreveal scrollindicator">
           <a href="#workit" class="icon-scroll"></a>
-        </div>
+        </div>-->
     </div>
   </section>
   <section id="workit" class="workit">

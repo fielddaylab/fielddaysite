@@ -8260,7 +8260,7 @@ p {
   left: 0;
   top: 0;
   width: 100vw;
-  height: 100vh;
+  height: 0vh;
   transition: all .3s ease-in-out;
   /*-webkit-transition-duration: 0.66s;
   transition-duration: 0.66s;
@@ -8386,6 +8386,7 @@ p {
 .nav-open .mobile-nav-container {
   transform: translateY(0px);
   z-index: 1000;
+  height: 100vh;
   opacity: 1;
   position: fixed; }
   @media only screen and (max-width: 768px) {
@@ -9722,22 +9723,34 @@ hr {
     .singleapp .glide__bullet.active {
       background-color: #efefef; }
 
+#mainwrapper {
+  margin-top: -100vh;
+  transition: all .3s ease-in-out; }
+  #mainwrapper.curtain-show {
+    margin-top: 0vh; }
+
 .curtain {
+  position: relative;
   width: 100vw;
   height: 100vh;
-  background: url(../img/hero-images/ice-cube.jpg) no-repeat;
+  background: url(../img/curtain/ai_bg.jpg) no-repeat;
   background-size: cover;
+  background-position: right;
   color: #fff;
   display: flex;
   align-items: center;
-  text-align: center;
   z-index: 1000;
-  position: absolute; }
-  .curtain.curtain-hidden {
-    transform: translateY(-100vh); }
+  opacity: 1;
+  transition: all .3s ease-in-out;
+  opacity: 0; }
+  .curtain.curtain-show {
+    opacity: 1; }
   .curtain .curtain-content {
-    width: 60vw;
-    margin: 0 auto; }
+    width: 50vw;
+    margin-left: 10vw; }
+    @media only screen and (max-width: 1024px) {
+      .curtain .curtain-content {
+        width: 80vw; } }
   .curtain h1, .curtain p {
     color: #fff; }
   .curtain h1 {
@@ -9745,14 +9758,26 @@ hr {
 
 .curtain-toggle {
   position: absolute;
-  background: #719945;
+  background: url(../img/curtain/ai_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: right;
   padding: 5px 10px;
   cursor: pointer;
   font-size: 12px;
   top: 100%;
   z-index: 1000;
   border-radius: 0px 0px 5px 5px;
-  left: 20px; }
+  left: 11px;
+  text-transform: uppercase;
+  font-family: brandon-grotesque, futura-pt, sans-serif;
+  color: #fff;
+  border: 2px solid #fff;
+  margin-top: -2px;
+  transition: all .3s ease-in-out;
+  z-index: 100;
+  opacity: 1; }
+  .curtain-toggle.curtain-toggle-hidden {
+    opacity: 0; }
   .curtain-toggle img {
     width: 40px;
     height: auto; }
@@ -10920,6 +10945,280 @@ hr {
       padding-top: 0; }
   .research .tab-content p {
     margin-bottom: 10px; }
+
+.about #mainwrapper .section-title {
+  font-size: 36px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  padding: 5vw;
+  background: url(/assets/img/illustrations/cloud-white.png) no-repeat;
+  background-size: 300px 100px;
+  background-position: center;
+  margin-top: 0px; }
+
+.about .intro-section {
+  background: #FAD9D9; }
+
+.about .fellowships-content {
+  background: #fff;
+  padding: 5vw; }
+  .about .fellowships-content .gridder-list {
+    width: 31%;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.14);
+    text-align: left; }
+    @media only screen and (max-width: 1060px) {
+      .about .fellowships-content .gridder-list {
+        width: 47%; } }
+    @media only screen and (max-width: 768px) {
+      .about .fellowships-content .gridder-list {
+        width: 98%; } }
+    .about .fellowships-content .gridder-list:hover {
+      background: #001E2A; }
+    .about .fellowships-content .gridder-list.selectedItem {
+      background: #001E2A; }
+    .about .fellowships-content .gridder-list .game-thumbnail {
+      height: 200px; }
+      @media only screen and (max-width: 768px) {
+        .about .fellowships-content .gridder-list .game-thumbnail {
+          height: 275px; } }
+    .about .fellowships-content .gridder-list .card-summary {
+      display: flex;
+      align-items: center;
+      min-height: 200px; }
+      .about .fellowships-content .gridder-list .card-summary h3 {
+        line-height: 30px;
+        letter-spacing: 3px; }
+      .about .fellowships-content .gridder-list .card-summary h4 {
+        color: #A3A3A3;
+        letter-spacing: 2px;
+        text-transform: uppercase; }
+    .about .fellowships-content .gridder-list .card-triangle {
+      border-top: 15px solid #001E2A; }
+  .about .fellowships-content .gridder-expanded-content {
+    margin: 0 auto;
+    width: 98%;
+    margin-top: 2vw;
+    margin-bottom: 5vw; }
+    .about .fellowships-content .gridder-expanded-content .wrapper {
+      display: flex; }
+    .about .fellowships-content .gridder-expanded-content .fellows-list, .about .fellowships-content .gridder-expanded-content .fellowship-summary {
+      margin-top: 20px;
+      padding: 2vw; }
+      .about .fellowships-content .gridder-expanded-content .fellows-list .fellows, .about .fellowships-content .gridder-expanded-content .fellowship-summary .fellows {
+        font-family: 'Courier', 'courier-new', serif;
+        column-count: 2; }
+        .about .fellowships-content .gridder-expanded-content .fellows-list .fellows a, .about .fellowships-content .gridder-expanded-content .fellowship-summary .fellows a {
+          display: block;
+          color: #EE8F8F; }
+    .about .fellowships-content .gridder-expanded-content h4 {
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 30px; }
+    .about .fellowships-content .gridder-expanded-content .groupshot {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-top: 10px; }
+    .about .fellowships-content .gridder-expanded-content h3 {
+      font-size: 40px; }
+    .about .fellowships-content .gridder-expanded-content .game-expanded {
+      padding-left: 0px;
+      margin-top: 20px; }
+    .about .fellowships-content .gridder-expanded-content .expanded-thumb {
+      border-radius: 5px;
+      width: 100%;
+      margin-top: 25px; }
+    .about .fellowships-content .gridder-expanded-content span {
+      font-family: brandon-grotesque, futura-pt, sans-serif;
+      display: block;
+      margin-right: 30px;
+      color: #A3A3A3;
+      text-transform: uppercase;
+      letter-spacing: 3px; }
+      .about .fellowships-content .gridder-expanded-content span a {
+        color: #EE8F8F;
+        letter-spacing: 3px; }
+  .about .fellowships-content .gridder-navigation {
+    border-top: none;
+    border-bottom: none;
+    margin-left: 1vw;
+    width: 98%; }
+    .about .fellowships-content .gridder-navigation .nav-left a {
+      border-left: none;
+      border-right: none; }
+
+.about .page-facts {
+  background: #FAD9D9; }
+  .about .page-facts .info {
+    padding: 6vw; }
+  .about .page-facts .fact {
+    background: none; }
+    .about .page-facts .fact .photo {
+      padding: 5vw;
+      display: flex;
+      position: relative;
+      justify-content: center; }
+      .about .page-facts .fact .photo img {
+        width: 15vw;
+        height: auto; }
+      .about .page-facts .fact .photo .astro-book {
+        animation: float 6s ease-in-out infinite;
+        height: 15vw;
+        margin-top: 4vw; }
+        @media only screen and (max-width: 768px) {
+          .about .page-facts .fact .photo .astro-book {
+            height: 23vw;
+            width: 33vw;
+            margin-top: 15vw; } }
+      .about .page-facts .fact .photo .astro-confused {
+        animation: float 7s ease-in-out infinite;
+        height: 24vw; }
+        @media only screen and (max-width: 768px) {
+          .about .page-facts .fact .photo .astro-confused {
+            height: 47vw;
+            width: 30vw; } }
+      .about .page-facts .fact .photo .astro-flight {
+        height: 27vw;
+        width: 10vw;
+        z-index: 100; }
+        @media only screen and (max-width: 768px) {
+          .about .page-facts .fact .photo .astro-flight {
+            height: 45vw;
+            width: 16vw; } }
+      .about .page-facts .fact .photo .astro-flame {
+        height: 15vw;
+        width: 8vw;
+        position: absolute;
+        animation: burn 1.5s ease-in-out infinite;
+        z-index: 10;
+        top: 25vw; }
+        @media only screen and (max-width: 768px) {
+          .about .page-facts .fact .photo .astro-flame {
+            top: 35vw;
+            height: 20vw;
+            width: 10vw; } }
+      .about .page-facts .fact .photo .astro-flame2 {
+        height: 15vw;
+        width: 8vw;
+        position: absolute;
+        z-index: 10;
+        top: 25vw;
+        animation: burn 1.5s ease-in-out infinite;
+        animation-delay: -.5s; }
+        @media only screen and (max-width: 768px) {
+          .about .page-facts .fact .photo .astro-flame2 {
+            top: 35vw;
+            height: 20vw;
+            width: 10vw; } }
+      .about .page-facts .fact .photo .flight-lines {
+        width: 5vw;
+        height: 20vw;
+        transform: translateX(-3vw); }
+        @media only screen and (max-width: 768px) {
+          .about .page-facts .fact .photo .flight-lines {
+            height: 30vw;
+            width: 7.5vw;
+            margin-top: 8vw; } }
+        .about .page-facts .fact .photo .flight-lines.two {
+          transform: translateX(3vw); }
+
+.about .page_hero {
+  background: #001E2A;
+  padding: 5vw 0vw; }
+  @media only screen and (max-width: 768px) {
+    .about .page_hero {
+      flex-direction: column-reverse;
+      height: auto;
+      padding: 2vw; } }
+  .about .page_hero .info {
+    color: #fff;
+    width: 40%;
+    padding: 8vw 0vw 8vw 8vw;
+    margin-right: 10%; }
+    .about .page_hero .info p {
+      margin-bottom: 20px; }
+    @media only screen and (max-width: 768px) {
+      .about .page_hero .info {
+        width: 100%; } }
+    .about .page_hero .info h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 50px; }
+      @media only screen and (max-width: 768px) {
+        .about .page_hero .info h1 {
+          font-size: 40px; } }
+    .about .page_hero .info h2 {
+      color: #FAD9D9;
+      font-size: 25px;
+      text-transform: uppercase;
+      margin-left: 0px;
+      letter-spacing: 4px; }
+  .about .page_hero .graphic {
+    width: 50%;
+    height: 100%;
+    background: url(../img/hero-images/about-hero.jpg);
+    background-size: cover; }
+    @media only screen and (max-width: 768px) {
+      .about .page_hero .graphic {
+        height: 40vw;
+        width: 100%;
+        margin-top: 20vw; } }
+    .about .page_hero .graphic .teachernaut {
+      width: 10vw;
+      margin-right: 6vw; }
+      @media only screen and (max-width: 768px) {
+        .about .page_hero .graphic .teachernaut {
+          width: 30vw;
+          margin-left: 2vw; } }
+    .about .page_hero .graphic .kidstronaut {
+      position: relative;
+      z-index: 200;
+      width: 7vw;
+      margin-right: -1vw; }
+      @media only screen and (max-width: 768px) {
+        .about .page_hero .graphic .kidstronaut {
+          width: 16vw;
+          margin-left: 3vw; } }
+      .about .page_hero .graphic .kidstronaut.two {
+        margin-top: -20vw;
+        margin-left: 2vw;
+        width: 10vw; }
+        @media only screen and (max-width: 768px) {
+          .about .page_hero .graphic .kidstronaut.two {
+            width: 14vw; } }
+      .about .page_hero .graphic .kidstronaut.three {
+        margin-bottom: -10vw;
+        width: 9vw; }
+        @media only screen and (max-width: 768px) {
+          .about .page_hero .graphic .kidstronaut.three {
+            width: 13vw; } }
+    .about .page_hero .graphic .cloud {
+      width: 300px;
+      height: auto;
+      position: absolute;
+      top: 10vw;
+      right: 25vw;
+      z-index: 101;
+      animation: float-horiz 10s ease-in-out infinite;
+      opacity: 1; }
+      @media only screen and (max-width: 1024px) {
+        .about .page_hero .graphic .cloud {
+          width: 150px;
+          right: -15vw;
+          opacity: .5; } }
+      .about .page_hero .graphic .cloud.two {
+        top: initial;
+        bottom: 50px;
+        right: 12vw;
+        width: 300px;
+        z-index: 99;
+        animation: float-horiz 6s 6s ease-in-out infinite; }
+        @media only screen and (max-width: 1024px) {
+          .about .page_hero .graphic .cloud.two {
+            width: 150px;
+            top: 60vw;
+            right: 6vw;
+            opacity: .5; } }
 
 .press #mainwrapper {
   overflow-x: initial;

@@ -1,6 +1,5 @@
-
 <nav class="small-nav nav-fixed">
-  <!--<span class="curtain-toggle"><img src="/assets/img/ui/icon-ornament.png" /></span>-->
+  <span class="curtain-toggle">Event: AI Lunch</span>
   <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
   <div class="left">
     <ul>
@@ -64,6 +63,7 @@
 </div>
 
 <div class="drawer drawer-right learn">
+  <img class="icon-close drawerclose" src="/assets/img/ui/close-icon-white.png"/>
   <div class="drawer-contents">
 
     <a class="draweritem drawer-intro" href="">

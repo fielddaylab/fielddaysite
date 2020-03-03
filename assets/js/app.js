@@ -2,19 +2,21 @@
 var mn = $(".small-nav");
     mns = "nav-fixed";
     bd = $('body');
+    ct = $('.curtain-toggle');
     hdr = $('.hero').height();
 
 $(window).scroll(function() {
-  if( $(this).scrollTop() > 300 ) {
+  if( $(this).scrollTop() > 200 ) {
     mn.addClass(mns);
     bd.addClass(mns);
+    ct.addClass('curtain-toggle-hidden');
     bd.removeClass('drawerleft-open');
     bd.removeClass('drawerright-open');
     bd.removeClass('drawertop-open');
-  } /*else {
-    mn.removeClass(mns);
-    bd.removeClass(mns);
-  }*/
+  }
+  else {
+    ct.removeClass('curtain-toggle-hidden');
+  }
 });
 
 // stickyfill
@@ -106,7 +108,7 @@ $(function() {
     FastClick.attach(document.body);
 });
 
-// remove tap delay on mobile
+// carousel
 $(window).scroll(function () {
    $('.bg1trigger').each(function () {
       if (isScrolledIntoView(this) === true) {
@@ -134,7 +136,11 @@ $(window).scroll(function () {
    });
 });
 
-
+$('.curtain-close').click(function(){
+  $('#mainwrapper').removeClass('curtain-show');
+  $('.curtain').removeClass('curtain-show');
+  $('.curtain-toggle').removeClass('curtain-toggle-hidden')
+});
 
 $('.corrected').buddySystem();
 
@@ -145,4 +151,29 @@ $(document).ready(function(){
   else {
     $('.worklink').append('<a href="/work" class="workwithus button xsmall blue-black filled hideforsmall">Work with us</a>');
   }
+});
+
+// Only auto-display curtain once per session
+$(document).ready(function() {
+    var curtainshow = sessionStorage.getItem('.curtain');
+    if (curtainshow== null) {
+        sessionStorage.setItem('.curtain', 1);
+
+        // Show curtain here
+        $('.curtain').addClass('curtain-show');
+        $('#mainwrapper').addClass('curtain-show');
+        $('body').addClass('curtain-show');
+    }
+});
+
+$(document).ready(function() {
+    if ($('body').hasClass('curtain-show')) {
+        $('.curtain-toggle').addClass('curtain-toggle-hidden');
+    }
+});
+
+$('.curtain-toggle').click(function(){
+  $('#mainwrapper').addClass('curtain-show');
+  $('.curtain').addClass('curtain-show');
+  $('.curtain-toggle').addClass('curtain-toggle-hidden')
 });
