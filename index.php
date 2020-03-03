@@ -1,8 +1,9 @@
 <?php include 'includes/header.php';?>
 <title>Field Day Lab</title>
 </head>
-<body class="nav-fixed">
+<body class="nav-fixed home">
 <!--include main navigation-->
+<span class="curtain-toggle">Event: AI Lunch</span>
 <?php include 'includes/main-nav.php';?>
 <div class="test">
 

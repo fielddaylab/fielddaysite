@@ -1,8 +1,10 @@
-#mainwrapper {
-  margin-top:-100vh;
-  transition: all .3s ease-in-out;
-  &.curtain-show {
-    margin-top:0vh;
+.home {
+  #mainwrapper {
+    margin-top:-100vh;
+    transition: all .3s ease-in-out;
+    &.curtain-show {
+      margin-top:0vh;
+    }
   }
 }
 
@@ -46,7 +48,7 @@ background-position:right;
 padding:5px 10px;
 cursor:pointer;
 font-size:12px;
-top: 100%;
+top: 57px;
 z-index: 1000;
 border-radius: 0px 0px 5px 5px;
 left: 11px;
@@ -58,6 +60,9 @@ margin-top:-2px;
 transition: all .3s ease-in-out;
 z-index:100;
 opacity:1;
+@media #{$break-sm} {
+  top:50px;
+}
 &.curtain-toggle-hidden {
   opacity:0;
 }
