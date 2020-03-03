@@ -9741,8 +9741,7 @@ hr {
   align-items: center;
   z-index: 1000;
   opacity: 1;
-  transition: all .3s ease-in-out;
-  opacity: 0; }
+  transition: all .3s ease-in-out; }
   .curtain.curtain-show {
     opacity: 1; }
   .curtain .curtain-content {
@@ -9764,7 +9763,7 @@ hr {
   padding: 5px 10px;
   cursor: pointer;
   font-size: 12px;
-  top: 57px;
+  bottom: -97px;
   z-index: 1000;
   border-radius: 0px 0px 5px 5px;
   left: 11px;
@@ -9778,7 +9777,7 @@ hr {
   opacity: 1; }
   @media only screen and (max-width: 768px) {
     .curtain-toggle {
-      top: 50px; } }
+      bottom: -92px; } }
   .curtain-toggle.curtain-toggle-hidden {
     opacity: 0; }
   .curtain-toggle img {

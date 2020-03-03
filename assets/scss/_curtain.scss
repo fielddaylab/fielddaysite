@@ -21,7 +21,6 @@
   z-index:1000;
   opacity:1;
   transition: all .3s ease-in-out;
-  opacity:0;
   &.curtain-show {
     opacity:1;
   }
@@ -48,7 +47,7 @@ background-position:right;
 padding:5px 10px;
 cursor:pointer;
 font-size:12px;
-top: 57px;
+bottom: -97px;
 z-index: 1000;
 border-radius: 0px 0px 5px 5px;
 left: 11px;
@@ -61,7 +60,7 @@ transition: all .3s ease-in-out;
 z-index:100;
 opacity:1;
 @media #{$break-sm} {
-  top:50px;
+  bottom:-92px;
 }
 &.curtain-toggle-hidden {
   opacity:0;

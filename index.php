@@ -3,11 +3,7 @@
 </head>
 <body class="nav-fixed home">
 <!--include main navigation-->
-<span class="curtain-toggle">Event: AI Lunch</span>
 <?php include 'includes/main-nav.php';?>
-<div class="test">
-
-</div>
 <!-- start page template -->
 <div id="mainwrapper">
   <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/curtain.php";  include_once($path); ?>
