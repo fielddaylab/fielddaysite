@@ -9723,67 +9723,6 @@ hr {
     .singleapp .glide__bullet.active {
       background-color: #efefef; }
 
-.home #mainwrapper {
-  margin-top: -100vh;
-  transition: all .3s ease-in-out; }
-  .home #mainwrapper.curtain-show {
-    margin-top: 0vh; }
-
-.curtain {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  background: url(../img/curtain/ai_bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: right;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  z-index: 1000;
-  opacity: 1;
-  transition: all .3s ease-in-out; }
-  .curtain.curtain-show {
-    opacity: 1; }
-  .curtain .curtain-content {
-    width: 50vw;
-    margin-left: 10vw; }
-    @media only screen and (max-width: 1024px) {
-      .curtain .curtain-content {
-        width: 80vw; } }
-  .curtain h1, .curtain p {
-    color: #fff; }
-  .curtain h1 {
-    text-transform: uppercase; }
-
-.curtain-toggle {
-  position: absolute;
-  background: url(../img/curtain/ai_bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: right;
-  padding: 5px 10px;
-  cursor: pointer;
-  font-size: 12px;
-  bottom: -97px;
-  z-index: 1000;
-  border-radius: 0px 0px 5px 5px;
-  left: 11px;
-  text-transform: uppercase;
-  font-family: brandon-grotesque, futura-pt, sans-serif;
-  color: #fff;
-  border: 2px solid #fff;
-  margin-top: -2px;
-  transition: all .3s ease-in-out;
-  z-index: 100;
-  opacity: 1; }
-  @media only screen and (max-width: 768px) {
-    .curtain-toggle {
-      bottom: -92px; } }
-  .curtain-toggle.curtain-toggle-hidden {
-    opacity: 0; }
-  .curtain-toggle img {
-    width: 40px;
-    height: auto; }
-
 .content-wrap {
   padding: 5vw; }
   @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {

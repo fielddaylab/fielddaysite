@@ -153,7 +153,10 @@ $(document).ready(function(){
   }
 });
 
-// Only auto-display curtain once per session
+
+//Curtain scripts. comment out when not in use
+
+/*
 $(document).ready(function() {
     var curtainshow = sessionStorage.getItem('.curtain');
     if (curtainshow== null) {
@@ -177,3 +180,4 @@ $('.curtain-toggle').click(function(){
   $('.curtain').addClass('curtain-show');
   $('.curtain-toggle').addClass('curtain-toggle-hidden')
 });
+*/

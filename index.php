@@ -6,7 +6,7 @@
 <?php include 'includes/main-nav.php';?>
 <!-- start page template -->
 <div id="mainwrapper">
-  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/curtain.php";  include_once($path); ?>
+  <!--<?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/curtain.php";  include_once($path); ?>-->
 
   <!--hero-->
   <div id="carousel" class="hero carousel slide carousel-fade hero-slider " data-ride="carousel">
