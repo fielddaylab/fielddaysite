@@ -95,7 +95,7 @@
       <div class="intro-content">
         <img class="bg1trigger reveal float" src="assets/img/illustrations/astronaut1.png" class="astronaut">
         <h2 class="light centered plainreveal uppercase">Make a game, reach more people</h2>
-        <p class="corrected plainreveal light">When it comes to sharing your work, the stakes are higher than ever. We make games that turn researchers into outreach superstars. We'll turn your research into a fun, academically rigorous game that reaches hundreds of thousands of people.</p>
+        <p class="corrected plainreveal light">When it comes to sharing your work, the stakes are higher than ever. We'll turn your research into a fun, academically rigorous game that reaches hundreds of thousands of people. Team up with us and become an outreach superstar.</p>
         <!--<p class="corrected plainreveal big light">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>-->
       </div>
       <div class="starfield topright">
@@ -212,7 +212,7 @@
     <div id="maincta" class="maincta">
       <img src="assets/img/illustrations/spaceplane-flight.png">
       <h2 class="uppercase">Work with Us</h2>
-      <p>We work with scientists, researchers, teachers, artists, story tellers, and all-around rad people to make things together to impact our communities.  </p>
+      <p>Let's make a game together! We'll help write the Broader Impacts section of your grant.</p>
       <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
     </div>
   </section>

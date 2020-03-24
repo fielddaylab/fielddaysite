@@ -67,7 +67,7 @@ window.onload = function()
     <div class="app-info">
       <h1 class="app-title">Jo Wilder and the Capitol Case</h1>
     </div>
-    <div class="app-description"><p class="small">This award-winning game turns kids into history detectives! Made in partnership with expert archivists. Our love letter to Wisconsin.
+    <div class="app-description"><p class="small">This award-winning game turns kids into history detectives! Made in partnership with expert archivists and PBS Wisconsin.
 
 </p></div>
     <div class="buttons">
