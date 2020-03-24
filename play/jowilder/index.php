@@ -67,7 +67,7 @@ window.onload = function()
     <div class="app-info">
       <h1 class="app-title">Jo Wilder and the Capitol Case</h1>
     </div>
-    <div class="app-description"><p class="small">Play as Jo Wilder, a scrappy girl who spends her days with her pet badger Teddy and her grandpa, a historian. When some mysterious artifacts show up at the History Museum, you must unravel the clues to find the real stories behind the artifacts.
+    <div class="app-description"><p class="small">This award-winning game turns kids into history detectives! Made in partnership with expert archivists. Our love letter to Wisconsin.
 
 </p></div>
     <div class="buttons">

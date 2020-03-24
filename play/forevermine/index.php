@@ -42,7 +42,7 @@ window.onload = function()
     <div class="app-info">
       <h1 class="app-title">Lost at the Forever Mine</h1>
     </div>
-    <div class="app-description"><p class="small">In this Math Drama, you are a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out.</p></div>
+    <div class="app-description"><p class="small">The most dramatic mathematical modeling game you'll ever play. Made in partnership with UW-MRSEC. Funded by the Wisconsin DPI.</p></div>
     <div class="buttons">
       <a target="_blank" href="./game" class="button xsmall white filled">Play the Game</a>
       <a target="_blank" href="#teach" class="button xsmall white">Teach with the Game</a>

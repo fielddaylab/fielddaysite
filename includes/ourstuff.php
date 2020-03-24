@@ -14,7 +14,7 @@
     <span class="star black star5"></span>
   </div>
   <h2 class="uppercase centered header">What we Make</h2>
-  <p class="small centered">We make learning games, virtual reality experiences and citizen science apps.<br> All our games, apps and courses are free and available online.</p>
+  <p class="small centered">We make learning games that bring contemporary research to the public.<br> All our games are free and available online.</p>
   <div id="ourwork" class="slide carousel-fade">
       <ul class="carousel-indicators app-bullets">
           <li class="app-bullet active" data-target="#ourwork" data-slide-to="0">

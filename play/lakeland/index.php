@@ -44,7 +44,7 @@ window.onload = function()
     <div class="app-info">
       <h1 class="app-title">Lakeland</h1>
     </div>
-    <div class="app-description"><p class="small">Congratulations! You just started a new town called Lakeland! Your people need food and money, so you get them farming. The downside: cows don’t just produce milk. They also produce lots and lots of poop, which pollutes the lakes your people love so much. Poor Lakeland. Your mission: grow your town without destroying their lakes! </p></div>
+    <div class="app-description"><p class="small">This town-building game teaches complex systems. Made in partnership with the Scalable Systems Lab at UW-Madison. Funded by the USDA. Slightly addictive.</p></div>
     <div class="buttons">
       <a class="button xsmall white filled" href="javascript:window.open('game/iframe.html','lakeland','width=1024,height=660')">Play the Game</a>
       <a target="_blank" href="#teach" class="button xsmall white">Teach with the Game</a>

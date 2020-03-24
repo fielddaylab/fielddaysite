@@ -37,8 +37,7 @@
           <div class="info-wrap">
             <div class="item-info">
               <img class="" src="/assets/img/logos/lakeland-logo.png?cb=20190820">
-              <p class="corrected">The folks in Lakeland love their lakes! Swimming, fishing, boating; They love it all.
-          But they also love cheese, and ice cream, I mean, who doesn’t? To make cheese they need cows, and with cows comes a whooooole lotta poop. Poop is great, it feeds plants, but it also make a lot of nutrients. Why do nutrients matter? Play and see!</p>
+              <p class="corrected">This town-building game teaches complex systems. Made in partnership with the Scalable Systems Lab at UW-Madison. Played by thousands of kids a month.</p>
               <a href="/play/lakeland" class="button white xsmall">Learn More</a>
             </div>
           </div>
@@ -49,7 +48,7 @@
             <div class="item-info">
               <img class="" src="/assets/img/logos/forevermine-white.png?cb=20190820">
               <h2 class="uppercase"></h2>
-              <p class="corrected">In this Math Drama, Play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out.</p>
+              <p class="corrected">This game brings mathematical modeling straight to the classroom. Made in partnership with UW-MRSEC. </p>
               <a class="button xsmall white" href="/play/forevermine">Learn More</a>
             </div>
           </div>
@@ -60,7 +59,7 @@
             <div class="item-info dark">
               <img class="small_hero_img" src="/assets/img/logos/colored/siftr-logo.png?cb=20190820">
               <h2 class="uppercase"></h2>
-              <p class="corrected">Siftr is a citizen science app that allows you to create projects for any topic, from biology and ecology to photography and language studies. Participants will use your project to go out into the field and collect data.</p>
+              <p class="corrected">This app makes it easy to create citizen science projects! Design your project in a few minutes. Then send people out to collect data.</p>
               <a class="button xsmall black filled" href="https://siftr.org" target="_blank">Go to Siftr</a>
             </div>
           </div>
@@ -71,7 +70,7 @@
             <div class="item-info">
               <img class="" src="/assets/img/logos/jowilder.png?cb=20190820">
               <h2 class="uppercase"></h2>
-              <p class="corrected">Play as Jo Wilder, a scrappy girl who spends her days with her pet badger Teddy and her grandpa, a historian. When some mysterious artifacts show up at the History Museum, you must unravel the clues to find the real stories behind the artifacts.</p>
+              <p class="corrected">This award-winning game turns kids into history detectives! Made in partnership with expert archivists and PBS Wisconsin.</p>
               <a class="button xsmall white" href="/play/jowilder">Learn More</a>
             </div>
           </div>
@@ -95,8 +94,8 @@
       <span class="offscreen test one"></span>
       <div class="intro-content">
         <img class="bg1trigger reveal float" src="assets/img/illustrations/astronaut1.png" class="astronaut">
-        <h2 class="light centered plainreveal uppercase">We are Field Day</h2>
-        <p class="corrected plainreveal light">What if kids had the same curiosity and sense of discovery that drives the best researchers at universities? We foster that wonder by creating learning games, virtual reality experiences and citizen science apps. Teachers and subject experts work with us to design fun ways to connect people to research. Our mission is to explain big ideas in playful ways, bridging the gap between the university and the public.</p>
+        <h2 class="light centered plainreveal uppercase">Make a game, reach more people</h2>
+        <p class="corrected plainreveal light">When it comes to sharing your work, the stakes are higher than ever. We make games that turn researchers into outreach superstars. We'll turn your research into a fun, academically rigorous game that reaches hundreds of thousands of people.</p>
         <!--<p class="corrected plainreveal big light">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>-->
       </div>
       <div class="starfield topright">
@@ -155,8 +154,8 @@
           <a class="button xsmall black" href="/fellowships">Get started</a>
         </div>
         <div class="cta-card two">
-          <h3>Work with us</h3>
-          <p class="small">Are you from a research lab looking to design public outreach with games, a virtual reality experience, or a citizen science app?</p>
+          <h3>Design Amazing Public Outreach</h3>
+          <p class="small">Are you from a research lab? Design a game with us and reach hundreds of thousands of people.</p>
           <a class="button xsmall black" href="/work">Work with Us</a>
         </div>
       </div>
@@ -171,9 +170,9 @@
         <img src="assets/img/illustrations/astro-flag.png">
       </div>
       <div class="info">
-        <h3 class="white">Stay in Touch</h3>
-        <p class="small white">We are constantly making new things, and improving what we’ve already made. Want to stay ahead of the curve? Join us!</p>
-        <a href="Stay in Touch" class="button xsmall white">Stay in Touch</a>
+        <h3 class="white">Extra, extra!</h3>
+        <p class="small white">Read the stories behind our games and meet the researchers and teachers who have teamed up with us.</p>
+        <a href="Stay in Touch" class="button xsmall white">Field Day Blog</a>
       </div>
     </div>
   </section>
@@ -181,7 +180,7 @@
     <div class="container">
       <img src="assets/img/illustrations/skylab-small.png" class="header-icon">
       <h3 class="centered uppercase">Who we work with</h3>
-      <p class="small">We literally work with the most interesting people in the world. </p>
+      <p class="small">We work with amazing researchers and distributors around the world. Contact us if you want to design a game with us, connect with our research, or distribute our games for free.</p>
       <div class="partner-logos">
         <img src="/assets/img/logos/partnerlogos/partnerlogo1.jpg?cb=20190820">
         <img src="/assets/img/logos/partnerlogos/partnerlogo2.png?cb=20190820">
