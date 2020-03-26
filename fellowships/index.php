@@ -13,7 +13,7 @@
     <section class="singlehero page_hero">
       <div class="info">
         <h1 class="corrected">Teacher <br />Fellowships</h1>
-        <p class="corrected">We want our games to reach classrooms, so we’re partnering up with the classroom experts: teachers like you. Join us at a Teacher Fellowship and design a game with us.</p>
+        <p class="corrected">Join us at a Teacher Fellowship and design a game with us! We want our games to reach classrooms, so we’re partnering up with the classroom experts: teachers like you.</p>
         <a href="#page-facts" class="button pink filled small">Learn More</a>
       </div>
       <div class="graphic">

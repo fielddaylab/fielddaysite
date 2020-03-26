@@ -48,7 +48,7 @@
             <div class="item-info">
               <img class="" src="/assets/img/logos/forevermine-white.png?cb=20190820">
               <h2 class="uppercase"></h2>
-              <p class="corrected">This game brings mathematical modeling straight to the classroom. Made in partnership with UW-MRSEC. </p>
+              <p class="corrected">This space adventure brings mathematical modeling straight to the classroom. Made in partnership with the UW-MRSEC research center. </p>
               <a class="button xsmall white" href="/play/forevermine">Learn More</a>
             </div>
           </div>
@@ -59,7 +59,7 @@
             <div class="item-info dark">
               <img class="small_hero_img" src="/assets/img/logos/colored/siftr-logo.png?cb=20190820">
               <h2 class="uppercase"></h2>
-              <p class="corrected">This app makes it easy to create citizen science projects! Design your project in a few minutes. Then send people out to collect data.</p>
+              <p class="corrected">With Siftr, you can easily create citizen science projects. Design your project in a few minutes. Then send people out to collect data.</p>
               <a class="button xsmall black filled" href="https://siftr.org" target="_blank">Go to Siftr</a>
             </div>
           </div>
@@ -149,12 +149,12 @@
       </div>
       <div class="content-wrap workit-content">
         <div class="cta-card one">
-          <h3>Teach with apps & games</h3>
-          <p class="small">Are you a teacher looking to use games & apps? Take an online course or join a fellowship for Professional Development.</p>
+          <h3>Teacher Fellowships</h3>
+          <p class="small">We work with teachers on all of our learning games. If you're a teacher, come design a game with us!</p>
           <a class="button xsmall black" href="/fellowships">Get started</a>
         </div>
         <div class="cta-card two">
-          <h3>Design Amazing Public Outreach</h3>
+          <h3>Games for Outreach</h3>
           <p class="small">Are you from a research lab? Design a game with us and reach hundreds of thousands of people.</p>
           <a class="button xsmall black" href="/work">Work with Us</a>
         </div>
@@ -240,11 +240,11 @@
           <div class="thumb">
           </div>
           <div class="blogcontent">
-            <h3 class="corrected">Anne Lynn Gillian Daniels and Dane Morgan from MRSEC turn a Science Lab into a Game called AtomTouch</h3>
+            <h3 class="corrected">Trouble in Lakeland: This Game Teaches the Impact of the Dairy Industry on the Lakes</h3>
             <div class="row">
               <div class="col-md-8 brief">
-                <p class="corrected">AtomTouch allows learners to explore principles of thermodynamics and molecular dynamics in an tactile, exploratory way. The game was developed to help students understand the structures and attributes of particles at the molecular level.</p>
-                <a target="_blank" href="https://medium.com/@fielddaylab/atomtouch-lets-you-interact-with-the-world-s-universal-building-blocks-7e01caa5dbf6" class="button xsmall"><span class="text">Read story</span><span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
+                <p class="corrected">In Lakeland, players need to build a town and manage their dairy farms - without destroying the lakes.</p>
+                <a target="_blank" href="https://medium.com/fielddaylab/kids-are-using-lakeland-to-play-through-the-phosphorus-cycle-and-talk-about-poop-in-class-7c5bed32461c" class="button xsmall"><span class="text">Read story</span><span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
               </div>
             </div>
           </div>

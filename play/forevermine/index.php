@@ -42,7 +42,7 @@ window.onload = function()
     <div class="app-info">
       <h1 class="app-title">Lost at the Forever Mine</h1>
     </div>
-    <div class="app-description"><p class="small">This game brings mathematical modeling straight to the classroom. Made in partnership with UW-MRSEC.</p></div>
+    <div class="app-description"><p class="small">This space adventure brings mathematical modeling straight to the classroom. Made in partnership with the UW-MRSEC research center.</p></div>
     <div class="buttons">
       <a target="_blank" href="./game" class="button xsmall white filled">Play the Game</a>
       <a target="_blank" href="#teach" class="button xsmall white">Teach with the Game</a>
