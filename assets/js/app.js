@@ -152,7 +152,7 @@ $(document).ready(function(){
     $('.worklink').append('<a href="/work" class="workwithus button xsmall blue-black filled hideforsmall">Work with us</a>');
   }
 });
-
+/*
 // Only auto-display curtain once per session
 $(document).ready(function() {
     var curtainshow = sessionStorage.getItem('.curtain');
@@ -177,3 +177,4 @@ $('.curtain-toggle').click(function(){
   $('.curtain').addClass('curtain-show');
   $('.curtain-toggle').addClass('curtain-toggle-hidden')
 });
+*/

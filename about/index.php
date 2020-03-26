@@ -25,7 +25,7 @@
     <section id="page-facts" class="page-facts">
       <div class="fact">
         <div class="photo">
-          <img class="supporting-image" src="/assets/img/thumbnails/aboutthumb_1.jpg">
+          <img class="supporting-image" src="/assets/img/callouts/aboutthumb_1.jpg">
         </div>
         <div class="info">
           <h3>A bunch of curious humans</h3>
@@ -57,7 +57,7 @@
           <a href="#team" class="button black filled small" target="_blank">Meet us</a>
         </div>
         <div class="photo">
-          <img class="supporting-image" src="/assets/img/thumbnails/aboutthumb_2.jpg">
+          <img class="supporting-image" src="/assets/img/callouts/aboutthumb_2.jpg">
         </div>
       </div>
     </section>
