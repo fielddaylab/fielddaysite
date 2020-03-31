@@ -14,7 +14,7 @@
       <div class="info">
         <h1 class="corrected">We're Field Day</h1>
         <h2 class="yellow">We make learning games</h2>
-        <p class="corrected">We are a research lab and game design studio made up of designers, software engineers, artists, storytellers, and researchers. We’ve been studying games and learning since the beginning of the field.</p>
+        <p class="corrected">We are a research lab and design studio made up of researchers, software engineers, designers, artists, storytellers, and graduate students. We’re based at the Wisconsin Center for Educational Research at UW - Madison. </p>
         <a href="#page-facts" class="button yellow filled small">Learn More</a>
       </div>
       <div class="graphic">
@@ -65,6 +65,7 @@
 
     <section id="team" class="section grid team-content">
       <h2 class="section-title centered">Our Team</h2>
+      <p>We are software engineers, designers, artists, storytellers, and researchers. We’re also gamers, mushroom foragers, drone enthusiasts, textile artists, banjo players, and philosophy nerds. In other words, a bunch of curious humans.  </p>
       <ul class="gridder">
 
         <!-- Begin Current Fellowships-->
