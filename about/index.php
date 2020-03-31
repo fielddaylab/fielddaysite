@@ -14,7 +14,7 @@
       <div class="info">
         <h1 class="corrected">We're Field Day</h1>
         <h2 class="yellow">We make learning games</h2>
-        <p class="corrected">We are a research lab and design studio made up of researchers, software engineers, designers, artists, storytellers, and graduate students. We’re based at the Wisconsin Center for Educational Research at UW - Madison. </p>
+        <p class="corrected">Our games bring contemporary research to the public. We are a research lab and design studio based at the Wisconsin Center for Educational Research at UW - Madison. </p>
         <a href="#page-facts" class="button yellow filled small">Learn More</a>
       </div>
       <div class="graphic">
@@ -28,17 +28,17 @@
           <img class="supporting-image" src="/assets/img/callouts/aboutthumb_1.jpg">
         </div>
         <div class="info">
-          <h3>A bunch of curious humans</h3>
-          <h4>Who seriously love games</h4>
-          <p class="small">We’re not just game designers, we’re also gamers, mushroom foragers, drone enthusiasts, textile artists, banjo players, bakers, and philosophy nerds. In other words, a bunch of curious humans.</p>
-          <p class="small">We’re deeply missional and put a lot of heart into what we make. We care about designing games that are fun and beautiful, and most of all, we care about kids. </p>
-          <h4>In a nutshell:</h4>
+          <h3>Modus Operandi</h3>
+          <h4></h4>
+          <p class="small">UW-Madison is ground zero for the field of games and learning. We've been here studying games for over a decade.</p>
+          <p class="small">Our team is drawn to the challenge of using game design to communicate contemporary research with the public. We believe that the future of publicly funded research depends on public support.</p>
+          <h4>Wondering how Field Day works?</h4>
 
           <ul>
-            <li>We're located at At UW Madison: We’re a research lab at WCER, not a private company </li>
-            <li>We're committed to outreach: Our games are free for anyone to play </li>
-            <li>We're grant funded: We write grants for our research and with other research labs as part of their broader impacts and outreach efforts</li>
-            <li>We're strongubject agnostic: We design games for any subject
+            <li>Not a private company. We're a research lab at the Wisconsin Center for Education Research.</li>
+            <li>Committed to free. Our games are available for everyone. </li>
+            <li>Publically funded. We're funded through grants and Broader Impacts projects.</li>
+            <li>Subject agnostic. We design games for any subject.
 </li>
           </ul>
         </div>
@@ -46,13 +46,13 @@
 
       <div class="fact">
         <div class="info">
-          <h3>Why Games though?</h3>
+          <h3>Why Games?</h3>
           <h4>Because they work</h4>
-          <p class="small">Researchers need to share their work with the public, but it’s hard to communicate super complex topics to ordinary people. Especially when you don’t have much time to do it. </p>
-          <p class="small">That’s where games shine. Whether you want to build awareness, fulfill broader impacts for a grant, or something else, we think games can help. Here’s why. </p>
-          <p class="small">Games turn complicated topics into fun, hands-on experiences that actually reach people. Our games get millions of plays, with an average playtime of 20 minutes. For example, Lakeland gets about 12,000 plays a month, which means it cost a mind-bogglingly low price of 5 cents per minute for the first year.
+          <p class="small">Researchers need to share their work with the public, but it’s hard to communicate super complex topics in a short amount of time.</p>
+          <p class="small">Games turn complicated topics into fun, hands-on experiences that actually reach people. Our games get millions of plays, with an average playtime of 20 minutes. Games reach huge audiences and get people excited about topics you'd never imagine.</p>
+          <p class="small">
 </p>
-          <p class="small">The future of publicly funded research depends on public support. Games reach huge audiences and get people excited about topics you’d never imagine.
+          <p class="small">
 </p>
           <a href="#team" class="button black filled small" target="_blank">Meet us</a>
         </div>
@@ -65,7 +65,7 @@
 
     <section id="team" class="section grid team-content">
       <h2 class="section-title centered">Our Team</h2>
-      <p>We are software engineers, designers, artists, storytellers, and researchers. We’re also gamers, mushroom foragers, drone enthusiasts, textile artists, banjo players, and philosophy nerds. In other words, a bunch of curious humans.  </p>
+      <p>We are software engineers, designers, artists, storytellers, researchers, data scientists, and graduate students. We’re also gamers, mushroom foragers, drone enthusiasts, textile artists, banjo players, and philosophy nerds. In other words, a bunch of curious humans.  </p>
       <ul class="gridder">
 
         <!-- Begin Current Fellowships-->
@@ -172,7 +172,7 @@
     <span>Creative Director</span>
     <div class="wrapper">
       <div class="col-md-12 profile-expanded">
-        <p class="small">Sarah is an artist, UX designer, and messaging expert. She led the way in developing our vision for making games that are more than just research instruments. She cares about helping kids learn, and she knows they won’t learn anything if they don’t care. She pushes us to make games that are beautiful and compelling, not just games that work. 
+        <p class="small">Sarah is an artist, UX designer, and messaging expert. She led the way in developing our vision for making games that are more than just research instruments. She cares about helping kids learn, and she knows they won’t learn anything if they don’t care. She pushes us to make games that are beautiful and compelling. 
 </p>
         <p class="small">Sarah created our in-house art and communications team, knowing that art is key to bringing our games to the public. She leads game design projects and pitches concepts for new games. She also leads our communications team to ensure that all our games and projects have a web presence. Her growing interest in Media Studies and theory influenced by the psychoanalytic tradition is the foundation of her focus on learning games and their role in society. 
 </p>
