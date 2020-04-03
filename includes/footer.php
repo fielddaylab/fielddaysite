@@ -32,25 +32,6 @@ you, promise.</p>
       <div class="col-md-9 footerinfo">
         <img class="footerlogo" src="/assets/img/logos/fd.png">
         <p class="small">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, Field Day Lab is a research lab and design studio. Our team is made up of researchers, software engineers, designers, artists, storytellers, and graduate students. Seeking to do what's never been done before, we constantly innovate, play, take risks, and mess-make.</p>
-         <div class="row footernav">
-           <div class="col-md-4">
-             <h3>Make</h3>
-              <a target="_blank" href="/make/aris/">Aris</a>
-              <a target="_blank" href="http://siftr.org">Siftr</a>
-              <a target="_blank" href="https://nomenproject.org">Nomen</a>
-           </div>
-           <div class="col-md-4">
-             <h3>Play</h3>
-              <a target="_blank" href="http://theyardgames.org">The Yard Games</a>
-              <a target="_blank" href="https://medium.com/@fielddaylab/atomtouch-lets-you-interact-with-the-world-s-universal-building-blocks-7e01caa5dbf6#.qtjjwl4m9">AtomTouch</a>
-              <a target="_blank" href="http://ngame.ifas.ufl.edu/?page_id=73">The N Game</a>
-           </div>
-           <div class="col-md-4">
-             <h3>Learn</h3>
-              <a target="_blank" href="https://fielddaylab.wisc.edu/fellowships/">Fellowship Program</a>
-              <a target="_blank" href="https://fielddaylab.wisc.edu/courses/">Field Day Courses</a>
-           </div>
-         </div>
       </div>
     </div>
   </div>

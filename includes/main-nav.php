@@ -5,7 +5,7 @@
       <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/fd-logo-nav.png"></a></li>
       <li class="small-navlink"><a class="drawerleft-toggle">games</a></li>
       <li class="small-navlink"><a class="drawerright-toggle">mixed reality</a></li>
-      <li class="small-navlink hide-for-nav"><a href="/about">about us</a></li>
+      <li class="small-navlink"><a href="/about">about us</a></li>
       <li class="small-navlink hide-for-nav"><a href="/research">research</a></li>
       <li class="small-navlink hide-for-nav"><a href="/fellowships">fellowships</a></li>
       <!--<li><a href="/about">About us</a></li>-->
