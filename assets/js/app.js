@@ -152,11 +152,16 @@ $(document).ready(function(){
     $('.worklink').append('<a href="/work" class="workwithus button xsmall blue-black filled hideforsmall">Work with us</a>');
   }
 });
+<<<<<<< HEAD
 
 
 //Curtain scripts. comment out when not in use
 
 /*
+=======
+/*
+// Only auto-display curtain once per session
+>>>>>>> aboutpage
 $(document).ready(function() {
     var curtainshow = sessionStorage.getItem('.curtain');
     if (curtainshow== null) {

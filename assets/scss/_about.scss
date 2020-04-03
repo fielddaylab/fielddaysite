@@ -12,19 +12,19 @@
     }
   }
   .intro-section {
-    background: $pink;
+    background: $yellow;
   }
-  .fellowships-content {
+  #team {
     background:#fff;
-    padding:5vw;
+    padding:10vw;
     .gridder-list {
-      width:31%;
-      box-shadow: 0 2px 12px 0 rgba(0,0,0,0.14);
+      width:30%;
       text-align:left;
-      @media #{$break-gridder} {
+      border:5px solid $black;
+      @media #{$break-md} {
         width:47%
       }
-      @media #{$break-sm} {
+      @media #{$break-xs} {
         width:98%
       }
       &:hover {
@@ -33,8 +33,14 @@
       &.selectedItem {
         background: $black;
       }
-      .game-thumbnail {
-        height:200px;
+      .profile-thumbnail {
+        height:380px;
+        width:100%;
+        overflow:hidden;
+        position:relative;
+        img {
+          width:100%;
+        }
         @media #{$break-sm} {
           height:275px;
         }
@@ -42,10 +48,18 @@
       .card-summary {
         display: flex;
         align-items: center;
-        min-height:200px;
+        min-height:initial;
+        background:$black;
+        text-align: center;
+        position:absolute;
+        bottom:0;
+        width:100%;
         h3 {
           line-height:30px;
           letter-spacing:3px;
+          color:#fff;
+          margin:0 auto;
+          padding:20px 15px 10px 15px;
         }
         h4 {
           color:$mid_gray;
@@ -91,7 +105,7 @@
       h3 {
         font-size:40px;
       }
-      .game-expanded {
+      .profile-expanded {
         padding-left:0px;
         margin-top:20px;
       }
@@ -125,9 +139,23 @@
     }
   }
   .page-facts {
-    background:$pink;
+    background:$light_yellow;
     .info {
       padding: 6vw;
+      h3 {
+        margin-bottom:15px;
+      }
+      h4 {
+        text-transform: uppercase;
+        color: $xtradark_yellow;
+        margin-bottom:20px;
+      }
+      ul {
+        padding-left: 17px;
+      }
+      li {
+        font-family: 'courier', sans-serif;
+      }
     }
     .fact {
       background:none;
@@ -137,7 +165,7 @@
         position:relative;
         justify-content:center;
         img {
-          width:15vw;
+          width:50vw;
           height:auto;
         }
         .astro-book {
@@ -220,7 +248,7 @@
     }
     .info {
       color: #fff;
-      width: 40%;
+      width: 50%;
       padding: 8vw 0vw 8vw 8vw;
       margin-right:10%;
       p {
@@ -246,47 +274,16 @@
       }
     }
     .graphic {
-      width: 50%;
-      height:100%;
-      background:url(../img/hero-images/about-hero.jpg);
-      background-size: cover;
+      border:none;
+      img {
+        width: 100%;
+        height:auto;
+        border:none;
+      }
       @media #{$break-sm} {
         height: 40vw;
         width:100%;
         margin-top:20vw;
-      }
-      .teachernaut{
-        width: 10vw;
-        margin-right:6vw;
-        @media #{$break-sm} {
-          width:30vw;
-          margin-left:2vw;
-        }
-      }
-      .kidstronaut{
-        position:relative;
-        z-index:200;
-        width: 7vw;
-        margin-right:-1vw;
-        @media #{$break-sm} {
-          width: 16vw;
-          margin-left:3vw;
-        }
-        &.two {
-          margin-top:-20vw;
-          margin-left:2vw;
-          width: 10vw;
-          @media #{$break-sm} {
-            width: 14vw;
-          }
-        }
-        &.three{
-          margin-bottom:-10vw;
-          width: 9vw;
-          @media #{$break-sm} {
-            width: 13vw;
-          }
-        }
       }
       .cloud {
         width: 300px;
