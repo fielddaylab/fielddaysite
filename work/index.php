@@ -140,7 +140,7 @@
           <p class="small">Field Day is an education media research lab within the Wisconsin Center for Education Research at the University of Wisconsin - Madison. Our work lies at the intersection of interactive media and theories of situated and sociocultural learning. In that pursuit, we create new technologies such as augmented and virtual reality, video games, coding platforms and mobile apps that act as research platforms to understand how people learn.</p>
         </div>
         <div class="photo">
-          <img src="/assets/img/callouts/teacher-thumb.jpg">
+          <img src="/assets/img/callouts/research.jpeg">
         </div>
       </div>
 
@@ -163,7 +163,7 @@
         </div>
 
         <div class="photo">
-          <img src="/assets/img/hero-images/arishero.jpg">
+          <img src="/assets/img/callouts/game.jpeg">
         </div>
       </div>
 

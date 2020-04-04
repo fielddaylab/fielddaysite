@@ -35,10 +35,10 @@
           <h4>Wondering how Field Day works?</h4>
 
           <ul>
-            <li>Not a private company. We're a research lab at the Wisconsin Center for Education Research.</li>
-            <li>Committed to free. Our games are available for everyone. </li>
-            <li>Publically funded. We're funded through grants and Broader Impacts projects.</li>
-            <li>Subject agnostic. We design games for any subject.
+            <li class="small">Not a private company. We're a research lab at the Wisconsin Center for Education Research.</li>
+            <li class="small">Committed to free. Our games are available for everyone. </li>
+            <li class="small">Publically funded. We're funded through grants and Broader Impacts projects.</li>
+            <li class="small">Subject agnostic. We design games for any subject.
 </li>
           </ul>
         </div>

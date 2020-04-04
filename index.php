@@ -14,19 +14,19 @@
         <ul class="carousel-indicators slide-bullets">
             <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
               <span class="bullet"></span>
-              <span class="bullet-caption">Lakeland</span>
+              <span class="bullet-caption">Field Day</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
               <span class="bullet"></span>
-              <span class="bullet-caption">forever mine</span>
+              <span class="bullet-caption">Lakeland</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="2">
               <span class="bullet"></span>
-              <span class="bullet-caption">Siftr</span>
+              <span class="bullet-caption">Jo Wilder</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="3">
               <span class="bullet"></span>
-              <span class="bullet-caption">Jo Wilder</span>
+              <span class="bullet-caption">Ice Cube</span>
             </li>
         </ul>
       </div>
@@ -34,6 +34,16 @@
       <div class="carousel-inner">
 
         <div class="active item">
+          <div class="info-wrap">
+            <div class="item-info">
+              <img class="" src="/assets/img/logos/fd-white.png">
+              <p class="corrected">We make games that turn researchers into rock-star communicators. Our games are beautiful, academically rigorous, and played in classrooms across the country.</p>
+              <a href="/about" class="button white xsmall">Learn about us</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
           <div class="info-wrap">
             <div class="item-info">
               <img class="" src="/assets/img/logos/lakeland-logo.png?cb=20190820">
@@ -46,21 +56,10 @@
         <div class="item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" src="/assets/img/logos/forevermine-white.png?cb=20190820">
+              <img class="" src="/assets/img/logos/jowilder.png?cb=20190820">
               <h2 class="uppercase"></h2>
-              <p class="corrected">This space adventure brings mathematical modeling straight to the classroom. Made in partnership with the UW-MRSEC research center. </p>
-              <a class="button xsmall white" href="/play/forevermine">Learn More</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="info-wrap">
-            <div class="item-info dark">
-              <img class="small_hero_img" src="/assets/img/logos/colored/siftr-logo.png?cb=20190820">
-              <h2 class="uppercase"></h2>
-              <p class="corrected">With Siftr, you can easily create citizen science projects. Design your project in a few minutes. Then send people out to collect data.</p>
-              <a class="button xsmall black filled" href="https://siftr.org" target="_blank">Go to Siftr</a>
+              <p class="corrected">This award-winning game turns kids into history detectives! Made in partnership with expert archivists and PBS Wisconsin.</p>
+              <a class="button xsmall white" href="/play/jowilder">Learn More</a>
             </div>
           </div>
         </div>
@@ -68,10 +67,10 @@
         <div class="item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" src="/assets/img/logos/jowilder.png?cb=20190820">
-              <h2 class="uppercase"></h2>
-              <p class="corrected">This award-winning game turns kids into history detectives! Made in partnership with expert archivists and PBS Wisconsin.</p>
-              <a class="button xsmall white" href="/play/jowilder">Learn More</a>
+              <img class="" src="/assets/img/logos/ice-cube-logo-white.png">
+              <h2 class="uppercase">Discover Ice Cube</h2>
+              <p class="corrected">Journey deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica.</p>
+              <a class="button xsmall white" href="/play/ice-cube">Learn More</a>
             </div>
           </div>
         </div>

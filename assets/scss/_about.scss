@@ -34,15 +34,18 @@
         background: $black;
       }
       .profile-thumbnail {
-        height:380px;
+        height:30vw;
         width:100%;
         overflow:hidden;
         position:relative;
         img {
           width:100%;
         }
+        @media #{$break-md} {
+          height:45vw;
+        }
         @media #{$break-sm} {
-          height:275px;
+          height:47vw;
         }
       }
       .card-summary {
@@ -56,10 +59,14 @@
         width:100%;
         h3 {
           line-height:30px;
-          letter-spacing:3px;
+          letter-spacing:2px;
           color:#fff;
           margin:0 auto;
-          padding:20px 15px 10px 15px;
+          padding:20px 10px 10px 10px;
+          font-size:16px;
+          @media #{$break-md} {
+            font-size:12px;
+          }
         }
         h4 {
           color:$mid_gray;
@@ -168,6 +175,12 @@
           width:50vw;
           height:auto;
         }
+        @media #{$break-sm} {
+          padding:0;
+          img {
+            width:100vw;
+          }
+        }
         .astro-book {
           animation: float 6s ease-in-out infinite;
           height:15vw;
@@ -242,7 +255,7 @@
     background: $black;
     padding: 5vw 0vw;
     @media #{$break-sm} {
-      flex-direction: column-reverse;
+      flex-direction: column;
       height: auto;
       padding: 2vw;
     }
@@ -256,13 +269,14 @@
       }
       @media #{$break-sm} {
         width:100%;
+        padding: 15vw 0vw 8vw 8vw;
       }
       h1{
         text-transform: uppercase;
         font-weight: 600;
         font-size: 50px;
-        @media #{$break-sm} {
-          font-size:40px;
+        @media #{$break-md-lg} {
+          font-size:30px;
         }
       }
       h2 {
@@ -271,6 +285,11 @@
         text-transform:uppercase;
         margin-left:0px;
         letter-spacing:4px;
+        @media #{$break-md-lg} {
+          font-size:20px;
+          margin-bottom:10px;
+          margin-top:10px;
+        }
       }
     }
     .graphic {
@@ -281,14 +300,17 @@
         border:none;
       }
       @media #{$break-sm} {
-        height: 40vw;
+        height: auto;
         width:100%;
-        margin-top:20vw;
+        margin-bottom:-20vw;
+        img {
+          width:110%;
+          margin-left:-5%;
+        }
       }
       .cloud {
         width: 300px;
         height: auto;
-        position: absolute;
         top: 10vw;
         right:25vw;
         z-index:101;

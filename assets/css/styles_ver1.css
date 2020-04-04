@@ -8714,20 +8714,24 @@ section {
         height: 10vw; } }
 
 .hero-slider .carousel-inner .item:nth-child(1) {
-  background: url(../img/hero-images/lakeland.jpg) no-repeat;
+  background: url(../img/hero-images/dashboard-fellows.jpeg) no-repeat;
   background-size: cover;
   background-position: center; }
+  .hero-slider .carousel-inner .item:nth-child(1) .item-info img {
+    width: 15vw;
+    height: auto;
+    margin-bottom: 15px; }
   @media only screen and (max-width: 768px) {
     .hero-slider .carousel-inner .item:nth-child(1) {
       background-position: right; } }
 
 .hero-slider .carousel-inner .item:nth-child(2) {
-  background: url(../img/hero-images/forevermine.jpg) no-repeat;
+  background: url(../img/hero-images/lakeland.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
 
 .hero-slider .carousel-inner .item:nth-child(3) {
-  background: url(../img/hero-images/siftr-hero.jpg) no-repeat;
+  background: url(../img/hero-images/jowilder-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
   @media only screen and (max-width: 768px) {
@@ -8735,7 +8739,7 @@ section {
       background-position: right; } }
 
 .hero-slider .carousel-inner .item:nth-child(4) {
-  background: url(../img/hero-images/jowilder-bg.jpg) no-repeat;
+  background: url(../img/hero-images/ice-cube.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
 
@@ -10921,15 +10925,18 @@ hr {
     .about #team .gridder-list.selectedItem {
       background: #001E2A; }
     .about #team .gridder-list .profile-thumbnail {
-      height: 380px;
+      height: 30vw;
       width: 100%;
       overflow: hidden;
       position: relative; }
       .about #team .gridder-list .profile-thumbnail img {
         width: 100%; }
+      @media only screen and (max-width: 1024px) {
+        .about #team .gridder-list .profile-thumbnail {
+          height: 45vw; } }
       @media only screen and (max-width: 768px) {
         .about #team .gridder-list .profile-thumbnail {
-          height: 275px; } }
+          height: 47vw; } }
     .about #team .gridder-list .card-summary {
       display: flex;
       align-items: center;
@@ -10941,10 +10948,14 @@ hr {
       width: 100%; }
       .about #team .gridder-list .card-summary h3 {
         line-height: 30px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         color: #fff;
         margin: 0 auto;
-        padding: 20px 15px 10px 15px; }
+        padding: 20px 10px 10px 10px;
+        font-size: 16px; }
+        @media only screen and (max-width: 1024px) {
+          .about #team .gridder-list .card-summary h3 {
+            font-size: 12px; } }
       .about #team .gridder-list .card-summary h4 {
         color: #A3A3A3;
         letter-spacing: 2px;
@@ -11028,6 +11039,11 @@ hr {
       .about .page-facts .fact .photo img {
         width: 50vw;
         height: auto; }
+      @media only screen and (max-width: 768px) {
+        .about .page-facts .fact .photo {
+          padding: 0; }
+          .about .page-facts .fact .photo img {
+            width: 100vw; } }
       .about .page-facts .fact .photo .astro-book {
         animation: float 6s ease-in-out infinite;
         height: 15vw;
@@ -11094,7 +11110,7 @@ hr {
   padding: 5vw 0vw; }
   @media only screen and (max-width: 768px) {
     .about .page_hero {
-      flex-direction: column-reverse;
+      flex-direction: column;
       height: auto;
       padding: 2vw; } }
   .about .page_hero .info {
@@ -11106,20 +11122,26 @@ hr {
       margin-bottom: 20px; }
     @media only screen and (max-width: 768px) {
       .about .page_hero .info {
-        width: 100%; } }
+        width: 100%;
+        padding: 15vw 0vw 8vw 8vw; } }
     .about .page_hero .info h1 {
       text-transform: uppercase;
       font-weight: 600;
       font-size: 50px; }
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 1324px) {
         .about .page_hero .info h1 {
-          font-size: 40px; } }
+          font-size: 30px; } }
     .about .page_hero .info h2 {
       color: #FAD9D9;
       font-size: 25px;
       text-transform: uppercase;
       margin-left: 0px;
       letter-spacing: 4px; }
+      @media only screen and (max-width: 1324px) {
+        .about .page_hero .info h2 {
+          font-size: 20px;
+          margin-bottom: 10px;
+          margin-top: 10px; } }
   .about .page_hero .graphic {
     border: none; }
     .about .page_hero .graphic img {
@@ -11128,13 +11150,15 @@ hr {
       border: none; }
     @media only screen and (max-width: 768px) {
       .about .page_hero .graphic {
-        height: 40vw;
+        height: auto;
         width: 100%;
-        margin-top: 20vw; } }
+        margin-bottom: -20vw; }
+        .about .page_hero .graphic img {
+          width: 110%;
+          margin-left: -5%; } }
     .about .page_hero .graphic .cloud {
       width: 300px;
       height: auto;
-      position: absolute;
       top: 10vw;
       right: 25vw;
       z-index: 101;
