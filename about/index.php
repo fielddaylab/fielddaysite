@@ -139,16 +139,6 @@
             </div>
           </div>
         </li>
-
-        <li class="gridder-list" data-griddercontent="#profile8">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/lindy.jpg">
-            <div class="card-summary">
-              <h3>Lindy Biller</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
       </ul>
 
 <!-- Team Expanded content -->
@@ -260,23 +250,6 @@
         <p class="small">When it comes to advocating for kids, Jenn is unstoppable. As a former teacher, she brings a deep knowledge about how classrooms work and what teachers need. She works with the Teacher Fellows to design useful pedagogical tools, like a new teacher dashboard for Lakeland (soon to be applied across all our games). She takes the lead on user-testing with kids for many of our games. 
 </p>
         <p class="small">In her role as Director’s Minion (or Assistant to the Director on paper), Jenn amazes everyone with her ability to keep all the administrative gears turning. Jenn’s superpowers include, but are not limited to: data analytics, ed tech, communicating with teachers, and keeping track of literally everything. 
-</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="profile8" class="gridder-content">
-  <div class="row profile-inner profile-inner">
-    <h3>Lindy Biller</h3>
-    <span>Writer</span>
-    <div class="wrapper">
-      <div class="col-md-12 profile-expanded">
-        <p class="small">Lindy is a creative writer, blogger, and copywriter. She brings a combination of keen story-building skills and intellectual depth to the worlds of both our games and our blog. Her years of experience working with teachers and learning game designers gives her a unique capacity as a writer. She contributes not only a love of story, but also the ability to learn about the complexities of education theory and game design.  
-</p>
-        <p class="small">Lindy wrote the scripts and in-game dialog for Jo Wilder and the Capitol Case, Lost at the Forever Mine, STEMPorts, Lakeland, and many of The Yard Games. She works closely with Sarah to write and refine all of our web copy, iterating until we are able to explain complex projects in just a few lines. 
-</p>
-        <p class="small">Lindy is the reason the farmers in Lakeland have folksy wit and the Artificial Intelligence in Forever Mine is relatable and dimensional. She crafts stories that allow kids to embody the spirit of a scientist, historian, or detective, and she fosters a sense of wonder in the process. 
 </p>
       </div>
     </div>
