@@ -239,11 +239,12 @@
           <div class="thumb">
           </div>
           <div class="blogcontent">
-            <h3 class="corrected">Trouble in Lakeland: This Game Teaches the Impact of the Dairy Industry on the Lakes</h3>
+            <h3 class="corrected">Data Nerds Unite! How Teachers and Scientists Are Changing the Future of Teaching with Games</h3>
             <div class="row">
               <div class="col-md-8 brief">
-                <p class="corrected">In Lakeland, players need to build a town and manage their dairy farms - without destroying the lakes.</p>
-                <a target="_blank" href="https://medium.com/fielddaylab/kids-are-using-lakeland-to-play-through-the-phosphorus-cycle-and-talk-about-poop-in-class-7c5bed32461c" class="button xsmall"><span class="text">Read story</span><span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
+                <p class="corrected">Teachers from all across Wisconsin are partnering up with Field Day Lab to design a teacher dashboard for our newest game, Lakeland.
+</p>
+                <a target="_blank" href="https://medium.com/fielddaylab/data-nerds-unite-how-teachers-and-scientists-are-changing-the-future-of-teaching-with-games-3d43c74e0210" class="button xsmall"><span class="text">Read story</span><span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
               </div>
             </div>
           </div>
@@ -255,12 +256,11 @@
             <div class="thumb">
             </div>
           <div class="blogcontent">
-            <h3 class="corrected">Seth McGee’s Prairie Plant Companion app increases speed and accuracy for plant identification in the field</h3>
+            <h3 class="corrected">Lost at the Forever Mine: A Game Where Only Math Will Save You</h3>
             <div class="row">
               <div class="col-md-8 brief">
-                <p class="corrected">When Seth’s students use this app they start becoming real botanists! The students are more efficient and accurate in the plant identification with this Prairie Plant Companion. We leverage human skills at visual pattern recognition, and computing’s ability to sort and filter to create a new approach to teaching students.
-    exploratory way.</p>
-                <a target="_blank" href="https://medium.com/@fielddaylab/students-increase-their-speed-and-accuracy-in-plant-identification-with-new-field-day-tool-c45f1920b702#.6zu9mh7sy" class="button xsmall"><span class="text">Read story</span> <span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
+                <p class="corrected">We designed a game in which that humble little formula, y=mx+b, becomes a survival tool. Introducing Lost at the Forever Mine, the world’s first Math Drama!</p>
+                <a target="_blank" href="https://medium.com/fielddaylab/lost-at-the-forever-mine-a-game-where-only-math-will-save-you-60e3cd45f072" class="button xsmall"><span class="text">Read story</span> <span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
               </div>
             </div>
           </div>
@@ -287,11 +287,12 @@
           <div class="thumb">
           </div>
           <div class="blogcontent">
-            <h3 class="corrected">Folklorist Ruth Olson creates new kind of app to help students discover local culture</h3>
+            <h3 class="corrected">Trouble in Lakeland: This Game Teaches the Impact of the Dairy Industry on the Lakes
+</h3>
             <div class="row">
               <div class="col-md-8 brief">
-                <p class="corrected">Professor Ruth Olson noted that students new to anthropological research often consider “culture” to be what “others” have. With this app, Olson helps students to “see themselves as cultural beings” creating digital maps of their very own folkloric elements here at the UW.</p>
-                <a target="_blank" href="https://medium.com/@fielddaylab/folklore-professor-uses-mobile-app-to-take-students-into-the-field-bf039052dc65#.82bp7wad6" class="button xsmall"><span class="text">Read story</span><span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
+                <p class="corrected">Victor, researcher and engineering professor at UW-Madison, is fascinated by complex systems — especially how we can use models to understand and solve ecological problems. We worked with Victor to design a game based on their amazing research.</p>
+                <a target="_blank" href="https://medium.com/fielddaylab/kids-are-using-lakeland-to-play-through-the-phosphorus-cycle-and-talk-about-poop-in-class-7c5bed32461c" class="button xsmall"><span class="text">Read story</span><span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
               </div>
             </div>
           </div>
@@ -303,10 +304,10 @@
             <div class="thumb">
             </div>
           <div class="blogcontent">
-            <h3 class="corrected">Julie Sykes teaches French with post-apocalyptic augmented reality app</h3>
+            <h3 class="corrected">Shipwrecks and Sea Shanties: Designing a Game to Teach the Great Lakes</h3>
             <div class="row">
               <div class="col-md-8 brief">
-                <p class="corrected">Julie Sykes, from University of Oregon used our ARIS tool to make this post-apocalyptic game. EcoPod is mobile game that teaches students to speak French. Julie’s team relies on good storytelling to keep this “choose your own adventure” game interactive and thought provoking. </p>
+                <p class="corrected">We were all there to launch Field Day’s latest teacher fellowship. The goal: create a game about Great Lakes shipwrecks! When it’s finished, this free online game will be played at elementary schools throughout Wisconsin and beyond.</p>
                 <a target="_blank" href="https://medium.com/@fielddaylab/learning-language-with-an-post-apocalyptic-survival-game-eco-pod-63efc90dc5a5#.242bkzqks" class="button xsmall"><span class="text">Read story</span> <span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
               </div>
             </div>
