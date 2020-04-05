@@ -36,7 +36,7 @@
       </div>
       <div class="fd-info">
         <a href="/"><img src="/assets/img/logos/fd-white.png"></a>
-        <p class="supersmall">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, Field Day Lab is a research lab and design studio. Our team is made up of researchers, software engineers, designers, artists, storytellers, and graduate students. Seeking to do what's never been done before, we constantly innovate, play, take risks, and mess-make.</p>
+        <p class="supersmall">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, Field Day Lab is a research lab and design studio. We make learning games that bring contemporary research to the public. Seeking to do what's never been done before, we constantly innovate, play, take risks, and mess-make.</p>
         <div class="social-links">
           <a target="_blank" href="http://facebook.com/fielddaylab"><img src="/assets/img/logos/social-facebook-white.png"></a>
           <a target="_blank" href="http://twitter.com/fielddaylab"><img src="/assets/img/logos/social-twitter-white.png"></a>

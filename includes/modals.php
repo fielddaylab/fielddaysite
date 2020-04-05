@@ -7,7 +7,7 @@
         </button>
       <img src="/assets/img/illustrations/spaceplane-flight.png">
       <h2>Schedule a Meeting</h2>
-      <p class="small">Use games & apps to share research with huge audiences. Schedule a meeting to get started. Email David Gagnon at <a class="small" href="mailto:djgagnon@wisc.edu">djgagnon@wisc.edu</a>.</p>
+      <p class="small">Let's get connected! Email David Gagnon at <a class="small" href="mailto:djgagnon@wisc.edu">djgagnon@wisc.edu</a>.</p>
     </div>
   </div>
 </div>

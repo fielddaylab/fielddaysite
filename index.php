@@ -37,7 +37,7 @@
           <div class="info-wrap">
             <div class="item-info">
               <img class="" src="/assets/img/logos/fd-white.png">
-              <p class="corrected">We make games that turn researchers into rock-star communicators. Our games are beautiful, academically rigorous, and played in classrooms across the country.</p>
+              <p class="corrected">We make games that bring contemporary research to the public. Want in? We'll turn your amazing work into a game that reaches huge audiences.</p>
               <a href="/about" class="button white xsmall">Learn about us</a>
             </div>
           </div>
@@ -58,7 +58,7 @@
             <div class="item-info">
               <img class="" src="/assets/img/logos/jowilder.png?cb=20190820">
               <h2 class="uppercase"></h2>
-              <p class="corrected">This award-winning game turns kids into history detectives! Made in partnership with expert archivists and PBS Wisconsin.</p>
+              <p class="corrected">This award-winning game turns kids into history detectives! Made in partnership with PBS Wisconsin and archivists at the Wisconsin Historical Society.</p>
               <a class="button xsmall white" href="/play/jowilder">Learn More</a>
             </div>
           </div>
@@ -69,7 +69,7 @@
             <div class="item-info">
               <img class="" src="/assets/img/logos/ice-cube-logo-white.png">
               <h2 class="uppercase">Discover Ice Cube</h2>
-              <p class="corrected">Journey deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica.</p>
+              <p class="corrected">This 3D experience takes players on a journey to the IceCube Observatory at the South Pole, and then into deep space! Made in partnership with IceCube's Particle Astrophysics Center and the Living Environments Lab at UW-Madison.</p>
               <a class="button xsmall white" href="/play/ice-cube">Learn More</a>
             </div>
           </div>
@@ -94,7 +94,7 @@
       <div class="intro-content">
         <img class="bg1trigger reveal float" src="assets/img/illustrations/astronaut1.png" class="astronaut">
         <h2 class="light centered plainreveal uppercase">Make a game, reach more people</h2>
-        <p class="corrected plainreveal light">When it comes to sharing your work, the stakes are higher than ever. We'll turn your research into a fun, academically rigorous game that reaches hundreds of thousands of people. Team up with us and become an outreach superstar.</p>
+        <p class="corrected plainreveal light">When it comes to sharing your work with the public, the stakes are higher than ever. We'll turn your research into a fun, academically rigorous game that reaches hundreds of thousands of people. Team up with us and become an outreach superstar.</p>
         <!--<p class="corrected plainreveal big light">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>-->
       </div>
       <div class="starfield topright">
@@ -171,7 +171,7 @@
       <div class="info">
         <h3 class="white">Extra, extra!</h3>
         <p class="small white">Read the stories behind our games and meet the researchers and teachers who have teamed up with us.</p>
-        <a href="Stay in Touch" class="button xsmall white">Field Day Blog</a>
+        <a href="https://medium.com/fielddaylab" class="button xsmall white">Field Day Blog</a>
       </div>
     </div>
   </section>
@@ -179,7 +179,7 @@
     <div class="container">
       <img src="assets/img/illustrations/skylab-small.png" class="header-icon">
       <h3 class="centered uppercase">Who we work with</h3>
-      <p class="small">We work with amazing researchers and distributors around the world. Contact us if you want to design a game with us, connect with our research, or distribute our games for free.</p>
+      <p class="small">We work with amazing researchers around the world.</p>
       <div class="partner-logos">
         <img src="/assets/img/logos/partnerlogos/partnerlogo1.jpg?cb=20190820">
         <img src="/assets/img/logos/partnerlogos/partnerlogo2.png?cb=20190820">
@@ -242,7 +242,7 @@
             <h3 class="corrected">Data Nerds Unite! How Teachers and Scientists Are Changing the Future of Teaching with Games</h3>
             <div class="row">
               <div class="col-md-8 brief">
-                <p class="corrected">Teachers from all across Wisconsin are partnering up with Field Day Lab to design a teacher dashboard for our newest game, Lakeland.
+                <p class="corrected">We're partnering with teachers from all across Wisconsin to design a dashboard for our complex systems game, Lakeland.
 </p>
                 <a target="_blank" href="https://medium.com/fielddaylab/data-nerds-unite-how-teachers-and-scientists-are-changing-the-future-of-teaching-with-games-3d43c74e0210" class="button xsmall"><span class="text">Read story</span><span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
               </div>
@@ -259,7 +259,7 @@
             <h3 class="corrected">Lost at the Forever Mine: A Game Where Only Math Will Save You</h3>
             <div class="row">
               <div class="col-md-8 brief">
-                <p class="corrected">We designed a game in which that humble little formula, y=mx+b, becomes a survival tool. Introducing Lost at the Forever Mine, the world’s first Math Drama!</p>
+                <p class="corrected">In this Math Drama, designed in partnership with UW-MRSEC, slope intercept is your best hope for survival.</p>
                 <a target="_blank" href="https://medium.com/fielddaylab/lost-at-the-forever-mine-a-game-where-only-math-will-save-you-60e3cd45f072" class="button xsmall"><span class="text">Read story</span> <span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
               </div>
             </div>
@@ -291,7 +291,7 @@
 </h3>
             <div class="row">
               <div class="col-md-8 brief">
-                <p class="corrected">Victor, researcher and engineering professor at UW-Madison, is fascinated by complex systems — especially how we can use models to understand and solve ecological problems. We worked with Victor to design a game based on their amazing research.</p>
+                <p class="corrected">We teamed up with the Scalable Systems Lab at UW-Madison to design a fun game that introduces kids to complex systems.</p>
                 <a target="_blank" href="https://medium.com/fielddaylab/kids-are-using-lakeland-to-play-through-the-phosphorus-cycle-and-talk-about-poop-in-class-7c5bed32461c" class="button xsmall"><span class="text">Read story</span><span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
               </div>
             </div>
@@ -307,7 +307,7 @@
             <h3 class="corrected">Shipwrecks and Sea Shanties: Designing a Game to Teach the Great Lakes</h3>
             <div class="row">
               <div class="col-md-8 brief">
-                <p class="corrected">We were all there to launch Field Day’s latest teacher fellowship. The goal: create a game about Great Lakes shipwrecks! When it’s finished, this free online game will be played at elementary schools throughout Wisconsin and beyond.</p>
+                <p class="corrected">We're partnering with maritime archaologists and Wisconsin teachers to design a game about Great Lakes shipwrecks!</p>
                 <a target="_blank" href="https://medium.com/@fielddaylab/learning-language-with-an-post-apocalyptic-survival-game-eco-pod-63efc90dc5a5#.242bkzqks" class="button xsmall"><span class="text">Read story</span> <span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
               </div>
             </div>
