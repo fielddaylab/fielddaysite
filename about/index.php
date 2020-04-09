@@ -14,7 +14,7 @@
       <div class="info">
         <h1 class="corrected">We're Field Day</h1>
         <h2 class="yellow">We make learning games</h2>
-        <p class="corrected">Our games bring contemporary research to the public. We are a research lab and design studio based at the Wisconsin Center for Education Research at UW - Madison. </p>
+        <p class="corrected">We design games that bring contemporary research to the public, and we use the game data to understand how people learn.</p>
         <a href="#page-facts" class="button yellow filled small">Learn More</a>
       </div>
       <div class="graphic">
@@ -30,8 +30,8 @@
         <div class="info">
           <h3>Modus Operandi</h3>
           <h4></h4>
-          <p class="small">UW-Madison is ground zero for the field of games and learning. We've been here studying games for over a decade.</p>
-          <p class="small">Our team is drawn to the challenge of using game design to communicate contemporary research with the public. We believe that the future of publicly funded research depends on public support.</p>
+          <p class="small">UW-Madison is ground zero for the field of games and learning. We've been here studying and designing games for over a decade.</p>
+          <p class="small"></p>
           <h4>Wondering how Field Day works?</h4>
 
           <ul>
@@ -48,8 +48,8 @@
         <div class="info">
           <h3>Why Games?</h3>
           <h4>Because they work</h4>
-          <p class="small">Researchers need to share their work with the public, but it’s hard to communicate super complex topics in a short amount of time.</p>
-          <p class="small">Games turn complicated topics into fun, hands-on experiences that actually reach people. Our games get millions of plays, with an average playtime of 20 minutes. Games reach huge audiences and get people excited about topics you'd never imagine.</p>
+          <p class="small">Researchers need to share their work with the public, but it’s hard to communicate super complex topics in a short time frame.</p>
+          <p class="small">Games turn complicated topics into fun, hands-on experiences that actually reach people. Our games get millions of plays, with an average playtime of 20 minutes.</p>
           <p class="small">
 </p>
           <p class="small">
@@ -65,7 +65,7 @@
 
     <section id="team" class="section grid team-content">
       <h2 class="section-title centered">Our Team</h2>
-      <p>We are software engineers, designers, artists, storytellers, researchers, data scientists, and graduate students. We’re also gamers, mushroom foragers, drone enthusiasts, textile artists, banjo players, and philosophy nerds. In other words, a bunch of curious humans.  </p>
+      <p>We believe the future of publically funded research depends on public support. We use our combined creative and intellectual powers to get people excited about the latest research.</p>
       <ul class="gridder">
 
         <!-- Begin Current Fellowships-->
@@ -94,7 +94,7 @@
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/jim.jpg">
             <div class="card-summary">
-              <h3>Jim Matthews</h3>
+              <h3>Jim Mathews</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -148,9 +148,9 @@
     <span>Director & Founder</span>
     <div class="wrapper">
       <div class="col-md-12 profile-expanded">
-        <p class="small">David is a researcher at <a href="https://www.wcer.wisc.edu/" target="_bank">WCER</a> and a co-founder of the PLAY MAKE LEARN conference and the Games and Learning Summit. He is a PI on several research projects that explore video games and educational data mining, co-design, mixed reality (VR, AR), and location-based games. David created ARIS, which supported the development of thousands of location-based AR projects and <a href="https://scholar.google.com/scholar?start=0&q=arisgames.org&hl=en&as_sdt=0,50" target="_blank">hundreds of educational papers.</a> David’s work supports other research, from the <a href="https://fielddaylab.wisc.edu/opengamedata/" target="_blank">Open Game Data,</a> which shares data sets with educational researchers, to Field Day’s <a href="https://fielddaylab.wisc.edu/fellowships/" target="_blank">teacher fellowship program,</a> which serves as a site to study teacher professional growth.</p>
-        <p class="small">David has been the producer or lead game designer for over a dozen award-winning educational games in topics such as engineering, science, mathematics, history, music, and astrophysics.  He has been an invited guest or keynote speaker for the White House Office of Science and Technology Policy, the Smithsonian National Museum of African American History and Culture, the MacArthur Foundation, Pearson Foundation, Serious Play, and various smaller conferences and workshops. </p>
-        <p class="small">David knows how educational issues affect real kids, which allows him to stick to his values. He has big dreams for how video games can make an impact. David brings energy and optimism to every project, from research to game design, and his enthusiasm is contagious. </p>
+        <p class="small">David is a researcher at <a href="https://www.wcer.wisc.edu/" target="_bank">WCER</a>. He's also a programmer, game designer, and passionate advocate for using games to understand and transform how kids learn. David is the co-founder of the PLAY MAKE LEARN conference and the Games and Learning Summit. He serves as a PI on several research projects that explore the following topics in video games: educational data mining, co-design, mixed reality (VR, AR), and location-based games. <p class="small">David created ARIS, an open-source game design platform that has supported the development of thousands of location-based AR projects and <a href="https://scholar.google.com/scholar?start=0&q=arisgames.org&hl=en&as_sdt=0,50" target="_blank">hundreds of educational papers.</a> David’s work supports other research, from the <a href="https://fielddaylab.wisc.edu/opengamedata/" target="_blank">Open Game Data</a> project, which shares our game data with educational researchers, to Field Day’s <a href="https://fielddaylab.wisc.edu/fellowships/" target="_blank">teacher fellowship program,</a> which serves as a site to study teachers' professional growth.</p>
+        <p class="small">David has been the producer or lead designer for over a dozen award-winning games in topics ranging from engineering, science, and mathematics to history and music. He has been an invited guest or keynote speaker for the White House Office of Science and Technology Policy, the Smithsonian National Museum of African American History and Culture, the MacArthur Foundation, the Pearson Foundation, Serious Play, and several smaller workshops and conferences. </p>
+        <p class="small">David casts a vision that gets other people excited about joining in the work. He understands the realities of how educational issues affect kids, which allows him to stick unwaveringly to his values. David brings energy and enthusiasm to every project, from research to game design.</p>
       </div>
     </div>
   </div>
@@ -162,9 +162,9 @@
     <span>Creative Director</span>
     <div class="wrapper">
       <div class="col-md-12 profile-expanded">
-        <p class="small">Sarah is an artist, UX designer, and messaging expert. She led the way in developing our vision for making games that are more than just research instruments. She cares about helping kids learn, and she knows they won’t learn anything if they don’t care. She pushes us to make games that are beautiful and compelling. 
+        <p class="small">Sarah is an artist, UX designer, messaging expert, and a fierce advocate for the kids who play our games. From the beginning, she has pushed us to create games that are more than just research instruments. Sarah knows that kids won’t learn anything if they don't care. She makes sure we're designing games that are fun, beautiful, and compelling. 
 </p>
-        <p class="small">Sarah created our in-house art and communications team, knowing that art is key to bringing our games to the public. She leads game design projects and pitches concepts for new games. She also leads our communications team to ensure that all our games and projects have a web presence. Her growing interest in Media Studies and theory influenced by the psychoanalytic tradition is the foundation of her focus on learning games and their role in society. 
+        <p class="small">Sarah understands the importance of art in bringing our games to the public. She created our in-house art and communications team, and she ensures that all of our games have an online presence. She also leads game design projects and pitches concepts for new games. Her growing interest in Media Studies and theory influenced by the psychoanalytic tradition is the foundation of her focus on learning games and their role in society. 
 </p>
         <p class="small">As an artist, Sarah laughed when her daughter said she was “raised by scientists.” In reality, Sarah’s intuition as a non-scientist gives her crucial insight into what we make. She knows how to ask the right questions and empathize with the people who will end up playing our games.  
 </p>
@@ -175,15 +175,14 @@
 
 <div id="profile3" class="gridder-content">
   <div class="row profile-inner profile-inner">
-    <h3>Jim Matthews</h3>
+    <h3>Jim Mathews</h3>
     <span>Education Director and Associate Researcher </span>
     <div class="wrapper">
       <div class="col-md-12 profile-expanded">
-        <p class="small">Jim is a teacher, researcher, and designer whose work explores the intersection of place, design, and civic engagement. In particular, he’s interested in creating and researching new media-based experiences (e.g., geo-locative games, place-based stories, and field research tools) aimed at connecting youth and adults with people, places, and issues in their community. 
+        <p class="small">Jim is a teacher, researcher, and designer. His work explores the intersection of place, design, and civic engagement. In particular, he’s interested in creating and researching new media-based experiences (e.g., geo-locative games, place-based stories, and field research tools) aimed at connecting youth and adults with people, places, and issues in their community. 
 </p>
-        <p class="small">As Education Director, Jim leads the development of our Teacher Fellowship program, a key to the successful implementation of our games into schools across the country. He’s interested in the creative ways teachers are already using games and what we can learn from their expertise. As a teacher himself, Jim is passionate about co-design. He cares about making games that actually work in the classroom, and he’s always looking for the best ways to bring teachers into the design process.
-</p>
-        <p class="small">In addition to his work at Field Day, Jim is a teacher at <a href="http://www.clarkstreetcommunityschool.com/" target="_blank">Clark Street Community School,</a> a place- and project-based public high school in Middleton, WI. 
+        <p class="small">As Education Director at Field Day, Jim leads our <a href="https://fielddaylab.wisc.edu/fellowships/" target="_blank">teacher fellowship program.</a> The fellowships are crucial to the successful implementation of our games into schools across the country. As a teacher himself, Jim understands the importance of co-design. He cares about making games that actually work in the classroom, and he’s always looking for the best ways to bring teachers into the design process.
+        <p class="small">In addition to his work at Field Day, Jim teaches at <a href="http://www.clarkstreetcommunityschool.com/" target="_blank">Clark Street Community School.</a>  
 </p>
       </div>
     </div>
@@ -196,9 +195,9 @@
     <span>Art Director and Lead Designer</span>
     <div class="wrapper">
       <div class="col-md-12 profile-expanded">
-        <p class="small">Eric Lang has a unique combination of skills encompassing the artistic and the technical. He carries a heavy load as Lead Designer all the UI and graphic design across all our games, mixed reality projects, web content, print material, and front end development. 
+        <p class="small">Eric Lang is a designer with a unique combination of skills ranging from the artistic to the technical. He carries a heavy load as Lead Designer for UI and graphic design across all of our games, mixed reality projects, web content, print material, and front end development. 
 </p>
-        <p class="small">As Art Director, Eric works with a wide selection of artists and brings their work into one cohesive project. He also functions as the lead artist on several projects, such as the Field Day brand and the Lakeland game. He’s incredibly talented at story development, world building, and general strategy and vision-casting for our team. 
+        <p class="small">As Art Director, Eric works with a wide selection of artists and channels their work into a cohesive finished project. He also functions as Lead Artist on several projects, including the Field Day brand and <a href="https://fielddaylab.wisc.edu/play/lakeland/" target="_blank">Lakeland.</a> Eric has a knack for story development, world building, and general strategy and vision-casting. 
 </p>
         <p class="small">Eric cares about making games that are fun, compelling, and amazingly weird. His favorite era is the 1980’s, his favorite futuristic digital landscape painter is Simon Stålenhag, and his favorite bread is sourdough.
 </p>
@@ -213,9 +212,9 @@
     <span>Software Developer and Game Designer</span>
     <div class="wrapper">
       <div class="col-md-12 profile-expanded">
-        <p class="small">Mike Tolly is an awesome developer with a serious knack for game design. He worked as lead developer on STEMPorts, Play the Past, ARIS, The Firm, Viola, and Siftr, as well as helping on Jo Wilder and the Capitol Case. Mike has a wide breadth of programming ability, with experience in web design, web apps, game scripting, native mobile development, and systems administration.
+        <p class="small">Mike is a developer with a serious knack for game design. He has worked as lead developer for STEMPorts, Play the Past, ARIS, The Firm, Viola, and Siftr, as well as helping with design work on Jo Wilder and the Capitol Case. Mike has a wide breadth of programming ability, with experience in web design, web apps, game scripting, native mobile development, and systems administration.
 </p>
-        <p class="small">Mike’s ability to push through and get stuff done can feel a little bit magical. In reality, it’s a combination of skill and focus. (And, okay, maybe a little magic.) Mike is a man of few words, but when you get a chance to talk with him, it’s obvious that he’s smart and thoughtful and—when he wants to be—ridiculously funny. 
+        <p class="small">Mike’s ability to push through and get stuff done can feel a little bit magical. In reality, it’s a combination of technical skill and focus. Mike is a man of few words, but when you get a chance to talk with him, it’s obvious that he’s smart, thoughtful, and (when he wants to be) ridiculously funny. Mike brings a sharp instinct for design and an awareness of the user's experience to all of his development work. 
 </p>
       </div>
     </div>
@@ -228,11 +227,11 @@
     <span>Game Developer and Programmer </span>
     <div class="wrapper">
       <div class="col-md-12 profile-expanded">
-        <p class="small">Autumn is a game developer and programmer extraordinaire. She brings expertise in both educational game design and the development of powerful, easy-to-use design tools. Autumn has been designing games ever since the mid 2000s, when she first began to express her ideas with GameMaker. She’s drawn to how games can be used to explore systems from mechanical and thematic angles. 
+        <p class="small">Autumn is a game developer and programmer extraordinaire. She brings expertise in both educational game design and the creation of powerful, easy-to-use development tools. Autumn has been designing games ever since the mid 2000s, when she first began to express her ideas with GameMaker. She’s drawn to how games can be used to explore systems from mechanical and thematic angles. 
 </p>
-        <p class="small">One of Autumn’s coolest superpowers is her ability to bring other members of the Field Day team—including artists, writers, and other non-programmers—into the design process. She believes that the best games happen through collaboration, which means everyone needs to be able to contribute without being held back by technical constraints. Autumn’s game design tools remove bottlenecks and allow the whole team to create and iterate together. 
+        <p class="small">One of Autumn’s superpowers is her ability to bring other members of the Field Day team—including non-programmers—into the development process. She believes that the best games happen through collaboration, which means everyone on the team needs to be able to contribute without being held back by technical constraints. Autumn cares about developing tools that remove bottlenecks and allow the whole team to create and iterate together. 
 </p>
-        <p class="small">Autumn cares about developing thoughtful games that make an impact. She was the sole developer and creative force behind Diffission (Filament Games), a fractions game that empowers kids to focus on self-improvement instead of perfection. She was also the sole developer for BeauRoutine, a tool used in nearly all of Filament’s Unity-based games, and the lead engineer for Do I Have a Right? (Filament Games), a civics game about constitutional law. Autumn has expertise in several design systems, but works most often in Unity and Typescript. 
+        <p class="small">Autumn was the sole developer and creative force behind Diffission (Filament Games), a fractions game that empowers kids to focus on self-improvement instead of perfection. She was also the sole developer for BeauRoutine, a tool used in nearly all of Filament’s Unity-based games, and the lead engineer for Do I Have a Right? (Filament Games), a civics game about constitutional law. Autumn has expertise in several design systems, but she works most often in Unity and Typescript. 
 </p>
       </div>
     </div>
@@ -245,11 +244,11 @@
     <span>Research Intern and Director’s Minion </span>
     <div class="wrapper">
       <div class="col-md-12 profile-expanded">
-        <p class="small">Jenn’s research focuses on understanding student thinking through game data. Her work with Field Day began with data analytics for Lakeland and continues with a four-year project teaching science practices called Aqualab. She’s also a producer for Aqualab and game designer for Shipwrecks! 
+        <p class="small">Jenn is fascinated by how we can understand student thinking through game data. She began working with Field Day as a researcher analyzing data and conducting play-tests for <a href="https://fielddaylab.wisc.edu/play/lakeland/" target="_blank">Lakeland</a>. Now she's stepping into the role of producer for AquaLab, a four-year project focused on teaching science practices. Jenn is also a designer for our in-progress game about Great Lakes shipwrecks. 
 </p>
-        <p class="small">When it comes to advocating for kids, Jenn is unstoppable. As a former teacher, she brings a deep knowledge about how classrooms work and what teachers need. She works with the Teacher Fellows to design useful pedagogical tools, like a new teacher dashboard for Lakeland (soon to be applied across all our games). She takes the lead on user-testing with kids for many of our games. 
+        <p class="small">When it comes to advocating for kids, Jenn is unstoppable. As a former teacher, she brings a deep knowledge about how classrooms work and what teachers need. She works with our Teacher Fellows to design pedagogical tools, like a new teacher dashboard for Lakeland (soon to be applied across all our games). Jenn leads user-testing with kids for many of our games. 
 </p>
-        <p class="small">In her role as Director’s Minion (or Assistant to the Director on paper), Jenn amazes everyone with her ability to keep all the administrative gears turning. Jenn’s superpowers include, but are not limited to: data analytics, ed tech, communicating with teachers, and keeping track of literally everything. 
+        <p class="small">In her role as Director’s Minion (or Assistant to the Director on paper), Jenn is constantly impressing everyone with her ability to keep all the administrative gears turning. Jenn’s superpowers include, but are not limited to: data analytics, ed tech, communicating with teachers, and keeping track of literally everything. 
 </p>
       </div>
     </div>

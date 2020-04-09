@@ -22,11 +22,9 @@
       <div class="col-md-3">
         <div class="footer-signup">
           <img class="signup-badge img-responsive" src="/assets/img/illustrations/astro-badge.png">
-          <h3>Stay in Touch</h3>
-          <p class="small">If you want to hear the latest about what we’re up to, drop your
-email below. We won’t spam
-you, promise.</p>
-           <a target="_blank" href="http://fielddaylab.us11.list-manage.com/subscribe?u=41e606b89f5a8bc633e161cf3&id=dd53cb95db" class="button xsmall">Sign up</a>
+          <h3>Extra, extra!</h3>
+          <p class="small">Read the stories behind our games and meet the researchers and teachers who have teamed up with us.</p>
+           <a target="_blank" href="https://medium.com/fielddaylab" class="button xsmall">Field Day Blog</a>
         </div>
       </div>
       <div class="col-md-9 footerinfo">
