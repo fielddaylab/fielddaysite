@@ -31,7 +31,7 @@ you, promise.</p>
       </div>
       <div class="col-md-9 footerinfo">
         <img class="footerlogo" src="/assets/img/logos/fd.png">
-        <p class="small">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, Field Day Lab is a research lab and design studio. We make learning games that bring contemporary research to the public. Seeking to do what's never been done before, we constantly innovate, play, take risks, and mess-make.</p>
+        <p class="small">Our team is based at the Wisconsin Center for Education Research at the University of Wisconsin - Madison. We make learning games that bring contemporary research to the public, and we use the game data to understand how people learn.</p>
       </div>
     </div>
   </div>

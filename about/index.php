@@ -14,7 +14,7 @@
       <div class="info">
         <h1 class="corrected">We're Field Day</h1>
         <h2 class="yellow">We make learning games</h2>
-        <p class="corrected">Our games bring contemporary research to the public. We are a research lab and design studio based at the Wisconsin Center for Educational Research at UW - Madison. </p>
+        <p class="corrected">Our games bring contemporary research to the public. We are a research lab and design studio based at the Wisconsin Center for Education Research at UW - Madison. </p>
         <a href="#page-facts" class="button yellow filled small">Learn More</a>
       </div>
       <div class="graphic">

@@ -37,8 +37,8 @@
           <div class="info-wrap">
             <div class="item-info">
               <img class="" src="/assets/img/logos/fd-white.png">
-              <p class="corrected">We make games that bring contemporary research to the public. Want in? We'll turn your amazing work into a game that reaches huge audiences.</p>
-              <a href="/about" class="button white xsmall">Learn about us</a>
+              <p class="corrected">We make learning games. Our games bring contemporary research to the public. Want in? We'll turn your amazing work into a game that reaches huge audiences.</p>
+              <a href="/work" class="button white xsmall">How It Works</a>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
             <div class="item-info">
               <img class="" src="/assets/img/logos/lakeland-logo.png?cb=20190820">
               <p class="corrected">This town-building game teaches complex systems. Made in partnership with the Scalable Systems Lab at UW-Madison. Played by thousands of kids a month.</p>
-              <a href="/play/lakeland" class="button white xsmall">Learn More</a>
+              <a href="/play/lakeland" class="button white xsmall">Check It Out</a>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@
               <img class="" src="/assets/img/logos/jowilder.png?cb=20190820">
               <h2 class="uppercase"></h2>
               <p class="corrected">This award-winning game turns kids into history detectives! Made in partnership with PBS Wisconsin and archivists at the Wisconsin Historical Society.</p>
-              <a class="button xsmall white" href="/play/jowilder">Learn More</a>
+              <a class="button xsmall white" href="/play/jowilder">Check It Out</a>
             </div>
           </div>
         </div>
@@ -69,8 +69,8 @@
             <div class="item-info">
               <img class="" src="/assets/img/logos/ice-cube-logo-white.png">
               <h2 class="uppercase">Discover Ice Cube</h2>
-              <p class="corrected">This 3D experience takes players on a journey to the IceCube Observatory at the South Pole, and then into deep space! Made in partnership with IceCube's Particle Astrophysics Center and the Living Environments Lab at UW-Madison.</p>
-              <a class="button xsmall white" href="/play/ice-cube">Learn More</a>
+              <p class="corrected">This virtual reality game introduces players to complex ideas in astrophysics. Made in partnership with the IceCube Neutrino Observatory and the Living Environments Lab at UW-Madison.</p>
+              <a class="button xsmall white" href="/play/ice-cube">Check It Out</a>
             </div>
           </div>
         </div>
@@ -154,7 +154,7 @@
         </div>
         <div class="cta-card two">
           <h3>Games for Outreach</h3>
-          <p class="small">Are you from a research lab? Design a game with us and reach hundreds of thousands of people.</p>
+          <p class="small">Are you a researcher? Design a game with us and reach hundreds of thousands of people.</p>
           <a class="button xsmall black" href="/work">Work with Us</a>
         </div>
       </div>

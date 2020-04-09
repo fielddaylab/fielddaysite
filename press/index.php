@@ -15,7 +15,7 @@
   <section class="singlehero page_hero">
     <div class="info">
       <h1 class="corrected">Press Pack</h1>
-      <p class="corrected">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are a truly interdisciplinary team of educational researchers, software engineers, artists, and storytellers, exploring the intersection of current learning science and media design</p>
+      <p class="corrected">Based at the Wisconsin Center for Education Research at the University of Wisconsin - Madison, we are a truly interdisciplinary team of educational researchers, software engineers, artists, and storytellers, exploring the intersection of current learning science and media design</p>
     </div>
     <div class="graphic">
 

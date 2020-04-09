@@ -14,8 +14,8 @@
     <section class="singlehero page_hero">
       <div class="info">
         <h1 class="corrected">Work with Field Day</h1>
-        <p class="corrected">Sharing research outside the university is crucial. It takes a lot of effort but it still doesn’t reach enough people. We bring your research to huge audiences with games, virtual reality experiences and citizen science apps.</p>
-        <a href="#how-we-work" class="button black small">Learn how we work</a>
+        <p class="corrected">Do you have a vision for better public engagement? We'll turn your research into a fun, academically rigorous game that reaches huge audiences.</p>
+        <a href="#how-we-work" class="button black small">Why use games for outreach?</a>
       </div>
       <div class="graphic">
         <img class="hideforsmall cloud one" src="/assets/img/illustrations/cloud.png">
@@ -53,21 +53,21 @@
                 <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
                   <span class="bullet">1</span>
                   <span class="rule"></span>
-                  <span class="bullet-caption">Let's Talk</span>
+                  <span class="bullet-caption">Scope</span>
                 </li>
                 <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
                   <span class="bullet">2</span>
                   <span class="rule"></span>
-                  <span class="bullet-caption">Production</span>
+                  <span class="bullet-caption">Depth</span>
                 </li>
                 <li class="slide-bullet" data-target="#carousel" data-slide-to="2">
                   <span class="bullet">3</span>
                   <span class="rule"></span>
-                  <span class="bullet-caption">Distribution</span>
+                  <span class="bullet-caption">Evaluation</span>
                 </li>
                 <li class="slide-bullet" data-target="#carousel" data-slide-to="3">
                   <span class="bullet">4</span>
-                  <span class="bullet-caption">Evaluation</span>
+                  <span class="bullet-caption">Cost</span>
                 </li>
             </ul>
           </div>
@@ -75,10 +75,10 @@
           <div class="carousel-inner">
               <div class="active item">
                 <div class="info">
-                  <span class="">Let's talk</span>
-                  <h3>It starts with a conversation</h3>
-                  <p class="small">We start every project the same way. A conversation.  While we have specific processes, each project is unique. We want to hear your ideas! Send us an email and we’ll meet over coffee.</p>
-                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Schedule a Meeting</button>
+                  <span class="">Scope</span>
+                  <h3>Games Reach Wider Audiences</h3>
+                  <p class="small">Our games get hundreds of thousands of plays! All you need to do is teach us about your work. We'll turn it into a game that reaches classrooms everywhere.</p>
+                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
                 </div>
                 <div class="graphic">
                   <img class="slideimg" src="/assets/img/illustrations/spaceplane-blueprint.png">
@@ -86,10 +86,10 @@
               </div>
               <div class="item">
                 <div class="info color-switch">
-                  <span class="">Blast Off</span>
-                  <h3>Project Kick-Off to Final Product</h3>
-                  <p class="small">You’ll join us for a 1-2 day kick-off event where we come together as a team for the first time. We include three key teams at each phase of the design: our design and research team, audience representatives and you, the subject expert. You will join us frequently during production. We can conduct all the design, testing and evaluation with you either in person or remotely.</p>
-                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Schedule a Meeting</button>
+                  <span class="">Depth</span>
+                  <h3>Games Go Deep into Complex Topics</h3>
+                  <p class="small">With a game, learners can play with complex systems, see results, and work toward goals. Instead of sitting back and reading an article or watching a video, players will explore your work.</p>
+                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
                 </div>
                 <div class="graphic">
                   <img class="slideimg" src="/assets/img/illustrations/spaceplane-vertical.png">
@@ -105,10 +105,10 @@
               </div>
               <div class="item">
                 <div class="info">
-                  <span class="">Distribution</span>
-                  <h3>We get hundreds of thousands of plays</h3>
-                  <p class="small">First, we give our games and apps for free to the public, removing the cost barrier for play. Second, we don’t require logins for players, which allows schools to use our games. Third, we network with public schools, public television, media outlets and large online distributors.  <a href="https://datastudio.google.com/open/0B3XkHYR1Or_fMVdxOVZ6M3I2TEE" target="_blank">See live data from the Yard Games</a></p>
-                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Schedule a Meeting</button>
+                  <span class="">Evaluation</span>
+                  <h3>Games Come With Built-in Evaluation</h3>
+                  <p class="small">We offer real-time insights into how many times your game is played, where it's being played, and for how long. All of our games have built-in learning assessments that fuel our research.</p>
+                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
                 </div>
                 <div class="graphic">
                   <img class="astronaut one float" src="/assets/img/illustrations/astronaut1.png">
@@ -118,10 +118,10 @@
               </div>
               <div class="item">
                 <div class="info">
-                  <span class="">Evaluation</span>
-                  <h3>Learning from Big Data</h3>
-                  <p class="small">We provide real-time analytics so you can see  who, how long and when people play your game or app. We also use these games as instruments to measure and understand learning for our own research. If the project budget allows, we will use this data as part of a larger research and evaluation protocol to understand what and how our audience is learning. This analysis leads to design revisions, academic publications and research grant proposals.</p>
-                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Schedule a Meeting</button>
+                  <span class="">Cost</span>
+                  <h3>Games Reach More People for Less</h3>
+                  <p class="small">Games are super cost effective compared to other forms of outreach. Our games cost a fraction of a penny per minute of engagement and last for a decade. We'll work with you to write grants and get funding.</p>
+                  <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
                 </div>
                 <div class="graphic fixed">
                   <img class="slideimg fixed" src="/assets/img/illustrations/mountainrange.png">
@@ -136,8 +136,8 @@
       <div class="fact">
         <div class="info">
           <img src="/assets/img/ui/dots.png">
-          <h3>We are a Research Lab</h3>
-          <p class="small">Field Day is an education media research lab within the Wisconsin Center for Education Research at the University of Wisconsin - Madison. Our work lies at the intersection of interactive media and theories of situated and sociocultural learning. In that pursuit, we create new technologies such as augmented and virtual reality, video games, coding platforms and mobile apps that act as research platforms to understand how people learn.</p>
+          <h3>We can support your grant-writing</h3>
+          <p class="small">We're here to help with your grant-writing and fundraising. Our team will contribute language for your outreach or Broader Impacts section. Researchers love that we make grant-writing easier.</p>
         </div>
         <div class="photo">
           <img src="/assets/img/callouts/research.jpeg">
@@ -151,15 +151,15 @@
         <div class="info">
           <img src="/assets/img/ui/dots.png">
           <h3>What can we build together?</h3>
-          <p class="small">Learning Games<br>Digital Field Guides<br>VR & AR experiences<br>Citizen Science Apps<br>Museum apps<br>Teacher Fellowships</p>
+          <p class="small">Online games<br>Virtual/augmented reality games<br>Museum installations<br><br></p>
         </div>
       </div>
 
       <div class="fact">
         <div class="info">
           <img src="/assets/img/ui/dots.png">
-          <h3>What Does a Game Cost?</h3>
-          <p class="small">Our games vary widely in cost. They can take anywhere from a few months to several years to produce. Many labs don’t have this kind of funding, but we have a plan. We partner with you to write the grants that will pay for the project. We start by looking for seed funds available through your organization to develop a game concept. Next we use this concept, complete with sample art and clearly articulated goals, to write public engagement and outreach grants or to write the Broader Impacts or Public Outreach section of your research grant.</p>
+          <h3>Our games work in classrooms</h3>
+          <p class="small">All of our games are built in partnership with teachers. We rely on their expertise to make sure our games work in classrooms and line up with what teachers need.</p>
         </div>
 
         <div class="photo">
@@ -175,8 +175,8 @@
       <div id="maincta" class="maincta">
         <img src="/assets/img/illustrations/spaceplane-flight.png">
         <h2 class="uppercase">Work with Us</h2>
-        <p>We work with scientists, researchers, teachers, artists, story tellers, and all-around rad people to make things together to impact our communities.  </p>
-        <button data-toggle="modal" data-target="#contactModal" class="button small white" >Schedule a Meeting</button>
+        <p>Want to design a game with us? Email us to get started.</p>
+        <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
       </div>
     </section>
   </div>
