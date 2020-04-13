@@ -77,7 +77,7 @@
                 <span class="close-app">
                   <h2>Atom Touch</h2>
                   <p class="small">This interactive simulation app allows players to explore principles of thermodynamics and molecular dynamics. Created in partnership with the UW-MRSEC research center.</p>
-                  <a class="button small black" href="/games/atom-touch" target="_blank">Play Atom Touch</a>
+                  <a class="button small black" href="/play/atom-touch" target="_blank">Play Atom Touch</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/atomtouchbg.jpg">
@@ -113,7 +113,7 @@
                 <span class="close-app">
                   <h2>Jo Wilder and the Capitol Case</h2>
                   <p class="small">This award-winning game turns kids into history detectives! Made in partnership with PBS Wisconsin and archivists at the Wisconsin Historical Society.</p>
-                  <a class="button small black" href="/games/jowilder">Play Jo Wilder</a>
+                  <a class="button small black" href="/play/jowilder">Play Jo Wilder</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/jowilder-thumb.jpg">
@@ -126,7 +126,7 @@
                 <span class="close-app">
                   <h2>Lost at the Forever Mine</h2>
                   <p class="small">This space adventure brings mathematical modeling straight to the classroom. Made in partnership with the UW-MRSEC research center.</p>
-                  <a class="button small black" href="/games/forevermine" target="_blank">Play the Game</a>
+                  <a class="button small black" href="/play/forevermine" target="_blank">Play the Game</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/forevermine.jpg">
@@ -138,7 +138,7 @@
                 <span class="close-app">
                   <h2>Lakeland</h2>
                   <p class="small">This town-building game teaches complex systems. Made in partnership with the Scalable Systems Lab at UW-Madison. Played by thousands of kids a month.</p>
-                  <a class="button small black" href="/games/lakeland">Play Lakeland</a>
+                  <a class="button small black" href="/play/lakeland">Play Lakeland</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/lakeland-thumb.jpg">
@@ -176,7 +176,7 @@
                 <span class="close-app">
                   <h2>IceCube</h2>
                   <p class="small">The IceCube Virtual Reality experience puts you in the role of an astrophysicist. You will journey deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica. Players learn about the IceCube observatory at the South Pole and the neutrinos they detect. Play at the Wisconsin Institute for Discovery in Madison, WI or download for your own VR device.</p>
-                  <a class="button small black" href="/games/ice-cube" target="_blank">Learn about Discover IceCube</a>
+                  <a class="button small black" href="/play/ice-cube" target="_blank">Learn about Discover IceCube</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/icecube-thumb.png">

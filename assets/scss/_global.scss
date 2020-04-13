@@ -46,6 +46,12 @@ hr {
   }
 }
 
+.hide-for-nav-xsmall{
+  @media #{$break-sm} {
+    display:none !important;
+  }
+}
+
 .sticky {
   position: sticky;
   position: -webkit-sticky;

@@ -15,35 +15,9 @@
       <div class="info">
         <h1 class="corrected">Work with Field Day</h1>
         <p class="corrected">Do you have a vision for better public engagement? We'll turn your research into a fun, academically rigorous game that reaches huge audiences.</p>
-        <a href="#how-we-work" class="button black small">Why use games for outreach?</a>
+        <a href="#how-we-work" class="button white small">Why use games for outreach?</a>
       </div>
       <div class="graphic">
-        <img class="hideforsmall cloud one" src="/assets/img/illustrations/cloud.png">
-        <img class="hideforsmall cloud two" src="/assets/img/illustrations/cloud.png">
-
-        <div class="starfield topright">
-          <span class="star star1"></span>
-          <span class="star star2"></span>
-          <span class="star star3"></span>
-          <span class="star star4"></span>
-          <span class="star star5"></span>
-        </div>
-        <div class="starfield topleft big">
-          <span class="star star1"></span>
-          <span class="star star2"></span>
-          <span class="star star3"></span>
-          <span class="star star4"></span>
-          <span class="star star5"></span>
-        </div>
-        <img class="spaceplane-illustration" src="/assets/img/illustrations/spaceplane-vertical.png">
-        <div class="exhaustwrap">
-          <img class="exhaust one" src="/assets/img/illustrations/exhaust.png">
-          <img class="exhaust two" src="/assets/img/illustrations/exhaust2.png">
-        </div>
-        <div class="exhaustwrap two">
-          <img class="exhaust one late" src="/assets/img/illustrations/exhaust.png">
-          <img class="exhaust two late" src="/assets/img/illustrations/exhaust2.png">
-        </div>
       </div>
     </section>
     <section id="how-we-work" class="how-we-work">

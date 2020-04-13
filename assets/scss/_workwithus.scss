@@ -1,15 +1,16 @@
 .workwithus {
   .page_hero {
-    background: -moz-linear-gradient(-35deg, #ffb3b3 0%, #b8deff 52%, #ffffff 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-35deg, #ffb3b3 0%,#b8deff 52%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(155deg, #ffb3b3 10%,#b8deff 32%,#ffffff 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb3b3', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background:url('/assets/img/hero-images/field-day.jpeg');
+    background-size:cover;
+    background-position:right;
+    height:90vh;
     .info {
       width: 50%;
       padding: 8vw 0vw 8vw 8vw;
+      color:#fff;
       @media #{$break-sm} {
-        width:70%;
-        padding: 14vw 0vw 8vw 8vw;
+        width:initial;
+        margin-bottom:-50vw;
       }
       h1{
         text-transform: uppercase;
@@ -114,6 +115,7 @@
           width:50%;
           padding:8vw;
           margin-top:40px;
+          position:relative;
           &.color-switch{
             @media #{$break-sm} {
               background: #fff;
@@ -140,6 +142,8 @@
           }
           h3,p{
             color:#fff;
+            z-index:103;
+            position:relative;
           }
           h3{
             text-transform:uppercase;

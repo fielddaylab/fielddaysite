@@ -7768,6 +7768,10 @@ hr {
   .hide-for-nav {
     display: none !important; } }
 
+@media only screen and (max-width: 768px) {
+  .hide-for-nav-xsmall {
+    display: none !important; } }
+
 .sticky {
   position: sticky;
   position: -webkit-sticky;
@@ -8110,11 +8114,18 @@ p {
       @media only screen and (max-width: 768px) {
         .small-nav ul li {
           padding: 10px; } }
+      @media only screen and (max-device-width: 400px), only screen and (max-width: 400px) {
+        .small-nav ul li {
+          padding: 10px 8px; } }
       .small-nav ul li a {
         text-transform: uppercase;
         font-size: 12px;
         color: #001E2A;
         cursor: pointer; }
+        @media only screen and (max-device-width: 400px), only screen and (max-width: 400px) {
+          .small-nav ul li a {
+            font-size: 11px;
+            letter-spacing: 1px; } }
         .small-nav ul li a:hover {
           color: #D6A718;
           text-decoration: none; }
@@ -10238,21 +10249,18 @@ hr {
     min-height: 15vw; }
 
 .workwithus .page_hero {
-  background: -moz-linear-gradient(-35deg, #ffb3b3 0%, #b8deff 52%, #ffffff 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(-35deg, #ffb3b3 0%, #b8deff 52%, #ffffff 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(155deg, #ffb3b3 10%, #b8deff 32%, #ffffff 70%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb3b3', endColorstr='#ffffff',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */ }
+  background: url("/assets/img/hero-images/field-day.jpeg");
+  background-size: cover;
+  background-position: right;
+  height: 90vh; }
   .workwithus .page_hero .info {
     width: 50%;
-    padding: 8vw 0vw 8vw 8vw; }
+    padding: 8vw 0vw 8vw 8vw;
+    color: #fff; }
     @media only screen and (max-width: 768px) {
       .workwithus .page_hero .info {
-        width: 70%;
-        padding: 14vw 0vw 8vw 8vw; } }
+        width: initial;
+        margin-bottom: -50vw; } }
     .workwithus .page_hero .info h1 {
       text-transform: uppercase;
       font-weight: 600;
@@ -10343,7 +10351,8 @@ hr {
       .workwithus .carousel .carousel-inner .item .info {
         width: 50%;
         padding: 8vw;
-        margin-top: 40px; }
+        margin-top: 40px;
+        position: relative; }
         @media only screen and (max-width: 768px) {
           .workwithus .carousel .carousel-inner .item .info.color-switch {
             background: #fff; }
@@ -10363,7 +10372,9 @@ hr {
           font-style: italic;
           margin-bottom: -10px; }
         .workwithus .carousel .carousel-inner .item .info h3, .workwithus .carousel .carousel-inner .item .info p {
-          color: #fff; }
+          color: #fff;
+          z-index: 103;
+          position: relative; }
         .workwithus .carousel .carousel-inner .item .info h3 {
           text-transform: uppercase;
           font-size: 30px;
@@ -11035,7 +11046,8 @@ hr {
       padding: 5vw;
       display: flex;
       position: relative;
-      justify-content: center; }
+      justify-content: center;
+      align-items: flex-start; }
       .about .page-facts .fact .photo img {
         width: 50vw;
         height: auto; }
@@ -11965,18 +11977,25 @@ tbody tr {
 /* Footer
 ------------------------------------------ */
 #footer {
-  background: #fff;
   z-index: 100;
   padding: 5vw;
-  border-top: 3px solid #f5f5f5; }
+  background: #FFDF71; }
 
 .footer {
-  background: #fff;
   text-align: left;
   margin: 0 auto;
   max-width: 1800px; }
   .footer .footerinfo {
-    padding: 3vw; }
+    padding: 3vw;
+    margin-top: 5vw;
+    border-right: 3px solid #E0BC4E; }
+    .footer .footerinfo a {
+      color: #001E2A;
+      text-decoration: underline; }
+    .footer .footerinfo .social-links a img {
+      width: auto;
+      height: 20px;
+      margin-right: 40px; }
   .footer h3 {
     margin-bottom: 15px; }
   .footer .footer-signup {
