@@ -213,17 +213,27 @@
           <h2 id="pub4">Written by Field Day Lab Staff</h2>
           <div class="pub-wrap">
             <p class="small">
-DuBois, T.A., Olson, R., Cederström, B.M., Mathews, J., Gagnon, D. (In Press) Siftr: A Tool for the Folklore Classroom. Journal for Folklore and Education.
+Tredinnick, R., Cors, R., Madsen, J., Gagnon, D., Bravo-Gallart, S., Sprecher, B., & Ponto, K. (2020). Exploring the Universe from Antarctica—An Informal STEM Polar Research Exhibit. Journal of STEM Outreach, 1–13.
             </p>
           </div>
           <div class="pub-wrap">
             <p class="small">
-              Mathews, J., & Holden, C. (2018). The Design and Play of Geogames as Place-Based Education. In Geogames and Geoplay (pp. 161-176). Springer, Cham.
+Gagnon, D. J., Harpstead, E., & Slater, S. (2019). Comparison of Off the Shelf Data Mining Methodologies in Educational Game Analytics. Joint Proceedings of the Workshops of the 12th International Conference on Educational Data Mining Co-Located with the 12th International Conference on Educational Data Mining (EDM 2019), 38–43.
             </p>
           </div>
           <div class="pub-wrap">
             <p class="small">
-Carlson, K., Gagnon, D. (2016). Augmented Reality Integrated Simulation Education in Health Care. Clinical Simulation in Nursing, 12(4), 123-127. DOI:<a href="http://dx.doi.org/10.1016/j.ecns.2015.12.005" target="_blank">10.1016/j.ecns.2015.12.005</a>
+DuBois, T. A., Olson, R., Cederström, B. M., Mathews, J., & Gagnon, D. (2018). Siftr: A Tool for the Folklore Classroom. Journal of Folklore and Education, 5(1), 13–29.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Mathews, J., & Holden, C. (2018). The Design and Play of Geogames as Place-Based Education. In Geogames and Geoplay (pp. 161-176). Springer, Cham.
+            </p>
+          </div>
+          <div class="pub-wrap">
+            <p class="small">
+Carlson, K. J., & Gagnon, D. J. (2016). Augmented Reality Integrated Simulation Education in Health Care. Clinical Simulation in Nursing, 12(4), 123–127. https://doi.org/10.1016/j.ecns.2015.12.005
             </p>
           </div>
           <div class="pub-wrap">
@@ -233,8 +243,7 @@ Gagnon, D. (2015) Educational Mobile Games and the Tools that Invite Participati
           </div>
           <div class="pub-wrap">
             <p class="small">
-              Gagnon, D., Vang, R., & Litts, B. K. (2015). Learning through design: ARIS. In K. Caldwell, S. Seyler, A. Ochsner, & C. Steinkuehler (Eds), Proceedings of the eleventh annual Games+Learning+Society Conference (pp. 282-288). ETC Press: Pittsburgh, PA.
-
+Gagnon, D., Vang, R., & Litts, B. K. (2015). Learning through design: ARIS. In K. Caldwell, S. Seyler, A. Ochsner, & C. Steinkuehler (Eds), Proceedings of the eleventh annual Games+Learning+Society Conference (pp. 282-288). ETC Press: Pittsburgh, PA.
             </p>
           </div>
           <div class="pub-wrap">
@@ -255,7 +264,6 @@ Gagnon, D., Holden, C., Gottlieb, O., Long, K., Quintanilla, E., Kavaloski, A., 
           <div class="pub-wrap">
             <p class="small">
               Holden, C. L., Gagnon, D. J., Litts, B. K., & Smith, G. (2014). ARIS: An Open-Source Platform for Widespread Mobile Augmented Reality Experimentation. In F. Neto (Eds.), Technology Platform Innovations and Forthcoming Trends in Ubiquitous Learning (pp. 19-34). Hershey, PA: IGI Global. doi:10.4018/978-1-4666-4542-4.ch002
-
             </p>
           </div>
           <div class="pub-wrap">
