@@ -1,22 +1,30 @@
 /**
  * Function to initialize data and refresh loop when the page loads.
  */
+const SIMULATION_MODE = true;
+var SIM_TIME = 0;
 function onload()
 {
   // Create a SessionList instance for tracking state, and start the refresh loop.
   sess_list = new SessionList();
-  rt_change_games(sess_list, "CRYSTAL");
+  rt_change_games(sess_list, "LAKELAND");
   if (rt_config.custom_title !== null)
   {
     document.title = rt_config.custom_title;
   }
-  document.getElementById("require_pid").onclick = function() {
-      sess_list.require_player_id = this.checked;
-      sess_list.refreshActiveSessionList();
-      if (sess_list.selected_session_id != -1)
-      {
-        sess_list.refreshSelectedSession();
-      }
+  if (SIMULATION_MODE) {
+    document.getElementById("require_pid").disabled = true;
+    document.title = document.title.concat(" - SIMULATED");
+  }
+  else {
+    document.getElementById("require_pid").onclick = function() {
+        sess_list.require_player_id = this.checked;
+        sess_list.refreshActiveSessionList();
+        if (sess_list.selected_session_id != -1)
+        {
+          sess_list.refreshSelectedSession();
+        }
+    }
   }
   window.setInterval(() => {
     try {
@@ -30,6 +38,7 @@ function onload()
       console.log(err.message);
       throw err;
     }
+    finally { SIM_TIME += 5; console.log(`sim time: ${SIM_TIME}`);}
   }, 5000);
 }
 
@@ -86,7 +95,7 @@ class SessionList
    * and a selected ID (for detailed display).
    */
   constructor() {
-    this.active_game = "WAVES";
+    this.active_game = "LAKELAND";
     this.active_sessions = [];
     this.active_session_ids = [];
     this.displayed_session_ids = [];
@@ -94,6 +103,7 @@ class SessionList
     this.require_player_id = document.getElementById("require_pid").checked;
     this.statistics_NA_msg = false;
     this.request_count = 0;
+    this.selected_session_dash = new SessionDashboard()
     this.refreshActiveSessionList();
   }
 
@@ -127,7 +137,7 @@ class SessionList
     if (this.request_count < rt_config.max_outstanding_requests)
     {
       this.request_count++;
-      Server.get_all_active_sessions(active_sessions_handler, this.active_game, this.require_player_id);
+      Server.get_all_active_sessions(active_sessions_handler, this.active_game, this.require_player_id, SIM_TIME);
     }
     else
     {
@@ -232,42 +242,69 @@ class SessionList
     }
   }
 
+  displaySelectedSession(session_id) {
+    this.clearSelected();
+    let player_id = this.active_sessions[session_id]['player_id']
+    this.selected_session_dash.DisplaySession(session_id, player_id, this.active_game);
+    this.selected_session_id = session_id;
+  }
+
+  refreshSelectedSession() {
+    this.selected_session_dash.Refresh();
+  }
+
+  /**
+   * Simple function to clear out data display for a selected session.
+   * This is mostly intended for when switching to a new session or switching
+   * to another game entirely.
+   */
+  clearSelected() {
+    this.selected_session_dash.clear()
+  }
+}
+
+class SessionDashboard {
+  constructor() {
+    this.active_game = "None";
+    this.selected_session_id = -1;
+    this.require_player_id = document.getElementById("require_pid").checked;
+    this.statistics_NA_msg = false;
+    this.request_count = 0;
+  }
+
+  clear() {
+    // here we'll just clear the stuff displayed in the prediction area.
+    let playstats = document.getElementById("playstats");
+    while (playstats.firstChild) {
+      playstats.removeChild(playstats.firstChild);
+    }
+    this.selected_session_id = -1;
+    this.statistics_NA_msg = false;
+  }
+
   /**
    * Function to set up display of predictions for a given session.
    * Once this has been run, another function can be used to update
    * the prediction values in place (without removing and replacing elements).
    * @param {*} session_id The id of the session to display.
    */
-  displaySelectedSession(session_id) {
+  DisplaySession(session_id, player_id, game_id) {
     let that = this;
-    this.clearSelected();
     this.selected_session_id = session_id;
+    this.active_game = game_id;
     let playstats = document.getElementById("playstats");
     let message = document.createElement("h4")
-    let player_id = that.active_sessions[session_id]['player_id']
     let player_msg = !["", "null"].includes(player_id) ? " (Player "+player_id+")" : '';
     message.appendChild(document.createTextNode("Session "+session_id+player_msg));
     message.style.width = "-webkit-fill-available";
     playstats.appendChild(message);
-    let feature_request_list = this.get_feature_request_list();
+    let feature_request_list = this.create_feature_request_list();
     let features_handler = function(result) {
       let features_raw = that.parseJSONResult(result);
       let features_parsed = features_raw[that.selected_session_id];
       // loop over all predictions, adding to the UI.
       for (let feature_name in features_parsed) {
-        // first, make a div for everything to sit in.
-        let next_feature_span = document.createElement("span");
-        next_feature_span.id=feature_name;
-        next_feature_span.className="playstat";
-        // then, add an element with prediction title to the div
-        let title = document.createElement("p");
-        title.innerText = feature_request_list[feature_name]["name"];
-        next_feature_span.appendChild(title);
-        // finally, add an element for the prediction value to the div.
-        let value_elem = document.createElement("h3");
-        value_elem.id = `${feature_name}_val`;
-        next_feature_span.appendChild(value_elem);
-        playstats.appendChild(next_feature_span);
+        that.createFeatureBox(feature_name, feature_request_list[feature_name]["name"], playstats);
         that.populateFeatureBox(feature_name, features_parsed, feature_request_list);
       }
 
@@ -280,27 +317,15 @@ class SessionList
       let prediction_list = predictions_raw[that.selected_session_id]
       // loop over all predictions, adding to the UI.
       for (let prediction_name in prediction_list) {
-        // first, make a div for everything to sit in.
-        let next_prediction = document.createElement("span");
-        next_prediction.id=prediction_name;
-        next_prediction.className="playstat";
-        // then, add an element with prediction title to the div
-        let title = document.createElement("p");
-        title.innerText = prediction_list[prediction_name]["name"];
-        next_prediction.appendChild(title);
-        // finally, add an element for the prediction value to the div.
-        let value_elem = document.createElement("h3");
-        value_elem.id = `${prediction_name}_val`;
-        next_prediction.appendChild(value_elem);
-        playstats.appendChild(next_prediction);
+        that.createPredictionBox(prediction_name, prediction_list[prediction_name]["name"], playstats);
         that.populatePredictionBox(prediction_name, prediction_list);
       }
       if(predictions_raw === 'null'){
         playstats_message('No predictions available.')
       }
     };
-    Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game);
-    Server.get_features_by_sessID(features_handler, this.selected_session_id, this.active_game, Object.keys(feature_request_list));
+    Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game, SIM_TIME);
+    Server.get_features_by_sessID(features_handler, this.selected_session_id, this.active_game, SIM_TIME, Object.keys(feature_request_list));
   }
 
   /**
@@ -308,10 +333,10 @@ class SessionList
    * This assumes a session has been selected, and its id stored in
    * the SessionList selected_session_id variable.
    */
-  refreshSelectedSession()
+  Refresh()
   {
     let that = this;
-    let feature_request_list = this.get_feature_request_list();
+    let feature_request_list = this.create_feature_request_list();
     let features_handler = function(result) {
       // console.log(`Got back predictions: ${result}`);
       let features_raw = that.parseJSONResult(result);
@@ -319,6 +344,10 @@ class SessionList
       // After getting the feature values, loop over whole list,
       // updating values.
       for (let feature_name in features_parsed) {
+        let feat_span = document.getElementById(feature_name);
+        if (feat_span == null) {
+          that.createFeatureBox(feature_name, feature_request_list[feature_name]["name"], playstats);
+        }
         that.populateFeatureBox(feature_name, features_parsed, feature_request_list);
       }
       that.request_count--;
@@ -330,6 +359,10 @@ class SessionList
       // After getting the prediction values, loop over whole list,
       // updating values.
       for (let prediction_name in prediction_list) {
+        let pred_span = document.getElementById(prediction_name);
+        if (pred_span == null) {
+          that.createPredictionBox(prediction_name, prediction_list[prediction_name]["name"], playstats);
+        }
         that.populatePredictionBox(prediction_name, prediction_list);
       }
       that.request_count--;
@@ -337,9 +370,9 @@ class SessionList
     if (this.request_count < rt_config.max_outstanding_requests)
     {
       this.request_count++;
-      Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game);
+      Server.get_predictions_by_sessID(predictions_handler, this.selected_session_id, this.active_game, SIM_TIME);
       this.request_count++;
-      Server.get_features_by_sessID(features_handler, this.selected_session_id, this.active_game, Object.keys(feature_request_list));
+      Server.get_features_by_sessID(features_handler, this.selected_session_id, this.active_game, SIM_TIME, Object.keys(feature_request_list));
     }
     else
     {
@@ -347,11 +380,45 @@ class SessionList
     }
   }
 
+  createFeatureBox(feature_name, title_str, playstats_list)
+  {
+    // first, make a div for everything to sit in.
+    let next_feature_span = document.createElement("span");
+    next_feature_span.id=feature_name;
+    next_feature_span.className="playstat";
+    // then, add an element with prediction title to the div
+    let title = document.createElement("p");
+    title.innerText = title_str;
+    next_feature_span.appendChild(title);
+    // finally, add an element for the prediction value to the div.
+    let value_elem = document.createElement("h3");
+    value_elem.id = `${feature_name}_val`;
+    next_feature_span.appendChild(value_elem);
+    playstats_list.appendChild(next_feature_span);
+  }
+
   populateFeatureBox(feature_name, features_parsed, feature_request_list) {
-    let raw_value = features_parsed[feature_name]["value"];
-    let feature_value = SessionList.formatValue(raw_value, feature_request_list[feature_name]["type"]);
     let value_elem = document.getElementById(`${feature_name}_val`);
-    value_elem.innerText = feature_value;
+    let raw_value = features_parsed[feature_name]["value"];
+    let feature_value = SessionDashboard.formatValue(raw_value, feature_request_list[feature_name]["type"], value_elem, feature_request_list[feature_name]["icon"]);
+    // value_elem.appendChild(feature_value);
+  }
+
+  createPredictionBox(prediction_name, title_str, playstats_list)
+  {
+    // first, make a div for everything to sit in.
+    let next_prediction = document.createElement("span");
+    next_prediction.id=prediction_name;
+    next_prediction.className="playstat";
+    // then, add an element with prediction title to the div
+    let title = document.createElement("p");
+    title.innerText = title_str;
+    next_prediction.appendChild(title);
+    // finally, add an element for the prediction value to the div.
+    let value_elem = document.createElement("h3");
+    value_elem.id = `${prediction_name}_val`;
+    next_prediction.appendChild(value_elem);
+    playstats_list.appendChild(next_prediction);
   }
 
   populatePredictionBox(prediction_name, prediction_list) {
@@ -360,41 +427,77 @@ class SessionList
     value_elem.innerText = prediction_value;
   }
 
-  /**
-   * Simple function to clear out data display for a selected session.
-   * This is mostly intended for when switching to a new session or switching
-   * to another game entirely.
-   */
-  clearSelected() {
-    // here we'll just clear the stuff displayed in the prediction area.
-    let playstats = document.getElementById("playstats");
-    while (playstats.firstChild) {
-      playstats.removeChild(playstats.firstChild);
-    }
-    this.selected_session_id = -1;
-    this.statistics_NA_msg = false;
+  static createBarChart(val) {
+    return c3.generate(
+      {
+        bindto: '#bar_chart',
+        data: {
+          columns: [
+            ['data1', parseFloat(val).toFixed(0)]
+          ],
+          type: 'bar'
+        },
+        axis : {
+          x : {
+              tick: { count: 4, format: d3.format('d') },
+          }
+        },
+        size: {
+          height: 200-70,
+          width: .28*200
+        },
+        legend: { show: false }
+      });
   }
 
-  parseJSONResult(json_result)
-  {   let ret_val = 'null';
-      try
+  static formatValue(val, format, html_elem, icon=null)
+  {
+      let ret_val;
+      if (format == "int")
       {
-        let predictions_raw = JSON.parse(json_result);
-        ret_val = predictions_raw;
+        ret_val = parseFloat(val).toFixed(0);
+        html_elem.innerText = ret_val;
       }
-      catch (err)
+      else if (format == "float")
       {
-        console.log(`Could not parse result as JSON:\n ${json_result}`);
-        console.log(`Full error: ${err.toString()}`);
-        ret_val = {"message": json_result.toString()};
+        ret_val = parseFloat(val).toFixed(2);
+        html_elem.innerText = ret_val;
       }
-      finally
+      else if (format == "pct")
       {
-        return ret_val;
+        ret_val = `${(parseFloat(val)*100).toFixed(0)} %`;
+        html_elem.innerText = ret_val;
       }
+      else if (format == "bar")
+      {
+        let chart_div = document.createElement('div');
+        chart_div.id = "bar_chart"
+        let chart = SessionDashboard.createBarChart(val);
+        html_elem.appendChild(chart_div)
+        ret_val = chart_div.innerHTML
+      }
+      else if (format == "count")
+      {
+        // first, clear old children
+        while (html_elem.firstChild)
+        { html_elem.removeChild(html_elem.lastChild); }
+        // then, add instances of the icon to match the count.
+        ret_val = parseFloat(val).toFixed(0);
+        for (let i = 0; i < ret_val; i++) {
+          let next_icon = document.createElement('i');
+          next_icon.className = icon;
+          html_elem.appendChild(next_icon);
+        }
+      }
+      else
+      {
+        console.log(`Display value had unrecognized format ${format}. Using raw value ${val}`);
+        ret_val = val;
+      }
+      return ret_val;
   }
 
-  get_feature_request_list()
+  create_feature_request_list()
   {
     let feature_request_list = {};
     if(this.active_game === 'WAVES'){
@@ -416,43 +519,38 @@ class SessionList
         "sess_count_encounter_tutorial":{"name": "# Tutorials", "type": "int"},
         "sess_count_skips":{"name": "# Skip Tutorials", "type": "int"},
         "sess_count_buy_home":{"name": "# Buy Home", "type": "int"},
-        "sess_count_buy_farm":{"name": "# Buy Farm", "type": "int"},
+        "sess_count_buy_farm":{"name": "# Buy Farm", "type": "bar"},
         "sess_count_buy_fertilizer":{"name": "# Buy Fertilizer", "type": "int"},
         "sess_count_buy_livestock":{"name": "# Buy Livestock", "type": "int"},
         "sess_money_earned":{"name": "Money Earned", "type": "int"},
-        "sess_count_deaths":{"name": "# Deaths", "type": "int"},
-        "sess_percent_building_a_farm_on_highest_nutrition_tile":{"name": "% Build Farm on Highest Nutrition Tile", "type": "int"},
-        "sess_percent_placing_fertilizer_on_lowest_nutrient_farm":{"name": "% Fertilizer on Lowest Nutrient Farm", "type": "int"},
+        "sess_count_deaths":{"name": "# Deaths", "type": "count", "icon": "fas fa-dizzy"},
+        "sess_percent_building_a_farm_on_highest_nutrition_tile":{"name": "% Build Farm on Highest Nutrition Tile", "type": "pct"},
+        "sess_percent_placing_fertilizer_on_lowest_nutrient_farm":{"name": "% Fertilizer on Lowest Nutrient Farm", "type": "pct"},
         "sess_ActiveEventCount":{"name": "Active Event Count", "type": "int"},
       }
     }
     return feature_request_list;
   }
 
-
-
-  static formatValue(val, format)
-  {
-      let ret_val;
-      if (format == "int")
+  parseJSONResult(json_result)
+  {   let ret_val = 'null';
+      try
       {
-        ret_val = parseFloat(val).toFixed(0);
+        let predictions_raw = JSON.parse(json_result);
+        ret_val = predictions_raw;
       }
-      else if (format == "float")
+      catch (err)
       {
-        ret_val = parseFloat(val).toFixed(2);
+        console.log(`Could not parse result as JSON:\n ${json_result}`);
+        console.log(`Full error: ${err.toString()}`);
+        ret_val = {"message": json_result.toString()};
       }
-      else if (format == "pct")
+      finally
       {
-        ret_val = `${(parseFloat(val)*100).toFixed(0)} %`;
+        return ret_val;
       }
-      else
-      {
-        console.log(`Display value had unrecognized format ${format}. Using raw value ${val}`);
-        ret_val = val;
-      }
-      return ret_val;
   }
+
 }
 
 function playstats_message(msg){
