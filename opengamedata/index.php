@@ -4,6 +4,7 @@
 <title>Field Day - Open Game Data</title>
 </head>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 <body class="singleapp page opengamedata" onload="onload()">
 <!--include Main Navigation
 ------------------------>
@@ -107,6 +108,7 @@
           <div class="pub-wrap">
             <h3>About Realtime Player Data</h3>
             <p class="small">Field Day Lab develops games and uses them as instruments to understand learning. We use game analytics, including machine learning, to understand how players interact with our games. Our research includes desktop, mobile, virtual reality, and augmented reality games. </p>
+            <p class="small">This page uses fontawesome.</p>
           </div>
         </div>
       </div>
@@ -120,6 +122,10 @@
 <!--include footer
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/footer.php";  include_once($path); ?>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js"></script>
 <script src="scripts.js"></script>
 <script src="RTServer.js"></script>
 <script src="realtime.js"></script>
