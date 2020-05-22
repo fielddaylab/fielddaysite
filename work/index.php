@@ -134,6 +134,7 @@
           <img src="/assets/img/ui/dots.png">
           <h3>Our games work in classrooms</h3>
           <p class="small">All of our games are built in partnership with teachers. We rely on their expertise to make sure our games work in classrooms and line up with what teachers need.</p>
+          <a href="/fellowships" class="button xsmall black">view teacher fellowships</a>
         </div>
 
         <div class="photo">

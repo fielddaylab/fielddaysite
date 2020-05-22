@@ -37,7 +37,7 @@
           <div class="info-wrap">
             <div class="item-info">
               <img class="" src="/assets/img/logos/fd-white.png">
-              <p class="corrected">We make learning games. Our games bring contemporary research to the public. Want in? We'll turn your amazing work into a game that reaches huge audiences.</p>
+              <p class="corrected">Our games bring contemporary research to the public. Want in? We'll turn your amazing work into a game that reaches huge audiences.</p>
               <a href="/work" class="button white xsmall">How It Works</a>
             </div>
           </div>

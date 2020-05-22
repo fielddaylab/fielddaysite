@@ -10939,7 +10939,8 @@ hr {
       height: 30vw;
       width: 100%;
       overflow: hidden;
-      position: relative; }
+      position: relative;
+      background: #001E2A; }
       .about #team .gridder-list .profile-thumbnail img {
         width: 100%; }
       @media only screen and (max-width: 1024px) {
