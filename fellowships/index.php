@@ -397,7 +397,7 @@
         <a class="button small black" href="https://docs.google.com/forms/d/e/1FAIpQLSdIRalZif5lEWwDkMOiqqBqnvPCLTXQOcEwbUi0oA8InufMHg/viewform?usp=sf_link" onclick="ga('send', 'event', 'Apply', 'Click')" target="_blank">Apply Now</a>
       </div>
       <div class="col-md-5 cta">
-        <img class="expanded-thumb img-responsive" src="/assets/img/fellowships/game-dashboard.jpg">
+        <img class="expanded-thumb img-responsive" src="/assets/img/fellowships/shipwreck-teachers.jpg">
       </div>
     </div>
   </div>
