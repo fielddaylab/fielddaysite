@@ -11358,11 +11358,11 @@ hr {
         height: 40px;
         margin-bottom: 10px; }
       .press .tab-content .playstats .playstat:nth-child(1n) {
-        background: #06AED5; }
+        background: #eeeeee; }
       .press .tab-content .playstats .playstat:nth-child(2n) {
-        background: #E0BC4E; }
+        background: #eeeeee; }
       .press .tab-content .playstats .playstat:nth-child(3n) {
-        background: #FCC9C2; }
+        background: #eeeeee; }
       .press .tab-content .playstats .playstat h3 {
         font-family: roboto;
         font-weight: 700;
