@@ -307,7 +307,7 @@
             <h3 class="corrected">Shipwrecks and Sea Shanties: Designing a Game to Teach the Great Lakes</h3>
             <div class="row">
               <div class="col-md-8 brief">
-                <p class="corrected">We're partnering with maritime archaologists and Wisconsin teachers to design a game about Great Lakes shipwrecks!</p>
+                <p class="corrected">We're partnering with maritime archaeologists and Wisconsin teachers to design a game about Great Lakes shipwrecks!</p>
                 <a target="_blank" href="https://medium.com/@fielddaylab/learning-language-with-an-post-apocalyptic-survival-game-eco-pod-63efc90dc5a5#.242bkzqks" class="button xsmall"><span class="text">Read story</span> <span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
               </div>
             </div>

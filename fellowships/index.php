@@ -153,38 +153,50 @@
 
         <!-- Begin Current Fellowships-->
 
-        <li class="gridder-list" data-griddercontent="#game15">
-          <div class="game-thumbnail">
-            <img src="/assets/img/fellowships/game-dashboard.jpg">
-          </div>
-          <div class="card-summary">
-            <div class="info">
-              <h3>Game Dashboard Fellowship</h3>
-              <h4 class="date">Spring 2020</h4>
-              <p>In this fellowship, you will join Jenn and our other designers to create a dashboard to monitor the progress of all your students.</p>
-            </div>
-            <span class="card-triangle"></span>
-          </div>
-        </li>
-
-        <!--
-        <li class="gridder-list" data-griddercontent="#game14">
+        <li class="gridder-list" data-griddercontent="#game16">
           <div class="game-thumbnail">
             <img src="/assets/img/fellowships/aqualab.jpg">
           </div>
           <div class="card-summary">
             <div class="info">
-              <h3>Aqualab Game Design Fellowship</h3>
-              <h4 class="date">Spring 2020</h4>
-              <p>Dive into this exciting new opportunity! We are selecting a group of 3rd-5th grade teachers to brainstorm a new game about shipwrecks and underwater archaeology in the Great Lakes.</p>
+              <h3>Aqualab Game Production Fellowship</h3>
+              <h4 class="date">Winter / Spring 2021 [Virtual] </h4>
+              <p>We’re looking for innovative 6th-9th grade science teachers to join our team and help create a new online game called AquaLab!</p>
             </div>
             <span class="card-triangle"></span>
           </div>
         </li>
-        -->
+
+        <li class="gridder-list" data-griddercontent="#game15">
+          <div class="game-thumbnail">
+            <img src="/assets/img/fellowships/gague.jpg">
+          </div>
+          <div class="card-summary">
+            <div class="info">
+              <h3>Shipwrecks Game Production Fellowship </h3>
+              <h4 class="date">Fall 2020 [Virtual] </h4>
+              <p>Dive into this exciting new opportunity! We are looking for a group of 3rd-5th grade teachers to help create and test an online game about maritime archaeology and Great Lakes shipwrecks.</p>
+            </div>
+            <span class="card-triangle"></span>
+          </div>
+        </li>
 
       <!-- Begin Past Fellowships-->
       <h2 class="section-title centered">Past Fellowships</h2>
+
+      <li class="gridder-list" data-griddercontent="#game14">
+        <div class="game-thumbnail">
+          <img src="/assets/img/fellowships/dashboard-group.jpg">
+        </div>
+        <div class="card-summary">
+          <div class="info">
+            <h3>Game Dashboard Fellowship</h3>
+            <h4 class="date">Spring 2020</h4>
+          </div>
+          <span class="card-triangle"></span>
+        </div>
+      </li>
+
       <li class="gridder-list" data-griddercontent="#game13">
         <div class="game-thumbnail">
           <img src="/assets/img/fellowships/shipwreck-group.jpg">
@@ -372,16 +384,35 @@
 
 
 <!-- Fellowship Expanded content -->
-<div id="game15" class="gridder-content">
+
+<div id="game16" class="gridder-content">
   <div class="row game-inner game15-inner">
-    <h3>Game Dashboard Fellowship</h3>
-    <span>Deadline: February 10, 2020</span>
-    <span>Stipend: $200 / teacher</span>
-    <span><a target="_blank" href="https://docs.google.com/document/d/1hAIGTx-a0YG0m0tkhxP4RDMchMyWq8ic9IXJuC0nmA4/edit">More Info</a></span>
+    <h3>Aqualab Game Production Fellowship</h3>
+    <span>Application Deadline: December 1, 2020 </span>
+    <span>Stipend: $500 / teacher</span>
+    <span><a target="_blank" href="https://docs.google.com/document/d/1peGixGZx-AKuy4_qHnl80b-S0lBlVZca4U0XBo7JaNg/edit#">More Info</a></span>
     <div class="wrapper">
       <div class="col-md-7 game-expanded">
-        <p>When Jenn was a teacher, she wanted a way to track students’ progress while they were playing learning games. In this fellowship, you will join Jenn and our other designers to create a dashboard to monitor the progress of all your students. Blending the newest machine learning and assessment research with your teaching expertise, we will create a tool that supports teaching. This dashboard will be designed for use with Field Day's newest game, Lakeland, but it will serve as a model to be used across all our games.</p>
-        <a class="button small filled black" href="https://docs.google.com/forms/d/e/1FAIpQLScOW0_zHIbhtQldUcc7x6StN3JImY_wOE-Z8QTZDDLf9ncabw/viewform?usp=sf_link" onclick="ga('send', 'event', 'Apply', 'Click')" target="_blank">Apply Now</a>
+        <p>Come design a game with us! We’re looking for innovative 6th-9th grade science teachers to join our team and help create a new online game called AquaLab! Kids will need to use experimentation, modeling, and evidence-based argumentation to keep a marine research station running. Join a community of scientists, game designers, and researchers to create something awesome that will get used by kids all across the country! </p>
+        <a class="button small black" href="https://docs.google.com/forms/d/e/1FAIpQLSdIRalZif5lEWwDkMOiqqBqnvPCLTXQOcEwbUi0oA8InufMHg/viewform?usp=sf_link" onclick="ga('send', 'event', 'Apply', 'Click')" target="_blank">Apply Now</a>
+      </div>
+      <div class="col-md-5 cta">
+        <img class="expanded-thumb img-responsive" src="/assets/img/fellowships/shipwreck-teachers.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="game15" class="gridder-content">
+  <div class="row game-inner game15-inner">
+    <h3>Shipwrecks Game Production Fellowship</h3>
+    <span>Deadline: October 15th, 2020</span>
+    <span>Stipend: $200 / teacher</span>
+    <span><a target="_blank" href="https://docs.google.com/document/d/1MoVcYijT1KhM95Xh_MbaH6v1RKJG5ZL4nwNPFBRu1Rc/edit?usp=sharing">More Info</a></span>
+    <div class="wrapper">
+      <div class="col-md-7 game-expanded">
+        <p>Want to give your kids a front row seat to the incredible world of underwater archaeology? Come design a game with us! We’re looking for a group of 3rd-5th grade teachers to help create and test an online game about maritime archaeology and Great Lakes shipwrecks. You’ll join a community of game designers, researchers, and maritime archaeologists. Together, we’ll create a game that will get used by kids across the state and beyond.</p>
+        <a class="button small black" target="_blank">We are not accepting new applicants at this time.</a>
       </div>
       <div class="col-md-5 cta">
         <img class="expanded-thumb img-responsive" src="/assets/img/fellowships/game-dashboard.jpg">
@@ -389,25 +420,35 @@
     </div>
   </div>
 </div>
-<!--
+
 <div id="game14" class="gridder-content">
   <div class="row game-inner game14-inner">
-    <h3>Aqualab Fellowship</h3>
-    <span>Deadline: October 4, 2019</span>
-    <span>Stipend: $200 / teacher</span>
-    <span><a target="_blank" href="https://drive.google.com/open?id=1NWJ8eQy9rd5XYmP9Yl_cx2bgwv9TC3XiXfKsa_KmYCA">More Info</a></span>
-    <div class="wrapper">
-      <div class="col-md-7 game-expanded">
-        <p>Dive into this exciting new opportunity! We are selecting a group of 3rd-5th grade teachers to brainstorm a new game about shipwrecks and underwater archaeology in the Great Lakes. You will join forces with Field Day, Wisconsin Sea Grant, the Wisconsin Historical Society, and Wisconsin Public Television. By combining your classroom expertise and our design experience we will create something amazing that will get used by teachers and students throughout the state!</p>
-        <a class="button small filled black" href="https://docs.google.com/forms/d/e/1FAIpQLSelgpUrxb5LLe_5rvFuhP6fhJUVIPYhB-qdZe7LIb73gayMgA/viewform?usp=sf_link" onclick="ga('send', 'event', 'Apply', 'Click')" target="_blank">Apply Now</a>
-      </div>
-      <div class="col-md-5 cta">
-        <img class="expanded-thumb img-responsive" src="/assets/img/fellowships/aqualab.jpg">
-      </div>
+    <h3>Game Dashboard Fellowship</h3>
+    <span>Deadline has passed</span>
+    <img class="groupshot" src="/assets/img/fellowships/dashboard-group.jpg">
+    <div class="col-md-6 game-expanded fellows-list">
+      <h4>Teacher Fellows:</h4>
+      <div class="fellows">
+        Craig Corcoran<br />
+        David Fitzpatrick<br />
+        Nathan Breitholtz<br />
+        Dominique Lark<br />
+        Joy Aragones<br />
+        Sedate Kohler<br />
+        Zachary Geiger<br />
+        Corey C Foght<br />
+        Julie Poetzel<br />
+        Peter Bertling<br />
+        Kristyn Joyes<br />
+        Jeff Paradis<br />
+        </div>
     </div>
+    <div class="col-md-6 cta fellowship-summary">
+      <h4>About the Fellowship</h4>
+      <p>12 Wisconsin teachers came out to UW-Madison for an overnight event. They worked with data scientists, researchers, and the Field Day team to generate ideas for the dashboard.</p>
+    <a class="button small black" href="https://medium.com/fielddaylab/data-nerds-unite-how-teachers-and-scientists-are-changing-the-future-of-teaching-with-games-3d43c74e0210" target="_blank">Read the Story</a>
   </div>
 </div>
--->
 
 <div id="game13" class="gridder-content fellowship-finished">
   <div class="row game-inner game13-inner">
