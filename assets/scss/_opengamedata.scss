@@ -266,6 +266,16 @@
       padding:2vw;
       color:$black;
       transition: all 0.1s ease-in-out;
+      .twoXone {
+        width:56%;
+      }
+      .oneXtwo {
+        height:400px;
+      }
+      .twoXtwo {
+        height:400px;
+        width:56%;
+      }
       &:hover {
         transform:scale(1.03);
       }
