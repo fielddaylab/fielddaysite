@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 
-<title>Field Day - Jo Wilder and the Capitol Case</title>
+<title>Jo Wilder and the Capitol Case - Field Day</title>
+<meta name="description" content="Jo Wilder and the Capitol Case - Field Day">
 <!--<script>
 window.onload = function()
 {

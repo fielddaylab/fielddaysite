@@ -1,7 +1,8 @@
 <!--include head
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
-<title>Field Day - Press Pack</title>
+<title>Press Pack - Field Day</title>
+<meta name="description" content="Press Pack - Field Day">
 </head>
 
 <body class="singleapp page press">
@@ -26,7 +27,7 @@
         <span class="star star4"></span>
         <span class="star star5"></span>
       </div>
-      <img class="astroblogger floatslow" src="/assets/img/illustrations/spaceplane-flight.png">
+      <img class="astroblogger floatslow" alt="spaceplane flight" src="/assets/img/illustrations/spaceplane-flight.png">
     </div>
 
     <nav class="nav nav-tabs press-toggles">
@@ -61,17 +62,17 @@
             <h2 id="stats">Over 1 Million plays yearly</h2>
             <div class="playstats">
               <a target="_blank" href="https://theyardgames.org/" class="playstat">
-                <img src="/assets/img/logos/yard-logo.png" />
+                <img alt="Yard games logo" src="/assets/img/logos/yard-logo.png" />
                 <h3>870k</h3>
                 <p>Plays on the yard games</p>
               </a>
               <a target="_blank" href="/play/jowilder" class="playstat">
-                <img src="/assets/img/logos/jowilder-small.png" />
+                <img alt="Jo Wilder logo" src="/assets/img/logos/jowilder-small.png" />
                 <h3>52k</h3>
                 <p>Plays on Jo Wilder and the Capitol Case</p>
               </a>
               <a target="_blank" href="/play/atom-touch" class="playstat">
-                <img src="/assets/img/logos/atomtouch-logo.png" />
+                <img alt="atomtouch logo" src="/assets/img/logos/atomtouch-logo.png" />
 
                 <h3>84k</h3>
                 <p>AtomTouch</p>

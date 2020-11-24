@@ -3,6 +3,7 @@
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 <title>Work with Field Day</title>
+<meta name="description" content="Work with Field Day">
 </head>
 
 <body class="nav-fixed workwithus link-work page">
@@ -55,7 +56,7 @@
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
                 </div>
                 <div class="graphic">
-                  <img class="slideimg" src="/assets/img/illustrations/spaceplane-blueprint.png">
+                  <img class="slideimg" alt="spaceplane blueprint" src="/assets/img/illustrations/spaceplane-blueprint.png">
                 </div>
               </div>
               <div class="item">
@@ -66,14 +67,14 @@
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
                 </div>
                 <div class="graphic">
-                  <img class="slideimg" src="/assets/img/illustrations/spaceplane-vertical.png">
+                  <img class="slideimg" alt="Vertical spaceplane" src="/assets/img/illustrations/spaceplane-vertical.png">
                   <div class="exhaustwrap">
-                    <img class="exhaust one" src="/assets/img/illustrations/exhaust.png">
-                    <img class="exhaust two" src="/assets/img/illustrations/exhaust2.png">
+                    <img class="exhaust one" alt="exhaust from spaceplane" src="/assets/img/illustrations/exhaust.png">
+                    <img class="exhaust two" alt="exhaust from spaceplane" src="/assets/img/illustrations/exhaust2.png">
                   </div>
                   <div class="exhaustwrap two">
-                    <img class="exhaust one late" src="/assets/img/illustrations/exhaust.png">
-                    <img class="exhaust two late" src="/assets/img/illustrations/exhaust2.png">
+                    <img class="exhaust one late" alt="exhaust from spaceplane" src="/assets/img/illustrations/exhaust.png">
+                    <img class="exhaust two late" alt="exhaust from spaceplane" src="/assets/img/illustrations/exhaust2.png">
                   </div>
                 </div>
               </div>
@@ -85,9 +86,9 @@
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
                 </div>
                 <div class="graphic">
-                  <img class="astronaut one float" src="/assets/img/illustrations/astronaut1.png">
-                  <img class="astronaut two floatslow" src="/assets/img/illustrations/astronaut2.png">
-                  <img class="slideimg" src="/assets/img/illustrations/ship-docked.png">
+                  <img class="astronaut one float" alt="astronaut with device" src="/assets/img/illustrations/astronaut1.png">
+                  <img class="astronaut two floatslow" alt="astonaut with clipboard" src="/assets/img/illustrations/astronaut2.png">
+                  <img class="slideimg" alt="ship docked on spaceplane" src="/assets/img/illustrations/ship-docked.png">
                 </div>
               </div>
               <div class="item">
@@ -98,7 +99,7 @@
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
                 </div>
                 <div class="graphic fixed">
-                  <img class="slideimg fixed" src="/assets/img/illustrations/mountainrange.png">
+                  <img class="slideimg fixed" alt="Mountain Range" src="/assets/img/illustrations/mountainrange.png">
                 </div>
               </div>
           </div>
@@ -109,21 +110,21 @@
 
       <div class="fact">
         <div class="info">
-          <img src="/assets/img/ui/dots.png">
+          <img alt="dots" src="/assets/img/ui/dots.png">
           <h3>We can support your grant-writing</h3>
           <p class="small">We're here to help with your grant-writing and fundraising. Our team will contribute language for your outreach or Broader Impacts section. Researchers love that we make grant-writing easier.</p>
         </div>
         <div class="photo">
-          <img src="/assets/img/callouts/research.jpeg">
+          <img alt="people looking at computer screen doing research" src="/assets/img/callouts/research.jpeg">
         </div>
       </div>
 
       <div class="fact">
         <div class="photo">
-          <img src="/assets/img/callouts/kid-thumb.jpg">
+          <img alt="kids playing games on mobile devices" src="/assets/img/callouts/kid-thumb.jpg">
         </div>
         <div class="info">
-          <img src="/assets/img/ui/dots.png">
+          <img alt="dots " src="/assets/img/ui/dots.png">
           <h3>What can we build together?</h3>
           <p class="small">Online games<br>Virtual/augmented reality games<br>Museum installations<br><br></p>
         </div>
@@ -131,14 +132,14 @@
 
       <div class="fact">
         <div class="info">
-          <img src="/assets/img/ui/dots.png">
+          <img alt="dots" src="/assets/img/ui/dots.png">
           <h3>Our games work in classrooms</h3>
           <p class="small">All of our games are built in partnership with teachers. We rely on their expertise to make sure our games work in classrooms and line up with what teachers need.</p>
           <a href="/fellowships" class="button xsmall black">view teacher fellowships</a>
         </div>
 
         <div class="photo">
-          <img src="/assets/img/callouts/game.jpeg">
+          <img alt="researchers playing lakeland game" src="/assets/img/callouts/game.jpeg">
         </div>
       </div>
 
@@ -148,7 +149,7 @@
 
     <section class="workwithus">
       <div id="maincta" class="maincta">
-        <img src="/assets/img/illustrations/spaceplane-flight.png">
+        <img alt="flying spaceplane" src="/assets/img/illustrations/spaceplane-flight.png">
         <h2 class="uppercase">Work with Us</h2>
         <p>Want to design a game with us? Email us to get started.</p>
         <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>

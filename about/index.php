@@ -1,7 +1,8 @@
 <!--include head
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
-<title>Field Day - About us</title>
+<title>About us - Field Day</title>
+<meta name="description" content="About Us - Field Day">
 </head>
 
 <body class="nav-fixed about link-about page">
@@ -18,14 +19,14 @@
         <a href="#page-facts" class="button yellow filled small">Learn More</a>
       </div>
       <div class="graphic">
-        <img src="/assets/img/hero-images/about-hero.jpg">
+        <img alt="artwork with many different faces" src="/assets/img/hero-images/about-hero.jpg">
       </div>
     </section>
 <div class="intro-section">
     <section id="page-facts" class="page-facts">
       <div class="fact">
         <div class="photo">
-          <img class="supporting-image" src="/assets/img/callouts/aboutthumb_1.jpg">
+          <img class="supporting-image" alt="David Gagnon" src="/assets/img/callouts/aboutthumb_1.jpg">
         </div>
         <div class="info">
           <h3>Modus Operandi</h3>
@@ -57,7 +58,7 @@
           <a href="#team" class="button black filled small" target="_blank">Meet us</a>
         </div>
         <div class="photo">
-          <img class="supporting-image" src="/assets/img/callouts/aboutthumb_2.jpg">
+          <img class="supporting-image" alt="Eric Lang and Jim Matthews" src="/assets/img/callouts/aboutthumb_2.jpg">
         </div>
       </div>
     </section>
@@ -72,7 +73,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile1">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/dave.jpg">
+            <img alt="David Gagnon" src="/assets/img/profiles/dave.jpg">
             <div class="card-summary">
               <h3>David Gagnon</h3>
               <span class="card-triangle"></span>
@@ -82,7 +83,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile2">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/sarah.jpg">
+            <img alt="Sarah Gagnon" src="/assets/img/profiles/sarah.jpg">
             <div class="card-summary">
               <h3>Sarah Gagnon</h3>
               <span class="card-triangle"></span>
@@ -92,7 +93,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile3">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/jim.jpg">
+            <img alt="Jim Matthews" src="/assets/img/profiles/jim.jpg">
             <div class="card-summary">
               <h3>Jim Mathews</h3>
               <span class="card-triangle"></span>
@@ -102,7 +103,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile4">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/eric.jpg">
+            <img alt="Eric Lang" src="/assets/img/profiles/eric.jpg">
             <div class="card-summary">
               <h3>Eric Lang</h3>
               <span class="card-triangle"></span>
@@ -112,7 +113,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile5">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/mike.jpg">
+            <img alt="Mike Tolly" src="/assets/img/profiles/mike.jpg">
             <div class="card-summary">
               <h3>Mike Tolly</h3>
               <span class="card-triangle"></span>
@@ -122,7 +123,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile6">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/autumn.jpg">
+            <img alt="Autumn Beauchesne" src="/assets/img/profiles/autumn.jpg">
             <div class="card-summary">
               <h3>Autumn Beauchesne</h3>
               <span class="card-triangle"></span>
@@ -132,7 +133,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile7">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/jenn.jpg">
+            <img alt="Jenn Scianna" src="/assets/img/profiles/jenn.jpg">
             <div class="card-summary">
               <h3>Jenn Scianna</h3>
               <span class="card-triangle"></span>
@@ -142,7 +143,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile8">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/lindy.jpg">
+            <img alt="Lindy Biller" src="/assets/img/profiles/lindy.jpg">
             <div class="card-summary">
               <h3>Lindy Biller</h3>
               <span class="card-triangle"></span>

@@ -1,5 +1,6 @@
 <?php include 'includes/header.php';?>
 <title>Field Day Lab</title>
+<meta name="description" content="Field Day Lab">
 </head>
 <body class="nav-fixed home">
 <!--include main navigation-->
@@ -36,7 +37,7 @@
         <div class="active item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" src="/assets/img/logos/fd-white.png">
+              <img class="" alt="Field Day Logo" src="/assets/img/logos/fd-white.png">
               <p class="corrected">Our games bring contemporary research to the public. Want in? We'll turn your amazing work into a game that reaches huge audiences.</p>
               <a href="/work" class="button white xsmall">How It Works</a>
             </div>
@@ -46,7 +47,7 @@
         <div class="item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" src="/assets/img/logos/lakeland-logo.png?cb=20190820">
+              <img class="" alt="Lakeland Logo" src="/assets/img/logos/lakeland-logo.png?cb=20190820">
               <p class="corrected">This town-building game teaches complex systems. Made in partnership with the Scalable Systems Lab at UW-Madison. Played by thousands of kids a month.</p>
               <a href="/play/lakeland" class="button white xsmall">Check It Out</a>
             </div>
@@ -56,7 +57,7 @@
         <div class="item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" src="/assets/img/logos/jowilder.png?cb=20190820">
+              <img class="" alt="Jo wilder and the capitol case logo" src="/assets/img/logos/jowilder.png?cb=20190820">
               <h2 class="uppercase"></h2>
               <p class="corrected">This award-winning game turns kids into history detectives! Made in partnership with PBS Wisconsin and archivists at the Wisconsin Historical Society.</p>
               <a class="button xsmall white" href="/play/jowilder">Check It Out</a>
@@ -67,7 +68,7 @@
         <div class="item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" src="/assets/img/logos/ice-cube-logo-white.png">
+              <img class="" alt="Discover Icecube logo" src="/assets/img/logos/ice-cube-logo-white.png">
               <h2 class="uppercase">Discover Ice Cube</h2>
               <p class="corrected">This virtual reality game introduces players to complex ideas in astrophysics. Made in partnership with the IceCube Neutrino Observatory and the Living Environments Lab at UW-Madison.</p>
               <a class="button xsmall white" href="/play/ice-cube">Check It Out</a>
@@ -92,7 +93,7 @@
       <span class="veryslowreveal spacedust two"></span>
       <span class="offscreen test one"></span>
       <div class="intro-content">
-        <img class="bg1trigger reveal float" src="assets/img/illustrations/astronaut1.png" class="astronaut">
+        <img class="bg1trigger reveal float" alt="astronaut" src="assets/img/illustrations/astronaut1.png" class="astronaut">
         <h2 class="light centered plainreveal uppercase">Make a game, reach more people</h2>
         <p class="corrected plainreveal light">When it comes to sharing your work with the public, the stakes are higher than ever. We'll turn your research into a fun, academically rigorous game that reaches hundreds of thousands of people. Team up with us and become an outreach superstar.</p>
         <!--<p class="corrected plainreveal big light">Based at the Wisconsin Center for Educational Research at the University of Wisconsin - Madison, we are an interdisciplinary research lab of software engineers, artists, educational researchers and storytellers exploring the intersection of current learning science and media design, specializing in mobile media, video games, and simulation. </p>-->
@@ -136,14 +137,14 @@
         <h2 class="light bright centered uppercase">Get involved</h2>
       </div>
       <div class="content-wrap spaceplane-wrap">
-        <img class="spaceplane-illustration" src="assets/img/illustrations/spaceplane-vertical.png">
+        <img class="spaceplane-illustration" alt="spaceplane taking off" src="assets/img/illustrations/spaceplane-vertical.png">
         <div class="exhaustwrap">
-          <img class="exhaust one" src="assets/img/illustrations/exhaust.png">
-          <img class="exhaust two" src="assets/img/illustrations/exhaust2.png">
+          <img class="exhaust one" alt="exhaust from spaceplane" src="assets/img/illustrations/exhaust.png">
+          <img class="exhaust two" alt="exchaust from spaceplane" src="assets/img/illustrations/exhaust2.png">
         </div>
         <div class="exhaustwrap two">
-          <img class="exhaust one late" src="assets/img/illustrations/exhaust.png">
-          <img class="exhaust two late" src="assets/img/illustrations/exhaust2.png">
+          <img class="exhaust one late" alt="exhaust from spaceplane" src="assets/img/illustrations/exhaust.png">
+          <img class="exhaust two late" alt="exhaust from spaceplane" src="assets/img/illustrations/exhaust2.png">
         </div>
       </div>
       <div class="content-wrap workit-content">
@@ -166,7 +167,7 @@
   <section class="stayupdated">
     <div class="container">
       <div class="astro-flag">
-        <img src="assets/img/illustrations/astro-flag.png">
+        <img alt="Astronaught holding field day flag" src="assets/img/illustrations/astro-flag.png">
       </div>
       <div class="info">
         <h3 class="white">Extra, extra!</h3>
@@ -177,39 +178,39 @@
   </section>
   <section class="partners">
     <div class="container">
-      <img src="assets/img/illustrations/skylab-small.png" class="header-icon">
+      <img alt="skylab" src="assets/img/illustrations/skylab-small.png" class="header-icon">
       <h3 class="centered uppercase">Who we work with</h3>
       <p class="small">We work with amazing researchers around the world.</p>
       <div class="partner-logos">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo1.jpg?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo2.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo3.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo4.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo5.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo6.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo7.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo8.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo9.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo10.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo11.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo12.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo13.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo14.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo15.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo16.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo17.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo18.jpeg?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo19.png?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo20.jpg?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo21.jpeg?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo22.jpg?cb=20190820">
-        <img src="/assets/img/logos/partnerlogos/partnerlogo23.png?cb=20190820">
+        <img alt="Harvard University" src="/assets/img/logos/partnerlogos/partnerlogo1.jpg?cb=20190820">
+        <img alt="Utah State University" src="/assets/img/logos/partnerlogos/partnerlogo2.png?cb=20190820">
+        <img alt="Brain Pop" src="/assets/img/logos/partnerlogos/partnerlogo3.png?cb=20190820">
+        <img alt="Chippewa Valley Technical College" src="/assets/img/logos/partnerlogos/partnerlogo4.png?cb=20190820">
+        <img alt="Minnesota Historical Society" src="/assets/img/logos/partnerlogos/partnerlogo5.png?cb=20190820">
+        <img alt="Library of Congress" src="/assets/img/logos/partnerlogos/partnerlogo6.png?cb=20190820">
+        <img alt="MacArthur Foundation" src="/assets/img/logos/partnerlogos/partnerlogo7.png?cb=20190820">
+        <img alt="National Science Foundation - NSF" src="/assets/img/logos/partnerlogos/partnerlogo8.png?cb=20190820">
+        <img alt="Massachusetts Institute of Technology - MIT" src="/assets/img/logos/partnerlogos/partnerlogo9.png?cb=20190820">
+        <img alt="Northwestern University" src="/assets/img/logos/partnerlogos/partnerlogo10.png?cb=20190820">
+        <img alt="Aalto University" src="/assets/img/logos/partnerlogos/partnerlogo11.png?cb=20190820">
+        <img alt="University of New Mexico" src="/assets/img/logos/partnerlogos/partnerlogo12.png?cb=20190820">
+        <img alt="Oregon State University" src="/assets/img/logos/partnerlogos/partnerlogo13.png?cb=20190820">
+        <img alt="Smithsonian" src="/assets/img/logos/partnerlogos/partnerlogo14.png?cb=20190820">
+        <img alt="University of Miami" src="/assets/img/logos/partnerlogos/partnerlogo15.png?cb=20190820">
+        <img alt="American University" src="/assets/img/logos/partnerlogos/partnerlogo16.png?cb=20190820">
+        <img alt="The Field Museum" src="/assets/img/logos/partnerlogos/partnerlogo17.png?cb=20190820">
+        <img alt="Scigirls" src="/assets/img/logos/partnerlogos/partnerlogo18.jpeg?cb=20190820">
+        <img alt="European Research Council" src="/assets/img/logos/partnerlogos/partnerlogo19.png?cb=20190820">
+        <img alt="Wisconsin Department of Public Instruction" src="/assets/img/logos/partnerlogos/partnerlogo20.jpg?cb=20190820">
+        <img alt="Institute of Play" src="/assets/img/logos/partnerlogos/partnerlogo21.jpeg?cb=20190820">
+        <img alt="Pearson Foundatoin" src="/assets/img/logos/partnerlogos/partnerlogo22.jpg?cb=20190820">
+        <img alt="National Science Foundation - NSF" src="/assets/img/logos/partnerlogos/partnerlogo23.png?cb=20190820">
       </div>
   </div>
   </section>
   <section class="workwithus">
     <div id="maincta" class="maincta">
-      <img src="assets/img/illustrations/spaceplane-flight.png">
+      <img alt="flying spaceplace rocketship" src="assets/img/illustrations/spaceplane-flight.png">
       <h2 class="uppercase">Work with Us</h2>
       <p>Let's make a game together! We'll help write the Broader Impacts section of your grant.</p>
       <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
