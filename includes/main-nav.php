@@ -32,7 +32,7 @@
     <a class="draweritem drawer-intro" href="">
       <img class="intro-bg" src="/assets/img/logos/nowonder.png" />
       <h2>Our Games</h2>
-      <p>Our games get world-class research out to the public. Play the games and find teaching resources here.</p>
+      <p>Our games get world-class research out to the public.</p>
     </a>
 
     <a class="draweritem" href="/play/lakeland">
@@ -69,7 +69,7 @@
     <a class="draweritem drawer-intro" href="">
       <img class="intro-bg" src="/assets/img/logos/nowonder.png" />
       <h2>Mixed Reality</h2>
-      <p>Our games get world-class research out to the public. Play the games and find teaching resources here.</p>
+      <p>Our games get world-class research out to the public.</p>
     </a>
 
     <a class="draweritem" target="_blank" href="http://siftr.org">

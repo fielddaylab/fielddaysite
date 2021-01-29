@@ -15,7 +15,7 @@
     <section class="singlehero page_hero">
       <div class="info">
         <h1 class="corrected">Work with Field Day</h1>
-        <p class="corrected">Do you have a vision for better public engagement? We'll turn your research into a fun, academically rigorous game that reaches huge audiences.</p>
+        <p class="corrected">Our games bring contemporary research to the public. Want in? We’ll turn your amazing work into a game that reaches huge audiences. Our games cost a fraction of a penny per minute of engagement and last for a decade.</p>
         <a href="#how-we-work" class="button white small">Why use games for outreach?</a>
       </div>
       <div class="graphic">
@@ -52,7 +52,8 @@
                 <div class="info">
                   <span class="">Scope</span>
                   <h3>Games Reach Wider Audiences</h3>
-                  <p class="small">Our games get hundreds of thousands of plays! All you need to do is teach us about your work. We'll turn it into a game that reaches classrooms everywhere.</p>
+                  <p class="small">Granting agencies love researchers who have strong public engagement strategies. Our games get hundreds of thousands of plays, and we have the analytics to prove it.
+</p>
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
                 </div>
                 <div class="graphic">
@@ -62,8 +63,8 @@
               <div class="item">
                 <div class="info color-switch">
                   <span class="">Depth</span>
-                  <h3>Games Go Deep into Complex Topics</h3>
-                  <p class="small">With a game, learners can play with complex systems, see results, and work toward goals. Instead of sitting back and reading an article or watching a video, players will explore your work.</p>
+                  <h3>Teach Complex Topics</h3>
+                  <p class="small">If the information feels too complicated, kids won’t engage. Games are a unique medium that allow for depth and complexity while creating a playful, engaging experience for kids.</p>
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
                 </div>
                 <div class="graphic">
@@ -81,8 +82,9 @@
               <div class="item">
                 <div class="info">
                   <span class="">Evaluation</span>
-                  <h3>Games Come With Built-in Evaluation</h3>
-                  <p class="small">We offer real-time insights into how many times your game is played, where it's being played, and for how long. All of our games have built-in learning assessments that fuel our research.</p>
+                  <h3>Collect Tons of Useful Data</h3>
+                  <p class="small">Our games include built-in evaluation and learning assessments. You’ll have access to real-time data that you can use in your research and share with your granting agency, coworkers, and leaders.
+</p>
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
                 </div>
                 <div class="graphic">
@@ -94,8 +96,8 @@
               <div class="item">
                 <div class="info">
                   <span class="">Cost</span>
-                  <h3>Games Reach More People for Less</h3>
-                  <p class="small">Games are super cost effective compared to other forms of outreach. Our games cost a fraction of a penny per minute of engagement and last for a decade. We'll work with you to write grants and get funding.</p>
+                  <h3>Reach More People for Less</h3>
+                  <p class="small">Our games cost a fraction of a penny per minute of engagement. Unlike other forms of outreach, your game will be played by kids for years to come. Reach out to set up a meeting. We’ll work with you to define the project and figure out the exact cost.</p>
                   <button data-toggle="modal" data-target="#contactModal" class="button small white" >Set up a Meeting</button>
                 </div>
                 <div class="graphic fixed">
@@ -111,8 +113,8 @@
       <div class="fact">
         <div class="info">
           <img alt="dots" src="/assets/img/ui/dots.png">
-          <h3>We can support your grant-writing</h3>
-          <p class="small">We're here to help with your grant-writing and fundraising. Our team will contribute language for your outreach or Broader Impacts section. Researchers love that we make grant-writing easier.</p>
+          <h3>We'll support your grant-writing</h3>
+          <p class="small">We know how to work with granting agencies and fit within Broader Impacts budgets. As part of WCER, we have access to a full grants department that will provide support throughout your project.</p>
         </div>
         <div class="photo">
           <img alt="people looking at computer screen doing research" src="/assets/img/callouts/research.jpeg">
@@ -125,17 +127,17 @@
         </div>
         <div class="info">
           <img alt="dots " src="/assets/img/ui/dots.png">
-          <h3>What can we build together?</h3>
-          <p class="small">Online games<br>Virtual/augmented reality games<br>Museum installations<br><br></p>
+          <h3>Who do we work with?</h3>
+          <p class="small">We’ve worked with researchers, museums, public media, and large research institutions. Some of our partners already have funding, some need to raise funds for a specific project, and some are looking to revamp their outreach strategy and create a series of games with us. We have a process for each approach.<br><br></p>
         </div>
       </div>
 
       <div class="fact">
         <div class="info">
           <img alt="dots" src="/assets/img/ui/dots.png">
-          <h3>Our games work in classrooms</h3>
-          <p class="small">All of our games are built in partnership with teachers. We rely on their expertise to make sure our games work in classrooms and line up with what teachers need.</p>
-          <a href="/fellowships" class="button xsmall black">view teacher fellowships</a>
+          <h3>A vision for equitable, accessible public outreach</h3>
+          <p class="small">If you’re not thinking about outreach in terms of cost per minute of engagement, you should be.
+Millions of dollars each year are invested in Broader Impacts projects that reach just a few people. It doesn’t have to be this way. Our games reach hundreds of thousands of kids and last for years. </p>
         </div>
 
         <div class="photo">

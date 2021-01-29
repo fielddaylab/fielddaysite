@@ -157,7 +157,7 @@
       <ul class="gridder">
         <li class="gridder-list" data-griddercontent="#profile9">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/autumn.jpg">
+            <img src="/assets/img/profiles/nick.jpg">
             <div class="card-summary">
               <h3>Nick Spevacek</h3>
               <span class="card-triangle"></span>
@@ -207,7 +207,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile14">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/autumn.jpg">
+            <img src="/assets/img/profiles/astro.jpg">
             <div class="card-summary">
               <h3>“Daus” Muhamad Firdaus Husaini</h3>
               <span class="card-triangle"></span>
@@ -227,7 +227,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile16">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/autumn.jpg">
+            <img src="/assets/img/profiles/astro.jpg">
             <div class="card-summary">
               <h3>John McCloskey</h3>
               <span class="card-triangle"></span>
@@ -251,7 +251,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile18">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/autumn.jpg">
+            <img src="/assets/img/profiles/astro.jpg">
             <div class="card-summary">
               <h3>Danielle Sands</h3>
               <span class="card-triangle"></span>
@@ -263,7 +263,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile19">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/autumn.jpg">
+            <img src="/assets/img/profiles/astro.jpg">
             <div class="card-summary">
               <h3>Jenni Leaver</h3>
               <span class="card-triangle"></span>
@@ -273,7 +273,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile20">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/autumn.jpg">
+            <img src="/assets/img/profiles/forest.jpg">
             <div class="card-summary">
               <h3>Forest San Filippo</h3>
               <span class="card-triangle"></span>

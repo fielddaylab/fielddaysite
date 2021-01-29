@@ -7979,8 +7979,8 @@ p a {
       .nav-fixed .drawer.drawer-left .drawer-contents, .nav-fixed .drawer.drawer-right .drawer-contents, .singleapp .drawer.drawer-left .drawer-contents, .singleapp .drawer.drawer-right .drawer-contents {
         padding-top: 10vw; } }
     .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
-      height: 20vw;
-      width: 19vw;
+      height: 15vw;
+      width: 14vw;
       vertical-align: bottom;
       border-radius: 20px;
       margin: 1.7vw;
@@ -7995,7 +7995,21 @@ p a {
           max-width: 350px; } }
       @media only screen and (max-width: 768px) {
         .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
-          width: 39vw; } }
+          width: 100vw;
+          height: 50px;
+          min-height: initial;
+          vertical-align: baseline;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 0vw !important; }
+          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem span, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem span, .singleapp .drawer.drawer-left .drawer-contents .draweritem span, .singleapp .drawer.drawer-right .drawer-contents .draweritem span {
+            text-align: left !important;
+            margin-top: 0px !important; }
+          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail, .singleapp .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .singleapp .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail {
+            width: 70px !important;
+            height: 70px !important;
+            margin-right: 20px; } }
       @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
         .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
           max-width: initial;
@@ -8017,7 +8031,10 @@ p a {
         letter-spacing: 3px;
         line-height: 24px; }
       .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro {
-        position: relative; }
+        position: relative;
+        font-size: 14px; }
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2 {
+          margin-bottom: 14px; }
         @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
           .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro {
             width: 100vw;
@@ -8040,7 +8057,7 @@ p a {
           height: 120px;
           position: absolute;
           top: -30px;
-          right: -20px;
+          left: -20px;
           opacity: .5; }
 
 .nav-fixed.drawerleft-open #mainwrapper, .singleapp.drawerleft-open #mainwrapper {
@@ -8158,6 +8175,10 @@ p a {
           .small-nav ul li a {
             font-size: 12px;
             letter-spacing: 1px; } }
+        @media only screen and (max-width: 768px) {
+          .small-nav ul li a {
+            padding: 10px 5px;
+            letter-spacing: 0px; } }
         .small-nav ul li a:hover {
           color: #D6A718;
           text-decoration: none;
@@ -8296,7 +8317,7 @@ p a {
   @media only screen and (max-width: 768px) {
     .mobile-nav-toggle-wrap {
       display: block;
-      top: 0px; } }
+      top: -3px; } }
 
 .mobile-nav-container {
   position: absolute;
@@ -8485,9 +8506,9 @@ p a {
 
 .icon-close {
   position: absolute;
-  width: 30px;
+  width: 20px;
   height: auto;
-  right: 30px;
+  right: 20px;
   top: 81px;
   cursor: pointer;
   z-index: 1000; }
