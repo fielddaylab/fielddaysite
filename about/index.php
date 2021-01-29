@@ -123,7 +123,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile6">
           <div class="profile-thumbnail">
-            <img alt="Autumn Beauchesne" src="/assets/img/profiles/autumn.jpg">
+            <img alt="Autumn Beauchesne" src="/assets/img/profiles/astro.jpg">
             <div class="card-summary">
               <h3>Autumn Beauchesne</h3>
               <span class="card-triangle"></span>
