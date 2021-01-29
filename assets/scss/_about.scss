@@ -17,8 +17,18 @@
   #team {
     background:#fff;
     padding:10vw;
+    h2 {
+      padding-bottom:20px !important;
+    }
+    h4 {
+      margin-bottom:10px !important;
+      margin-top:30px !important;
+    }
+    ul {
+      margin-bottom:20px;
+    }
     .gridder-list {
-      width:30%;
+      width:22%;
       text-align:left;
       border:5px solid $black;
       @media #{$break-md} {
@@ -34,7 +44,7 @@
         background: $black;
       }
       .profile-thumbnail {
-        height:30vw;
+        height:24vw;
         width:100%;
         overflow:hidden;
         position:relative;

@@ -151,6 +151,137 @@
         </li>
       </ul>
 
+      <h2 class="section-title centered">Field Day Internship Program</h2>
+      <p>We offer student internships in Game Engineering, Art and Design, and Research. Join our multidisciplinary team and work on learning games that reach classrooms across the country and beyond. Engineering and Art and Design interns will leave with portfolio pieces. Research interns will contribute to academic publications. We’re always taking applications! Contact us if you’re interested. Art and Design applicants must include a portfolio. </p>
+      <ul class="gridder">
+        <li class="gridder-list" data-griddercontent="#profile9">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/autumn.jpg">
+            <div class="card-summary">
+              <h3>Nick Spevacek</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile10">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/luke.jpeg">
+            <div class="card-summary">
+              <h3>Luke Swanson</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile11">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/glenn.jpeg">
+            <div class="card-summary">
+              <h3>Glenn Palmer</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile12">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/ishita.jpeg">
+            <div class="card-summary">
+              <h3>Ishita Dhoot</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile13">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/matt.jpeg">
+            <div class="card-summary">
+              <h3>Matt Murphy</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile14">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/autumn.jpg">
+            <div class="card-summary">
+              <h3>“Daus” Muhamad Firdaus Husaini</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile15">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/reyna.jpeg">
+            <div class="card-summary">
+              <h3>Reyna Groff</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile16">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/autumn.jpg">
+            <div class="card-summary">
+              <h3>John McCloskey</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <h2 class="section-title centered">Collaborating Artists and Contractors</h2>
+
+      <ul class="gridder">
+        <li class="gridder-list" data-griddercontent="#profile17">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/rodney.jpeg">
+            <div class="card-summary">
+              <h3>Rodney Lambright II</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile18">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/autumn.jpg">
+            <div class="card-summary">
+              <h3>Danielle Sands</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+
+
+        <li class="gridder-list" data-griddercontent="#profile19">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/autumn.jpg">
+            <div class="card-summary">
+              <h3>Jenni Leaver</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile20">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/autumn.jpg">
+            <div class="card-summary">
+              <h3>Forest San Filippo</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+
 <!-- Team Expanded content -->
 <div id="profile1" class="gridder-content">
   <div class="row profile-inner profile-inner">
@@ -276,6 +407,225 @@
   </p>
           <p class="small">Lindy is the reason the farmers in Lakeland have folksy wit and the Artificial Intelligence in Forever Mine is relatable and dimensional. She crafts stories that allow kids to embody the spirit of a scientist, historian, or detective, and she fosters a sense of wonder in the process.
   </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile9" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Nick Spevacek</h3>
+      <span>Undergraduate Game Engineering and Research Intern</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Nick is a student game engineer with an interest in data science. His internship is split between our game engineering and research teams. Nick has experience working with Unity and C#, including developing two games from scratch for a weekend game jam. In his spare time, Nick teamed up with friends to create a puzzle game called Flightless. He’s currently studying Computer Science. </p>
+          <h4>Field Day projects: </h4>
+          <ul>
+            <li>Developing game mechanics for Lakeland</li>
+            <li>Converting open game code data into a language that works with Unity </li>
+          </ul>
+          <p class="small">Nick was born and raised in Wisconsin. He attended high school in Middleton, where he ran cross country. Now he lives near the arboretum and enjoys running the trails in his spare time. You can find his github profile <a target="_blank" href="https://github.com/nspevacek">here.</a>
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile10" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Luke Swanson</h3>
+      <span>Graduate Research Intern</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">As a researcher and software engineer, Luke is drawn to the unique possibilities of games for learning. He understands that some kids aren’t best served by the traditional education system, and he’s interested in how games can help change that. Luke’s programming and data analysis work has allowed us to gain valuable insights into how our games are being used.
+</p>
+          <h4>Field Day projects: </h4>
+          <ul>
+            <li>Real-time game data dashboard for Lakeland</li>
+            <li>Open Game Data website</li>
+            <li>Data analysis and player clustering for Lakeland</li>
+            <li>Thermodynamics VR Interactive</li>
+            <li>Data analysis for Jo Wilder. </li>
+          </ul>
+          <p class="small">In his spare time, Luke is an amateur photographer and videographer. You can see some of his photography on the Computer Science department’s website.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile11" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Glenn Palmer</h3>
+      <span>Graduate Research Intern</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Glenn brings a rich depth of experience to his role on our research team. He studied physics at Duke University, taught high school math and physics, and then designed online curriculum for grades K-12 with IXL Learning, an educational website. Now a graduate student studying Computer Science, Glenn is passionate about collaboration and the crossing of silos. He’s interested in exploring meaningful ways to bring together his expertise in teaching, programming, and design.
+</p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>Real-time data dashboard for Lakeland</li>
+            <li>Models to predict players’ behavior
+</li>
+            <li>Exploration of research questions at the intersection of technology, games, and design
+</li>
+          </ul>
+          <p class="small">Glenn grew up in the Appalachian Mountains in North Carolina. In his spare time, you might find him out hiking. He’s also an awesome drummer—during his undergrad, he played snare with the Duke Marching Band.
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile12" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Ishita Dhoot</h3>
+      <span>Undergraduate Research / Game Engineering Intern</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Ishita is a game engineer pursuing a triple major in Computer Science, Data Science, and Economics. She splits her internship between our research and game engineering teams. She has designed games with Unity and enjoys moving between disciplines.</p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>Integrating game data with Google Analytics for our upcoming AR game</li>
+            <li>Building prototypes in Unity for the Shipwrecks game
+</li>
+          </ul>
+          <p class="small">In her free time, Ishita plays badminton on a club team at UW-Madison and performs with Rang De, a Bollywood fusion dance team on campus. She grew up and attended high school in India.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile13" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Matt Murphy</h3>
+      <span>Undergraduate Game Engineering Intern</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Matt is a software engineer and undergraduate student with a passion for front-end development. He has experience working with Unity and C#. Prior to his internship at Field Day, he interned as a software engineer at Goldsmith Lab and MatrixCare. He’s been drawn to game development ever since he was a kid, when he started running and modding Minecraft servers.</p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>Developing prototypes for AquaLab (specifically the job board mechanic, the argumentation mechanic, and an interactive map).</li>
+          </ul>
+          <p class="small">In his spare time, Matt plays competitive pinball! He travels to different bars and arcades for tournaments, including the world’s largest competitive pinball tournament in Pittsburgh. In 2019, Matt won $200 in his division and made it to the top 40! </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile14" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>“Daus” Muhamad Firdaus Husaini</h3>
+      <span>Research Intern </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Daus is a Madison-based software engineer with an interest in data analytics. His dream is to create his own games and use data mining and analytics to understand games in new ways. Daus hails from Malaysia and recently finished his undergrad here at UW-Madison, where he majored in Computer Science and minored in graphic design and game design.</p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>Data analytics for the Lakeland real-time dashboard
+</li>
+            <li>Creating models</li>
+            <li>Writing game code for logging functions
+</li>
+          </ul>
+          <p class="small">Check out Daus’s website and find out more about his work <a href="https://dauzzie.github.io/" target="_blank">here.</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile15" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Reyna Groff</h3>
+      <span>Undergraduate Art and Design Intern  </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Reyna is an artist with a flair for storytelling, character, and design. Reyna studied under Lynda Barry at UW-Madison. When she’s not making beautiful art here in Madison, you might find Reyna traveling the world and putting her three languages to good use. Kids (and adults) fall in love with Reyna’s whimsical, creative characters.</p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>Lead artist on Jo Wilder and the Capitol Case</li>
+            <li>Painted art for Lost at the Forever Mine
+</li>
+            <li>Poster art for Lakeland
+</li>
+            <li>Comic art for our upcoming AR game
+</li>
+          </ul>
+          <p class="small">You can find Reyna on Instagram <a target="_blank" href="https://instagram.com/rey.groff">@rey.groff </a>
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile16" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>John McCloskey</h3>
+      <span>Past Intern: Undergraduate Data Analyst</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">John is a data analyst and an awesome communicator with a passion for transforming the education system. As a lifelong gamer, he’s excited about how adding games to the curriculum can allow students to shine in non-traditional ways. John’s expertise in game analytics allows us to gain a deeper understanding how our games are being used. He holds a Bachelor’s degree in Japanese, with Computer Science and Biology certificates. </p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>Data mining and session/player clustering for Lakeland
+</li>
+            <li>Logging functions and feature extractors for Jo Wilder and Lakeland</li>
+            <li>Data analysis for Jo Wilder</li>
+            <li>The Open Game Data Website
+</li>
+          </ul>
+          <p class="small"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile17" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Rodney Lambright II</h3>
+      <span>Artist and Animator </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Rodney is a talented game designer, animator, and artist. Officially, he does technical art and animation for our games. He also asks insightful questions, knows a ton about games, and brings awesome energy to the room. Rodney made concept art and animation for Jo Wilder and the Capitol Case, and he contributed animation, technical art, and 8-bit final game art for Lost at the Forever Mine. He’s currently working on Aqualab. Rodney is a full-time animator at PBS Wisconsin, a local partner that we love working with. You can find more of his work on Instagram <a target="_blank" href="https://instagram.com/rodgod38">@rodgod38</a>
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile18" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Danielle Sands</h3>
+      <span>Artist and Designer</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Danielle is an indie artist, designer, and gamer who makes fantastical 2D and 3D art for everything from video games to VR experiences. We met Danielle at MDEV, where she won the Best Art award for Gallus: Bazaar Eggscapade. (Yes, the game is as amazing as the title suggests.) Danielle has worked with us to create concept art for a currently untitled AR game. Danielle is a leader and mentor in the Madison game-art community. She started Art+Cade, a popup arcade and art show that raises money for charities. You can find her at <a target="_blank" href="http://sketchingsands.com">sketchingsands.com</a></p>
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile19" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Jenni Leaver</h3>
+      <span>Artist, Graphic Designer, and Painter </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Jenni is an amazing artist and illustrator, with work that is both quirky and sophisticated. She’s created art with Field Day from the beginning, when we first began working on a series of middle school science games called the Yard Games. Jenni’s unique characters brought the Yard Games to life and captured the imagination of kids everywhere. She also created concept art for the CRISPR game, Aqualab, and our currently-untitled AR game. She is currently the Senior Graphic Designer at Pacific Cycle. To contact her, see her website and portfolio at <a target="_blank" href="http://jennifer-leaver.squarespace.com">jennifer-leaver.squarespace.com</a></p>
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile20" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Forest San Filippo</h3>
+      <span>3D Artist</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Forest is a 3D artist with a background in graphic design and business. As a freelancer, he loves moving between different projects and exploring new ideas and styles. Forest did all of the 3D art and animation for our upcoming AR game. He worked with Eric and Sarah (Art Director and Creative Director) to take the vision for the game and translate it into amazing characters and background art. Forest is also a business owner and musician. He and his brother designed several games together as the small game studio Flippfly—including “Race the Sun,” for which Forest also created the soundtrack. You can find more of Forest’s work on Instagram <a href="https://instagram.com/ForestSanFilippo">@ForestSanFilippo</a>
+</p>
         </div>
       </div>
     </div>

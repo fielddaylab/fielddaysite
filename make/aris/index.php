@@ -20,7 +20,7 @@
     </div>
     <div class="app-info">
       <h1 class="app-title">ARIS</h1>
-      <p class="app-tag">Create location-based games and stories</p>
+      <p class="app-tag">ARIS IS NO LONGER SUPPORTED</p>
     </div>
     <div class="app-description"><p class="small">Create mobile games, tours and interactive stories with ARIS games. Players experience a hybrid world of virtual characters and media in physical space.</p></div>
     <div class="buttons">
@@ -55,56 +55,6 @@
   </div>
 </section>
 
-<section class="blogs">
-<div class="row container large">
-    <div class="starfield topright">
-      <span class="star black star1"></span>
-      <span class="star black star2"></span>
-      <span class="star black star3"></span>
-      <span class="star black star4"></span>
-      <span class="star black star5"></span>
-    </div>
-    <div class="starfield topleft">
-      <span class="star black star1"></span>
-      <span class="star black star2"></span>
-      <span class="star black star3"></span>
-      <span class="star black star4"></span>
-      <span class="star black star5"></span>
-    </div>
-      <div class="col-md-6  blogpost-wrap blogpostreveal">
-        <div class="blogpost one">
-          <div style="background:url('../../assets/img/thumbnails/blogthumb5.jpg'); background-size:cover;" class="thumb">
-          </div>
-          <div class="blogcontent">
-            <h3 class="corrected">Teacher Craig Brumwell Designs a Mobile Game with ARIS to Create Emotional Impact for His Students</h3>
-            <div class="row">
-              <div class="col-md-8 brief">
-                <p class="corrected">Craig used ARIS to create a situated documentary game called “Dilemma 1944” to convey the impact of the Second World War. In the game, players travel back to Kitsilano High School in Vancouver during WWII.</p>
-                <a target="_blank" href="https://medium.com/@fielddaylab/designing-for-emotional-impact-the-making-of-dilemma-1944-19500f8adde8" class="button xsmall"><span class="text">Read story</span><span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6  blogpost-wrap blogpostreveal">
-        <div class="blogpost two">
-            <div style="background:url('../../assets/img/thumbnails/blogthumb6.jpg'); background-size:cover;" class="thumb">
-            </div>
-          <div class="blogcontent">
-            <h3 class="corrected">Beth Stofflet and Larry Moberly Take 250 Kids on an Adventure to Africa with ARIS</h3>
-            <div class="row">
-              <div class="col-md-8 brief">
-                <p class="corrected">Seventh grade social studies teachers Beth Stofflet and Larry Moberly wanted to take their 250 kids to dozens of African nations — but since that wasn’t possible, they took them there virtually with a Field Day tool called ARIS.</p>
-                <a target="_blank" href="https://medium.com/@fielddaylab/250-kids-adventure-through-africa-with-aris-5e455c96a901" class="button xsmall"><span class="text">Read story</span> <span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</section>
-
 <section class="app-about">
   <div class="app-video">
     <div class="reveal embed-wrap">
@@ -131,8 +81,8 @@
     </div>
     <div class="col-sm-4 learn-card">
       <img src="assets/img/logo-thumb3.png">
-      <h3>Forums</h3>
-      <p class="small">Whether you are a beginner, have design questions, or want to dive into more complicated technical questions, you can find help at the <a class="small" href="https://www.facebook.com/groups/951713645185184/" onclick="ga('send', 'event', 'Forums', 'Click');">ARIS User Group.</a></p>
+      <h3>Aris Facebook Group</h3>
+      <p class="small">Whether you are a beginner, have design questions, or want to dive into more complicated technical questions, you can find help at the <a class="small" href="https://www.facebook.com/groups/arisusers/" onclick="ga('send', 'event', 'Forums', 'Click');">ARIS User Facebook Group</a></p>
     </div>
   </div>
 
@@ -195,6 +145,55 @@
       <p class="small">ARIS wouldn’t exist without the institutional support of the University of Wisconsin as well as from Engage, WID, WCER, Minnesota Historical Society, The Library of Congress Teaching with Primary Sources Initiative, the MacArthur Foundation, the Pearson Foundation, CASLS, Chippewa Valley Technical College and many others for years of investment and support.</p>
     </div>
   </div>
+</section>
+<section class="blogs">
+<div class="row container large">
+    <div class="starfield topright">
+      <span class="star black star1"></span>
+      <span class="star black star2"></span>
+      <span class="star black star3"></span>
+      <span class="star black star4"></span>
+      <span class="star black star5"></span>
+    </div>
+    <div class="starfield topleft">
+      <span class="star black star1"></span>
+      <span class="star black star2"></span>
+      <span class="star black star3"></span>
+      <span class="star black star4"></span>
+      <span class="star black star5"></span>
+    </div>
+      <div class="col-md-6  blogpost-wrap blogpostreveal">
+        <div class="blogpost one">
+          <div style="background:url('../../assets/img/thumbnails/blogthumb5.jpg'); background-size:cover;" class="thumb">
+          </div>
+          <div class="blogcontent">
+            <h3 class="corrected">Teacher Craig Brumwell Designs a Mobile Game with ARIS to Create Emotional Impact for His Students</h3>
+            <div class="row">
+              <div class="col-md-8 brief">
+                <p class="corrected">Craig used ARIS to create a situated documentary game called “Dilemma 1944” to convey the impact of the Second World War. In the game, players travel back to Kitsilano High School in Vancouver during WWII.</p>
+                <a target="_blank" href="https://medium.com/@fielddaylab/designing-for-emotional-impact-the-making-of-dilemma-1944-19500f8adde8" class="button xsmall"><span class="text">Read story</span><span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6  blogpost-wrap blogpostreveal">
+        <div class="blogpost two">
+            <div style="background:url('../../assets/img/thumbnails/blogthumb6.jpg'); background-size:cover;" class="thumb">
+            </div>
+          <div class="blogcontent">
+            <h3 class="corrected">Beth Stofflet and Larry Moberly Take 250 Kids on an Adventure to Africa with ARIS</h3>
+            <div class="row">
+              <div class="col-md-8 brief">
+                <p class="corrected">Seventh grade social studies teachers Beth Stofflet and Larry Moberly wanted to take their 250 kids to dozens of African nations — but since that wasn’t possible, they took them there virtually with a Field Day tool called ARIS.</p>
+                <a target="_blank" href="https://medium.com/@fielddaylab/250-kids-adventure-through-africa-with-aris-5e455c96a901" class="button xsmall"><span class="text">Read story</span> <span class="mediumlogo"><i class="fa fa-medium" aria-hidden="true"></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </section>
 
 

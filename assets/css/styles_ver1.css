@@ -7578,7 +7578,7 @@ button.close {
   font-weight: 600;
   background: transparent;
   box-shadow: none;
-  border-radius: 5px;
+  border-radius: 2px;
   text-align: center;
   text-decoration: none;
   margin-right: 15px;
@@ -7783,6 +7783,23 @@ hr {
   max-height: 300px;
   display: block; }
 
+.header-notification {
+  background: #E0BC4E;
+  position: absolute;
+  top: 60px;
+  right: 8vw;
+  width: auto;
+  height: auto;
+  padding: 10px 20px;
+  z-index: 100;
+  border: 4px solid #001E2A;
+  text-transform: uppercase; }
+  .header-notification a {
+    color: #001E2A;
+    border-bottom: 2px solid #001E2A; }
+    .header-notification a:hover {
+      border-bottom: 2px solid #D6A718; }
+
 body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
@@ -7872,10 +7889,13 @@ p, a, li {
       p.light, a.light, li.light {
         font-weight: 400; } }
 
-p {
+p, li {
   font-family: 'courier', sans-serif;
   font-weight: 200;
   letter-spacing: .5px; }
+
+p a {
+  border-bottom: 2px solid; }
 
 .typewriter {
   font-family: 'Courier', 'courier-new', serif; }
@@ -8084,8 +8104,9 @@ p {
   z-index: 10000;
   transition: transform .3s ease-in-out;
   transition: opacity .3s ease-in-out;
-  box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.16);
-  transform: translateY(-60px); }
+  box-shadow: 0px 5px 0px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-60px);
+  border: 4px solid #001E2A; }
   .small-nav .right li:first-child {
     border-right: none; }
   .small-nav.nav-fixed {
@@ -8098,39 +8119,51 @@ p {
       opacity: 1;
       z-index: 1000; } }
   .small-nav .logo {
-    width: 120px;
-    margin-left: -36px;
-    padding: 10px; }
+    width: 240px;
+    margin-left: -26px;
+    padding-right: 20px;
+    border-right: 4px solid #001E2A; }
+    @media only screen and (max-width: 768px) {
+      .small-nav .logo {
+        width: 180px; } }
+    .small-nav .logo a {
+      padding: 0px;
+      line-height: 0px; }
+      .small-nav .logo a:hover {
+        background: initial; }
     .small-nav .logo img {
       width: 100%;
-      height: auto; }
+      height: auto;
+      margin-top: -4px; }
   .small-nav ul {
     width: auto;
     margin-bottom: 0px; }
     .small-nav ul li {
-      display: inline-block;
-      padding: 10px 20px;
-      border-right: 2px solid #f5f5f5; }
+      display: inline-block; }
       @media only screen and (max-width: 768px) {
         .small-nav ul li {
-          padding: 10px; } }
+          padding: 0px; } }
       @media only screen and (max-device-width: 400px), only screen and (max-width: 400px) {
         .small-nav ul li {
           padding: 10px 8px; } }
       .small-nav ul li a {
         text-transform: uppercase;
-        font-size: 12px;
         color: #001E2A;
-        cursor: pointer; }
-        @media only screen and (max-device-width: 400px), only screen and (max-width: 400px) {
+        padding: 10px 15px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: brandon-grotesque;
+        font-size: 14px; }
+        @media only screen and (max-width: 1024px) {
           .small-nav ul li a {
-            font-size: 11px;
+            font-size: 12px;
             letter-spacing: 1px; } }
         .small-nav ul li a:hover {
           color: #D6A718;
-          text-decoration: none; }
+          text-decoration: none;
+          background: #001E2A; }
   .small-nav .workwithus {
-    margin: 0px 35px 0px 15px; }
+    margin: 12px 55px 0px 15px; }
     @media only screen and (max-width: 1024px) {
       .small-nav .workwithus {
         margin-top: 1px; } }
@@ -8256,8 +8289,8 @@ p {
   height: 40px;
   z-index: 2;
   position: fixed;
-  right: 10px;
-  top: 6px;
+  right: 12px;
+  top: 3px;
   cursor: pointer;
   z-index: 1001; }
   @media only screen and (max-width: 768px) {
@@ -8365,7 +8398,7 @@ p {
 
 .icon {
   width: 20px;
-  height: 2px;
+  height: 4px;
   background-color: #001E2A;
   position: absolute;
   top: 23px;
@@ -8385,9 +8418,9 @@ p {
   width: 0; }
 
 .nav-open .mobile-nav-toggle-wrap .icon:before {
-  -webkit-transform: translateY(9px) rotate(45deg);
-  -ms-transform: translateY(9px) rotate(45deg);
-  transform: translateY(9px) rotate(45deg); }
+  -webkit-transform: translateY(8px) rotate(45deg);
+  -ms-transform: translateY(8px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg); }
 
 .nav-open .mobile-nav-toggle-wrap .icon:after {
   -webkit-transform: translateY(-9px) rotate(-45deg);
@@ -8410,7 +8443,7 @@ p {
 .mobile-nav-toggle-wrap .icon:before,
 .mobile-nav-toggle-wrap .icon:after {
   width: 20px;
-  height: 2px;
+  height: 4px;
   background-color: #001E2A;
   content: "";
   border-radius: 10px;
@@ -10921,8 +10954,15 @@ hr {
 .about #team {
   background: #fff;
   padding: 10vw; }
+  .about #team h2 {
+    padding-bottom: 20px !important; }
+  .about #team h4 {
+    margin-bottom: 10px !important;
+    margin-top: 30px !important; }
+  .about #team ul {
+    margin-bottom: 20px; }
   .about #team .gridder-list {
-    width: 30%;
+    width: 22%;
     text-align: left;
     border: 5px solid #001E2A; }
     @media only screen and (max-width: 1024px) {
@@ -10936,7 +10976,7 @@ hr {
     .about #team .gridder-list.selectedItem {
       background: #001E2A; }
     .about #team .gridder-list .profile-thumbnail {
-      height: 30vw;
+      height: 24vw;
       width: 100%;
       overflow: hidden;
       position: relative;
@@ -11358,11 +11398,11 @@ hr {
         height: 40px;
         margin-bottom: 10px; }
       .press .tab-content .playstats .playstat:nth-child(1n) {
-        background: #eeeeee; }
+        background: #06AED5; }
       .press .tab-content .playstats .playstat:nth-child(2n) {
-        background: #eeeeee; }
+        background: #E0BC4E; }
       .press .tab-content .playstats .playstat:nth-child(3n) {
-        background: #eeeeee; }
+        background: #FCC9C2; }
       .press .tab-content .playstats .playstat h3 {
         font-family: roboto;
         font-weight: 700;
@@ -11601,17 +11641,24 @@ hr {
       padding: 2vw;
       color: #001E2A;
       transition: all 0.1s ease-in-out; }
+      .game_info .playstats .playstat .twoXone {
+        width: 56%; }
+      .game_info .playstats .playstat .oneXtwo {
+        height: 400px; }
+      .game_info .playstats .playstat .twoXtwo {
+        height: 400px;
+        width: 56%; }
       .game_info .playstats .playstat:hover {
         transform: scale(1.03); }
       .game_info .playstats .playstat img {
         height: 40px;
         margin-bottom: 10px; }
       .game_info .playstats .playstat:nth-child(1n) {
-        background: #06AED5; }
+        background: #eeeeee; }
       .game_info .playstats .playstat:nth-child(2n) {
-        background: #E0BC4E; }
+        background: #eeeeee; }
       .game_info .playstats .playstat:nth-child(3n) {
-        background: #FCC9C2; }
+        background: #eeeeee; }
       .game_info .playstats .playstat h3 {
         font-family: roboto;
         font-weight: 700;
@@ -11991,8 +12038,7 @@ tbody tr {
     margin-top: 5vw;
     border-right: 3px solid #E0BC4E; }
     .footer .footerinfo a {
-      color: #001E2A;
-      text-decoration: underline; }
+      color: #001E2A; }
     .footer .footerinfo .social-links a img {
       width: auto;
       height: 20px;

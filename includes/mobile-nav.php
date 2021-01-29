@@ -31,7 +31,6 @@
           <h3>Learn</h3>
           <a target="_blank" href="https://fielddaylab.wisc.edu/courses/">Courses</a>
           <a target="_blank" href="https://fielddaylab.wisc.edu/fellowships/">Fellowships</a>
-          <a target="_blank" href="https://fielddaylab.org/forums/">Forums</a>
         </div>
       </div>
       <div class="fd-info">

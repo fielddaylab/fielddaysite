@@ -32,7 +32,7 @@
     <nav class="nav nav-tabs research-toggles">
       <ul>
         <li class="research-toggle research-toggle3 active"><a href="#approach" role="tab" data-toggle="tab">Our Approach</a></li>
-        <li class="research-toggle research-toggle1"><a href="#projects" role="tab" data-toggle="tab">Projects</a></li>
+        <!--<li class="research-toggle research-toggle1"><a href="#projects" role="tab" data-toggle="tab">Projects</a></li>-->
         <li class="research-toggle research-toggle2"><a href="#publications" role="tab" data-toggle="tab">Publications</a></li>
         <!--<li class="research-toggle research-toggle3"><a href="#press" role="tab" data-toggle="tab">Press</a></li>-->
       </ul>

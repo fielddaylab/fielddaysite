@@ -2,7 +2,7 @@
   <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
   <div class="left">
     <ul>
-      <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/fd-logo-nav.png"></a></li>
+      <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/fd-learning_games_logo_new.png"></a></li>
       <li class="small-navlink"><a class="drawerleft-toggle">games</a></li>
       <li class="small-navlink"><a class="drawerright-toggle">mixed reality</a></li>
       <li class="small-navlink hide-for-nav-xsmall"><a href="/about">about us</a></li>

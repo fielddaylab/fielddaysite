@@ -71,7 +71,7 @@ window.onload = function()
 
 </p></div>
     <div class="buttons">
-      <a target="_blank" href="https://wpteducation.org/CapitolCase" class="button xsmall white filled">Play the Game</a>
+      <a target="_blank" href="https://www3.pbswisconsineducation.org/CapitolCase" class="button xsmall white filled">Play the Game</a>
       <a target="_blank" href="#app-about" class="button xsmall white">Learn about the Game</a>
     </div>
   </div>
