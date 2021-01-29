@@ -1,7 +1,8 @@
 <!--include head
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
-<title>title</title>
+<title>title - Field Day</title>
+<meta name="description" content="- Field Day">
 </head>
 
 <body class="singleapp">

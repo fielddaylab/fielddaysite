@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 
-<title>Field Day - Discover IceCube</title>
+<title>Discover IceCube - Field Day</title>
+<meta name="description" content="Discover IceCube - Field Day">
 <script>
   function playContent()
   {
@@ -105,7 +106,7 @@ Along the way, you will be able to take in awe inspiring views from the edge of 
       <p>This is a MIT Licensed, Opensource project. Contribute to the code at <a href="https://github.com/fielddaylab/ICECUBEVR" target="_blank">https://github.com/fielddaylab/ICECUBEVR</a></p>
       
       <h2 id="funding">Funding</h2>
-      <img src="/assets/img/logos/colored/nsf1.jpg">
+      <img alt="NSF" src="/assets/img/logos/colored/nsf1.jpg">
       <p>This project was funded by NSF OPP #1612504</p>
     </div>
   </div>

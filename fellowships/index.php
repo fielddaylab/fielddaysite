@@ -1,7 +1,8 @@
 <!--include head
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
-<title>Field Day - Fellowships</title>
+<title>Fellowships - Field Day</title>  
+<meta name="description" content="Fellowships - Field Day">
 </head>
 
 <body class="nav-fixed teachers link-teachers page">
@@ -17,8 +18,8 @@
         <a href="#page-facts" class="button pink filled small">Learn More</a>
       </div>
       <div class="graphic">
-        <img class="cloud one" src="/assets/img/illustrations/cloud-outline.png">
-        <img class="cloud two" src="/assets/img/illustrations/cloud-outline.png">
+        <img class="cloud one" alt="cloud outline" src="/assets/img/illustrations/cloud-outline.png">
+        <img class="cloud two" alt="cloud outline" src="/assets/img/illustrations/cloud-outline.png">
 
         <div class="starfield topright hide-for-small">
           <span class="star star1"></span>
@@ -34,10 +35,10 @@
           <span class="star star4"></span>
           <span class="star star5"></span>
         </div>
-        <img class="teachernaut float" src="/assets/img/illustrations/teachernaut2.png">
-        <img class="kidstronaut floatslow" src="/assets/img/illustrations/kidstronaut2.png">
-        <img class="kidstronaut two float" src="/assets/img/illustrations/kidstronaut1.png">
-        <img class="kidstronaut three floatslow" src="/assets/img/illustrations/kidstronaut3.png">
+        <img class="teachernaut float" alt="Teacher Astonaut" src="/assets/img/illustrations/teachernaut2.png">
+        <img class="kidstronaut floatslow" alt="Kid Astronaut " src="/assets/img/illustrations/kidstronaut2.png">
+        <img class="kidstronaut two float" alt="Kid Astronaut" src="/assets/img/illustrations/kidstronaut1.png">
+        <img class="kidstronaut three floatslow" alt="Kid Astonaut" src="/assets/img/illustrations/kidstronaut3.png">
       </div>
     </section>
     <!--<section id="how-we-work" class="threeup">
@@ -62,8 +63,8 @@
       <h2 class="section-title centered">What Can I Expect?</h2>
       <div class="fact">
         <div class="photo">
-          <img class="astro-book" src="/assets/img/illustrations/astro-book.png">
-          <img class="astro-confused" src="/assets/img/illustrations/astro-confused.png">
+          <img class="astro-book" alt="Astonaut Book" src="/assets/img/illustrations/astro-book.png">
+          <img class="astro-confused" alt="Confused Astonaut" src="/assets/img/illustrations/astro-confused.png">
         </div>
         <div class="info">
           <h3>Design a game with us</h3>
@@ -81,11 +82,11 @@
           <a href="#fellowships" class="button black filled small" target="_blank">View Fellowships</a>
         </div>
         <div class="photo">
-          <img class="flight-lines" src="/assets/img/illustrations/flight-lines.png">
-          <img class="astro-flight" src="/assets/img/illustrations/astro-flight.png">
-          <img class="astro-flame" src="/assets/img/illustrations/astro-flame.png">
-          <img class="astro-flame2" src="/assets/img/illustrations/astro-flame.png">
-          <img class="flight-lines two" src="/assets/img/illustrations/flight-lines2.png">
+          <img class="flight-lines" alt="Flight lines" src="/assets/img/illustrations/flight-lines.png">
+          <img class="astro-flight" alt="Flying Astonaut" src="/assets/img/illustrations/astro-flight.png">
+          <img class="astro-flame" alt="Flames" src="/assets/img/illustrations/astro-flame.png">
+          <img class="astro-flame2" alt="Flames" src="/assets/img/illustrations/astro-flame.png">
+          <img class="flight-lines two" alt="Flight Lines" src="/assets/img/illustrations/flight-lines2.png">
         </div>
       </div>
     </section>
@@ -155,7 +156,7 @@
 
         <li class="gridder-list" data-griddercontent="#game16">
           <div class="game-thumbnail">
-            <img src="/assets/img/fellowships/aqualab.jpg">
+            <img alt="Aqualab" src="/assets/img/fellowships/aqualab.jpg">
           </div>
           <div class="card-summary">
             <div class="info">
@@ -169,7 +170,7 @@
 
         <li class="gridder-list" data-griddercontent="#game15">
           <div class="game-thumbnail">
-            <img src="/assets/img/fellowships/gague.jpg">
+            <img alt="Shipwrecks  " src="/assets/img/fellowships/gague.jpg">
           </div>
           <div class="card-summary">
             <div class="info">
@@ -186,7 +187,7 @@
 
       <li class="gridder-list" data-griddercontent="#game14">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/dashboard-group.jpg">
+          <img alt="Dashboard Fellowship group picture" src="/assets/img/fellowships/dashboard-group.jpg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -199,7 +200,7 @@
 
       <li class="gridder-list" data-griddercontent="#game13">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/shipwreck-group.jpg">
+          <img alt="Shipwrecks game design fellowship group picture" src="/assets/img/fellowships/shipwreck-group.jpg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -212,7 +213,7 @@
 
       <li class="gridder-list" data-griddercontent="#game12">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/farmingandphosphorus.jpg">
+          <img alt="Farming and phosphorour lecture picture" src="/assets/img/fellowships/farmingandphosphorus.jpg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -225,7 +226,7 @@
 
       <li class="gridder-list" data-griddercontent="#game11">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/jowilder.jpg">
+          <img alt="Doing History with Games Fellowship" src="/assets/img/fellowships/jowilder.jpg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -238,7 +239,7 @@
 
       <li class="gridder-list" data-griddercontent="#game10">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/jowilder2.jpg">
+          <img alt="State Capitol Game Production Fellowship" src="/assets/img/fellowships/jowilder2.jpg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -251,7 +252,7 @@
 
       <li class="gridder-list" data-griddercontent="#game9">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/fieldwork.jpg">
+          <img alt="Fieldwork Across the Curriculum Fellowship" src="/assets/img/fellowships/fieldwork.jpg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -264,7 +265,7 @@
 
       <li class="gridder-list" data-griddercontent="#game8">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/doinghistory.jpg">
+          <img alt="Wisconsin State Capitol Game Design Fellowship" src="/assets/img/fellowships/doinghistory.jpg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -277,7 +278,7 @@
 
       <li class="gridder-list" data-griddercontent="#game7">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/mrsec.jpg">
+          <img alt="Material Science Research Experience" src="/assets/img/fellowships/mrsec.jpg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -290,7 +291,7 @@
 
       <li class="gridder-list" data-griddercontent="#game6">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/material.jpg">
+          <img alt="Material Science Game Design" src="/assets/img/fellowships/material.jpg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -303,7 +304,7 @@
 
       <li class="gridder-list" data-griddercontent="#game5">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/gameon.jpg">
+          <img alt="Games for Humanity Fellowship" src="/assets/img/fellowships/gameon.jpg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -316,7 +317,7 @@
 
       <li class="gridder-list" data-griddercontent="#game4">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/gameon.png">
+          <img alt="Game On" src="/assets/img/fellowships/gameon.png">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -329,7 +330,7 @@
 
       <li class="gridder-list" data-griddercontent="#game3">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/wdlc.jpg">
+          <img alt="WDLC Game Design Course" src="/assets/img/fellowships/wdlc.jpg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -342,7 +343,7 @@
 
       <li class="gridder-list" data-griddercontent="#game2">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/studentgamedesign.jpg">
+          <img alt="Student Game Design" src="/assets/img/fellowships/studentgamedesign.jpg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -355,7 +356,7 @@
 
       <li class="gridder-list" data-griddercontent="#game1">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/yardgames.jpg">
+          <img alt="Science Mini Games" src="/assets/img/fellowships/yardgames.jpg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -369,7 +370,7 @@
 
       <li class="gridder-list" data-griddercontent="#game0">
         <div class="game-thumbnail">
-          <img src="/assets/img/fellowships/fieldresearch.jpeg">
+          <img alt="Field Research" src="/assets/img/fellowships/fieldresearch.jpeg">
         </div>
         <div class="card-summary">
           <div class="info">
@@ -397,7 +398,7 @@
         <a class="button small black" href="https://docs.google.com/forms/d/e/1FAIpQLSdIRalZif5lEWwDkMOiqqBqnvPCLTXQOcEwbUi0oA8InufMHg/viewform?usp=sf_link" onclick="ga('send', 'event', 'Apply', 'Click')" target="_blank">Apply Now</a>
       </div>
       <div class="col-md-5 cta">
-        <img class="expanded-thumb img-responsive" src="/assets/img/fellowships/shipwreck-teachers.jpg">
+        <img class="expanded-thumb img-responsive" alt="Shipwreck Teachers" src="/assets/img/fellowships/shipwreck-teachers.jpg">
       </div>
     </div>
   </div>
@@ -415,7 +416,7 @@
         <a class="button small black" target="_blank">We are not accepting new applicants at this time.</a>
       </div>
       <div class="col-md-5 cta">
-        <img class="expanded-thumb img-responsive" src="/assets/img/fellowships/game-dashboard.jpg">
+        <img class="expanded-thumb img-responsive" alt="game dashboard" src="/assets/img/fellowships/game-dashboard.jpg">
       </div>
     </div>
   </div>
@@ -425,7 +426,7 @@
   <div class="row game-inner game14-inner">
     <h3>Game Dashboard Fellowship</h3>
     <span>Deadline has passed</span>
-    <img class="groupshot" src="/assets/img/fellowships/dashboard-group.jpg">
+    <img class="groupshot" alt="dashboard group" src="/assets/img/fellowships/dashboard-group.jpg">
     <div class="col-md-6 game-expanded fellows-list">
       <h4>Teacher Fellows:</h4>
       <div class="fellows">
@@ -454,7 +455,7 @@
   <div class="row game-inner game13-inner">
     <h3>Shipwrecks Game Design Fellowship</h3>
     <span>Deadline has passed</span>
-    <img class="groupshot" src="/assets/img/fellowships/shipwreck-group.jpg">
+    <img class="groupshot" alt="shipwreck group" src="/assets/img/fellowships/shipwreck-group.jpg">
     <div class="col-md-6 game-expanded fellows-list">
       <h4>Teacher Fellows:</h4>
       <div class="fellows">
@@ -777,7 +778,7 @@
   <div class="row game-inner game1-inner">
     <h3>Science Mini Games</h3>
     <span>Deadline has passed</span>
-    <img class="groupshot" src="/assets/img/fellowships/yardgames.jpg">
+    <img class="groupshot" alt="yard games group" src="/assets/img/fellowships/yardgames.jpg">
     <div class="col-md-6 game-expanded fellows-list">
       <h4>Teacher Fellows:</h4>
       <div class="fellows">

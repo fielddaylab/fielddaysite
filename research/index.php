@@ -1,7 +1,8 @@
 <!--include head
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
-<title>Field Day - Research</title>
+<title>Research - Field Day</title>
+<meta name="description" content="Research - Field Day">
 </head>
 
 <body class="singleapp page research">
@@ -26,7 +27,7 @@
         <span class="star star4"></span>
         <span class="star star5"></span>
       </div>
-      <img class="astroblogger floatslow" src="/assets/img/illustrations/astro-blogger.png">
+      <img class="astroblogger floatslow" alt="Astronaut with typewriter" src="/assets/img/illustrations/astro-blogger.png">
     </div>
 
     <nav class="nav nav-tabs research-toggles">

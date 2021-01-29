@@ -1,6 +1,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 
-<title>Field Day - Alien Gardener</title>
+<title>Alien Gardener - Field Day</title>
+<meta name="description" content="Alien Gardener - Field Day">
 <script>
   function playContent()
   {
@@ -26,7 +27,7 @@
         <img class="breadcrumb-arrow" src="/assets/img/ui/breadcrumb-arrow.png">
         <li>Alien Gardener</li>
       </ul>
-      <img class="logo-small" src="/assets/img/logos/aliengardener.png"></span>
+      <img class="logo-small" alt="Alien Gardener" src="/assets/img/logos/aliengardener.png"></span>
     </div>
     <div class="app-info long-title">
       <h1 class="app-title">Alien Gardener</h1><span class="coming-soon">coming soon</span><br>
