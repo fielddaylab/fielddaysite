@@ -182,29 +182,30 @@
       <h3 class="centered uppercase">Who we work with</h3>
       <p class="small">We work with amazing researchers around the world.</p>
       <div class="partner-logos">
-        <img alt="Harvard University" src="/assets/img/logos/partnerlogos/partnerlogo1.jpg?cb=20190820">
-        <img alt="Utah State University" src="/assets/img/logos/partnerlogos/partnerlogo2.png?cb=20190820">
-        <img alt="Brain Pop" src="/assets/img/logos/partnerlogos/partnerlogo3.png?cb=20190820">
-        <img alt="Chippewa Valley Technical College" src="/assets/img/logos/partnerlogos/partnerlogo4.png?cb=20190820">
-        <img alt="Minnesota Historical Society" src="/assets/img/logos/partnerlogos/partnerlogo5.png?cb=20190820">
-        <img alt="Library of Congress" src="/assets/img/logos/partnerlogos/partnerlogo6.png?cb=20190820">
-        <img alt="MacArthur Foundation" src="/assets/img/logos/partnerlogos/partnerlogo7.png?cb=20190820">
-        <img alt="National Science Foundation - NSF" src="/assets/img/logos/partnerlogos/partnerlogo8.png?cb=20190820">
-        <img alt="Massachusetts Institute of Technology - MIT" src="/assets/img/logos/partnerlogos/partnerlogo9.png?cb=20190820">
-        <img alt="Northwestern University" src="/assets/img/logos/partnerlogos/partnerlogo10.png?cb=20190820">
-        <img alt="Aalto University" src="/assets/img/logos/partnerlogos/partnerlogo11.png?cb=20190820">
-        <img alt="University of New Mexico" src="/assets/img/logos/partnerlogos/partnerlogo12.png?cb=20190820">
-        <img alt="Oregon State University" src="/assets/img/logos/partnerlogos/partnerlogo13.png?cb=20190820">
-        <img alt="Smithsonian" src="/assets/img/logos/partnerlogos/partnerlogo14.png?cb=20190820">
-        <img alt="University of Miami" src="/assets/img/logos/partnerlogos/partnerlogo15.png?cb=20190820">
-        <img alt="American University" src="/assets/img/logos/partnerlogos/partnerlogo16.png?cb=20190820">
-        <img alt="The Field Museum" src="/assets/img/logos/partnerlogos/partnerlogo17.png?cb=20190820">
-        <img alt="Scigirls" src="/assets/img/logos/partnerlogos/partnerlogo18.jpeg?cb=20190820">
-        <img alt="European Research Council" src="/assets/img/logos/partnerlogos/partnerlogo19.png?cb=20190820">
-        <img alt="Wisconsin Department of Public Instruction" src="/assets/img/logos/partnerlogos/partnerlogo20.jpg?cb=20190820">
-        <img alt="Institute of Play" src="/assets/img/logos/partnerlogos/partnerlogo21.jpeg?cb=20190820">
-        <img alt="Pearson Foundatoin" src="/assets/img/logos/partnerlogos/partnerlogo22.jpg?cb=20190820">
-        <img alt="National Science Foundation - NSF" src="/assets/img/logos/partnerlogos/partnerlogo23.png?cb=20190820">
+        <img alt="logo of PBS Wisconsin Education" src="/assets/img/logos/partnerlogos/partnerlogo24.png?cb=20190820">
+        <img alt="logo of Harvard University" src="/assets/img/logos/partnerlogos/partnerlogo1.png?cb=20190820">
+        <img alt="logo of Utah State University" src="/assets/img/logos/partnerlogos/partnerlogo2.png?cb=20190820">
+        <img alt="logo of Brain Pop" src="/assets/img/logos/partnerlogos/partnerlogo3.png?cb=20190820">
+        <img alt="logo of Chippewa Valley Technical College" src="/assets/img/logos/partnerlogos/partnerlogo4.png?cb=20190820">
+        <img alt="logo of Minnesota Historical Society" src="/assets/img/logos/partnerlogos/partnerlogo5.png?cb=20190820">
+        <img alt="logo of Library of Congress" src="/assets/img/logos/partnerlogos/partnerlogo6.png?cb=20190820">
+        <img alt="logo of MacArthur Foundation" src="/assets/img/logos/partnerlogos/partnerlogo7.png?cb=20190820">
+        <img alt="logo of National Science Foundation - NSF" src="/assets/img/logos/partnerlogos/partnerlogo8.png?cb=20190820">
+        <img alt="logo of Massachusetts Institute of Technology - MIT" src="/assets/img/logos/partnerlogos/partnerlogo9.png?cb=20190820">
+        <img alt="logo of Northwestern University" src="/assets/img/logos/partnerlogos/partnerlogo10.png?cb=20190820">
+        <img alt="logo of Aalto University" src="/assets/img/logos/partnerlogos/partnerlogo11.png?cb=20190820">
+        <img alt="logo of University of New Mexico" src="/assets/img/logos/partnerlogos/partnerlogo12.png?cb=20190820">
+        <img alt="logo of Oregon State University" src="/assets/img/logos/partnerlogos/partnerlogo13.png?cb=20190820">
+        <img alt="logo of Smithsonian" src="/assets/img/logos/partnerlogos/partnerlogo14.png?cb=20190820">
+        <img alt="logo of University of Miami" src="/assets/img/logos/partnerlogos/partnerlogo15.png?cb=20190820">
+        <img alt="logo of American University" src="/assets/img/logos/partnerlogos/partnerlogo16.png?cb=20190820">
+        <img alt="logo of The Field Museum" src="/assets/img/logos/partnerlogos/partnerlogo17.png?cb=20190820">
+        <img alt="logo of Scigirls" src="/assets/img/logos/partnerlogos/partnerlogo18.jpeg?cb=20190820">
+        <img alt="logo of European Research Council" src="/assets/img/logos/partnerlogos/partnerlogo19.png?cb=20190820">
+        <img alt="logo of Wisconsin Department of Public Instruction" src="/assets/img/logos/partnerlogos/partnerlogo20.jpg?cb=20190820">
+        <img alt="logo of Institute of Play" src="/assets/img/logos/partnerlogos/partnerlogo21.jpeg?cb=20190820">
+        <img alt="logo of Pearson Foundatoin" src="/assets/img/logos/partnerlogos/partnerlogo22.jpg?cb=20190820">
+        <img alt="logo of National Science Foundation - NSF" src="/assets/img/logos/partnerlogos/partnerlogo23.png?cb=20190820">
       </div>
   </div>
   </section>
