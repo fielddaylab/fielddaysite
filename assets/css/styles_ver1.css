@@ -7558,7 +7558,7 @@ button.close {
   color: #5A5F6A; }
 
 .dark-gray {
-  color: #2B303B; }
+  color: #202E3C; }
 
 .black {
   color: #001E2A; }
@@ -7571,7 +7571,7 @@ button.close {
   font-family: futura-pt, sans-serif;
   font-size: 18px;
   line-height: 1.2em;
-  border: 1px solid #2B303B;
+  border: 1px solid #202E3C;
   text-transform: uppercase;
   letter-spacing: .2em;
   color: #001E2A;
@@ -7592,7 +7592,7 @@ button.close {
     text-decoration: none;
     outline: none; }
   .button:hover, .button.filled {
-    background: #2B303B;
+    background: #202E3C;
     color: #fff; }
     .button:hover i, .button.filled i {
       color: #fff; }
@@ -7679,13 +7679,13 @@ button.close {
       .button.blue-black:hover i, .button.blue-black.filled i {
         color: #fff; }
   .button.dark_gray {
-    color: #2B303B;
-    border-color: #2B303B;
+    color: #202E3C;
+    border-color: #202E3C;
     background: transparent; }
     .button.dark_gray i {
-      color: #2B303B; }
+      color: #202E3C; }
     .button.dark_gray:hover, .button.dark_gray.filled {
-      background: #2B303B;
+      background: #202E3C;
       color: #fff; }
       .button.dark_gray:hover i, .button.dark_gray.filled i {
         color: #fff; }
@@ -7743,6 +7743,10 @@ body {
   overflow-x: auto; }
   body.nav-open {
     overflow: hidden; }
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto; }
 
 hr {
   height: 6px;
@@ -7833,8 +7837,14 @@ a {
     text-decoration: none;
     color: #D6A718; }
 
+.nocap {
+  text-transform: none !important; }
+
+.cap {
+  text-transform: uppercase !important; }
+
 p, a, li {
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   line-height: 35px;
   font-weight: 400; }
   p .bold, a .bold, li .bold {
@@ -7873,7 +7883,8 @@ p, a, li {
         line-height: 25px; } }
   p.note, a.note, li.note {
     font-style: italic;
-    color: #5A5F6A; }
+    color: #5A5F6A;
+    line-height: 28px; }
   p.supersmall, a.supersmall, li.supersmall {
     font-size: 14px;
     line-height: 25px;
@@ -7941,7 +7952,7 @@ p a {
   transition: all .3s ease-in-out;
   width: 100%;
   transform: translateY(-400px);
-  background: #2B303B; }
+  background: #202E3C; }
   .drawer ::-webkit-scrollbar {
     display: none;
     background: transparent;
@@ -9314,6 +9325,10 @@ hr {
   ---------------------------*/
   /* Template for Lakeland
   ---------------------------*/
+  /* Template for StationMaine
+  ---------------------------*/
+  /* Template for thermoVR
+  ---------------------------*/
   /* Template for Forevor Mine
   ---------------------------*/
   /* Template for Ice Cube
@@ -9484,31 +9499,27 @@ hr {
     list-style: none; }
   .singleapp .app-about li {
     font-size: 15px; }
-  .singleapp .app-about .about-nav {
-    padding-top: 100px; }
-    @media only screen and (max-width: 768px) {
-      .singleapp .app-about .about-nav {
-        padding-top: 0px;
-        border-bottom: 1px solid #E0BC4E;
-        margin-bottom: 30px; } }
-  @media only screen and (max-width: 768px) and (max-device-width: 400px), only screen and (max-width: 768px) and (max-width: 400px) {
+  @media only screen and (max-width: 768px) {
     .singleapp .app-about .about-nav {
       display: none; } }
-    .singleapp .app-about .about-nav ul {
-      padding-left: 0;
-      list-style: none; }
-      @media only screen and (max-width: 768px) {
-        .singleapp .app-about .about-nav ul {
-          padding: 10px;
-          text-align: center; } }
-    .singleapp .app-about .about-nav li {
-      text-transform: uppercase;
-      cursor: pointer;
-      list-style: none; }
-      @media only screen and (max-width: 768px) {
-        .singleapp .app-about .about-nav li {
-          display: inline;
-          margin-right: 20px; } }
+  .singleapp .app-about .about-nav ul {
+    background: #f5f5f5;
+    display: inline-block;
+    padding: 35px 20px 20px 30px;
+    list-style: none;
+    border-radius: 5px; }
+    .singleapp .app-about .about-nav ul li {
+      margin-bottom: 20px;
+      border-left: 4px solid #fff;
+      padding-left: 10px;
+      line-height: 25px; }
+      .singleapp .app-about .about-nav ul li:hover {
+        border-left: 4px solid #FCC9C2; }
+      .singleapp .app-about .about-nav ul li a {
+        color: #001E2A;
+        font-size: 16px;
+        letter-spacing: 0px;
+        text-transform: uppercase; }
   .singleapp .app-about .about-rightpanel {
     padding-left: 80px; }
     @media only screen and (max-width: 768px) {
@@ -9627,6 +9638,86 @@ hr {
       .singleapp.lakeland .app-title {
         width: auto;
         height: 150px; } }
+  .singleapp.stationmaine #app-intro {
+    padding: 5vw 0vw 6vw 0vw;
+    text-align: center; }
+    .singleapp.stationmaine #app-intro .iframe-bg {
+      width: 880px;
+      height: 660px;
+      display: block;
+      margin: 0px auto;
+      overflow: hidden;
+      border: 0px;
+      background-size: cover; }
+    .singleapp.stationmaine #app-intro h2 {
+      text-transform: uppercase; }
+    .singleapp.stationmaine #app-intro .fullscreen {
+      text-align: right;
+      margin-top: 10px; }
+      .singleapp.stationmaine #app-intro .fullscreen img {
+        vertical-align: middle; }
+  .singleapp.stationmaine #app-about h3 {
+    margin: 25px 0px 10px 0px; }
+  .singleapp.stationmaine .app-hero {
+    background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.3) 0%, rgba(14, 36, 57, 0.4) 100%), url("/assets/img/hero-images/stationmaine_hero.jpg");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.stationmaine .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.7) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/hero-images/stationmaine_hero.jpg"); } }
+  .singleapp.stationmaine .info-panel {
+    border-bottom: 0px !important; }
+  .singleapp.stationmaine .app-title {
+    text-indent: -9999px;
+    background: url(/assets/img/logos/stationmaine-logo.png) no-repeat;
+    background-size: contain;
+    background-position: left;
+    border-right: 0px !important;
+    width: 700px;
+    height: 200px; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.stationmaine .app-title {
+        width: 90%; } }
+  .singleapp.thermovr #app-intro {
+    padding: 5vw 0vw 6vw 0vw;
+    text-align: center; }
+    .singleapp.thermovr #app-intro .iframe-bg {
+      width: 880px;
+      height: 660px;
+      display: block;
+      margin: 0px auto;
+      overflow: hidden;
+      border: 0px;
+      background-size: cover; }
+    .singleapp.thermovr #app-intro h2 {
+      text-transform: uppercase; }
+    .singleapp.thermovr #app-intro .fullscreen {
+      text-align: right;
+      margin-top: 10px; }
+      .singleapp.thermovr #app-intro .fullscreen img {
+        vertical-align: middle; }
+  .singleapp.thermovr #app-about h3 {
+    margin: 25px 0px 10px 0px; }
+  .singleapp.thermovr .app-hero {
+    background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.3) 0%, rgba(14, 36, 57, 0.4) 100%), url("/assets/img/hero-images/thermovr-hero.jpg");
+    background-size: cover;
+    background-position: right bottom; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.thermovr .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.7) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/hero-images/thermovr-hero.jpg"); } }
+  .singleapp.thermovr .info-panel {
+    border-bottom: 0px !important; }
+  .singleapp.thermovr .app-title {
+    text-indent: -9999px;
+    background: url(/assets/img/logos/colored/thermovr-logo.png) no-repeat;
+    background-size: contain;
+    background-position: left;
+    border-right: 0px !important;
+    width: 700px;
+    height: 200px; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.thermovr .app-title {
+        width: 90%; } }
   .singleapp.forevermine #app-intro {
     padding: 5vw 0vw 6vw 0vw;
     text-align: center; }
@@ -10217,11 +10308,9 @@ hr {
       flex-direction: column; }
       .page .page-facts .fact:nth-child(even) {
         flex-direction: column-reverse; } }
-  .page .page-facts .fact > div {
-    width: 50%; }
-    @media only screen and (max-width: 768px) {
-      .page .page-facts .fact > div {
-        width: 90%; } }
+  @media only screen and (max-width: 768px) {
+    .page .page-facts .fact > div {
+      width: 90%; } }
 
 .page .page-facts .info {
   padding: 8vw; }
@@ -11256,6 +11345,265 @@ hr {
             top: 60vw;
             right: 6vw;
             opacity: .5; } }
+
+.mixedreality .page_hero {
+  background: url(/assets/img/hero-images/mixedrealityhero.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0px;
+  padding: 3vw 0vw; }
+  @media only screen and (max-width: 768px) {
+    .mixedreality .page_hero {
+      flex-direction: column-reverse;
+      height: auto;
+      padding: 2vw; } }
+  .mixedreality .page_hero .info {
+    color: #001E2A;
+    width: 40%;
+    padding: 8vw 0vw 8vw 8vw;
+    margin-right: 10%; }
+    .mixedreality .page_hero .info p {
+      margin-bottom: 20px;
+      color: #001E2A; }
+    @media only screen and (max-width: 768px) {
+      .mixedreality .page_hero .info {
+        width: 100%;
+        padding: 15vw 0vw 8vw 8vw; } }
+    .mixedreality .page_hero .info h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 50px; }
+      @media only screen and (max-width: 1324px) {
+        .mixedreality .page_hero .info h1 {
+          font-size: 30px; } }
+    .mixedreality .page_hero .info h2 {
+      color: #FAD9D9;
+      font-size: 25px;
+      text-transform: uppercase;
+      margin-left: 0px;
+      letter-spacing: 4px; }
+      @media only screen and (max-width: 1324px) {
+        .mixedreality .page_hero .info h2 {
+          font-size: 20px;
+          margin-bottom: 10px;
+          margin-top: 10px; } }
+  .mixedreality .page_hero .graphic {
+    border: none; }
+    .mixedreality .page_hero .graphic img {
+      width: 100%;
+      height: auto;
+      border: none; }
+    @media only screen and (max-width: 768px) {
+      .mixedreality .page_hero .graphic {
+        height: auto;
+        width: 100%;
+        margin-bottom: -20vw; }
+        .mixedreality .page_hero .graphic img {
+          width: 110%;
+          margin-left: -5%; } }
+
+.mixedreality .brief {
+  width: 70vw;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+
+.mixedreality .page-facts {
+  background: #202E3C;
+  color: #fff; }
+  .mixedreality .page-facts .info {
+    padding: 6vw;
+    width: 60%; }
+  .mixedreality .page-facts .fact {
+    background: none; }
+    .mixedreality .page-facts .fact .photo {
+      padding: 5vw;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      width: 40%; }
+      .mixedreality .page-facts .fact .photo img {
+        width: 20vw;
+        height: auto; }
+  .mixedreality .page-facts .astrovr_wrap {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 10vw; }
+    .mixedreality .page-facts .astrovr_wrap .astrovr {
+      width: 30%;
+      margin: 0 auto; }
+    .mixedreality .page-facts .astrovr_wrap .stars {
+      width: 10%; }
+    .mixedreality .page-facts .astrovr_wrap .stars1 {
+      margin-top: -15vw; }
+    .mixedreality .page-facts .astrovr_wrap .stars2 {
+      margin-bottom: -15vw; }
+
+.mixedreality .carousel-inner {
+  min-height: 20vw; }
+  .mixedreality .carousel-inner .item {
+    transition: all .3s ease-in-out; }
+
+.mixedreality .app-bullets {
+  list-style-type: none !important;
+  min-height: 10vw;
+  text-align: center;
+  padding-left: 0; }
+  @media only screen and (max-width: 768px) {
+    .mixedreality .app-bullets {
+      margin-bottom: 30px;
+      margin-top: 30px; } }
+  .mixedreality .app-bullets .app-bullet {
+    position: relative;
+    z-index: 100;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 3vw;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    transition: all .3s ease-in-out; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .mixedreality .app-bullets .app-bullet {
+        margin: 5px;
+        border-radius: 10px;
+        border-bottom: initial;
+        font-size: 10px; } }
+    .mixedreality .app-bullets .app-bullet.active {
+      border-bottom: 3px solid; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .mixedreality .app-bullets .app-bullet.active {
+          border: 2px solid; } }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .mixedreality .app-bullets .app-bullet h2 {
+        font-size: 12px;
+        margin: 10px; } }
+
+.mixedreality .apps {
+  text-align: center;
+  padding: 20px; }
+  @media only screen and (max-width: 768px) {
+    .mixedreality .apps {
+      padding: 0px; } }
+  .mixedreality .apps .app-card {
+    background: #001E2A;
+    width: 16vw;
+    box-shadow: 0 0px 13px 0 rgba(0, 0, 0, 0.15);
+    z-index: 75;
+    border-radius: 8px;
+    text-align: center;
+    flex-direction: wrap;
+    color: #fff; }
+    @media only screen and (max-width: 768px) {
+      .mixedreality .apps .app-card {
+        width: 36vw; } }
+    .mixedreality .apps .app-card .app-logo {
+      width: auto;
+      border-radius: 8px 8px 0px 0px;
+      display: block;
+      margin: 0 auto;
+      max-width: 100%; }
+    .mixedreality .apps .app-card .title {
+      font-family: brandon-grotesque, futura-pt, sans-serif;
+      font-size: 22px;
+      min-height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .mixedreality .apps .app-card:hover {
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.1); }
+    .mixedreality .apps .app-card.selectedItem {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1); }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .mixedreality .apps .app-card.selectedItem {
+          box-shadow: none;
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1); } }
+  @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+    .mixedreality .apps .gridder-show {
+      margin-top: 20px; } }
+  .mixedreality .apps .gridder-show .gridder-navigation {
+    border-top: 0;
+    border-bottom: 0;
+    margin-top: 20px; }
+    .mixedreality .apps .gridder-show .gridder-navigation .gridder-close {
+      border-left: 0;
+      border-right: 0;
+      padding: 10px 5px; }
+      .mixedreality .apps .gridder-show .gridder-navigation .gridder-close:hover {
+        background: #E0BC4E; }
+  .mixedreality .apps .gridder-expanded-content {
+    display: flex;
+    align-items: center; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .mixedreality .apps .gridder-expanded-content {
+        display: block; } }
+    .mixedreality .apps .gridder-expanded-content .app-info {
+      padding-right: 30px; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .mixedreality .apps .gridder-expanded-content .app-info {
+          padding-right: 0px; } }
+    .mixedreality .apps .gridder-expanded-content .app-pane {
+      width: 50%; }
+      .mixedreality .apps .gridder-expanded-content .app-pane h2 {
+        font-family: brandon-grotesque, futura-pt, sans-serif;
+        font-size: 36px;
+        margin-bottom: 10px; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .mixedreality .apps .gridder-expanded-content .app-pane {
+          width: 100%;
+          display: block; } }
+    .mixedreality .apps .gridder-expanded-content h2 {
+      margin-left: 0px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 200;
+      font-size: 30px; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .mixedreality .apps .gridder-expanded-content h2 {
+          margin-right: 0px; } }
+    .mixedreality .apps .gridder-expanded-content p {
+      margin-bottom: 20px; }
+      .mixedreality .apps .gridder-expanded-content p.notsupported {
+        font-style: italic;
+        color: #DD1C1A; }
+  .mixedreality .apps .app-thumbnail {
+    display: flex;
+    justify-content: center; }
+    .mixedreality .apps .app-thumbnail img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 5px; }
+      .mixedreality .apps .app-thumbnail img.long {
+        height: 45vw;
+        width: auto; }
+        @media only screen and (max-width: 768px) {
+          .mixedreality .apps .app-thumbnail img.long {
+            height: 90vw;
+            margin: 0 auto; } }
+
+.mixedreality #ourstuff {
+  transition: all .3s ease-in-out;
+  background: #FAD9D9; }
+  .mixedreality #ourstuff.augmentedreality_selected {
+    background: #FAD9D9; }
+  .mixedreality #ourstuff.virtualreality_selected {
+    background: #E0BC4E; }
+
+.mixedreality .whataboutaris img {
+  margin: 0 auto;
+  display: block;
+  width: 60px; }
 
 .press #mainwrapper {
   overflow-x: initial;
