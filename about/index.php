@@ -71,7 +71,7 @@
 
         <!-- Begin Current Fellowships-->
 
-        <li class="gridder-list" data-griddercontent="#profile1">
+        <li class="gridder-list" data-griddercontent="#profile_david">
           <div class="profile-thumbnail">
             <img alt="David Gagnon" src="/assets/img/profiles/dave.jpg">
             <div class="card-summary">
@@ -81,7 +81,7 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile2">
+        <li class="gridder-list" data-griddercontent="#profile_sarah">
           <div class="profile-thumbnail">
             <img alt="Sarah Gagnon" src="/assets/img/profiles/sarah.jpg">
             <div class="card-summary">
@@ -91,7 +91,7 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile3">
+        <li class="gridder-list" data-griddercontent="#profile_jim">
           <div class="profile-thumbnail">
             <img alt="Jim Matthews" src="/assets/img/profiles/jim.jpg">
             <div class="card-summary">
@@ -101,21 +101,11 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile4">
+        <li class="gridder-list" data-griddercontent="#profile_eric">
           <div class="profile-thumbnail">
             <img alt="Eric Lang" src="/assets/img/profiles/eric.jpg">
             <div class="card-summary">
               <h3>Eric Lang</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile5">
-          <div class="profile-thumbnail">
-            <img alt="Mike Tolly" src="/assets/img/profiles/mike.jpg">
-            <div class="card-summary">
-              <h3>Mike Tolly</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -131,7 +121,7 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile7">
+        <li class="gridder-list" data-griddercontent="#profile_jenn">
           <div class="profile-thumbnail">
             <img alt="Jenn Scianna" src="/assets/img/profiles/jenn.jpg">
             <div class="card-summary">
@@ -141,11 +131,31 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile8">
+        <li class="gridder-list" data-griddercontent="#profile_lindy">
           <div class="profile-thumbnail">
             <img alt="Lindy Biller" src="/assets/img/profiles/lindy.jpg">
             <div class="card-summary">
               <h3>Lindy Biller</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_bobby">
+          <div class="profile-thumbnail">
+            <img alt="Lindy Biller" src="/assets/img/profiles/bobby.jpg">
+            <div class="card-summary">
+              <h3>Bobby Lockhart</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_mary">
+          <div class="profile-thumbnail">
+            <img alt="Lindy Biller" src="/assets/img/profiles/mary.jpg">
+            <div class="card-summary">
+              <h3>Mary Benetti</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -155,67 +165,7 @@
       <h2 class="section-title centered">Field Day Internship Program</h2>
       <p>We offer student internships in Game Engineering, Art and Design, and Research. Join our multidisciplinary team and work on learning games that reach classrooms across the country and beyond. Engineering and Art and Design interns will leave with portfolio pieces. Research interns will contribute to academic publications. We’re always taking applications! <a href="https://docs.google.com/forms/d/1GytOoW-J4q7N2r0TPfybcYcgQeGYDmrMVSlrhMDHIok/viewform?edit_requested=true#response=ACYDBNiX1njuwj-Ip-M0Y7F9nl3IL7-o-xtHtoQzFEFzRobQx61s-fLm_Wy2UeGdr-Etiwc" target="_blank">Contact us</a> if you’re interested. Art and Design applicants must include a portfolio. </p>
       <ul class="gridder">
-        <li class="gridder-list" data-griddercontent="#profile9">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/nick.jpg">
-            <div class="card-summary">
-              <h3>Nick Spevacek</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile10">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/luke.jpeg">
-            <div class="card-summary">
-              <h3>Luke Swanson</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile11">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/glenn.jpeg">
-            <div class="card-summary">
-              <h3>Glenn Palmer</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile12">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/ishita.jpeg">
-            <div class="card-summary">
-              <h3>Ishita Dhoot</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile13">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/matt.jpeg">
-            <div class="card-summary">
-              <h3>Matt Murphy</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile14">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/astro.jpg">
-            <div class="card-summary">
-              <h3>“Daus” Muhamad Firdaus Husaini</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile15">
+        <li class="gridder-list" data-griddercontent="#profile_reyna">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/reyna.jpeg">
             <div class="card-summary">
@@ -225,7 +175,67 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile16">
+        <li class="gridder-list" data-griddercontent="#profile_nick">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/nick.jpg">
+            <div class="card-summary">
+              <h3>Nick Spevacek</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_luke">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/luke.jpeg">
+            <div class="card-summary">
+              <h3>Luke Swanson</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_levi">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/levi.jpg">
+            <div class="card-summary">
+              <h3>Levi Huillet</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_amelia">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/amelia.jpg">
+            <div class="card-summary">
+              <h3>Amelia Moser</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_glenn">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/glenn.jpeg">
+            <div class="card-summary">
+              <h3>Glenn Palmer</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_matt">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/matt.jpeg">
+            <div class="card-summary">
+              <h3>Matt Murphy</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_john">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/astro.jpg">
             <div class="card-summary">
@@ -238,8 +248,19 @@
 
       <h2 class="section-title centered">Collaborating Artists and Contractors</h2>
 
+
       <ul class="gridder">
-        <li class="gridder-list" data-griddercontent="#profile17">
+        <li class="gridder-list" data-griddercontent="#profile_phil">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/phil.jpg">
+            <div class="card-summary">
+              <h3>Phil Dougherty</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_rodney">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/rodney.jpeg">
             <div class="card-summary">
@@ -249,29 +270,7 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile18">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/astro.jpg">
-            <div class="card-summary">
-              <h3>Danielle Sands</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-
-
-        <li class="gridder-list" data-griddercontent="#profile19">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/astro.jpg">
-            <div class="card-summary">
-              <h3>Jenni Leaver</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile20">
+        <li class="gridder-list" data-griddercontent="#profile_forest">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/forest.jpg">
             <div class="card-summary">
@@ -280,11 +279,41 @@
             </div>
           </div>
         </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_emily">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/emily.jpg">
+            <div class="card-summary">
+              <h3>Emily Meredith Lewis</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_terra">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/terra.jpg">
+            <div class="card-summary">
+              <h3>Terra</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_cyril">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/cy.jpg">
+            <div class="card-summary">
+              <h3>Cyril Peck</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
       </ul>
 
 
 <!-- Team Expanded content -->
-<div id="profile1" class="gridder-content">
+<div id="profile_david" class="gridder-content">
   <div class="row profile-inner profile-inner">
     <h3>David Gagnon</h3>
     <span>Director & Founder</span>
@@ -298,7 +327,7 @@
   </div>
 </div>
 
-<div id="profile2" class="gridder-content">
+<div id="profile_sarah" class="gridder-content">
   <div class="row profile-inner profile-inner">
     <h3>Sarah Gagnon</h3>
     <span>Creative Director</span>
@@ -315,7 +344,7 @@
   </div>
 </div>
 
-<div id="profile3" class="gridder-content">
+<div id="profile_jim" class="gridder-content">
   <div class="row profile-inner profile-inner">
     <h3>Jim Mathews</h3>
     <span>Education Director and Associate Researcher </span>
@@ -331,7 +360,7 @@
   </div>
 </div>
 
-<div id="profile4" class="gridder-content">
+<div id="profile_eric" class="gridder-content">
   <div class="row profile-inner profile-inner">
     <h3>Eric Lang</h3>
     <span>Art Director and Lead Designer</span>
@@ -348,22 +377,7 @@
   </div>
 </div>
 
-<div id="profile5" class="gridder-content">
-  <div class="row profile-inner profile-inner">
-    <h3>Mike Tolly</h3>
-    <span>Software Developer and Game Designer</span>
-    <div class="wrapper">
-      <div class="col-md-12 profile-expanded">
-        <p class="small">Mike is a developer with a serious knack for game design. He has worked as lead developer for STEMPorts, Play the Past, ARIS, The Firm, Viola, and Siftr, as well as helping with design work on Jo Wilder and the Capitol Case. Mike has a wide breadth of programming ability, with experience in web design, web apps, game scripting, native mobile development, and systems administration.
-</p>
-        <p class="small">Mike’s ability to push through and get stuff done can feel a little bit magical. In reality, it’s a combination of technical skill and focus. Mike is a man of few words, but when you get a chance to talk with him, it’s obvious that he’s smart, thoughtful, and (when he wants to be) ridiculously funny. Mike brings a sharp instinct for design and an awareness of the user's experience to all of his development work. 
-</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="profile6" class="gridder-content">
+<div id="profile_autumn" class="gridder-content">
   <div class="row profile-inner profile-inner">
     <h3>Autumn Beauchesne</h3>
     <span>Game Developer and Programmer </span>
@@ -380,7 +394,7 @@
   </div>
 </div>
 
-<div id="profile7" class="gridder-content">
+<div id="profile_jenn" class="gridder-content">
   <div class="row profile-inner profile-inner">
     <h3>Jennifer Scianna</h3>
     <span>Research Intern and Director’s Minion </span>
@@ -396,7 +410,7 @@
     </div>
   </div>
 
-  <div id="profile8" class="gridder-content">
+  <div id="profile_lindy" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Lindy Biller</h3>
       <span>Writer</span>
@@ -413,7 +427,7 @@
     </div>
   </div>
 
-  <div id="profile9" class="gridder-content">
+  <div id="profile_nick" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Nick Spevacek</h3>
       <span>Undergraduate Game Engineering and Research Intern</span>
@@ -432,7 +446,7 @@
     </div>
   </div>
 
-  <div id="profile10" class="gridder-content">
+  <div id="profile_luke" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Luke Swanson</h3>
       <span>Graduate Research Intern</span>
@@ -454,7 +468,7 @@
     </div>
   </div>
 
-  <div id="profile11" class="gridder-content">
+  <div id="profile_glenn" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Glenn Palmer</h3>
       <span>Graduate Research Intern</span>
@@ -477,26 +491,7 @@
     </div>
   </div>
 
-  <div id="profile12" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>Ishita Dhoot</h3>
-      <span>Undergraduate Research / Game Engineering Intern</span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Ishita is a game engineer pursuing a triple major in Computer Science, Data Science, and Economics. She splits her internship between our research and game engineering teams. She has designed games with Unity and enjoys moving between disciplines.</p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Integrating game data with Google Analytics for our upcoming AR game</li>
-            <li>Building prototypes in Unity for the Shipwrecks game
-</li>
-          </ul>
-          <p class="small">In her free time, Ishita plays badminton on a club team at UW-Madison and performs with Rang De, a Bollywood fusion dance team on campus. She grew up and attended high school in India.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="profile13" class="gridder-content">
+  <div id="profile_matt" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Matt Murphy</h3>
       <span>Undergraduate Game Engineering Intern</span>
@@ -513,28 +508,7 @@
     </div>
   </div>
 
-  <div id="profile14" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>“Daus” Muhamad Firdaus Husaini</h3>
-      <span>Research Intern </span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Daus is a Madison-based software engineer with an interest in data analytics. His dream is to create his own games and use data mining and analytics to understand games in new ways. Daus hails from Malaysia and recently finished his undergrad here at UW-Madison, where he majored in Computer Science and minored in graphic design and game design.</p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Data analytics for the Lakeland real-time dashboard
-</li>
-            <li>Creating models</li>
-            <li>Writing game code for logging functions
-</li>
-          </ul>
-          <p class="small">Check out Daus’s website and find out more about his work <a href="https://dauzzie.github.io/" target="_blank">here.</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="profile15" class="gridder-content">
+  <div id="profile_reyna" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Reyna Groff</h3>
       <span>Undergraduate Art and Design Intern  </span>
@@ -558,7 +532,7 @@
     </div>
   </div>
 
-  <div id="profile16" class="gridder-content">
+  <div id="profile_john" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>John McCloskey</h3>
       <span>Past Intern: Undergraduate Data Analyst</span>
@@ -580,7 +554,7 @@
     </div>
   </div>
 
-  <div id="profile17" class="gridder-content">
+  <div id="profile_rodney" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Rodney Lambright II</h3>
       <span>Artist and Animator </span>
@@ -593,33 +567,8 @@
     </div>
   </div>
 
-  <div id="profile18" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>Danielle Sands</h3>
-      <span>Artist and Designer</span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Danielle is an indie artist, designer, and gamer who makes fantastical 2D and 3D art for everything from video games to VR experiences. We met Danielle at MDEV, where she won the Best Art award for Gallus: Bazaar Eggscapade. (Yes, the game is as amazing as the title suggests.) Danielle has worked with us to create concept art for a currently untitled AR game. Danielle is a leader and mentor in the Madison game-art community. She started Art+Cade, a popup arcade and art show that raises money for charities. You can find her at <a target="_blank" href="http://sketchingsands.com">sketchingsands.com</a></p>
-</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div id="profile19" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>Jenni Leaver</h3>
-      <span>Artist, Graphic Designer, and Painter </span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Jenni is an amazing artist and illustrator, with work that is both quirky and sophisticated. She’s created art with Field Day from the beginning, when we first began working on a series of middle school science games called the Yard Games. Jenni’s unique characters brought the Yard Games to life and captured the imagination of kids everywhere. She also created concept art for the CRISPR game, Aqualab, and our currently-untitled AR game. She is currently the Senior Graphic Designer at Pacific Cycle. To contact her, see her website and portfolio at <a target="_blank" href="http://jennifer-leaver.squarespace.com">jennifer-leaver.squarespace.com</a></p>
-</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="profile20" class="gridder-content">
+  <div id="profile_forest" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Forest San Filippo</h3>
       <span>3D Artist</span>
@@ -627,6 +576,217 @@
         <div class="col-md-12 profile-expanded">
           <p class="small">Forest is a 3D artist with a background in graphic design and business. As a freelancer, he loves moving between different projects and exploring new ideas and styles. Forest did all of the 3D art and animation for our upcoming AR game. He worked with Eric and Sarah (Art Director and Creative Director) to take the vision for the game and translate it into amazing characters and background art. Forest is also a business owner and musician. He and his brother designed several games together as the small game studio Flippfly—including “Race the Sun,” for which Forest also created the soundtrack. You can find more of Forest’s work on Instagram <a href="https://instagram.com/ForestSanFilippo">@ForestSanFilippo</a>
 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_terra" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Terra</h3>
+      <span>Software Developer </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Terra is an amazing developer drawn to the challenge of learning games. She taught herself programming in high school and studied game development in college, before moving into a prolific career in educational games. Terra loves finding the balance of creating games that are simple and fun to play, so that kids will actually enjoy playing them, while communicating complex scientific ideas through the game mechanic. In her time as a game engineer at Filament Games, she created games for clients including Scholastic, Square Panda, and iCivics. </p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>Lead Developer for The Legend of the Lost Emerald</li>
+          </ul>
+          <p class="small">
+            Terra makes her own games at her independent game studio, Potato Interactive. Her most recent project is Crime Reaper, a murder mystery game! She’s also working on a Tarot game anthology, which will include 22 games. Terra does all of the writing, visual design, and sound design for her games, as well as the development. Check out her work <a href="https://rottentater.com/games/" target="_blank">here!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_cyril" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Cyril Peck</h3>
+      <span>In-game music and sound effects</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Every creative team needs someone with the ability to “yes, and…” a story or design problem, and Cy is just about the best there is. He’s also one of the most creative people you’ll ever meet. When it comes to creating music for games, Cy starts by immersing himself in the subject matter--like watching ocean documentaries when he was composing music for our in-progress oceanic adventure game, AquaLab--and trusting the music to come. It can be challenging to find the right tone for a scene, story, or moment, and Cy’s music helps us find it.
+</p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>Music and sound effects for Jo Wilder</li>
+            <li>Music and sound effects for Lost at the Forever Mine</li>
+          </ul>
+          <p class="small">
+            Cy began as a visual artist, creating commissioned album cover artwork and T-shirt designs, before realizing that music had always been a constant in his life. He learned to play the drums through playing Rock Band--the perfect merging of his love for music and video games. When it comes to the creative process, Cy is passionate about improvisation and pushes himself to keep things fresh and different. He shares visual art and poetry on Instagram at
+            <a href="https://www.instagram.com/dreamingspiders/" target="_blank">dreamingspiders</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_emily" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Emily Meredith Lewis</h3>
+      <span>Artist and animator</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Emily is a concept artist, animator, and game artist who uses art to educate people about unique species and conservation. In addition to being a talented artist, Emily is an amazing researcher with a love of learning. Her detailed concept art, research, and color studies bring depth and richness to our games. Emily is studying natural science illustration and animation at the Rhode Island School of Design. </p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>Lead artist for BrainPop projects</li>
+            <li>Concept art and color studies for AquaLab </li>
+            <li>Concept art and color studies for The Legend of the Lost Emerald</li>
+            <li>Concept art, color studies, and movement studies for the penguins VR game</li>
+            <li>Prototype art and animation for the Journalism game  </li>
+          </ul>
+          <p class="small">
+            Emily’s passion for natural science illustration began when she drew an endangered species of antelope to share with her art group. The species was so unfamiliar that her group thought she’d made a creature up! That was the spark for Emily’s popular Instagram series, Real and Endangered, in which she shared 125 days of endangered species art with fun facts and conservation status for each animal. Emily believes that education is a powerful, underutilized aspect of conservation. She uses art as a tool to help people connect with nature, because, in her words, when you learn about something, you start to care about it. <br />
+            Check out Emily’s art Instagram <a href="https://www.instagram.com/emilynettie/" target="_blank">here.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_bobby" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Game Designer</h3>
+      <span>Software Developer </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">
+            As a game designer at Field Day, Bobby brings a rich depth of experience in educational game design and development. When he was a kid, Bobby noticed his classmates’ halfhearted response to a programming environment that he loved working in. As a designer, he’s drawn to the challenge of figuring out why those kids weren’t interested, and how he can design with them in mind. Bobby uses his expertise to create games not just for the kids (and adults) who are already excited about learning, but for the ones who start out reluctant or uninterested. In addition to front-end design, he has worked closely with the writing and art teams at Field Day, developing story concepts and working with artists to create game art that is beautiful and cohesive.
+          </p>
+          <p class="small">
+            Bobby was a lead game designer at a casual games studio before starting his own studio, Important Little Games. He was the lead designer and programmer for Codemancer, a fantasy game that teaches programming for kids ages 6 through 12. Bobby wears a lot of hats and looks good in all of them. His background includes game design and programming—and also screenwriting, creative direction, and toy design, plus an educational background in film, TV production, math, and computer science. He can always be counted on for a good pun.
+          </p>
+
+          <p class="small">
+            Learn more about Bobby and see his portfolio <a href="https://bobbylox.com/blog/games" target="_blank">here</a>, and check out <a href="https://codemancergame.com/" target="_blank">Codemancer</a>, his magical programming game!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_levi" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Levi Huillet</h3>
+      <span>Game Engineering Intern</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Levi is a student game engineer who cares about using games to make a lasting impact on people’s lives. At Field Day, Levi has worked extensively on game mechanic development for Shipwrecks, as well as supporting and contributing to the writing team. Levi is a computer science major with a game design certificate. He has always been drawn to doing work that benefits people, and he considered psychiatry and writing before discovering game design and its rich potential for learning.</p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>Game development for Shipwrecks, including the evidence board mechanic and the sonar mechanic</li>
+            <li>Training and collaboration with the writing team
+</li>
+            <li>Implementing audio into the Shipwrecks game
+</Li>
+          </ul>
+          <p class="small">
+            Levi grew up traveling the world—he has lived in Washington, Hawaii, Qatar, and Germany before moving to the Midwest to study at UW-Madison. In addition to computer science and game design, he is currently studying Finnish—both because he loves the language, and because he’s interested in the technology and game design opportunities in Finland. He has worked on his own game design projects outside of Field Day and joined in game jams with other Field Day interns.
+          </p>
+          <p class="small">
+            Check out Levi's work <a href="https://stardark-ferry.itch.io/" target="_blank">here!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_amelia" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Amelia Moser</h3>
+      <span>Game Engineering Intern</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Amelia is a student game engineer with a knack for story and design. As a biochemistry major working toward certificates in game design and folklore, she brings a unique background and lots of creative insight to our team. Amelia loves working across disciplines. She has impressed everyone with her ability to take on different roles, from game development to prototype design and writing. As a new intern, she took the lead on developing a Twine prototype for our in-progress Journalism game, plus supporting our writing team in using Twine and adding her own witty, playful story ideas to the mix.</p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>Development and implementation of the BrainPop project</li>
+            <li>Development of the Journalism game prototype, in collaboration with the writing team</li>
+          </ul>
+          <p class="small">
+            Amelia has been designing games since she was a kid, creating handmade board games and coming up with elaborate recess activities for her classmates. She has a long list of hobbies and hidden talents—ink and pencil drawing, writing, 3D printing, bicycling and hiking,  her own game design projects, and even being a Dungeons and Dragons dungeon master, which makes sense, considering her on-the-fly storytelling prowess!
+          </p>
+          <p class="small">
+            Check out Amelia’s projects <a href="https://chemelia.itch.io/" target="_blank">here!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_mary" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Mary Benetti</h3>
+      <span>3D Artist</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Mary is a 3D artist with a background in game design and studio art. At Field Day, she has created beautiful 3D art, and has also contributed her expertise in modeling, texturing, and animation. Mary brings a rich background in painting, drawing, sculpture making, storyboarding, and VR. She has a personal mission to encourage curiosity and play--for all ages, and especially adults. She has created interactive sculptures from reused and thrifted materials, as well as a fun, tactile VR experience focused on play. Mary is interested in how learning games and virtual exhibits can be integrated with the physical world.</p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>3D art for the Shipwrecks game</li>
+            <li>Modeling, texturing, and animation for AquaLab</li>
+          </ul>
+          <p class="small">
+            Mary likes to connect her hobbies with motion and play, which has led to an amazing list of hidden talents--including drumming, fishkeeping, and underwater hockey. During college, she researched and created an independent project about motion and how it relates to physics and psychology. She brings a love of learning to everything she does.
+          </p>
+          <p class="small">
+            Check out Mary’s portfolio <a href="https://mbenetti.myportfolio.com/" target="_blank">here!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_phil" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Phil Dougherty</h3>
+      <span>Software Developer and Game Design Consultant </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Phil worked as Field Day’s lead software developer and game designer for almost 10 years. He was the principal developer for ARIS, The Yard Games, Lakeland, Jo Wilder and the Capitol Case, Play the Past, and Lost at the Forever Mine. Phil’s capacity to understand technical fields outside his expertise, such as thermodynamics, is mind boggling. Recently, he has returned to consult with Field Day on our in-progress Journalism and Shipwrecks games. </p>
+          <p class="small">
+            Phil is an amazing developer, which goes without saying. He’s also a kind soul and an articulate teacher. He understands programming and game theory on a deep, intuitive level, and he’s able to step back and meet people where they’re at. He’s a fantastic teacher, developer, and learner. Everything he says feels thoughtfully considered. When Phil says, “Hmm, that’s a good question,” you know you’re getting somewhere.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_mary" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Mary Benetti</h3>
+      <span>Software Developer </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Terra is an amazing developer drawn to the challenge of learning games. She taught herself programming in high school and studied game development in college, before moving into a prolific career in educational games. Terra loves finding the balance of creating games that are simple and fun to play, so that kids will actually enjoy playing them, while communicating complex scientific ideas through the game mechanic. In her time as a game engineer at Filament Games, she created games for clients including Scholastic, Square Panda, and iCivics. </p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>Lead Developer for The Legend of the Lost Emerald</li>
+          </ul>
+          <p class="small">
+            Terra makes her own games at her independent game studio, Potato Interactive. Her most recent project is Crime Reaper, a murder mystery game! She’s also working on a Tarot game anthology, which will include 22 games. Terra does all of the writing, visual design, and sound design for her games, as well as the development. Check out her work <a href="https://rottentater.com/games/" target="_blank">here!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_mary" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Mary Benetti</h3>
+      <span>Software Developer </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Terra is an amazing developer drawn to the challenge of learning games. She taught herself programming in high school and studied game development in college, before moving into a prolific career in educational games. Terra loves finding the balance of creating games that are simple and fun to play, so that kids will actually enjoy playing them, while communicating complex scientific ideas through the game mechanic. In her time as a game engineer at Filament Games, she created games for clients including Scholastic, Square Panda, and iCivics. </p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>Lead Developer for The Legend of the Lost Emerald</li>
+          </ul>
+          <p class="small">
+            Terra makes her own games at her independent game studio, Potato Interactive. Her most recent project is Crime Reaper, a murder mystery game! She’s also working on a Tarot game anthology, which will include 22 games. Terra does all of the writing, visual design, and sound design for her games, as well as the development. Check out her work <a href="https://rottentater.com/games/" target="_blank">here!</a>
+          </p>
         </div>
       </div>
     </div>
