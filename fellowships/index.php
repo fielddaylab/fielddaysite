@@ -395,7 +395,7 @@
     <div class="wrapper">
       <div class="col-md-7 game-expanded">
         <p>Come design a game with us! We’re looking for innovative 6th-9th grade science teachers to join our team and help create a new online game called AquaLab! Kids will need to use experimentation, modeling, and evidence-based argumentation to keep a marine research station running. Join a community of scientists, game designers, and researchers to create something awesome that will get used by kids all across the country! </p>
-        <a class="button small black" href="https://docs.google.com/forms/d/e/1FAIpQLSdIRalZif5lEWwDkMOiqqBqnvPCLTXQOcEwbUi0oA8InufMHg/viewform?usp=sf_link" onclick="ga('send', 'event', 'Apply', 'Click')" target="_blank">Apply Now</a>
+        <a class="button small black" target="_blank">We are not accepting new applicants at this time.</a>
       </div>
       <div class="col-md-5 cta">
         <img class="expanded-thumb img-responsive" alt="Shipwreck Teachers" src="/assets/img/fellowships/shipwreck-teachers.jpg">
