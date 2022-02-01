@@ -16,7 +16,8 @@
   <section class="singlehero page_hero">
     <div class="info">
       <h1 class="corrected">Research</h1>
-      <p class="corrected">We perform research at the intersection of theories of interactive media and situated and sociocultural learning. Our research addresses Mobile Mixed Reality, Games and Learning, and Learning Through Making.</p>
+      <p class="corrected">We use educational data mining and iterative, participatory design to understand how people learn with games. We use our findings to build theory and design effective interventions.
+</p>
     </div>
     <div class="graphic">
 
@@ -33,7 +34,7 @@
     <nav class="nav nav-tabs research-toggles">
       <ul>
         <li class="research-toggle research-toggle3 active"><a href="#approach" role="tab" data-toggle="tab">Our Approach</a></li>
-        <li class="research-toggle research-toggle1"><a href="#projects" role="tab" data-toggle="tab">Projects</a></li>
+        <!--<li class="research-toggle research-toggle1"><a href="#projects" role="tab" data-toggle="tab">Projects</a></li>-->
         <li class="research-toggle research-toggle2"><a href="#publications" role="tab" data-toggle="tab">Publications</a></li>
         <!--<li class="research-toggle research-toggle3"><a href="#press" role="tab" data-toggle="tab">Press</a></li>-->
       </ul>
@@ -45,11 +46,16 @@
         <div class="col-md-8 col-md-offset-2">
           <h2>Our Approach</h2>
           <div class="pub-wrap">
-            <p class="small">We perform research at the intersection of theories of interactive media and situated and sociocultural learning. Our research addresses Mobile Mixed Reality, Games and Learning, and Learning Through Making.</p>
-            <p class="small">Our team includes a professional design/production studio, which creates games and apps used by over a million users yearly. This affords us a unique opportunity to explore the ways in which large numbers of users create fine-grained data that inform our understanding of how to assess, design and theorize about how learning takes occurs. </p>
-            <p class="small">In the course of our own design research, we have produced tools that allow researchers, educators, and designers broadly (including kids!) to create their own interactive media. This has led to collaborations and inspiration beyond our wildest dreams! Therefore, we are committed to sharing and supporting our technology freely and openly, including community-based online support.</p>
-            <p class="small">If you are interested in exploring Augmented and Mixed Reality check out <a href="/make/aris">Aris</a> If you are investigating Digital Field Work and Citizen Science, check out <a target="_blank" href="http://siftr.org">Siftr</a> and the <a target="_blank" href="https://nomenproject.org/" target="_blank">Nomen Project</a></p>
-            <p class="small">Please share your research with us so that this community can continue to grow and benefit from our collective work. Also, if you are planning a research project that will be leveraging our technologies and tools, <a href="/work">contact us,</a> We would love to collaborate! </p>
+            <p class="small">At Field Day, we research games to understand how people learn and how we can design more effective games. We believe games are powerful tools for learning, but we need more detailed insight into exactly why and how. (Inspired by the theoretical argument for games described by Jim Gee and Kurt Squire’s work, our call to action is epitomized in Clark, Tanner-Smith, and Killingsworth’s 2016 empirical metastudy.)</p>
+            <p class="small">As a design studio and research lab, Field Day is uniquely positioned to leverage the broad user base of our games to perform original research around these questions. We’re able to put specific design features under the microscope during development, when there are opportunities to change course. Once in production, we use our games as instruments into the minds of our players, developing new theories of thinking and learning. We study both desktop games and mixed reality experiences. </p>
+          <h2>What’s unique about our research method?</h2>
+          <div class="pub-wrap">
+            <h3>Embedded assessments:</h3>
+            <p>We build learning instruments into our games. Specifically, we use evidence-centered design (see Mislevy) and stealth assessments (see Shute) so that player interactions in the game systems can be seen as salient problem-solving choices and activities within an authentic context. Over time, we’re able to use educational data mining approaches (see Baker) to predict and describe our players and their learning in novel ways.</p>
+            <h3>Massive data sets:</h3>
+            <p>Traditional methods of educational research produce data much more slowly than what we can collect through our learning games. Because our games are online and reach large audiences, they generate millions of data points daily. This allows us to test hypotheses over much shorter time periods. We adapt methods such as A/B testing to function as randomized control trials for research. Instead of optimizing on designs that generate profit, we validate the effectiveness of our learning experiences to improve learning outcomes, all in a period of days to weeks.</p>
+          </div>
+
           </div>
         </div>
       </div>

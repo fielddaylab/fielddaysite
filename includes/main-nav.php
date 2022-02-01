@@ -2,9 +2,9 @@
   <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
   <div class="left">
     <ul>
-      <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/fd-logo-nav.png"></a></li>
+      <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/fd-learning_games_logo_new.png"></a></li>
       <li class="small-navlink"><a class="drawerleft-toggle">games</a></li>
-      <li class="small-navlink"><a class="drawerright-toggle">mixed reality</a></li>
+      <li class="small-navlink"><a href="/mixedreality">mixed reality</a></li>
       <li class="small-navlink hide-for-nav-xsmall"><a href="/about">about us</a></li>
       <li class="small-navlink hide-for-nav"><a href="/research">research</a></li>
       <li class="small-navlink hide-for-nav"><a href="/fellowships">fellowships</a></li>
@@ -32,7 +32,7 @@
     <a class="draweritem drawer-intro" href="">
       <img class="intro-bg" src="/assets/img/logos/nowonder.png" />
       <h2>Our Games</h2>
-      <p>Our games get world-class research out to the public. Play the games and find teaching resources here.</p>
+      <p>Our games get world-class research out to the public.</p>
     </a>
 
     <a class="draweritem" href="/play/lakeland">
@@ -69,7 +69,17 @@
     <a class="draweritem drawer-intro" href="">
       <img class="intro-bg" src="/assets/img/logos/nowonder.png" />
       <h2>Mixed Reality</h2>
-      <p>Our games get world-class research out to the public. Play the games and find teaching resources here.</p>
+      <p>Our games get world-class research out to the public.</p>
+    </a>
+
+    <a class="draweritem" href="/make/aris">
+      <div class="draweritem-thumbnail" style="background: url('/assets/img/thumbs/thermovr_thumb.jpg'); background-size: cover;"></div>
+      <span>ThermoVR</span>
+    </a>
+
+    <a class="draweritem" href="/play/thestationmaine">
+      <div class="draweritem-thumbnail" style="background: url('/assets/img/thumbs/stationmaine-thumb.jpg'); background-size: cover;"></div>
+      <span>The Station:Maine</span>
     </a>
 
     <a class="draweritem" target="_blank" href="http://siftr.org">

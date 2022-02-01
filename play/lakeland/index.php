@@ -47,7 +47,9 @@ window.onload = function()
     <div class="app-description"><p class="small">This town-building game teaches complex systems. Made in partnership with the Scalable Systems Lab at UW-Madison. Played by thousands of kids a month.</p></div>
     <div class="buttons">
       <a class="button xsmall white filled" href="javascript:window.open('game/iframe.html','lakeland','width=1024,height=660')">Play the Game</a>
-      <a target="_blank" href="#teach" class="button xsmall white">Teach with the Game</a>
+      <a href="#teach" class="button xsmall white">Teach with the Game</a>
+      <a target="_blank" href="https://medium.com/fielddaylab/kids-are-using-lakeland-to-play-through-the-phosphorus-cycle-and-talk-about-poop-in-class-7c5bed32461c
+" class="button xsmall white">Read the Story</a>
     </div>
   </div>
 </section>
@@ -89,6 +91,7 @@ window.onload = function()
       <p>Luckily, you’ve got some friendly advisors to help you get started. Your Farm Advisor shows you how to grow corn. Now your people have food! Then you start a dairy farm. People love dairy. Milk, cheese, ice cream… what could go wrong?</p>
       <p>As it turns out, a lot. Cows don’t just produce milk. They also produce lots and lots of poop, which means the lakes your people love are about to turn into a toxic cesspool of blue-green algae. Your mission: grow your town without destroying their lakes.</p>
       <p>This game puts kids in charge of building their own town. Players add houses and farms, export produce, and manage resources like food, money, and manure. Students will get an introduction to the complex relationship between farming, soil nutrition, and lake pollution.</p>
+      <p>Want to learn more about Lakeland and Victor Zavala's research? <a href="https://medium.com/fielddaylab/kids-are-using-lakeland-to-play-through-the-phosphorus-cycle-and-talk-about-poop-in-class-7c5bed32461c" target="_blank">Read the Story</a></p>
 
       <h2 id="teach">Teach with Lakeland</h2>
       <p>Teachers can use Lakeland to explore the dynamics of the nutrient system and help students recognize the impact humans have on the world.</p>

@@ -1,7 +1,7 @@
 <!--include head
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
-<title>Fellowships - Field Day</title>  
+<title>Fellowships - Field Day</title>
 <meta name="description" content="Fellowships - Field Day">
 </head>
 
@@ -153,6 +153,20 @@
       <ul class="gridder">
 
         <!-- Begin Current Fellowships-->
+
+        <li class="gridder-list" data-griddercontent="#game17">
+          <div class="game-thumbnail">
+            <img alt="Aqualab" src="/assets/img/fellowships/journalism.jpg">
+          </div>
+          <div class="card-summary">
+            <div class="info">
+              <h3>Journalism Game Fellowship</h3>
+              <h4 class="date">Winter / Spring 2021 [Virtual]</h4>
+              <p>We’re looking for Educators who teach journalism and/or use news media and current events to teach science, social studies, or media and/or news literacy</p>
+            </div>
+            <span class="card-triangle"></span>
+          </div>
+        </li>
 
         <li class="gridder-list" data-griddercontent="#game16">
           <div class="game-thumbnail">
@@ -385,6 +399,24 @@
 
 
 <!-- Fellowship Expanded content -->
+
+<div id="game17" class="gridder-content">
+  <div class="row game-inner game17-inner">
+    <h3>Journalism Game Fellowship</h3>
+    <span>Winter / Spring 2021 [Virtual] </span>
+    <span>Stipend: $250 / teacher</span>
+    <span><a target="_blank" href="https://docs.google.com/document/d/1nPb0fABDncZN5GFVg0-WA3uQ84xkRHNmLwasPc9sPy0/edit#heading=h.gjdgxs">More Info</a></span>
+    <div class="wrapper">
+      <div class="col-md-7 game-expanded">
+        <p>Team up with Field Day to help create a game that will reach millions of kids! We’re looking for innovative teachers to serve as advisors on a new online game about journalism and news literacy. Kids will learn journalistic practices like checking sources, gaining public trust, and meeting deadlines under pressure. You’ll work alongside game designers, other teachers, journalists from USA Today, PBS Milwaukee, and Buzzfeed, and the co-founder and editor of The Open Notebook, a craft guide for science writers. Join our pop-up community and help create something awesome that will get used by kids all across the country.</p>
+        <a href="https://education.wisc.edu/news/the-journalism-game-scaling-practices-to-middle-school-youth-to-support-democracy-receives-baldwin-funding/" class="button small black" target="_blank">Read the Story</a>
+      </div>
+      <div class="col-md-5 cta">
+        <img class="expanded-thumb img-responsive" alt="game dashboard" src="/assets/img/fellowships/journalism.jpg">
+      </div>
+    </div>
+  </div>
+</div>
 
 <div id="game16" class="gridder-content">
   <div class="row game-inner game15-inner">
