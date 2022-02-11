@@ -218,6 +218,26 @@
         </div>
         <div class="col-sm-8">
           <h2 id="pub4">Written by Field Day Lab Staff</h2>
+<div class="pub-wrap">
+            <p class="small">
+Davis C.M., Kamarainen A., Storksdieck M., Gagnon D., Kermish-Allen R., Riedinger K. (2021) Using Design of Location-Based Augmented Reality Experiences to Engage Art-Oriented Girls in Technology and Science. Front. Educ. 6:689512. doi: 10.3389/feduc.2021.689512
+            </p>
+          </div>
+<div class="pub-wrap">
+            <p class="small">
+Pfotenhauer, J. M., & Gagnon, D. J. (2021), ThermoVR: A Virtual Laboratory to Enhance Learning in Undergraduate Thermodynamics Paper presented at 2021 ASEE Virtual Annual Conference Content Access, Virtual Conference. https://peer.asee.org/37908
+            </p>
+          </div>
+<div class="pub-wrap">
+            <p class="small">
+Metcalf, S. J., Sommi, A., Haddadin, S., Scianna, J., Gagnon, D. (2021). Work-in-Progress–—Game Design Informed by Learning Progressions for Science Practices. 2021 7th International Conference of the Immersive Learning Research Network (iLRN). 1-3. doi: 10.23919/iLRN52045.2021.9459406.
+            </p>
+          </div>
+<div class="pub-wrap">
+            <p class="small">
+Scianna J., Gagnon D., Knowles B. (2021) Counting the Game: Visualizing Changes in Play by Incorporating Game Events. In: Ruis A.R., Lee S.B. (eds) Advances in Quantitative Ethnography. ICQE 2021. Communications in Computer and Information Science, vol 1312. Springer, Cham. https://doi.org/10.1007/978-3-030-67788-6_15
+            </p>
+          </div>
           <div class="pub-wrap">
             <p class="small">
 Tredinnick, R., Cors, R., Madsen, J., Gagnon, D., Bravo-Gallart, S., Sprecher, B., & Ponto, K. (2020). Exploring the Universe from Antarctica—An Informal STEM Polar Research Exhibit. Journal of STEM Outreach, 1–13.
