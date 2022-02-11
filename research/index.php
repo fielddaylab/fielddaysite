@@ -220,7 +220,7 @@
           <h2 id="pub4">Written by Field Day Lab Staff</h2>
 <div class="pub-wrap">
             <p class="small">
-Davis C.M., Kamarainen A., Storksdieck M., Gagnon D., Kermish-Allen R., Riedinger K. (2021) Using Design of Location-Based Augmented Reality Experiences to Engage Art-Oriented Girls in Technology and Science. Front. Educ. 6:689512. doi: 10.3389/feduc.2021.689512
+Davis, C.M., Kamarainen, A., Storksdieck, M., Gagnon, D., Kermish-Allen, R., Riedinger, K. (2021) Using Design of Location-Based Augmented Reality Experiences to Engage Art-Oriented Girls in Technology and Science. Front. Educ. 6:689512. doi: 10.3389/feduc.2021.689512
             </p>
           </div>
 <div class="pub-wrap">
