@@ -154,6 +154,20 @@
 
         <!-- Begin Current Fellowships-->
 
+        <li class="gridder-list" data-griddercontent="#game18">
+          <div class="game-thumbnail">
+            <img alt="Library VR" src="/assets/img/fellowships/libraryVR.jpg">
+          </div>
+          <div class="card-summary">
+            <div class="info">
+              <h3>Virtual Reality Expeditions in your Library</h3>
+              <h4 class="date">Spring 2022 [Virtual]</h4>
+              <p>We’re looking for librarians in rural communities throughout Wisconsin to explore the use of VR to communicate cutting edge NSF research and engege local Latinx audiences.</p>
+            </div>
+            <span class="card-triangle"></span>
+          </div>
+        </li>
+
         <li class="gridder-list" data-griddercontent="#game17">
           <div class="game-thumbnail">
             <img alt="Aqualab" src="/assets/img/fellowships/journalism.jpg">
@@ -167,8 +181,12 @@
             <span class="card-triangle"></span>
           </div>
         </li>
+        
 
-        <li class="gridder-list" data-griddercontent="#game16">
+      <!-- Begin Past Fellowships-->
+      <h2 class="section-title centered">Past Fellowships</h2>
+
+      <li class="gridder-list" data-griddercontent="#game16">
           <div class="game-thumbnail">
             <img alt="Aqualab" src="/assets/img/fellowships/aqualab.jpg">
           </div>
@@ -182,7 +200,7 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#game15">
+      <li class="gridder-list" data-griddercontent="#game15">
           <div class="game-thumbnail">
             <img alt="Shipwrecks  " src="/assets/img/fellowships/gague.jpg">
           </div>
@@ -195,10 +213,6 @@
             <span class="card-triangle"></span>
           </div>
         </li>
-
-      <!-- Begin Past Fellowships-->
-      <h2 class="section-title centered">Past Fellowships</h2>
-
       <li class="gridder-list" data-griddercontent="#game14">
         <div class="game-thumbnail">
           <img alt="Dashboard Fellowship group picture" src="/assets/img/fellowships/dashboard-group.jpg">
@@ -399,6 +413,25 @@
 
 
 <!-- Fellowship Expanded content -->
+
+<div id="game17" class="gridder-content">
+  <div class="row game-inner game17-inner">
+    <h3>Virtual Reality Expeditions in your Library</h3>
+    <span>Spring 2022 [Virtual] </span>
+    <span>Stipend: $250</span>
+    <span><a target="_blank" href="https://docs.google.com/document/d/1Z0N_lRfnFDyVM84Th5Uwc6yUYgzI9QNFLAkeXCXmwE0/edit#heading=h.gjdgxs">More Info</a></span>
+    <div class="wrapper">
+      <div class="col-md-7 game-expanded">
+        <p>We’re looking for librarians in rural communities throughout Wisconsin to help us envision and implement a series of new Virtual Reality (VR) experiences designed for use in informal learning spaces. These experiences will focus on sharing cutting edge research currently being done by scientists in the Arctic and Antarctic polar regions. Additionally, we are interested in exploring how these experiences might be designed and promoted to specifically attract and engage Latinx audiences. </p>
+      </div>
+      <div class="col-md-5 cta">
+        <img class="expanded-thumb img-responsive" alt="game dashboard" src="/assets/img/fellowships/libraryVR.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <div id="game17" class="gridder-content">
   <div class="row game-inner game17-inner">
