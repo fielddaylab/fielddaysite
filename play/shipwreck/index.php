@@ -33,12 +33,15 @@ include_once($path); ?>
                 </div>
                 <div class="app-description">
                     <p class="small">
-                        ----------> this part needs to be added
+                        Play as a maritime archaeologist uncovering shipwrecks in the Great Lakes. Made in partnership with PBS Wisconsin and Wisconsin Sea Grant.
                     </p>
                 </div>
                 <div class="buttons">
                     <a target="_blank" href="" class="button xsmall white filled">Play the Game</a>
                     <a target="_blank" href="#app-about" class="button xsmall white">Learn about the Game</a>
+                    <a target="_blank" href="https://medium.com/fielddaylab/shipwrecks-and-sea-shanties-designing-a-game-to-teach-the-great-lakes-3339abddd865" class="button xsmall white">
+                        Read the Story
+                    </a>
                 </div>
             </div>
         </section>
@@ -49,189 +52,78 @@ include_once($path); ?>
                 <div class="col-sm-4">
                     <div class="about-nav follow-scroll">
                         <ul>
-                            <li><a href="#production">Production Team</a></li>
-                            <li><a href="#standards">Teaching Standards</a></li>
-                            <li><a href="#resources">Teacher Resources</a></li>
-                            <li><a href="#source">Source Code</a></li>
-                            <li><a href="#funding">Funding</a></li>
+                            <li><a href="#glance">At a Glance</a></li>
+                            <li><a href="#themes">Themes</a></li>
+                            <li><a href="#partners">Partners</a></li>
+                            <li><a href="#standards">Academic Standards</a></li>
+                            <li><a href="#gameplay">Gameplay/Story</a></li>
+                            <li><a href="#teach">Teach with Legend of the Lost Emerald </a></li>
                         </ul>
                     </div>
                 </div>
 
-                <div id="about" class="col-sm-8 about-rightpanel">
+                <div id="glance" class="col-sm-8 about-rightpanel">
+                    <h2 id="glance">At a Glance</h2>
+                    <ul>
+                        <li>Grade Level: 4-6</li>
+                        <li>Free to play</li>
+                        <li>Aligned with Wisconsin Academic Standards</li>
+                        <li>Playable online</li>
+                        <li>Average playtime: two class periods of 35-40 minutes</li>
+                        <li>Recommended browser: Google Chrome</li>
+                        </li>
+                    </ul>
+
                     <h2>About the Game</h2>
-                    <p>Play as Jo Wilder, a scrappy girl who spends her days with her pet badger Teddy and her grandpa, a historian. When some mysterious artifacts show up at the History Museum, you must unravel the clues to find the real stories behind the artifacts.</p>
 
-                    <p>Students will engage with the game as a tool for critical thinking and historical inquiry. As the plot unfolds, players come across primary source materials. They use the same skills as real historians: investigation, identification, corroboration and contextualizing evidence. To win each challenge, players must piece together the evidence to argue their case.</p>
-
-                    <p>Jo Wilder and the Capitol Case, a historical inquiry adventure game, was designed with a cohort of third, fourth and fifth grade social studies teachers and tested by students throughout the state of Wisconsin.
+                    <p>In Legend of the Lost Emerald, kids take on the role of maritime archaeologists exploring shipwrecks on the Great Lakes. Like real archaeologists, players use sonar and GPS coordinates, dive down to take underwater photos, and search for clues in historical artifacts, like letters and ship manifests, to tell the story of each shipwreck. We teamed up with maritime archaeologists at Wisconsin Sea Grant and amazing teacher fellows from across the state of Wisconsin to design a game that works in the classroom and introduces kids to the tools and practices of the field.
                     </p>
-                    <h2 id="production">Production Team</h2>
-                    <h3> Executive Producers</h3>
+
+                    <h2 id="themes">Themes</h2>
                     <ul>
-                        <li>David Gagnon</li>
-                        <li>Alyssa Tsagong</li>
+                        <li>Trade/Commerce/Manufacturing</li>
+                        <li>Movement of People</li>
+                        <li>Historical Conservation/Preservation</li>
+                        <li>Lake Ecology</li>
+                        <li>Technological Change</li>
                     </ul>
-                    <h3>Producers</h3>
-                    <ul>
-                        <li>Sarah Gagnon</li>
-                        <li>John Dollar</li>
-                    </ul>
-                    <h3>Education Fellows Director</h3>
-                    <ul>
-                        <li>Jim Mathews</li>
-                    </ul>
-                    <h3>Creative Director</h3>
-                    <ul <li>Sarah Gagnon</li>
-                    </ul>
-                    <h3>Art Direction and Graphic Design</h3>
-                    <ul <li>Eric Lang</li>
-                    </ul>
-                    <h3>Art & Animation</h3>
-                    <ul <li>Reyna Groff</li>
-                        <li>Eric Lang</li>
-                        <li>Rodney Lambright II</li>
-                        <li>Jennifer Leaver</li>
-                    </ul>
-                    <h3>Writing</h3>
-                    <ul>
-                        <li>Sarah Gagnon</li>
-                        <li>Lindy Biller</li>
-                        <li>Eric Lang</li>
-                        <li>Phil Dougherty</li>
-                    </ul>
-                    <h3>Original Music and Sound</h3>
-                    <ul>
-                        <li>Cyril Peck</li>
-                    </ul>
-                    <h3>Software Development</h3>
-                    <ul>
-                        <li>Phil Dougherty</li>
-                        <li>Mike Tolly</li>
-                    </ul>
-                    <h3>QA</h3>
-                    <ul>
-                        <li>Daniel Hying</li>
-                    </ul>
-                    <h3>Administration Support</h3>
-                    <ul>
-                        <li>Angel Cartagena</li>
-                        <li>Adam Chase</li>
-                        <li>Ahna Holliday</li>
-                        <li>Becki Kohl</li>
-                    </ul>
-                    <h3>Fellows</h3>
-                    <ul>
-                        <li>Andrea Bell-Myers - Brass Community School, Kenosha Unified School District</li>
-                        <li>Angie Bies - Waller Elementary School, Burlington Area School District</li>
-                        <li>Matt Daniels - Sheboygan Falls Elementary School, Sheboygan Falls School District</li>
-                        <li>Jennifer Guckenberger - Hadfield Elementary School, School District of Waukesha</li>
-                        <li>VaLisa Harmon - Wadewitz Elementary School, Racine Unified School District</li>
-                        <li>Tera Hollfelder - Arena Community Elementary School (ACES) - River Valley School District</li>
-                        <li>Jodi Kardin - Augusta Elementary School, Augusta Area School District</li>
-                        <li>George Klink - Elmwood Elementary School, School District of Elmwood</li>
-                        <li>Nikki Lutzke - Parkview Elementary School - Parkview School District</li>
-                        <li>Jonathan Mason - EAGLE School of Madison</li>
-                        <li>Peter Michaud - Reagan Elementary School, School District of New Berlin</li>
-                        <li>Kasey Rachu - Edgar Elementary School, Edgar School District</li>
-                        <li>Mary Roberts - Pardeeville Elementary School - Pardeeville Area School District </li>
-                        <li>Boyd Roessler - Hillcrest Elementary, School District of Waukesha</li>
-                        <li>Mike Scoville - Gibraltar Elementary School, Gibraltar Area School District</li>
-                        <li>Lisa Sorlie - School District of Bonduel</li>
-                        <li>Jim Tellstrom - Sunrise Elementary School, Sturgeon Bay Schools</li>
-                        <li>Julie Young - Minocqua-Hazelhurst-Lake Tomahawk (MHLT), Minocqua J1 School District</li>
-                        <li>Kati Walsh - John Muir Elementary School, Madison Metropolitan School District</li>
-                    </ul>
-                    <h3>Testing Provided By Students of:</h3>
-                    <ul>
-                        <li>Arena Community Elementary School - Arena, WI</li>
-                        <li>Augusta Elementary School - Augusta, WI</li>
-                        <li>Bonduel School District - Bonduel, WI</li>
-                        <li>Brillion Elementary School - Brillion, WI</li>
-                        <li>Eagle School - Madison, WI</li>
-                        <li>Edgar Elementary School - Edgar, WI</li>
-                        <li>Elmwood Elementary School - Elmwood, WI</li>
-                        <li>Gibraltar Area School District - Fish Creek, WI</li>
-                        <li>Hadfield Elementary School - Waukesha, WI</li>
-                        <li>Hillcrest Elementary School - Waukesha, WI</li>
-                        <li>Kenosha Unified School District - Kenosha, WI</li>
-                        <li>KM Explore Elementary School - Wales, WI</li>
-                        <li>Minocqua J1 School District - Minocqua, WI</li>
-                        <li>Pardeeville Elementary School - Pardeeville, WI</li>
-                        <li>Parkview Elementary School - Orfordville, WI</li>
-                        <li>Reagan Elementary School - New Berlin, WI</li>
-                        <li>Sheboygan Falls Elementary School - Sheboygan Falls, WI</li>
-                        <li>Wadewitz Elementary School - Racine, WI</li>
-                        <li>Waller Elementary School - Burlington, WI</li>
-                    </ul>
-                    <h3>Special Thanks</h3>
-                    <ul>
-                        <li>Keith Polkinghorne - Brillion Elementary School, Brillion Public Schools </li>
-                        <li>Michael Edmonds - Director of Programs and Outreach, Wisconsin Historical Society</li>
-                        <li>Jenny Kalvaitis - Museum Educator, Wisconsin Historical Museum</li>
-                        <li>Bobbi Malone - Author, Educator, Historian</li>
-                        <li>Simone Munson - Archivist, Wisconsin Historical Society</li>
-                        <li>Philip Ashby - Wisconsin Public Television</li>
-                        <li>Eric Greiling</li>
-                        <li>Jone Kiefer</li>
-                        <li>Kurt Kiefer - Department of Public Instruction</li>
-                        <li>Bobbie Malone </li>
-                        <li>Robert Mathieu - Wisconsin Center for Education Research</li>
-                        <li>Kris McDaniels</li>
-                        <li>David McHugh - Department of Public Instruction</li>
-                        <li>Keith Polkinghorne</li>
-                        <li>Brandon Ribordy</li>
-                        <li>Ken Rosenberg</li>
-                        <li>BrainPop</li>
-                    </ul>
-                    <h2 id="standards">Standards</h2>
-                    <p>Jo Wilder and the Capitol Case leverages primary source documents. The game is aligned with the <a target="_blank" href="https://dpi.wi.gov/sites/default/files/imce/standards/New%20pdfs/2018_WI_Social_Studies_Standards.pdf">Wisconsin Department of Public Instruction’s newly revised 3-5th grade Wisconsin Standards for Social Studies.</a> These Standards for Social Studies “...provide an important foundation to prepare students to become engaged, informed participants committed to the ideas and values of our democratic republic, able to apply the skills of inquiry, collaboration, decision-making, and problem-solving (adapted from the National Council for the Social Studies definition).” Jo Wilder and the Capitol Case was designed in close partnership with the DPI and the Wisconsin Historical Society in order to embody these new standards and their shift toward inquiry-driven pedagogy, specifically targeting the 3-5th grade standards outlined below.</p>
+
+                    <h2 id="partners">Partners</h2>
+                    <p>We made this game with our amazing partners at PBS Wisconsin and the experts at Wisconsin Sea Grant and the Wisconsin Historical Society, including maritime archaeologists Tamara Thomsen, Caitlin Zant, and Tori Kiefer, and Education Specialist Ann Moser. Throughout the design and testing process, we relied on the insights and expertise of Field Day teacher fellows from across Wisconsin and beyond.</p>
+
+                    <h2 id="standards">Academic Standards</h2>
+
+                    <h3> Wisconsin Standards for Social Studies</h3>
                     <div class="row standards-block">
                         <div class="col-sm-7">
-                            <p class="small"><span class="bold">SS.Inq2.b.i </span><br>Evaluate resources to determine which best support the inquiry and supporting questions.</p>
-                            <p class="small"><span class="bold">SS.Inq3.b.i </span><br>Select appropriate evidence from sources to support a claim.</p>
-                        </div>
-                        <div class="col-sm-5">
-                            <p class="small standards-explanation">These standards are addressed in the challenge sequences in the game, in which the player must select appropriate evidence to complete a logical claim about a historical interpretation.</p>
+                            <p class="small"><span class="bold">SS.Inq2 </span><br>Wisconsin students will gather and evaluate sources.</p>
+                            <p class="small"><span class="bold">SS.Inq3 </span><br>Wisconsin students will develop claims using evidence to support reasoning.</p>
+                            <p class="small"><span class="bold">SS.Geog1 </span><br>Wisconsin students will use geographic tools and ways of thinking to analyze the world.</p>
+                            <p class="small"><span class="bold">SS.Hist1</span><br>Wisconsin students will use historical evidence for determining cause and effect.</p>
                         </div>
                     </div>
+
+                    <h3> Wisconsin Standards for English Language Arts</h3>
                     <div class="row standards-block">
                         <div class="col-sm-7">
-                            <p class="small"><span class="bold">SS.Inq2.b.i </span><br>Analyze individuals, groups, and events to understand why their contributions are important to historical change and/or continuity.</p>
-                        </div>
-                        <div class="col-sm-5">
-                            <p class="small standards-explanation">This standard is addressed through the historical content of the game--suffrage and environmentalism.</p>
+                            <p class="small"><span class="bold">R.4.4 </span><br>Determine the meaning of words, phrases, figurative language, academic, and content-specific words within a text. (RI&RL) </p>
+                            <p class="small"><span class="bold">R.4.4a </span><br>Read grade-level text with purpose and understanding</p>
+                            <p class="small"><span class="bold">R.4.4c </span><br>Use context to confirm or self-correct word recognition and understanding, rereading as necessary.</p>
                         </div>
                     </div>
+
+                    <h3> Wisconsin Standards for Information and Technology Literacy</h3>
                     <div class="row standards-block">
                         <div class="col-sm-7">
-                            <p class="small"><span class="bold">SS.Hist4.c.i</span><br>Describe the intended purpose of a specific primary or secondary source.</p>
-                        </div>
-                        <div class="col-sm-5">
-                            <p class="small standards-explanation">This standard is addressed by the basic mechanic of the game--discovering the true intended purpose of specific primary source artifacts.</p>
+                            <p class="small"><span class="bold">ITL.KC1.c.2.i</span><br>Organize information from a variety of educator-selected, curated content and make meaningful, thematic connections between resources.</p>
                         </div>
                     </div>
-                    <h2 id="resources">Resources for Teaching</h2>
-                    <p>Teacher resources and tips were developed in partnership with Wisconsin Public Television. Coming soon in the Fall of 2018</p>
-                    <h2 id="source">Source Code</h2>
-                    <p>Jo Wilder and the Capitol Case is an open source project licensed under the MIT License: <a target="_blank" href="https://github.com/fielddaylab/jo_wilder">https://github.com/fielddaylab/jo_wilder</a></p>
-                    <h2 id="funding">Funding</h2>
-                    <ul>
-                        <li>Wisconsin Department of Public Instruction</li>
-                        <li>Wisconsin Center for Education Research</li>
-                        <li>Ron and Colleen Weyers</li>
-                        <li>Francis A. and Georgia F. Ariens Fund within the Brillion Area Family of Funds</li>
-                        <li>Ruth St. John and John Dunham West Foundation, Inc.</li>
-                        <li>Conney Family in loving memory of Mildred Conney</li>
-                        <li>Edvest College Savings Plan</li>
-                        <li>Eleanor and Thomas Wildrick Family</li>
-                        <li>Roger and Lynn Van Vreede</li>
-                        <li>American Transmission Company</li>
-                        <li>National Guardian Life Insurance Company</li>
-                        <li>BMO Harris Bank</li>
-                        <li>Timothy William Trout Education Fund</li>
-                        <li>Friends of Wisconsin Public Television</li>
-                    </ul>
+                    <h2 id="gameplay">Gameplay / Story</h2>
+                    <p>In this story-based game, you'll use a simple version of sonar, take underwater photos with a zoom-and-click mechanic, and connect strings on a corkboard-style evidence board to solve the mystery of each shipwreck. You play as a maritime archeologist whose grandfather captained a freighter that sank on Lake Superior. Throughout the game, you’ll use the practices of real archaeologists to locate shipwrecks, tell the stories of the past, and finally uncover the shipwreck that has haunted your family for generations.
+                    </p>
+                    <h2 id="teach">Teach with Legend of the Lost Emerald</h2>
+                    <p>Teachers can use this game to introduce kids to historical practices and themes from ecology, technology, and Wisconsin history. Students will learn about the role of maritime archaeologists, archivists, historians, and museum curators. The game introduces four different time periods in maritime history, ranging from wooden schooners in the mid-1800s to steel freighters in the 1960s. </p>
+
                 </div>
             </div>
         </section>

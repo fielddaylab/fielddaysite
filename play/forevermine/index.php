@@ -91,7 +91,7 @@ window.onload = function()
         <li>Play from a web browser—no logins or downloads required</li>
         <li>Free to play </li>
       </ul>
-      <h2 id="About">About the Game</h2>
+      <h2 id="about">About the Game</h2>
       <p>You are a material scientist who just crash-landed on an abandoned mining planet. You’re out of fuel, and your suit’s oxygen is running low. You need to mine enough fuel to power your ship, or you won’t survive.</p>
       <p>You stumble into the old mining facility. That’s where you meet MAL, the mine’s Artificial Intelligence, who is thrilled to have someone to talk to. With MAL’s help, you’ll build scientific models to predict if you’re mining fast enough and what you need to do next. </p>
       <p>Each level puts the student in the role of the scientific modeler. Students will set up equations, work with graphs, input data, and use models to make predictions. Along the way, as obstacles keep popping up, students will experience how models are used as a tool to make decisions.</p>
