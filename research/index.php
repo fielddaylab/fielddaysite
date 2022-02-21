@@ -33,15 +33,15 @@
 
     <nav class="nav nav-tabs research-toggles">
       <ul>
-        <li class="research-toggle research-toggle3 active"><a href="#approach" role="tab" data-toggle="tab">Our Approach</a></li>
+        <li class="research-toggle research-toggle2 active"><a href="#publications" role="tab" data-toggle="tab">Publications</a></li>
+        <li class="research-toggle research-toggle3"><a href="#approach" role="tab" data-toggle="tab">Research Approach</a></li>
         <!--<li class="research-toggle research-toggle1"><a href="#projects" role="tab" data-toggle="tab">Projects</a></li>-->
-        <li class="research-toggle research-toggle2"><a href="#publications" role="tab" data-toggle="tab">Publications</a></li>
         <!--<li class="research-toggle research-toggle3"><a href="#press" role="tab" data-toggle="tab">Press</a></li>-->
       </ul>
     </nav>
   </section>
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane fade in active" id="approach">
+    <div role="tabpanel" class="tab-pane fade" id="approach">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <h2>Our Approach</h2>
@@ -60,7 +60,7 @@
         </div>
       </div>
     </div>
-    <div role="tabpanel" class="tab-pane fade" id="projects">
+    <div role="tabpanel" class="tab-pane fade in" id="projects">
       <section class="publications">
         <div class="row">
           <div class="pub-nav-wrap sticky col-sm-4">
@@ -206,7 +206,7 @@
         </div>
       </section>
     </div>
-    <div role="tabpanel" class="tab-pane fade" id="publications">
+    <div role="tabpanel" class="tab-pane fade in active" id="publications">
       <div class="row">
         <div class="pub-nav-wrap sticky col-sm-4">
           <div class="pub-nav">
@@ -220,57 +220,57 @@
           <h2 id="pub4">Written by Field Day Lab Staff</h2>
 <div class="pub-wrap">
             <p class="small">
-Davis, C.M., Kamarainen, A., Storksdieck, M., Gagnon, D., Kermish-Allen, R., Riedinger, K. (2021) Using Design of Location-Based Augmented Reality Experiences to Engage Art-Oriented Girls in Technology and Science. Front. Educ. 6:689512. doi: 10.3389/feduc.2021.689512
+Davis, C.M., Kamarainen, A., Storksdieck, M., Gagnon, D., Kermish-Allen, R., Riedinger, K. (2021) <a href="https://doi.org/10.3389/feduc.2021.689512">Using Design of Location-Based Augmented Reality Experiences to Engage Art-Oriented Girls in Technology and Science.</a> Front. Educ. 6:689512. https://doi.org/10.3389/feduc.2021.689512
             </p>
           </div>
 <div class="pub-wrap">
             <p class="small">
-Pfotenhauer, J. M., & Gagnon, D. J. (2021), ThermoVR: A Virtual Laboratory to Enhance Learning in Undergraduate Thermodynamics Paper presented at 2021 ASEE Virtual Annual Conference Content Access, Virtual Conference. https://peer.asee.org/37908
+Pfotenhauer, J. M., & Gagnon, D. J. (2021), <a href="https://peer.asee.org/37908">ThermoVR: A Virtual Laboratory to Enhance Learning in Undergraduate Thermodynamics</a>. Paper presented at 2021 ASEE Virtual Annual Conference Content Access, Virtual Conference. https://peer.asee.org/37908
             </p>
           </div>
 <div class="pub-wrap">
             <p class="small">
-Metcalf, S. J., Sommi, A., Haddadin, S., Scianna, J., Gagnon, D. (2021). Work-in-Progress–—Game Design Informed by Learning Progressions for Science Practices. 2021 7th International Conference of the Immersive Learning Research Network (iLRN). 1-3. doi: 10.23919/iLRN52045.2021.9459406.
+Metcalf, S. J., Sommi, A., Haddadin, S., Scianna, J., Gagnon, D. (2021). <a href="https://ieeexplore.ieee.org/document/9459406">Work-in-Progress–—Game Design Informed by Learning Progressions for Science Practices.</a> 2021 7th International Conference of the Immersive Learning Research Network (iLRN). 1-3. doi: 10.23919/iLRN52045.2021.9459406.
             </p>
           </div>
 <div class="pub-wrap">
             <p class="small">
-Scianna J., Gagnon D., Knowles B. (2021) Counting the Game: Visualizing Changes in Play by Incorporating Game Events. In: Ruis A.R., Lee S.B. (eds) Advances in Quantitative Ethnography. ICQE 2021. Communications in Computer and Information Science, vol 1312. Springer, Cham. https://doi.org/10.1007/978-3-030-67788-6_15
+Scianna J., Gagnon D., Knowles B. (2021) <a href="https://doi.org/10.1007/978-3-030-67788-6_15">Counting the Game: Visualizing Changes in Play by Incorporating Game Events.</a> In: Ruis A.R., Lee S.B. (eds) Advances in Quantitative Ethnography. ICQE 2021. Communications in Computer and Information Science, vol 1312. Springer, Cham.  https://doi.org/10.1007/978-3-030-67788-6_15
             </p>
           </div>
           <div class="pub-wrap">
             <p class="small">
-Tredinnick, R., Cors, R., Madsen, J., Gagnon, D., Bravo-Gallart, S., Sprecher, B., & Ponto, K. (2020). Exploring the Universe from Antarctica—An Informal STEM Polar Research Exhibit. Journal of STEM Outreach, 1–13.
+Tredinnick, R., Cors, R., Madsen, J., Gagnon, D., Bravo-Gallart, S., Sprecher, B., & Ponto, K. (2020). <a href="https://doi.org/10.15695/jstem/v3i1.03">Exploring the Universe from Antarctica—An Informal STEM Polar Research Exhibit.</a> Journal of STEM Outreach, 1–13.https://doi.org/10.15695/jstem/v3i1.03
             </p>
           </div>
           <div class="pub-wrap">
             <p class="small">
-Gagnon, D. J., Harpstead, E., & Slater, S. (2019). Comparison of Off the Shelf Data Mining Methodologies in Educational Game Analytics. Joint Proceedings of the Workshops of the 12th International Conference on Educational Data Mining Co-Located with the 12th International Conference on Educational Data Mining (EDM 2019), 38–43.
+Gagnon, D. J., Harpstead, E., & Slater, S. (2019). <a href="https://www.semanticscholar.org/paper/Comparison-of-Off-the-Shelf-Data-Mining-in-Game-Gagnon-Harpstead/ea998b50ae57c63537dde075c0f7d53ea7d3bd84">Comparison of Off the Shelf Data Mining Methodologies in Educational Game Analytics.</a> Joint Proceedings of the Workshops of the 12th International Conference on Educational Data Mining Co-Located with the 12th International Conference on Educational Data Mining (EDM 2019), 38–43.
             </p>
           </div>
           <div class="pub-wrap">
             <p class="small">
-DuBois, T. A., Olson, R., Cederström, B. M., Mathews, J., & Gagnon, D. (2018). Siftr: A Tool for the Folklore Classroom. Journal of Folklore and Education, 5(1), 13–29.
+DuBois, T. A., Olson, R., Cederström, B. M., Mathews, J., & Gagnon, D. (2018). <a href="https://jfepublications.org/article/siftr/">Siftr: A Tool for the Folklore Classroom.</a> Journal of Folklore and Education, 5(1), 13–29.
             </p>
           </div>
           <div class="pub-wrap">
             <p class="small">
-Mathews, J., & Holden, C. (2018). The Design and Play of Geogames as Place-Based Education. In Geogames and Geoplay (pp. 161-176). Springer, Cham.
+Mathews, J., & Holden, C. (2018). <a href="https://link.springer.com/chapter/10.1007/978-3-319-22774-0_8">The Design and Play of Geogames as Place-Based Education.</a> In Geogames and Geoplay (pp. 161-176). Springer, Cham. https://doi.org/10.1007/978-3-319-22774-0_8
             </p>
           </div>
           <div class="pub-wrap">
             <p class="small">
-Carlson, K. J., & Gagnon, D. J. (2016). Augmented Reality Integrated Simulation Education in Health Care. Clinical Simulation in Nursing, 12(4), 123–127. https://doi.org/10.1016/j.ecns.2015.12.005
+Carlson, K. J., & Gagnon, D. J. (2016). <a href="https://doi.org/10.1016/j.ecns.2015.12.005">Augmented Reality Integrated Simulation Education in Health Care.</a> Clinical Simulation in Nursing, 12(4), 123–127. https://doi.org/10.1016/j.ecns.2015.12.005
             </p>
           </div>
           <div class="pub-wrap">
             <p class="small">
-Gagnon, D. (2015) Educational Mobile Games and the Tools that Invite Participation into Ecological Investigations. In Ugolini F., Raschi A., Papageorgiou F. (Eds), Proceedings of Environmental Education: Innovation in ICT and intergenerational learning. (pp. 24-25). IBIMET-CNR: Firenze, Italy.
+Gagnon, D. (2015) Educational Mobile Games and the Tools that Invite Participation into Ecological Investigations. In Ugolini F., Raschi A., Papageorgiou F. (Eds), <a href="https://www.researchgate.net/profile/Silvia-Merlino/publication/325049870_Marine_Litter_in_the_Pelagos_Sanctuary_alone_we_can_do_so_little_Together_we_can_do_so_much/links/5b053b250f7e9b24a2af70c7/Marine-Litter-in-the-Pelagos-Sanctuary-alone-we-can-do-so-little-Together-we-can-do-so-much.pdf">Proceedings of Environmental Education: Innovation in ICT and intergenerational learning.</a> (pp. 22-23). IBIMET-CNR: Firenze, Italy.
             </p>
           </div>
           <div class="pub-wrap">
             <p class="small">
-Gagnon, D., Vang, R., & Litts, B. K. (2015). Learning through design: ARIS. In K. Caldwell, S. Seyler, A. Ochsner, & C. Steinkuehler (Eds), Proceedings of the eleventh annual Games+Learning+Society Conference (pp. 282-288). ETC Press: Pittsburgh, PA.
+Gagnon, D., Vang, R., & Litts, B. K. (2015). Learning through design: ARIS. In K. Caldwell, S. Seyler, A. Ochsner, & C. Steinkuehler (Eds), <a href="10.1184/R1/6686777">Proceedings of the eleventh annual Games+Learning+Society Conference</a> (pp. 282-288). ETC Press: Pittsburgh, PA.
             </p>
           </div>
           <div class="pub-wrap">
@@ -290,12 +290,12 @@ Gagnon, D., Holden, C., Gottlieb, O., Long, K., Quintanilla, E., Kavaloski, A., 
           </div>
           <div class="pub-wrap">
             <p class="small">
-              Holden, C. L., Gagnon, D. J., Litts, B. K., & Smith, G. (2014). ARIS: An Open-Source Platform for Widespread Mobile Augmented Reality Experimentation. In F. Neto (Eds.), Technology Platform Innovations and Forthcoming Trends in Ubiquitous Learning (pp. 19-34). Hershey, PA: IGI Global. doi:10.4018/978-1-4666-4542-4.ch002
+              Holden, C. L., Gagnon, D. J., Litts, B. K., & Smith, G. (2014). <a href="doi:10.4018/978-1-4666-4542-4.ch002">ARIS: An Open-Source Platform for Widespread Mobile Augmented Reality Experimentation.</a> In F. Neto (Eds.), Technology Platform Innovations and Forthcoming Trends in Ubiquitous Learning (pp. 19-34). Hershey, PA: IGI Global. doi:10.4018/978-1-4666-4542-4.ch002
             </p>
           </div>
           <div class="pub-wrap">
             <p class="small">
-Gagnon, D. McGee, S., Litts, B., Martin, J., Moeller, J., Heindl, N., Dougherty, P. (2014). Mobile‐Enhanced Field Research: Increasing Plant Identification Accuracy and Efficiency. University of Wisconsin Mobile Learning Incubator.
+Gagnon, D. McGee, S., Litts, B., Martin, J., Moeller, J., Heindl, N., Dougherty, P. (2014). <a href=https://drive.google.com/file/d/1pp92cftIWig0oolQ0UGnJFmpicyXqOR5/view?usp=sharing">Mobile‐Enhanced Field Research: Increasing Plant Identification Accuracy and Efficiency.</a> University of Wisconsin Mobile Learning Incubator.
             </p>
           </div>
           <div class="pub-wrap">
