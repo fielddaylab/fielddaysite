@@ -8790,16 +8790,16 @@ section {
         height: 10vw; } }
 
 .hero-slider .carousel-inner .item:nth-child(1) {
-  background: url(../img/hero-images/dashboard-fellows.jpeg) no-repeat;
+  background: url(../img/hero-images/shipwreck.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
   .hero-slider .carousel-inner .item:nth-child(1) .item-info img {
-    width: 15vw;
+    width: 35vw;
     height: auto;
     margin-bottom: 15px; }
   @media only screen and (max-width: 768px) {
     .hero-slider .carousel-inner .item:nth-child(1) {
-      background-position: right; } }
+      background-position: center; } }
 
 .hero-slider .carousel-inner .item:nth-child(2) {
   background: url(../img/hero-images/lakeland.jpg) no-repeat;

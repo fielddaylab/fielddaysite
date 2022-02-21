@@ -84,18 +84,18 @@
     }
 
     .item:nth-child(1) {
-      background: url(../img/hero-images/dashboard-fellows.jpeg) no-repeat;
+      background: url(../img/hero-images/shipwreck.jpg) no-repeat;
       background-size:cover;
       background-position:center;
       .item-info {
         img {
-          width:15vw;
+          width:35vw;
           height:auto;
           margin-bottom:15px;
         }
       }
       @media #{$break-sm} {
-        background-position:right;
+        background-position:center;
       }
     }
 
