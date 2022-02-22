@@ -1,6 +1,6 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 
-<title>The Station: Maine - Field Day</title>
+<title>The Station: Maine - Field Day Learning Games</title>
 <meta name="description" content="In The Station: Maine, students in rural Maine play location-based quests focused on four themes: Water, Forestry, Energy, and Food. Players visit GPS-based tour stops, collect field notes, and take photos to share their own observations." />
 <!--<script>
 window.onload = function()

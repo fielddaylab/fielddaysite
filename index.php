@@ -1,5 +1,5 @@
 <?php include 'includes/header.php';?>
-<title>Field Day Lab</title>
+<title>Field Day Learning Games</title>
 <meta name="description" content="Field Day Lab">
 </head>
 <body class="nav-fixed home">

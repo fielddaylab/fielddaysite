@@ -1,6 +1,6 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 
-<title>Lakeland - Field Day</title>
+<title>Lakeland - Field Day Learning Games</title>
 <meta name="description" content="In this Math Drama, Play a scientist who just crash-landed on an abandoned mining planet. With your oxygen dwindling, you must use mathematical models to predict how you can get enough fuel to escape before time runs out." />
 <!--<script>
 window.onload = function()

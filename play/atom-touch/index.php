@@ -1,6 +1,6 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 
-<title>Field Day - Atom Touch</title>
+<title>Atom Touch - Field Day Learning Games</title>
 <script>
   function playContent()
   {

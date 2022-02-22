@@ -1,6 +1,6 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
 
-<title>Discover IceCube - Field Day</title>
+<title>Discover IceCube - Field Day Learning Games</title>
 <meta name="description" content="Discover IceCube - Field Day">
 <script>
   function playContent()
