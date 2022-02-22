@@ -8790,7 +8790,7 @@ section {
         height: 10vw; } }
 
 .hero-slider .carousel-inner .item:nth-child(1) {
-  background: url(../img/hero-images/shipwreck.jpg) no-repeat;
+  background: url(../img/hero-images/emerald.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
   .hero-slider .carousel-inner .item:nth-child(1) .item-info img {
@@ -9323,7 +9323,7 @@ hr {
   ---------------------------*/
   /* Template for Jo Wilder
   ---------------------------*/
-  /* Template for Shipwreck
+  /* Template for Emerald
   ---------------------------*/
   /* Template for Lakeland
   ---------------------------*/
@@ -9599,10 +9599,10 @@ hr {
     border-right: 0px !important;
     width: 31vw;
     height: 14vw; }
-  .singleapp.shipwreck #app-intro {
+  .singleapp.emerald #app-intro {
     padding: 5vw 0vw 5vw 0vw;
     text-align: center; }
-    .singleapp.shipwreck #app-intro .iframe-bg {
+    .singleapp.emerald #app-intro .iframe-bg {
       width: 880px;
       height: 660px;
       display: block;
@@ -9611,24 +9611,24 @@ hr {
       border: 0px;
       background: url(../img/iframe_img.jpg) no-repeat;
       background-size: cover; }
-    .singleapp.shipwreck #app-intro h2 {
+    .singleapp.emerald #app-intro h2 {
       text-transform: uppercase; }
-    .singleapp.shipwreck #app-intro .fullscreen {
+    .singleapp.emerald #app-intro .fullscreen {
       text-align: right;
       margin-top: 10px; }
-      .singleapp.shipwreck #app-intro .fullscreen img {
+      .singleapp.emerald #app-intro .fullscreen img {
         vertical-align: middle; }
-  .singleapp.shipwreck #app-about h3 {
+  .singleapp.emerald #app-about h3 {
     margin: 25px 0px 10px 0px; }
-  .singleapp.shipwreck .app-hero {
-    background: url(../img/hero-images/shipwreck.jpg) no-repeat;
+  .singleapp.emerald .app-hero {
+    background: url(../img/hero-images/emerald.jpg) no-repeat;
     background-size: cover;
     background-position: right; }
-  .singleapp.shipwreck .info-panel {
+  .singleapp.emerald .info-panel {
     border-bottom: 0px !important; }
-  .singleapp.shipwreck .app-title {
+  .singleapp.emerald .app-title {
     text-indent: -9999px;
-    background: url(../img/logos/shipwreck-logo.png) no-repeat;
+    background: url(../img/logos/emerald-logo.png) no-repeat;
     background-size: cover;
     border-right: 0px !important;
     width: 47vw;

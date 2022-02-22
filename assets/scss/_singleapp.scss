@@ -338,10 +338,10 @@
     }
   }
 
-  /* Template for Shipwreck
+  /* Template for Emerald
   ---------------------------*/
 
-  &.shipwreck {
+  &.emerald {
     #app-intro {
       padding: 5vw 0vw 5vw 0vw;
       text-align: center;
@@ -372,7 +372,7 @@
       }
     }
     .app-hero{
-      background:url(../img/hero-images/shipwreck.jpg) no-repeat;
+      background:url(../img/hero-images/emerald.jpg) no-repeat;
       background-size: cover;
       background-position:right;
     }
@@ -381,7 +381,7 @@
     }
     .app-title {
       text-indent:-9999px;
-      background:url(../img/logos/shipwreck-logo.png) no-repeat;
+      background:url(../img/logos/emerald-logo.png) no-repeat;
       background-size:cover;
       border-right:0px !important;
       width: 47vw;

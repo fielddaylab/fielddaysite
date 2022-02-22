@@ -3,7 +3,7 @@ var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
 
 gulp.task('styles', function (){
-  gulp.src('./assets/scss/styles_ver1.scss')
+  gulp.src('./assets/scss/styles_ver2.scss')
     .pipe(sass())
     .pipe(gulp.dest('./assets/css'))
     .pipe(browserSync.reload({stream: true}));

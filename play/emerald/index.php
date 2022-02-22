@@ -7,7 +7,7 @@ include_once($path); ?>
 <meta name="description" content="- Field Day">
 </head>
 
-<body class="singleapp shipwreck">
+<body class="singleapp emerald">
     <!--include Main Navigation
 ------------------------>
     <?php $path = $_SERVER['DOCUMENT_ROOT'];
