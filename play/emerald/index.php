@@ -25,11 +25,11 @@ include_once($path); ?>
                         <img class="breadcrumb-arrow" src="../../assets/img/ui/breadcrumb-arrow.png">
                         <li>Play</li>
                         <img class="breadcrumb-arrow" src="../../assets/img/ui/breadcrumb-arrow.png">
-                        <li>The ledgend of the Lost Emerald</li>
+                        <li>The legend of the Lost Emerald</li>
                     </ul>
                 </div>
                 <div class="app-info">
-                    <h1 class="app-title">The ledgend of the Lost Emerald</h1>
+                    <h1 class="app-title">The legend of the Lost Emerald</h1>
                 </div>
                 <div class="app-description">
                     <p class="small">
