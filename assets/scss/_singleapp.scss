@@ -338,6 +338,61 @@
     }
   }
 
+  /* Template for Shipwreck
+  ---------------------------*/
+
+  &.shipwreck {
+    #app-intro {
+      padding: 5vw 0vw 5vw 0vw;
+      text-align: center;
+      .iframe-bg {
+        width:880px;
+        height:660px;
+        display:block;
+        margin:0px auto;
+        overflow:hidden;
+        border:0px;
+        background:url(../img/iframe_img.jpg) no-repeat;
+        background-size: cover;
+      }
+      h2 {
+        text-transform: uppercase;
+      }
+      .fullscreen {
+        text-align: right;
+        margin-top: 10px;
+        img {
+          vertical-align: middle;
+        }
+      }
+    }
+    #app-about {
+      h3 {
+        margin: 25px 0px 10px 0px;
+      }
+    }
+    .app-hero{
+      background:url(../img/hero-images/shipwreck.jpg) no-repeat;
+      background-size: cover;
+      background-position:right;
+    }
+    .info-panel {
+      border-bottom: 0px !important;
+    }
+    .app-title {
+      text-indent:-9999px;
+      background:url(../img/logos/shipwreck-logo.png) no-repeat;
+      background-size:cover;
+      border-right:0px !important;
+      width: 47vw;
+      height: 14vw;
+    }
+    // .standard-title{
+    //   font-weight: bold;
+    //   margin-bottom: 10px;
+    // }
+  }
+
   /* Template for Lakeland
   ---------------------------*/
   &.lakeland {

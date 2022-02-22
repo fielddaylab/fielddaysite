@@ -8662,7 +8662,7 @@ section {
         background: url(../img/callouts/lakeland.jpg) no-repeat;
         background-size: cover; }
       .blogs .blogpost-wrap .blogpost.four .thumb {
-        background: url(../img/callouts/shipwrecks.jpg) no-repeat;
+        background: url(../img/callouts/emerald.jpg) no-repeat;
         background-size: cover; }
       .blogs .blogpost-wrap .blogpost h3 {
         font-weight: 500;
@@ -8790,16 +8790,16 @@ section {
         height: 10vw; } }
 
 .hero-slider .carousel-inner .item:nth-child(1) {
-  background: url(../img/hero-images/dashboard-fellows.jpeg) no-repeat;
+  background: url(../img/hero-images/shipwreck.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
   .hero-slider .carousel-inner .item:nth-child(1) .item-info img {
-    width: 15vw;
+    width: 35vw;
     height: auto;
     margin-bottom: 15px; }
   @media only screen and (max-width: 768px) {
     .hero-slider .carousel-inner .item:nth-child(1) {
-      background-position: right; } }
+      background-position: center; } }
 
 .hero-slider .carousel-inner .item:nth-child(2) {
   background: url(../img/hero-images/lakeland.jpg) no-repeat;
@@ -9323,6 +9323,8 @@ hr {
   ---------------------------*/
   /* Template for Jo Wilder
   ---------------------------*/
+  /* Template for Shipwreck
+  ---------------------------*/
   /* Template for Lakeland
   ---------------------------*/
   /* Template for StationMaine
@@ -9596,6 +9598,40 @@ hr {
     background-size: cover;
     border-right: 0px !important;
     width: 31vw;
+    height: 14vw; }
+  .singleapp.shipwreck #app-intro {
+    padding: 5vw 0vw 5vw 0vw;
+    text-align: center; }
+    .singleapp.shipwreck #app-intro .iframe-bg {
+      width: 880px;
+      height: 660px;
+      display: block;
+      margin: 0px auto;
+      overflow: hidden;
+      border: 0px;
+      background: url(../img/iframe_img.jpg) no-repeat;
+      background-size: cover; }
+    .singleapp.shipwreck #app-intro h2 {
+      text-transform: uppercase; }
+    .singleapp.shipwreck #app-intro .fullscreen {
+      text-align: right;
+      margin-top: 10px; }
+      .singleapp.shipwreck #app-intro .fullscreen img {
+        vertical-align: middle; }
+  .singleapp.shipwreck #app-about h3 {
+    margin: 25px 0px 10px 0px; }
+  .singleapp.shipwreck .app-hero {
+    background: url(../img/hero-images/shipwreck.jpg) no-repeat;
+    background-size: cover;
+    background-position: right; }
+  .singleapp.shipwreck .info-panel {
+    border-bottom: 0px !important; }
+  .singleapp.shipwreck .app-title {
+    text-indent: -9999px;
+    background: url(../img/logos/shipwreck-logo.png) no-repeat;
+    background-size: cover;
+    border-right: 0px !important;
+    width: 47vw;
     height: 14vw; }
   .singleapp.lakeland #app-intro {
     padding: 5vw 0vw 6vw 0vw;

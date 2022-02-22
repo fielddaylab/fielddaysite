@@ -15,7 +15,7 @@
         <ul class="carousel-indicators slide-bullets">
             <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
               <span class="bullet"></span>
-              <span class="bullet-caption">Field Day</span>
+              <span class="bullet-caption">Legend of the Lost Emerald</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
               <span class="bullet"></span>
@@ -37,9 +37,9 @@
         <div class="active item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" alt="Field Day Logo" src="/assets/img/logos/fd-white.png">
-              <p class="corrected">Our games bring contemporary research to the public. Want in? We'll turn your amazing work into a game that reaches huge audiences.</p>
-              <a href="/work" class="button white xsmall">How It Works</a>
+              <img class="" alt="Legend of the Lost Emerald Logo" src="/assets/img/logos/emerald-logo.png">
+              <p class="corrected">Play as a maritime archaeologist uncovering shipwrecks in the Great Lakes. Made in partnership with PBS Wisconsin and Wisconsin Sea Grant. </p>
+              <a href="/play/emerald" class="button white xsmall">Check it out</a>
             </div>
           </div>
         </div>
