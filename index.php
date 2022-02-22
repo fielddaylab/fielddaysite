@@ -37,9 +37,9 @@
         <div class="active item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" alt="Legend of the Lost Emerald Logo" src="/assets/img/logos/shipwreck-logo.png">
+              <img class="" alt="Legend of the Lost Emerald Logo" src="/assets/img/logos/emerald-logo.png">
               <p class="corrected">Play as a maritime archaeologist uncovering shipwrecks in the Great Lakes. Made in partnership with PBS Wisconsin and Wisconsin Sea Grant. </p>
-              <a href="/play/shipwreck" class="button white xsmall">Check it out</a>
+              <a href="/play/emerald" class="button white xsmall">Check it out</a>
             </div>
           </div>
         </div>
