@@ -35,8 +35,8 @@
       <p>Our games get world-class research out to the public.</p>
     </a>
 
-     <a class="draweritem" href="/play/shipwreck">
-      <div class="draweritem-thumbnail" style="background: url('/assets/img/thumbs/shipwrecks-thumb.jpg'); background-size: cover;"></div>
+     <a class="draweritem" href="/play/emerald">
+      <div class="draweritem-thumbnail" style="background: url('/assets/img/thumbs/emerald-thumb.jpg'); background-size: cover;"></div>
       <span>Legend of the Lost Emerald</span>
     </a>
 
