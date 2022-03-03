@@ -6,7 +6,7 @@ include_once($path); ?>
 <title>Field Day - Games</title>
 </head>
 
-<body class="singleapp page mixedreality ">
+<body class="singleapp page mixedreality">
     <!--include Main Navigation
 ------------------------>
     <?php $path = $_SERVER['DOCUMENT_ROOT'];
@@ -24,7 +24,7 @@ include_once($path); ?>
             <div class="info">
                 <h1 class="corrected">Our Games</h1>
                 <p class="corrected">Our games teach complex topics and get world-class research out to the public.</p>
-                <a href="#mr_sections" class="button black filled small">What we've made</a>
+                <a href="#game_section" class="button black filled small">Check out our games</a>
             </div>
             <div class="graphic">
                 <img class="floatslow" src="/assets/img/illustrations/mask.png">
@@ -34,74 +34,150 @@ include_once($path); ?>
 
         <section id="ourstuff" class="ourstuff">
             <div class="wrapper">
-                <h1 class="section-title centered cap">What we've made</h1>
-                <div id="mr_sections" class="slide carousel-fade">
-                    <ul class="carousel-indicators app-bullets">
-                        <li class="app-bullet active" data-target="#mr_sections" data-slide-to="0">
-                            <h2 class="augmentedreality_selector">Augmented Reality</h2>
-                        </li>
-                        <li class="app-bullet" data-target="#mr_sections" data-slide-to="1">
-                            <h2 class="virtualreality_selector">Virtual Reality</h2>
-                        </li>
-                    </ul>
+                <!-- <h1 class="section-title centered cap">What we've made</h1> -->
+                <div id="game_section" class="slide carousel-fade">
                     <!-- Carousel items -->
                     <div class="carousel-inner">
                         <div class="active item">
-                            <p class="brief padding">Interested in using AR to design a unique learning experience? We’ve been exploring AR since the first iPhone was released in 2007. Games like Pokemon Go are wildly popular, but there is untapped potential in using AR for learning. We see exciting possibilities for AR in museums, K-12 education, municipalities,and more.<br></p>
+                            <p class="brief padding">We work with researchers to create fun, academically rigorous games that get hundreds of thousands of plays. Researchers love that our games allow for depth and complexity, while providing a playful, engaging experience. We team up with teacher fellows and outreach experts to make sure our games work in classrooms and reach large audiences. <br></p>
                             <!-- Gridder navigation -->
                             <ul class="apps gridder">
-                                <li class="gridder-list app-card" data-griddercontent="#ar-app1">
-                                    <img src="/assets/img/thumbs/siftr-thumb.jpg" class="app-logo">
+                                <li class="gridder-list app-card" data-griddercontent="#game-emerald">
+                                    <img src="/assets/img/thumbs/emerald-thumb.jpg" class="app-logo">
                                     <div class="title">
-                                        <span class="title">Siftr</span>
+                                        <span class="title">Legend of the Lost Emerald</span>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#arvr-app2">
-                                    <img src="/assets/img/thumbs/stationmaine-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/thumbs/penguins-thumb.jpg" class="app-logo">
                                     <div class="title">
-                                        <span class="title">The Station:Maine</span>
+                                        <span class="title">Penguin Project <br/> (Coming Soon)</span>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#arvr-app3">
-                                    <img src="/assets/img/thumbs/aris-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
                                     <div class="title">
-                                        <span class="title">ARIS</span>
+                                        <span class="title">Lost at the Forever Mine </span>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#arvr-app4">
-                                    <img src="/assets/img/thumbs/ptp-logo.jpg" class="app-logo">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
                                     <div class="title">
-                                        <span class="title">Play the Past</span>
+                                        <span class="title">Lakeland</span>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#arvr-app8">
-                                    <img src="/assets/img/thumbs/viola-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
                                     <div class="title">
-                                        <span class="title">Viola</span>
+                                        <span class="title">Jo Wilder and the Capitol Case</span>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#arvr-app5">
-                                    <img src="/assets/img/thumbs/dowday-thumb.png" class="app-logo">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
                                     <div class="title">
-                                        <span class="title">Dow Day</span>
+                                        <span class="title">Crystal Cave</span>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#arvr-app9">
-                                    <img src="/assets/img/thumbs/arise-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
                                     <div class="title">
-                                        <span class="title">ARISE Nursing</span>
+                                        <span class="title">Marvelous Modeling</span>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#arvr-app7">
-                                    <img src="/assets/img/thumbs/sustainableu-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
                                     <div class="title">
-                                        <span class="title">Sustainable U</span>
+                                        <span class="title">Carbon Cycle</span>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
                                     <div class="title">
-                                        <span class="title">WeBird</span>
+                                        <span class="title">Water Cycle</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Nitrogen Cycle</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Magnet Hunt</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Hot Air Balloon</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Earthquake!</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Wave Combinator</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Antibiotic Resistance</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Wind Simulator</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Atom Touch</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Thermodynamics VR</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Plate Tectonics</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Rock Cycle</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Earth’s Force Fields</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Ocean and Air Currents</span>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="title">
+                                        <span class="title">Energy in Food Webs</span>
                                     </div>
                                 </li>
                             </ul>
@@ -110,35 +186,14 @@ include_once($path); ?>
 
                         </div>
                         <div class="item">
-                            <p class="brief">A lot of researchers and museums are curious about using VR for learning. At Field Day, we love designing VR experiences, and not just because VR is awesome. The situated nature of VR allows players to experience things that wouldn’t be possible in the real world.<br></p>
-
-                            <ul class="apps gridder">
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app10">
-                                    <img src="/assets/img/thumbs/thermovr_thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">ThermoVR</span>
-                                    </div>
-                                </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app11">
-                                    <img class="app-logo" src="/assets/img/thumbs/icecube-thumb.jpg">
-                                    <div class="title">
-                                        <span class="title">Discover IceCube</span>
-                                    </div>
-                                </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app12">
-                                    <img class="app-logo" src="/assets/img/thumbs/penguins-thumb.jpg">
-                                    <div class="title">
-                                        <span class="title">Upcoming: Penguins Project</span>
-                                    </div>
-                                </li>
-                            </ul>
-
-                            <div id="arvr-app1" class="app-expanded gridder-content">
+                            <div id="game-emerald" class="app-expanded gridder-content">
                                 <div class="app-info app-pane left">
                                     <span class="close-app">
-                                        <h2>ARIS</h2>
-                                        <p class="small">Create mobile games, tours and interactive stories with ARIS games. Players experience a hybrid world of virtual characters and media in physical space. Anyone who can read can play and design these games. Used in classrooms or informally. IOS device required.</p>
-                                        <a class="button small black" href="/make/aris" target="_blank">Learn More</a>
+                                        <h2>Legend of the Lost Emerald</h2>
+                                        <p class="small">
+                                            Take on the role of a maritime archaeologist uncovering shipwrecks in the Great Lakes! In this historical inquiry game, players use GPS coordinates, go out on dives, take underwater photos, and use artifacts to solve the mystery of each shipwreck.
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -270,52 +325,6 @@ include_once($path); ?>
                                     <img src="/assets/img/thumbnails/thermovr-thumbnail.png">
                                 </div>
                             </div>
-
-                            <div id="arvr-app11" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>IceCube</h2>
-                                        <p class="small">The IceCube Virtual Reality experience puts you in the role of an astrophysicist. You will journey deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica. Players learn about the IceCube observatory at the South Pole and the neutrinos they detect. Play at the Wisconsin Institute for Discovery in Madison, WI or download for your own VR device.</p>
-                                        <a class="button small black" href="/play/ice-cube" target="_blank">Learn about Discover IceCube</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/thumbs/icecube-thumb.png">
-                                </div>
-                            </div>
-
-                            <div id="arvr-app12" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Penguin Project - In Progress</h2>
-                                        <p class="small">Our in-progress Penguins VR Project will allow players to experience life at the South Pole--as a penguin! We’re thrilled to be working with penguin research Jean Pennycook to create a fun, playful experience that introduces people to her NSF-funded work. </p>
-                                        <hr />
-                                        <p class="note">Partners: NSF, Wisconsin Institute for Discovery, WIsconsin IceCube Particle Astrophysics Center</p>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/thumbnails/penguins-thumbnail.jpg">
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <ul class="apps gridder">
-                                <li class="gridder-list app-card" data-griddercontent="#field-app1">
-                                    <img class="app-logo" src="/assets/img/logos/colored/siftr-logo.png">
-                                    <span>Siftr</span>
-                                </li>
-                            </ul>
-
-                            <div id="ar-app1" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Siftr</h2>
-                                        <p class="small">Use Siftr to make fieldwork activities easy. Teachers take 5 minutes to create a Siftr and students use mobile devices to collect data and observations outside of the classroom. Siftr helps you focus students, organizes their data and creates automatic visualizations to facilitate discussions in classrooms or online.</p>
-                                        <a class="button small small black" href="http://siftr.org" target="_blank">Get Siftr</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img class="long" src="/assets/img/thumbnails/siftr-thumbnail.jpg">
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <!-- Carousel nav -->
@@ -331,12 +340,13 @@ include_once($path); ?>
                     <img src="/assets/img/illustrations/astrovr.png" alt="floating astronaut wearing a virtual reality headset" class="astrovr floatslow centered">
                     <img src="/assets/img/illustrations/stars1.png" alt="gold star accent" class="stars stars2">
                 </div>
-                <h1 class="section-title centered cap">Let’s make a mixed reality game together!</h1>
+                <h1 class="section-title centered cap">Let’s make a game together!</h1>
                 <div class="fact">
                     <div class="info">
-                        <h3 class="nocap">What does a VR Project Cost?</h3>
-                        <p class="small">VR projects start at about $100K and can go to the millions. We’ll meet with you for free to determine the scope of your project. Most of our partners are funded through research grants. Others work with us to develop a concept and raise funds. </p>
-                        <p>As part of WCER, we have access to a full grant-writing team. We can help you with the Broader Impacts portion of your grant or build a grant around your VR project. Step one is to reach out and set up a meeting! We’re excited to partner with you.</p>
+                        <h3 class="nocap">How Much Do Games Cost? </h3>
+                        <p class="small">
+                            Our games cost a fraction of a penny per minute of engagement and last for years. The exact cost will depend on the size and scope of your project. We’ll work with you to define the project and raise funds. As part of WCER, we have access to a full grant-writing team. We’ll help you with the Broader Impacts portion of your grant, or build a grant around your project.
+                        </p>
                     </div>
                     <div class="photo">
                         <img class="mr_coins responsive" alt="illustrations of floating coins" src="/assets/img/illustrations/coins.png">
@@ -345,32 +355,78 @@ include_once($path); ?>
 
                 <div class="fact">
                     <div class="photo">
-                        <img class="station_screenshot responsive" alt="image of the AR game The Station:Maine" src="/assets/img/illustrations/station_screenshot.png">
+                        <img class="station_screenshot responsive" alt="image of the AR game The Station:Maine" src="/assets/img/games/complex-topics.png">
                     </div>
                     <div class="info">
-                        <h3 class="nocap">Your next Augmented Reality Game: <br />Powered by Field Day</h3>
-                        <p>Our customizable game and design platform is centered around community-based quests. Players collect virtual notes spawned on their map. learn about key concepts, visit stops, and make observations. Think Pokemon GO, but for learning.</p>
-                        <hr />
-                        <h4>How much does it cost?</h4>
-                        <p>Cost depends on how you’d like to use it. There are different tiers of involvement, from simply customizing your own quests to partnering with us to rebrand the platform with unique art, characters, and story. We’re looking for people interested in testing and prototyping. If you’re familiar with ARIS and have worked with us before, reach out to us.</p>
-                        <p class="supersmall note">Partners: Vanderbilt University, Smart & Connected Communities Grant through the National Science Foundation</p>
+                        <h3 class="nocap">Use Games to Teach Complex Topics</h3>
+                        <p>
+                            If the information feels too complicated, kids won’t engage. Our games allow for depth and complexity, while creating a playful, engaging experience for kids. Set up a meeting to learn more! We’re excited to partner with you.
+                        </p>
                         <a href="/work" class="button pink filled small">Have an idea? Let's talk!</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="whataboutaris">
-            <div class="container">
-                <img class="centered" src="/assets/img/logos/aris-logo-dark.png">
-                <h2 class="section-title centered cap">What about Aris?</h2>
-                <p>ARIS was our popular AR game design platform. Over the last decade, we’ve loved seeing the creative ways that researchers and educators have used ARIS all over the world. (See our Past Projects below for some awesome ARIS projects.)</p>
-                <br />
-                <p>In 2020, we made the difficult decision to stop supporting this platform. ARIS might still work on older operating systems, but it has the potential to stop working at any time.</p>
-                <br />
-                <p>What’s next? There isn’t a tool that directly replaces ARIS, which leaves a gap for many designers. But we haven’t given up on AR. Siftr includes the field collection elements from ARIS. The Station, also focused on fieldwork, is a customizable game with quest-driven mechanics. We’ll continue to share new opportunities for collaborative design projects. </p>
-                <br />
-                <a class="button small black" href="/make/aris" target="_blank">Learn More</a>
 
+        <section class="faq">
+            <h2 class="uppercase centered header">Common Questions</h2>
+            <div id="faq" class="carousel slide carousel-fade " data-ride="carousel">
+                <div class=" questions">
+                    <ul class="carousel-indicators">
+                        <li class="active" data-target="#faq" data-slide-to="0">
+                            Who do we work with?
+                        </li>
+                        <li class="" data-target="#faq" data-slide-to="1">
+                            How are our projects funded?
+                        </li>
+                        <li class="" data-target="#faq" data-slide-to="2">
+                            Why use games for outreach?
+                        </li>
+                        <li class="" data-target="#faq" data-slide-to="2">
+                            Are games cost effective?
+                        </li>
+                        <li class="" data-target="#faq" data-slide-to="3">
+                            How do games help with research?
+                        </li>
+                    </ul>
+                </div>
+                <div class="answers carousel-inner">
+                    <div class="item active">
+                        <h3>A stipend and travel costs.</h3>
+                        <p class="small">
+                            We’ve worked with researchers, museums, public media, and large research institutions. Some of our partners already have an idea for a game or project, while others are looking to revamp their outreach strategy.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h3>Your kids will become game testers which is really cool for them. </h3>
+                        <p class="small">
+                            Some of our partners already have funding, while others need to raise funds. We know how to work with granting agencies and fit within Broader Impacts budgets. As part of WCER, we have access to a full grants department that will provide support throughout your project.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h3>We think so! </h3>
+                        <p class="small">
+                            If the information feels too complicated, kids won’t engage. Our games allow for depth and complexity, while also allowing kids to have fun and feel like they’re playing!
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h3>Absolutely. </h3>
+                        <p class="small">
+                            Yes! Our games cost a fraction of a penny per minute of engagement. Millions of dollars each year are invested in Broader Impacts projects that reach just a few people. Our games reach hundreds of thousands of kids and last for years.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h3>Yes!</h3>
+                        <p class="small">
+                            We love it when teachers return. Many of our projects continue over a few semesters and include a few fellowship cohorts. We give priority to teachers who have come to past fellowships. More than anything, we want to build a community of like minded educators to inspire us and each other. Once you join the Field Day community, you are part of our team. </p>
+                    </div>
+                    <div class="item">
+                        <h3>We do!</h3>
+                        <p class="small">
+                            Our games include built-in evaluation and learning assessments. You’ll have access to real-time data that you can use in your research and share with your granting agency, coworkers, and leaders.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
