@@ -6,7 +6,7 @@ include_once($path); ?>
 <title>Field Day - Games</title>
 </head>
 
-<body class="singleapp page mixedreality">
+<body class="singleapp page play">
     <!--include Main Navigation
 ------------------------>
     <?php $path = $_SERVER['DOCUMENT_ROOT'];
@@ -24,10 +24,15 @@ include_once($path); ?>
             <div class="info">
                 <h1 class="corrected">Our Games</h1>
                 <p class="corrected">Our games teach complex topics and get world-class research out to the public.</p>
-                <a href="#game_section" class="button black filled small">Check out our games</a>
+                <a href="#game_section" class="button yellow filled small">Check out our games</a>
             </div>
             <div class="graphic">
-                <img class="floatslow" src="/assets/img/illustrations/mask.png">
+
+
+                <div id="home-planet" class="floatslow">
+                    <img id="kid-on-moon" src="/assets/img/games/kid-on-moon-04.png">
+                </div>
+
             </div>
         </section>
 
@@ -43,31 +48,31 @@ include_once($path); ?>
                             <!-- Gridder navigation -->
                             <ul class="apps gridder">
                                 <li class="gridder-list app-card" data-griddercontent="#game-emerald">
-                                    <img src="/assets/img/thumbs/emerald-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/emerald.jpeg" class="app-logo">
                                     <div class="title">
                                         <span class="title">Legend of the Lost Emerald</span>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#arvr-app2">
-                                    <img src="/assets/img/thumbs/penguins-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/penguins.jpeg" class="app-logo">
                                     <div class="title">
-                                        <span class="title">Penguin Project <br/> (Coming Soon)</span>
+                                        <span class="title">Penguin Project <br /> (Coming Soon)</span>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#arvr-app3">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/forevermine.jpeg" class="app-logo">
                                     <div class="title">
                                         <span class="title">Lost at the Forever Mine </span>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#arvr-app4">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/lakeland.jpeg" class="app-logo">
                                     <div class="title">
                                         <span class="title">Lakeland</span>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#arvr-app8">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/jowilder.jpeg" class="app-logo">
                                     <div class="title">
                                         <span class="title">Jo Wilder and the Capitol Case</span>
                                     </div>
@@ -337,7 +342,9 @@ include_once($path); ?>
             <div class="wrapper">
                 <div class="astrovr_wrap">
                     <img src="/assets/img/illustrations/stars1.png" alt="gold star accent" class="stars stars1">
-                    <img src="/assets/img/illustrations/astrovr.png" alt="floating astronaut wearing a virtual reality headset" class="astrovr floatslow centered">
+                    <img id="play-teacher" src="/assets/img/games/teachernaut.png" alt="floating astronaut teacher with a tablet" class="astrovr floatslow centered teacher">
+                    <img id="play-kid1" src="/assets/img/games/kidstronaut2.png" alt="floating astronaut kid with tablet" class="astrovr float centered kidA">
+                    <img id="play-kid2" src="/assets/img/games/kidstronaut3.png" alt="floating astronaut kid having so much fun" class="astrovr floatslow centered kidB">
                     <img src="/assets/img/illustrations/stars1.png" alt="gold star accent" class="stars stars2">
                 </div>
                 <h1 class="section-title centered cap">Let’s make a game together!</h1>
@@ -355,7 +362,7 @@ include_once($path); ?>
 
                 <div class="fact">
                     <div class="photo">
-                        <img class="station_screenshot responsive" alt="image of the AR game The Station:Maine" src="/assets/img/games/complex-topics.png">
+                        <img class="forevermine_screenshot responsive" alt="image of the AR game The Station:Maine" src="/assets/img/games/complex-topics.png">
                     </div>
                     <div class="info">
                         <h3 class="nocap">Use Games to Teach Complex Topics</h3>
@@ -382,46 +389,41 @@ include_once($path); ?>
                         <li class="" data-target="#faq" data-slide-to="2">
                             Why use games for outreach?
                         </li>
-                        <li class="" data-target="#faq" data-slide-to="2">
+                        <li class="" data-target="#faq" data-slide-to="3">
                             Are games cost effective?
                         </li>
-                        <li class="" data-target="#faq" data-slide-to="3">
+                        <li class="" data-target="#faq" data-slide-to="4">
                             How do games help with research?
                         </li>
                     </ul>
                 </div>
                 <div class="answers carousel-inner">
                     <div class="item active">
-                        <h3>A stipend and travel costs.</h3>
+                        <!-- <h3>Many!</h3> -->
                         <p class="small">
                             We’ve worked with researchers, museums, public media, and large research institutions. Some of our partners already have an idea for a game or project, while others are looking to revamp their outreach strategy.
                         </p>
                     </div>
                     <div class="item">
-                        <h3>Your kids will become game testers which is really cool for them. </h3>
+                        <!-- <h3> </h3> -->
                         <p class="small">
                             Some of our partners already have funding, while others need to raise funds. We know how to work with granting agencies and fit within Broader Impacts budgets. As part of WCER, we have access to a full grants department that will provide support throughout your project.
                         </p>
                     </div>
                     <div class="item">
-                        <h3>We think so! </h3>
+                        <!-- <h3>So that kids can engage!</h3> -->
                         <p class="small">
                             If the information feels too complicated, kids won’t engage. Our games allow for depth and complexity, while also allowing kids to have fun and feel like they’re playing!
                         </p>
                     </div>
                     <div class="item">
-                        <h3>Absolutely. </h3>
+                        <h3>Yes!</h3>
                         <p class="small">
-                            Yes! Our games cost a fraction of a penny per minute of engagement. Millions of dollars each year are invested in Broader Impacts projects that reach just a few people. Our games reach hundreds of thousands of kids and last for years.
+                            Our games cost a fraction of a penny per minute of engagement. Millions of dollars each year are invested in Broader Impacts projects that reach just a few people. Our games reach hundreds of thousands of kids and last for years.
                         </p>
                     </div>
                     <div class="item">
-                        <h3>Yes!</h3>
-                        <p class="small">
-                            We love it when teachers return. Many of our projects continue over a few semesters and include a few fellowship cohorts. We give priority to teachers who have come to past fellowships. More than anything, we want to build a community of like minded educators to inspire us and each other. Once you join the Field Day community, you are part of our team. </p>
-                    </div>
-                    <div class="item">
-                        <h3>We do!</h3>
+                        <!-- <h3>A lot!</h3> -->
                         <p class="small">
                             Our games include built-in evaluation and learning assessments. You’ll have access to real-time data that you can use in your research and share with your granting agency, coworkers, and leaders.
                         </p>

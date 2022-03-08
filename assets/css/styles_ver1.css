@@ -7730,7 +7730,8 @@ button.close {
 
 /* Global
 ------------------------------------------ */
-html, body {
+html,
+body {
   height: 100%;
   -webkit-overflow-scrolling: touch; }
 
@@ -7768,12 +7769,16 @@ hr {
   .hide-for-small {
     display: none !important; } }
 
-@media only screen and (max-device-width: 1000px), only screen and (max-width: 1000px) {
+@media only screen and (max-device-width: 1072px), only screen and (max-width: 1072px) {
   .hide-for-nav {
     display: none !important; } }
 
 @media only screen and (max-width: 768px) {
   .hide-for-nav-xsmall {
+    display: none !important; } }
+
+@media only screen and (max-device-width: 400px), only screen and (max-width: 400px) {
+  .hide-for-nav-narrow {
     display: none !important; } }
 
 .sticky {
@@ -7968,7 +7973,9 @@ p a {
   opacity: 1;
   z-index: 1000; }
 
-.nav-fixed .drawer.drawer-left, .nav-fixed .drawer.drawer-right, .singleapp .drawer.drawer-left, .singleapp .drawer.drawer-right {
+.nav-fixed .drawer.drawer-left, .nav-fixed .drawer.drawer-right,
+.singleapp .drawer.drawer-left,
+.singleapp .drawer.drawer-right {
   transform: translateY(-400px);
   width: 100%;
   left: 0;
@@ -7976,7 +7983,9 @@ p a {
   height: auto;
   opacity: 0;
   background: #001E2A; }
-  .nav-fixed .drawer.drawer-left .drawer-contents, .nav-fixed .drawer.drawer-right .drawer-contents, .singleapp .drawer.drawer-left .drawer-contents, .singleapp .drawer.drawer-right .drawer-contents {
+  .nav-fixed .drawer.drawer-left .drawer-contents, .nav-fixed .drawer.drawer-right .drawer-contents,
+  .singleapp .drawer.drawer-left .drawer-contents,
+  .singleapp .drawer.drawer-right .drawer-contents {
     position: relative !important;
     width: auto;
     display: flex;
@@ -7987,9 +7996,13 @@ p a {
     padding-top: 8vw;
     padding-bottom: 6vw; }
     @media only screen and (max-width: 1024px) {
-      .nav-fixed .drawer.drawer-left .drawer-contents, .nav-fixed .drawer.drawer-right .drawer-contents, .singleapp .drawer.drawer-left .drawer-contents, .singleapp .drawer.drawer-right .drawer-contents {
+      .nav-fixed .drawer.drawer-left .drawer-contents, .nav-fixed .drawer.drawer-right .drawer-contents,
+      .singleapp .drawer.drawer-left .drawer-contents,
+      .singleapp .drawer.drawer-right .drawer-contents {
         padding-top: 10vw; } }
-    .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
+    .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem,
+    .singleapp .drawer.drawer-left .drawer-contents .draweritem,
+    .singleapp .drawer.drawer-right .drawer-contents .draweritem {
       height: 15vw;
       width: 14vw;
       vertical-align: bottom;
@@ -8000,12 +8013,16 @@ p a {
       max-height: 500px;
       min-height: 220px; }
       @media only screen and (max-width: 1024px) {
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem {
           width: 26vw;
           max-width: initial;
           max-width: 350px; } }
       @media only screen and (max-width: 768px) {
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem {
           width: 100vw;
           height: 50px;
           min-height: initial;
@@ -8014,25 +8031,37 @@ p a {
           flex-direction: row;
           align-items: center;
           margin-bottom: 0vw !important; }
-          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem span, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem span, .singleapp .drawer.drawer-left .drawer-contents .draweritem span, .singleapp .drawer.drawer-right .drawer-contents .draweritem span {
+          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem span, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem span,
+          .singleapp .drawer.drawer-left .drawer-contents .draweritem span,
+          .singleapp .drawer.drawer-right .drawer-contents .draweritem span {
             text-align: left !important;
             margin-top: 0px !important; }
-          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail, .singleapp .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .singleapp .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail {
+          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail,
+          .singleapp .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail,
+          .singleapp .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail {
             width: 70px !important;
             height: 70px !important;
             margin-right: 20px; } }
       @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem {
           max-width: initial;
           margin: 3vw;
           margin-bottom: 10vw; } }
-      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem:hover, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem:hover, .singleapp .drawer.drawer-left .drawer-contents .draweritem:hover, .singleapp .drawer.drawer-right .drawer-contents .draweritem:hover {
+      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem:hover, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem:hover,
+      .singleapp .drawer.drawer-left .drawer-contents .draweritem:hover,
+      .singleapp .drawer.drawer-right .drawer-contents .draweritem:hover {
         transform: scale(1.05); }
-      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail, .singleapp .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .singleapp .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail {
+      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail,
+      .singleapp .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail,
+      .singleapp .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail {
         height: 90%;
         width: 100%;
         border-radius: 15px; }
-      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem span, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem span, .singleapp .drawer.drawer-left .drawer-contents .draweritem span, .singleapp .drawer.drawer-right .drawer-contents .draweritem span {
+      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem span, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem span,
+      .singleapp .drawer.drawer-left .drawer-contents .draweritem span,
+      .singleapp .drawer.drawer-right .drawer-contents .draweritem span {
         color: #fff;
         display: block;
         text-align: center;
@@ -8041,29 +8070,43 @@ p a {
         margin-top: 20px;
         letter-spacing: 3px;
         line-height: 24px; }
-      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro {
+      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro,
+      .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro,
+      .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro {
         position: relative;
         font-size: 14px; }
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2 {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2 {
           margin-bottom: 14px; }
         @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
-          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro {
+          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro,
+          .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro,
+          .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro {
             width: 100vw;
             margin-top: 10vw;
             margin-bottom: 3vw;
             height: auto;
             min-height: initial; } }
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro:hover, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro:hover, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro:hover, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro:hover {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro:hover, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro:hover,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro:hover,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro:hover {
           transform: scale(1); }
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2 {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2 {
           margin-left: 0px;
           margin-top: 0px;
           font-size: 34px;
           text-transform: uppercase;
           letter-spacing: 3px; }
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro p, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro p, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro p, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro p {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro p, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro p,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro p,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro p {
           line-height: 28px; }
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro .intro-bg, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro .intro-bg, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro .intro-bg, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro .intro-bg {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro .intro-bg, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro .intro-bg,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro .intro-bg,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro .intro-bg {
           width: 120px;
           height: 120px;
           position: absolute;
@@ -8071,17 +8114,21 @@ p a {
           left: -20px;
           opacity: .5; }
 
-.nav-fixed.drawerleft-open #mainwrapper, .singleapp.drawerleft-open #mainwrapper {
+.nav-fixed.drawerleft-open #mainwrapper,
+.singleapp.drawerleft-open #mainwrapper {
   transform: translateY(400px); }
 
-.nav-fixed.drawerright-open #mainwrapper, .singleapp.drawerright-open #mainwrapper {
+.nav-fixed.drawerright-open #mainwrapper,
+.singleapp.drawerright-open #mainwrapper {
   transform: translateY(400px); }
 
-.nav-fixed.drawerright-open .drawer-right, .singleapp.drawerright-open .drawer-right {
+.nav-fixed.drawerright-open .drawer-right,
+.singleapp.drawerright-open .drawer-right {
   transform: translateX(0px);
   opacity: 1; }
 
-.nav-fixed.drawerleft-open .drawer-left, .singleapp.drawerleft-open .drawer-left {
+.nav-fixed.drawerleft-open .drawer-left,
+.singleapp.drawerleft-open .drawer-left {
   transform: translateX(0px);
   opacity: 1; }
 
@@ -8154,6 +8201,9 @@ p a {
     @media only screen and (max-width: 768px) {
       .small-nav .logo {
         width: 180px; } }
+    @media only screen and (max-device-width: 400px), only screen and (max-width: 400px) {
+      .small-nav .logo {
+        border-right: 0; } }
     .small-nav .logo a {
       padding: 0px;
       line-height: 0px; }
@@ -11638,6 +11688,281 @@ hr {
     background: #E0BC4E; }
 
 .mixedreality .whataboutaris img {
+  margin: 0 auto;
+  display: block;
+  width: 60px; }
+
+.play .page_hero {
+  background: url(/assets/img/games/bg-space-03.png);
+  background-size: cover;
+  background-position: left;
+  margin-top: 60px;
+  padding: 3vw 0vw;
+  height: 80vh; }
+  @media only screen and (max-width: 768px) {
+    .play .page_hero {
+      flex-direction: column-reverse;
+      height: auto;
+      padding: 2vw;
+      margin-top: 20px; } }
+  .play .page_hero .info {
+    color: #F6F6F3;
+    width: 40%;
+    padding: 8vw 0vw 8vw 8vw;
+    margin-right: 10%; }
+    .play .page_hero .info p {
+      margin-bottom: 20px;
+      color: #F6F6F3; }
+    @media only screen and (max-width: 768px) {
+      .play .page_hero .info {
+        width: 40%;
+        padding: 15vw 0vw 8vw 8vw; } }
+    .play .page_hero .info h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 50px; }
+      @media only screen and (max-width: 1324px) {
+        .play .page_hero .info h1 {
+          font-size: 30px; } }
+    .play .page_hero .info h2 {
+      color: #FAD9D9;
+      font-size: 25px;
+      text-transform: uppercase;
+      margin-left: 0px;
+      letter-spacing: 4px; }
+      @media only screen and (max-width: 1324px) {
+        .play .page_hero .info h2 {
+          font-size: 20px;
+          margin-bottom: 10px;
+          margin-top: 10px; } }
+  .play .page_hero .graphic {
+    border: none; }
+    .play .page_hero .graphic img {
+      width: 100%;
+      height: auto;
+      border: none; }
+    .play .page_hero .graphic #kid-on-moon {
+      width: 100%;
+      transform: translateX(10%) translateY(50%); }
+    @media only screen and (max-width: 768px) {
+      .play .page_hero .graphic {
+        height: auto;
+        width: 100%;
+        margin-bottom: -20vw; }
+        .play .page_hero .graphic #kid-on-moon {
+          width: 100%;
+          transform: translateX(60%) translateY(50%); } }
+
+.play .brief {
+  width: 70vw;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+
+.play .page-facts {
+  background: #202E3C;
+  color: #fff; }
+  .play .page-facts .info {
+    padding: 6vw;
+    width: 60%; }
+  .play .page-facts .fact {
+    background: none; }
+    .play .page-facts .fact .photo {
+      padding: 5vw;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      width: 40%; }
+      .play .page-facts .fact .photo img {
+        width: 20vw;
+        height: auto; }
+      .play .page-facts .fact .photo .forevermine_screenshot {
+        width: 30vw;
+        height: auto; }
+  .play .page-facts .astrovr_wrap {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 10vw; }
+    @media only screen and (max-width: 768px) {
+      .play .page-facts .astrovr_wrap {
+        width: 100vw; } }
+    .play .page-facts .astrovr_wrap .astrovr {
+      margin: 0 auto; }
+    .play .page-facts .astrovr_wrap .stars {
+      width: 10%; }
+    .play .page-facts .astrovr_wrap .stars1 {
+      margin-top: -15vw;
+      margin-right: 3vw; }
+    .play .page-facts .astrovr_wrap .stars2 {
+      margin-bottom: -15vw; }
+    .play .page-facts .astrovr_wrap .teacher {
+      width: 30%;
+      margin-right: 2vw; }
+    .play .page-facts .astrovr_wrap .kidA {
+      width: 20%; }
+    .play .page-facts .astrovr_wrap .kidB {
+      width: 25%; }
+
+.play .carousel-inner {
+  min-height: 20vw; }
+  .play .carousel-inner .item {
+    transition: all .3s ease-in-out; }
+
+.play .app-bullets {
+  list-style-type: none !important;
+  min-height: 10vw;
+  text-align: center;
+  padding-left: 0; }
+  @media only screen and (max-width: 768px) {
+    .play .app-bullets {
+      margin-bottom: 30px;
+      margin-top: 30px; } }
+  .play .app-bullets .app-bullet {
+    position: relative;
+    z-index: 100;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 3vw;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    transition: all .3s ease-in-out; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .play .app-bullets .app-bullet {
+        margin: 5px;
+        border-radius: 10px;
+        border-bottom: initial;
+        font-size: 10px; } }
+    .play .app-bullets .app-bullet.active {
+      border-bottom: 3px solid; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .play .app-bullets .app-bullet.active {
+          border: 2px solid; } }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .play .app-bullets .app-bullet h2 {
+        font-size: 12px;
+        margin: 10px; } }
+
+.play .apps {
+  text-align: center;
+  padding: 20px; }
+  @media only screen and (max-width: 768px) {
+    .play .apps {
+      padding: 0px; } }
+  .play .apps .app-card {
+    background: #001E2A;
+    width: 16vw;
+    box-shadow: 0 0px 13px 0 rgba(0, 0, 0, 0.15);
+    z-index: 75;
+    border-radius: 8px;
+    text-align: center;
+    flex-direction: wrap;
+    color: #fff; }
+    @media only screen and (max-width: 768px) {
+      .play .apps .app-card {
+        width: 36vw; } }
+    .play .apps .app-card .app-logo {
+      width: auto;
+      border-radius: 8px 8px 0px 0px;
+      display: block;
+      margin: 0 auto;
+      max-width: 100%; }
+    .play .apps .app-card .title {
+      font-family: brandon-grotesque, futura-pt, sans-serif;
+      font-size: 22px;
+      min-height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 10px;
+      padding-right: 10px; }
+    .play .apps .app-card:hover {
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.1); }
+    .play .apps .app-card.selectedItem {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1); }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .play .apps .app-card.selectedItem {
+          box-shadow: none;
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1); } }
+  @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+    .play .apps .gridder-show {
+      margin-top: 20px; } }
+  .play .apps .gridder-show .gridder-navigation {
+    border-top: 0;
+    border-bottom: 0;
+    margin-top: 20px; }
+    .play .apps .gridder-show .gridder-navigation .gridder-close {
+      border-left: 0;
+      border-right: 0;
+      padding: 10px 5px; }
+      .play .apps .gridder-show .gridder-navigation .gridder-close:hover {
+        background: #E0BC4E; }
+  .play .apps .gridder-expanded-content {
+    display: flex;
+    align-items: center; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .play .apps .gridder-expanded-content {
+        display: block; } }
+    .play .apps .gridder-expanded-content .app-info {
+      padding-right: 30px; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .play .apps .gridder-expanded-content .app-info {
+          padding-right: 0px; } }
+    .play .apps .gridder-expanded-content .app-pane {
+      width: 50%; }
+      .play .apps .gridder-expanded-content .app-pane h2 {
+        font-family: brandon-grotesque, futura-pt, sans-serif;
+        font-size: 36px;
+        margin-bottom: 10px; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .play .apps .gridder-expanded-content .app-pane {
+          width: 100%;
+          display: block; } }
+    .play .apps .gridder-expanded-content h2 {
+      margin-left: 0px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 200;
+      font-size: 30px; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .play .apps .gridder-expanded-content h2 {
+          margin-right: 0px; } }
+    .play .apps .gridder-expanded-content p {
+      margin-bottom: 20px; }
+      .play .apps .gridder-expanded-content p.notsupported {
+        font-style: italic;
+        color: #DD1C1A; }
+  .play .apps .app-thumbnail {
+    display: flex;
+    justify-content: center; }
+    .play .apps .app-thumbnail img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 5px; }
+      .play .apps .app-thumbnail img.long {
+        height: 45vw;
+        width: auto; }
+        @media only screen and (max-width: 768px) {
+          .play .apps .app-thumbnail img.long {
+            height: 90vw;
+            margin: 0 auto; } }
+
+.play #ourstuff {
+  transition: all .3s ease-in-out;
+  background: #FFDF71; }
+
+.play .whataboutaris img {
   margin: 0 auto;
   display: block;
   width: 60px; }
