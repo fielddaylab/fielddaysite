@@ -49,140 +49,316 @@ include_once($path); ?>
                             <ul class="apps gridder">
                                 <li class="gridder-list app-card" data-griddercontent="#game-emerald">
                                     <img src="/assets/img/games/thumbs/emerald.jpeg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Legend of the Lost Emerald</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Legend of the Lost Emerald</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 4-6 </p>
+                                            <p> History </p>
+                                        </div>
                                     </div>
+
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app2">
+                                <li class="gridder-list app-card" data-griddercontent="#game-penguin">
                                     <img src="/assets/img/games/thumbs/penguins.jpeg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Penguin Project <br /> (Coming Soon)</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Penguin Project (Coming Soon)</span>
+                                        </div>
+                                        <!-- <div class="stats">
+                                            <p class="italic">Grades 4-6 </p>
+                                            <p> History </p>
+                                        </div> -->
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app3">
-                                    <img src="/assets/img/games/thumbs/forevermine.jpeg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Lost at the Forever Mine </span>
+                                <li class="gridder-list app-card" data-griddercontent="#game-icecube">
+                                    <img src="/assets/img/games/thumbs/icecube.jpeg" class="app-logo">
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Discover IceCube</span>
+                                        </div>
+                                        <!-- <div class="stats">
+                                            <p class="italic">Grades 4-6 </p>
+                                            <p> History </p>
+                                        </div> -->
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app4">
+                                <li class="gridder-list app-card" data-griddercontent="#game-forevermine">
+                                    <img src="/assets/img/games/thumbs/forevermine.jpeg" class="app-logo" />
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Lost at the Forever Mine</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-9</p>
+                                            <p> Scientific Modeling </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#game-lakeland">
                                     <img src="/assets/img/games/thumbs/lakeland.jpeg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Lakeland</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Lakeland</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 7-12 </p>
+                                            <p> Complex Systems </p>
+                                        </div>
+
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app8">
+                                <li class="gridder-list app-card" data-griddercontent="#game-jowilder">
                                     <img src="/assets/img/games/thumbs/jowilder.jpeg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Jo Wilder and the Capitol Case</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Jo Wilder and the Capitol Case</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 3-5</p>
+                                            <p> History </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app5">
+                                <li class="gridder-list app-card" data-griddercontent="#game-crystal">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Crystal Cave</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Crystal Cave</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-8</p>
+                                            <p> Science </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app9">
+                                <li class="gridder-list app-card" data-griddercontent="#game-marvelous">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Marvelous Modeling</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Marvelous Modeling</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-8</p>
+                                            <p> Science </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app7">
+                                <li class="gridder-list app-card" data-griddercontent="#game-carbongame">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Carbon Cycle</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Carbon Cycle Game</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-8</p>
+                                            <p> Science </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-watergame">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Water Cycle</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Water Cycle Game</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-8</p>
+                                            <p> Science </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-nitrogengame">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Nitrogen Cycle</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Nitrogen Cycle Game</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-8</p>
+                                            <p> Science </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-magnet">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Magnet Hunt</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Magnet Hunt</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-8</p>
+                                            <p> Science </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-balloon">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Hot Air Balloon</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Hot Air Balloon</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-8</p>
+                                            <p> Science </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-earthquake">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Earthquake!</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Earthquake!</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-8</p>
+                                            <p> Science </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-wave">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Wave Combinator</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Wave Combinator</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-8</p>
+                                            <p> Science </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-antibiotic">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Antibiotic Resistance</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Antibiotic Resistance</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-8</p>
+                                            <p> Science </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-windsim">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Wind Simulator</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Wind Simulator</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-8</p>
+                                            <p> Science </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-atom">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Atom Touch</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Atom Touch</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-8</p>
+                                            <p> Science </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Thermodynamics VR</span>
+                                <li class="gridder-list app-card" data-griddercontent="#game-thermovr">
+                                    <img src="/assets/img/games/thumbs/thermovr.jpeg" class="app-logo">
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Thermodynamics VR</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Undergraduate Level</p>
+                                            <p> Thermodynamics </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-tectonics">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Plate Tectonics</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Plate Tectonics</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 6-12</p>
+                                            <p> Aligned with NGSS </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-rocksim">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Rock Cycle</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Rock Cycle Simulation</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 6-12</p>
+                                            <p> Aligned with NGSS </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-carbonsim">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Earth’s Force Fields</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Carbon Cycle Simulation</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 6-12</p>
+                                            <p> Aligned with NGSS </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-watersim">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Ocean and Air Currents</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Water Cycle Simulation</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 6-12</p>
+                                            <p> Aligned with NGSS </p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#arvr-app6">
+                                <li class="gridder-list app-card" data-griddercontent="#game-forcefields">
                                     <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="title">
-                                        <span class="title">Energy in Food Webs</span>
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Earth’s Force Fields</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 6-12</p>
+                                            <p> Aligned with NGSS </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#game-currents">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Ocean and Air Currents</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 6-12</p>
+                                            <p> Aligned with NGSS </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#game-foodwebs">
+                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Energy in Food Webs</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 6-12</p>
+                                            <p> Aligned with NGSS </p>
+                                        </div>
                                     </div>
                                 </li>
                             </ul>
@@ -190,13 +366,548 @@ include_once($path); ?>
 
 
                         </div>
+
                         <div class="item">
+
                             <div id="game-emerald" class="app-expanded gridder-content">
                                 <div class="app-info app-pane left">
                                     <span class="close-app">
                                         <h2>Legend of the Lost Emerald</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 4-6</p>
+                                            <p>|</p>
+                                            <p class="tag ">History</p>
+                                        </div>
                                         <p class="small">
                                             Take on the role of a maritime archaeologist uncovering shipwrecks in the Great Lakes! In this historical inquiry game, players use GPS coordinates, go out on dives, take underwater photos, and use artifacts to solve the mystery of each shipwreck.
+                                        </p>
+                                        <p class="note">
+                                            Partners: PBS Wisconsin, Wisconsin Sea Grant
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-penguin" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Penguin Project - In Progress</h2>
+                                        <!-- <div class="stats">
+                                            <p class="tag ">Grades 4-6</p>
+                                            <p>|</p>
+                                            <p class="tag ">History</p>
+                                        </div> -->
+                                        <p class="small">
+                                            Our in-progress Penguins VR Project will allow players to experience life at the South Pole—as a penguin! We’re thrilled to work with penguin researcher Jean Pennycook to create a fun, playful experience that introduces people to her NSF-funded work.
+                                        </p>
+                                        <p class="note">
+                                            Partners: NSF, Wisconsin Institute for Discovery, Wisconsin IceCube Particle Astrophysics Center
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-icecube" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Discover IceCube </h2>
+                                        <!-- <div class="stats">
+                                            <p class="tag ">Grades 4-6</p>
+                                            <p>|</p>
+                                            <p class="tag ">History</p>
+                                        </div> -->
+                                        <p class="small">
+                                            The IceCube Virtual Reality experience puts you in the role of an astrophysicist. Journey deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica. Play at the Wisconsin Institute for Discovery in Madison, WI, or download for your own VR device.
+                                        </p>
+                                        <p class="note">
+                                            Partners: NSF, Wisconsin Institute for Discovery, Wisconsin IceCube Particle Astrophysics Center
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-forevermine" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Lost at the Forever Mine</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-9</p>
+                                            <p>|</p>
+                                            <p class="tag ">Scientific Modeling</p>
+                                        </div>
+                                        <p class="small">
+                                            This space adventure brings mathematical modeling straight to the classroom. To escape an abandoned planet, players set up equations, input data, work with graphs, and use models as a tool to make decisions.
+                                        </p>
+                                        <p class="note">
+                                            Partners: UW-MRSEC
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-lakeland" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Lakeland</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 7-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Complex Systems </p>
+                                        </div>
+                                        <p class="small">
+                                            This award-winning game teaches complex systems! Players create their own town, manage resources, and learn about the relationship between dairy farming, soil nutrition, and lake pollution.
+                                        </p>
+                                        <p class="note">
+                                            Partners: UW-Madison Scalable Systems Lab
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-jowilder" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Jo Wilder and the Capitol Case</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 3-5</p>
+                                            <p>|</p>
+                                            <p class="tag ">History</p>
+                                        </div>
+                                        <p class="small">
+                                            This award-winning game turns kids into history detectives! In this point-and-click adventure, players use the methods of real historians to uncover the story behind each mystery artifact.
+                                        </p>
+                                        <p class="note">
+                                            Partners: PBS Wisconsin, Wisconsin Historical Society
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-crystal" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Crystal Cave</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            This simple puzzle game introduces kids to crystals! Players try their hand at arranging molecules with different shapes and properties into an ordered, stable configuration.
+                                        </p>
+                                        <p class="note">
+                                            Partners: UW-MRSEC, Wisconsin DPI
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-marvelous" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Marvelous Modeling</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            This game allows kids to create models from scratch, with a few simple abstractions as tools. Build complexity from the ground up and learn about a system through the process of breaking it down.
+                                        </p>
+                                        <p class="note">
+                                            Partners: Wisconsin DPI, Wisconsin Virtual Schools
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-carbongame" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Carbon Cycle Game</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            Learn how carbon moves through the world! In this board-game style game, players use Action cards, like Photosynthesis and Soil Respiration, to convert carbon from one form to another.
+                                        </p>
+                                        <p class="note">
+                                            Partners: Wisconsin DPI, Wisconsin Virtual Schools
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-watergame" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Water Cycle Game</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            Learn how water moves through the world! In this board-game style game, players use Action cards, like Condensation and Evaporation, to convert water from one form to another.
+                                        </p>
+                                        <p class="note">
+                                            Partners: Wisconsin DPI, Wisconsin Virtual Schools
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-nitrogengame" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Nitrogen Cycle Game</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            Learn how nitrogen moves through the world! In this board-game style game, players use Action cards, like Plant Death and Plant Assimilation, to convert nitrogen atoms from one form to another.
+                                        </p>
+                                        <p class="note">
+                                            Partners: Wisconsin DPI, Wisconsin Virtual Schools
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-magnet" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Magnet Hunt</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            In this introduction to magnetism, players use magnetic fields and iron filings to find magnets hidden in the sand. The game covers topics like magnetic forces, poles, and magnetic fields.
+                                        </p>
+                                        <p class="note">
+                                            Partners: Wisconsin DPI, Wisconsin Virtual Schools
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-balloon" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Hot Air Balloon</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            Time to fly! In this game, players control the altitude of a hot air balloon by heating the balloon or releasing air with the air flap. Players learn about buoyancy, volume, and air pressure.
+                                        </p>
+                                        <p class="note">
+                                            Partners: Wisconsin DPI, Wisconsin Virtual Schools
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-earthquake" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Earthquake!</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            This playful simulation uses shockwaves and tin-can towns to introduce players to how scientists study earthquakes! Players learn about topics like S and P waves, epicenters, and triangulation.
+                                        </p>
+                                        <p class="note">
+                                            Partners: Wisconsin DPI, Wisconsin Virtual Schools
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-wave" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Wave Combinator</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            This game invites kids to explore how waves interact. Kids can use the Wave Combinator to learn about concepts like amplitude, offset, wavelength, and frequency.
+                                        </p>
+                                        <p class="note">
+                                            Partners: Wisconsin DPI, Wisconsin Virtual Schools
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-antibiotic" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Antibiotic Resistance</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            In this playful introduction to the world of bacteria, players get a visual representation of reproduction, mutation, and antibiotic resistance.
+                                        </p>
+                                        <p class="note">
+                                            Partners: Wisconsin DPI, Wisconsin Virtual Schools
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-windsim" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Wind Simulator </h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            In this game, a ruined tower-building contest leads to a crash course on the science of wind. Players learn about wind direction, wind speed, pressure systems, and how scientists use wind to predict weather.
+                                        </p>
+                                        <p class="note">
+                                            Partners: Wisconsin DPI, Wisconsin Virtual Schools
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-atom" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Atom Touch</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            This molecular simulation app allows players to explore the abstract principles of thermodynamics and molecular dynamics in a tactile, exploratory way.
+                                        </p>
+                                        <p class="note">
+                                            Partners: UW-MRSEC
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-thermovr" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Thermodynamics VR</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Undergraduate Level</p>
+                                            <p>|</p>
+                                            <p class="tag ">Thermodynamics</p>
+                                        </div>
+                                        <p class="small">
+                                            We teamed up with John Pfotenhauer, UW-Madison professor and researcher, to create this VR simulation for teaching undergraduate thermodynamics. The game allows students to interact with the abstract Equation of State in a hands-on, tactile environment.
+                                        </p>
+                                        <p class="note">
+                                            Partners: UW-Madison School of Engineering
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-tectonics" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Plate Tectonics</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            This vector field simulator allows kids to explore how magma flow creates forces that move the Earth’s tectonic plates. The game introduces kids to phenomena like volcanoes, earthquakes, and the formation of trenches.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-rocksim" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Rock Cycle Simulation</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            Learn about how rocks and minerals form from one another! Players choose transitional events, like a volcanic eruption or the formation of volcanic rock, and explore how rocks and minerals move through the world.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-carbonsim" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Carbon Cycle Simulation</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            Learn how carbon moves through the ecosystem! In this simulator, players trigger events—like the burning of fossil fuel—and watch how the carbon moves among the air, ocean, rocks, and living things.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-watersim" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Water Cycle Simulation</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            Learn about the water cycle! This simulator allows players to trigger events and trace how water moves through the atmosphere, bodies of water, living things, and more.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-forcefields" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Earth’s Force Fields</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            In this 2-in-1 simulator, players learn how bodies in the vicinity of Earth are affected by the fields created by the Earth itself. Play in Magnetism Mode to explore how ions move into the magnetic field of the Earth, and play in Gravity Mode to learn about how objects fall towards Earth or get pulled into orbit.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-currents" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Ocean and Air Currents</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            This simulation uses a map to show how physical matter is moved around by ocean and air currents. Players can move between different layers of the map, measure temperatures, follow currents through the ocean, and place a balloon or a ship in a bottle in the current to see how it moves.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-foodwebs" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Energy in Food Webs</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            This game shows how energy from the sun and from geologic thermal processes flows through living things. Use nodes and arrows to trigger the movement of energy through food webs, from the sun to plants to herbivores, all the way up to apex predators, and then back to the soil again.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
                                         </p>
                                         <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
                                 </div>
@@ -205,131 +916,6 @@ include_once($path); ?>
                                 </div>
                             </div>
 
-                            <div id="arvr-app2" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>The Station:Maine</h2>
-                                        <p class="small">In this Augmented Reality game, students in rural Maine play location-based quests focused on four themes: Water, Forestry, Energy, and Food. Players visit GPS_based tour stops, collect field notes, and take photos to share their observations. </p>
-                                        <hr />
-                                        <p class="note">Partners: Maine Mathematics and Science Alliance, Vanderbilt University, Smart & Connected Communities Grant through the National Science Foundation.</p>
-                                        <a class="button small black" href="/play/thestationmaine/">Learn more</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img class="long" src="/assets/img/illustrations/station_screenshot.png">
-                                </div>
-                            </div>
-
-                            <div id="arvr-app3" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>ARIS</h2>
-                                        <p class="notsupported">No longer supported</p>
-                                        <p class="small">Create mobile games, tours and interactive stories with ARIS games. Players experience a hybrid world of virtual characters and media in physical space. Anyone who can read can play and design these games. Used in classrooms or informally. IOS device required.</p>
-                                        <a class="button small black" href="/make/aris" target="_blank">Learn More</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/hero-images/arishero.jpg">
-                                </div>
-                            </div>
-
-                            <div id="arvr-app4" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Play the Past</h2>
-                                        <p class="notsupported">Minnesota History Museum in 2012. No longer supported. </p>
-                                        <p class="small">Play the Past was an AR game playable location at the Minnesota History Museum. The app, designed for grades 4-6, allowed kids to uncover stories, collect virtual items, and take on quests related to the exhibit’s topics of immigrations, transportation, mining, and more.</p>
-                                        <hr />
-                                        <p class="note">Partners: The Minnesota History Museum </p>
-                                        <a class="button small black" href="https://vimeo.com/438930774" target="_blank">Watch the video</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/thumbs/ptp-thumb.jpg">
-                                </div>
-                            </div>
-
-                            <div id="arvr-app5" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Dow Day</h2>
-                                        <p class="notsupported">No longer supported</p>
-                                        <p class="small">This Augmented Reality game transports players back to the time of the Vietnam War, when Dow Chemical visited UW-Madison to recruit students and peaceful protests escalated into violent conflicts. Players take on the role of a reporter working during the conflict.</p>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/thumbnails/dowday-thumbnail.jpg">
-                                </div>
-                            </div>
-
-                            <div id="arvr-app6" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>WeBird</h2>
-                                        <p class="notsupported">No longer supported</p>
-                                        <p class="small">WeBird is an AR bird-identification game that allows students to document sightings, record bird calls, take photos and videos, and share with others. The game was designed with Animal Science/Zoology researcher Mark Berres in 2013 and used with over 100 students at UW-Madison.</p>
-                                        <a class="button small black" href="https://medium.com/fielddaylab/webird-challenges-uw-students-to-see-who-can-discover-the-most-birds-fe5322207eb5" target="_blank">Read the Story</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img class="long" src="/assets/img/thumbnails/webird-thumbnail.jpg">
-                                </div>
-                            </div>
-
-                            <div id="arvr-app7" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Sustainable U</h2>
-                                        <p class="notsupported">No longer supported</p>
-                                        <p class="small">In Sustainable U, an Augmented Reality game about campus sustainability, a visitor from the future shows students a bleak future unless people take action on sustainability. The game takes players on an AR tour of campus, with the goal of inspiring them to see the familiar in a new light.</p>
-                                        <hr />
-                                        <p class="note">Partners: The UW-Madison Office of Sustainability, The Educational Innovation Initiative </p>
-                                        <a class="button small black" href="https://sustainability.wisc.edu/mobile-game-explores-campus-sustainability/" target="_blank">Read the Story</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img class="long" src="/assets/img/thumbnails/sustainableu-thumbnail.jpg">
-                                </div>
-                            </div>
-
-                            <div id="arvr-app8" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Viola</h2>
-                                        <p class="notsupported">No longer supported</p>
-                                        <p class="small">We partnered with UW-Madison Biology professor Catherine Woodward to create a mobile app for plant-identification that is truly pocket-sized! Viola guides users through plant identification using illustrations, which also helps teach the different parts of plants.</p>
-                                        <hr />
-                                        <p class="note">WisFlora Database, UW-Madison Baldwin Grant</p>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img class="long" src="/assets/img/thumbnails/viola-thumbnail.jpg">
-                                </div>
-                            </div>
-
-                            <div id="arvr-app9" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>ARISE Nursing</h2>
-                                        <p class="notsupported">No longer supported</p>
-                                        <p class="small">We teamed up with Madison College to design an AR project to help train nursing students for patient care. ARISE uses simulations and games to help students visualize real situations and feel more emotionally involved with patients in a simulated environment. ARISE also includes games that allow nursing students to practice their skills at home.</p>
-                                        <hr />
-                                        <p class="note">Partners: The US Department of Labor’s Employment and Training Administration </p>
-                                        <a class="button small black" href="https://www.youtube.com/watch?v=O7urXDn88E4" target="_blank">Watch the Video</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img class="long" src="/assets/img/thumbnails/arise-thumbnail.jpg">
-                                </div>
-                            </div>
-
-                            <div id="arvr-app10" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>ThermoVR</h2>
-                                        <p class="small">We teamed up with John Pfotenhauer, UW-Madison professor and researcher, to create this Virtual Reality simulation for teaching undergraduate thermodynamics. The game simulates the basic Equation of State used in classrooms across the country, allowing students to interact with this abstract concept in a hands-on, tactile environment.</p>
-                                        <hr />
-                                        <p class="note">Partners: UW-Madison School of Engineering</p>
-                                        <a class="button small black filled" href="/play/thermovr">Learn more</a>
-                                        <a class="button small black" href="https://medium.com/fielddaylab/from-abstract-to-hands-on-using-vr-to-teach-thermodynamics-b9ba78c73404?source=friends_link&sk=6abe3330567c7e9a8f239fbb79cdbcb1" target="_blank">Read the Story</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/thumbnails/thermovr-thumbnail.png">
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <!-- Carousel nav -->

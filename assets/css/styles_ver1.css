@@ -11696,7 +11696,7 @@ hr {
   background: url(/assets/img/games/bg-space-03.png);
   background-size: cover;
   background-position: left;
-  margin-top: 60px;
+  margin-top: 50px;
   padding: 3vw 0vw;
   height: 80vh; }
   @media only screen and (max-width: 768px) {
@@ -11858,7 +11858,7 @@ hr {
     box-shadow: 0 0px 13px 0 rgba(0, 0, 0, 0.15);
     z-index: 75;
     border-radius: 8px;
-    text-align: center;
+    text-align: left;
     flex-direction: wrap;
     color: #fff; }
     @media only screen and (max-width: 768px) {
@@ -11870,13 +11870,24 @@ hr {
       display: block;
       margin: 0 auto;
       max-width: 100%; }
+    .play .apps .app-card .game-wrapper {
+      min-height: 150px;
+      padding-top: 5px;
+      position: relative; }
+      .play .apps .app-card .game-wrapper .stats {
+        position: absolute;
+        bottom: 0;
+        padding: 10px; }
+        .play .apps .app-card .game-wrapper .stats p {
+          margin: 0;
+          line-height: 2.4rem; }
+        .play .apps .app-card .game-wrapper .stats .italic {
+          font-style: italic; }
     .play .apps .app-card .title {
       font-family: brandon-grotesque, futura-pt, sans-serif;
       font-size: 22px;
-      min-height: 80px;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      justify-content: left;
       padding-left: 10px;
       padding-right: 10px; }
     .play .apps .app-card:hover {
@@ -11919,6 +11930,12 @@ hr {
       @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
         .play .apps .gridder-expanded-content .app-info {
           padding-right: 0px; } }
+      .play .apps .gridder-expanded-content .app-info .stats {
+        display: flex; }
+        .play .apps .gridder-expanded-content .app-info .stats p {
+          font-weight: 700;
+          padding-right: 20px;
+          margin: 10px 0; }
     .play .apps .gridder-expanded-content .app-pane {
       width: 50%; }
       .play .apps .gridder-expanded-content .app-pane h2 {
