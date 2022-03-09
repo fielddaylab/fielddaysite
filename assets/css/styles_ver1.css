@@ -7821,6 +7821,11 @@ h1, h2, h3, h4 {
   font-weight: 400;
   font-style: normal; }
 
+.grotesque {
+  font-family: brandon-grotesque, futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
 h1 {
   letter-spacing: 3px; }
 
@@ -11959,6 +11964,9 @@ hr {
       .play .apps .gridder-expanded-content p.notsupported {
         font-style: italic;
         color: #DD1C1A; }
+  .play .apps .collection-title {
+    margin-top: 30px;
+    margin-bottom: 30px; }
   .play .apps .app-thumbnail {
     display: flex;
     justify-content: center; }
