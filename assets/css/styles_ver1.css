@@ -11747,8 +11747,8 @@ hr {
       height: auto;
       border: none; }
     .play .page_hero .graphic #kid-on-moon {
-      width: 100%;
-      transform: translateX(10%) translateY(50%); }
+      width: 150%;
+      transform: translateX(-20%) translateY(45%); }
     @media only screen and (max-width: 768px) {
       .play .page_hero .graphic {
         height: auto;

@@ -134,8 +134,20 @@ include_once($path); ?>
                                         </div>
                                     </div>
                                 </li>
+                                <li class="gridder-list app-card" data-griddercontent="#game-atom">
+                                    <img src="/assets/img/games/thumbs/atom.jpeg" class="app-logo">
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Atom Touch</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 5-8</p>
+                                            <p> Science </p>
+                                        </div>
+                                    </div>
+                                </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-tectonics">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/tectonics.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Plate Tectonics</span>
@@ -147,7 +159,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-rocksim">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/rocksim.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Rock Cycle Simulation</span>
@@ -159,7 +171,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-carbonsim">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/carbonsim.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Carbon Cycle Simulation</span>
@@ -171,7 +183,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-watersim">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/watersim.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Water Cycle Simulation</span>
@@ -183,7 +195,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-forcefields">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/forcefields.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Earth’s Force Fields</span>
@@ -195,7 +207,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-currents">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/currents.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Ocean and Air Currents</span>
@@ -207,7 +219,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-foodwebs">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/foodwebs.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Energy in Food Webs</span>
@@ -227,7 +239,7 @@ include_once($path); ?>
                                 <h1 class="collection-title">The Yard Games Collection</h1>
 
                                 <li class="gridder-list app-card" data-griddercontent="#game-crystal">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/crystal.jpeg" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Crystal Cave</span>
@@ -239,7 +251,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-marvelous">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/model.jpeg" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Marvelous Modeling</span>
@@ -251,7 +263,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-carbongame">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/carbongame.jpeg" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Carbon Cycle Game</span>
@@ -263,7 +275,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-watergame">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/watergame.jpeg" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Water Cycle Game</span>
@@ -275,7 +287,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-nitrogengame">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/nitrogengame.jpeg" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Nitrogen Cycle Game</span>
@@ -287,7 +299,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-magnet">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/magnet.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Magnet Hunt</span>
@@ -299,7 +311,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-balloon">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/balloon.jpeg" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Hot Air Balloon</span>
@@ -311,7 +323,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-earthquake">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/earthquake.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Earthquake!</span>
@@ -323,7 +335,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-wave">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/wave.jpeg" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Wave Combinator</span>
@@ -335,7 +347,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-antibiotic">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/bacteria.jpeg" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Antibiotic Resistance</span>
@@ -347,7 +359,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-windsim">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/wind.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Wind Simulator</span>
@@ -358,18 +370,7 @@ include_once($path); ?>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#game-atom">
-                                    <img src="/assets/img/thumbs/webird-thumb.jpg" class="app-logo">
-                                    <div class="game-wrapper">
-                                        <div class="title">
-                                            <span>Atom Touch</span>
-                                        </div>
-                                        <div class="stats">
-                                            <p class="italic">Grades 5-8</p>
-                                            <p> Science </p>
-                                        </div>
-                                    </div>
-                                </li>
+
 
                             </ul>
                             <!-- Gridder content -->
@@ -478,7 +479,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: UW-Madison Scalable Systems Lab
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/lakeland" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -499,7 +500,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: PBS Wisconsin, Wisconsin Historical Society
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/jowilder" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -736,27 +737,6 @@ include_once($path); ?>
                                     <img src="/assets/img/hero-images/arishero.jpg">
                                 </div>
                             </div>
-                            <div id="game-atom" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Atom Touch</h2>
-                                        <div class="stats">
-                                            <p class="tag ">Grades 5-8</p>
-                                            <p>|</p>
-                                            <p class="tag ">Science</p>
-                                        </div>
-                                        <p class="small">
-                                            This molecular simulation app allows players to explore the abstract principles of thermodynamics and molecular dynamics in a tactile, exploratory way.
-                                        </p>
-                                        <p class="note">
-                                            Partners: UW-MRSEC
-                                        </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/hero-images/arishero.jpg">
-                                </div>
-                            </div>
                             <div id="game-thermovr" class="app-expanded gridder-content">
                                 <div class="app-info app-pane left">
                                     <span class="close-app">
@@ -773,6 +753,27 @@ include_once($path); ?>
                                             Partners: UW-Madison School of Engineering
                                         </p>
                                         <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-atom" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Atom Touch</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            This molecular simulation app allows players to explore the abstract principles of thermodynamics and molecular dynamics in a tactile, exploratory way.
+                                        </p>
+                                        <p class="note">
+                                            Partners: UW-MRSEC
+                                        </p>
+                                        <a class="button small black" href="/play/atom-touch" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
