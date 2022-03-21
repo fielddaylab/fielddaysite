@@ -66,10 +66,10 @@ include_once($path); ?>
                                         <div class="title">
                                             <span>Penguin Project (Coming Soon)</span>
                                         </div>
-                                        <!-- <div class="stats">
-                                            <p class="italic">Grades 4-6 </p>
-                                            <p> History </p>
-                                        </div> -->
+                                        <div class="stats">
+                                            <p class="italic"> All Ages </p>
+                                            <p> Polar Research </p>
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-icecube">
@@ -78,10 +78,10 @@ include_once($path); ?>
                                         <div class="title">
                                             <span>Discover IceCube</span>
                                         </div>
-                                        <!-- <div class="stats">
-                                            <p class="italic">Grades 4-6 </p>
-                                            <p> History </p>
-                                        </div> -->
+                                        <div class="stats">
+                                            <p class="italic"> All Ages </p>
+                                            <p> Polar Research </p>
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-forevermine">
@@ -147,7 +147,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-tectonics">
-                                    <img src="/assets/img/games/thumbs/tectonics.png" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/tectonics-nosplash.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Plate Tectonics</span>
@@ -159,7 +159,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-rocksim">
-                                    <img src="/assets/img/games/thumbs/rocksim.png" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/rocksim-nosplash.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Rock Cycle Simulation</span>
@@ -171,7 +171,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-carbonsim">
-                                    <img src="/assets/img/games/thumbs/carbonsim.png" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/carbonsim-nosplash.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Carbon Cycle Simulation</span>
@@ -183,7 +183,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-watersim">
-                                    <img src="/assets/img/games/thumbs/watersim.png" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/watersim-nosplash.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Water Cycle Simulation</span>
@@ -195,7 +195,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-forcefields">
-                                    <img src="/assets/img/games/thumbs/forcefields.png" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/forcefields-nosplash.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Earth’s Force Fields</span>
@@ -207,7 +207,7 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-currents">
-                                    <img src="/assets/img/games/thumbs/currents.png" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/currents-nosplash.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Ocean and Air Currents</span>
@@ -219,10 +219,34 @@ include_once($path); ?>
                                     </div>
                                 </li>
                                 <li class="gridder-list app-card" data-griddercontent="#game-foodwebs">
-                                    <img src="/assets/img/games/thumbs/foodwebs.png" class="app-logo">
+                                    <img src="/assets/img/games/thumbs/foodwebs-nosplash.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Energy in Food Webs</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 6-12</p>
+                                            <p> Aligned with NGSS </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#game-plant">
+                                    <img src="/assets/img/games/thumbs/plant-nosplash.png" class="app-logo">
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Plant Growth!</span>
+                                        </div>
+                                        <div class="stats">
+                                            <p class="italic">Grades 6-12</p>
+                                            <p> Aligned with NGSS </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="gridder-list app-card" data-griddercontent="#game-cells">
+                                    <img src="/assets/img/games/thumbs/cells-nosplash.png" class="app-logo">
+                                    <div class="game-wrapper">
+                                        <div class="title">
+                                            <span>Living Cells</span>
                                         </div>
                                         <div class="stats">
                                             <p class="italic">Grades 6-12</p>
@@ -243,18 +267,6 @@ include_once($path); ?>
                                     <div class="game-wrapper">
                                         <div class="title">
                                             <span>Crystal Cave</span>
-                                        </div>
-                                        <div class="stats">
-                                            <p class="italic">Grades 5-8</p>
-                                            <p> Science </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="gridder-list app-card" data-griddercontent="#game-marvelous">
-                                    <img src="/assets/img/games/thumbs/model.jpeg" class="app-logo">
-                                    <div class="game-wrapper">
-                                        <div class="title">
-                                            <span>Marvelous Modeling</span>
                                         </div>
                                         <div class="stats">
                                             <p class="italic">Grades 5-8</p>
@@ -520,27 +532,6 @@ include_once($path); ?>
                                         </p>
                                         <p class="note">
                                             Partners: UW-MRSEC, Wisconsin DPI
-                                        </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/hero-images/arishero.jpg">
-                                </div>
-                            </div>
-                            <div id="game-marvelous" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Marvelous Modeling</h2>
-                                        <div class="stats">
-                                            <p class="tag ">Grades 5-8</p>
-                                            <p>|</p>
-                                            <p class="tag ">Science</p>
-                                        </div>
-                                        <p class="small">
-                                            This game allows kids to create models from scratch, with a few simple abstractions as tools. Build complexity from the ground up and learn about a system through the process of breaking it down.
-                                        </p>
-                                        <p class="note">
-                                            Partners: Wisconsin DPI, Wisconsin Virtual Schools
                                         </p>
                                         <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
                                 </div>
