@@ -417,18 +417,18 @@ include_once($path); ?>
                                 <div class="app-info app-pane left">
                                     <span class="close-app">
                                         <h2>Penguin Project - In Progress</h2>
-                                        <!-- <div class="stats">
-                                            <p class="tag ">Grades 4-6</p>
+                                        <div class="stats">
+                                            <p class="tag ">All Ages</p>
                                             <p>|</p>
-                                            <p class="tag ">History</p>
-                                        </div> -->
+                                            <p class="tag ">Polar Research</p>
+                                        </div>
                                         <p class="small">
                                             Our in-progress Penguins VR Project will allow players to experience life at the South Pole—as a penguin! We’re thrilled to work with penguin researcher Jean Pennycook to create a fun, playful experience that introduces people to her NSF-funded work.
                                         </p>
                                         <p class="note">
                                             Partners: NSF, Wisconsin Institute for Discovery, Wisconsin IceCube Particle Astrophysics Center
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <!-- <a class="button small black" href="/play/emerald" target="_blank">Learn More</a> -->
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -438,18 +438,18 @@ include_once($path); ?>
                                 <div class="app-info app-pane left">
                                     <span class="close-app">
                                         <h2>Discover IceCube </h2>
-                                        <!-- <div class="stats">
-                                            <p class="tag ">Grades 4-6</p>
+                                        <div class="stats">
+                                            <p class="tag ">All Ages</p>
                                             <p>|</p>
-                                            <p class="tag ">History</p>
-                                        </div> -->
+                                            <p class="tag ">Polar Research</p>
+                                        </div>
                                         <p class="small">
                                             The IceCube Virtual Reality experience puts you in the role of an astrophysicist. Journey deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica. Play at the Wisconsin Institute for Discovery in Madison, WI, or download for your own VR device.
                                         </p>
                                         <p class="note">
                                             Partners: NSF, Wisconsin Institute for Discovery, Wisconsin IceCube Particle Astrophysics Center
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/ice-cube/" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -470,7 +470,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: UW-MRSEC
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/forevermine" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -518,6 +518,196 @@ include_once($path); ?>
                                     <img src="/assets/img/hero-images/arishero.jpg">
                                 </div>
                             </div>
+                            <div id="game-thermovr" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Thermodynamics VR</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Undergraduate Level</p>
+                                            <p>|</p>
+                                            <p class="tag ">Thermodynamics</p>
+                                        </div>
+                                        <p class="small">
+                                            We teamed up with John Pfotenhauer, UW-Madison professor and researcher, to create this VR simulation for teaching undergraduate thermodynamics. The game allows students to interact with the abstract Equation of State in a hands-on, tactile environment.
+                                        </p>
+                                        <p class="note">
+                                            Partners: UW-Madison School of Engineering
+                                        </p>
+                                        <a class="button small black" href="/play/thermovr" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-atom" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Atom Touch</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 5-8</p>
+                                            <p>|</p>
+                                            <p class="tag ">Science</p>
+                                        </div>
+                                        <p class="small">
+                                            This molecular simulation app allows players to explore the abstract principles of thermodynamics and molecular dynamics in a tactile, exploratory way.
+                                        </p>
+                                        <p class="note">
+                                            Partners: UW-MRSEC
+                                        </p>
+                                        <a class="button small black" href="/play/atom-touch" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-tectonics" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Plate Tectonics</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            This vector field simulator allows kids to explore how magma flow creates forces that move the Earth’s tectonic plates. The game introduces kids to phenomena like volcanoes, earthquakes, and the formation of trenches.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-rocksim" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Rock Cycle Simulation</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            Learn about how rocks and minerals form from one another! Players choose transitional events, like a volcanic eruption or the formation of volcanic rock, and explore how rocks and minerals move through the world.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-carbonsim" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Carbon Cycle Simulation</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            Learn how carbon moves through the ecosystem! In this simulator, players trigger events—like the burning of fossil fuel—and watch how the carbon moves among the air, ocean, rocks, and living things.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-watersim" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Water Cycle Simulation</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            Learn about the water cycle! This simulator allows players to trigger events and trace how water moves through the atmosphere, bodies of water, living things, and more.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-forcefields" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Earth’s Force Fields</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            In this 2-in-1 simulator, players learn how bodies in the vicinity of Earth are affected by the fields created by the Earth itself. Play in Magnetism Mode to explore how ions move into the magnetic field of the Earth, and play in Gravity Mode to learn about how objects fall towards Earth or get pulled into orbit.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-currents" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Ocean and Air Currents</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            This simulation uses a map to show how physical matter is moved around by ocean and air currents. Players can move between different layers of the map, measure temperatures, follow currents through the ocean, and place a balloon or a ship in a bottle in the current to see how it moves.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-foodwebs" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Energy in Food Webs</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            This game shows how energy from the sun and from geologic thermal processes flows through living things. Use nodes and arrows to trigger the movement of energy through food webs, from the sun to plants to herbivores, all the way up to apex predators, and then back to the soil again.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+
                             <div id="game-crystal" class="app-expanded gridder-content">
                                 <div class="app-info app-pane left">
                                     <span class="close-app">
@@ -721,195 +911,6 @@ include_once($path); ?>
                                         </p>
                                         <p class="note">
                                             Partners: Wisconsin DPI, Wisconsin Virtual Schools
-                                        </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/hero-images/arishero.jpg">
-                                </div>
-                            </div>
-                            <div id="game-thermovr" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Thermodynamics VR</h2>
-                                        <div class="stats">
-                                            <p class="tag ">Undergraduate Level</p>
-                                            <p>|</p>
-                                            <p class="tag ">Thermodynamics</p>
-                                        </div>
-                                        <p class="small">
-                                            We teamed up with John Pfotenhauer, UW-Madison professor and researcher, to create this VR simulation for teaching undergraduate thermodynamics. The game allows students to interact with the abstract Equation of State in a hands-on, tactile environment.
-                                        </p>
-                                        <p class="note">
-                                            Partners: UW-Madison School of Engineering
-                                        </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/hero-images/arishero.jpg">
-                                </div>
-                            </div>
-                            <div id="game-atom" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Atom Touch</h2>
-                                        <div class="stats">
-                                            <p class="tag ">Grades 5-8</p>
-                                            <p>|</p>
-                                            <p class="tag ">Science</p>
-                                        </div>
-                                        <p class="small">
-                                            This molecular simulation app allows players to explore the abstract principles of thermodynamics and molecular dynamics in a tactile, exploratory way.
-                                        </p>
-                                        <p class="note">
-                                            Partners: UW-MRSEC
-                                        </p>
-                                        <a class="button small black" href="/play/atom-touch" target="_blank">Learn More</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/hero-images/arishero.jpg">
-                                </div>
-                            </div>
-                            <div id="game-tectonics" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Plate Tectonics</h2>
-                                        <div class="stats">
-                                            <p class="tag ">Grades 6-12</p>
-                                            <p>|</p>
-                                            <p class="tag ">Aligned with NGSS</p>
-                                        </div>
-                                        <p class="small">
-                                            This vector field simulator allows kids to explore how magma flow creates forces that move the Earth’s tectonic plates. The game introduces kids to phenomena like volcanoes, earthquakes, and the formation of trenches.
-                                        </p>
-                                        <p class="note">
-                                            Partners: BrainPOP
-                                        </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/hero-images/arishero.jpg">
-                                </div>
-                            </div>
-                            <div id="game-rocksim" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Rock Cycle Simulation</h2>
-                                        <div class="stats">
-                                            <p class="tag ">Grades 6-12</p>
-                                            <p>|</p>
-                                            <p class="tag ">Aligned with NGSS</p>
-                                        </div>
-                                        <p class="small">
-                                            Learn about how rocks and minerals form from one another! Players choose transitional events, like a volcanic eruption or the formation of volcanic rock, and explore how rocks and minerals move through the world.
-                                        </p>
-                                        <p class="note">
-                                            Partners: BrainPOP
-                                        </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/hero-images/arishero.jpg">
-                                </div>
-                            </div>
-                            <div id="game-carbonsim" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Carbon Cycle Simulation</h2>
-                                        <div class="stats">
-                                            <p class="tag ">Grades 6-12</p>
-                                            <p>|</p>
-                                            <p class="tag ">Aligned with NGSS</p>
-                                        </div>
-                                        <p class="small">
-                                            Learn how carbon moves through the ecosystem! In this simulator, players trigger events—like the burning of fossil fuel—and watch how the carbon moves among the air, ocean, rocks, and living things.
-                                        </p>
-                                        <p class="note">
-                                            Partners: BrainPOP
-                                        </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/hero-images/arishero.jpg">
-                                </div>
-                            </div>
-                            <div id="game-watersim" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Water Cycle Simulation</h2>
-                                        <div class="stats">
-                                            <p class="tag ">Grades 6-12</p>
-                                            <p>|</p>
-                                            <p class="tag ">Aligned with NGSS</p>
-                                        </div>
-                                        <p class="small">
-                                            Learn about the water cycle! This simulator allows players to trigger events and trace how water moves through the atmosphere, bodies of water, living things, and more.
-                                        </p>
-                                        <p class="note">
-                                            Partners: BrainPOP
-                                        </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/hero-images/arishero.jpg">
-                                </div>
-                            </div>
-                            <div id="game-forcefields" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Earth’s Force Fields</h2>
-                                        <div class="stats">
-                                            <p class="tag ">Grades 6-12</p>
-                                            <p>|</p>
-                                            <p class="tag ">Aligned with NGSS</p>
-                                        </div>
-                                        <p class="small">
-                                            In this 2-in-1 simulator, players learn how bodies in the vicinity of Earth are affected by the fields created by the Earth itself. Play in Magnetism Mode to explore how ions move into the magnetic field of the Earth, and play in Gravity Mode to learn about how objects fall towards Earth or get pulled into orbit.
-                                        </p>
-                                        <p class="note">
-                                            Partners: BrainPOP
-                                        </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/hero-images/arishero.jpg">
-                                </div>
-                            </div>
-                            <div id="game-currents" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Ocean and Air Currents</h2>
-                                        <div class="stats">
-                                            <p class="tag ">Grades 6-12</p>
-                                            <p>|</p>
-                                            <p class="tag ">Aligned with NGSS</p>
-                                        </div>
-                                        <p class="small">
-                                            This simulation uses a map to show how physical matter is moved around by ocean and air currents. Players can move between different layers of the map, measure temperatures, follow currents through the ocean, and place a balloon or a ship in a bottle in the current to see how it moves.
-                                        </p>
-                                        <p class="note">
-                                            Partners: BrainPOP
-                                        </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
-                                </div>
-                                <div class="app-thumbnail app-pane right">
-                                    <img src="/assets/img/hero-images/arishero.jpg">
-                                </div>
-                            </div>
-                            <div id="game-foodwebs" class="app-expanded gridder-content">
-                                <div class="app-info app-pane left">
-                                    <span class="close-app">
-                                        <h2>Energy in Food Webs</h2>
-                                        <div class="stats">
-                                            <p class="tag ">Grades 6-12</p>
-                                            <p>|</p>
-                                            <p class="tag ">Aligned with NGSS</p>
-                                        </div>
-                                        <p class="small">
-                                            This game shows how energy from the sun and from geologic thermal processes flows through living things. Use nodes and arrows to trigger the movement of energy through food webs, from the sun to plants to herbivores, all the way up to apex predators, and then back to the soil again.
-                                        </p>
-                                        <p class="note">
-                                            Partners: BrainPOP
                                         </p>
                                         <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
                                 </div>
