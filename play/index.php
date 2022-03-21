@@ -234,7 +234,7 @@ include_once($path); ?>
                                     <img src="/assets/img/games/thumbs/plant-nosplash.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
-                                            <span>Plant Growth!</span>
+                                            <span>Plant Growth</span>
                                         </div>
                                         <div class="stats">
                                             <p class="italic">Grades 6-12</p>
@@ -242,11 +242,11 @@ include_once($path); ?>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#game-cells">
+                                <li class="gridder-list app-card" data-griddercontent="#game-cell">
                                     <img src="/assets/img/games/thumbs/cells-nosplash.png" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
-                                            <span>Living Cells</span>
+                                            <span>Living Cell</span>
                                         </div>
                                         <div class="stats">
                                             <p class="italic">Grades 6-12</p>
@@ -428,7 +428,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: NSF, Wisconsin Institute for Discovery, Wisconsin IceCube Particle Astrophysics Center
                                         </p>
-                                        <!-- <a class="button small black" href="/play/emerald" target="_blank">Learn More</a> -->
+                                        <!-- <a class="button small black" href="/play/penguin" target="_blank">Learn More</a> -->
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -575,7 +575,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: BrainPOP
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/plate-tectonics" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -596,7 +596,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: BrainPOP
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/rock-sim" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -617,7 +617,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: BrainPOP
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/carbon-sim" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -638,7 +638,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: BrainPOP
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/water-sim" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -659,7 +659,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: BrainPOP
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/force-fields" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -680,7 +680,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: BrainPOP
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/currents" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -701,7 +701,49 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: BrainPOP
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/food-webs" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-plant" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Plant Growth</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            This simulation teaches the life cycle of plants! Set variables, choose actions (like “Send in bees” or “Windy weather”) and then launch the simulation. Watch your plant move from a tiny seed to a flowering plant, and then start again with a new seed—if it survives that long.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/plant-growth" target="_blank">Learn More</a>
+                                </div>
+                                <div class="app-thumbnail app-pane right">
+                                    <img src="/assets/img/hero-images/arishero.jpg">
+                                </div>
+                            </div>
+                            <div id="game-cell" class="app-expanded gridder-content">
+                                <div class="app-info app-pane left">
+                                    <span class="close-app">
+                                        <h2>Living Cell</h2>
+                                        <div class="stats">
+                                            <p class="tag ">Grades 6-12</p>
+                                            <p>|</p>
+                                            <p class="tag ">Aligned with NGSS</p>
+                                        </div>
+                                        <p class="small">
+                                            Use this simulation to teach cellular processes! Players can trigger metabolic events in three types of cells: cobra venom glands, Venus fly traps, and E. Coli. Set your conditions, launch the simulation, and watch as processes like cellular respiration and protein production play out.
+                                        </p>
+                                        <p class="note">
+                                            Partners: BrainPOP
+                                        </p>
+                                        <a class="button small black" href="/play/living-cell" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -723,7 +765,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: UW-MRSEC, Wisconsin DPI
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/crystal-cave" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -744,7 +786,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: Wisconsin DPI, Wisconsin Virtual Schools
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/carbon-game" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -765,7 +807,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: Wisconsin DPI, Wisconsin Virtual Schools
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/water-game" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -786,7 +828,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: Wisconsin DPI, Wisconsin Virtual Schools
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/nitrogen-game" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -807,7 +849,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: Wisconsin DPI, Wisconsin Virtual Schools
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/magnet" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -828,7 +870,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: Wisconsin DPI, Wisconsin Virtual Schools
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/balloon" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -849,7 +891,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: Wisconsin DPI, Wisconsin Virtual Schools
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/earthquake" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -870,7 +912,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: Wisconsin DPI, Wisconsin Virtual Schools
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/wave" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -891,7 +933,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: Wisconsin DPI, Wisconsin Virtual Schools
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/antibiotic" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -912,7 +954,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: Wisconsin DPI, Wisconsin Virtual Schools
                                         </p>
-                                        <a class="button small black" href="/play/emerald" target="_blank">Learn More</a>
+                                        <a class="button small black" href="/play/wind" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
