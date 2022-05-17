@@ -1,147 +1,177 @@
 .page {
   .page_hero {
     height: auto;
-    display:flex;
-    align-items:center;
-    overflow:hidden;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
     .info {
       width: 50%;
       padding: 8vw 0vw 8vw 8vw;
-      h1{
+
+      h1 {
         text-transform: uppercase;
         font-weight: 600;
         font-size: 50px;
       }
     }
+
     .graphic {
       width: 50%;
+
       .cloud {
         width: 350px;
         height: auto;
         position: absolute;
         top: 12vw;
-        right:5vw;
-        opacity:0.7;
-        z-index:101;
+        right: 5vw;
+        opacity: 0.7;
+        z-index: 101;
         animation: float-horiz 10s ease-in-out infinite;
-        &.two{
-          top:28vw;
-          right:20vw;
-          width:300px;
-          opacity:1;
-          z-index:99;
+
+        &.two {
+          top: 28vw;
+          right: 20vw;
+          width: 300px;
+          opacity: 1;
+          z-index: 99;
           animation: float-horiz 6s 6s ease-in-out infinite;
 
         }
       }
+
       .spaceplane-illustration {
-        margin:0 auto;
+        margin: 0 auto;
         height: 70vh;
         display: block;
         margin-top: 10vw;
         margin-bottom: 4vw;
-        position:relative;
-        z-index:100;
+        position: relative;
+        z-index: 100;
       }
-      .exhaustwrap{
-        position:absolute;
-        bottom:10vw;
-        right:0;
-        z-index:102;
+
+      .exhaustwrap {
+        position: absolute;
+        bottom: 10vw;
+        right: 0;
+        z-index: 102;
       }
     }
   }
+
   .page-facts {
-    .fact{
-      display:flex;
-      align-items:center;
+    .fact {
+      display: flex;
+      align-items: center;
       background: #fff;
+
       @media #{$break-sm} {
-        flex-direction:column;
+        flex-direction: column;
+
         &:nth-child(even) {
-          flex-direction:column-reverse;
+          flex-direction: column-reverse;
         }
       }
+
       >div {
         @media #{$break-sm} {
-          width:90%;
+          width: 90%;
         }
       }
     }
 
     .info {
-      padding:8vw;
-      h3{
-        text-transform:uppercase;
-        font-size:30px;
-        margin-top:10px;
+      padding: 8vw;
+
+      h3 {
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-top: 10px;
       }
+
       img {
-        width:20px;
-        margin-bottom:20px;
+        width: 20px;
+        margin-bottom: 20px;
       }
     }
-    .photo{
+
+    .photo {
       img {
-        width:100%;
-        height:auto;
+        width: 100%;
+        height: auto;
       }
     }
   }
+
   .threeup {
     display: flex;
     padding: 8vw;
+
     @media #{$break-sm} {
       flex-direction: column;
     }
+
     .card {
       padding: 2vw;
+
       h2 {
         margin-left: 0;
         font-size: 20px;
-        text-transform:uppercase;
+        text-transform: uppercase;
         margin-bottom: 5px;
       }
-      h3{
+
+      h3 {
         font-family: 'Crete Round', serif;
         font-weight: 400;
         font-style: italic;
-        font-size:16px;
-        margin-top:15px;
-        line-height:25px;
+        font-size: 16px;
+        margin-top: 15px;
+        line-height: 25px;
       }
     }
   }
-  .faq{
-    max-width:1500px;
-    margin: 0 auto;
-    margin-top: 6vw;
+
+  .faq {
+    // max-width: 1500px;
+    margin: 0;
+    padding-top: 6vw;
+
+    background: #fff;
   }
+
   #faq {
-    display:flex;
-    align-items:flex-start;
-    padding:5vw;
+    max-width: 1500px;
+    display: flex;
+    align-items: flex-start;
+    padding: 5vw;
+
     @media #{$break-sm} {
-      flex-direction:column;
+      flex-direction: column;
     }
+
     .questions {
-      width:55%;
+      width: 55%;
+
       @media #{$break-sm} {
-        width:100%;
+        width: 100%;
       }
+
       ul {
-        list-style:none;
-        font-size:12px;
-        text-indent:0;
-        margin-left:0;
-        padding-left:0;
-        margin-bottom:20px;
+        list-style: none;
+        font-size: 12px;
+        text-indent: 0;
+        margin-left: 0;
+        padding-left: 0;
+        margin-bottom: 20px;
+
         li {
           font-size: 16px;
           margin-bottom: 10px;
           font-family: brandon-grotesque, futura-pt, sans-serif;
-          font-size:20px;
+          font-size: 20px;
           cursor: pointer;
+
           &.active {
             color: $dark-yellow;
             text-decoration: underline;
@@ -149,18 +179,22 @@
         }
       }
     }
-    .answers{
-      width:45%;
+
+    .answers {
+      width: 45%;
+
       @media #{$break-sm} {
-        width:100%;
+        width: 100%;
       }
+
       h3 {
-        margin-top:0;
-        text-transform:uppercase;
+        margin-top: 0;
+        text-transform: uppercase;
       }
     }
+
     >div {
-      min-height:15vw;
+      min-height: 15vw;
     }
   }
 }

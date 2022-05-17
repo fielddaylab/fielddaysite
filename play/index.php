@@ -20,18 +20,26 @@ include_once($path); ?>
     <div id="mainwrapper">
         <!--Start page content
   ------------------------>
+
+
         <section class="singlehero page_hero">
+
+            <video autoplay muted loop id="playback">
+                <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+            </video>
+
             <div class="info">
                 <h1 class="corrected">Our Games</h1>
                 <p class="corrected">Our games teach complex topics and get world-class research out to the public.</p>
                 <a href="#game_section" class="button yellow filled small">Check out our games</a>
             </div>
+
             <div class="graphic">
 
-
+                <!-- 
                 <div id="home-planet" class="floatslow">
                     <img id="kid-on-moon" src="/assets/img/games/kid-on-moon-04.png">
-                </div>
+                </div> -->
 
             </div>
         </section>
@@ -60,14 +68,14 @@ include_once($path); ?>
                                     </div>
 
                                 </li>
-                                <li class="gridder-list app-card" data-griddercontent="#game-penguin">
+                                <li class="gridder-list app-card" data-griddercontent="#game-waddle">
                                     <img src="/assets/img/games/thumbs/penguins.jpeg" class="app-logo">
                                     <div class="game-wrapper">
                                         <div class="title">
-                                            <span>Penguin Project (Coming Soon)</span>
+                                            <span>Waddle: A Penguin's Tale</span>
                                         </div>
                                         <div class="stats">
-                                            <p class="italic"> All Ages </p>
+                                            <p class="italic"> Ages 5+ </p>
                                             <p> Polar Research </p>
                                         </div>
                                     </div>
@@ -413,12 +421,12 @@ include_once($path); ?>
                                     <img src="/assets/img/hero-images/arishero.jpg">
                                 </div>
                             </div>
-                            <div id="game-penguin" class="app-expanded gridder-content">
+                            <div id="game-waddle" class="app-expanded gridder-content">
                                 <div class="app-info app-pane left">
                                     <span class="close-app">
-                                        <h2>Penguin Project - In Progress</h2>
+                                        <h2>Waddle: A Penguin's Tale</h2>
                                         <div class="stats">
-                                            <p class="tag ">All Ages</p>
+                                            <p class="tag "> Ages 5+ </p>
                                             <p>|</p>
                                             <p class="tag ">Polar Research</p>
                                         </div>
@@ -428,7 +436,7 @@ include_once($path); ?>
                                         <p class="note">
                                             Partners: NSF, Wisconsin Institute for Discovery, Wisconsin IceCube Particle Astrophysics Center
                                         </p>
-                                        <!-- <a class="button small black" href="/play/penguin" target="_blank">Learn More</a> -->
+                                        <a class="button small black" href="/play/waddle" target="_blank">Learn More</a>
                                 </div>
                                 <div class="app-thumbnail app-pane right">
                                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -1007,7 +1015,7 @@ include_once($path); ?>
         </section>
 
         <section class="faq">
-            <h2 class="uppercase centered header">Common Questions</h2>
+            <h1 class="uppercase centered header">Common Questions</h1>
             <div id="faq" class="carousel slide carousel-fade " data-ride="carousel">
                 <div class=" questions">
                     <ul class="carousel-indicators">

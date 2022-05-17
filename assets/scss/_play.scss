@@ -1,11 +1,19 @@
 .play {
     .page_hero {
-        background: url(/assets/img/games/bg-space-03.png);
-        background-size: cover;
-        background-position: left;
-        margin-top: 50px;
-        padding: 3vw 0vw;
-        height: 80vh;
+        // background: url(/assets/img/games/bg-space-03.png);
+        // background-size: cover;
+        // background-position: left;
+        // margin-top: 50px;
+        // padding: 3vw 0vw;
+        height: 90vh;
+
+        #playback {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
 
         @media #{$break-sm} {
             flex-direction: column-reverse;
@@ -15,10 +23,13 @@
         }
 
         .info {
+            z-index: 10;
             color: $creme;
-            width: 40%;
-            padding: 8vw 0vw 8vw 8vw;
+            width: 30%;
+            padding: 2vw 2vw 2vw 3vw;
+            border-radius: 0 10px 10px 0;
             margin-right: 10%;
+            background: #001E2A;
 
             p {
                 margin-bottom: 20px;
@@ -134,7 +145,7 @@
                 .forevermine_screenshot {
                     // margin-left: 10vw;
                     width: 30vw;
-                    height: auto;
+                    height: 19vw;
                 }
             }
         }
@@ -297,7 +308,7 @@
             }
 
             .title {
-                font-family: brandon-grotesque, futura-pt, sans-serif;
+                font-carouselmily: brandon-grotesque, futura-pt, sans-serif;
                 font-size: 22px;
                 display: flex;
                 // align-items: center;
