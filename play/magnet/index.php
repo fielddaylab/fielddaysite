@@ -3,7 +3,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= "/includes/header.php";
 include_once($path); ?>
-<title>title - Field Day</title>
+<title>Magnet Hunt - Field Day</title>
 <meta name="description" content="- Field Day">
 </head>
 
