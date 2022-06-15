@@ -7730,7 +7730,8 @@ button.close {
 
 /* Global
 ------------------------------------------ */
-html, body {
+html,
+body {
   height: 100%;
   -webkit-overflow-scrolling: touch; }
 
@@ -7768,12 +7769,16 @@ hr {
   .hide-for-small {
     display: none !important; } }
 
-@media only screen and (max-device-width: 1000px), only screen and (max-width: 1000px) {
+@media only screen and (max-device-width: 1072px), only screen and (max-width: 1072px) {
   .hide-for-nav {
     display: none !important; } }
 
 @media only screen and (max-width: 768px) {
   .hide-for-nav-xsmall {
+    display: none !important; } }
+
+@media only screen and (max-device-width: 400px), only screen and (max-width: 400px) {
+  .hide-for-nav-narrow {
     display: none !important; } }
 
 .sticky {
@@ -7812,6 +7817,11 @@ body {
   margin-bottom: 20px; }
 
 h1, h2, h3, h4 {
+  font-family: brandon-grotesque, futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+.grotesque {
   font-family: brandon-grotesque, futura-pt, sans-serif;
   font-weight: 400;
   font-style: normal; }
@@ -7968,7 +7978,9 @@ p a {
   opacity: 1;
   z-index: 1000; }
 
-.nav-fixed .drawer.drawer-left, .nav-fixed .drawer.drawer-right, .singleapp .drawer.drawer-left, .singleapp .drawer.drawer-right {
+.nav-fixed .drawer.drawer-left, .nav-fixed .drawer.drawer-right,
+.singleapp .drawer.drawer-left,
+.singleapp .drawer.drawer-right {
   transform: translateY(-400px);
   width: 100%;
   left: 0;
@@ -7976,7 +7988,9 @@ p a {
   height: auto;
   opacity: 0;
   background: #001E2A; }
-  .nav-fixed .drawer.drawer-left .drawer-contents, .nav-fixed .drawer.drawer-right .drawer-contents, .singleapp .drawer.drawer-left .drawer-contents, .singleapp .drawer.drawer-right .drawer-contents {
+  .nav-fixed .drawer.drawer-left .drawer-contents, .nav-fixed .drawer.drawer-right .drawer-contents,
+  .singleapp .drawer.drawer-left .drawer-contents,
+  .singleapp .drawer.drawer-right .drawer-contents {
     position: relative !important;
     width: auto;
     display: flex;
@@ -7987,9 +8001,13 @@ p a {
     padding-top: 8vw;
     padding-bottom: 6vw; }
     @media only screen and (max-width: 1024px) {
-      .nav-fixed .drawer.drawer-left .drawer-contents, .nav-fixed .drawer.drawer-right .drawer-contents, .singleapp .drawer.drawer-left .drawer-contents, .singleapp .drawer.drawer-right .drawer-contents {
+      .nav-fixed .drawer.drawer-left .drawer-contents, .nav-fixed .drawer.drawer-right .drawer-contents,
+      .singleapp .drawer.drawer-left .drawer-contents,
+      .singleapp .drawer.drawer-right .drawer-contents {
         padding-top: 10vw; } }
-    .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
+    .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem,
+    .singleapp .drawer.drawer-left .drawer-contents .draweritem,
+    .singleapp .drawer.drawer-right .drawer-contents .draweritem {
       height: 15vw;
       width: 14vw;
       vertical-align: bottom;
@@ -8000,12 +8018,16 @@ p a {
       max-height: 500px;
       min-height: 220px; }
       @media only screen and (max-width: 1024px) {
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem {
           width: 26vw;
           max-width: initial;
           max-width: 350px; } }
       @media only screen and (max-width: 768px) {
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem {
           width: 100vw;
           height: 50px;
           min-height: initial;
@@ -8014,25 +8036,37 @@ p a {
           flex-direction: row;
           align-items: center;
           margin-bottom: 0vw !important; }
-          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem span, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem span, .singleapp .drawer.drawer-left .drawer-contents .draweritem span, .singleapp .drawer.drawer-right .drawer-contents .draweritem span {
+          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem span, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem span,
+          .singleapp .drawer.drawer-left .drawer-contents .draweritem span,
+          .singleapp .drawer.drawer-right .drawer-contents .draweritem span {
             text-align: left !important;
             margin-top: 0px !important; }
-          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail, .singleapp .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .singleapp .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail {
+          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail,
+          .singleapp .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail,
+          .singleapp .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail {
             width: 70px !important;
             height: 70px !important;
             margin-right: 20px; } }
       @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem, .singleapp .drawer.drawer-left .drawer-contents .draweritem, .singleapp .drawer.drawer-right .drawer-contents .draweritem {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem {
           max-width: initial;
           margin: 3vw;
           margin-bottom: 10vw; } }
-      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem:hover, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem:hover, .singleapp .drawer.drawer-left .drawer-contents .draweritem:hover, .singleapp .drawer.drawer-right .drawer-contents .draweritem:hover {
+      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem:hover, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem:hover,
+      .singleapp .drawer.drawer-left .drawer-contents .draweritem:hover,
+      .singleapp .drawer.drawer-right .drawer-contents .draweritem:hover {
         transform: scale(1.05); }
-      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail, .singleapp .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .singleapp .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail {
+      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail,
+      .singleapp .drawer.drawer-left .drawer-contents .draweritem .draweritem-thumbnail,
+      .singleapp .drawer.drawer-right .drawer-contents .draweritem .draweritem-thumbnail {
         height: 90%;
         width: 100%;
         border-radius: 15px; }
-      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem span, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem span, .singleapp .drawer.drawer-left .drawer-contents .draweritem span, .singleapp .drawer.drawer-right .drawer-contents .draweritem span {
+      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem span, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem span,
+      .singleapp .drawer.drawer-left .drawer-contents .draweritem span,
+      .singleapp .drawer.drawer-right .drawer-contents .draweritem span {
         color: #fff;
         display: block;
         text-align: center;
@@ -8041,29 +8075,43 @@ p a {
         margin-top: 20px;
         letter-spacing: 3px;
         line-height: 24px; }
-      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro {
+      .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro,
+      .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro,
+      .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro {
         position: relative;
         font-size: 14px; }
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2 {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2 {
           margin-bottom: 14px; }
         @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
-          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro {
+          .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro,
+          .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro,
+          .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro {
             width: 100vw;
             margin-top: 10vw;
             margin-bottom: 3vw;
             height: auto;
             min-height: initial; } }
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro:hover, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro:hover, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro:hover, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro:hover {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro:hover, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro:hover,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro:hover,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro:hover {
           transform: scale(1); }
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2 {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro h2,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro h2 {
           margin-left: 0px;
           margin-top: 0px;
           font-size: 34px;
           text-transform: uppercase;
           letter-spacing: 3px; }
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro p, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro p, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro p, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro p {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro p, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro p,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro p,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro p {
           line-height: 28px; }
-        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro .intro-bg, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro .intro-bg, .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro .intro-bg, .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro .intro-bg {
+        .nav-fixed .drawer.drawer-left .drawer-contents .draweritem.drawer-intro .intro-bg, .nav-fixed .drawer.drawer-right .drawer-contents .draweritem.drawer-intro .intro-bg,
+        .singleapp .drawer.drawer-left .drawer-contents .draweritem.drawer-intro .intro-bg,
+        .singleapp .drawer.drawer-right .drawer-contents .draweritem.drawer-intro .intro-bg {
           width: 120px;
           height: 120px;
           position: absolute;
@@ -8071,17 +8119,21 @@ p a {
           left: -20px;
           opacity: .5; }
 
-.nav-fixed.drawerleft-open #mainwrapper, .singleapp.drawerleft-open #mainwrapper {
+.nav-fixed.drawerleft-open #mainwrapper,
+.singleapp.drawerleft-open #mainwrapper {
   transform: translateY(400px); }
 
-.nav-fixed.drawerright-open #mainwrapper, .singleapp.drawerright-open #mainwrapper {
+.nav-fixed.drawerright-open #mainwrapper,
+.singleapp.drawerright-open #mainwrapper {
   transform: translateY(400px); }
 
-.nav-fixed.drawerright-open .drawer-right, .singleapp.drawerright-open .drawer-right {
+.nav-fixed.drawerright-open .drawer-right,
+.singleapp.drawerright-open .drawer-right {
   transform: translateX(0px);
   opacity: 1; }
 
-.nav-fixed.drawerleft-open .drawer-left, .singleapp.drawerleft-open .drawer-left {
+.nav-fixed.drawerleft-open .drawer-left,
+.singleapp.drawerleft-open .drawer-left {
   transform: translateX(0px);
   opacity: 1; }
 
@@ -8154,6 +8206,9 @@ p a {
     @media only screen and (max-width: 768px) {
       .small-nav .logo {
         width: 180px; } }
+    @media only screen and (max-device-width: 400px), only screen and (max-width: 400px) {
+      .small-nav .logo {
+        border-right: 0; } }
     .small-nav .logo a {
       padding: 0px;
       line-height: 0px; }
@@ -9329,6 +9384,8 @@ hr {
   ---------------------------*/
   /* Template for StationMaine
   ---------------------------*/
+  /* Template for Waddle
+  ---------------------------*/
   /* Template for thermoVR
   ---------------------------*/
   /* Template for Forevor Mine
@@ -9339,6 +9396,28 @@ hr {
   ---------------------------*/
   /* Template for Aris
   ---------------------------*/
+  /* Template for yardgames as a whole
+  ---------------------------*/
+  /* Template for antibiotic
+  ---------------------------*/
+  /* Template for balloon
+  ---------------------------*/
+  /* Template for carbon-game
+  ---------------------------*/
+  /* Template for crystal-cave
+  ---------------------------*/
+  /* Template for earthquake
+  ---------------------------*/
+  /* Template for magnet
+  ---------------------------*/
+  /* Template for nitrogen-game
+  ---------------------------*/
+  /* Template for water-game
+  ---------------------------*/
+  /* Template for wind
+  ---------------------------*/
+  /* Template for wave
+  ---------------------------*/
   /* Slider CSS
   ---------------------------*/ }
   .singleapp .app-hero {
@@ -9346,6 +9425,10 @@ hr {
     background: #001E2A;
     display: flex;
     align-items: center; }
+    .singleapp .app-hero.light_theme .hero-content {
+      color: #001E2A; }
+    .singleapp .app-hero.light_theme .info-panel li, .singleapp .app-hero.light_theme .info-panel a {
+      color: #001E2A !important; }
     .singleapp .app-hero .button {
       margin-bottom: 10px; }
     @media only screen and (max-width: 768px) {
@@ -9412,7 +9495,8 @@ hr {
                 opacity: 0.7; }
       .singleapp .app-hero .hero-content .app-info {
         margin-bottom: 10px; }
-        .singleapp .app-hero .hero-content .app-info h1, .singleapp .app-hero .hero-content .app-info p {
+        .singleapp .app-hero .hero-content .app-info h1,
+        .singleapp .app-hero .hero-content .app-info p {
           display: inline;
           vertical-align: middle; }
         .singleapp .app-hero .hero-content .app-info h1 {
@@ -9439,7 +9523,8 @@ hr {
           color: #001E2A;
           border-radius: 5px;
           display: inline-block; }
-        .singleapp .app-hero .hero-content .app-info.long-title h1, .singleapp .app-hero .hero-content .app-info.long-title p {
+        .singleapp .app-hero .hero-content .app-info.long-title h1,
+        .singleapp .app-hero .hero-content .app-info.long-title p {
           display: inline-block;
           margin: 10px 0px 0px 0px; }
         .singleapp .app-hero .hero-content .app-info.long-title h1 {
@@ -9714,6 +9799,46 @@ hr {
     @media only screen and (max-width: 768px) {
       .singleapp.stationmaine .app-title {
         width: 90%; } }
+  .singleapp.waddle #app-intro {
+    padding: 5vw 0vw 6vw 0vw;
+    text-align: center; }
+    .singleapp.waddle #app-intro .iframe-bg {
+      width: 880px;
+      height: 660px;
+      display: block;
+      margin: 0px auto;
+      overflow: hidden;
+      border: 0px;
+      background-size: cover; }
+    .singleapp.waddle #app-intro h2 {
+      text-transform: uppercase; }
+    .singleapp.waddle #app-intro .fullscreen {
+      text-align: right;
+      margin-top: 10px; }
+      .singleapp.waddle #app-intro .fullscreen img {
+        vertical-align: middle; }
+  .singleapp.waddle #app-about h3 {
+    margin: 25px 0px 10px 0px; }
+  .singleapp.waddle .app-hero {
+    background-image: url("/assets/img/hero-images/waddle_hero.jpg");
+    background-size: cover;
+    background-position: right bottom; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.waddle .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.7) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/hero-images/waddle_hero.jpg"); } }
+  .singleapp.waddle .info-panel {
+    border-bottom: 0px !important; }
+  .singleapp.waddle .app-title {
+    text-indent: -9999px;
+    background: url(/assets/img/logos/colored/waddle-mark.png) no-repeat;
+    background-size: contain;
+    background-position: left;
+    border-right: 0px !important;
+    width: 700px;
+    height: 200px; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.waddle .app-title {
+        width: 90%; } }
   .singleapp.thermovr #app-intro {
     padding: 5vw 0vw 6vw 0vw;
     text-align: center; }
@@ -9841,12 +9966,128 @@ hr {
     height: 0;
     overflow: hidden;
     max-width: 100%; }
-  .singleapp .embed-container iframe, .singleapp .embed-container object, .singleapp .embed-container embed {
+  .singleapp .embed-container iframe,
+  .singleapp .embed-container object,
+  .singleapp .embed-container embed {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; }
+  .singleapp .app-hero {
+    height: 85vh; }
+    .singleapp .app-hero .app-logo {
+      cursor: pointer; }
+      .singleapp .app-hero .app-logo img {
+        width: 120px;
+        margin-left: 20px;
+        transform: translateY(-10px);
+        float: right; }
+      .singleapp .app-hero .app-logo:hover {
+        opacity: 0.8; }
+  @media only screen and (max-width: 768px) {
+    .singleapp .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.antibiotic .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/bacteria-thumb.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.antibiotic .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/bacteria-thumb.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.antibiotic .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.balloon .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/balloon-thumb.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.balloon .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/balloon-thumb.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.balloon .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.carbon-game .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/cycle-carbon-thumb.jpg");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.carbon-game .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/cycle-carbon-thumb.jpg"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.carbon-game .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.crystal-cave .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.7) 100%), url("/assets/img/thumbs/crystal-thumb.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.crystal-cave .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/crystal-thumb.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.crystal-cave .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.earthquake .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-earthquake.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.earthquake .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-earthquake.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.earthquake .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.magnet .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-magnetism.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.magnet .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-magnetism.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.magnet .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.nitrogen-game .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/cycle-nitrogen-thumb.jpg");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.nitrogen-game .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/cycle-nitrogen-thumb.jpg"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.nitrogen-game .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.water-game .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/cycle-water-thumb.jpg");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.water-game .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/cycle-water-thumb.jpg"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.water-game .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.wind .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-wind.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.wind .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-wind.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.wind .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.wave .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-wave.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.wave .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-wave.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.wave .app-info h1 {
+      border-right: 0px !important; } }
   .singleapp .glide {
     position: relative;
     width: 100%;
@@ -10384,11 +10625,12 @@ hr {
       line-height: 25px; }
 
 .page .faq {
-  max-width: 1500px;
-  margin: 0 auto;
-  margin-top: 6vw; }
+  margin: 0;
+  padding-top: 6vw;
+  background: #fff; }
 
 .page #faq {
+  max-width: 1500px;
   display: flex;
   align-items: flex-start;
   padding: 5vw; }
@@ -11638,6 +11880,382 @@ hr {
     background: #E0BC4E; }
 
 .mixedreality .whataboutaris img {
+  margin: 0 auto;
+  display: block;
+  width: 60px; }
+
+.play .page_hero {
+  padding-top: 60px;
+  height: auto;
+  z-index: 100;
+  background: #001E2A; }
+  .play .page_hero .scanlines {
+    background: url(../img/hero-images/crt-pattern.png);
+    background-size: 40px;
+    background-repeat: repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 101;
+    opacity: .5; }
+    @media only screen and (max-width: 768px) {
+      .play .page_hero .scanlines {
+        display: none; } }
+  .play .page_hero #playback {
+    position: relative;
+    z-index: 100;
+    right: 0;
+    bottom: 0;
+    width: 100%   !important;
+    height: auto   !important;
+    min-width: 800px; }
+    @media only screen and (max-width: 768px) {
+      .play .page_hero #playback {
+        display: none; } }
+  @media only screen and (max-width: 768px) {
+    .play .page_hero {
+      height: auto;
+      padding: 2vw;
+      margin-top: 20px; } }
+  .play .page_hero .info {
+    z-index: 10;
+    color: #F6F6F3;
+    width: 35%;
+    padding: 2vw 2vw 2vw 3vw;
+    border-radius: 0 10px 10px 0;
+    background: #001E2A;
+    z-index: 101;
+    position: absolute; }
+    .play .page_hero .info p {
+      margin-bottom: 20px;
+      color: #F6F6F3; }
+    @media only screen and (max-width: 768px) {
+      .play .page_hero .info {
+        width: 100%;
+        position: relative;
+        display: block;
+        padding: 8vw;
+        border-radius: 0; } }
+    .play .page_hero .info h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 50px; }
+      @media only screen and (max-width: 1324px) {
+        .play .page_hero .info h1 {
+          font-size: 30px; } }
+    .play .page_hero .info h2 {
+      color: #FAD9D9;
+      font-size: 25px;
+      text-transform: uppercase;
+      margin-left: 0px;
+      letter-spacing: 4px; }
+      @media only screen and (max-width: 1324px) {
+        .play .page_hero .info h2 {
+          font-size: 20px;
+          margin-bottom: 10px;
+          margin-top: 10px; } }
+  .play .page_hero .graphic {
+    border: none; }
+    .play .page_hero .graphic img {
+      width: 100%;
+      height: auto;
+      border: none; }
+    .play .page_hero .graphic #kid-on-moon {
+      width: 150%;
+      transform: translateX(-20%) translateY(45%); }
+    @media only screen and (max-width: 768px) {
+      .play .page_hero .graphic {
+        height: auto;
+        width: 100%;
+        margin-bottom: -20vw; }
+        .play .page_hero .graphic #kid-on-moon {
+          width: 100%;
+          transform: translateX(60%) translateY(50%); } }
+
+.play #game_section {
+  max-width: 1600px;
+  margin: 0 auto; }
+
+.play .brief {
+  width: 70vw;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+
+.play .page-facts {
+  background: #202E3C;
+  color: #fff; }
+  .play .page-facts .info {
+    padding: 6vw;
+    width: 60%; }
+  .play .page-facts .fact {
+    background: none; }
+    .play .page-facts .fact .photo {
+      padding: 5vw;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      width: 40%; }
+      .play .page-facts .fact .photo img {
+        width: 20vw;
+        height: auto; }
+      .play .page-facts .fact .photo .forevermine_screenshot {
+        width: 30vw;
+        height: 19vw; }
+  .play .page-facts .astrovr_wrap {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 10vw; }
+    @media only screen and (max-width: 768px) {
+      .play .page-facts .astrovr_wrap {
+        width: 100vw; } }
+    .play .page-facts .astrovr_wrap .astrovr {
+      margin: 0 auto; }
+    .play .page-facts .astrovr_wrap .stars {
+      width: 10%; }
+    .play .page-facts .astrovr_wrap .stars1 {
+      margin-top: -15vw;
+      margin-right: 3vw; }
+    .play .page-facts .astrovr_wrap .stars2 {
+      margin-bottom: -15vw; }
+    .play .page-facts .astrovr_wrap .teacher {
+      width: 30%;
+      margin-right: 2vw; }
+    .play .page-facts .astrovr_wrap .kidA {
+      width: 20%; }
+    .play .page-facts .astrovr_wrap .kidB {
+      width: 25%; }
+
+.play .carousel-inner {
+  min-height: 20vw; }
+  .play .carousel-inner .item {
+    transition: all .3s ease-in-out; }
+
+.play .app-bullets {
+  list-style-type: none !important;
+  min-height: 10vw;
+  text-align: center;
+  padding-left: 0; }
+  @media only screen and (max-width: 768px) {
+    .play .app-bullets {
+      margin-bottom: 30px;
+      margin-top: 30px; } }
+  .play .app-bullets .app-bullet {
+    position: relative;
+    z-index: 100;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 3vw;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    transition: all .3s ease-in-out; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .play .app-bullets .app-bullet {
+        margin: 5px;
+        border-radius: 10px;
+        border-bottom: initial;
+        -size: 10px; } }
+    .play .app-bullets .app-bullet.active {
+      border-bottom: 3px solid; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .play .app-bullets .app-bullet.active {
+          border: 2px solid; } }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .play .app-bullets .app-bullet h2 {
+        font-size: 12px;
+        margin: 10px; } }
+
+.play .apps {
+  text-align: center;
+  padding: 20px; }
+  @media only screen and (max-width: 768px) {
+    .play .apps {
+      padding: 0px; } }
+  .play .apps .app-card {
+    background: #012C3D;
+    width: 18vw;
+    box-shadow: 0 0px 13px 0 rgba(0, 0, 0, 0.15);
+    z-index: 75;
+    border-radius: 8px;
+    text-align: left;
+    flex-direction: wrap;
+    color: #fff; }
+    @media only screen and (max-width: 1324px) {
+      .play .apps .app-card {
+        width: 25vw; } }
+    @media only screen and (max-width: 768px) {
+      .play .apps .app-card {
+        width: 90vw;
+        display: flex;
+        background: none;
+        border-bottom: 2px solid #202E3C;
+        border-radius: 0px; } }
+    .play .apps .app-card .app-logo {
+      width: auto;
+      border-radius: 8px 8px 0px 0px;
+      display: block;
+      margin: 0 auto;
+      max-width: 100%; }
+      @media only screen and (max-width: 768px) {
+        .play .apps .app-card .app-logo {
+          width: 25vw;
+          height: 25vw;
+          border-radius: 8px;
+          margin: inherit; } }
+    .play .apps .app-card .game-wrapper {
+      min-height: 150px;
+      padding: 10px;
+      position: relative;
+      font-family: brandon-grotesque, futura-pt, sans-serif;
+      letter-spacing: 1px; }
+      @media only screen and (max-width: 768px) {
+        .play .apps .app-card .game-wrapper {
+          min-height: 0; } }
+      .play .apps .app-card .game-wrapper .stats {
+        position: absolute;
+        bottom: 0;
+        padding: 10px;
+        opacity: 0.7;
+        font-size: 14px; }
+        @media only screen and (max-width: 768px) {
+          .play .apps .app-card .game-wrapper .stats {
+            position: relative; } }
+        .play .apps .app-card .game-wrapper .stats p {
+          margin: 0;
+          line-height: 2.4rem; }
+          @media only screen and (max-width: 768px) {
+            .play .apps .app-card .game-wrapper .stats p {
+              line-height: 2rem; } }
+        .play .apps .app-card .game-wrapper .stats .italic {
+          font-style: italic; }
+    .play .apps .app-card .title {
+      font-carouselmily: brandon-grotesque, futura-pt, sans-serif;
+      font-size: 22px;
+      display: flex;
+      justify-content: left;
+      padding-left: 10px;
+      padding-right: 10px; }
+    .play .apps .app-card:hover {
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05); }
+    .play .apps .app-card.selectedItem {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1); }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .play .apps .app-card.selectedItem {
+          box-shadow: none;
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1); } }
+  .play .apps .gridder {
+    padding: 0px !important; }
+  @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+    .play .apps .gridder-show {
+      margin-top: 20px; } }
+  .play .apps .gridder-show .gridder-navigation {
+    border-top: 0;
+    border-bottom: 0;
+    margin-top: 40px;
+    width: 100%;
+    margin-right: 20px;
+    height: 50px;
+    overflow: inherit; }
+    .play .apps .gridder-show .gridder-navigation .nav-left {
+      float: right;
+      margin-right: 20px; }
+      .play .apps .gridder-show .gridder-navigation .nav-left .gridder-close {
+        border-left: 0;
+        border-right: 0;
+        padding: 10px 5px;
+        background: #DDDDDD;
+        padding: 4px 10px 6px 10px;
+        border-radius: 5px; }
+        .play .apps .gridder-show .gridder-navigation .nav-left .gridder-close img {
+          width: 30px;
+          height: 30px; }
+        .play .apps .gridder-show .gridder-navigation .nav-left .gridder-close:hover {
+          background: #E0BC4E; }
+  .play .apps .gridder-expanded-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px 20px 20px 20px;
+    color: #fff; }
+    .play .apps .gridder-expanded-content .note {
+      color: #DDDDDD; }
+    @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+      .play .apps .gridder-expanded-content {
+        display: block; } }
+    .play .apps .gridder-expanded-content .app-info {
+      padding-right: 30px; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .play .apps .gridder-expanded-content .app-info {
+          padding-right: 0px; } }
+      .play .apps .gridder-expanded-content .app-info .stats {
+        display: flex; }
+        .play .apps .gridder-expanded-content .app-info .stats p {
+          font-weight: 700;
+          padding-right: 20px;
+          margin: 10px 0; }
+    .play .apps .gridder-expanded-content .app-pane {
+      width: 50%; }
+      .play .apps .gridder-expanded-content .app-pane h2 {
+        font-family: brandon-grotesque, futura-pt, sans-serif;
+        font-size: 36px;
+        margin-bottom: 10px; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .play .apps .gridder-expanded-content .app-pane {
+          width: 100%;
+          display: block; } }
+    .play .apps .gridder-expanded-content h2 {
+      margin-left: 0px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 200;
+      font-size: 30px; }
+      @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+        .play .apps .gridder-expanded-content h2 {
+          margin-right: 0px; } }
+    .play .apps .gridder-expanded-content p {
+      margin-bottom: 20px; }
+      .play .apps .gridder-expanded-content p.notsupported {
+        font-style: italic;
+        color: #DD1C1A; }
+  .play .apps .collection-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #DDDDDD; }
+  .play .apps .app-thumbnail {
+    display: flex;
+    justify-content: center; }
+    .play .apps .app-thumbnail img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 5px; }
+      .play .apps .app-thumbnail img.long {
+        height: 45vw;
+        width: auto; }
+        @media only screen and (max-width: 768px) {
+          .play .apps .app-thumbnail img.long {
+            height: 90vw;
+            margin: 0 auto; } }
+
+.play #ourstuff {
+  transition: all .3s ease-in-out;
+  background: #001E2A;
+  display: block;
+  z-index: 101;
+  padding: 5vw; }
+
+.play .whataboutaris img {
   margin: 0 auto;
   display: block;
   width: 60px; }

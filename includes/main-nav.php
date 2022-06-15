@@ -1,10 +1,13 @@
 <nav class="small-nav nav-fixed">
-  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/mobile-nav.php";  include_once($path); ?>
+  <?php $path = $_SERVER['DOCUMENT_ROOT'];
+  $path .= "/includes/mobile-nav.php";
+  include_once($path); ?>
   <div class="left">
     <ul>
       <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/fd-learning_games_logo_new.png"></a></li>
-      <li class="small-navlink"><a class="drawerleft-toggle">games</a></li>
-      <li class="small-navlink"><a href="/mixedreality">mixed reality</a></li>
+      <!--<li class="small-navlink hide-for-nav-narrow"><a class="drawerleft-toggle">games</a></li>-->
+      <li class="small-navlink hide-for-nav-narrow"><a href="/play">games</a></li>
+      <li class="small-navlink hide-for-nav-narrow"><a href="/mixedreality">mixed reality</a></li>
       <li class="small-navlink hide-for-nav-xsmall"><a href="/about">about us</a></li>
       <li class="small-navlink hide-for-nav"><a href="/research">research</a></li>
       <li class="small-navlink hide-for-nav"><a href="/fellowships">fellowships</a></li>
@@ -14,6 +17,9 @@
   </div>
   <div class="right">
     <ul>
+      <!--<li>
+        <a class="button small yellow">gee game awards</a>
+      </li>-->
       <li>
         <span class="worklink hide-for-nav"></span>
         <div class="mobile-nav-toggle-wrap">
@@ -27,7 +33,7 @@
 </nav>
 
 <div class="drawer drawer-left make">
-  <img class="icon-close drawerclose" src="/assets/img/ui/close-icon-white.png"/>
+  <img class="icon-close drawerclose" src="/assets/img/ui/close-icon-white.png" />
   <div class="drawer-contents">
     <a class="draweritem drawer-intro" href="">
       <img class="intro-bg" src="/assets/img/logos/nowonder.png" />
@@ -35,7 +41,7 @@
       <p>Our games get world-class research out to the public.</p>
     </a>
 
-     <a class="draweritem" href="/play/emerald">
+    <a class="draweritem" href="/play/emerald">
       <div class="draweritem-thumbnail" style="background: url('/assets/img/thumbs/emerald-thumb.jpg'); background-size: cover;"></div>
       <span>Legend of the Lost Emerald</span>
     </a>
@@ -68,7 +74,7 @@
 </div>
 
 <div class="drawer drawer-right learn">
-  <img class="icon-close drawerclose" src="/assets/img/ui/close-icon-white.png"/>
+  <img class="icon-close drawerclose" src="/assets/img/ui/close-icon-white.png" />
   <div class="drawer-contents">
 
     <a class="draweritem drawer-intro" href="">
