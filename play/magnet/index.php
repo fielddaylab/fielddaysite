@@ -7,7 +7,7 @@ include_once($path); ?>
 <meta name="description" content="- Field Day">
 </head>
 
-<body class="singleapp magnet">
+<body class="singleapp yard magnet">
   <!--include Main Navigation
 ------------------------>
   <?php $path = $_SERVER['DOCUMENT_ROOT'];
@@ -26,6 +26,7 @@ include_once($path); ?>
             <li>Play</li>
             <img class="breadcrumb-arrow" src="../../assets/img/ui/breadcrumb-arrow.png">
             <li>Magnet Hunt</li>
+            <a class="app-logo" target="_blank" href="https://theyardgames.org/"><img src="/assets/img/logos/yard-logo.png" /></a>
           </ul>
         </div>
         <div class="app-info">
@@ -38,7 +39,8 @@ include_once($path); ?>
         </div>
         <div class="buttons">
           <!-- <a target="_blank" href="https://pbswisconsineducation.org/emerald/about/" class="button xsmall white filled">Play the Game</a> -->
-          <a target="_blank" href="#app-about" class="button xsmall white">Learn about the Game</a>
+          <a target="_blank" href="#app-about" class="button xsmall white filled">Learn about the Game</a>
+          <a target="_blank" href="https://theyardgames.org/game/magnetism.html" class="button xsmall white">Play the Game</a>
         </div>
       </div>
     </section>

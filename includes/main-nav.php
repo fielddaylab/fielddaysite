@@ -5,7 +5,8 @@
   <div class="left">
     <ul>
       <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/fd-learning_games_logo_new.png"></a></li>
-      <li class="small-navlink hide-for-nav-narrow"><a class="drawerleft-toggle">games</a></li>
+      <!--<li class="small-navlink hide-for-nav-narrow"><a class="drawerleft-toggle">games</a></li>-->
+      <li class="small-navlink hide-for-nav-narrow"><a href="/play">games</a></li>
       <li class="small-navlink hide-for-nav-narrow"><a href="/mixedreality">mixed reality</a></li>
       <li class="small-navlink hide-for-nav-xsmall"><a href="/about">about us</a></li>
       <li class="small-navlink hide-for-nav"><a href="/research">research</a></li>
@@ -16,6 +17,9 @@
   </div>
   <div class="right">
     <ul>
+      <!--<li>
+        <a class="button small yellow">gee game awards</a>
+      </li>-->
       <li>
         <span class="worklink hide-for-nav"></span>
         <div class="mobile-nav-toggle-wrap">

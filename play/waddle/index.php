@@ -13,7 +13,7 @@ include_once($path); ?>
     include_once($path); ?>
 
     <!-- Main Content -->
-    <section class="app-hero">
+    <section class="app-hero light_theme">
         <div class="hero-content">
             <div class="info-panel">
                 <ul class="breadcrumbs">
@@ -28,11 +28,11 @@ include_once($path); ?>
                 <h1 class="app-title">Waddle: A Penguin's Tale</h1>
             </div>
             <div class="app-description">
-                <p class="small">This VR game introduces players to Adelie penguin research in Antarctica! </p>
-                <p class="small">Made in partnership with X and NSF.</p>
+                <p class="small">This VR game introduces players to polar research at Cape Royds, Antarctica by letting them embody an adorable adelie penguin.</p>
+                <p class="small italic">Made in partnership with the National Science Foundation.</p>
             </div>
             <div class="buttons">
-                <a class="button xsmall white filled" href="#app-about">Learn More</a>
+                <a class="button xsmall black filled" href="#app-about">Learn More</a>
             </div>
         </div>
     </section>
@@ -68,9 +68,9 @@ include_once($path); ?>
                 <p>Named after the collective noun for a group of penguins on land, Wadde: A Penguin’s Tale introduces players to polar research at Cape Royds, Antarctica. We worked closely on this project with Jean Pennycook, a polar researcher and educator who has been studying Adelie penguins at the South Pole for more than twenty years. The game immerses players in a beautiful, distant world they wouldn’t otherwise be able to experience: the Antarctic ice. Take on the role of a penguin, play some adorable mini games, and learn how penguins build nests and defend their eggs against the predatory skua. </p>
 
                 <h2 id="partners">Partners</h2>
-                <p>We created this game in collaboration with our amazing partners at X and Y, including Jean Pennycook, Adelie penguin researcher. The game was funded by a generous grant from the National Science Foundation. </p>
+                <p>We created this game in collaboration with the National Science Foundation, The Wisconsin Institute for Discovery, The Wisconsin IceCube Particle Astrophysics Center, as well as Jean Pennycook, Adelie penguin researcher. The game was funded by a generous grant from the National Science Foundation. </p>
                 <ul>
-                    <li>Principal Investigator: Travis Tangen</li>
+                    <li>Principal Investigator: Kevin Ponto</li>
                     <li>Executive Producer: David Gagnon</li>
                     <li>Producer/Designer: Bobby Lockhart</li>
                     <li>Creative Direction: Sarah Gagnon</li>

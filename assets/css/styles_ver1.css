@@ -9396,6 +9396,28 @@ hr {
   ---------------------------*/
   /* Template for Aris
   ---------------------------*/
+  /* Template for yardgames as a whole
+  ---------------------------*/
+  /* Template for antibiotic
+  ---------------------------*/
+  /* Template for balloon
+  ---------------------------*/
+  /* Template for carbon-game
+  ---------------------------*/
+  /* Template for crystal-cave
+  ---------------------------*/
+  /* Template for earthquake
+  ---------------------------*/
+  /* Template for magnet
+  ---------------------------*/
+  /* Template for nitrogen-game
+  ---------------------------*/
+  /* Template for water-game
+  ---------------------------*/
+  /* Template for wind
+  ---------------------------*/
+  /* Template for wave
+  ---------------------------*/
   /* Slider CSS
   ---------------------------*/ }
   .singleapp .app-hero {
@@ -9403,6 +9425,10 @@ hr {
     background: #001E2A;
     display: flex;
     align-items: center; }
+    .singleapp .app-hero.light_theme .hero-content {
+      color: #001E2A; }
+    .singleapp .app-hero.light_theme .info-panel li, .singleapp .app-hero.light_theme .info-panel a {
+      color: #001E2A !important; }
     .singleapp .app-hero .button {
       margin-bottom: 10px; }
     @media only screen and (max-width: 768px) {
@@ -9687,7 +9713,7 @@ hr {
     border-bottom: 0px !important; }
   .singleapp.shipwreck .app-title {
     text-indent: -9999px;
-    background: url(../img/logos/shipwreck-logo.png) no-repeat;
+    background: url(../img/logos/emerald-logo.png) no-repeat;
     background-size: cover;
     border-right: 0px !important;
     width: 47vw;
@@ -9794,17 +9820,17 @@ hr {
   .singleapp.waddle #app-about h3 {
     margin: 25px 0px 10px 0px; }
   .singleapp.waddle .app-hero {
-    background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.3) 0%, rgba(14, 36, 57, 0.4) 100%), url("/assets/img/hero-images/waddle.jpg");
+    background-image: url("/assets/img/hero-images/waddle_hero.jpg");
     background-size: cover;
-    background-position: right top; }
+    background-position: right bottom; }
     @media only screen and (max-width: 768px) {
       .singleapp.waddle .app-hero {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.7) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/hero-images/eaddle.jpg"); } }
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.7) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/hero-images/waddle_hero.jpg"); } }
   .singleapp.waddle .info-panel {
     border-bottom: 0px !important; }
   .singleapp.waddle .app-title {
     text-indent: -9999px;
-    background: url(/assets/img/logos/waddle-logo.png) no-repeat;
+    background: url(/assets/img/logos/colored/waddle-mark.png) no-repeat;
     background-size: contain;
     background-position: left;
     border-right: 0px !important;
@@ -9948,6 +9974,120 @@ hr {
     left: 0;
     width: 100%;
     height: 100%; }
+  .singleapp .app-hero {
+    height: 85vh; }
+    .singleapp .app-hero .app-logo {
+      cursor: pointer; }
+      .singleapp .app-hero .app-logo img {
+        width: 120px;
+        margin-left: 20px;
+        transform: translateY(-10px);
+        float: right; }
+      .singleapp .app-hero .app-logo:hover {
+        opacity: 0.8; }
+  @media only screen and (max-width: 768px) {
+    .singleapp .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.antibiotic .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/bacteria-thumb.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.antibiotic .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/bacteria-thumb.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.antibiotic .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.balloon .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/balloon-thumb.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.balloon .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/balloon-thumb.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.balloon .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.carbon-game .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/cycle-carbon-thumb.jpg");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.carbon-game .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/cycle-carbon-thumb.jpg"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.carbon-game .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.crystal-cave .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.7) 100%), url("/assets/img/thumbs/crystal-thumb.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.crystal-cave .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/crystal-thumb.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.crystal-cave .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.earthquake .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-earthquake.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.earthquake .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-earthquake.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.earthquake .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.magnet .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-magnetism.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.magnet .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-magnetism.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.magnet .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.nitrogen-game .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/cycle-nitrogen-thumb.jpg");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.nitrogen-game .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/cycle-nitrogen-thumb.jpg"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.nitrogen-game .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.water-game .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/cycle-water-thumb.jpg");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.water-game .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/cycle-water-thumb.jpg"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.water-game .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.wind .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-wind.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.wind .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-wind.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.wind .app-info h1 {
+      border-right: 0px !important; } }
+  .singleapp.wave .app-hero {
+    background-image: linear-gradient(99deg, #0e2439 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-wave.png");
+    background-size: cover;
+    background-position: right top; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.wave .app-hero {
+        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.9) 0%, rgba(14, 36, 57, 0.6) 100%), url("/assets/img/thumbs/thumb-wave.png"); } }
+  @media only screen and (max-width: 768px) {
+    .singleapp.wave .app-info h1 {
+      border-right: 0px !important; } }
   .singleapp .glide {
     position: relative;
     width: 100%;
@@ -11745,34 +11885,58 @@ hr {
   width: 60px; }
 
 .play .page_hero {
-  height: 90vh; }
+  padding-top: 60px;
+  height: auto;
+  z-index: 100;
+  background: #001E2A; }
+  .play .page_hero .scanlines {
+    background: url(../img/hero-images/crt-pattern.png);
+    background-size: 40px;
+    background-repeat: repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 101;
+    opacity: .5; }
+    @media only screen and (max-width: 768px) {
+      .play .page_hero .scanlines {
+        display: none; } }
   .play .page_hero #playback {
-    position: fixed;
+    position: relative;
+    z-index: 100;
     right: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%; }
+    width: 100%   !important;
+    height: auto   !important;
+    min-width: 800px; }
+    @media only screen and (max-width: 768px) {
+      .play .page_hero #playback {
+        display: none; } }
   @media only screen and (max-width: 768px) {
     .play .page_hero {
-      flex-direction: column-reverse;
       height: auto;
       padding: 2vw;
       margin-top: 20px; } }
   .play .page_hero .info {
     z-index: 10;
     color: #F6F6F3;
-    width: 30%;
+    width: 35%;
     padding: 2vw 2vw 2vw 3vw;
     border-radius: 0 10px 10px 0;
-    margin-right: 10%;
-    background: #001E2A; }
+    background: #001E2A;
+    z-index: 101;
+    position: absolute; }
     .play .page_hero .info p {
       margin-bottom: 20px;
       color: #F6F6F3; }
     @media only screen and (max-width: 768px) {
       .play .page_hero .info {
-        width: 40%;
-        padding: 15vw 0vw 8vw 8vw; } }
+        width: 100%;
+        position: relative;
+        display: block;
+        padding: 8vw;
+        border-radius: 0; } }
     .play .page_hero .info h1 {
       text-transform: uppercase;
       font-weight: 600;
@@ -11808,6 +11972,10 @@ hr {
         .play .page_hero .graphic #kid-on-moon {
           width: 100%;
           transform: translateX(60%) translateY(50%); } }
+
+.play #game_section {
+  max-width: 1600px;
+  margin: 0 auto; }
 
 .play .brief {
   width: 70vw;
@@ -11891,7 +12059,7 @@ hr {
         margin: 5px;
         border-radius: 10px;
         border-bottom: initial;
-        font-size: 10px; } }
+        -size: 10px; } }
     .play .app-bullets .app-bullet.active {
       border-bottom: 3px solid; }
       @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
@@ -11909,34 +12077,60 @@ hr {
     .play .apps {
       padding: 0px; } }
   .play .apps .app-card {
-    background: #001E2A;
-    width: 16vw;
+    background: #012C3D;
+    width: 18vw;
     box-shadow: 0 0px 13px 0 rgba(0, 0, 0, 0.15);
     z-index: 75;
     border-radius: 8px;
     text-align: left;
     flex-direction: wrap;
     color: #fff; }
+    @media only screen and (max-width: 1324px) {
+      .play .apps .app-card {
+        width: 25vw; } }
     @media only screen and (max-width: 768px) {
       .play .apps .app-card {
-        width: 36vw; } }
+        width: 90vw;
+        display: flex;
+        background: none;
+        border-bottom: 2px solid #202E3C;
+        border-radius: 0px; } }
     .play .apps .app-card .app-logo {
       width: auto;
       border-radius: 8px 8px 0px 0px;
       display: block;
       margin: 0 auto;
       max-width: 100%; }
+      @media only screen and (max-width: 768px) {
+        .play .apps .app-card .app-logo {
+          width: 25vw;
+          height: 25vw;
+          border-radius: 8px;
+          margin: inherit; } }
     .play .apps .app-card .game-wrapper {
       min-height: 150px;
-      padding-top: 5px;
-      position: relative; }
+      padding: 10px;
+      position: relative;
+      font-family: brandon-grotesque, futura-pt, sans-serif;
+      letter-spacing: 1px; }
+      @media only screen and (max-width: 768px) {
+        .play .apps .app-card .game-wrapper {
+          min-height: 0; } }
       .play .apps .app-card .game-wrapper .stats {
         position: absolute;
         bottom: 0;
-        padding: 10px; }
+        padding: 10px;
+        opacity: 0.7;
+        font-size: 14px; }
+        @media only screen and (max-width: 768px) {
+          .play .apps .app-card .game-wrapper .stats {
+            position: relative; } }
         .play .apps .app-card .game-wrapper .stats p {
           margin: 0;
           line-height: 2.4rem; }
+          @media only screen and (max-width: 768px) {
+            .play .apps .app-card .game-wrapper .stats p {
+              line-height: 2rem; } }
         .play .apps .app-card .game-wrapper .stats .italic {
           font-style: italic; }
     .play .apps .app-card .title {
@@ -11949,8 +12143,7 @@ hr {
     .play .apps .app-card:hover {
       -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
-      transform: scale(1.05);
-      box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.1); }
+      transform: scale(1.05); }
     .play .apps .app-card.selectedItem {
       -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
@@ -11962,22 +12155,42 @@ hr {
           -webkit-transform: scale(1);
           -ms-transform: scale(1);
           transform: scale(1); } }
+  .play .apps .gridder {
+    padding: 0px !important; }
   @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
     .play .apps .gridder-show {
       margin-top: 20px; } }
   .play .apps .gridder-show .gridder-navigation {
     border-top: 0;
     border-bottom: 0;
-    margin-top: 20px; }
-    .play .apps .gridder-show .gridder-navigation .gridder-close {
-      border-left: 0;
-      border-right: 0;
-      padding: 10px 5px; }
-      .play .apps .gridder-show .gridder-navigation .gridder-close:hover {
-        background: #E0BC4E; }
+    margin-top: 40px;
+    width: 100%;
+    margin-right: 20px;
+    height: 50px;
+    overflow: inherit; }
+    .play .apps .gridder-show .gridder-navigation .nav-left {
+      float: right;
+      margin-right: 20px; }
+      .play .apps .gridder-show .gridder-navigation .nav-left .gridder-close {
+        border-left: 0;
+        border-right: 0;
+        padding: 10px 5px;
+        background: #DDDDDD;
+        padding: 4px 10px 6px 10px;
+        border-radius: 5px; }
+        .play .apps .gridder-show .gridder-navigation .nav-left .gridder-close img {
+          width: 30px;
+          height: 30px; }
+        .play .apps .gridder-show .gridder-navigation .nav-left .gridder-close:hover {
+          background: #E0BC4E; }
   .play .apps .gridder-expanded-content {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    width: 100%;
+    padding: 0px 20px 20px 20px;
+    color: #fff; }
+    .play .apps .gridder-expanded-content .note {
+      color: #DDDDDD; }
     @media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
       .play .apps .gridder-expanded-content {
         display: block; } }
@@ -12017,7 +12230,8 @@ hr {
         color: #DD1C1A; }
   .play .apps .collection-title {
     margin-top: 30px;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    color: #DDDDDD; }
   .play .apps .app-thumbnail {
     display: flex;
     justify-content: center; }
@@ -12036,7 +12250,10 @@ hr {
 
 .play #ourstuff {
   transition: all .3s ease-in-out;
-  background: #FFDF71; }
+  background: #001E2A;
+  display: block;
+  z-index: 101;
+  padding: 5vw; }
 
 .play .whataboutaris img {
   margin: 0 auto;
