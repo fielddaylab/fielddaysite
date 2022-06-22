@@ -19,7 +19,6 @@
         <!--Start page content
   ------------------------>
 
-
         <section class="singlehero page_hero">
             <span class="scanlines"></span>
             <video autoplay muted loop id="playback">

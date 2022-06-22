@@ -9706,7 +9706,7 @@ hr {
   .singleapp.emerald #app-about h3 {
     margin: 25px 0px 10px 0px; }
   .singleapp.emerald .app-hero {
-    background: url(../img/hero-images/emerald.jpg) no-repeat;
+    background: url(../img/hero-images/shipwreck.jpg) no-repeat;
     background-size: cover;
     background-position: right; }
   .singleapp.emerald .info-panel {
@@ -10974,7 +10974,8 @@ hr {
     margin-top: 2vw;
     margin-bottom: 5vw; }
     .teachers .fellowships-content .gridder-expanded-content .wrapper {
-      display: flex; }
+      display: flex;
+      max-width: initial; }
     .teachers .fellowships-content .gridder-expanded-content .fellows-list, .teachers .fellowships-content .gridder-expanded-content .fellowship-summary {
       margin-top: 20px;
       padding: 2vw; }
