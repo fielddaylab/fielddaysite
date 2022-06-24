@@ -648,8 +648,8 @@
 
   <div id="profile_bobby" class="gridder-content">
     <div class="row profile-inner profile-inner">
-      <h3>Game Designer</h3>
-      <span>Software Developer </span>
+      <h3>Bobby Lockhart</h3>
+      <span>Game Designer</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
           <p class="small">

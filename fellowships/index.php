@@ -154,6 +154,20 @@
 
         <!-- Begin Current Fellowships-->
 
+        <li class="gridder-list" data-griddercontent="#game19">
+          <div class="game-thumbnail">
+            <img alt="Library VR" src="/assets/img/fellowships/aqualab_dive.jpg">
+          </div>
+          <div class="card-summary">
+            <div class="info">
+              <h3>Aqualab Implementation Fellowship</h3>
+              <h4 class="date">August + Fall 2022</h4>
+              <p>We are looking for 6th-9th grade science teachers to explore how Aqualab can be used to guide students in using science practices as they investigate different ocean ecosystems. </p>
+            </div>
+            <span class="card-triangle"></span>
+          </div>
+        </li>
+
         <li class="gridder-list" data-griddercontent="#game18">
           <div class="game-thumbnail">
             <img alt="Library VR" src="/assets/img/fellowships/libraryVR.jpg">
@@ -161,8 +175,8 @@
           <div class="card-summary">
             <div class="info">
               <h3>Virtual Reality Expeditions in your Library</h3>
-              <h4 class="date">Spring 2022 [Virtual]</h4>
-              <p>We’re looking for librarians in rural communities throughout Wisconsin to explore the use of VR to communicate cutting edge NSF research and engege local Latinx audiences.</p>
+              <h4 class="date">August, Fall, Winter 2022-2023</h4>
+              <p>We’re looking for librarians in rural communities throughout Wisconsin to explore the use of VR to communicate cutting edge NSF research and engage local Latinx audiences.</p>
             </div>
             <span class="card-triangle"></span>
           </div>
@@ -181,7 +195,7 @@
             <span class="card-triangle"></span>
           </div>
         </li>
-        
+
 
       <!-- Begin Past Fellowships-->
       <h2 class="section-title centered">Past Fellowships</h2>
@@ -414,11 +428,30 @@
 
 <!-- Fellowship Expanded content -->
 
+<div id="game19" class="gridder-content">
+  <div class="row game-inner game17-inner">
+    <h3>Aqualab Implementation Fellowship</h3>
+    <span>Application Deadline: [For Early Consideration] June 21, 2022 </span>
+    <span>Stipend: $500 / Teacher</span>
+    <span><a target="_blank" href="https://docs.google.com/document/d/1mefrRJig7obFUio-mdK604PLnb1Cnvlw2SzvPNwtAYM/edit">More Info</a></span>
+    <div class="wrapper">
+      <div class="col-md-7 game-expanded">
+        <p>Join us to explore how Aqualab, a new game being developed by Field Day with the help of an amazing group of Wisconsin teachers, can be used in the classroom to teach science practices. You’ll work with the Field Day team and a cohort of science teachers from around the state to develop activities for your own classroom that will deepen what students do and learn in the game. </p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZUHrU2BWA0Q12ZwOVsCxhY76N7_nSBV3yYgyuv3MKoRIuSg/viewform?usp=sf_link" class="button small black" target="_blank">Apply Now</a>
+      </div>
+      <div class="col-md-5 cta">
+        <img class="expanded-thumb img-responsive" alt="game dashboard" src="/assets/img/fellowships/aqualab_dive.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <div id="game18" class="gridder-content">
   <div class="row game-inner game17-inner">
     <h3>Virtual Reality Expeditions in your Library</h3>
-    <span>Spring 2022 [Virtual] </span>
-    <span>Stipend: $250</span>
+    <span>August, Fall, Winter 2022-2023</span>
+    <span>Stipend: $300</span>
     <span><a target="_blank" href="https://docs.google.com/document/d/1Z0N_lRfnFDyVM84Th5Uwc6yUYgzI9QNFLAkeXCXmwE0/edit#heading=h.gjdgxs">More Info</a></span>
     <div class="wrapper">
       <div class="col-md-7 game-expanded">
