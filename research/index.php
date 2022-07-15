@@ -220,6 +220,16 @@
           <h2 id="pub4">Written by Field Day Lab Staff</h2>
 <div class="pub-wrap">
             <p class="small">
+Gagnon, D., Baker, R., Gagnon, S., Swanson, L., Spevecek, N., Andres, J., Harpstead, E., Scianna, J., Slater, S., & San Pedro, Maria O.C.Z.. (2022). Exploring players’ experience of humor and snark in a grade 3-6 history practices game. GLS 13.0 Conference Proceedings. Games, Learning, Society, Irvine, CA.
+            </p>
+          </div>
+<div class="pub-wrap">
+            <p class="small">
+Swanson, L., Gagnon, D., Scianna, J., Mccloskey, J., Spevecek, E., Slater, S. & Harpsted, E. (2022). Leveraging Cluster Analysis to Understand Educational Game Player Styles and Support Design. GLS 13.0 Conference Proceedings. Games, Learning, Society, Irvine, CA.
+            </p>
+          </div>          
+<div class="pub-wrap">
+            <p class="small">
 Davis, C.M., Kamarainen, A., Storksdieck, M., Gagnon, D., Kermish-Allen, R., Riedinger, K. (2021) <a href="https://doi.org/10.3389/feduc.2021.689512">Using Design of Location-Based Augmented Reality Experiences to Engage Art-Oriented Girls in Technology and Science.</a> Front. Educ. 6:689512. https://doi.org/10.3389/feduc.2021.689512
             </p>
           </div>
