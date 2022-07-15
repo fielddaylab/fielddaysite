@@ -9556,6 +9556,9 @@ hr {
   @media only screen and (max-width: 768px) {
     .singleapp .app-about {
       padding-top: 0px; } }
+  .singleapp .app-about .awardlaurels {
+    max-width: 100%;
+    height: auto; }
   .singleapp .app-about p {
     margin-bottom: 28px; }
   .singleapp .app-about h2 {
@@ -9706,7 +9709,7 @@ hr {
   .singleapp.emerald #app-about h3 {
     margin: 25px 0px 10px 0px; }
   .singleapp.emerald .app-hero {
-    background: url(../img/hero-images/shipwreck.jpg) no-repeat;
+    background: url(../img/hero-images/emerald.jpg) no-repeat;
     background-size: cover;
     background-position: right; }
   .singleapp.emerald .info-panel {

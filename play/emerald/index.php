@@ -63,7 +63,7 @@ include_once($path); ?>
                 </div>
 
                 <div id="glance" class="col-sm-8 about-rightpanel">
-                    <img src="/assets/img/logos/gold_seriousplayaward.png">
+                    <img class="awardlaurels" src="/assets/img/logos/gold_seriousplayaward.png">
                     <h2 id="glance">At a Glance</h2>
                     <ul>
                         <li>Grade Level: 4-6</li>
