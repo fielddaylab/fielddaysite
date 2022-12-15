@@ -218,14 +218,18 @@
         </div>
         <div class="col-sm-8">
           <h2 id="pub4">Written by Field Day Lab Staff</h2>
-<div class="pub-wrap">
+            <div class="pub-wrap">
             <p class="small">
 Swanson, L., Gagnon, D. J., & Scianna, J. (2022). A Pilot Study on Teacher-Facing Real-Time Classroom Game Dashboards. International Conference on Meaningful Play, East Lansing, MI.
  <a href="https://doi.org/10.48550/arXiv.2210.09427">https://doi.org/10.48550/arXiv.2210.09427</a> 
             </p>
+          </div>
+          <div class="pub-wrap">
             <p class="small">
 Wardrip, P., Gagnon, D., Mathews, J., & Scianna, J. (2022). Jo Wilder and the Capitol Case: A taxonomy of uses for a historical inquiry game in 4th grade Classrooms in Wisconsin. Meaningful Play, East Lansing, MI. <a href="https://doi.org/10.48550/arXiv.2210.09433">https://doi.org/10.48550/arXiv.2210.09433</a> 
             </p>
+          </div>
+          <div class="pub-wrap">
             <p class="small">
 Gagnon, D., Baker, R., Gagnon, S., Swanson, L., Spevecek, N., Andres, J., Harpstead, E., Scianna, J., Slater, S., & San Pedro, Maria O.C.Z.. (2022). Exploring players’ experience of humor and snark in a grade 3-6 history practices game. GLS 13.0 Conference Proceedings. Games, Learning, Society, Irvine, CA. <a href="https://doi.org/10.48550/arXiv.2210.09906">https://doi.org/10.48550/arXiv.2210.09906</a> 
             </p>
