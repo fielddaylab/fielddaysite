@@ -133,6 +133,7 @@
                   <div class="app-info app-pane left">
                     <span class="close-app">
                       <h2>ARIS</h2>
+                      <p class="notsupported">No longer supported</p>
                       <p class="small">Create mobile games, tours and interactive stories with ARIS games. Players experience a hybrid world of virtual characters and media in physical space. Anyone who can read can play and design these games. Used in classrooms or informally. IOS device required.</p>
                       <a class="button small black" href="/make/aris" target="_blank">Learn More</a>
                   </div>
@@ -145,6 +146,7 @@
                   <div class="app-info app-pane left">
                     <span class="close-app">
                       <h2>The Station:Maine</h2>
+                      <p class="notsupported">No longer supported</p>
                       <p class="small">In this Augmented Reality game, students in rural Maine play location-based quests focused on four themes: Water, Forestry, Energy, and Food. Players visit GPS_based tour stops, collect field notes, and take photos to share their observations. </p>
                       <hr />
                       <p class="note">Partners:  Maine Mathematics and Science Alliance, Vanderbilt University, Smart & Connected Communities Grant through the National Science Foundation.</p>
@@ -281,7 +283,7 @@
                 <div id="arvr-app12" class="app-expanded gridder-content">
                   <div class="app-info app-pane left">
                     <span class="close-app">
-                      <h2>Penguin Project - In Progress</h2>
+                      <h2>Waddle - In Progress</h2>
                       <p class="small">Our in-progress Penguins VR Project will allow players to experience life at the South Pole--as a penguin! We’re thrilled to be working with penguin research Jean Pennycook to create a fun, playful experience that introduces people to her NSF-funded work. </p>
                       <hr />
                       <p class="note">Partners: NSF, Wisconsin Institute for Discovery, WIsconsin IceCube Particle Astrophysics Center</p>
@@ -304,6 +306,7 @@
                   <div class="app-info app-pane left">
                     <span class="close-app">
                       <h2>Siftr</h2>
+                      <p class="notsupported">No longer supported</p>
                       <p class="small">Use Siftr to make fieldwork activities easy. Teachers take 5 minutes to create a Siftr and students use mobile devices to collect data and observations outside of the classroom. Siftr helps you focus students, organizes their data and creates automatic visualizations to facilitate discussions in classrooms or online.</p>
                       <a class="button small small black" href="http://siftr.org" target="_blank">Get Siftr</a>
                   </div>
