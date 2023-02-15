@@ -9396,6 +9396,8 @@ hr {
   ---------------------------*/
   /* Template for Aris
   ---------------------------*/
+  /* Template for Wake
+  ---------------------------*/
   /* Template for yardgames as a whole
   ---------------------------*/
   /* Template for antibiotic
@@ -9958,6 +9960,63 @@ hr {
     .singleapp.aris .aris-learn .learn-card img {
       width: 100%;
       height: auto; }
+  .singleapp.wake #app-intro {
+    padding: 5vw 0vw 5vw 0vw;
+    text-align: center; }
+    .singleapp.wake #app-intro .iframe-bg {
+      width: 880px;
+      height: 660px;
+      display: block;
+      margin: 0px auto;
+      overflow: hidden;
+      border: 0px;
+      background: url(../img/iframe_img.jpg) no-repeat;
+      background-size: cover; }
+    .singleapp.wake #app-intro h2 {
+      text-transform: uppercase; }
+    .singleapp.wake #app-intro .fullscreen {
+      text-align: right;
+      margin-top: 10px; }
+      .singleapp.wake #app-intro .fullscreen img {
+        vertical-align: middle; }
+  .singleapp.wake #app-about h3 {
+    margin: 25px 0px 10px 0px; }
+  .singleapp.wake .app-hero {
+    background-color: #000;
+    justify-content: space-between; }
+    .singleapp.wake .app-hero .hero-content {
+      width: calc(50% - 10vw); }
+      .singleapp.wake .app-hero .hero-content .app-description {
+        width: auto; }
+    .singleapp.wake .app-hero .hero-img {
+      width: auto;
+      align-self: flex-end; }
+    @media only screen and (max-width: 768px) {
+      .singleapp.wake .app-hero {
+        flex-wrap: wrap-reverse; }
+        .singleapp.wake .app-hero .hero-content {
+          width: auto; }
+        .singleapp.wake .app-hero .hero-img {
+          width: auto;
+          text-align: center; }
+        .singleapp.wake .app-hero .img-fluid {
+          max-height: 50%;
+          max-width: 50%; } }
+  .singleapp.wake .info-panel {
+    border-bottom: 0px !important; }
+  .singleapp.wake .app-title {
+    text-indent: -9999px;
+    background: url(../img/logos/wake-logo.png) no-repeat;
+    background-size: cover;
+    border-right: 0px !important;
+    width: 36.36vw;
+    height: 5vw; }
+  .singleapp.wake .standards-block p {
+    margin-bottom: revert; }
+  .singleapp.wake .img-fluid {
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 10px; }
   .singleapp .embed-wrap {
     width: 90%;
     max-width: 1000px;
