@@ -54,7 +54,7 @@ window.onload = function()
       </div>
 
       <div class="buttons">
-        <a class="button small white filled" href="#">Play Wake</a>
+        <a class="button small white filled" href="https://fielddaylab.org/play/wake/ci/production/" target="_blank">Play Wake</a>
         <a class="button small white" href="#app-about">Learn More</a>
       </div>
     </div>

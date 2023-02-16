@@ -939,7 +939,7 @@
       .hero-content {
         width: calc(50% - 10vw);
         .app-description {
-            width: auto;
+            width: 45vw;
         }
       }
       .hero-img {
@@ -948,11 +948,15 @@
       }      
       @media #{$break-sm} {
         flex-wrap: wrap-reverse;
+        height: auto;
         .hero-content {
             width: auto;
+            .app-description {
+                width: 80vw;
+            }
         }
         .hero-img {
-            width: auto;
+            width: 100%;
             text-align: center;
         }
         .img-fluid {

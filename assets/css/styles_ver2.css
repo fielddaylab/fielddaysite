@@ -9987,17 +9987,20 @@ hr {
     .singleapp.wake .app-hero .hero-content {
       width: calc(50% - 10vw); }
       .singleapp.wake .app-hero .hero-content .app-description {
-        width: auto; }
+        width: 45vw; }
     .singleapp.wake .app-hero .hero-img {
       width: auto;
       align-self: flex-end; }
     @media only screen and (max-width: 768px) {
       .singleapp.wake .app-hero {
-        flex-wrap: wrap-reverse; }
+        flex-wrap: wrap-reverse;
+        height: auto; }
         .singleapp.wake .app-hero .hero-content {
           width: auto; }
+          .singleapp.wake .app-hero .hero-content .app-description {
+            width: 80vw; }
         .singleapp.wake .app-hero .hero-img {
-          width: auto;
+          width: 100%;
           text-align: center; }
         .singleapp.wake .app-hero .img-fluid {
           max-height: 50%;
