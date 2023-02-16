@@ -3,7 +3,7 @@ $path .= "/includes/header.php";
 include_once($path); ?>
 
 <title>Wake - Field Day</title>
-<meta name="description" content="A VR experience that takes an abstract thermodynamics equation and transforms it into hands-on learning." />
+<meta name="description" content="A 6th-9th grade science game that challenges students with engaging, authentic missions in a variety of ocean-based ecosystems." />
 <!--<script>
 window.onload = function()
 {
