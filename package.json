@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/fielddaylab/fielddaysite",
   "devDependencies": {
-    "browser-sync": "^2.24.5",
-    "gulp": "^3.9.1",
+    "browser-sync": "^2.27.12",
+    "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
     "natives": "^1.1.6",
     "sass": "^1.58.3"
