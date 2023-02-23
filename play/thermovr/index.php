@@ -60,13 +60,6 @@ window.onload = function()
       </div>
     </div>
   </section>
-  <!--<section id="app-intro">
-  <h2>Welcome to Lakeland</h2>
-  <div class="iframe-bg" id="clickload" scrolling="no" style="background-image: url(game/assets/menu-bg.jpg); background-size: cover;">
-
-  </div>
-  <iframe id="content" scrolling="no" style="display:none; width:1024px; height:660px; margin:0px auto; overflow:hidden; border:0px;"></iframe>
-</section>-->
 
   <section id="app-about" class="app-about">
 

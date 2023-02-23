@@ -945,7 +945,7 @@
       .hero-img {
         width: auto;
         align-self: flex-end;
-      }      
+      }
       @media #{$break-sm} {
         flex-wrap: wrap-reverse;
         height: auto;
@@ -985,7 +985,8 @@
 
     .img-fluid {
         max-height: 100%;
-        max-width: 100%;
+        width: 100%;
+        max-width: 600px;
         margin-bottom: 10px;
     }
   }

@@ -13,28 +13,42 @@
   <div id="carousel" class="hero carousel slide carousel-fade hero-slider " data-ride="carousel">
       <div class="slide-wrap">
         <ul class="carousel-indicators slide-bullets">
-            <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
+          <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
+            <span class="bullet"></span>
+            <span class="bullet-caption">Wake: Tales From the Aqualab</span>
+          </li>
+            <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
               <span class="bullet"></span>
               <span class="bullet-caption">Legend of the Lost Emerald</span>
             </li>
-            <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
+            <li class="slide-bullet" data-target="#carousel" data-slide-to="2">
               <span class="bullet"></span>
               <span class="bullet-caption">Lakeland</span>
             </li>
-            <li class="slide-bullet" data-target="#carousel" data-slide-to="2">
+            <li class="slide-bullet" data-target="#carousel" data-slide-to="3">
               <span class="bullet"></span>
               <span class="bullet-caption">Jo Wilder</span>
             </li>
-            <li class="slide-bullet" data-target="#carousel" data-slide-to="3">
+            <!--<li class="slide-bullet" data-target="#carousel" data-slide-to="3">
               <span class="bullet"></span>
               <span class="bullet-caption">Ice Cube</span>
-            </li>
+            </li>-->
         </ul>
       </div>
       <!-- Carousel items -->
       <div class="carousel-inner">
 
         <div class="active item">
+          <div class="info-wrap">
+            <div class="item-info">
+              <img class="" alt="Wake: Tales From the Aqualab Logo" src="/assets/img/logos/wake-logo.png">
+              <p class="corrected">Take on the role of a scientist as you study ocean ecosystems, travel to exciting ocean research stations, and work with fellow scientists to solve problems.</p>
+              <a href="/play/wake" class="button white xsmall">Check it out</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
           <div class="info-wrap">
             <div class="item-info">
               <img class="" alt="Legend of the Lost Emerald Logo" src="/assets/img/logos/emerald-logo.png">
@@ -65,7 +79,7 @@
           </div>
         </div>
 
-        <div class="item">
+        <!--<div class="item">
           <div class="info-wrap">
             <div class="item-info">
               <img class="" alt="Discover Icecube logo" src="/assets/img/logos/ice-cube-logo-white.png">
@@ -74,7 +88,7 @@
               <a class="button xsmall white" href="/play/ice-cube">Check It Out</a>
             </div>
           </div>
-        </div>
+        </div>-->
 
 
       </div>

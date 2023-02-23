@@ -41,7 +41,7 @@
                         <!-- Gridder navigation -->
                         <ul class="apps gridder">
                         <li class="gridder-list app-card" data-griddercontent="#game-wake">
-                                <img src="/assets/img/games/thumbs/emerald.jpeg" class="app-logo">
+                                <img src="/assets/img/games/thumbs/wake.jpg" class="app-logo">
                                 <div class="game-wrapper">
                                     <div class="title">
                                         <span>Wake: Tales from the Aqualab</span>
@@ -413,7 +413,7 @@
                                     <a class="button small white filled" href="/play/wake" target="_blank">Learn More</a>
                             </div>
                             <div class="app-thumbnail app-pane right">
-                                <img src="/assets/img/gameplay/emerald.jpg">
+                                <img src="/assets/img/gameplay/wake-gameplay.jpg">
                             </div>
                         </div>
                         <div id="game-emerald" class="app-expanded gridder-content">
