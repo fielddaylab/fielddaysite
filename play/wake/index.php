@@ -55,6 +55,8 @@ window.onload = function()
 
       <div class="buttons">
         <a class="button small white filled" href="https://fielddaylab.org/play/wake/ci/production/" target="_blank">Play Wake</a>
+        <a class="button small white" href="https://docs.google.com/document/d/1CUAAmyAP0YpvhqAlC01GmQvWkoTzx_tMSMQZTEOU50c/edit?usp=sharing">Educator Guide</a>
+        <a class="button small white" href="https://groups.google.com/g/wake-educators">Educator Community</a>
         <a class="button small white" href="#app-about">Learn More</a>
       </div>
     </div>
