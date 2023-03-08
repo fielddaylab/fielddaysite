@@ -37,7 +37,7 @@ jobs:
     - name: Checkout submodules
       uses: srt32/git-actions@v0.0.3
       with:
-        args: 
+        args:  
           git config --global --add safe.directory "/github/workspace"
           git submodule update --init --recursive
 
