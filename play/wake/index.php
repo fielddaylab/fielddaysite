@@ -2,6 +2,16 @@
 $path .= "/includes/header.php";
 include_once($path); ?>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-29QRJ22477"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-29QRJ22477');
+</script>
+
 <title>Wake - Field Day</title>
 <meta name="description" content="A 6th-9th grade science game that challenges students with engaging, authentic missions in a variety of ocean-based ecosystems." />
 <!--<script>
