@@ -1,4 +1,4 @@
-name: Aqualab Build
+name: Field Day Site Deploy
 
 # Controls when the action will run. Triggers the workflow on creation of 
 # tags.  Creating new 'versions' via github is the most straightforward 
@@ -10,8 +10,6 @@ on:
   workflow_dispatch:
   #push
   #   branches: [ production ] 
-
-env:
   
 jobs:
   deploy:
@@ -29,7 +27,7 @@ jobs:
       run: sudo apt-get -q update && sudo apt-get -q install openconnect
       
     - name: Connect to VPN
-      run: echo ${{ secrets.VPN_PASSWORD }} | sudo openconnect --protocol=gp -u ${{ secrets.VPN_USERNAME }} --passwd-on-stdin soe.vpn.wisc.edu &
+      run: echo ${{ secrets.FIELDDAY_VPN_PASSWORD }} | sudo openconnect --protocol=gp -u ${{ secrets.FIELDDAY_VPN_USERNAME }} --passwd-on-stdin soe.vpn.wisc.edu &
       
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -39,7 +37,9 @@ jobs:
     - name: Checkout submodules
       uses: srt32/git-actions@v0.0.3
       with:
-        args: git submodule update --init --recursive
+        args:  
+          git config --global --add safe.directory "/github/workspace"
+          git submodule update --init --recursive
 
     ## Extracts branch name into BRANCH environment variable
     #- name: Extract branch name
@@ -58,10 +58,10 @@ jobs:
     - name: Upload to web server via rsync
       uses: burnett01/rsync-deployments@5.2
       with:
-        switches: -avzr
+        switches: -vrc
         path: /*
-        remote_path: ${{ secrets.DEPLOY_DIR }}/${{ env.BRANCH }}
-        remote_host: ${{ secrets.DEPLOY_HOST }}
-        remote_user: ${{ secrets.DEPLOY_USER }}
-        remote_key: ${{ secrets.DEPLOY_KEY }}
+        remote_path: ${{ secrets.DEPLOY_DIR }}
+        remote_host: ${{ secrets.FIELDDAY_WISC_EDU_DEPLOY_HOST }}
+        remote_user: ${{ secrets.FIELDDAY_WISC_EDU_DEPLOY_USER }}
+        remote_key: ${{ secrets.FIELDDAY_WISC_EDU_DEPLOY_KEY }}
     
