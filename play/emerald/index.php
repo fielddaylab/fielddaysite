@@ -3,7 +3,7 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= "/includes/header.php";
 include_once($path); ?>
-<title>The ledgend of the Lost Emerald - Field Day</title>
+<title>The Legend of the Lost Emerald - Field Day</title>
 <meta name="description" content="- Field Day">
 </head>
 
