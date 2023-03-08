@@ -14,7 +14,7 @@ on:
 jobs:
   deploy:
     name: Deploy via rsync
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
