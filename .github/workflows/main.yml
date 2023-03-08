@@ -40,7 +40,7 @@ jobs:
     - name: Upload to web server via rsync
       uses: burnett01/rsync-deployments@5.2
       with:
-        switches: -vrcn
+        switches: -vrcn --exclude rsync-exclude
         path: /*
         remote_path: ${{ secrets.DEPLOY_DIR }}
         remote_host: ${{ secrets.FIELDDAY_WISC_EDU_DEPLOY_HOST }}
