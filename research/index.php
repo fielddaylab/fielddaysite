@@ -220,14 +220,20 @@
           <h2 id="pub4">Written by Field Day Lab Staff</h2>
             <div class="pub-wrap">
             <p class="small">
-Kim, Y.J., Metcalf, S.,M., Scianna, J., & Gagnon, D. (2022). <a href="https://icce2022.apsce.net/uploads/P2_WIPP_093.pdf">Aqualab: Establishing Validity of an Adventure Game for Middle School Science Practices.</a> Proceedings of the 30th International Conference on Computers in Education, Nov 28-Dec 2, 2022
-
+Kim, Y.J., Metcalf, S.,M., Scianna, J., & Gagnon, D. (2022). <a href="https://icce2022.apsce.net/uploads/P2_WIPP_093.pdf">Aqualab: Establishing Validity of an Adventure Game for Middle School Science Practices.</a> Proceedings of the 30th International Conference on Computers in Education. Kuala Lumpur, Malaysia.
             </p>
           </div>
 
             <div class="pub-wrap">
             <p class="small">
-Swanson, L., Gagnon, D. J., & Scianna, J. (2022). A Pilot Study on Teacher-Facing Real-Time Classroom Game Dashboards. International Conference on Meaningful Play, East Lansing, MI.
+Slater, S., Baker, R.S., Gagnon, D.J., Harpstead, E., Andres, J. & Swanson, L.  (2022). <a href="https://icce2022.apsce.net/uploads/P1_C5_77.pdf">Changing Students’ Perceptions of a History
+Exploration Game Using Different Scripts.</a> Proceedings of the 30th International Conference on Computers in Education. Kuala Lumpur, Malaysia.
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
+Swanson, L., Gagnon, D.J., & Scianna, J. (2022). A Pilot Study on Teacher-Facing Real-Time Classroom Game Dashboards. International Conference on Meaningful Play, East Lansing, MI.
  <a href="https://doi.org/10.48550/arXiv.2210.09427">https://doi.org/10.48550/arXiv.2210.09427</a> 
             </p>
           </div>
