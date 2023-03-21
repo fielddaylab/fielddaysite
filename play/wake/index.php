@@ -60,14 +60,15 @@ window.onload = function()
         <h1 class="app-title">Wake</h1>
       </div>
       <div class="app-description">
-        <p class="small"><em>Wake: Tales from the Aqualab</em> is a 6th-9th grade science game that challenges students with engaging, authentic missions in a variety of ocean-based ecosystems. In Wake, students take on the role of a scientist studying ocean ecosystems, traveling to different ocean research sites to answer questions and solve problems. As they progress at their own pace, players are guided to gradually take on more complex science challenges.</p>
+        <p class="small"><em>Wake: Tales from the Aqualab</em> is a 6th-9th grade science game that challenges students with engaging, authentic missions in a variety of ocean-based ecosystems. In Wake, students take on the role of a scientist studying ocean ecosystems, traveling to different ocean research sites to answer questions and solve problems.</p>
       </div>
 
       <div class="buttons">
         <a class="button small white filled" href="https://fielddaylab.org/play/wake/ci/production/" target="_blank">Play Wake</a>
-        <a class="button small white" href="https://docs.google.com/document/d/1CUAAmyAP0YpvhqAlC01GmQvWkoTzx_tMSMQZTEOU50c/edit?usp=sharing">Educator Guide</a>
+        <a class="button small white" href="https://sites.google.com/wisc.edu/waketeacherguide/home">Support Site</a>
+        <a class="button small white" href="https://docs.google.com/document/d/1CUAAmyAP0YpvhqAlC01GmQvWkoTzx_tMSMQZTEOU50c/edit?usp=sharing">Teaching Guide</a>
         <a class="button small white" href="https://groups.google.com/g/wake-educators">Educator Community</a>
-        <a class="button small white" href="#app-about">Learn More</a>
+        <!--<a class="button small white" href="#app-about">Learn More</a>-->
       </div>
     </div>
     <div class="hero-img"><img src="../../assets/img/hero-images/wake-hero.png" class="img-fluid"></div>
