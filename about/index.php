@@ -111,7 +111,7 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile6">
+        <li class="gridder-list" data-griddercontent="#profile_autumn">
           <div class="profile-thumbnail">
             <img alt="Autumn Beauchesne" src="/assets/img/profiles/astro.jpg">
             <div class="card-summary">

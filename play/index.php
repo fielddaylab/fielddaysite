@@ -40,7 +40,19 @@
                         <!--<p class="brief padding">We work with researchers to create fun, academically rigorous games that get hundreds of thousands of plays. Researchers love that our games allow for depth and complexity, while providing a playful, engaging experience. We team up with teacher fellows and outreach experts to make sure our games work in classrooms and reach large audiences. <br></p>-->
                         <!-- Gridder navigation -->
                         <ul class="apps gridder">
-                        <li class="gridder-list app-card" data-griddercontent="#game-wake">
+                            <li class="gridder-list app-card" data-griddercontent="#game-headlines">
+                                <img src="/assets/img/games/thumbs/headlines-thumb.jpg" class="app-logo">
+                                <div class="game-wrapper">
+                                    <div class="title">
+                                        <span>Headlines and High Water</span>
+                                    </div>
+                                    <div class="stats">
+                                        <p class="italic">Grades 6-9 </p>
+                                        <p>Journalism, Science</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="gridder-list app-card" data-griddercontent="#game-wake">
                                 <img src="/assets/img/games/thumbs/wake.jpg" class="app-logo">
                                 <div class="game-wrapper">
                                     <div class="title">
@@ -397,7 +409,24 @@
                     </div>
 
                     <div class="item">
-
+                        <div id="game-headlines" class="app-expanded gridder-content">
+                            <div class="app-info app-pane left">
+                                <span class="close-app">
+                                    <h2>Headlines and High Water</h2>
+                                    <div class="stats">
+                                        <p class="tag ">Grades 6-9</p>
+                                        <p>|</p>
+                                        <p class="tag ">Journalism, Science</p>
+                                    </div>
+                                    <p class="small">
+                                        In <em>Headlines and High Water,</em>  players take on the role of a young journalist in the fictional town of Twin Lakes, where the annual Cherry Festival is thrown into chaos by a catastrophic flood. The player is tasked with interviewing locals and writing stories to keep the town informed—all while staying safe during the town’s worst flood of the century.
+                                    </p>
+                                    <a class="button small white filled" href="/play/headlines" target="_blank">Learn More</a>
+                            </div>
+                            <div class="app-thumbnail app-pane right">
+                                <img src="/assets/img/gameplay/headlines.jpg">
+                            </div>
+                        </div>
                         <div id="game-wake" class="app-expanded gridder-content">
                             <div class="app-info app-pane left">
                                 <span class="close-app">
