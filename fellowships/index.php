@@ -104,18 +104,18 @@
               <li class="" data-target="#faq" data-slide-to="2">
                 Are the classroom game tests worth the student’s time?
               </li>
-              <li class="" data-target="#faq" data-slide-to="2">
+              <li class="" data-target="#faq" data-slide-to="3">
                 Can I get credit for professional development?
               </li>
-              <li class="" data-target="#faq" data-slide-to="3">
+              <li class="" data-target="#faq" data-slide-to="4">
                 Can I come back to other fellowships?
               </li>
-              <li class="" data-target="#faq" data-slide-to="4">
+              <li class="" data-target="#faq" data-slide-to="5">
                 Do you have resources for teaching with games?
               </li>
-              <li class="" data-target="#faq" data-slide-to="4">
+              <!--<li class="" data-target="#faq" data-slide-to="6">
                 Why do you give games away instead of selling them?
-              </li>
+              </li>-->
           </ul>
         </div>
         <div class="answers carousel-inner">

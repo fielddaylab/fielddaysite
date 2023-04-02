@@ -33,5 +33,3 @@ gulp.task('proxy', function (done) {
   gulp.watch('./**/*.html').on('change', browserSync.reload);
   done();
 });
-
-gulp.task('default', gulp.series('styles', 'serve'));

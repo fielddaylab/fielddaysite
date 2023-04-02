@@ -83,6 +83,23 @@
       }
     }
     .item:nth-child(1) {
+      background: url(../img/hero-images/headlines.jpg) no-repeat;
+      background-size:cover;
+      background-position:center;
+      .item-info {
+        img {
+          width:35vw;
+          height:auto;
+          margin-bottom:15px;
+        }
+      }
+      @media #{$break-sm} {
+        background-position:center;
+      }
+    }
+
+
+    .item:nth-child(2) {
       background: url(../img/hero-images/wake-hero-wide.jpg) no-repeat;
       background-size:cover;
       background-position:center;
@@ -98,24 +115,8 @@
       }
     }
 
-    .item:nth-child(2) {
-      background: url(../img/hero-images/emerald.jpg) no-repeat;
-      background-size:cover;
-      background-position:center;
-      .item-info {
-        img {
-          width:35vw;
-          height:auto;
-          margin-bottom:15px;
-        }
-      }
-      @media #{$break-sm} {
-        background-position:center;
-      }
-    }
-
     .item:nth-child(3) {
-      background: url(../img/hero-images/lakeland.jpg) no-repeat;
+      background: url(../img/hero-images/emerald.jpg) no-repeat;
       background-size:cover;
       background-position:center;
     }
@@ -127,12 +128,6 @@
       @media #{$break-sm} {
         background-position:right;
       }
-    }
-
-    .item:nth-child(5) {
-      background: url(../img/hero-images/ice-cube.jpg) no-repeat;
-      background-size:cover;
-      background-position:center;
     }
 
     .item,

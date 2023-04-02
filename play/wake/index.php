@@ -137,7 +137,7 @@ window.onload = function()
 
         <h2 id="partners">Partners</h2>
         <p><em>Wake</em> was developed as the result of a partnership between Field Day Learning Games, the Wisconsin Center for Education Research (UW-Madison), Harvard University, Carnegie Mellon University, and the Penn Center for Learning Analytics.</p>
-        
+
         <h2 id="funding">Funding</h2>
         <p>NSF Collaborative Research: Developing an Online Game to Teach Middle School Students Science Research Practices in the Life Sciences; DRL-1907384, DRL-1907398, and DRL-1907437</p>
       </div>

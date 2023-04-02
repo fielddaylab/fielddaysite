@@ -13,17 +13,17 @@
   <div id="carousel" class="hero carousel slide carousel-fade hero-slider " data-ride="carousel">
       <div class="slide-wrap">
         <ul class="carousel-indicators slide-bullets">
-          <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
-            <span class="bullet"></span>
-            <span class="bullet-caption">Wake: Tales From the Aqualab</span>
-          </li>
+            <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
+              <span class="bullet"></span>
+              <span class="bullet-caption">Headlines and High Water</span>
+            </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
               <span class="bullet"></span>
-              <span class="bullet-caption">Legend of the Lost Emerald</span>
+              <span class="bullet-caption">Wake: Tales From the Aqualab</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="2">
               <span class="bullet"></span>
-              <span class="bullet-caption">Lakeland</span>
+              <span class="bullet-caption">Legend of the Lost Emerald</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="3">
               <span class="bullet"></span>
@@ -41,6 +41,16 @@
         <div class="active item">
           <div class="info-wrap">
             <div class="item-info">
+              <img class="" alt="Lakeland Logo" src="/assets/img/logos/colored/headlines-logo.png">
+              <p class="corrected">Play as a journalist in the town of Twin Lakes. Will the stories you publish help the town prepare for the flood of the century?</p>
+              <a href="/play/headlines" class="button white xsmall">Check It Out</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="info-wrap">
+            <div class="item-info">
               <img class="" alt="Wake: Tales From the Aqualab Logo" src="/assets/img/logos/wake-logo.png">
               <p class="corrected">Take on the role of a scientist as you study ocean ecosystems, travel to exciting ocean research stations, and work with fellow scientists to solve problems.</p>
               <a href="/play/wake" class="button white xsmall">Check it out</a>
@@ -54,16 +64,6 @@
               <img class="" alt="Legend of the Lost Emerald Logo" src="/assets/img/logos/emerald-logo.png">
               <p class="corrected">Play as a maritime archaeologist uncovering shipwrecks in the Great Lakes. Made in partnership with PBS Wisconsin and Wisconsin Sea Grant. </p>
               <a href="/play/emerald" class="button white xsmall">Check it out</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="info-wrap">
-            <div class="item-info">
-              <img class="" alt="Lakeland Logo" src="/assets/img/logos/lakeland-logo.png?cb=20190820">
-              <p class="corrected">This town-building game teaches complex systems. Made in partnership with the Scalable Systems Lab at UW-Madison. Played by thousands of kids a month.</p>
-              <a href="/play/lakeland" class="button white xsmall">Check It Out</a>
             </div>
           </div>
         </div>
