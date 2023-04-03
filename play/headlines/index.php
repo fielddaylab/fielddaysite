@@ -50,7 +50,7 @@ window.onload = function()
         <h1 class="app-title">Headlines and High Water</h1>
       </div>
       <div class="app-description">
-        <p class="small">Play as a young journalist covering events as they unfold in the fictional town of Twin Lakes. Made in partnership with UW School of Journalism and Mass Communication with funding from the Baldwin Wisocnsin Idea Endowment. </p>
+        <p class="small">Play as a young journalist covering events as they unfold in the fictional town of Twin Lakes. Made in partnership with UW School of Journalism and Mass Communication with funding from the Baldwin Wisconsin Idea Endowment. </p>
       </div>
 
       <div class="buttons">
