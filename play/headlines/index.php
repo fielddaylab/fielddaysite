@@ -50,7 +50,7 @@ window.onload = function()
         <h1 class="app-title">Headlines and High Water</h1>
       </div>
       <div class="app-description">
-        <p class="small">In Headlines and High Water,  players take on the role of a young journalist in the fictional town of Twin Lakes, where the annual Cherry Festival is thrown into chaos by a catastrophic flood. The player is tasked with interviewing locals and writing stories to keep the town informed—all while staying safe during the town’s worst flood of the century.</p>
+        <p class="small">Play as a young journalist covering events as they unfold in the fictional town of Twin Lakes. Made in partnership with UW School of Journalism and Mass Communication with funding from the Baldwin Wisocnsin Idea Endowment. </p>
       </div>
 
       <div class="buttons">
