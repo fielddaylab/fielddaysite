@@ -41,7 +41,7 @@
         <div class="active item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" alt="Lakeland Logo" src="/assets/img/logos/colored/headlines-logo.png">
+              <img class="carousel-logo" alt="Lakeland Logo" src="/assets/img/logos/colored/headlines-logo.png">
               <p class="corrected">Play as a journalist in the town of Twin Lakes. Will the stories you publish help the town prepare for the flood of the century?</p>
               <a href="/play/headlines" class="button white xsmall">Check It Out</a>
             </div>
@@ -51,7 +51,7 @@
         <div class="item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" alt="Wake: Tales From the Aqualab Logo" src="/assets/img/logos/wake-logo.png">
+              <img class="carousel-logo" alt="Wake: Tales From the Aqualab Logo" src="/assets/img/logos/wake-logo.png">
               <p class="corrected">Take on the role of a scientist as you study ocean ecosystems, travel to exciting ocean research stations, and work with fellow scientists to solve problems.</p>
               <a href="/play/wake" class="button white xsmall">Check it out</a>
             </div>
@@ -61,7 +61,7 @@
         <div class="item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" alt="Legend of the Lost Emerald Logo" src="/assets/img/logos/emerald-logo.png">
+              <img class="carousel-logo" alt="Legend of the Lost Emerald Logo" src="/assets/img/logos/emerald-logo.png">
               <p class="corrected">Play as a maritime archaeologist uncovering shipwrecks in the Great Lakes. Made in partnership with PBS Wisconsin and Wisconsin Sea Grant. </p>
               <a href="/play/emerald" class="button white xsmall">Check it out</a>
             </div>
@@ -71,7 +71,7 @@
         <div class="item">
           <div class="info-wrap">
             <div class="item-info">
-              <img class="" alt="Jo wilder and the capitol case logo" src="/assets/img/logos/jowilder.png?cb=20190820">
+              <img class="carousel-logo" alt="Jo wilder and the capitol case logo" src="/assets/img/logos/jowilder.png?cb=20190820">
               <h2 class="uppercase"></h2>
               <p class="corrected">This award-winning game turns kids into history detectives! Made in partnership with PBS Wisconsin and archivists at the Wisconsin Historical Society.</p>
               <a class="button xsmall white" href="/play/jowilder">Check It Out</a>

@@ -60,7 +60,7 @@ window.onload = function()
         <h1 class="app-title">Wake</h1>
       </div>
       <div class="app-description">
-        <p class="small"><em>Wake: Tales from the Aqualab</em> is a 6th-9th grade science game that challenges students with engaging, authentic missions in a variety of ocean-based ecosystems. In Wake, students take on the role of a scientist studying ocean ecosystems, traveling to different ocean research sites to answer questions and solve problems.</p>
+        <p class="small"><em>Play as a young scientist faced with scientific challenges across multiple oceanic ecosystems. Made in partnerhsip with Harvard, Carnegie Mellon, and the Penn Center for Learning Analytics. Funding provided by NSF</p>
       </div>
 
       <div class="buttons">
