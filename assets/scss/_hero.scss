@@ -36,10 +36,7 @@
       .item-info {
         img {
           height:15vw;
-          width:auto;
-          @media #{$break-sm} {
-            height:30vw;
-          }
+          width:auto;Yeah
           &.small_hero_img {
             width: 150px;
             height: auto;
@@ -91,6 +88,9 @@
           width:35vw;
           height:auto;
           margin-bottom:15px;
+          @media #{$break-md} {
+            width:90%;
+          }
         }
       }
       @media #{$break-sm} {
@@ -108,6 +108,9 @@
           width:35vw;
           height:auto;
           margin-bottom:15px;
+          @media #{$break-md} {
+            width:90%;
+          }
         }
       }
       @media #{$break-sm} {
@@ -119,12 +122,32 @@
       background: url(../img/hero-images/emerald.jpg) no-repeat;
       background-size:cover;
       background-position:center;
+      .item-info {
+        img {
+          width:35vw;
+          height:auto;
+          margin-bottom:15px;
+          @media #{$break-md} {
+            width:90%;
+          }
+        }
+      }
     }
 
     .item:nth-child(4) {
       background: url(../img/hero-images/jowilder-bg.jpg) no-repeat;
       background-size:cover;
       background-position:center;
+      .item-info {
+        img {
+          width:35vw;
+          height:auto;
+          margin-bottom:15px;
+          @media #{$break-md} {
+            width:90%;
+          }
+        }
+      }
       @media #{$break-sm} {
         background-position:right;
       }
