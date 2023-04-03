@@ -43,7 +43,7 @@ window.onload = function()
           <img class="breadcrumb-arrow" src="../../assets/img/ui/breadcrumb-arrow.png">
           <li>Play</li>
           <img class="breadcrumb-arrow" src="../../assets/img/ui/breadcrumb-arrow.png">
-          <li>Headlines and High Water<</li>
+          <li>Headlines and High Water</li>
         </ul>
       </div>
       <div class="app-info">
