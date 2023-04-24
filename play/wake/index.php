@@ -60,7 +60,7 @@ window.onload = function()
         <h1 class="app-title">Wake</h1>
       </div>
       <div class="app-description">
-        <p class="small"><em>Play as a young scientist faced with scientific challenges across multiple oceanic ecosystems. Made in partnerhsip with Harvard, Carnegie Mellon, and the Penn Center for Learning Analytics. Funding provided by NSF</p>
+        <p class="small">Play as a young scientist faced with scientific challenges across multiple oceanic ecosystems. Made in partnerhsip with Harvard, Carnegie Mellon, and the Penn Center for Learning Analytics. Funding provided by NSF</p>
       </div>
 
       <div class="buttons">
