@@ -131,16 +131,6 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_lindy">
-          <div class="profile-thumbnail">
-            <img alt="Lindy Biller" src="/assets/img/profiles/lindy.jpg">
-            <div class="card-summary">
-              <h3>Lindy Biller</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
         <li class="gridder-list" data-griddercontent="#profile_mary">
           <div class="profile-thumbnail">
             <img alt="Lindy Biller" src="/assets/img/profiles/mary.jpg">
@@ -175,16 +165,6 @@
       <h2 class="section-title centered">Field Day Internship Program</h2>
       <p>We offer student internships in Game Engineering, Art and Design, and Research. Join our multidisciplinary team and work on learning games that reach classrooms across the country and beyond. Engineering and Art and Design interns will leave with portfolio pieces. Research interns will contribute to academic publications. We’re always taking applications! <a href="https://docs.google.com/forms/d/1GytOoW-J4q7N2r0TPfybcYcgQeGYDmrMVSlrhMDHIok/viewform?edit_requested=true#response=ACYDBNiX1njuwj-Ip-M0Y7F9nl3IL7-o-xtHtoQzFEFzRobQx61s-fLm_Wy2UeGdr-Etiwc" target="_blank">Contact us</a> if you’re interested. Art and Design applicants must include a portfolio. </p>
       <ul class="gridder">
-
-        <li class="gridder-list" data-griddercontent="#profile_test">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/nick.jpg">
-            <div class="card-summary">
-              <h3>new person</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
 
         <li class="gridder-list" data-griddercontent="#profile_new">
           <div class="profile-thumbnail">
@@ -335,20 +315,6 @@
 
 
 <!-- Team Expanded content -->
-<div id="profile_test" class="gridder-content">
-  <div class="row profile-inner profile-inner">
-    <h3>new person</h3>
-    <span>Director & Founder</span>
-    <div class="wrapper">
-      <div class="col-md-12 profile-expanded">
-        <p class="small">hello</p>
-        <p class="small"></p>
-        <p class="small"></p>
-        <a href="https://scholar.google.com/scholar?start=0&q=arisgames.org&hl=en&as_sdt=0,50" target="_blank">hundreds of educational papers.</a>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div id="profile_new" class="gridder-content">
   <div class="row profile-inner profile-inner">
@@ -452,29 +418,12 @@
     <span>Research Intern and Director’s Minion </span>
     <div class="wrapper">
       <div class="col-md-12 profile-expanded">
-        <p class="small">Jenn is fascinated by how we can understand student thinking through game data. She began working with Field Day as a researcher analyzing data and conducting play-tests for <a href="https://fielddaylab.wisc.edu/play/lakeland/" target="_blank">Lakeland</a>. Now she's stepping into the role of producer for AquaLab, a four-year project focused on teaching science practices. Jenn is also a designer for our in-progress game about Great Lakes shipwrecks. 
+        <p class="small">Jenn is fascinated by how we can understand student thinking through game data. She began working with Field Day as a researcher analyzing data and conducting play-tests for <a href="https://fielddaylab.wisc.edu/play/lakeland/" target="_blank">Lakeland</a>. She was a designer for Legend of the Lost Emerald, and the producer for Wake: Tales from the Aqualab, a four-year project focused on teaching science practices. 
 </p>
         <p class="small">When it comes to advocating for kids, Jenn is unstoppable. As a former teacher, she brings a deep knowledge about how classrooms work and what teachers need. She works with our Teacher Fellows to design pedagogical tools, like a new teacher dashboard for Lakeland (soon to be applied across all our games). Jenn leads user-testing with kids for many of our games. 
 </p>
         <p class="small">In her role as Director’s Minion (or Assistant to the Director on paper), Jenn is constantly impressing everyone with her ability to keep all the administrative gears turning. Jenn’s superpowers include, but are not limited to: data analytics, ed tech, communicating with teachers, and keeping track of literally everything. 
 </p>
-      </div>
-    </div>
-  </div>
-
-  <div id="profile_lindy" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>Lindy Biller</h3>
-      <span>Writer</span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Lindy is a creative writer, blogger, and copywriter. She brings a combination of keen story-building skills and intellectual depth to the worlds of both our games and our blog. Her years of experience working with teachers and learning game designers gives her a unique capacity as a writer. She contributes not only a love of story, but also the ability to learn about the complexities of education theory and game design.  
-  </p>
-          <p class="small">Lindy wrote the scripts and in-game dialog for Jo Wilder and the Capitol Case, Lost at the Forever Mine, STEMPorts, Lakeland, and many of The Yard Games. She works closely with Sarah to write and refine all of our web copy, iterating until we are able to explain complex projects in just a few lines.
-  </p>
-          <p class="small">Lindy is the reason the farmers in Lakeland have folksy wit and the Artificial Intelligence in Forever Mine is relatable and dimensional. She crafts stories that allow kids to embody the spirit of a scientist, historian, or detective, and she fosters a sense of wonder in the process.
-  </p>
-        </div>
       </div>
     </div>
   </div>
@@ -563,21 +512,23 @@
   <div id="profile_reyna" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Reyna Groff</h3>
-      <span>Undergraduate Art and Design Intern  </span>
+      <span>Art and Design Intern  </span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Reyna is an artist with a flair for storytelling, character, and design. Reyna studied under Lynda Barry at UW-Madison. When she’s not making beautiful art here in Madison, you might find Reyna traveling the world and putting her three languages to good use. Kids (and adults) fall in love with Reyna’s whimsical, creative characters.</p>
+          <p class="small">Reyna is an artist with a flair for storytelling, character, and design. When she’s not making beautiful art here in Madison, you might find Reyna traveling the world and putting her three languages to good use. Kids (and adults) fall in love with Reyna’s whimsical, creative characters. She enjoys tactile hobbies like baking, printmaking, and papermaking, and is a firm believer in helping others develop new passions through playful learning and collaboration.</p>
           <h4>Field Day projects:</h4>
           <ul>
+            <li>Painted art for several of the Yard Games</li>
             <li>Lead artist on Jo Wilder and the Capitol Case</li>
-            <li>Painted art for Lost at the Forever Mine
-</li>
-            <li>Poster art for Lakeland
-</li>
-            <li>Comic art for our upcoming AR game
-</li>
+            <li>Painted art for Lost at the Forever Mine</li>
+            <li>Comic art for our VR game Station: Maine</li>
+            <li>2D art for Legend of the Lost Emerald</li>
+            <li>2D art for Wake: Tales from the Aqualab</li>
+            <li>Concept art for Headlines and High Water</li>
+            <li>Poster art for Jo Wilder, Lost at the Forever Mine, Lakeland, Legend of the Lost Emerald, Station: Maine, Waddle, Wake, and Headlines and High Water</li>
+        
           </ul>
-          <p class="small">You can find Reyna on Instagram <a target="_blank" href="https://instagram.com/rey.groff">@rey.groff </a>
+          <p class="small">You can find Reyna on Instagram <a target="_blank" href="https://instagram.com/rey.groff">@rey.groff </a>, and check out her website <a target="_blank" href="http://www.reynagroff.com">here.</a>
 </p>
         </div>
       </div>
@@ -729,10 +680,11 @@
           <h4>Field Day projects:</h4>
           <ul>
             <li>Game development for Shipwrecks, including the evidence board mechanic and the sonar mechanic</li>
-            <li>Training and collaboration with the writing team
-</li>
-            <li>Implementing audio into the Shipwrecks game
-</Li>
+            <li>Training and collaboration with the writing team</li>
+            <li>Implementing audio into the Shipwrecks game</Li>
+            <li>Proototypes for our in-progress game</li>
+            <li>Content for Wake: Tales from the Aqualab</li>
+            <li>Content, analytics, and game UI for Headlines and High Water</li>
           </ul>
           <p class="small">
             Levi grew up traveling the world—he has lived in Washington, Hawaii, Qatar, and Germany before moving to the Midwest to study at UW-Madison. In addition to computer science and game design, he is currently studying Finnish—both because he loves the language, and because he’s interested in the technology and game design opportunities in Finland. He has worked on his own game design projects outside of Field Day and joined in game jams with other Field Day interns.
@@ -774,14 +726,16 @@
       <span>3D Artist</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Mary is a 3D artist with a background in game design and studio art. At Field Day, she has created beautiful 3D art, and has also contributed her expertise in modeling, texturing, and animation. Mary brings a rich background in painting, drawing, sculpture making, storyboarding, and VR. She has a personal mission to encourage curiosity and play--for all ages, and especially adults. She has created interactive sculptures from reused and thrifted materials, as well as a fun, tactile VR experience focused on play. Mary is interested in how learning games and virtual exhibits can be integrated with the physical world.</p>
+          <p class="small">Mary is a 3D artist with a background in game design and studio art. At Field Day, she primarily creates 3D art with an expertise in modeling, texturing, and animation. Mary brings a rich background in drawing, painting, sculpture-making, and VR. She has a personal mission to encourage curiosity and play  for people of all ages, and especially adults. This is demonstrated through the interactive sensory-based sculptures she creates, as well as by being an artist at Field Day.</p>
           <h4>Field Day projects:</h4>
           <ul>
-            <li>3D art for the Shipwrecks game</li>
-            <li>Modeling, texturing, and animation for AquaLab</li>
+            <li>3D art for Legend of the Lost Emerald</li>
+            <li>3D art and 2D/3D animation for Wake: Tales from the Aqualab</li>
+            <li>3D art and animation for Waddle: A Penguin's Tale</li>
+            <li>Producer and concept artist for our upcoming games</li>
           </ul>
           <p class="small">
-            Mary likes to connect her hobbies with motion and play, which has led to an amazing list of hidden talents--including drumming, fishkeeping, and underwater hockey. During college, she researched and created an independent project about motion and how it relates to physics and psychology. She brings a love of learning to everything she does.
+            Mary likes to connect her hobbies with motion and play, which has led to an amazing list of hidden talents--including drumming, fishkeeping, and underwater hockey. During college, she researched and created an independent project about motion and how it relates to physics, psychology, and art. She brings a love of learning to everything she does.
           </p>
           <p class="small">
             Check out Mary’s portfolio <a href="https://mbenetti.myportfolio.com/" target="_blank">here!</a>
