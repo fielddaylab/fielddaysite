@@ -176,6 +176,16 @@
       <p>We offer student internships in Game Engineering, Art and Design, and Research. Join our multidisciplinary team and work on learning games that reach classrooms across the country and beyond. Engineering and Art and Design interns will leave with portfolio pieces. Research interns will contribute to academic publications. We’re always taking applications! <a href="https://docs.google.com/forms/d/1GytOoW-J4q7N2r0TPfybcYcgQeGYDmrMVSlrhMDHIok/viewform?edit_requested=true#response=ACYDBNiX1njuwj-Ip-M0Y7F9nl3IL7-o-xtHtoQzFEFzRobQx61s-fLm_Wy2UeGdr-Etiwc" target="_blank">Contact us</a> if you’re interested. Art and Design applicants must include a portfolio. </p>
       <ul class="gridder">
 
+        <li class="gridder-list" data-griddercontent="#profile_test">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/nick.jpg">
+            <div class="card-summary">
+              <h3>new person</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
         <li class="gridder-list" data-griddercontent="#profile_nick">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/nick.jpg">
@@ -315,6 +325,21 @@
 
 
 <!-- Team Expanded content -->
+<div id="profile_test" class="gridder-content">
+  <div class="row profile-inner profile-inner">
+    <h3>new person</h3>
+    <span>Director & Founder</span>
+    <div class="wrapper">
+      <div class="col-md-12 profile-expanded">
+        <p class="small">David is a researcher at <a href="https://www.wcer.wisc.edu/" target="_bank">WCER</a>. He's also a programmer, game designer, and passionate advocate for using games to understand and transform how kids learn. David is the co-founder of the PLAY MAKE LEARN conference and the Games and Learning Summit. He serves as a PI on several research projects that explore the following topics in video games: educational data mining, co-design, mixed reality (VR, AR), and location-based games. </p>
+          <p class="small">David created ARIS, an open-source game design platform that has supported the development of thousands of location-based AR projects and <a href="https://scholar.google.com/scholar?start=0&q=arisgames.org&hl=en&as_sdt=0,50" target="_blank">hundreds of educational papers.</a> David’s work supports other research, from the <a href="https://fielddaylab.wisc.edu/opengamedata/" target="_blank">Open Game Data</a> project, which shares our game data with educational researchers, to Field Day’s <a href="https://fielddaylab.wisc.edu/fellowships/" target="_blank">teacher fellowship program,</a> which serves as a site to study teachers' professional growth.</p>
+        <p class="small">David has been the producer or lead designer for over a dozen award-winning games in topics ranging from engineering, science, and mathematics to history and music. He has been an invited guest or keynote speaker for the White House Office of Science and Technology Policy, the Smithsonian National Museum of African American History and Culture, the MacArthur Foundation, the Pearson Foundation, Serious Play, and several smaller workshops and conferences. </p>
+        <p class="small">David casts a vision that gets other people excited about joining in the work. He understands the realities of how educational issues affect kids, which allows him to stick unwaveringly to his values. David brings energy and enthusiasm to every project, from research to game design.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="profile_david" class="gridder-content">
   <div class="row profile-inner profile-inner">
     <h3>David Gagnon</h3>
