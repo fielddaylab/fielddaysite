@@ -186,6 +186,16 @@
           </div>
         </li>
 
+        <li class="gridder-list" data-griddercontent="#profile_new">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/nick.jpg">
+            <div class="card-summary">
+              <h3>I was here</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
         <li class="gridder-list" data-griddercontent="#profile_nick">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/nick.jpg">
@@ -331,10 +341,25 @@
     <span>Director & Founder</span>
     <div class="wrapper">
       <div class="col-md-12 profile-expanded">
-        <p class="small">David is a researcher at <a href="https://www.wcer.wisc.edu/" target="_bank">WCER</a>. He's also a programmer, game designer, and passionate advocate for using games to understand and transform how kids learn. David is the co-founder of the PLAY MAKE LEARN conference and the Games and Learning Summit. He serves as a PI on several research projects that explore the following topics in video games: educational data mining, co-design, mixed reality (VR, AR), and location-based games. </p>
-          <p class="small">David created ARIS, an open-source game design platform that has supported the development of thousands of location-based AR projects and <a href="https://scholar.google.com/scholar?start=0&q=arisgames.org&hl=en&as_sdt=0,50" target="_blank">hundreds of educational papers.</a> David’s work supports other research, from the <a href="https://fielddaylab.wisc.edu/opengamedata/" target="_blank">Open Game Data</a> project, which shares our game data with educational researchers, to Field Day’s <a href="https://fielddaylab.wisc.edu/fellowships/" target="_blank">teacher fellowship program,</a> which serves as a site to study teachers' professional growth.</p>
-        <p class="small">David has been the producer or lead designer for over a dozen award-winning games in topics ranging from engineering, science, and mathematics to history and music. He has been an invited guest or keynote speaker for the White House Office of Science and Technology Policy, the Smithsonian National Museum of African American History and Culture, the MacArthur Foundation, the Pearson Foundation, Serious Play, and several smaller workshops and conferences. </p>
-        <p class="small">David casts a vision that gets other people excited about joining in the work. He understands the realities of how educational issues affect kids, which allows him to stick unwaveringly to his values. David brings energy and enthusiasm to every project, from research to game design.</p>
+        <p class="small">hello</p>
+        <p class="small"></p>
+        <p class="small"></p>
+        <a href="https://scholar.google.com/scholar?start=0&q=arisgames.org&hl=en&as_sdt=0,50" target="_blank">hundreds of educational papers.</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="profile_new" class="gridder-content">
+  <div class="row profile-inner profile-inner">
+    <h3>I was here</h3>
+    <span>Such and Such a job title</span>
+    <div class="wrapper">
+      <div class="col-md-12 profile-expanded">
+        <p class="small">this is me.</p>
+        <p class="small"></p>
+        <p class="small"></p>
+        <a href="https://scholar.google.com/scholar?start=0&q=arisgames.org&hl=en&as_sdt=0,50" target="_blank">hundreds of educational papers.</a>
       </div>
     </div>
   </div>
