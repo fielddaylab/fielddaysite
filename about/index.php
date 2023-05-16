@@ -302,6 +302,26 @@
           </div>
         </li>
 
+        <li class="gridder-list" data-griddercontent="#profile_jeremy">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/astro.jpg">
+            <div class="card-summary">
+              <h3>Jeremy Grozavescu</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_ben">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/astro.jpg">
+            <div class="card-summary">
+              <h3>Ben Nadler</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
       </ul>
 
 
@@ -472,8 +492,14 @@
       <span>3D Artist</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Forest is a 3D artist with a background in graphic design and business. As a freelancer, he loves moving between different projects and exploring new ideas and styles. Forest did all of the 3D art and animation for our upcoming AR game. He worked with Eric and Sarah (Art Director and Creative Director) to take the vision for the game and translate it into amazing characters and background art. Forest is also a business owner and musician. He and his brother designed several games together as the small game studio Flippfly—including “Race the Sun,” for which Forest also created the soundtrack. You can find more of Forest’s work on Instagram <a href="https://instagram.com/ForestSanFilippo">@ForestSanFilippo</a>
+          <p class="small">Forest is a 3D artist with a background in graphic design and business. As a freelancer, he loves moving between different projects and exploring new ideas and styles. He has worked with Eric and Sarah (Art Director and Creative Director) to take their vision for a game and translate it into amazing characters and background art. Forest is also a business owner and musician. He and his brother designed several games together as the small game studio Flippfly—including “Race the Sun,” for which Forest also created the soundtrack. You can find more of Forest’s work on Instagram <a href="https://instagram.com/ForestSanFilippo">@ForestSanFilippo</a>
 </p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>3D art and animation for Station: Maine</li>
+            <li>3D art and animation for Legend of the Lost Emerald</li>
+            <li>3D art for Wake: Tales from the Aqualab</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -504,12 +530,14 @@
       <span>In-game music and sound effects</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Every creative team needs someone with the ability to “yes, and…” a story or design problem, and Cy is just about the best there is. He’s also one of the most creative people you’ll ever meet. When it comes to creating music for games, Cy starts by immersing himself in the subject matter--like watching ocean documentaries when he was composing music for our in-progress oceanic adventure game, AquaLab--and trusting the music to come. It can be challenging to find the right tone for a scene, story, or moment, and Cy’s music helps us find it.
+          <p class="small">Every creative team needs someone with the ability to “yes, and…” a story or design problem, and Cy is just about the best there is. He’s also one of the most creative people you’ll ever meet. When it comes to creating music for games, Cy starts by immersing himself in the subject matter--like watching ocean documentaries when he was composing music for Wake: Tales from the Aqualab--and trusting the music to come. It can be challenging to find the right tone for a scene, story, or moment, and Cy’s music helps us find it.
 </p>
           <h4>Field Day projects:</h4>
           <ul>
             <li>Music and sound effects for Jo Wilder</li>
             <li>Music and sound effects for Lost at the Forever Mine</li>
+            <li>Music and sound effects for Wake: Tales from the Aqualab</li>
+            <li>Music and sound effects for Headlines and High Water</li>
           </ul>
           <p class="small">
             Cy began as a visual artist, creating commissioned album cover artwork and T-shirt designs, before realizing that music had always been a constant in his life. He learned to play the drums through playing Rock Band--the perfect merging of his love for music and video games. When it comes to the creative process, Cy is passionate about improvisation and pushes himself to keep things fresh and different. He shares visual art and poetry on Instagram at
@@ -530,10 +558,10 @@
           <h4>Field Day projects:</h4>
           <ul>
             <li>Lead artist for BrainPop projects</li>
-            <li>Concept art and color studies for AquaLab </li>
+            <li>Concept art and color studies for Wake: Tales from the Aqualab </li>
             <li>Concept art and color studies for The Legend of the Lost Emerald</li>
-            <li>Concept art, color studies, and movement studies for the penguins VR game</li>
-            <li>Prototype art and animation for the Journalism game  </li>
+            <li>Concept art, color studies, and movement studies for Waddle: A Penguin's Tale</li>
+            <li>Prototype art and animation for Headlines and High Water</li>
           </ul>
           <p class="small">
             Emily’s passion for natural science illustration began when she drew an endangered species of antelope to share with her art group. The species was so unfamiliar that her group thought she’d made a creature up! That was the spark for Emily’s popular Instagram series, Real and Endangered, in which she shared 125 days of endangered species art with fun facts and conservation status for each animal. Emily believes that education is a powerful, underutilized aspect of conservation. She uses art as a tool to help people connect with nature, because, in her words, when you learn about something, you start to care about it. <br />
@@ -554,11 +582,7 @@
             As a game designer at Field Day, Bobby brings a rich depth of experience in educational game design and development. When he was a kid, Bobby noticed his classmates’ halfhearted response to a programming environment that he loved working in. As a designer, he’s drawn to the challenge of figuring out why those kids weren’t interested, and how he can design with them in mind. Bobby uses his expertise to create games not just for the kids (and adults) who are already excited about learning, but for the ones who start out reluctant or uninterested. In addition to front-end design, he has worked closely with the writing and art teams at Field Day, developing story concepts and working with artists to create game art that is beautiful and cohesive.
           </p>
           <p class="small">
-            Bobby was a lead game designer at a casual games studio before starting his own studio, Important Little Games. He was the lead designer and programmer for Codemancer, a fantasy game that teaches programming for kids ages 6 through 12. Bobby wears a lot of hats and looks good in all of them. His background includes game design and programming—and also screenwriting, creative direction, and toy design, plus an educational background in film, TV production, math, and computer science. He can always be counted on for a good pun.
-          </p>
-
-          <p class="small">
-            Learn more about Bobby and see his portfolio <a href="https://bobbylox.com/blog/games" target="_blank">here</a>, and check out <a href="https://codemancergame.com/" target="_blank">Codemancer</a>, his magical programming game!
+            Bobby was a lead game designer at a casual games studio before starting his own studio, Important Little Games. He was the lead designer and programmer for <a href="https://importantlittlegames.itch.io/codemancer-ch-1" target="_blank">Codemancer</a>, a fantasy game that teaches programming for kids ages 6 through 12. Bobby wears a lot of hats and looks good in all of them. His background includes game design and programming—and also screenwriting, creative direction, and toy design, plus an educational background in film, TV production, math, and computer science. He can always be counted on for a good pun.
           </p>
         </div>
       </div>
@@ -646,7 +670,7 @@
       <span>Software Developer and Game Design Consultant </span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Phil worked as Field Day’s lead software developer and game designer for almost 10 years. He was the principal developer for ARIS, The Yard Games, Lakeland, Jo Wilder and the Capitol Case, Play the Past, and Lost at the Forever Mine. Phil’s capacity to understand technical fields outside his expertise, such as thermodynamics, is mind boggling. Recently, he has returned to consult with Field Day on our in-progress Journalism and Shipwrecks games. </p>
+          <p class="small">Phil worked as Field Day’s lead software developer and game designer for almost 10 years. He was the principal developer for ARIS, The Yard Games, Lakeland, Jo Wilder and the Capitol Case, Play the Past, and Lost at the Forever Mine. Phil’s capacity to understand technical fields outside his expertise, such as thermodynamics, is mind boggling. Recently, he returned to consult with Field Day on The Legend of the Lost Emerald and Headlines in High Water. </p>
           <p class="small">
             Phil is an amazing developer, which goes without saying. He’s also a kind soul and an articulate teacher. He understands programming and game theory on a deep, intuitive level, and he’s able to step back and meet people where they’re at. He’s a fantastic teacher, developer, and learner. Everything he says feels thoughtfully considered. When Phil says, “Hmm, that’s a good question,” you know you’re getting somewhere.
           </p>
@@ -715,6 +739,36 @@
           <p class="small">Mia’s data background and passion for game design come together at Field Day in her game data analysis work. Mia is fascinated by how games can educate and impact people. Focusing on VR games like IceCube and Waddle, she builds proper features, provides data analysis and evaluation from player data, and generates models, all to help us better understand how our games are being used. </p>
 
           <p>In her free time, Mia is also passionate about traveling and music. She is the manager of an R&B band called <a href="https://www.instagram.com/revival_uw_madison/" target="_blank">Revival Band at UW-Madison.</a> You can usually find them performing at live shows on campus.
+ </p>
+</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_ben" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Ben Nadler</h3>
+      <span>Artist</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">A graduate of Rhode Island School of Design, Ben is a talented 2D artist with a background in comics and illustration. He was the lead artist on Headlines and Highwater, bringing the sleepy town of Twin Lakes to life with his playful, graphic characters and his careful eye for pattern and architectural detail. Ben has written and illustrated several books, including The White Snake and The Jewish Deli: an Illustrated Guide to the Chosen Food. You can find more of his work on his <a href="https://www.bennadler.ink" target="_blank">website</a>, and check out his <a href="https://www.instagram.com/bennadlercomics/" target="_blank">Instagram.</a>
+ </p>
+</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_jeremy" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Jeremy Grozavescu</h3>
+      <span>Artist</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Jeremy helped with the initial implementation of Wake's model balancing, including implementing a few features that would allow for more natural simulation of species like scarcity. He also set up the automated build system for the games using Github actions.</p>
+          <p>In the past, Jeremy was a professional software developer for PerBlue Games in Madison, WI. He currently works for Sony Playstation on their web checkout team as well. In his free time, he can be found at Gemini Games DMing games of D&D or playing Magic the Gathering. He has also contributed to the many mods for Minecraft and Stardew Valley. Jeremy is a mathematician and enjoys thinking about programming in terms of simplifying solutions and elegant algorithms. He is also a great purveyor of cat memes.
+</a>
  </p>
 </h4>
         </div>
