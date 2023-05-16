@@ -166,25 +166,6 @@
       <p>We offer student internships in Game Engineering, Art and Design, and Research. Join our multidisciplinary team and work on learning games that reach classrooms across the country and beyond. Engineering and Art and Design interns will leave with portfolio pieces. Research interns will contribute to academic publications. We’re always taking applications! <a href="https://docs.google.com/forms/d/1GytOoW-J4q7N2r0TPfybcYcgQeGYDmrMVSlrhMDHIok/viewform?edit_requested=true#response=ACYDBNiX1njuwj-Ip-M0Y7F9nl3IL7-o-xtHtoQzFEFzRobQx61s-fLm_Wy2UeGdr-Etiwc" target="_blank">Contact us</a> if you’re interested. Art and Design applicants must include a portfolio. </p>
       <ul class="gridder">
 
-        <li class="gridder-list" data-griddercontent="#profile_new">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/nick.jpg">
-            <div class="card-summary">
-              <h3>I was here</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_nick">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/nick.jpg">
-            <div class="card-summary">
-              <h3>Nick Spevacek</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
 
         <li class="gridder-list" data-griddercontent="#profile_luke">
           <div class="profile-thumbnail">
@@ -206,31 +187,31 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_glenn">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/glenn.jpeg">
-            <div class="card-summary">
-              <h3>Glenn Palmer</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_matt">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/matt.jpeg">
-            <div class="card-summary">
-              <h3>Matt Murphy</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_john">
+        <li class="gridder-list" data-griddercontent="#profile_zach">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/astro.jpg">
             <div class="card-summary">
-              <h3>John McCloskey</h3>
+              <h3>Zach Studdiford</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_dane">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/astro.jpg">
+            <div class="card-summary">
+              <h3>Dane Bach</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_mia">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/astro.jpg">
+            <div class="card-summary">
+              <h3>Mia Yunqing Xiao</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -241,6 +222,16 @@
 
 
       <ul class="gridder">
+<li class="gridder-list" data-griddercontent="#profile_lindy">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/lindy.jpg">
+            <div class="card-summary">
+              <h3>Lindy Biller</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
         <li class="gridder-list" data-griddercontent="#profile_phil">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/phil.jpg">
@@ -315,21 +306,6 @@
 
 
 <!-- Team Expanded content -->
-
-<div id="profile_new" class="gridder-content">
-  <div class="row profile-inner profile-inner">
-    <h3>I was here</h3>
-    <span>Such and Such a job title</span>
-    <div class="wrapper">
-      <div class="col-md-12 profile-expanded">
-        <p class="small">this is me.</p>
-        <p class="small"></p>
-        <p class="small"></p>
-        <a href="https://scholar.google.com/scholar?start=0&q=arisgames.org&hl=en&as_sdt=0,50" target="_blank">hundreds of educational papers.</a>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div id="profile_david" class="gridder-content">
   <div class="row profile-inner profile-inner">
@@ -428,25 +404,6 @@
     </div>
   </div>
 
-  <div id="profile_nick" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>Nick Spevacek</h3>
-      <span>Undergraduate Game Engineering and Research Intern</span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Nick is a student game engineer with an interest in data science. His internship is split between our game engineering and research teams. Nick has experience working with Unity and C#, including developing two games from scratch for a weekend game jam. In his spare time, Nick teamed up with friends to create a puzzle game called Flightless. He’s currently studying Computer Science. </p>
-          <h4>Field Day projects: </h4>
-          <ul>
-            <li>Developing game mechanics for Lakeland</li>
-            <li>Converting open game code data into a language that works with Unity </li>
-          </ul>
-          <p class="small">Nick was born and raised in Wisconsin. He attended high school in Middleton, where he ran cross country. Now he lives near the arboretum and enjoys running the trails in his spare time. You can find his github profile <a target="_blank" href="https://github.com/nspevacek">here.</a>
-</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div id="profile_luke" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Luke Swanson</h3>
@@ -464,46 +421,6 @@
             <li>Data analysis for Jo Wilder. </li>
           </ul>
           <p class="small">In his spare time, Luke is an amateur photographer and videographer. You can see some of his photography on the Computer Science department’s website.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="profile_glenn" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>Glenn Palmer</h3>
-      <span>Graduate Research Intern</span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Glenn brings a rich depth of experience to his role on our research team. He studied physics at Duke University, taught high school math and physics, and then designed online curriculum for grades K-12 with IXL Learning, an educational website. Now a graduate student studying Computer Science, Glenn is passionate about collaboration and the crossing of silos. He’s interested in exploring meaningful ways to bring together his expertise in teaching, programming, and design.
-</p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Real-time data dashboard for Lakeland</li>
-            <li>Models to predict players’ behavior
-</li>
-            <li>Exploration of research questions at the intersection of technology, games, and design
-</li>
-          </ul>
-          <p class="small">Glenn grew up in the Appalachian Mountains in North Carolina. In his spare time, you might find him out hiking. He’s also an awesome drummer—during his undergrad, he played snare with the Duke Marching Band.
-</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="profile_matt" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>Matt Murphy</h3>
-      <span>Undergraduate Game Engineering Intern</span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Matt is a software engineer and undergraduate student with a passion for front-end development. He has experience working with Unity and C#. Prior to his internship at Field Day, he interned as a software engineer at Goldsmith Lab and MatrixCare. He’s been drawn to game development ever since he was a kid, when he started running and modding Minecraft servers.</p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Developing prototypes for AquaLab (specifically the job board mechanic, the argumentation mechanic, and an interactive map).</li>
-          </ul>
-          <p class="small">In his spare time, Matt plays competitive pinball! He travels to different bars and arcades for tournaments, including the world’s largest competitive pinball tournament in Pittsburgh. In 2019, Matt won $200 in his division and made it to the top 40! </p>
         </div>
       </div>
     </div>
@@ -530,28 +447,6 @@
           </ul>
           <p class="small">You can find Reyna on Instagram <a target="_blank" href="https://instagram.com/rey.groff">@rey.groff </a>, and check out her website <a target="_blank" href="http://www.reynagroff.com">here.</a>
 </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="profile_john" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>John McCloskey</h3>
-      <span>Past Intern: Undergraduate Data Analyst</span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">John is a data analyst and an awesome communicator with a passion for transforming the education system. As a lifelong gamer, he’s excited about how adding games to the curriculum can allow students to shine in non-traditional ways. John’s expertise in game analytics allows us to gain a deeper understanding how our games are being used. He holds a Bachelor’s degree in Japanese, with Computer Science and Biology certificates. </p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Data mining and session/player clustering for Lakeland
-</li>
-            <li>Logging functions and feature extractors for Jo Wilder and Lakeland</li>
-            <li>Data analysis for Jo Wilder</li>
-            <li>The Open Game Data Website
-</li>
-          </ul>
-          <p class="small"></p>
         </div>
       </div>
     </div>
@@ -703,11 +598,11 @@
       <span>Game Engineering Intern</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Amelia is a student game engineer with a knack for story and design. As a biochemistry major working toward certificates in game design and folklore, she brings a unique background and lots of creative insight to our team. Amelia loves working across disciplines. She has impressed everyone with her ability to take on different roles, from game development to prototype design and writing. As a new intern, she took the lead on developing a Twine prototype for our in-progress Journalism game, plus supporting our writing team in using Twine and adding her own witty, playful story ideas to the mix.</p>
+          <p class="small">Amelia is a student game engineer with a knack for story and design. As a biochemistry major working toward certificates in game design and folklore, she brings a unique background and lots of creative insight to our team. Amelia loves working across disciplines. She has impressed everyone with her ability to take on different roles, from game development to prototype design and writing. As a new intern, she took the lead on developing a Twine prototype for Headlines and High Water, plus supporting our writing team in using Twine and adding her own witty, playful story ideas to the mix.</p>
           <h4>Field Day projects:</h4>
           <ul>
             <li>Development and implementation of the BrainPop project</li>
-            <li>Development of the Journalism game prototype, in collaboration with the writing team</li>
+            <li>Development of the prototype for Headlines and High Water, in collaboration with the writing team</li>
           </ul>
           <p class="small">
             Amelia has been designing games since she was a kid, creating handmade board games and coming up with elaborate recess activities for her classmates. She has a long list of hobbies and hidden talents—ink and pencil drawing, writing, 3D printing, bicycling and hiking,  her own game design projects, and even being a Dungeons and Dragons dungeon master, which makes sense, considering her on-the-fly storytelling prowess!
@@ -760,26 +655,74 @@
     </div>
   </div>
 
-  <div id="profile_mary" class="gridder-content">
+  <div id="profile_lindy" class="gridder-content">
     <div class="row profile-inner profile-inner">
-      <h3>Mary Benetti</h3>
-      <span>Software Developer </span>
+      <h3>Lindy Biller</h3>
+      <span>Writer </span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Terra is an amazing developer drawn to the challenge of learning games. She taught herself programming in high school and studied game development in college, before moving into a prolific career in educational games. Terra loves finding the balance of creating games that are simple and fun to play, so that kids will actually enjoy playing them, while communicating complex scientific ideas through the game mechanic. In her time as a game engineer at Filament Games, she created games for clients including Scholastic, Square Panda, and iCivics. </p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Lead Developer for The Legend of the Lost Emerald</li>
-          </ul>
-          <p class="small">
-            Terra makes her own games at her independent game studio, Potato Interactive. Her most recent project is Crime Reaper, a murder mystery game! She’s also working on a Tarot game anthology, which will include 22 games. Terra does all of the writing, visual design, and sound design for her games, as well as the development. Check out her work <a href="https://rottentater.com/games/" target="_blank">here!</a>
-          </p>
+          <p class="small">Lindy is a creative writer, blogger, and copywriter. She brings a combination of keen story-building skills and intellectual depth to the worlds of both our games and our blog. Her years of experience working with teachers and learning game designers gives her a unique capacity as a writer. She contributes not only a love of story, but also the ability to learn about the complexities of education theory and game design. </p>
+
+          <p>Lindy wrote the scripts and in-game dialog for Jo Wilder and the Capitol Case, Lost at the Forever Mine, STEMPorts, Lakeland, and many of The Yard Games. She works closely with Sarah to write and refine all of our web copy, iterating until we are able to explain complex projects in just a few lines.</p>
+
+          <p>Lindy is the reason the farmers in Lakeland have folksy wit and the Artificial Intelligence in Forever Mine is relatable and dimensional. She crafts stories that allow kids to embody the spirit of a scientist, historian, or detective, and she fosters a sense of wonder in the process.</p></h4>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="profile_mary" class="gridder-content">
+   <div id="profile_zach" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Zach Studdiford</h3>
+      <span>Undergraduate Data Science Intern </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Zach works on feature extraction for Headlines and Wake. He creates insights into when and why players choose to quit when they do, and how we can optimize games for an ideal player experience. Zach is interested in how data from games can inform our understanding of child learning and cognition in ways that traditional studies often can't. </p>
+
+            <p>Prior to working at Field Day, Zach worked as a research assistant in the Department of Psychology at UW-Madison, studying how language alters perception and cognition. This has informed his approach to how lower-level data can be used to answer higher-order complex questions, and how to design cognitive tasks that can answer those questions.</p>
+
+
+            <p>Outside of his work at Field Day and classes at UW-Madison, Zach enjoys playing jazz piano, and works part time as a pianist at restaurants and performance venues both in Madison and Minneapolis. He also enjoys hiking and backpacking, and has visited almost all of the national parks in the continental United States.
+ </p>
+</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="profile_dane" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Dane Bach</h3>
+      <span>Undergraduate Data Team Intern </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Dane is a student data analyst working on player analysis for Wake: Tales from the Aqualab. Data science fascinates Dane because it combines computer science, statistics, and math to reach intelligent decisions based solely on the available data. His work on Wake allows him to apply his data skills in a practical, hands-on setting where he actively works to improve our template for player analysis. </p>
+
+          <p>In the winter Dane enjoys snowboarding and snowshoeing. When the weather is nice, he likes to watch Madison Mallards games or go for a run around the lake.
+ </p>
+</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_mia" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Mia Yunqing Xiao</h3>
+      <span>Undergraduate Data Team Intern </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Mia’s data background and passion for game design come together at Field Day in her game data analysis work. Mia is fascinated by how games can educate and impact people. Focusing on VR games like IceCube and Waddle, she builds proper features, provides data analysis and evaluation from player data, and generates models, all to help us better understand how our games are being used. </p>
+
+          <p>In her free time, Mia is also passionate about traveling and music. She is the manager of an R&B band called <a href="https://www.instagram.com/revival_uw_madison/" target="_blank">Revival Band at UW-Madison.</a> You can usually find them performing at live shows on campus.
+ </p>
+</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_terra" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Mary Benetti</h3>
       <span>Software Developer </span>
