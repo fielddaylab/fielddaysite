@@ -964,6 +964,8 @@
   ---------------------------*/
 
   &.wake {
+    background:black;
+    overflow-x:hidden;
     #app-intro {
       padding: 5vw 0vw 5vw 0vw;
       text-align: center;
@@ -994,6 +996,7 @@
     }
 
     #app-about {
+      background:#fff;
       h3 {
         margin: 25px 0px 10px 0px;
       }
@@ -1002,6 +1005,7 @@
     .app-hero {
       background-color: #000;
       justify-content: space-between;
+      overflow:hidden;
       .hero-content {
         width: calc(50% - 10vw);
         .app-description {

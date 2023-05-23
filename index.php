@@ -7,8 +7,6 @@
 <?php include 'includes/main-nav.php';?>
 <!-- start page template -->
 <div id="mainwrapper">
-  <!--<?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/curtain.php";  include_once($path); ?>-->
-
   <!--hero-->
   <div id="carousel" class="hero carousel slide carousel-fade hero-slider " data-ride="carousel">
       <div class="slide-wrap">
@@ -29,10 +27,6 @@
               <span class="bullet"></span>
               <span class="bullet-caption">Jo Wilder</span>
             </li>
-            <!--<li class="slide-bullet" data-target="#carousel" data-slide-to="3">
-              <span class="bullet"></span>
-              <span class="bullet-caption">Ice Cube</span>
-            </li>-->
         </ul>
       </div>
       <!-- Carousel items -->

@@ -12547,6 +12547,10 @@ hr {
   width: 100%;
   height: auto;
 }
+.singleapp.wake {
+  background: black;
+  overflow-x: hidden;
+}
 .singleapp.wake #app-intro {
   padding: 5vw 0vw 5vw 0vw;
   text-align: center;
@@ -12571,12 +12575,16 @@ hr {
 .singleapp.wake #app-intro .fullscreen img {
   vertical-align: middle;
 }
+.singleapp.wake #app-about {
+  background: #fff;
+}
 .singleapp.wake #app-about h3 {
   margin: 25px 0px 10px 0px;
 }
 .singleapp.wake .app-hero {
   background-color: #000;
   justify-content: space-between;
+  overflow: hidden;
 }
 .singleapp.wake .app-hero .hero-content {
   width: calc(50% - 10vw);
@@ -12912,6 +12920,218 @@ hr {
 }
 .singleapp .glide__bullet.active {
   background-color: #efefef;
+}
+
+.curtain {
+  width: 100vw;
+  background-size: cover;
+  background-position: right;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(0);
+}
+.curtain.curtain-show {
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+}
+.curtain.curtain-hidden {
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  transform: translateY(-100%);
+  height: 0px;
+}
+.curtain .curtain-content {
+  width: 50vw;
+  margin-left: 10vw;
+}
+@media only screen and (max-width: 1024px) {
+  .curtain .curtain-content {
+    width: 80vw;
+  }
+}
+.curtain h1, .curtain p {
+  color: #fff;
+}
+.curtain h1 {
+  text-transform: uppercase;
+}
+.curtain .curtain-wrapper {
+  z-index: 10;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+.curtain .curtain-close {
+  top: 90px;
+  right: 40px;
+  width: 30px;
+}
+.curtain .page_hero {
+  background-color: #FAD9D9;
+  padding: 5vw 0vw;
+  display: flex;
+}
+@media only screen and (max-width: 768px) {
+  .curtain .page_hero {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 2vw;
+  }
+}
+.curtain .page_hero .info {
+  color: #001E2A;
+  width: 40%;
+  padding: 8vw 0vw 8vw 8vw;
+  margin-right: 10%;
+}
+.curtain .page_hero .info p {
+  color: #001E2A;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .curtain .page_hero .info {
+    width: 100%;
+  }
+}
+.curtain .page_hero .info h1 {
+  color: #001E2A;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .curtain .page_hero .info h1 {
+    font-size: 40px;
+  }
+}
+.curtain .page_hero .graphic {
+  width: 50%;
+  margin-top: 17vw;
+}
+@media only screen and (max-width: 768px) {
+  .curtain .page_hero .graphic {
+    height: 40vw;
+    width: 100%;
+    margin-top: 20vw;
+  }
+}
+.curtain .page_hero .graphic .teachernaut {
+  width: 10vw;
+  margin-right: 6vw;
+}
+@media only screen and (max-width: 768px) {
+  .curtain .page_hero .graphic .teachernaut {
+    width: 30vw;
+    margin-left: 2vw;
+  }
+}
+.curtain .page_hero .graphic .kidstronaut {
+  position: relative;
+  z-index: 200;
+  width: 7vw;
+  margin-right: -1vw;
+}
+@media only screen and (max-width: 768px) {
+  .curtain .page_hero .graphic .kidstronaut {
+    width: 16vw;
+    margin-left: 3vw;
+  }
+}
+.curtain .page_hero .graphic .kidstronaut.two {
+  margin-top: -20vw;
+  margin-left: 2vw;
+  width: 10vw;
+}
+@media only screen and (max-width: 768px) {
+  .curtain .page_hero .graphic .kidstronaut.two {
+    width: 14vw;
+  }
+}
+.curtain .page_hero .graphic .kidstronaut.three {
+  margin-bottom: -10vw;
+  width: 9vw;
+}
+@media only screen and (max-width: 768px) {
+  .curtain .page_hero .graphic .kidstronaut.three {
+    width: 13vw;
+  }
+}
+.curtain .page_hero .graphic .cloud {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  top: 10vw;
+  right: 25vw;
+  z-index: 101;
+  animation: float-horiz 10s ease-in-out infinite;
+  opacity: 1;
+}
+@media only screen and (max-width: 1024px) {
+  .curtain .page_hero .graphic .cloud {
+    width: 150px;
+    right: -15vw;
+    opacity: 0.5;
+  }
+}
+.curtain .page_hero .graphic .cloud.two {
+  top: initial;
+  bottom: 50px;
+  right: 12vw;
+  width: 300px;
+  z-index: 99;
+  animation: float-horiz 6s 6s ease-in-out infinite;
+}
+@media only screen and (max-width: 1024px) {
+  .curtain .page_hero .graphic .cloud.two {
+    width: 150px;
+    top: 60vw;
+    right: 6vw;
+    opacity: 0.5;
+  }
+}
+
+.curtain-toggle {
+  position: fixed;
+  height: 44px;
+  background: #FAD9D9;
+  padding: 5px 10px;
+  left: 20px;
+  top: 60px;
+  cursor: pointer;
+  font-size: 12px;
+  z-index: 1000;
+  border-radius: 0px 0px 5px 5px;
+  text-transform: uppercase;
+  font-family: brandon-grotesque, futura-pt, sans-serif;
+  color: #001E2A;
+  border: 2px solid #fff;
+  margin-top: -2px;
+  transition: all 0.2s ease-in-out;
+  z-index: 400;
+  opacity: 1;
+}
+@media only screen and (max-width: 768px) {
+  .curtain-toggle {
+    bottom: -92px;
+    top: 50px;
+  }
+  .curtain-toggle:hover {
+    top: 50px;
+  }
+}
+.curtain-toggle:hover {
+  top: 63px;
+}
+.curtain-toggle.curtain-toggle-hidden {
+  top: 0px;
+}
+.curtain-toggle img {
+  width: 40px;
+  height: auto;
 }
 
 .content-wrap {
