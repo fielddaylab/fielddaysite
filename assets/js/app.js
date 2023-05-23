@@ -184,6 +184,7 @@ $(document).ready(function() {
           setTimeout(function(){
             $('.curtain').addClass("curtain-show")
             $('.curtain').removeClass("curtain-hidden")
+            $('.curtain-toggle').addClass('curtain-toggle-hidden')
           }, 1000);
         });
     }
