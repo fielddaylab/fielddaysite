@@ -1,4 +1,4 @@
-// fixed nav
+// fixed navigation and class additions
 var mn = $(".small-nav");
     mns = "nav-fixed";
     bd = $('body');
@@ -139,7 +139,7 @@ $(window).scroll(function () {
 $('.curtain-close').click(function(){
   $('#mainwrapper').removeClass('curtain-show');
   $('.curtain').removeClass('curtain-show');
-  $('.curtain-toggle').removeClass('curtain-toggle-hidden')
+  $('.curtain-toggle').addClass('curtain-toggle-show');
 });
 
 $('.corrected').buddySystem();
@@ -168,16 +168,35 @@ $(document).ready(function() {
         $('body').addClass('curtain-show');
     }
 });
-
+*/
 $(document).ready(function() {
     if ($('body').hasClass('curtain-show')) {
         $('.curtain-toggle').addClass('curtain-toggle-hidden');
     }
 });
 
+$(document).ready(function() {
+    var curtainshow = sessionStorage.getItem('.curtain');
+    if (curtainshow== null) {
+        sessionStorage.setItem('.curtain', 1);
+
+        $(window).ready(function(){
+          setTimeout(function(){
+            $('.curtain').addClass("curtain-show")
+            $('.curtain').removeClass("curtain-hidden")
+          }, 1000);
+        });
+    }
+});
+
+$('.curtain-close').click(function(){
+  $('#mainwrapper').addClass('curtain-hidden');
+  $('.curtain').addClass('curtain-hidden');
+  $('.curtain-toggle').removeClass('curtain-toggle-hidden')
+});
+
 $('.curtain-toggle').click(function(){
-  $('#mainwrapper').addClass('curtain-show');
-  $('.curtain').addClass('curtain-show');
+  $('#mainwrapper').removeClass('curtain-hidden');
+  $('.curtain').removeClass('curtain-hidden');
   $('.curtain-toggle').addClass('curtain-toggle-hidden')
 });
-*/

@@ -1,18 +1,6 @@
-.home {
-  #mainwrapper {
-    margin-top:-100vh;
-    transition: all .3s ease-in-out;
-    &.curtain-show {
-      margin-top:0vh;
-    }
-  }
-}
 
 .curtain {
-  position:relative;
   width: 100vw;
-  height: 100vh;
-  background: url(../img/curtain/ai_bg.jpg) no-repeat;
   background-size: cover;
   background-position:right;
   color:#fff;
@@ -20,9 +8,17 @@
   align-items:center;
   z-index:1000;
   opacity:1;
-  transition: all .3s ease-in-out;
+  transition: all .5s ease-in-out;
+  transform:translateY(0);
   &.curtain-show {
+    transition: all .5s ease-in-out;
     opacity:1;
+  }
+  &.curtain-hidden {
+    transition: all .5s ease-in-out;
+    opacity:0;
+    transform:translateY(-100%);
+    height:0px;
   }
   .curtain-content {
     width:50vw;
@@ -37,33 +33,153 @@
   h1 {
     text-transform: uppercase;
   }
+  .curtain-wrapper {
+    z-index: 10;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+.curtain-close {
+  top:90px;
+  right: 40px;
+  width:30px;
+}
+.page_hero {
+  background-color: $pink;
+  padding: 5vw 0vw;
+  display:flex;
+  @media #{$break-sm} {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 2vw;
+  }
+  .info {
+    color:$black;
+    width: 40%;
+    padding: 8vw 0vw 8vw 8vw;
+    margin-right:10%;
+    p {
+      color:$black;
+      margin-bottom:20px;
+    }
+    @media #{$break-sm} {
+      width:100%;
+    }
+    h1{
+      color:$black;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 50px;
+      @media #{$break-sm} {
+        font-size:40px;
+      }
+    }
+  }
+  .graphic {
+    width: 50%;
+    margin-top: 17vw;
+    @media #{$break-sm} {
+      height: 40vw;
+      width:100%;
+      margin-top:20vw;
+    }
+    .teachernaut{
+      width: 10vw;
+      margin-right:6vw;
+      @media #{$break-sm} {
+        width:30vw;
+        margin-left:2vw;
+      }
+    }
+    .kidstronaut{
+      position:relative;
+      z-index:200;
+      width: 7vw;
+      margin-right:-1vw;
+      @media #{$break-sm} {
+        width: 16vw;
+        margin-left:3vw;
+      }
+      &.two {
+        margin-top:-20vw;
+        margin-left:2vw;
+        width: 10vw;
+        @media #{$break-sm} {
+          width: 14vw;
+        }
+      }
+      &.three{
+        margin-bottom:-10vw;
+        width: 9vw;
+        @media #{$break-sm} {
+          width: 13vw;
+        }
+      }
+    }
+    .cloud {
+      width: 300px;
+      height: auto;
+      position: absolute;
+      top: 10vw;
+      right:25vw;
+      z-index:101;
+      animation: float-horiz 10s ease-in-out infinite;
+      opacity:1;
+        @media #{$break-md} {
+          width:150px;
+          right:-15vw;
+          opacity:.5;
+        }
+      &.two{
+        top:initial;
+        bottom:50px;
+        right:12vw;
+        width:300px;
+        z-index:99;
+        animation: float-horiz 6s 6s ease-in-out infinite;
+        @media #{$break-md} {
+          width:150px;
+          top:60vw;
+          right:6vw;
+          opacity:.5;
+        }
+      }
+    }
+  }
+}
 }
 
 .curtain-toggle {
-position:absolute;
-background: url(../img/curtain/ai_bg.jpg) no-repeat;
-background-size: cover;
-background-position:right;
+position:fixed;
+height:44px;
+background:$pink;
 padding:5px 10px;
+left:20px;
+top:60px;
 cursor:pointer;
 font-size:12px;
-bottom: -97px;
 z-index: 1000;
 border-radius: 0px 0px 5px 5px;
-left: 11px;
 text-transform:uppercase;
 font-family: brandon-grotesque, futura-pt, sans-serif;
-color:#fff;
+color:$black;
 border:2px solid #fff;
 margin-top:-2px;
-transition: all .3s ease-in-out;
-z-index:100;
+transition: all .2s ease-in-out;
+z-index:400;
 opacity:1;
 @media #{$break-sm} {
   bottom:-92px;
+  top:50px;
+  &:hover {
+    top:50px;
+  }
+}
+&:hover {
+  top:63px;
 }
 &.curtain-toggle-hidden {
-  opacity:0;
+  top:0px;
 }
   img {
     width:40px;
