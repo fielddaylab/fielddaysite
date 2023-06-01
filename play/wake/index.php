@@ -65,7 +65,7 @@ window.onload = function()
         <h1 class="app-title">Wake</h1>
       </div>
       <div class="app-description">
-        <p class="small">Play as a young scientist faced with scientific challenges across multiple oceanic ecosystems. Made in partnerhsip with Harvard, Carnegie Mellon, and the Penn Center for Learning Analytics. Funding provided by NSF</p>
+        <p class="small">Play as a young scientist faced with scientific challenges across multiple oceanic ecosystems. Made in partnership with Harvard and the Penn Center for Learning Analytics. Funding provided by NSF</p>
       </div>
 
       <div class="buttons">
@@ -141,7 +141,7 @@ window.onload = function()
         </div>
 
         <h2 id="partners">Partners</h2>
-        <p><em>Wake</em> was developed as the result of a partnership between Field Day Learning Games, the Wisconsin Center for Education Research (UW-Madison), Harvard University, Carnegie Mellon University, and the Penn Center for Learning Analytics.</p>
+        <p><em>Wake</em> was developed as the result of a partnership between Field Day Learning Games, the Wisconsin Center for Education Research (UW-Madison), Harvard University, and the Penn Center for Learning Analytics.</p>
 
         <h2 id="funding">Funding</h2>
         <p>NSF Collaborative Research: Developing an Online Game to Teach Middle School Students Science Research Practices in the Life Sciences; DRL-1907384, DRL-1907398, and DRL-1907437</p>
