@@ -131,16 +131,6 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_lindy">
-          <div class="profile-thumbnail">
-            <img alt="Lindy Biller" src="/assets/img/profiles/lindy.jpg">
-            <div class="card-summary">
-              <h3>Lindy Biller</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
         <li class="gridder-list" data-griddercontent="#profile_mary">
           <div class="profile-thumbnail">
             <img alt="Lindy Biller" src="/assets/img/profiles/mary.jpg">
@@ -176,15 +166,6 @@
       <p>We offer student internships in Game Engineering, Art and Design, and Research. Join our multidisciplinary team and work on learning games that reach classrooms across the country and beyond. Engineering and Art and Design interns will leave with portfolio pieces. Research interns will contribute to academic publications. We’re always taking applications! <a href="https://docs.google.com/forms/d/1GytOoW-J4q7N2r0TPfybcYcgQeGYDmrMVSlrhMDHIok/viewform?edit_requested=true#response=ACYDBNiX1njuwj-Ip-M0Y7F9nl3IL7-o-xtHtoQzFEFzRobQx61s-fLm_Wy2UeGdr-Etiwc" target="_blank">Contact us</a> if you’re interested. Art and Design applicants must include a portfolio. </p>
       <ul class="gridder">
 
-        <li class="gridder-list" data-griddercontent="#profile_nick">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/nick.jpg">
-            <div class="card-summary">
-              <h3>Nick Spevacek</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
 
         <li class="gridder-list" data-griddercontent="#profile_luke">
           <div class="profile-thumbnail">
@@ -206,31 +187,31 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_glenn">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/glenn.jpeg">
-            <div class="card-summary">
-              <h3>Glenn Palmer</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_matt">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/matt.jpeg">
-            <div class="card-summary">
-              <h3>Matt Murphy</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_john">
+        <li class="gridder-list" data-griddercontent="#profile_zach">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/astro.jpg">
             <div class="card-summary">
-              <h3>John McCloskey</h3>
+              <h3>Zach Studdiford</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_dane">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/astro.jpg">
+            <div class="card-summary">
+              <h3>Dane Bach</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_mia">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/astro.jpg">
+            <div class="card-summary">
+              <h3>Mia Yunqing Xiao</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -241,6 +222,16 @@
 
 
       <ul class="gridder">
+<li class="gridder-list" data-griddercontent="#profile_lindy">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/lindy.jpg">
+            <div class="card-summary">
+              <h3>Lindy Biller</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
         <li class="gridder-list" data-griddercontent="#profile_phil">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/phil.jpg">
@@ -311,10 +302,31 @@
           </div>
         </li>
 
+        <li class="gridder-list" data-griddercontent="#profile_jeremy">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/astro.jpg">
+            <div class="card-summary">
+              <h3>Jeremy Grozavescu</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_ben">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/astro.jpg">
+            <div class="card-summary">
+              <h3>Ben Nadler</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
       </ul>
 
 
 <!-- Team Expanded content -->
+
 <div id="profile_david" class="gridder-content">
   <div class="row profile-inner profile-inner">
     <h3>David Gagnon</h3>
@@ -402,48 +414,12 @@
     <span>Research Intern and Director’s Minion </span>
     <div class="wrapper">
       <div class="col-md-12 profile-expanded">
-        <p class="small">Jenn is fascinated by how we can understand student thinking through game data. She began working with Field Day as a researcher analyzing data and conducting play-tests for <a href="https://fielddaylab.wisc.edu/play/lakeland/" target="_blank">Lakeland</a>. Now she's stepping into the role of producer for AquaLab, a four-year project focused on teaching science practices. Jenn is also a designer for our in-progress game about Great Lakes shipwrecks. 
+        <p class="small">Jenn is fascinated by how we can understand student thinking through game data. She began working with Field Day as a researcher analyzing data and conducting play-tests for <a href="https://fielddaylab.wisc.edu/play/lakeland/" target="_blank">Lakeland</a>. She was a designer for Legend of the Lost Emerald, and the producer for Wake: Tales from the Aqualab, a four-year project focused on teaching science practices. 
 </p>
         <p class="small">When it comes to advocating for kids, Jenn is unstoppable. As a former teacher, she brings a deep knowledge about how classrooms work and what teachers need. She works with our Teacher Fellows to design pedagogical tools, like a new teacher dashboard for Lakeland (soon to be applied across all our games). Jenn leads user-testing with kids for many of our games. 
 </p>
         <p class="small">In her role as Director’s Minion (or Assistant to the Director on paper), Jenn is constantly impressing everyone with her ability to keep all the administrative gears turning. Jenn’s superpowers include, but are not limited to: data analytics, ed tech, communicating with teachers, and keeping track of literally everything. 
 </p>
-      </div>
-    </div>
-  </div>
-
-  <div id="profile_lindy" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>Lindy Biller</h3>
-      <span>Writer</span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Lindy is a creative writer, blogger, and copywriter. She brings a combination of keen story-building skills and intellectual depth to the worlds of both our games and our blog. Her years of experience working with teachers and learning game designers gives her a unique capacity as a writer. She contributes not only a love of story, but also the ability to learn about the complexities of education theory and game design.  
-  </p>
-          <p class="small">Lindy wrote the scripts and in-game dialog for Jo Wilder and the Capitol Case, Lost at the Forever Mine, STEMPorts, Lakeland, and many of The Yard Games. She works closely with Sarah to write and refine all of our web copy, iterating until we are able to explain complex projects in just a few lines.
-  </p>
-          <p class="small">Lindy is the reason the farmers in Lakeland have folksy wit and the Artificial Intelligence in Forever Mine is relatable and dimensional. She crafts stories that allow kids to embody the spirit of a scientist, historian, or detective, and she fosters a sense of wonder in the process.
-  </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="profile_nick" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>Nick Spevacek</h3>
-      <span>Undergraduate Game Engineering and Research Intern</span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Nick is a student game engineer with an interest in data science. His internship is split between our game engineering and research teams. Nick has experience working with Unity and C#, including developing two games from scratch for a weekend game jam. In his spare time, Nick teamed up with friends to create a puzzle game called Flightless. He’s currently studying Computer Science. </p>
-          <h4>Field Day projects: </h4>
-          <ul>
-            <li>Developing game mechanics for Lakeland</li>
-            <li>Converting open game code data into a language that works with Unity </li>
-          </ul>
-          <p class="small">Nick was born and raised in Wisconsin. He attended high school in Middleton, where he ran cross country. Now he lives near the arboretum and enjoys running the trails in his spare time. You can find his github profile <a target="_blank" href="https://github.com/nspevacek">here.</a>
-</p>
-        </div>
       </div>
     </div>
   </div>
@@ -470,87 +446,27 @@
     </div>
   </div>
 
-  <div id="profile_glenn" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>Glenn Palmer</h3>
-      <span>Graduate Research Intern</span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Glenn brings a rich depth of experience to his role on our research team. He studied physics at Duke University, taught high school math and physics, and then designed online curriculum for grades K-12 with IXL Learning, an educational website. Now a graduate student studying Computer Science, Glenn is passionate about collaboration and the crossing of silos. He’s interested in exploring meaningful ways to bring together his expertise in teaching, programming, and design.
-</p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Real-time data dashboard for Lakeland</li>
-            <li>Models to predict players’ behavior
-</li>
-            <li>Exploration of research questions at the intersection of technology, games, and design
-</li>
-          </ul>
-          <p class="small">Glenn grew up in the Appalachian Mountains in North Carolina. In his spare time, you might find him out hiking. He’s also an awesome drummer—during his undergrad, he played snare with the Duke Marching Band.
-</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="profile_matt" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>Matt Murphy</h3>
-      <span>Undergraduate Game Engineering Intern</span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Matt is a software engineer and undergraduate student with a passion for front-end development. He has experience working with Unity and C#. Prior to his internship at Field Day, he interned as a software engineer at Goldsmith Lab and MatrixCare. He’s been drawn to game development ever since he was a kid, when he started running and modding Minecraft servers.</p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Developing prototypes for AquaLab (specifically the job board mechanic, the argumentation mechanic, and an interactive map).</li>
-          </ul>
-          <p class="small">In his spare time, Matt plays competitive pinball! He travels to different bars and arcades for tournaments, including the world’s largest competitive pinball tournament in Pittsburgh. In 2019, Matt won $200 in his division and made it to the top 40! </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div id="profile_reyna" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Reyna Groff</h3>
-      <span>Undergraduate Art and Design Intern  </span>
+      <span>Art and Design Intern  </span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Reyna is an artist with a flair for storytelling, character, and design. Reyna studied under Lynda Barry at UW-Madison. When she’s not making beautiful art here in Madison, you might find Reyna traveling the world and putting her three languages to good use. Kids (and adults) fall in love with Reyna’s whimsical, creative characters.</p>
+          <p class="small">Reyna is an artist with a flair for storytelling, character, and design. When she’s not making beautiful art here in Madison, you might find Reyna traveling the world and putting her three languages to good use. Kids (and adults) fall in love with Reyna’s whimsical, creative characters. She enjoys tactile hobbies like baking, printmaking, and papermaking, and is a firm believer in helping others develop new passions through playful learning and collaboration.</p>
           <h4>Field Day projects:</h4>
           <ul>
+            <li>Painted art for several of the Yard Games</li>
             <li>Lead artist on Jo Wilder and the Capitol Case</li>
-            <li>Painted art for Lost at the Forever Mine
-</li>
-            <li>Poster art for Lakeland
-</li>
-            <li>Comic art for our upcoming AR game
-</li>
+            <li>Painted art for Lost at the Forever Mine</li>
+            <li>Comic art for our VR game Station: Maine</li>
+            <li>2D art for Legend of the Lost Emerald</li>
+            <li>2D art for Wake: Tales from the Aqualab</li>
+            <li>Concept art for Headlines and High Water</li>
+            <li>Poster art for Jo Wilder, Lost at the Forever Mine, Lakeland, Legend of the Lost Emerald, Station: Maine, Waddle, Wake, and Headlines and High Water</li>
+        
           </ul>
-          <p class="small">You can find Reyna on Instagram <a target="_blank" href="https://instagram.com/rey.groff">@rey.groff </a>
+          <p class="small">You can find Reyna on Instagram <a target="_blank" href="https://instagram.com/rey.groff">@rey.groff </a>, and check out her website <a target="_blank" href="http://www.reynagroff.com">here.</a>
 </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="profile_john" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>John McCloskey</h3>
-      <span>Past Intern: Undergraduate Data Analyst</span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">John is a data analyst and an awesome communicator with a passion for transforming the education system. As a lifelong gamer, he’s excited about how adding games to the curriculum can allow students to shine in non-traditional ways. John’s expertise in game analytics allows us to gain a deeper understanding how our games are being used. He holds a Bachelor’s degree in Japanese, with Computer Science and Biology certificates. </p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Data mining and session/player clustering for Lakeland
-</li>
-            <li>Logging functions and feature extractors for Jo Wilder and Lakeland</li>
-            <li>Data analysis for Jo Wilder</li>
-            <li>The Open Game Data Website
-</li>
-          </ul>
-          <p class="small"></p>
         </div>
       </div>
     </div>
@@ -576,8 +492,14 @@
       <span>3D Artist</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Forest is a 3D artist with a background in graphic design and business. As a freelancer, he loves moving between different projects and exploring new ideas and styles. Forest did all of the 3D art and animation for our upcoming AR game. He worked with Eric and Sarah (Art Director and Creative Director) to take the vision for the game and translate it into amazing characters and background art. Forest is also a business owner and musician. He and his brother designed several games together as the small game studio Flippfly—including “Race the Sun,” for which Forest also created the soundtrack. You can find more of Forest’s work on Instagram <a href="https://instagram.com/ForestSanFilippo">@ForestSanFilippo</a>
+          <p class="small">Forest is a 3D artist with a background in graphic design and business. As a freelancer, he loves moving between different projects and exploring new ideas and styles. He has worked with Eric and Sarah (Art Director and Creative Director) to take their vision for a game and translate it into amazing characters and background art. Forest is also a business owner and musician. He and his brother designed several games together as the small game studio Flippfly—including “Race the Sun,” for which Forest also created the soundtrack. You can find more of Forest’s work on Instagram <a href="https://instagram.com/ForestSanFilippo">@ForestSanFilippo</a>
 </p>
+          <h4>Field Day projects:</h4>
+          <ul>
+            <li>3D art and animation for Station: Maine</li>
+            <li>3D art and animation for Legend of the Lost Emerald</li>
+            <li>3D art for Wake: Tales from the Aqualab</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -608,12 +530,14 @@
       <span>In-game music and sound effects</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Every creative team needs someone with the ability to “yes, and…” a story or design problem, and Cy is just about the best there is. He’s also one of the most creative people you’ll ever meet. When it comes to creating music for games, Cy starts by immersing himself in the subject matter--like watching ocean documentaries when he was composing music for our in-progress oceanic adventure game, AquaLab--and trusting the music to come. It can be challenging to find the right tone for a scene, story, or moment, and Cy’s music helps us find it.
+          <p class="small">Every creative team needs someone with the ability to “yes, and…” a story or design problem, and Cy is just about the best there is. He’s also one of the most creative people you’ll ever meet. When it comes to creating music for games, Cy starts by immersing himself in the subject matter--like watching ocean documentaries when he was composing music for Wake: Tales from the Aqualab--and trusting the music to come. It can be challenging to find the right tone for a scene, story, or moment, and Cy’s music helps us find it.
 </p>
           <h4>Field Day projects:</h4>
           <ul>
             <li>Music and sound effects for Jo Wilder</li>
             <li>Music and sound effects for Lost at the Forever Mine</li>
+            <li>Music and sound effects for Wake: Tales from the Aqualab</li>
+            <li>Music and sound effects for Headlines and High Water</li>
           </ul>
           <p class="small">
             Cy began as a visual artist, creating commissioned album cover artwork and T-shirt designs, before realizing that music had always been a constant in his life. He learned to play the drums through playing Rock Band--the perfect merging of his love for music and video games. When it comes to the creative process, Cy is passionate about improvisation and pushes himself to keep things fresh and different. He shares visual art and poetry on Instagram at
@@ -634,10 +558,10 @@
           <h4>Field Day projects:</h4>
           <ul>
             <li>Lead artist for BrainPop projects</li>
-            <li>Concept art and color studies for AquaLab </li>
+            <li>Concept art and color studies for Wake: Tales from the Aqualab </li>
             <li>Concept art and color studies for The Legend of the Lost Emerald</li>
-            <li>Concept art, color studies, and movement studies for the penguins VR game</li>
-            <li>Prototype art and animation for the Journalism game  </li>
+            <li>Concept art, color studies, and movement studies for Waddle: A Penguin's Tale</li>
+            <li>Prototype art and animation for Headlines and High Water</li>
           </ul>
           <p class="small">
             Emily’s passion for natural science illustration began when she drew an endangered species of antelope to share with her art group. The species was so unfamiliar that her group thought she’d made a creature up! That was the spark for Emily’s popular Instagram series, Real and Endangered, in which she shared 125 days of endangered species art with fun facts and conservation status for each animal. Emily believes that education is a powerful, underutilized aspect of conservation. She uses art as a tool to help people connect with nature, because, in her words, when you learn about something, you start to care about it. <br />
@@ -658,11 +582,7 @@
             As a game designer at Field Day, Bobby brings a rich depth of experience in educational game design and development. When he was a kid, Bobby noticed his classmates’ halfhearted response to a programming environment that he loved working in. As a designer, he’s drawn to the challenge of figuring out why those kids weren’t interested, and how he can design with them in mind. Bobby uses his expertise to create games not just for the kids (and adults) who are already excited about learning, but for the ones who start out reluctant or uninterested. In addition to front-end design, he has worked closely with the writing and art teams at Field Day, developing story concepts and working with artists to create game art that is beautiful and cohesive.
           </p>
           <p class="small">
-            Bobby was a lead game designer at a casual games studio before starting his own studio, Important Little Games. He was the lead designer and programmer for Codemancer, a fantasy game that teaches programming for kids ages 6 through 12. Bobby wears a lot of hats and looks good in all of them. His background includes game design and programming—and also screenwriting, creative direction, and toy design, plus an educational background in film, TV production, math, and computer science. He can always be counted on for a good pun.
-          </p>
-
-          <p class="small">
-            Learn more about Bobby and see his portfolio <a href="https://bobbylox.com/blog/games" target="_blank">here</a>, and check out <a href="https://codemancergame.com/" target="_blank">Codemancer</a>, his magical programming game!
+            Bobby was a lead game designer at a casual games studio before starting his own studio, Important Little Games. He was the lead designer and programmer for <a href="https://importantlittlegames.itch.io/codemancer-ch-1" target="_blank">Codemancer</a>, a fantasy game that teaches programming for kids ages 6 through 12. Bobby wears a lot of hats and looks good in all of them. His background includes game design and programming—and also screenwriting, creative direction, and toy design, plus an educational background in film, TV production, math, and computer science. He can always be counted on for a good pun.
           </p>
         </div>
       </div>
@@ -679,10 +599,11 @@
           <h4>Field Day projects:</h4>
           <ul>
             <li>Game development for Shipwrecks, including the evidence board mechanic and the sonar mechanic</li>
-            <li>Training and collaboration with the writing team
-</li>
-            <li>Implementing audio into the Shipwrecks game
-</Li>
+            <li>Training and collaboration with the writing team</li>
+            <li>Implementing audio into the Shipwrecks game</Li>
+            <li>Proototypes for our in-progress game</li>
+            <li>Content for Wake: Tales from the Aqualab</li>
+            <li>Content, analytics, and game UI for Headlines and High Water</li>
           </ul>
           <p class="small">
             Levi grew up traveling the world—he has lived in Washington, Hawaii, Qatar, and Germany before moving to the Midwest to study at UW-Madison. In addition to computer science and game design, he is currently studying Finnish—both because he loves the language, and because he’s interested in the technology and game design opportunities in Finland. He has worked on his own game design projects outside of Field Day and joined in game jams with other Field Day interns.
@@ -701,11 +622,11 @@
       <span>Game Engineering Intern</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Amelia is a student game engineer with a knack for story and design. As a biochemistry major working toward certificates in game design and folklore, she brings a unique background and lots of creative insight to our team. Amelia loves working across disciplines. She has impressed everyone with her ability to take on different roles, from game development to prototype design and writing. As a new intern, she took the lead on developing a Twine prototype for our in-progress Journalism game, plus supporting our writing team in using Twine and adding her own witty, playful story ideas to the mix.</p>
+          <p class="small">Amelia is a student game engineer with a knack for story and design. As a biochemistry major working toward certificates in game design and folklore, she brings a unique background and lots of creative insight to our team. Amelia loves working across disciplines. She has impressed everyone with her ability to take on different roles, from game development to prototype design and writing. As a new intern, she took the lead on developing a Twine prototype for Headlines and High Water, plus supporting our writing team in using Twine and adding her own witty, playful story ideas to the mix.</p>
           <h4>Field Day projects:</h4>
           <ul>
             <li>Development and implementation of the BrainPop project</li>
-            <li>Development of the Journalism game prototype, in collaboration with the writing team</li>
+            <li>Development of the prototype for Headlines and High Water, in collaboration with the writing team</li>
           </ul>
           <p class="small">
             Amelia has been designing games since she was a kid, creating handmade board games and coming up with elaborate recess activities for her classmates. She has a long list of hobbies and hidden talents—ink and pencil drawing, writing, 3D printing, bicycling and hiking,  her own game design projects, and even being a Dungeons and Dragons dungeon master, which makes sense, considering her on-the-fly storytelling prowess!
@@ -724,14 +645,16 @@
       <span>3D Artist</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Mary is a 3D artist with a background in game design and studio art. At Field Day, she has created beautiful 3D art, and has also contributed her expertise in modeling, texturing, and animation. Mary brings a rich background in painting, drawing, sculpture making, storyboarding, and VR. She has a personal mission to encourage curiosity and play--for all ages, and especially adults. She has created interactive sculptures from reused and thrifted materials, as well as a fun, tactile VR experience focused on play. Mary is interested in how learning games and virtual exhibits can be integrated with the physical world.</p>
+          <p class="small">Mary is a 3D artist with a background in game design and studio art. At Field Day, she primarily creates 3D art with an expertise in modeling, texturing, and animation. Mary brings a rich background in drawing, painting, sculpture-making, and VR. She has a personal mission to encourage curiosity and play  for people of all ages, and especially adults. This is demonstrated through the interactive sensory-based sculptures she creates, as well as by being an artist at Field Day.</p>
           <h4>Field Day projects:</h4>
           <ul>
-            <li>3D art for the Shipwrecks game</li>
-            <li>Modeling, texturing, and animation for AquaLab</li>
+            <li>3D art for Legend of the Lost Emerald</li>
+            <li>3D art and 2D/3D animation for Wake: Tales from the Aqualab</li>
+            <li>3D art and animation for Waddle: A Penguin's Tale</li>
+            <li>Producer and concept artist for our upcoming games</li>
           </ul>
           <p class="small">
-            Mary likes to connect her hobbies with motion and play, which has led to an amazing list of hidden talents--including drumming, fishkeeping, and underwater hockey. During college, she researched and created an independent project about motion and how it relates to physics and psychology. She brings a love of learning to everything she does.
+            Mary likes to connect her hobbies with motion and play, which has led to an amazing list of hidden talents--including drumming, fishkeeping, and underwater hockey. During college, she researched and created an independent project about motion and how it relates to physics, psychology, and art. She brings a love of learning to everything she does.
           </p>
           <p class="small">
             Check out Mary’s portfolio <a href="https://mbenetti.myportfolio.com/" target="_blank">here!</a>
@@ -747,7 +670,7 @@
       <span>Software Developer and Game Design Consultant </span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Phil worked as Field Day’s lead software developer and game designer for almost 10 years. He was the principal developer for ARIS, The Yard Games, Lakeland, Jo Wilder and the Capitol Case, Play the Past, and Lost at the Forever Mine. Phil’s capacity to understand technical fields outside his expertise, such as thermodynamics, is mind boggling. Recently, he has returned to consult with Field Day on our in-progress Journalism and Shipwrecks games. </p>
+          <p class="small">Phil worked as Field Day’s lead software developer and game designer for almost 10 years. He was the principal developer for ARIS, The Yard Games, Lakeland, Jo Wilder and the Capitol Case, Play the Past, and Lost at the Forever Mine. Phil’s capacity to understand technical fields outside his expertise, such as thermodynamics, is mind boggling. Recently, he returned to consult with Field Day on The Legend of the Lost Emerald and Headlines in High Water. </p>
           <p class="small">
             Phil is an amazing developer, which goes without saying. He’s also a kind soul and an articulate teacher. He understands programming and game theory on a deep, intuitive level, and he’s able to step back and meet people where they’re at. He’s a fantastic teacher, developer, and learner. Everything he says feels thoughtfully considered. When Phil says, “Hmm, that’s a good question,” you know you’re getting somewhere.
           </p>
@@ -756,26 +679,104 @@
     </div>
   </div>
 
-  <div id="profile_mary" class="gridder-content">
+  <div id="profile_lindy" class="gridder-content">
     <div class="row profile-inner profile-inner">
-      <h3>Mary Benetti</h3>
-      <span>Software Developer </span>
+      <h3>Lindy Biller</h3>
+      <span>Writer </span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Terra is an amazing developer drawn to the challenge of learning games. She taught herself programming in high school and studied game development in college, before moving into a prolific career in educational games. Terra loves finding the balance of creating games that are simple and fun to play, so that kids will actually enjoy playing them, while communicating complex scientific ideas through the game mechanic. In her time as a game engineer at Filament Games, she created games for clients including Scholastic, Square Panda, and iCivics. </p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Lead Developer for The Legend of the Lost Emerald</li>
-          </ul>
-          <p class="small">
-            Terra makes her own games at her independent game studio, Potato Interactive. Her most recent project is Crime Reaper, a murder mystery game! She’s also working on a Tarot game anthology, which will include 22 games. Terra does all of the writing, visual design, and sound design for her games, as well as the development. Check out her work <a href="https://rottentater.com/games/" target="_blank">here!</a>
-          </p>
+          <p class="small">Lindy is a creative writer, blogger, and copywriter. She brings a combination of keen story-building skills and intellectual depth to the worlds of both our games and our blog. Her years of experience working with teachers and learning game designers gives her a unique capacity as a writer. She contributes not only a love of story, but also the ability to learn about the complexities of education theory and game design. </p>
+
+          <p>Lindy wrote the scripts and in-game dialog for Jo Wilder and the Capitol Case, Lost at the Forever Mine, STEMPorts, Lakeland, and many of The Yard Games. She works closely with Sarah to write and refine all of our web copy, iterating until we are able to explain complex projects in just a few lines.</p>
+
+          <p>Lindy is the reason the farmers in Lakeland have folksy wit and the Artificial Intelligence in Forever Mine is relatable and dimensional. She crafts stories that allow kids to embody the spirit of a scientist, historian, or detective, and she fosters a sense of wonder in the process.</p></h4>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="profile_mary" class="gridder-content">
+   <div id="profile_zach" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Zach Studdiford</h3>
+      <span>Undergraduate Data Science Intern </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Zach works on feature extraction for Headlines and Wake. He creates insights into when and why players choose to quit when they do, and how we can optimize games for an ideal player experience. Zach is interested in how data from games can inform our understanding of child learning and cognition in ways that traditional studies often can't. </p>
+
+            <p>Prior to working at Field Day, Zach worked as a research assistant in the Department of Psychology at UW-Madison, studying how language alters perception and cognition. This has informed his approach to how lower-level data can be used to answer higher-order complex questions, and how to design cognitive tasks that can answer those questions.</p>
+
+
+            <p>Outside of his work at Field Day and classes at UW-Madison, Zach enjoys playing jazz piano, and works part time as a pianist at restaurants and performance venues both in Madison and Minneapolis. He also enjoys hiking and backpacking, and has visited almost all of the national parks in the continental United States.
+ </p>
+</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="profile_dane" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Dane Bach</h3>
+      <span>Undergraduate Data Team Intern </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Dane is a student data analyst working on player analysis for Wake: Tales from the Aqualab. Data science fascinates Dane because it combines computer science, statistics, and math to reach intelligent decisions based solely on the available data. His work on Wake allows him to apply his data skills in a practical, hands-on setting where he actively works to improve our template for player analysis. </p>
+
+          <p>In the winter Dane enjoys snowboarding and snowshoeing. When the weather is nice, he likes to watch Madison Mallards games or go for a run around the lake.
+ </p>
+</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_mia" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Mia Yunqing Xiao</h3>
+      <span>Undergraduate Data Team Intern </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Mia’s data background and passion for game design come together at Field Day in her game data analysis work. Mia is fascinated by how games can educate and impact people. Focusing on VR games like IceCube and Waddle, she builds proper features, provides data analysis and evaluation from player data, and generates models, all to help us better understand how our games are being used. </p>
+
+          <p>In her free time, Mia is also passionate about traveling and music. She is the manager of an R&B band called <a href="https://www.instagram.com/revival_uw_madison/" target="_blank">Revival Band at UW-Madison.</a> You can usually find them performing at live shows on campus.
+ </p>
+</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_ben" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Ben Nadler</h3>
+      <span>Artist</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">A graduate of Rhode Island School of Design, Ben is a talented 2D artist with a background in comics and illustration. He was the lead artist on Headlines and Highwater, bringing the sleepy town of Twin Lakes to life with his playful, graphic characters and his careful eye for pattern and architectural detail. Ben has written and illustrated several books, including The White Snake and The Jewish Deli: an Illustrated Guide to the Chosen Food. You can find more of his work on his <a href="https://www.bennadler.ink" target="_blank">website</a>, and check out his <a href="https://www.instagram.com/bennadlercomics/" target="_blank">Instagram.</a>
+ </p>
+</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_jeremy" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Jeremy Grozavescu</h3>
+      <span>Artist</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Jeremy helped with the initial implementation of Wake's model balancing, including implementing a few features that would allow for more natural simulation of species like scarcity. He also set up the automated build system for the games using Github actions.</p>
+          <p>In the past, Jeremy was a professional software developer for PerBlue Games in Madison, WI. He currently works for Sony Playstation on their web checkout team as well. In his free time, he can be found at Gemini Games DMing games of D&D or playing Magic the Gathering. He has also contributed to the many mods for Minecraft and Stardew Valley. Jeremy is a mathematician and enjoys thinking about programming in terms of simplifying solutions and elegant algorithms. He is also a great purveyor of cat memes.
+</a>
+ </p>
+</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_terra" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Mary Benetti</h3>
       <span>Software Developer </span>
