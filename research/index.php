@@ -218,6 +218,13 @@
         </div>
         <div class="col-sm-8">
           <h2 id="pub4">Written by Field Day Lab Staff</h2>
+
+            <div class="pub-wrap">
+            <p class="small">
+Metcalf, S.,M., Gagnon, D., Slater, S. (2023). Shifts in Student Attitudes and Beliefs about Science Through Extended Play in an Immersive Science Game. 2023 9th International Conference of the Immersive Learning Network (iLRN). San Luis Obispo, USA.
+            </p>
+          </div>
+
             <div class="pub-wrap">
             <p class="small">
 Kim, Y.J., Metcalf, S.,M., Scianna, J., & Gagnon, D. (2022). <a target="_blank" href="https://icce2022.apsce.net/uploads/P2_WIPP_093.pdf">Aqualab: Establishing Validity of an Adventure Game for Middle School Science Practices.</a> Proceedings of the 30th International Conference on Computers in Education. Kuala Lumpur, Malaysia.
