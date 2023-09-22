@@ -50,10 +50,15 @@
             <p class="small">As a design studio and research lab, Field Day is uniquely positioned to leverage the broad user base of our games to perform original research around these questions. We’re able to put specific design features under the microscope during development, when there are opportunities to change course. Once in production, we use our games as instruments into the minds of our players, developing new theories of thinking and learning. We study both desktop games and mixed reality experiences. </p>
           <h2>What’s unique about our research method?</h2>
           <div class="pub-wrap">
+            <h3>Massive data sets:</h3>
+            <p>Traditional methods of educational research produce data much more slowly than what we can collect through our learning games. Because our games are online and reach large audiences, they generate millions of data points daily. This allows us to test hypotheses over much shorter time periods. We adapt methods such as A/B testing to function as randomized control trials for research. Instead of optimizing on designs that generate profit, we validate the effectiveness of our learning experiences to improve learning outcomes, all in a period of days to weeks.
+            </p>
+            <p>
+            We've build a significant new infrastructure to make this all happen. We call it
+            <a href = "https://opengamedata.fielddaylab.wisc.edu">Open Game Data</a>. We are sharing all our data and analysis, creating reuable tools,
+            and inviting others to join in.   
             <h3>Embedded assessments:</h3>
             <p>We build learning instruments into our games. Specifically, we use evidence-centered design (see Mislevy) and stealth assessments (see Shute) so that player interactions in the game systems can be seen as salient problem-solving choices and activities within an authentic context. Over time, we’re able to use educational data mining approaches (see Baker) to predict and describe our players and their learning in novel ways.</p>
-            <h3>Massive data sets:</h3>
-            <p>Traditional methods of educational research produce data much more slowly than what we can collect through our learning games. Because our games are online and reach large audiences, they generate millions of data points daily. This allows us to test hypotheses over much shorter time periods. We adapt methods such as A/B testing to function as randomized control trials for research. Instead of optimizing on designs that generate profit, we validate the effectiveness of our learning experiences to improve learning outcomes, all in a period of days to weeks.</p>
           </div>
 
           </div>
@@ -218,6 +223,13 @@
         </div>
         <div class="col-sm-8">
           <h2 id="pub4">Written by Field Day Lab Staff</h2>
+
+            <div class="pub-wrap">
+            <p class="small">
+Metcalf, S.,M., Gagnon, D., Slater, S. (2023). Shifts in Student Attitudes and Beliefs about Science Through Extended Play in an Immersive Science Game. 2023 9th International Conference of the Immersive Learning Network (iLRN). San Luis Obispo, USA.
+            </p>
+          </div>
+
             <div class="pub-wrap">
             <p class="small">
 Kim, Y.J., Metcalf, S.,M., Scianna, J., & Gagnon, D. (2022). <a target="_blank" href="https://icce2022.apsce.net/uploads/P2_WIPP_093.pdf">Aqualab: Establishing Validity of an Adventure Game for Middle School Science Practices.</a> Proceedings of the 30th International Conference on Computers in Education. Kuala Lumpur, Malaysia.

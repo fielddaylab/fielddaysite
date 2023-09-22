@@ -2,6 +2,7 @@
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php"; include_once($path); ?>
 <title>Field Day - Open Game Data</title>
+<script>window.location.href = "https://opengamedata.fielddaylab.wisc.edu";</script>
 </head>
 
 <body class="singleapp page opengamedata" onload="onload()">
@@ -15,64 +16,9 @@
     <section class="singlehero page_hero">
       <div class="info">
         <h1 class="corrected">Open Game Data</h1>
-        <p class="">These anonymous data are provided in service of future educational data mining research. They are made available under the <a target="_blank" href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CCO 1.0 Universal license.</a> Source code for this website and related data processing is available on <a target="_blank" href="https://github.com/fielddaylab/opengamedata">github</a></p>
-        <p class="">
-          Check out our <a target="_blank" href="https://opengamedata.fielddaylab.wisc.edu">prototype for a new site here.</a>
+        <p class="">Redirecting to the new site...<a target="_blank" href="https://opengamedata.fielddaylab.wisc.edu">https://opengamedata.fielddaylab.wisc.edu</a>
         </p>
       </div>
-      <!-- <div class="info">
-        <h1 class="corrected">Lakeland Teacher Dashboard</h1>
-        <p class="">This dashboard tool allows you to observe the in-game progress of players in Lakeland. To see only the players who are in your classroom, enter your "classroom ID," and use the button to generate a link for players to sign in to the classroom.</p>
-        <div id="classroom_setup" style="color: black">
-          <input type="text" id="classroom_id" placeholder="Class ID">
-          <input type="text" id="portal_link" size=65 readonly>
-          <br>
-          <button type="button" class="btn btn-secondary" id="btn_id_gen">Generate Classroom Link</button>
-        </div>
-      </div> -->
-      <div class="graphic">
-        <img class="graph_img" src="/assets/img/illustrations/mountainrange.png">
-      </div>
-      <!--Page tabs
-      
-      <nav class="nav nav-tabs press-toggles">
-        <ul>
-          <li class="press-toggle press-toggle1 active"><a href="#data" role="tab" data-toggle="tab">Game Data</a></li>
-          <li class="press-toggle press-toggle2"><a href="#teacher" role="tab" data-toggle="tab">Realtime player data</a></li>
-          <li class="press-toggle press-toggle3"><a href="#designer" role="tab" data-toggle="tab">Designer Dashboard</a></li>
-        </ul>
-      </nav>
-      ------------------------>
-    </section>
-
-    <section class="row">
-      <div class="pub-nav-wrap pub-nav col-sm-3 ui_column"> <!-- class="sticky" -->
-        <h2>Choose a Game:</h2>
-        <ul id="gameselect"></ul>
-      </div>
-      <div class="tab-content ui_column">
-        <!-- OpenGameData tab
-        ------------------------>
-        <div role="tabpanel" class="tab-pane fade in active" id="data">
-          <section class="publications">
-            <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/opengamedata/src/downloads.php"; include_once($path); ?>
-          </section>
-        </div>
-        <!-- Classroom dashboard tab
-        ------------------------>
-        <div role="tabpanel" class="tab-pane fade in" id="teacher">
-          <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/opengamedata/src/teacher_dash.php"; include_once($path); ?>
-        </div>
-        <!-- Designer dashboard tab
-        ------------------------>
-        <div role="tabpanel" class="tab-pane fade in" id="designer">
-          <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/opengamedata/src/designer_dash.php"; include_once($path); ?>
-        </div>
-      </div>
-    </section>
-    <span class="spreader"></span>
-    <!----------------------
-  End page content -->
   </div>
 
   <!--include footer
@@ -84,15 +30,9 @@
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js"></script>
-  <script src="config/realtime_config.js"></script>
   <script src="script/page_handlers.js"></script>
   <script src="script/games_list.js"></script>
   <script src="script/FilesTable.js"></script>
-  <script src="script/dashboard/RTServer.js"></script>
-  <script src="script/dashboard/ViewRenderer.js"></script>
-  <script src="script/dashboard/PlayerList.js"></script>
-  <script src="script/dashboard/PlayerDashboard.js"></script>
-  <script src="script/dashboard/PopulationDashboard.js"></script>
   <script>
     $(function() {
 
