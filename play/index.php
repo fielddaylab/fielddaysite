@@ -476,7 +476,7 @@
                                         <p class="tag ">Polar Research</p>
                                     </div>
                                     <p class="small">
-                                        Our in-progress Penguins VR Project will allow players to experience life at the South Pole—as a penguin! We’re thrilled to work with penguin researcher Jean Pennycook to create a fun, playful experience that introduces people to her NSF-funded work.
+                                        Our in-progress Penguins VR Project will allow players to experience life as a penguin in Cape Royds, Antarctica! We’re thrilled to work with penguin researcher Jean Pennycook to create a fun, playful experience that introduces people to her NSF-funded work.
                                     </p>
                                     <p class="note">
                                         Partners: NSF, Wisconsin Institute for Discovery, Wisconsin IceCube Particle Astrophysics Center
