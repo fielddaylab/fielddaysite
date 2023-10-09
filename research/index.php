@@ -226,6 +226,17 @@
 
             <div class="pub-wrap">
             <p class="small">
+Harpstead, E., Gagnon, D., Seif El-Nasr, M., Swanson, L. (2023). Using Open Game Data to Understand Game-Based Learning. CHI PLAY Companion '23: Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play. <a href = "https://doi.org/10.1145/3573382.3616028">https://doi.org/10.1145/3573382.3616028</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+Liu, X., Slater, S., Andres, J., Swanson, L., Scianna, J., Gagnon, D., Baker, R.S. (2023). Struggling to Detect Struggle in Students Playing a Science Exploration Game. CHI PLAY Companion '23: Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play. <a href = "https://dl.acm.org/doi/10.1145/3573382.3616080">https://dl.acm.org/doi/10.1145/3573382.3616080</a>
+            </p>
+          </div>      
+
+            <div class="pub-wrap">
+            <p class="small">
 Metcalf, S.,M., Gagnon, D., Slater, S. (2023). Shifts in Student Attitudes and Beliefs about Science Through Extended Play in an Immersive Science Game. 2023 9th International Conference of the Immersive Learning Network (iLRN). San Luis Obispo, USA.
             </p>
           </div>
