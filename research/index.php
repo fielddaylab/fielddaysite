@@ -226,6 +226,31 @@
 
             <div class="pub-wrap">
             <p class="small">
+Gagnon, D., Swanson, L. (2023). 
+Open Game Data: A Technical Infrastructure for Open Science with Educational Games. In: Haahr, M., Rojas-Salazar, A., Göbel, S. (eds) Serious Games. JCSG 2023. Lecture Notes in Computer Science, vol 14309. Springer, Cham. <a href = "https://doi.org/10.1007/978-3-031-44751-8_1">https://doi.org/10.1007/978-3-031-44751-8_1</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
+Gagnon, D.J., Ponto, K., Verbeke, M., Nathan, M., Kopp, K., Tredinnick, R. (2023). Waddle: Developing Empathy for Adélie Penguins By Direct Embodiment in Virtual Reality. In: Haahr, M., Rojas-Salazar, A., Göbel, S. (eds) Serious Games. JCSG 2023. Lecture Notes in Computer Science, vol 14309. Springer, Cham. <a href="https://doi.org/10.1007/978-3-031-44751-8_17">https://doi.org/10.1007/978-3-031-44751-8_17</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
+Ponto, K., Tredinnick, R., Verbeke, M., Kopp, K., Swanson, L., Gagnon, D. (2023). Waddle: using virtual penguin embodiment as a vehicle for empathy and informal learning. In 29th ACM Symposium on Virtual Reality Software and Technology (VRST 2023), October 09--11, 2023, Christchurch, New Zealand. ACM, New York, NY, USA 2 Pages. <a href= "https://doi.org/10.1145/3611659.3617211">https://doi.org/10.1145/3611659.3617211</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
+Harpstead, E., Gagnon, D., Seif El-Nasr, M., Swanson, L. (2023). Using Open Game Data to Understand Game-Based Learning. CHI PLAY Companion '23: Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play. <a href = "https://doi.org/10.1145/3573382.3616028">https://doi.org/10.1145/3573382.3616028</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
 Harpstead, E., Gagnon, D., Seif El-Nasr, M., Swanson, L. (2023). Using Open Game Data to Understand Game-Based Learning. CHI PLAY Companion '23: Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play. <a href = "https://doi.org/10.1145/3573382.3616028">https://doi.org/10.1145/3573382.3616028</a>
             </p>
           </div>
