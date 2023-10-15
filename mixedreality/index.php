@@ -124,7 +124,7 @@
                   <li class="gridder-list app-card" data-griddercontent="#arvr-app12">
                     <img class="app-logo" src="/assets/img/thumbs/penguins-thumb.jpg">
                     <div class="title">
-                      <span class="title">Upcoming: Penguins Project</span>
+                      <span class="title">Waddle: A Penguin's Tale</span>
                     </div>
                   </li>
                 </ul>
@@ -283,10 +283,11 @@
                 <div id="arvr-app12" class="app-expanded gridder-content">
                   <div class="app-info app-pane left">
                     <span class="close-app">
-                      <h2>Waddle - In Progress</h2>
-                      <p class="small">Our in-progress Penguins VR Project will allow players to experience life at the South Pole--as a penguin! We’re thrilled to be working with penguin research Jean Pennycook to create a fun, playful experience that introduces people to her NSF-funded work. </p>
+                      <h2>Waddle: A Penguin's Tale</h2>
+                      <p class="small">Our in-progress Penguins VR Project will allow players to experience life at the South Pole--as a penguin! We’re thrilled to be working with the Virtual Environments Lab and penguin research Jean Pennycook to create a fun, playful experience that introduces people to her NSF-funded work. </p>
                       <hr />
-                      <p class="note">Partners: NSF, Wisconsin Institute for Discovery, WIsconsin IceCube Particle Astrophysics Center</p>
+                      <p class="note">Partners: NSF, Wisconsin Institute for Discovery, Wisconsin IceCube Particle Astrophysics Center</p>
+                      <a class="button small black" href="/play/waddle" target="_blank">Learn about Waddle</a>
                   </div>
                   <div class="app-thumbnail app-pane right">
                     <img src="/assets/img/thumbnails/penguins-thumbnail.jpg">
