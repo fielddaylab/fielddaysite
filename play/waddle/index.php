@@ -28,10 +28,11 @@ include_once($path); ?>
                 <h1 class="app-title">Waddle: A Penguin's Tale</h1>
             </div>
             <div class="app-description">
-                <p class="small">This VR game introduces players to polar research at Cape Royds, Antarctica by letting them embody an adorable adelie penguin.</p>
+                <p class="small">This short little VR game introduces players to polar research at Cape Royds, Antarctica by letting them embody an adorable adelie penguin.</p>
                 <p class="small italic">Made in partnership with the National Science Foundation.</p>
             </div>
             <div class="buttons">
+                <a class="button small white filled" href="https://www.meta.com/experiences/5621806444549296" target="_blank">Play Waddle</a>
                 <a class="button xsmall black filled" href="#app-about">Learn More</a>
             </div>
         </div>
