@@ -72,7 +72,7 @@ window.onload = function()
         <a class="button small white filled" href="https://fielddaylab.org/play/wake/ci/production/" target="_blank">Play Wake</a>
         <a class="button small white" href="https://sites.google.com/wisc.edu/waketeacherguide/home">Support Site</a>
         <a class="button small white" href="https://docs.google.com/document/d/1CUAAmyAP0YpvhqAlC01GmQvWkoTzx_tMSMQZTEOU50c/edit?usp=sharing">Teaching Guide</a>
-        <a class="button small white" href="https://groups.google.com/g/wake-educators">Educator Community</a>
+        <a class="button small white" href="https://opengamedata.fielddaylab.wisc.edu/gamedata.php?game=AQUALAB">Research Wake</a>
         <!--<a class="button small white" href="#app-about">Learn More</a>-->
       </div>
     </div>

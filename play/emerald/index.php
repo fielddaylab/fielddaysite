@@ -39,9 +39,8 @@ include_once($path); ?>
                 <div class="buttons">
                     <a target="_blank" href="https://pbswisconsineducation.org/emerald/about/" class="button xsmall white filled">Play the Game</a>
                     <a target="_blank" href="#app-about" class="button xsmall white">Learn about the Game</a>
-                    <a target="_blank" href="https://medium.com/fielddaylab/shipwrecks-and-sea-shanties-designing-a-game-to-teach-the-great-lakes-3339abddd865" class="button xsmall white">
-                        Read the Story
-                    </a>
+                    <a target="_blank" href="https://medium.com/fielddaylab/shipwrecks-and-sea-shanties-designing-a-game-to-teach-the-great-lakes-3339abddd865" class="button xsmall white">Read the Story</a>
+                    <a target="_blank" href="https://opengamedata.fielddaylab.wisc.edu/gamedata.php?game=SHIPWRECKS" class="button xsmall white">Research Emerald</a>
                 </div>
             </div>
         </section>

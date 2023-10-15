@@ -50,6 +50,7 @@ window.onload = function()
       <a href="#teach" class="button xsmall white">Teach with the Game</a>
       <a target="_blank" href="https://medium.com/fielddaylab/kids-are-using-lakeland-to-play-through-the-phosphorus-cycle-and-talk-about-poop-in-class-7c5bed32461c
 " class="button xsmall white">Read the Story</a>
+      <a target="_blank" href="https://opengamedata.fielddaylab.wisc.edu/gamedata.php?game=LAKELAND" class="button xsmall white">Help us Study Lakeland</a>
     </div>
   </div>
 </section>
