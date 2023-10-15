@@ -33,7 +33,8 @@ include_once($path); ?>
             </div>
             <div class="buttons">
                 <a class="button small white filled" href="https://www.meta.com/experiences/5621806444549296" target="_blank">Play Waddle</a>
-                <a class="button xsmall black filled" href="#app-about">Learn More</a>
+                <a class="button small black filled" href="#app-about">Learn More</a>
+                <a class="button small black filled" href="https://opengamedata.fielddaylab.wisc.edu/gamedata.php?game=PENGUINS">Do Research with Waddle</a>
             </div>
         </div>
     </section>
