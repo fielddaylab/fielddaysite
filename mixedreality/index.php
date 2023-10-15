@@ -33,11 +33,11 @@
       <h1 class="section-title centered cap">What we've made</h1>
       <div id="mr_sections" class="slide carousel-fade">
           <ul class="carousel-indicators app-bullets">
-              <li class="app-bullet active" data-target="#mr_sections" data-slide-to="0">
-                <h2 class="augmentedreality_selector">Augmented Reality</h2>
-              </li>
               <li class="app-bullet" data-target="#mr_sections" data-slide-to="1">
                 <h2 class="virtualreality_selector">Virtual Reality</h2>
+              </li>            
+              <li class="app-bullet active" data-target="#mr_sections" data-slide-to="0">
+                <h2 class="augmentedreality_selector">Augmented Reality</h2>
               </li>
           </ul>
           <!-- Carousel items -->
