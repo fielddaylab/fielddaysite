@@ -153,6 +153,22 @@
       <ul class="gridder">
 
         <!-- Begin Current Fellowships-->
+        <li class="gridder-list" data-griddercontent="#game20">
+          <div class="game-thumbnail">
+            <img alt="Astrophysics Game Design Fellowship" src="/assets/img/fellowships/icecube.jpg">
+          </div>
+          <div class="card-summary">
+            <div class="info">
+              <h3>Astrophysics Game Design Fellowship</h3>
+              <h4 class="date">Spring + Summer 2024</h4>
+              <p>Join a group of public librarians, school librarians and science teachers to develop a new desktop educational game based to explore key concepts in space science.</p>
+            </div>
+            <span class="card-triangle"></span>
+          </div>
+        </li>
+
+      <!-- Begin Past Fellowships-->
+      <h2 class="section-title centered">Past Fellowships</h2>
 
         <li class="gridder-list" data-griddercontent="#game19">
           <div class="game-thumbnail">
@@ -196,9 +212,6 @@
           </div>
         </li>
 
-
-      <!-- Begin Past Fellowships-->
-      <h2 class="section-title centered">Past Fellowships</h2>
 
       <li class="gridder-list" data-griddercontent="#game16">
           <div class="game-thumbnail">
@@ -427,6 +440,24 @@
 
 
 <!-- Fellowship Expanded content -->
+<div id="game20" class="gridder-content">
+  <div class="row game-inner game20-inner">
+    <h3>Astrophysics Game Design Fellowship</h3>
+    <span>We are no longer accepting applications</span>
+    <span>Stipend: $200</span>
+    <span><a target="_blank" href="https://docs.google.com/document/d/1CLxmsnIPeeLpcPE5oNtETB2pjN58H9pBA3HA1wSrADA/edit?usp=drive_link">More Info</a></span>
+    <div class="wrapper">
+      <div class="col-md-7 game-expanded">
+        <p>Want to help envision and bring to life a new desktop video game? We are looking for public librarians, school librarians and science teachers throughout Wisconsin to help us envision and develop a new desktop educational game based on current research happening at the <a href = "https://wipac.wisc.edu/learn/explore/">Wisconsin IceCube Particle Astrophysics Center</a></p>
+      </div>
+      <div class="col-md-5 cta">
+        <img class="expanded-thumb img-responsive" alt="game dashboard" src="/assets/img/fellowships/icecube.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <div id="game19" class="gridder-content">
   <div class="row game-inner game17-inner">
@@ -437,7 +468,7 @@
     <div class="wrapper">
       <div class="col-md-7 game-expanded">
         <p>Join us to explore how Aqualab, a new game being developed by Field Day with the help of an amazing group of Wisconsin teachers, can be used in the classroom to teach science practices. You’ll work with the Field Day team and a cohort of science teachers from around the state to develop activities for your own classroom that will deepen what students do and learn in the game. </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZUHrU2BWA0Q12ZwOVsCxhY76N7_nSBV3yYgyuv3MKoRIuSg/viewform?usp=sf_link" class="button small black" target="_blank">Apply Now</a>
+        <a href="https://education.wisc.edu/news/a-very-deep-dive-uw-madisons-award-winning-field-day-lab-releases-its-most-ambitious-educational-game-yet/" class="button small black" target="_blank">Read the Story</a>
       </div>
       <div class="col-md-5 cta">
         <img class="expanded-thumb img-responsive" alt="game dashboard" src="/assets/img/fellowships/aqualab_dive.jpg">
@@ -456,6 +487,7 @@
     <div class="wrapper">
       <div class="col-md-7 game-expanded">
         <p>We’re looking for librarians in rural communities throughout Wisconsin to help us envision and implement a series of new Virtual Reality (VR) experiences designed for use in informal learning spaces. These experiences will focus on sharing cutting edge research currently being done by scientists in the Arctic and Antarctic polar regions. Additionally, we are interested in exploring how these experiences might be designed and promoted to specifically attract and engage Latinx audiences. </p>
+        <a class="button small black" target="_blank">We are not accepting new applicants at this time.</a>
       </div>
       <div class="col-md-5 cta">
         <img class="expanded-thumb img-responsive" alt="game dashboard" src="/assets/img/fellowships/libraryVR.jpg">
@@ -463,8 +495,6 @@
     </div>
   </div>
 </div>
-
-
 
 <div id="game17" class="gridder-content">
   <div class="row game-inner game17-inner">
@@ -475,7 +505,7 @@
     <div class="wrapper">
       <div class="col-md-7 game-expanded">
         <p>Team up with Field Day to help create a game that will reach millions of kids! We’re looking for innovative teachers to serve as advisors on a new online game about journalism and news literacy. Kids will learn journalistic practices like checking sources, gaining public trust, and meeting deadlines under pressure. You’ll work alongside game designers, other teachers, journalists from USA Today, PBS Milwaukee, and Buzzfeed, and the co-founder and editor of The Open Notebook, a craft guide for science writers. Join our pop-up community and help create something awesome that will get used by kids all across the country.</p>
-        <a href="https://education.wisc.edu/news/the-journalism-game-scaling-practices-to-middle-school-youth-to-support-democracy-receives-baldwin-funding/" class="button small black" target="_blank">Read the Story</a>
+        <a href="https://tonemadison.com/articles/a-new-video-game-immerses-players-in-a-flood-of-journalistic-decisions/" class="button small black" target="_blank">Read the Story</a>
       </div>
       <div class="col-md-5 cta">
         <img class="expanded-thumb img-responsive" alt="game dashboard" src="/assets/img/fellowships/journalism.jpg">
