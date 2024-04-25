@@ -105,7 +105,7 @@
                     </div>
 
       <h2 id="partners">Partners</h2>
-     <p>Bloom was designed with our amazing partners at UW-Madison’s Scalable Systems Lab and the experts at U.S. Environmental Protections Agency including… Special thanks to Victor Zavala and his students for sharing their time and expertise. Throughout the design and testing process, we relied on the experience and insights of Field Day teacher fellows and student play-testers from across Wisconsin.</p>
+     <p>Bloom was designed with our amazing partners at UW-Madison’s Scalable Systems Lab and the experts at U.S. Environmental Protections Agency, including Gerardo  Ruiz-Mercado (EPA), David Cole (UW-Madison), and Lauren Knose (EPA). Special thanks to Victor Zavala and his students for sharing their time and expertise. Throughout the design and testing process, we relied on the experience and insights of Field Day teacher fellows and student play-testers from across Wisconsin.</p>
     </div>
   </div>
 </section>
