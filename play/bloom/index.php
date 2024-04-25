@@ -47,22 +47,31 @@
     <div id="glance" class="col-sm-8 about-rightpanel">
       <h2 id="glance">At a Glance</h2>
       <ul>
-        <li>Subject: Scientific Modeling </li>
-        <li>Grades: 5-9 </li>
-        <li>Playtime: 25-35 minutes </li>
-        <li>Play from a web browser—no logins or downloads required</li>
-        <li>Free to play </li>
+        <li>Grades: 9-12 </li>
+        <li>Playtime: Most players can complete the game in two 45-minute class periods. Players can save their progress, making it usable within a typical classroom context.  </li>
       </ul>
+
+      <h2>About the Game</h2>
+
+      <p>In Bloom: The Saga of the <s>Poop</s> Fertilizer Economy, players serve as the director of SAGA: The Sustainable Agricultural Growth Administration. In this role, their goal is to support economic growth across five different counties while reducing agricultural runoff and subsequent algal blooms. To win, players must develop local trade networks, employ a range of economic and environmental policies, and balance the needs and perspectives of various stakeholders. A key focus of the game is learning about the relationship between agricultural runoff and water quality, while exploring how markets that allow farmers to sell excess manure can lead to cleaner water and farmers stay in business.</p>
       <h2 id="gameplay">Gameplay</h2>
-      <p>You are a material scientist who just crash-landed on an abandoned mining planet. You’re out of fuel, and your suit’s oxygen is running low. You need to mine enough fuel to power your ship, or you won’t survive.</p>
-      <p>You stumble into the old mining facility. That’s where you meet MAL, the mine’s Artificial Intelligence, who is thrilled to have someone to talk to. With MAL’s help, you’ll build scientific models to predict if you’re mining fast enough and what you need to do next. </p>
-      <p>Each level puts the student in the role of the scientific modeler. Students will set up equations, work with graphs, input data, and use models to make predictions. Along the way, as obstacles keep popping up, students will experience how models are used as a tool to make decisions.</p>
-      <p class="note">Note: For best compatibility, use Chrome</p>
+      <p>As the director of SAGA, players can use tax revenues to build roads (and other infrastructure) and enact economic and financial policies. Their objective is to create local trade networks and utilize new technologies to develop a fertilizer market, whereby excess manure can be bought and sold, rather than inefficiently spread on fields. </p>
+      <p>Players start by overseeing a single county. As the game unfolds, additional counties are unlocked. In addition to managing the economy within each county, to be successful players must develop strategies for developing trade between counties. 
+ </p>
+      <p>Players' progress is saved and a player code, which is assigned at the start of the game, can be used to return at a later point. Note that when players return to a game they start at the beginning of the most recently unlocked county. Therefore, it is recommended that if players plan on returning to a saved game that they stop playing after a new county is unlocked, so that they don’t lose any progress they have made. 
+</p>
       <h2 id="content">Content Areas</h2>
-      <p>replace with content area text</p>
+      <ul>
+        <li>Environmental Science</li>
+        <li>Agricultural Science</li>
+        <li>Biology</li>
+        <li>Economics </li>
+        <li>Geography </li>
+        <li>Government (Environmental and Economic Policies) </li>
+      </ul>
       <h2 id="standards">Academic Standards</h2>
 
-                    <h3> Science: Crosscutting Concepts (CC)s</h3>
+                    <h3> Science: Crosscutting Concepts (CC)</h3>
                     <div class="row standards-block">
                         <div class="col-sm-7">
                             <p class="small"><span class="bold">Systems and System Models - Standard SCI.CC4</span><br>Students use science and engineering practices, disciplinary core ideas, and an understanding of systems and system models to make sense of phenomena and solve problems.</p>
@@ -72,18 +81,31 @@
                     <h3>Science: Disciplinary Core Ideas (DCI)</h3>
                     <div class="row standards-block">
                         <div class="col-sm-7">
-                            <p class="small"><span class="bold">Earth and Space Science 3 (ESS3)</span><br>Earth and Human Activity - Standard SCI.ESS3: Students use science and engineering practices, crosscutting concepts, and an understanding of earth and human activity to make sense of phenomena and solve problems.</p>
+                            <p class="small"><span class="bold">Earth and Space Science 3 (ESS3) — Earth and Human Activity - Standard SCI.ESS3:</span><br> Students use science and engineering practices, crosscutting concepts, and an understanding of earth and human activity to make sense of phenomena and solve problems.</p>
                         </div>
                     </div>
+                    <h3>Science: Science and Engineering Practices (SEP)</h3>
+                    <div class="row standards-block">
+                        <div class="col-sm-7">
+                            <p class="small"><span class="bold">Asking Questions and Defining Problems - Standard SCI.SEP1: </span><br> Students ask questions and define problems, in conjunction with using crosscutting concepts and disciplinary core ideas, to make sense of phenomena and solve problems.</p>
+                            <p class="small"><span class="bold">Analyze and Interpret Data - Standard SCI.SEP4:</span><br> Students analyze and interpret data, in conjunction with using crosscutting concepts and disciplinary core ideas, to make sense of phenomena and solve problems.</p>
+                            <p class="small"><span class="bold">Mathematics and Computational Thinking - Standard SCI.SEP5</span><br> Students use mathematics and computational thinking, in conjunction with using crosscutting concepts and disciplinary core ideas, to make sense of phenomena and solve problems.</p>
+                             <p class="small"><span class="bold">Construct Explanations and Design Solutions - Standard SCI.SEP6:</span><br>  Students construct explanations and design solutions, in conjunction with using crosscutting concepts and disciplinary core ideas, to make sense of phenomena and solve problems.</p>
 
+                        </div>
+                    </div>
+                    <h3>Social Studies</h3>
+                    <div class="row standards-block">
+                        <div class="col-sm-7">
+                            <p class="small"><span class="bold">Standard SS.Econ1:</span><br> Wisconsin students use economic reasoning to understand issues.
+                            <p class="small"><span class="bold">Standard SS.Econ2:</span><br> Wisconsin students will analyze how decisions are made and interactions occur among individuals, households, and firms or businesses (Microeconomics).</p>
+                            <p class="small"><span class="bold">Standard SS.Econ3:</span><br> Wisconsin students will analyze how an economy functions as a whole (Macroeconomics).</p>
+                            <p class="small"><span class="bold">Standard SS.Econ4:</span><br> Wisconsin students will evaluate government decisions and their impact on individuals, businesses, markets, and resources (Role of Government).</p>
+                            <p class="small"><span class="bold">Standard SS.Geog5:</span><br> Wisconsin students will evaluate the relationship between humans and the environment.</p></div>
+                    </div>
 
       <h2 id="partners">Partners</h2>
-      <ul>
-        <li>Material Research Science & Engineering Center</li>
-        <li>Wisconsin Department of Public Instruction</li>
-      </ul>
-      
-      <p>Lost at the Forever Mine is an open-source project licensed under the <a target="_blank" href="https://opensource.org/licenses/MIT">MIT license</a> and is available at <a target="_blank" href="https://github.com/fielddaylab/forevermine">https://github.com/fielddaylab/forevermine</a></p>
+     <p>Bloom was designed with our amazing partners at UW-Madison’s Scalable Systems Lab and the experts at U.S. Environmental Protections Agency including… Special thanks to Victor Zavala and his students for sharing their time and expertise. Throughout the design and testing process, we relied on the experience and insights of Field Day teacher fellows and student play-testers from across Wisconsin.</p>
     </div>
   </div>
 </section>
