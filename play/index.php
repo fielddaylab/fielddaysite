@@ -40,6 +40,18 @@
                         <!--<p class="brief padding">We work with researchers to create fun, academically rigorous games that get hundreds of thousands of plays. Researchers love that our games allow for depth and complexity, while providing a playful, engaging experience. We team up with teacher fellows and outreach experts to make sure our games work in classrooms and reach large audiences. <br></p>-->
                         <!-- Gridder navigation -->
                         <ul class="apps gridder">
+                            <li class="gridder-list app-card" data-griddercontent="#game-bloom">
+                                <img src="/assets/img/games/thumbs/bloom.jpg" class="app-logo">
+                                <div class="game-wrapper">
+                                    <div class="title">
+                                        <span>Bloom: The Saga of the fertilizer economy</span>
+                                    </div>
+                                    <div class="stats">
+                                        <p class="italic">Grades 9-12</p>
+                                        <p>Life Sciences</p>
+                                    </div>
+                                </div>
+                            </li>
                             <li class="gridder-list app-card" data-griddercontent="#game-headlines">
                                 <img src="/assets/img/games/thumbs/headlines-thumb.jpg" class="app-logo">
                                 <div class="game-wrapper">
@@ -409,6 +421,25 @@
                     </div>
 
                     <div class="item">
+                        <div id="game-bloom" class="app-expanded gridder-content">
+                            <div class="app-info app-pane left">
+                                <span class="close-app">
+                                    <h2>Bloom: The Saga of the Fertilizer Economy</h2>
+                                    <div class="stats">
+                                        <p class="tag ">Grades 9-12</p>
+                                        <p>|</p>
+                                        <p class="tag ">Life Sciences</p>
+                                    </div>
+                                    <p class="small">
+                                        In <em>Bloom</em>, you’ll create trade networks and enact policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers. Made with UW-Madison’s Scalable Systems Lab (Directed by Victor Zavala) with funding from the Environmental Protection Agency. 
+
+                                    </p>
+                                    <a class="button small white filled" href="/play/bloom" target="_blank">Learn More</a>
+                            </div>
+                            <div class="app-thumbnail app-pane right">
+                                <img src="/assets/img/gameplay/bloom.jpg">
+                            </div>
+                        </div>
                         <div id="game-headlines" class="app-expanded gridder-content">
                             <div class="app-info app-pane left">
                                 <span class="close-app">

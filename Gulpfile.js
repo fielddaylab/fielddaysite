@@ -1,35 +1,16 @@
-var gulp = require('gulp');
+const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
-var browserSync = require('browser-sync').create();
 
-gulp.task('styles', function (done){
-  gulp.src('./assets/scss/styles_ver3.scss')
+function compileSass() {
+  return gulp.src('./assets/scss/styles_ver3.scss')
     .pipe(sass())
-    .pipe(gulp.dest('./assets/css'))
-    .pipe(browserSync.reload({stream: true}));
-    done();
-});
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./assets/css'));
+}
 
-gulp.task('serve', function (done) {
+function watch() {
+  gulp.watch('./assets/scss/*.scss', compileSass);
+}
 
-  browserSync.init({
-    server: {
-      baseDir: './'
-    }
-  });
-
-  gulp.watch('./assets/scss/*scss', ['styles']).on('change', browserSync.reload);
-  gulp.watch('./**/*.html').on('change', browserSync.reload);
-  done();
-});
-
-gulp.task('proxy', function (done) {
-  browserSync.init({
-    proxy: "localhost:8888"
-  });
-
-  gulp.watch('./assets/scss/*scss', ['styles']);
-  gulp.watch('./**/*.php').on('change', browserSync.reload);
-  gulp.watch('./**/*.html').on('change', browserSync.reload);
-  done();
-});
+exports.compileSass = compileSass;
+exports.watch = watch;

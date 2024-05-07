@@ -24,7 +24,8 @@
     </div>
     <div class="app-description"><p class="small">In this game, you’ll create trade networks and enact policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers.</p></div>
     <div class="buttons">
-      <a target="_blank" href="./game" class="button xsmall white filled">Play the Game</a>
+              <a class="button small white filled" href="https://fielddaylab.wisc.edu/play/zavala/ci/production/" target="_blank">Play Bloom</a>
+
     </div>
   </div>
 </section>
