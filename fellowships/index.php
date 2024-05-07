@@ -153,6 +153,19 @@
       <ul class="gridder">
 
         <!-- Begin Current Fellowships-->
+        <li class="gridder-list" data-griddercontent="#game21">
+          <div class="game-thumbnail">
+            <img alt="little yellow robot on a weather station" src="/assets/img/fellowships/waddle.jpg">
+          </div>
+          <div class="card-summary">
+            <div class="info">
+              <h3>PolarVR Fellowship</h3>
+              <h4 class="date">Summer 2024 - Spring 2025</h4>
+              <p>Explore how Virtual Reality can be used to bring polar research to life in your public or school library. </p>
+            </div>
+            <span class="card-triangle"></span>
+          </div>
+        </li>
         <li class="gridder-list" data-griddercontent="#game20">
           <div class="game-thumbnail">
             <img alt="Astrophysics Game Design Fellowship" src="/assets/img/fellowships/icecube.jpg">
@@ -440,6 +453,23 @@
 
 
 <!-- Fellowship Expanded content -->
+<div id="game21" class="gridder-content">
+  <div class="row game-inner game20-inner">
+    <h3>Astrophysics Game Design Fellowship</h3>
+    <span>Application Deadline: May 29, 2024</span>
+    <span>Stipend: $150</span>
+    <span><a target="_blank" href="https://docs.google.com/document/d/1kBZhFFH-LmWI7F4zk4stHorFDMsttUr4FSw2fflotYg/edit#heading=h.gjdgxs">More Info</a></span>
+    <div class="wrapper">
+      <div class="col-md-7 game-expanded">
+        <p>We’re looking for librarians in rural communities throughout Wisconsin to help us grow our PolarVR project, which focuses on designing Virtual Reality (VR) experiences for use in informal learning spaces. We are specifically seeking participants who are motivated to develop, promote, and implement VR-based library programming focused specifically on Latine audiences.</p>
+        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd7k-_t-EnOobxzszKgJ3LGYZ1iRx0h0rTU7a3auCSPgRXFYw/viewform" class="button small black" target="_blank">Apply</a>
+      </div>
+      <div class="col-md-5 cta">
+        <img class="expanded-thumb img-responsive" alt="game dashboard" src="/assets/img/fellowships/argo.jpg">
+      </div>
+    </div>
+  </div>
+</div>
 <div id="game20" class="gridder-content">
   <div class="row game-inner game20-inner">
     <h3>Astrophysics Game Design Fellowship</h3>
