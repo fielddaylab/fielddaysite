@@ -24,7 +24,7 @@
     </div>
     <div class="app-description"><p class="small">In Bloom, you’ll create trade networks and enact policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers.</p></div>
     <div class="buttons">
-              <a class="button small white filled" href="https://fielddaylab.wisc.edu/play/zavala/ci/production/" target="_blank">Play Bloom</a>
+              <a class="button small white filled" href="https://fielddaylab.wisc.edu/play/bloom/ci/production/" target="_blank">Play Bloom</a>
 
     </div>
   </div>
@@ -54,7 +54,7 @@
 
       <h2>About the Game</h2>
 
-      <p>In Bloom: The Saga of the <s>Poop</s> Fertilizer Economy, players serve as the director of SAGA: The Sustainable Agricultural Growth Administration. In this role, their goal is to foster support economic growth across five different counties while limiting reducing agricultural runoff and gross subsequent algal blooms. To win, players must develop local trade networks, employ a range of economic and environmental policies, and balance the needs of bickering townsfolkand perspectives of various stakeholders. A key focus of the game is learning about the relationship between agricultural runoff and water quality, while exploring how markets that allow farmers to sell excess manure can lead to cleaner water and farmers stay in business. 
+      <p>In Bloom: The Saga of the <s>Poop</s> Fertilizer Economy, players serve as the director of SAGA: The Sustainable Agricultural Growth Administration. In this role, their goal is to foster support economic growth across five different counties while reducing agricultural runoff and gross subsequent algal blooms. To win, players must develop local trade networks, employ a range of economic and environmental policies, and balance the needs of bickering townsfolk and perspectives of various stakeholders. A key focus of the game is learning about the relationship between agricultural runoff and water quality, while exploring how markets that allow farmers to sell excess manure can lead to cleaner water and farmers stay in business. 
 </p>
       <h2 id="gameplay">Gameplay</h2>
       <p>As the director of SAGA, players can use tax revenues to build roads (and other infrastructure) and enact economic and financial policies. Their objective is to create local trade networks and utilize new technologies to develop a fertilizer market, whereby excess manure can be bought and sold, rather than inefficiently spread on fields. </p>
