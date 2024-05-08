@@ -455,7 +455,7 @@
 <!-- Fellowship Expanded content -->
 <div id="game21" class="gridder-content">
   <div class="row game-inner game20-inner">
-    <h3>Astrophysics Game Design Fellowship</h3>
+    <h3>PolarVR Fellowship</h3>
     <span>Application Deadline: May 29, 2024</span>
     <span>Stipend: $150</span>
     <span><a target="_blank" href="https://docs.google.com/document/d/1kBZhFFH-LmWI7F4zk4stHorFDMsttUr4FSw2fflotYg/edit#heading=h.gjdgxs">More Info</a></span>
