@@ -79,7 +79,27 @@
         }
       }
     }
+
     .item:nth-child(1) {
+      background: url(../img/hero-images/bloom-bg.jpg) no-repeat;
+      background-size:cover;
+      background-position:center;
+      .item-info {
+        img {
+          width:35vw;
+          height:auto;
+          margin-bottom:15px;
+          @media #{$break-md} {
+            width:90%;
+          }
+        }
+      }
+      @media #{$break-sm} {
+        background-position:right;
+      }
+    }
+
+    .item:nth-child(2) {
       background: url(../img/hero-images/headlines.jpg) no-repeat;
       background-size:cover;
       background-position:center;
@@ -98,8 +118,7 @@
       }
     }
 
-
-    .item:nth-child(2) {
+    .item:nth-child(3) {
       background: url(../img/hero-images/wake-hero-wide.jpg) no-repeat;
       background-size:cover;
       background-position:center;
@@ -118,7 +137,7 @@
       }
     }
 
-    .item:nth-child(3) {
+    .item:nth-child(4) {
       background: url(../img/hero-images/emerald.jpg) no-repeat;
       background-size:cover;
       background-position:center;
@@ -131,25 +150,6 @@
             width:90%;
           }
         }
-      }
-    }
-
-    .item:nth-child(4) {
-      background: url(../img/hero-images/jowilder-bg.jpg) no-repeat;
-      background-size:cover;
-      background-position:center;
-      .item-info {
-        img {
-          width:35vw;
-          height:auto;
-          margin-bottom:15px;
-          @media #{$break-md} {
-            width:90%;
-          }
-        }
-      }
-      @media #{$break-sm} {
-        background-position:right;
       }
     }
 
