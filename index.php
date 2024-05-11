@@ -13,26 +13,36 @@
         <ul class="carousel-indicators slide-bullets">
             <li class="slide-bullet active" data-target="#carousel" data-slide-to="0">
               <span class="bullet"></span>
-              <span class="bullet-caption">Headlines and High Water</span>
+              <span class="bullet-caption">Bloom</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="1">
               <span class="bullet"></span>
-              <span class="bullet-caption">Wake: Tales From the Aqualab</span>
+              <span class="bullet-caption">Headlines and High Water</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="2">
               <span class="bullet"></span>
-              <span class="bullet-caption">Legend of the Lost Emerald</span>
+              <span class="bullet-caption">Wake: Tales From the Aqualab</span>
             </li>
             <li class="slide-bullet" data-target="#carousel" data-slide-to="3">
               <span class="bullet"></span>
-              <span class="bullet-caption">Jo Wilder</span>
+              <span class="bullet-caption">Legend of the Lost Emerald</span>
             </li>
         </ul>
       </div>
       <!-- Carousel items -->
       <div class="carousel-inner">
+         <div class="active item">
+          <div class="info-wrap">
+            <div class="item-info">
+              <img class="carousel-logo" alt="Bloom Logo" src="/assets/img/logos/bloom-logo-white.png">
+              <h2 class="uppercase"></h2>
+              <p class="corrected">In Bloom, you’ll create trade networks and enact policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers.</p>
+              <a class="button xsmall white" href="/play/bloom">Check It Out</a>
+            </div>
+          </div>
+        </div>
 
-        <div class="active item">
+        <div class="item">
           <div class="info-wrap">
             <div class="item-info">
               <img class="carousel-logo" alt="Lakeland Logo" src="/assets/img/logos/colored/headlines-logo.png">
@@ -62,16 +72,6 @@
           </div>
         </div>
 
-        <div class="item">
-          <div class="info-wrap">
-            <div class="item-info">
-              <img class="carousel-logo" alt="Jo wilder and the capitol case logo" src="/assets/img/logos/jowilder.png?cb=20190820">
-              <h2 class="uppercase"></h2>
-              <p class="corrected">This award-winning game turns kids into history detectives! Made in partnership with PBS Wisconsin and archivists at the Wisconsin Historical Society.</p>
-              <a class="button xsmall white" href="/play/jowilder">Check It Out</a>
-            </div>
-          </div>
-        </div>
 
         <!--<div class="item">
           <div class="info-wrap">

@@ -11590,7 +11590,7 @@ Yeah .hero-slider .carousel-inner .item .item-info img.small_hero_img {
   }
 }
 .hero-slider .carousel-inner .item:nth-child(1) {
-  background: url(../img/hero-images/headlines.jpg) no-repeat;
+  background: url(../img/hero-images/bloom-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -11608,11 +11608,11 @@ Yeah .hero-slider .carousel-inner .item .item-info img.small_hero_img {
 }
 @media only screen and (max-width: 768px) {
   .hero-slider .carousel-inner .item:nth-child(1) {
-    background-position: center;
+    background-position: right;
   }
 }
 .hero-slider .carousel-inner .item:nth-child(2) {
-  background: url(../img/hero-images/wake-hero-wide.jpg) no-repeat;
+  background: url(../img/hero-images/headlines.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -11634,7 +11634,7 @@ Yeah .hero-slider .carousel-inner .item .item-info img.small_hero_img {
   }
 }
 .hero-slider .carousel-inner .item:nth-child(3) {
-  background: url(../img/hero-images/emerald.jpg) no-repeat;
+  background: url(../img/hero-images/wake-hero-wide.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -11650,8 +11650,13 @@ Yeah .hero-slider .carousel-inner .item .item-info img.small_hero_img {
     width: 90%;
   }
 }
+@media only screen and (max-width: 768px) {
+  .hero-slider .carousel-inner .item:nth-child(3) {
+    background-position: center;
+  }
+}
 .hero-slider .carousel-inner .item:nth-child(4) {
-  background: url(../img/hero-images/jowilder-bg.jpg) no-repeat;
+  background: url(../img/hero-images/emerald.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -11665,11 +11670,6 @@ Yeah .hero-slider .carousel-inner .item .item-info img.small_hero_img {
 @media only screen and (max-width: 1024px) {
   .hero-slider .carousel-inner .item:nth-child(4) .item-info img {
     width: 90%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .hero-slider .carousel-inner .item:nth-child(4) {
-    background-position: right;
   }
 }
 .hero-slider .carousel-inner .item,
