@@ -11592,7 +11592,7 @@ Yeah .hero-slider .carousel-inner .item .item-info img.small_hero_img {
 .hero-slider .carousel-inner .item:nth-child(1) {
   background: url(../img/hero-images/bloom-bg.jpg) no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: right;
 }
 
 .hero-slider .carousel-inner .item:nth-child(1) .item-info img {
