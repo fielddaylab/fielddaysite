@@ -104,6 +104,7 @@ window.onload = function()
           <li>Minimum Session Length: 40-minute minimum for a single session</li>
           <li>Total Gameplay: 10 hours of total gameplay possible</li>
           <li>Compatibility: Chromebook, PC or Mac with Internet access</li>
+          <li>Languages: English and Spanish</li>
         </ul>
         <h2 id="practices">Scientific Practices</h2>
         <p><em>Wake: Tales from the Aqualab</em> targets the NGSS science practices of experimentation, modeling, and argumentation. The tools students will use to explore the ecosystems and complete challenges in the game, include:</p>
