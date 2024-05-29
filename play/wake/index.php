@@ -70,8 +70,8 @@ window.onload = function()
 
       <div class="buttons">
         <a class="button small white filled" href="https://fielddaylab.org/play/wake/ci/production/" target="_blank">Play Wake</a>
-        <a class="button small white" href="https://sites.google.com/wisc.edu/waketeacherguide/home">Support Site</a>
-        <a class="button small white" href="https://docs.google.com/document/d/1fqfRJWGyH9ihAWju6N4ELDG83Nl2GZqbxdle-sM8FDc">Teaching Guide</a>
+        <a class="button small white" href="https://sites.google.com/wisc.edu/waketeacherguide/home">Support</a>
+        <a class="button small white" href="https://docs.google.com/document/d/1fqfRJWGyH9ihAWju6N4ELDG83Nl2GZqbxdle-sM8FDc">Short Guide</a>
         <a class="button small white" href="https://opengamedata.fielddaylab.wisc.edu/gamedata.php?game=AQUALAB">Research Wake</a>
         <!--<a class="button small white" href="#app-about">Learn More</a>-->
       </div>
@@ -80,17 +80,13 @@ window.onload = function()
   </section>
 
   <section id="app-about" class="app-about">
-  <div id="app-video" class="app-video">
-    <div class="reveal embed-wrap">
-      <div class='embed-container'>
-        <iframe src="https://player.vimeo.com/video/951605886" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
+ 
+
     <div class="row container">
       <div class="col-sm-4">
         <div class="about-nav follow-scroll">
           <ul>
+            <li><a href="#trailer">Trailer</a></li>
             <li><a href="#glance">At a Glance</a></li>
             <li><a href="#practices">Scientific Practices</a></li>
             <li><a href="#standards">Academic Standards</a></li>
@@ -100,8 +96,14 @@ window.onload = function()
         </div>
       </div>
 
-      <div id="glance" class="col-sm-8 about-rightpanel">
-        <h2>At a Glance</h2>
+      <div class="col-sm-8 about-rightpanel">
+
+          <div id="app-video" class="app-video">
+            <div class='embed-container'>
+              <iframe src="https://player.vimeo.com/video/951605886" width="100%" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        <h2 id="glance">At a Glance</h2>
         <ul>
           <li>Grade levels: 6-9 Life Sciences</li>
           <li>Academic Practices: Experimentation, Modeling, Argumentation</li>
