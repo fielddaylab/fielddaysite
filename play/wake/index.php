@@ -71,7 +71,7 @@ window.onload = function()
       <div class="buttons">
         <a class="button small white filled" href="https://fielddaylab.org/play/wake/ci/production/" target="_blank">Play Wake</a>
         <a class="button small white" href="https://sites.google.com/wisc.edu/waketeacherguide/home">Support Site</a>
-        <a class="button small white" href="https://docs.google.com/document/d/1CUAAmyAP0YpvhqAlC01GmQvWkoTzx_tMSMQZTEOU50c/edit?usp=sharing">Teaching Guide</a>
+        <a class="button small white" href="https://docs.google.com/document/d/1fqfRJWGyH9ihAWju6N4ELDG83Nl2GZqbxdle-sM8FDc">Teaching Guide</a>
         <a class="button small white" href="https://opengamedata.fielddaylab.wisc.edu/gamedata.php?game=AQUALAB">Research Wake</a>
         <!--<a class="button small white" href="#app-about">Learn More</a>-->
       </div>
@@ -80,7 +80,13 @@ window.onload = function()
   </section>
 
   <section id="app-about" class="app-about">
-
+  <div id="app-video" class="app-video">
+    <div class="reveal embed-wrap">
+      <div class='embed-container'>
+        <iframe src="https://player.vimeo.com/video/951605886" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
     <div class="row container">
       <div class="col-sm-4">
         <div class="about-nav follow-scroll">
