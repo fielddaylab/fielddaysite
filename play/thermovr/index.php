@@ -55,8 +55,9 @@ window.onload = function()
       </div>
 
       <div class="buttons">
-        <a class="button small white filled"  href="https://www.meta.com/experiences/6091561924275485/">Play ThermoVR</a>
-        <a class="button small white" href="#app-about">Learn More</a>
+        <a class="button small white filled"  href="https://www.meta.com/experiences/6091561924275485/">Play on Quest</a>
+        <a class="button small white filled"  href="https://fielddaylab.wisc.edu/play/thermovr/ci/desktop/">Play Online</a>
+        <a class="button small white" href="https://forms.gle/9KZCfNm67EChs4yn9">How's it going?</a>
         <a class="button small white" href="https://medium.com/fielddaylab/from-abstract-to-hands-on-using-vr-to-teach-thermodynamics-b9ba78c73404?source=friends_link&sk=6abe3330567c7e9a8f239fbb79cdbcb1" target="_blank">Read the Story</a>
       </div>
     </div>
