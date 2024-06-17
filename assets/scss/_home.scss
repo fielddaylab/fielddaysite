@@ -1,0 +1,362 @@
+/* Home page styles */
+
+.home-page {
+    background-color: #001E2A;
+    h2, .h2 {
+        font-size: 36px;
+        font-family: brandon-grotesque, futura-pt, sans-serif;
+        text-transform: uppercase;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    .lead {
+        color: #fff;
+        .h2 {
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), #202F3C -0.1em 0.05em;
+        }
+        margin-bottom: 0;
+        .section-img {
+            margin-top: -6em;
+            text-align: center;
+            img {
+                width: 35vw;
+                max-width: 345px;
+                min-width: 195px;
+            }
+        }
+    }
+    .d-flex {
+        display: flex;
+    }
+    .flex-col {
+        flex-direction: column;
+    }
+    .flex-row {
+        flex-direction: row;
+    }
+    .ship {
+        background-image: url(../img/home/ship-artwork.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-blend-mode: screen;
+        background-color: #001E2A;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        padding-bottom: 10rem;
+        img {
+            width: 69vw;
+            padding-top: 2.3vw;
+        }
+    }
+    #welcome {
+        padding-top: 15rem;
+        color: #fff;
+        text-align: center;
+    }
+    .bottom-frame {
+        background-image: url(../img/home/frame.png);
+        background-repeat: repeat-x;
+        width: 100%;
+        height: 72px;
+    }
+
+    @keyframes helm-xs {
+        0% {
+            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
+            background-position: bottom, 50% 0;
+            background-size: 25px, max(903px, 103%);
+            background-repeat: repeat-x, no-repeat;
+        }
+        25% {
+            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
+            background-position: bottom, 49.5% -2px;
+            background-size: 25px, max(903px, 103%);
+            background-repeat: repeat-x, no-repeat;
+        }
+        50% {
+            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
+            background-position: bottom, 49% 2px;
+            background-size: 25px, max(903px, 103%);
+            background-repeat: repeat-x, no-repeat;
+        }
+        75% {
+            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
+            background-position: bottom, 49.5% -3px;
+            background-size: 25px, max(903px, 103%);
+            background-repeat: repeat-x, no-repeat;
+        }
+        100% {
+            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
+            background-position: bottom, 50% 0;
+            background-size: 25px, max(903px, 103%);
+            background-repeat: repeat-x, no-repeat;
+        }
+    }
+    @keyframes helm {
+        0% {
+            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
+            background-position: bottom, 50% 0;
+            background-size: 25px, max(903px, 103%);
+            background-repeat: repeat-x, no-repeat;
+        }
+        25% {
+            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
+            background-position: bottom, 49% -2px;
+            background-size: 25px, max(903px, 103%);
+            background-repeat: repeat-x, no-repeat;
+        }
+        50% {
+            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
+            background-position: bottom, 47% 2px;
+            background-size: 25px, max(903px, 103%);
+            background-repeat: repeat-x, no-repeat;
+        }
+        75% {
+            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
+            background-position: bottom, 48% -3px;
+            background-size: 25px, max(903px, 103%);
+            background-repeat: repeat-x, no-repeat;
+        }
+        100% {
+            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
+            background-position: bottom, 50% 0;
+            background-size: 25px, max(903px, 103%);
+            background-repeat: repeat-x, no-repeat;
+        }
+    }
+    @keyframes helm-xxl {
+        0% {
+            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/Helm_Background.png);
+            background-position: left, right, 50% 0;
+            background-size: 9px, 9px, cover;
+            background-repeat: repeat-y, repeat-y, no-repeat;
+        }
+        25% {
+            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/Helm_Background.png);
+            background-position: left, right, 49% -2px;
+            background-size: 9px, 9px, cover;
+            background-repeat: repeat-y, repeat-y, no-repeat;
+        }
+        50% {
+            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/Helm_Background.png);
+            background-position: left, right, 47% 2px;
+            background-size: 9px, 9px, cover;
+            background-repeat: repeat-y, repeat-y, no-repeat;
+        }
+        75% {
+            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/Helm_Background.png);
+            background-position: left, right, 48% -3px;
+            background-size: 9px, 9px, cover;
+            background-repeat: repeat-y, repeat-y, no-repeat;
+        }
+        100% {
+            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/Helm_Background.png);
+            background-position: left, right, 50% 0;
+            background-size: 9px, 9px, cover;
+            background-repeat: repeat-y, repeat-y, no-repeat;
+        }
+    }
+    .helm-water {
+        background-image: url(../img/home/Helm_Water.png);
+        background-repeat: no-repeat;
+        background-size: max(900px, 100vw);
+        width: 100%;
+        height: 57vw;
+        min-height: 400px;
+        max-height: 643px;
+        position: relative;
+    }
+    .helm {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 56.5vw;     
+        min-height: 400px;
+        max-height: 643px;
+        animation: helm-xs 5s linear infinite;
+        text-align: center;
+        padding-top: 1em;
+        margin-left: -1px;
+    }
+    #modelingroom .hero-text {
+        margin-top: auto;
+    }
+    .modeling-container {
+        position: relative;
+        width: 100%;
+    }
+    .modeling-monitor {
+        position: absolute;
+        top: 31.5%;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        video {
+            width: max(25vw, 166px);
+            margin-left: calc(max(25vw, 166px) * -.2);
+        }
+    }
+    .modeling-room {
+        position: relative;
+        width: 100%;
+        height: 60vw;
+        min-height: 400px;
+        max-height: 643px;
+        background-image: url(../img/home/border-bottom.png), url(../img/home/ModelingRoom_Background.png);
+        background-size: 25px, cover;
+        background-repeat: repeat-x, no-repeat;
+        background-position: bottom,top;
+        text-align: center;
+        padding-top: 5em;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+
+        @keyframes reel {
+            100% { transform: rotate(360deg); }
+        }
+        .modeling-reel {
+            position: absolute;
+            left: calc(50% + 143px);
+            top: 49%;
+            width: max(34px, 5.1%);
+            animation: reel 4s linear infinite;
+        }
+    }
+
+    @media (min-width: 576px) {
+        .lead .section-img {
+            margin-top: -8em;
+        }
+        .helm {
+            padding-top: 5em;
+            animation: helm 5s linear infinite;
+        }
+        h2, .h2 {
+            font-size: 60px;
+        }
+        h4 {
+            font-size: 40px;
+        }
+    }
+    @media (min-width: 664px) {
+        .modeling-room .modeling-reel {
+            left: calc(50% + 21.5vw);
+        }
+    }
+    @media (min-width: 768px) {
+        .flex-lg-reverse {
+            flex-direction: row-reverse;
+        }
+    }
+    @media (min-width: 992px) {
+        .flex-lg-reverse {
+            flex-direction: row-reverse;
+        }
+    }
+    @media (min-width: 1070px) {
+        .modeling-room .modeling-reel {
+            width: max(34px, 5.7cqh);
+            left: auto;
+            margin-right: -55cqh;
+        }
+    }
+    @media (min-width: 1162px) {
+        .modeling-room .modeling-reel {
+            width: max(34px, 4.9%);
+            top: 27.1vw;
+            left: 69vw;
+            margin-right: auto;
+        }
+        .modeling-monitor {
+            top: 17.5vw;   
+            video {
+                width: max(24vw, 166px);
+                margin-left: calc(max(24vw, 166px) * -.2);
+            }
+        }
+    }
+    @media (min-width: 1600px) {
+        .flex-xxl-row {
+            flex-direction: row;
+        }
+        .flex-xxl-col {
+            flex-direction: column;
+        }
+        .flex-xxl-reverse {
+            flex-direction: row-reverse;
+        }
+        .d-xxl-none {
+            display: none;
+        }
+        section {
+            padding-left: 5%;
+            padding-right: 5%;
+            .container {
+                width: 60%;
+            }
+        }
+        .lead .section-img {
+            margin-top: 0;
+            img {
+                width: 35%;
+            }
+        }
+        .helm-water {
+            height: auto;
+            min-height: none;
+            max-height: none;
+            margin-top: -3px;
+            margin-bottom: -3px;
+            background-size: auto 90%;
+        }
+        .helm {
+            height: 100%;
+            min-height: none;
+            max-height: none;
+            animation: helm-xxl 5s linear infinite;
+            clip-path: xywh(0 3px 100% calc(100% - 6px));
+            margin-left: 0;
+        }
+        .modeling-monitor {
+            top: 205px;
+            video {
+                width: (max(24%, 267px));
+                margin-left: calc(max(24%, 267px) * -.2);
+            }
+        }
+        .modeling-room {
+            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/ModelingRoom_Background.png);
+            background-size: 9px, 9px, cover;
+            background-repeat: repeat-y, repeat-y, no-repeat;
+            background-position: left, right, top;
+            .modeling-reel {
+                left: calc(50% + 228px);
+                top: 315px;
+                width: max(5%, 53px);
+            }
+        }
+    }
+    @media (min-width: 2100px) {
+        #section {
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+        .helm-water {
+            background-size: 100%;
+            background-position-y: 30%;
+        }
+        .modeling-monitor {
+            top: 9.4cqw;
+        }
+        .modeling-room .modeling-reel {
+            top: 14.7cqw;
+            left: 70%;
+            width: 4.75%;
+        }
+    }
+
+}
