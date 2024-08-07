@@ -12,12 +12,12 @@
             <img src="assets/img/home/ship-vector.png">
         </div>
     </section>
-    <div class="bottom-frame"></div>
+    <div class="bottom-frame z1"></div>
     <section id="whygames" class="lead d-flex flex-col flex-xxl-row">
         <div class="helm-water">
-            <div class="helm">
-                <h3 class="h2 d-xxl-none">Why Games?</h3>
-            </div>
+            <div class="helm"></div>
+            <h3 class="h2 d-xxl-none">Why Games?</h3>
+            <div class="helm-frame"></div>
         </div>
         <div class="container d-flex flex-col flex-lg-reverse flex-xxl-col">
             <div class="section-img">

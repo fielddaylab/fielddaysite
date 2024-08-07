@@ -35,6 +35,10 @@
     .flex-row {
         flex-direction: row;
     }
+    .z1 {
+        z-index: 1;
+        position: relative;
+    }
     .ship {
         background-image: url(../img/home/ship-artwork.png);
         background-repeat: no-repeat;
@@ -63,102 +67,6 @@
         height: 72px;
     }
 
-    @keyframes helm-xs {
-        0% {
-            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
-            background-position: bottom, 50% 0;
-            background-size: 25px, max(903px, 103%);
-            background-repeat: repeat-x, no-repeat;
-        }
-        25% {
-            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
-            background-position: bottom, 49.5% -2px;
-            background-size: 25px, max(903px, 103%);
-            background-repeat: repeat-x, no-repeat;
-        }
-        50% {
-            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
-            background-position: bottom, 49% 2px;
-            background-size: 25px, max(903px, 103%);
-            background-repeat: repeat-x, no-repeat;
-        }
-        75% {
-            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
-            background-position: bottom, 49.5% -3px;
-            background-size: 25px, max(903px, 103%);
-            background-repeat: repeat-x, no-repeat;
-        }
-        100% {
-            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
-            background-position: bottom, 50% 0;
-            background-size: 25px, max(903px, 103%);
-            background-repeat: repeat-x, no-repeat;
-        }
-    }
-    @keyframes helm {
-        0% {
-            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
-            background-position: bottom, 50% 0;
-            background-size: 25px, max(903px, 103%);
-            background-repeat: repeat-x, no-repeat;
-        }
-        25% {
-            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
-            background-position: bottom, 49% -2px;
-            background-size: 25px, max(903px, 103%);
-            background-repeat: repeat-x, no-repeat;
-        }
-        50% {
-            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
-            background-position: bottom, 47% 2px;
-            background-size: 25px, max(903px, 103%);
-            background-repeat: repeat-x, no-repeat;
-        }
-        75% {
-            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
-            background-position: bottom, 48% -3px;
-            background-size: 25px, max(903px, 103%);
-            background-repeat: repeat-x, no-repeat;
-        }
-        100% {
-            background-image: url(../img/home/border-bottom.png), url(../img/home/Helm_Background.png);
-            background-position: bottom, 50% 0;
-            background-size: 25px, max(903px, 103%);
-            background-repeat: repeat-x, no-repeat;
-        }
-    }
-    @keyframes helm-xxl {
-        0% {
-            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/Helm_Background.png);
-            background-position: left, right, 50% 0;
-            background-size: 9px, 9px, cover;
-            background-repeat: repeat-y, repeat-y, no-repeat;
-        }
-        25% {
-            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/Helm_Background.png);
-            background-position: left, right, 49% -2px;
-            background-size: 9px, 9px, cover;
-            background-repeat: repeat-y, repeat-y, no-repeat;
-        }
-        50% {
-            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/Helm_Background.png);
-            background-position: left, right, 47% 2px;
-            background-size: 9px, 9px, cover;
-            background-repeat: repeat-y, repeat-y, no-repeat;
-        }
-        75% {
-            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/Helm_Background.png);
-            background-position: left, right, 48% -3px;
-            background-size: 9px, 9px, cover;
-            background-repeat: repeat-y, repeat-y, no-repeat;
-        }
-        100% {
-            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/Helm_Background.png);
-            background-position: left, right, 50% 0;
-            background-size: 9px, 9px, cover;
-            background-repeat: repeat-y, repeat-y, no-repeat;
-        }
-    }
     .helm-water {
         background-image: url(../img/home/Helm_Water.png);
         background-repeat: no-repeat;
@@ -168,18 +76,54 @@
         min-height: 400px;
         max-height: 643px;
         position: relative;
+        text-align: center;
+        overflow: hidden;
+        .h2 {
+            position: relative;
+            margin-top: 4rem;
+        }
+    }
+    @keyframes helm {
+        0% {
+            transform: translate(0, 0);
+        }
+        25% {
+            transform: translate(-1px, -2px);
+        }
+        50% {
+            transform: translate(-3px, 2px);
+        }
+        75% {
+            transform: translate(-2px, -3px);
+        }
+        100% {
+            transform: translate(0, 0);
+        }
     }
     .helm {
         position: absolute;
-        top: 0;
-        width: 100%;
-        height: 56.5vw;     
+        top: -2px;
+        width: max(903px, calc(100% + 5px));
+        height: 57vw;     
         min-height: 400px;
         max-height: 643px;
-        animation: helm-xs 5s linear infinite;
+        background-image: url(../img/home/Helm_Background.png);
+        background-size: cover;
+        animation: helm 5s linear infinite;
         text-align: center;
-        padding-top: 1em;
-        margin-left: -1px;
+        margin-left: min(-451px, -50%);
+        left: 50%;
+    }
+    .helm-frame {
+        background-image: url(../img/home/border-bottom.png);
+        background-position: bottom;
+        background-repeat: repeat-x;
+        background-size: 25px;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        bottom: 0;
+        border-bottom: 4px solid #001E2A;
     }
     #modelingroom .hero-text {
         margin-top: auto;
@@ -231,15 +175,14 @@
         .lead .section-img {
             margin-top: -8em;
         }
-        .helm {
-            padding-top: 5em;
-            animation: helm 5s linear infinite;
-        }
         h2, .h2 {
             font-size: 60px;
         }
         h4 {
             font-size: 40px;
+        }
+        .helm-water .h2 {
+            margin-top: 12rem;
         }
     }
     @media (min-width: 664px) {
@@ -307,19 +250,25 @@
         }
         .helm-water {
             height: auto;
-            min-height: none;
-            max-height: none;
+            min-height: unset;
+            max-height: unset;
             margin-top: -3px;
-            margin-bottom: -3px;
             background-size: auto 90%;
+            border-left: 1px solid #001E2A;
         }
         .helm {
-            height: 100%;
-            min-height: none;
-            max-height: none;
-            animation: helm-xxl 5s linear infinite;
+            height: calc(100% + 7px);
+            min-height: unset;
+            max-height: unset;
+            background-position: top;
             clip-path: xywh(0 3px 100% calc(100% - 6px));
-            margin-left: 0;
+        }
+        .helm-frame {
+            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png);
+            background-position: left, right;
+            background-repeat: repeat-y, repeat-y;
+            background-size: 9px, 9px;
+            border-bottom: none;
         }
         .modeling-monitor {
             top: 205px;
