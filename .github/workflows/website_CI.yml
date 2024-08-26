@@ -3,8 +3,8 @@ run-name: ${{ format('{0} - {1}', github.workflow, github.event_name == 'push' &
 
 on:
   workflow_dispatch: # Allow manual trigger of this workflow from the Actions tab
-  pull_request: # Trigger automatically when we do a push to the site.
-    # branches: [release/home-redesign] # uncomment line to restrict to this branch only
+  push: # Trigger automatically when we do a push to the site.
+    branches: [release/home-redesign]
 
 env:
   DEPLOY_HOST: "fielddaylab.wcer.wisc.edu"
