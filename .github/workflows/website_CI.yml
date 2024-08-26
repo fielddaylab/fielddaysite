@@ -1,0 +1,108 @@
+name: OGD Website - CI Script
+run-name: ${{ format('{0} - {1}', github.workflow, github.event_name == 'push' && github.event.head_commit.message || 'Manual Run') }}
+
+on:
+  workflow_dispatch: # Allow manual trigger of this workflow from the Actions tab
+    inputs:
+      use_custom_api:
+        type: boolean
+        description: "Use Custom API: If true, website will use the given alternate API endpoint."
+        required: true
+        default: false
+      CUSTOM_API_ENDPOINT:
+        description: "Custom API Endpoint: Set an alternate path to a website API wsgi app."
+        required: false
+        default: "https://ogd-services.fielddaylab.wisc.edu/wsgi-bin/opengamedata-website-api/production/app.wsgi/"
+  push: # Trigger automatically when we do a push to the site.
+    paths:
+    - '.github/workflows/website_CI.yml'
+    - 'site/**'
+    - 'gulpfile.js'
+    - 'package.json'
+
+env:
+  DEPLOY_HOST: ${{ vars.OGD_STAGING_HOST }}
+  DEPLOY_DIR:          ${{ vars.WEB_PATH }}/${{ github.event.repository.name }}/${{ github.ref_name }}
+  DEPLOY_URL:  ${{ vars.OGD_STAGING_HOST }}/${{ github.event.repository.name }}/${{ github.ref_name }}
+  API_HOST:    ${{ vars.OGD_SERVICES_HOST }}
+  API_PATH:    ${{ vars.API_BASE_URL }}/files/app.wsgi/
+  
+jobs:
+  ci_deploy:
+    name: CI Deploy of Website
+    runs-on: ubuntu-22.04
+    concurrency:
+      group: ${{ github.repository }}-${{ github.ref }}-${{ github.workflow }}
+      cancel-in-progress: true
+    
+    steps:
+
+  # 1. Local checkout & config
+    - name: Announce Run
+      run: echo "Deploying ${{ github.repository }} to ${{ env.DEPLOY_URL }} via ${{ github.actor }}"
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        lfs: true  
+        submodules: true
+    - name: Set up Config File (with Default API Endpoint)
+      if: "${{ github.event.inputs.use_custom_api == 'false' || github.event_name == 'push' }}"
+      uses: ./.github/actions/web_config
+      with:
+        api_base: https://${{env.API_HOST}}/${{env.API_PATH}}
+    - name: Set up Config File (with Custom API Endpoint)
+      if: "${{ github.event.inputs.use_custom_api == 'true' }}"
+      uses: ./.github/actions/web_config
+      with:
+        api_base: ${{ github.event.inputs.CUSTOM_API_ENDPOINT }}
+    
+  # 2. Build 
+    - name: Install Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16
+    - name: Install libraries
+      run: npm install
+    - name: Build
+      run: gulp build   
+
+  # 3. Remote config & deploy
+    - name: Install OpenConnect
+      run: sudo apt-get -q update && sudo apt-get -q install openconnect
+    - name: Connect to VPN
+      run: echo ${{ secrets.VPN_PASS }} | sudo openconnect --protocol=gp -u ${{ secrets.VPN_USER}} --passwd-on-stdin soe.vpn.wisc.edu &
+
+    - name: Setup Access Key
+      run: |
+        mkdir -p ~/.ssh
+        echo '${{secrets.DEPLOY_KEY}}' >> ./key.txt
+        chmod 600 ./key.txt
+    - name: Ensure directory exists
+      run: ssh -o StrictHostKeyChecking=no -T -i ./key.txt ${{ secrets.DEPLOY_USER }}@${{ env.DEPLOY_HOST }} "mkdir -p ${{ env.DEPLOY_DIR }}"
+    
+    - name: Upload to web server via rsync
+      uses: burnett01/rsync-deployments@5.2
+      with:
+        # switches:
+        # -v : verbose output
+        # -r : recurse into subdirectories
+        # -c : use checksum to determine what files to update/skip
+        # -t : preserve modification times
+        # --delete : delete extraneous files from destination directories
+        # --exclude-from : skip any files in rsync-exclude
+        # --chmod : For each directory (D) and file (F), give user (u) and group (g) rwx permissions.
+        #           Give others (o) only read permissions, plus execute for directories.
+        switches: -vrct --delete --exclude-from 'rsync-exclude' --chmod=Du=rwx,Dg=rwx,Do=rx,Fu=rwx,Fg=rwx,Fo=r
+        path: /site/*
+        remote_path: ${{ env.DEPLOY_DIR }}
+        remote_host: ${{ env.DEPLOY_HOST }}
+        remote_user: ${{ secrets.DEPLOY_USER }}
+        remote_key: ${{ secrets.DEPLOY_KEY }}
+
+  # 4. Cleanup & complete
+    - name: Announce deploy
+      run: echo "Deployed to ${{ env.DEPLOY_URL }}"
+    - name: Upload logs as artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        path: ./*.log
