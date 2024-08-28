@@ -25,10 +25,9 @@ jobs:
     - name: Announce Run
       run: echo "Deploying ${{ github.repository }} to ${{ env.DEPLOY_URL }} via ${{ github.actor }}"
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
       with:
-        lfs: true  
-        submodules: true
+        lfs: true 
     
   # 2. Build 
     - name: Install Node
