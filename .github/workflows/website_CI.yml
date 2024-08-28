@@ -7,8 +7,8 @@ on:
     branches: [release/home-redesign]
 
 env:
-  DEPLOY_HOST: "fielddaylab.wcer.wisc.edu"
-  DEPLOY_DIR:  "/var/www/path/to/project"
+  DEPLOY_HOST: "wwwtest.fielddaylab.wisc.edu"
+  DEPLOY_DIR:  "/httpdocs"
   DEPLOY_URL:  "https://wwwtest.fielddaylab.wisc.edu/"
   
 jobs:
@@ -38,7 +38,7 @@ jobs:
     - name: Install libraries
       run: npm install
     - name: Build
-      run: gulp build   
+      run: gulp compileSass   
 
   # 3. Remote config & deploy
     - name: Install OpenConnect
