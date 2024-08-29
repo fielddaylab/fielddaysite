@@ -48,7 +48,7 @@ jobs:
     - name: Setup Access Key
       run: |
         mkdir -p ~/.ssh
-        echo '${{secrets.DEPLOY_KEY}}' >> ./key.txt
+        echo '${{secrets.FIELDDAY_WISC_EDU_DEPLOY_KEY}}' >> ./key.txt
         chmod 600 ./key.txt
     - name: Ensure directory exists
       run: ssh -o StrictHostKeyChecking=no -T -i ./key.txt ${{ secrets.FIELDDAY_VPN_USERNAME }}@${{ env.DEPLOY_HOST }} "mkdir -p ${{ env.DEPLOY_DIR }}"
