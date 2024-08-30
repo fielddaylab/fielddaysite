@@ -1,9 +1,9 @@
-<?php include 'includes/header.php';?>
+<?php include 'includes/header.php'; ?>
 <title>Field Day Learning Games</title>
 <meta name="description" content="Field Day Lab">
 </head>
 <!--include main navigation-->
-<?php include 'includes/main-nav.php';?>
+<?php include 'includes/main-nav.php'; ?>
 <!-- start page template -->
 <div class="home-page">
     <section id="welcome">
@@ -25,7 +25,26 @@
             </div>
             <div class="hero-text">
                 <h4>Games let you try on a new identity.</h4>
-                <p>Games are an important tool for teachers because they allow players to take on the role of scientists, journalists, explorers, and more.</p>
+                <p>Games are an important tool for teachers because they allow players to take on the role of
+                    scientists, journalists, explorers, and more.</p>
+            </div>
+        </div>
+    </section>
+    <section id="wherethekidsare" class="lead d-flex flex-col flex-xxl-row">
+        <div class="cabin-water">
+            <div class="cabin"></div>
+            <div class="helm-frame"></div>
+        </div>
+        <div class="container d-flex flex-col flex-lg-reverse flex-xxl-col">
+            <div class="section-img">
+                <img src="assets/img/home/kids.png" alt="a group of young explorers posing heroically">
+            </div>
+            <div class="hero-text">
+                <h4>Games are where the kids are.</h4>
+                <p>Kids spend a lot of time playing games these days. We love making something that
+                    can help them interact with the complicated, amazing world that they live in.
+                    Our games get played by millions of kids each year.
+                </p>
             </div>
         </div>
     </section>
@@ -43,17 +62,19 @@
         </div>
         <div class="container hero-text">
             <h4>Games as assessment</h4>
-            <p>Our research team leverages data science to create meaningful insights out of mountains of player data. We help researchers and educators understand how kids learn.</p>
+            <p>Our research team leverages data science to create meaningful insights out of mountains of player data.
+                We help researchers and educators understand how kids learn.</p>
         </div>
     </section>
     <div class="bottom-frame"></div>
 </div>
 
 <!--include footer-->
-<?php include 'includes/footer.php';?>
+<?php include 'includes/footer.php'; ?>
 
 <!--include modals-->
-<?php include 'includes/modals.php';?>
+<?php include 'includes/modals.php'; ?>
 
 </body>
+
 </html>
