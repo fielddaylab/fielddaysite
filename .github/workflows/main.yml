@@ -37,7 +37,8 @@ jobs:
   
     # Deploy Steps
     
-    - name: Upload to web server via rsync
+    - name: If production, deploy to production web server
+      if: ${{ github.ref == 'refs/heads/production' }}
       uses: burnett01/rsync-deployments@5.2
       with:
         switches: -vrc --exclude-from 'rsync-exclude'
@@ -46,4 +47,15 @@ jobs:
         remote_host: ${{ secrets.FIELDDAY_WISC_EDU_DEPLOY_HOST }}
         remote_user: ${{ secrets.FIELDDAY_WISC_EDU_DEPLOY_USER }}
         remote_key: ${{ secrets.FIELDDAY_WISC_EDU_DEPLOY_KEY }}
+
+    - name: If staging, deploy to staging web server
+      if: ${{ github.ref == 'refs/heads/staging' }}
+      uses: burnett01/rsync-deployments@5.2
+      with:
+        switches: -vrc --exclude-from 'rsync-exclude'
+        path: /*
+        remote_path: ${{ secrets.DEPLOY_DIR }}
+        remote_host: ${{ secrets.WWWTEST_FIELDDAYLAB_WISC_EDU_DEPLOY_HOST }}
+        remote_user: ${{ secrets.WWWTEST_FIELDDAYLAB_WISC_EDU_DEPLOY_USER }}
+        remote_key: ${{ secrets.WWWTEST_FIELDDAYLAB_WISC_EDU_DEPLOY_KEY }}
     
