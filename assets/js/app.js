@@ -201,3 +201,129 @@ $('.curtain-toggle').click(function(){
   $('.curtain').removeClass('curtain-hidden');
   $('.curtain-toggle').addClass('curtain-toggle-hidden')
 });
+
+/* Home page - Carousel */
+
+jQuery(function(){
+
+  // If we're at a mobile resolution, we'll hide the optional 4th slide
+  showOrHideOptionalSlides();
+
+  // Find the first carousel video
+  jQuery('#carousel-hero .item.active .carousel-video:first').each(function(){
+      
+      const firstVideoElement = this;
+
+      // Begin playing first carousel video
+      firstVideoElement.play();
+
+      // Once the first video file has loaded
+      firstVideoElement.addEventListener('loadeddata', () => {
+          if(firstVideoElement.readyState >= 3){
+
+              // Find the other carousel videos
+              jQuery('#carousel-hero .item:not(".active") .carousel-video').each(function(){
+                  // Start loading other videos
+                  this.load();
+              });
+
+              initCarousel();
+
+          }
+      });
+
+
+  });
+
+  // When the window is resized
+  jQuery(window).on('resize', function(){
+      showOrHideOptionalSlides();
+  });
+
+});
+
+let initCarousel = function(){
+
+  jQuery('#carousel-hero')
+                  .carousel('cycle') // Beging cycling the carousel
+                  .on('slide.bs.carousel', function (e){ // When the slide transition starts
+
+                      // Start playing the next video before the next slide is active.
+                      // If we wait until the "slid" event there's a visual blip
+                      // from the static background image transitioning to the video, the first time the video plays.
+
+                      e.relatedTarget.querySelector('.carousel-video').play();
+
+                      // Pause the current video
+                      let currentVideo = e.delegateTarget.querySelector('.item.active .carousel-video');
+
+                      if(currentVideo)
+                      {
+                          currentVideo.pause()        
+                      }
+
+                  })
+}
+
+let previousWindowWidth = null;
+
+let showOrHideOptionalSlides = function (){
+
+  // Get the current window width
+  let windowWidth = jQuery(window).width();
+
+  // Breakpoint where we transition from 3 to 4 slides
+  let mobileWidthBreakpoint = 1132;
+
+  // If we're currently at mobile resolution
+  if (windowWidth < mobileWidthBreakpoint)
+  {
+      // If we've transitioned from desktop to mobile, or if this is the initial page load
+      if(previousWindowWidth > mobileWidthBreakpoint || previousWindowWidth === null)
+      {
+          // Ensure we're not on a slide that we're hiding
+          jQuery('#carousel-hero').carousel(0);
+          jQuery('#carousel-hero').carousel('pause');
+
+          // Loop through the slides that we don't show on mobile
+          jQuery('#carousel-hero .item-nomobile').each(function(){
+
+              // Hide slide
+              this.classList.add('hide');
+              this.classList.remove('item');
+              this.classList.remove('active');
+          });
+
+          // If this isn't the initial page load
+          if(previousWindowWidth !== null)
+          {
+              // Reinitialize the carousel
+              initCarousel();
+          }
+          
+
+      }
+
+  }
+  else // We're at desktop resolution
+  { 
+      // If we're switching from mobile to desktop
+      if(previousWindowWidth < mobileWidthBreakpoint)
+      {                
+          jQuery('#carousel-hero').carousel(0);
+          jQuery('#carousel-hero').carousel('pause');
+
+          // Restore slides that were hidden at mobile resolutions
+          jQuery('#carousel-hero .item-nomobile').each(function(){
+              this.classList.add('item');
+              this.classList.remove('hide');
+          });
+
+          // Reinitialize the carousel
+          initCarousel();
+
+      }
+  }
+
+  previousWindowWidth = windowWidth;
+}

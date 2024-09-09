@@ -17271,6 +17271,53 @@ tbody tr {
   margin-top: 63px; /* offset for the top nav-bar */
   padding: 0;
 }
+.home-page #carousel-hero .info {
+  display: none;
+  position: absolute;
+  z-index: 102;
+  width: 410px;
+  padding: 34px 34px 34px 15px;
+  border-radius: 0 10px 10px 0;
+  background-color: #001E2A;
+  color: #F9F7F4;
+  top: 5vh;
+}
+@media (min-width: 1132px) and (min-height: 800px) {
+  .home-page #carousel-hero .info {
+    display: block;
+  }
+}
+@media (min-width: 2015px) {
+  .home-page #carousel-hero .info {
+    display: block;
+  }
+}
+@media (min-height: 1000px) {
+  .home-page #carousel-hero .info {
+    top: 15vh;
+  }
+}
+@media (min-height: 1200px) {
+  .home-page #carousel-hero .info {
+    top: 20vh;
+  }
+}
+@media (min-width: 2400px) {
+  .home-page #carousel-hero .info {
+    padding-left: 34px;
+    width: 428px;
+  }
+}
+.home-page #carousel-hero .info p {
+  font-family: Courier;
+  font-size: 18px;
+  line-height: 29px;
+  margin-top: 20px;
+}
+.home-page #carousel-hero .info a {
+  font-weight: 700;
+  margin-top: 20px;
+}
 .home-page .carousel-inner > .item {
   height: 75vh;
   width: 100vw;
@@ -17304,7 +17351,7 @@ tbody tr {
   display: inline-block;
   list-style: none;
   position: absolute;
-  bottom: -25px;
+  bottom: -40px;
   padding-left: 10px;
   width: 100%;
   text-align: center;
@@ -17314,19 +17361,39 @@ tbody tr {
   /* Show all four slides. */
   /*  If you change this breakpoint width, you must update the "mobileWidthBreakpoint" JavaScript variable, so the carousel resets */
 }
-@media (min-height: 500px) {
+@media (min-height: 400px) {
   .home-page ol.carousel-indicators {
-    bottom: -95px;
+    bottom: -55px;
   }
 }
-@media (min-height: 760px) {
+@media (min-width: 664px) and (min-height: 350px) {
+  .home-page ol.carousel-indicators {
+    bottom: -55px;
+  }
+}
+@media (min-width: 880px) and (min-height: 350px) {
+  .home-page ol.carousel-indicators {
+    bottom: -10px;
+  }
+}
+@media (min-height: 600px) {
+  .home-page ol.carousel-indicators {
+    bottom: -100px;
+  }
+}
+@media (min-height: 600px) and (min-width: 1204px) {
+  .home-page ol.carousel-indicators {
+    bottom: -85px;
+  }
+}
+@media (min-height: 1000px) and (min-width: 1204px) {
+  .home-page ol.carousel-indicators {
+    bottom: -100px;
+  }
+}
+@media (min-height: 1100px) and (min-width: 1204px) {
   .home-page ol.carousel-indicators {
     bottom: -135px;
-  }
-}
-@media (min-height: 790px) {
-  .home-page ol.carousel-indicators {
-    bottom: -90px;
   }
 }
 .home-page ol.carousel-indicators li {
@@ -17334,13 +17401,18 @@ tbody tr {
   margin-right: 10px;
   margin-top: 20px;
   width: 75px;
-  height: 232px;
+  height: 165px;
   background-color: #001E2A;
   border: 6px solid #001E2A;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   cursor: pointer;
   vertical-align: top;
+}
+@media (min-width: 664px) {
+  .home-page ol.carousel-indicators li {
+    height: 232px;
+  }
 }
 .home-page ol.carousel-indicators li img {
   width: 63px;

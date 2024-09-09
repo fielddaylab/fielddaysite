@@ -313,6 +313,55 @@
         padding: 0;
     }
 
+    #carousel-hero .info{
+
+        display: none;
+        position: absolute;
+        z-index: 102;
+        width: 410px;
+        padding: 34px 34px 34px 15px;
+        border-radius: 0 10px 10px 0;
+        background-color: #001E2A;
+        color: #F9F7F4;
+        top: 5vh;
+
+        @media (min-width: 1132px) and (min-height: 800px){
+            display: block;
+        }
+
+        @media (min-width: 2015px)
+        {
+            display: block;
+        }
+
+        @media (min-height: 1000px){
+            top: 15vh;
+        }
+
+        @media (min-height: 1200px){
+            top: 20vh;
+        }
+
+
+        @media (min-width: 2400px){
+            padding-left: 34px;
+            width: 428px;
+        }
+
+        p{
+            font-family: Courier;
+            font-size: 18px;
+            line-height: 29px;
+            margin-top: 20px;
+        }
+
+        a{
+            font-weight: 700;
+            margin-top: 20px;
+        }
+
+    }
+
     .carousel-inner > .item {
 
         height: 75vh;
@@ -353,34 +402,53 @@
         display: inline-block;
         list-style: none;
         position: absolute;
-        bottom: -25px;
+        bottom: -40px;
         padding-left: 10px;
         width: 100%;
         text-align: center;
         z-index: 10;
 
-        @media(min-height: 500px)
+        @media(min-height: 400px)
         {
-            bottom: -95px;
+            bottom: -55px;
         }
 
-        @media(min-height: 760px)
+        @media(min-width: 664px) and (min-height: 350px)
+        {
+            bottom: -55px;
+        }
+
+        @media(min-width: 880px) and (min-height: 350px)
+        {
+            bottom: -10px;
+        }
+
+        @media(min-height: 600px)
+        {
+            bottom: -100px;
+        }
+       
+        @media(min-height: 600px) and (min-width: 1204px)
+        {
+            bottom: -85px;
+        }
+       
+        @media(min-height: 1000px) and (min-width: 1204px)
+        {
+            bottom: -100px;
+        }
+
+        @media(min-height: 1100px) and (min-width: 1204px)
         {
             bottom: -135px;
         }
-
-        @media(min-height: 790px)
-        {
-            bottom: -90px;
-        }
-        
 
         li{
             display: inline-block;
             margin-right: 10px;
             margin-top: 20px;
             width: 75px;
-            height: 232px;
+            height: 165px;
             background-color: #001E2A;
             border: 6px solid #001E2A;
             border-top-left-radius: 10px;
@@ -388,6 +456,11 @@
             cursor: pointer;
             vertical-align: top;
           
+            @media(min-width: 664px)
+            {
+                height: 232px;
+            }
+
             img{
                 width: 63px;
                 object-fit: cover;
