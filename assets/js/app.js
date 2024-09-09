@@ -40,7 +40,7 @@ $(document).ready(function(){
 
 // Current page-aware links
 $(document).ready(function(){
-  $('a').each(
+  $('.mobile-nav-container a').each(
       function(i) {
           var classes = this.className.split(/\s+/);
           for (var i=0,len=classes.length; i<len; i++){
@@ -54,7 +54,7 @@ $(document).ready(function(){
 $('.mobile-nav-toggle-wrap').click(function(){
   $('body').toggleClass('nav-open');
 });
-
+/* Drawers removed from new nav. 
 $('.drawerleft-toggle').click(function(){
   if ($("body").hasClass("drawertop-open") || $("body").hasClass("drawerright-open")){
     setTimeout(function(){ $('body').toggleClass('drawerleft-open'); }, 300);
@@ -102,7 +102,7 @@ $('.drawerclose').click(function(){
   $('body').removeClass('drawerright-open');
   $('body').removeClass('drawertop-open');
 });
-
+*/
 // remove tap delay on mobile
 $(function() {
     FastClick.attach(document.body);

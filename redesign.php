@@ -54,6 +54,12 @@
 
 <!--include modals-->
 <?php include 'includes/modals.php';?>
-
+<script>
+  // toggle navbar spotlight when make games section scrolls into view
+  // TODO: change '#modelingroom' to correct ID once Make Games section is added
+  $(window).scroll(function() {
+      $(this).scrollTop() >= $('#modelingroom').offset().top-$('.small-nav').height() ? $('.spotlight').removeClass('hide') : $('.spotlight').addClass('hide');
+  });
+</script>
 </body>
 </html>
