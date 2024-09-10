@@ -17111,6 +17111,11 @@ tbody tr {
   text-align: center;
   overflow: hidden;
 }
+@media (min-width: 1600px) {
+  .home-page #wherethekidsare .container {
+    padding-bottom: 0;
+  }
+}
 .home-page #modelingroom .hero-text {
   margin-top: auto;
 }

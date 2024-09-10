@@ -152,6 +152,11 @@
         text-align: center;
         overflow: hidden;
     }
+    #wherethekidsare .container {
+        @media (min-width: 1600px) {
+            padding-bottom:0;
+        }
+    }
     #modelingroom .hero-text {
         margin-top: auto;
     }
