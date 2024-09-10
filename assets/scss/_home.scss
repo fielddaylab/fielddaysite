@@ -56,7 +56,7 @@
         }
     }
     #welcome {
-        padding-top: 15rem;
+        padding-top: 30rem;
         color: #fff;
         text-align: center;
     }
@@ -290,7 +290,7 @@
         }
     }
     @media (min-width: 2100px) {
-        #section {
+        section {
             padding-left: 15%;
             padding-right: 15%;
         }
@@ -308,4 +308,353 @@
         }
     }
 
+    section#carousel {
+        margin-top: 63px; /* offset for the top nav-bar */
+        padding: 0;
+    }
+
+    #carousel-hero .info{
+
+        display: none;
+        position: absolute;
+        z-index: 102;
+        width: 410px;
+        padding: 34px 34px 34px 15px;
+        border-radius: 0 10px 10px 0;
+        background-color: #001E2A;
+        color: #F9F7F4;
+        top: 5vh;
+
+        @media (min-width: 1132px) and (min-height: 800px){
+            display: block;
+        }
+
+        @media (min-width: 2015px)
+        {
+            display: block;
+        }
+
+        @media (min-height: 1000px){
+            top: 15vh;
+        }
+
+        @media (min-height: 1200px){
+            top: 20vh;
+        }
+
+
+        @media (min-width: 2400px){
+            padding-left: 34px;
+            width: 428px;
+        }
+
+        p{
+            font-family: Courier;
+            font-size: 18px;
+            line-height: 29px;
+            margin-top: 20px;
+        }
+
+        a{
+            font-weight: 700;
+            margin-top: 20px;
+        }
+
+    }
+
+    .carousel-inner > .item {
+
+        height: 75vh;
+        width: 100vw;
+
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+
+        .scanlines{
+            background: url('../img/hero-images/crt-pattern.png');
+            background-size: 40px;
+            background-repeat: repeat;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: block;
+            z-index: 101;
+            opacity: .5;
+        }
+
+        .carousel-video{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        @media(min-height: 800px)
+        {
+            height: 80vh;
+        }
+
+    }
+
+    ol.carousel-indicators{
+
+        display: inline-block;
+        list-style: none;
+        position: absolute;
+        bottom: -40px;
+        padding-left: 10px;
+        width: 100%;
+        text-align: center;
+        z-index: 10;
+
+        @media(min-height: 400px)
+        {
+            bottom: -55px;
+        }
+
+        @media(min-width: 664px) and (min-height: 350px)
+        {
+            bottom: -55px;
+        }
+
+        @media(min-width: 880px) and (min-height: 350px)
+        {
+            bottom: -10px;
+        }
+
+        @media(min-height: 600px)
+        {
+            bottom: -100px;
+        }
+       
+        @media(min-height: 600px) and (min-width: 1204px)
+        {
+            bottom: -85px;
+        }
+       
+        @media(min-height: 1000px) and (min-width: 1204px)
+        {
+            bottom: -100px;
+        }
+
+        @media(min-height: 1100px) and (min-width: 1204px)
+        {
+            bottom: -135px;
+        }
+
+        li{
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 20px;
+            width: 23%;
+            height: 165px;
+            background-color: #001E2A;
+            border: 6px solid #001E2A;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            cursor: pointer;
+            vertical-align: top;
+          
+            @media(min-width: 664px)
+            {
+                height: 232px;
+            }
+
+            img{
+                width: 100%;
+                object-fit: cover;
+                object-position: top;
+                text-align: center;
+                margin: 0 auto;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+
+            .thumb-caption{
+                display: block;
+                background-color: #001E2A;
+                color: #FAD9D9;
+                font-family: brandon-grotesque, futura-pt, sans-serif;
+                line-height: 16px;
+                font-weight: 450;
+                font-size: 14px;
+                text-align: left;
+                padding: 6px 6px 0 6px;
+
+                a{
+                    color: #FAD9D9;
+                }
+            }
+
+        }
+
+        
+        li.indicator-nomobile{
+        
+            display: none;
+        }
+    
+
+        li:last-of-type{
+            
+            width: 55px;
+            margin-right: 0;
+            
+            .chevron{
+                background-image: url('../img/home/carousel/chevron_sm.svg');
+                width: 23px;
+                height: 35px;
+                background-repeat: no-repeat;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+
+            .thumb-caption{
+                text-align: left;
+                margin: 0 auto;
+                width: 49px;
+            }
+
+        }
+
+        li.active{
+            -webkit-transform:scale(1.1);
+            -moz-transform:scale(1.1);
+            -o-transform:scale(1.1);
+            transform:scale(1.1);
+        }
+
+        @media (min-width: 370px){
+            
+            li:last-of-type{
+
+                width: 60px;
+
+                .thumb-caption{
+                    width: 50px;
+                }
+            }
+        }
+
+        /* Still three slides */
+        @media (min-width: 664px) {
+
+            li{
+                width: 150px;
+
+                img{
+                    width: 138px;
+                    height: 104px;
+                }
+
+                .thumb-caption{
+                    line-height: 18px;
+                }
+            }
+
+            li:last-of-type{
+                
+                width: 86px;
+                
+                .thumb-caption{
+                    width: 78px;
+                }
+            }
+        }
+
+         /* Still three slides, but larger */
+         @media (min-width: 880px){
+
+            li{
+                width: 220px;
+                margin-right: 15px;
+
+                img{
+                    width: 208px;
+                    height: 156px;
+                }
+
+                .thumb-caption{
+                    line-height: 25px;
+                    font-size: 20px;
+                    padding: 6px 6px 0 6px;
+                }
+            }
+
+            li:last-of-type{
+                
+                width: 129px;
+                
+                .thumb-caption{
+                    width: 100px;
+                }
+            }
+
+        }
+
+        
+        /* Show all four slides. */
+        /*  If you change this breakpoint width, you must update the "mobileWidthBreakpoint" JavaScript variable, so the carousel resets */
+        @media (min-width: 1132px){
+
+            li{
+                width: 220px;
+
+                img{
+                    width: 208px;
+                    height: 156px;
+                }
+
+                .thumb-caption{
+                    line-height: 25px;
+                    font-size: 20px;
+                    padding: 6px 6px 0 6px;
+                }
+            }
+
+            li.indicator-nomobile{
+                display: inline-block;
+            }
+
+            li:last-of-type{
+                
+                width: 129px;
+                
+                .chevron{
+                    background-image: url('../img/home/carousel/chevron_lg.svg');
+                    width: 36px;
+                    height: 57px;
+                    margin-top: 25px;
+                    margin-bottom: 25px;
+                }
+    
+            }
+
+        }
+
+        @media (min-width: 1205px){
+            
+            li{
+
+                width: 239px;
+
+                img{
+                    width: 227px;
+                    height: 164px;
+                }
+    
+                .thumb-caption{
+                    line-height: 28px;
+                    font-size: 22px;
+                    padding: 8px 8px 0 8px;
+                }
+            }
+            
+        }
+
+    }
 }
