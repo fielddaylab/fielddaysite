@@ -53,6 +53,17 @@ $(document).ready(function(){
 // mobile navigation
 $('.mobile-nav-toggle-wrap').click(function(){
   $('body').toggleClass('nav-open');
+  $('body').hasClass('nav-open') ? $('.mobile-nav-container a').attr('tabindex', 0) : $('.mobile-nav-container a').attr('tabindex', -1);
+  if ($('body').hasClass('nav-open')) {
+    fixNavScroll();
+  }
+});
+
+// Nav scroll fix for mobile landscape
+$(window).resize(function(){
+  if ($('body').hasClass('nav-open')) {
+    fixNavScroll();
+  }
 });
 /* Drawers removed from new nav. 
 $('.drawerleft-toggle').click(function(){
@@ -201,3 +212,15 @@ $('.curtain-toggle').click(function(){
   $('.curtain').removeClass('curtain-hidden');
   $('.curtain-toggle').addClass('curtain-toggle-hidden')
 });
+
+// Function to add scrolling within mobile nav if window height is less than the nav container 
+// (Container height needs to be hard-coded because it starts at 0 prior to the transition effect.)
+function fixNavScroll() {
+  if ($(window).height() <= 558) {
+    $('.mobile-nav-container').removeClass('drop-shadow'); // fix blurry text
+    $('.mobile-nav-container .content').addClass('content-scroll');
+  } else {
+    $('.mobile-nav-container').addClass('drop-shadow');
+    $('.mobile-nav-container .content').removeClass('content-scroll');
+  }
+}

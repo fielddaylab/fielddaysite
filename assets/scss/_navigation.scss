@@ -310,6 +310,9 @@
         &.button {
           text-wrap: nowrap;
         }
+        &.button:focus {
+          opacity: 0.9;
+        }
       }
     }
 
@@ -558,8 +561,15 @@
   position: fixed;
   right: -2px;
   top: -2px;
-  cursor: pointer;
   z-index: 1001;
+
+  button {
+    text-align: left;
+    width: 70%;
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
 
   @media #{$break-sm} {
     display: block;
@@ -581,17 +591,19 @@
   right: -4px;
   top: 59px;
   width: 380px;
-  height: 0vh;
+  height: 0;
   transition: all .3s ease-in-out;
   /*-webkit-transition-duration: 0.66s;
   transition-duration: 0.66s;
   -webkit-transition-timing-function: swing;
   transition-timing-function: swing;*/
   display: flex;
-  align-items: center;
   border-bottom-left-radius: 5em;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   
+  .drop-shadow {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
   .content {
     opacity: 1;
     transition: opacity .3s ease-in-out;
@@ -603,7 +615,7 @@
     .nav-content {
       width: 65vw;
       height: auto;
-      margin: 0 auto;
+      margin: 2.5em 0 0;
 
       @media #{$break-md-lg} {
         width: 90vw;
@@ -660,6 +672,9 @@
             &:hover {
               font-size: 16px;
             }
+          }
+          a.button:focus {
+            opacity: 0.9;
           }
         }
 
@@ -786,6 +801,12 @@
   height: 500px;
   opacity: 1;
   position: fixed;
+
+  .content-scroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 90vh;
+  }
 
   @media #{$break-sm} {
     top: 49px;

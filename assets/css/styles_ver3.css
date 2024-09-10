@@ -10241,6 +10241,9 @@ p a {
 .small-nav .right li a.button {
   text-wrap: nowrap;
 }
+.small-nav .right li a.button:focus {
+  opacity: 0.9;
+}
 .small-nav.nav-fixed {
   opacity: 1;
   z-index: 2000;
@@ -10469,8 +10472,14 @@ p a {
   position: fixed;
   right: -2px;
   top: -2px;
-  cursor: pointer;
   z-index: 1001;
+}
+.mobile-nav-toggle-wrap button {
+  text-align: left;
+  width: 70%;
+  height: 70%;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 @media only screen and (max-width: 768px) {
   .mobile-nav-toggle-wrap {
@@ -10493,15 +10502,16 @@ p a {
   right: -4px;
   top: 59px;
   width: 380px;
-  height: 0vh;
+  height: 0;
   transition: all 0.3s ease-in-out;
   /*-webkit-transition-duration: 0.66s;
   transition-duration: 0.66s;
   -webkit-transition-timing-function: swing;
   transition-timing-function: swing;*/
   display: flex;
-  align-items: center;
   border-bottom-left-radius: 5em;
+}
+.mobile-nav-container .drop-shadow {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .mobile-nav-container .content {
@@ -10515,7 +10525,7 @@ p a {
 .mobile-nav-container .content .nav-content {
   width: 65vw;
   height: auto;
-  margin: 0 auto;
+  margin: 2.5em 0 0;
 }
 @media only screen and (max-width: 1324px) {
   .mobile-nav-container .content .nav-content {
@@ -10569,6 +10579,9 @@ p a {
 }
 .mobile-nav-container .content .nav-content .nav-links li a:not(.button):hover {
   font-size: 16px;
+}
+.mobile-nav-container .content .nav-content .nav-links li a.button:focus {
+  opacity: 0.9;
 }
 .mobile-nav-container .content .nav-content .nav-links .link-col {
   text-align: left;
@@ -10675,6 +10688,11 @@ p a {
   height: 500px;
   opacity: 1;
   position: fixed;
+}
+.nav-open .mobile-nav-container .content-scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 90vh;
 }
 @media only screen and (max-width: 768px) {
   .nav-open .mobile-nav-container {
