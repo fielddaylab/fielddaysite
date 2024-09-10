@@ -87,7 +87,7 @@
     <section id="welcome">
         <h2>Welcome To Field Day</h2>
         <div class="ship">
-            <img src="assets/img/home/ship-vector.png">
+            <img src="assets/img/home/site-boat.png">
         </div>
     </section>
     <div class="bottom-frame z1"></div>
