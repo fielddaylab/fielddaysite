@@ -447,7 +447,7 @@
             display: inline-block;
             margin-right: 10px;
             margin-top: 20px;
-            width: 75px;
+            width: 23%;
             height: 165px;
             background-color: #001E2A;
             border: 6px solid #001E2A;
@@ -462,7 +462,7 @@
             }
 
             img{
-                width: 63px;
+                width: 100%;
                 object-fit: cover;
                 object-position: top;
                 text-align: center;
@@ -476,9 +476,9 @@
                 background-color: #001E2A;
                 color: #FAD9D9;
                 font-family: brandon-grotesque, futura-pt, sans-serif;
-                line-height: 12px;
+                line-height: 16px;
                 font-weight: 450;
-                font-size: 11px;
+                font-size: 14px;
                 text-align: left;
                 padding: 6px 6px 0 6px;
 
@@ -530,15 +530,6 @@
 
         @media (min-width: 370px){
             
-            li{
-                width: 80px;
-
-                img{
-                    width: 68px;
-                }
-
-            }
-
             li:last-of-type{
 
                 width: 60px;
@@ -562,7 +553,6 @@
 
                 .thumb-caption{
                     line-height: 18px;
-                    font-size: 14px;
                 }
             }
 
