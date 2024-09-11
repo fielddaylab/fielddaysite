@@ -10481,7 +10481,7 @@ p a {
   margin-top: 10px;
   margin-left: 10px;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   .mobile-nav-toggle-wrap button {
     margin-top: 7px;
     margin-left: 8px;
@@ -17084,11 +17084,6 @@ tbody tr {
   position: relative;
 }
 .home-page .ship {
-  background-image: url(../img/home/ship-artwork.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-blend-mode: screen;
-  background-color: #001E2A;
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
@@ -17100,15 +17095,27 @@ tbody tr {
   padding-top: 2.3vw;
 }
 .home-page #welcome {
-  padding-top: 30rem;
   color: #fff;
   text-align: center;
 }
+.home-page #welcome .container {
+  padding-bottom: 0;
+}
+.home-page #welcome h2 {
+  color: #E0B729;
+  margin-top: 20rem;
+  line-height: 60px;
+}
+.home-page #welcome p {
+  max-width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .home-page .bottom-frame {
-  background-image: url(../img/home/frame.png);
+  background-image: url(../img/home/bulwarks.png);
   background-repeat: repeat-x;
   width: 100%;
-  height: 72px;
+  height: 42px;
 }
 .home-page .helm-water {
   background-image: url(../img/home/Helm_Water.png);
