@@ -40,7 +40,7 @@ $(document).ready(function(){
 
 // Current page-aware links
 $(document).ready(function(){
-  $('a').each(
+  $('.mobile-nav-container a').each(
       function(i) {
           var classes = this.className.split(/\s+/);
           for (var i=0,len=classes.length; i<len; i++){
@@ -51,10 +51,16 @@ $(document).ready(function(){
       });
    });
 // mobile navigation
-$('.mobile-nav-toggle-wrap').click(function(){
+$('.mobile-nav-toggle-wrap').on('click', function(){
   $('body').toggleClass('nav-open');
+  $('body').hasClass('nav-open') ? $('.mobile-nav-container a').attr('tabindex', 0) : $('.mobile-nav-container a').attr('tabindex', -1);
+  if ($('body').hasClass('nav-open')) {
+    fixNavScroll();
+  }
 });
 
+
+/* Drawers removed from new nav. 
 $('.drawerleft-toggle').click(function(){
   if ($("body").hasClass("drawertop-open") || $("body").hasClass("drawerright-open")){
     setTimeout(function(){ $('body').toggleClass('drawerleft-open'); }, 300);
@@ -102,7 +108,7 @@ $('.drawerclose').click(function(){
   $('body').removeClass('drawerright-open');
   $('body').removeClass('drawertop-open');
 });
-
+*/
 // remove tap delay on mobile
 $(function() {
     FastClick.attach(document.body);
@@ -202,6 +208,17 @@ $('.curtain-toggle').click(function(){
   $('.curtain-toggle').addClass('curtain-toggle-hidden')
 });
 
+// Function to add scrolling within mobile nav if window height is less than the nav container 
+// (Container height needs to be hard-coded because it starts at 0 prior to the transition effect.)
+function fixNavScroll() {
+  if ($(window).height() <= 558) {
+    $('.mobile-nav-container').removeClass('drop-shadow'); // fix blurry text
+    $('.mobile-nav-container .content').addClass('content-scroll');
+  } else {
+    $('.mobile-nav-container').addClass('drop-shadow');
+    $('.mobile-nav-container .content').removeClass('content-scroll');
+  }
+}
 /* Home page - Carousel */
 
 jQuery(function(){
@@ -238,6 +255,10 @@ jQuery(function(){
   // When the window is resized
   jQuery(window).on('resize', function(){
       showOrHideOptionalSlides();
+      // Nav scroll fix for mobile landscape
+      if ($('body').hasClass('nav-open')) {
+        fixNavScroll();
+      }
   });
 
 });

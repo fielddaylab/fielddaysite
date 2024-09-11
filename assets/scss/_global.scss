@@ -13,10 +13,6 @@ body {
   letter-spacing: 2px;
   background-color: #fff;
   overflow-x: auto;
-
-  &.nav-open {
-    overflow: hidden;
-  }
 }
 
 .wrapper {
@@ -62,7 +58,7 @@ hr {
 }
 
 .hide-for-nav-narrow {
-  @media #{$break-xs} {
+  @media #{$break-mobile} {
     display: none !important;
   }
 }
