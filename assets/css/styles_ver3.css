@@ -10481,6 +10481,12 @@ p a {
   margin-top: 10px;
   margin-left: 10px;
 }
+@media only screen and (max-width: 1024px) {
+  .mobile-nav-toggle-wrap button {
+    margin-top: 7px;
+    margin-left: 8px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .mobile-nav-toggle-wrap {
     display: block;

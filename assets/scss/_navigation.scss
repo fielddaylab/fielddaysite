@@ -569,6 +569,10 @@
     height: 70%;
     margin-top: 10px;
     margin-left: 10px;
+    @media #{$break-sm} {
+      margin-top: 7px;
+      margin-left: 8px;
+    }
   }
 
   @media #{$break-sm} {
