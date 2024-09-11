@@ -14,7 +14,7 @@
 <meta content="True" name="HandheldFriendly">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <link rel="stylesheet" href="https://use.typekit.net/sdy5fqe.css">
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Crete+Round:400,400i|Roboto:300,400" rel="stylesheet"><script>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Crete+Round:400,400i|Roboto:300,400|Fraunces:900i" rel="stylesheet"><script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
