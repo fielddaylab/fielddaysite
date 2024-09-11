@@ -85,7 +85,11 @@
         </div>
     </section>
     <section id="welcome">
-        <h2>Welcome To Field Day</h2>
+        <div class="container">
+            <h2>We are Field Day</h2>
+            <p>We are a team of artists, engineers, designers, researchers, teachers, subject experts, writers, parents, kids, and game lovers.</p>
+            <p>Welcome to our lab. Here's how we steer the ship.</p>
+        </div>
         <div class="ship">
             <img src="assets/img/home/site-boat.png">
         </div>
