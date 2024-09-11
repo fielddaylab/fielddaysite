@@ -112,6 +112,19 @@
         </div>
     </section>
     <div class="bottom-frame"></div>
+    <section id="complextopics" class="lead d-flex flex-col flex-xxl-reverse">
+        <div class="workshop-container">
+            <div class="workshop">
+            </div>
+        </div>
+        <div class="container hero-text">
+            <h4>Games explore complex topics.</h4>
+            <p>It's hard to communicate super complex topics in a short time frame. Games turn complicated topics into fun,
+                hands-on experiences that actually reach people. Our games get millions of plays.
+            </p>
+        </div>
+    </section>
+    <div class="bottom-frame"></div>
     <section id="modelingroom" class="lead d-flex flex-col flex-xxl-reverse">
         <div class="modeling-container">
             <div class="modeling-monitor">
