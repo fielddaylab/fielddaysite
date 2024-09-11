@@ -51,7 +51,7 @@ $(document).ready(function(){
       });
    });
 // mobile navigation
-$('.mobile-nav-toggle-wrap').click(function(){
+$('.mobile-nav-toggle-wrap').on('click', function(){
   $('body').toggleClass('nav-open');
   $('body').hasClass('nav-open') ? $('.mobile-nav-container a').attr('tabindex', 0) : $('.mobile-nav-container a').attr('tabindex', -1);
   if ($('body').hasClass('nav-open')) {
@@ -59,12 +59,7 @@ $('.mobile-nav-toggle-wrap').click(function(){
   }
 });
 
-// Nav scroll fix for mobile landscape
-$(window).resize(function(){
-  if ($('body').hasClass('nav-open')) {
-    fixNavScroll();
-  }
-});
+
 /* Drawers removed from new nav. 
 $('.drawerleft-toggle').click(function(){
   if ($("body").hasClass("drawertop-open") || $("body").hasClass("drawerright-open")){
@@ -260,6 +255,10 @@ jQuery(function(){
   // When the window is resized
   jQuery(window).on('resize', function(){
       showOrHideOptionalSlides();
+      // Nav scroll fix for mobile landscape
+      if ($('body').hasClass('nav-open')) {
+        fixNavScroll();
+      }
   });
 
 });
