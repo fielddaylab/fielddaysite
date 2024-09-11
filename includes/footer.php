@@ -1,6 +1,6 @@
 <script src="/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 <script src="/assets/js/vendor/jquery-3.0.0.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src='/assets/js/vendor/fastclick.js'></script>
 <script src='/assets/js/vendor/gridder.js'></script>
 <script src='/assets/js/vendor/buddysystem.jquery.js'></script>
