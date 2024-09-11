@@ -125,6 +125,108 @@
         </div>
     </section>
     <div class="bottom-frame"></div>
+    <section id="howdowemake" class="d-flex flex-col deepsea">
+        <div class="container d-flex flex-col">
+            <h2>
+                HOW DO WE MAKE GAMES?
+            </h2>
+            <h3>
+                Partnerships are the foundation of our design practice.
+            </h3>
+            <p>
+                Field Day Lab was started as a partnership between the Wisconsin Department of Public Instruction and the
+                University of Wisconsin-Madison.
+            </p>
+            <p>
+                Each of our games is made in collaboration with a team of researchers, subject matter experts, scientists,
+                teachers, and kids.
+            </p>
+
+            <div class="bios">
+                <!-- Gridder navigation -->
+                <ul class="apps gridder">
+                    <li class="gridder-list" data-griddercontent="#person1">
+                        <img src="/assets/img/home/placeholder-headshot.png" class="">
+                    </li>
+                    <li class="gridder-list" data-griddercontent="#person2">
+                        <img src="/assets/img/home/placeholder-headshot.png" class="">
+                    </li>
+                    <li class="gridder-list" data-griddercontent="#person4">
+                        <img src="/assets/img/home/placeholder-headshot.png" class="">
+                    </li>
+                    <li class="gridder-list" data-griddercontent="#person4">
+                        <img src="/assets/img/home/placeholder-headshot.png" class="">
+                    </li>
+                </ul>
+                <!-- Gridder content -->
+
+            
+                <div id="person1" class="app-expanded gridder-content">
+                    <div>
+                        <span class="close-app">
+                        <div>
+                            <h2>
+                                Sue Robinson:
+                            </h2>
+                            <h3>
+                                Headlines and High Water
+                            </h3>
+                            <p>
+                                "Working with Field Day Lab on our Headlines and High Water journalism video game has been a highlight of
+                                my career to date. The team is competent, responsive, creative, and brilliant and, furthermore, they are
+                                a dream to collaborate with. I am already seeking new projects we might do together!"
+                            </p>
+                        </div>
+                        <div>
+                            <img src="/assets/img/home/placeholder-headshot.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+     
+
+            <div class="divider"></div>
+
+            <h2>
+                GAMES DESIGNED FOR THE CLASSROOM
+            </h2>
+            <p>
+                Sure, sure, it feels great when kids ask if they can keep playing our games when class is over (the answer
+                is yes!) but our games are designed and tested to work in class.
+            </p>
+            <p>
+                Our games can provide a meaningful experience in a single class period. We create them with input from
+                education standards and our teacher fellowship program.
+            </p>
+            <p>
+                You're never too old to learn through play! We make games for elementary through college and beyond.
+            </p>
+            
+        
+            <div class="divider"></div>
+
+             <h3>
+                And did we mention they're free?
+             </h3>
+            <p>
+                We don't ever make pay-to-play games. No ads. No grinding. No subscriptions, no logins, no hidden fees,
+                and no microtransactions.
+            </p>
+            <p>
+                Our games are always completely free for the public and available online. Funding comes from public
+                projects, partnerships, and grants.
+            </p>
+            <button class="button yellow filled">
+                PLAY OUR GAMES
+            </button>
+
+            <!-- BUBBLES SECTIONS -->
+
+            
+        </div>
+    </section>
+    <div class="ocean-floor"></div>
+    
 </div>
 
 <!--include footer-->
@@ -139,5 +241,31 @@
       $(this).scrollTop() >= $('#modelingroom').offset().top-$('.small-nav').height() ? $('.spotlight').removeClass('hide') : $('.spotlight').addClass('hide');
   });
 </script>-->
+<script>
+    $(function() {
+
+// Call Gridder
+$('.gridder').gridderExpander({
+    scroll: true,
+    scrollOffset: 100,
+    scrollTo: "panel",                  // panel or listitem
+    animationSpeed: 900,
+    animationEasing: "easeInOutExpo",
+    showNav: true,                      // Show Navigation
+    nextText: "Next",                   // Next button text
+    prevText: "Previous",               // Previous button text
+    closeText: "Close",                 // Close button text
+    onStart: function(){
+        //Gridder Inititialized
+    },
+    onContent: function(){
+        //Gridder Content Loaded
+    },
+    onClosed: function(){
+        //Gridder Closed
+    }
+});
+});
+</script>
 </body>
 </html>

@@ -170,6 +170,79 @@
             animation: reel 4s linear infinite;
         }
     }
+    .deepsea {
+        color: #001E2A;
+        min-height: 50vw;
+        //background: linear-gradient(to bottom, #d5fffa, #086684);
+        background: linear-gradient(to bottom, #d5fffa, #066887);
+        text-align: center;
+        align-items: center;
+
+        h2 {
+            line-height: 1em;
+            font-weight: bold;
+            letter-spacing: 3.5px;
+        }
+
+        h3 {
+            font-family: "Fraunces", serif;
+            text-align: center;
+            margin: auto;
+            padding-bottom: 1em;
+            letter-spacing: 3.5px;
+        }
+
+        p {
+            color: black;
+            font-weight: bolder;
+            text-align: left;
+            padding-bottom: 1em;
+        }
+
+        button {
+            color: #04201f;
+            font-weight: bold;
+            margin: auto;
+            border-radius: 5px;
+            border: 3px solid #04201f;
+        }
+
+        .divider {
+            background-image: url(../img/home/wave-divider.png);
+            background-repeat:no-repeat;
+            background-size: contain;
+            min-height:10px;
+            width: 300px;
+            margin: 0 auto;
+            padding: 1em 0;
+        }
+
+        @media (min-width: 768px) {
+            p {
+                font-size: 21px;
+            }
+
+            h3 {
+                font-size: 36px;
+            }
+        }
+    }
+
+    .bios {
+        text-align: left;
+
+        .bio-content {
+            display: flex;
+            flex-direction: row;
+        }
+
+    }
+
+    .ocean-floor {
+        min-height: 60vh;
+        background: url(../img/home/ocean-floor.png) repeat-x center;
+        background-size: cover;
+    }
 
     @media (min-width: 576px) {
         .lead .section-img {
