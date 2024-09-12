@@ -17111,11 +17111,6 @@ tbody tr {
   text-align: center;
   overflow: hidden;
 }
-@media (min-width: 1600px) {
-  .home-page #wherethekidsare .container {
-    padding-bottom: 0;
-  }
-}
 .home-page #modelingroom .hero-text {
   margin-top: auto;
 }
@@ -17239,7 +17234,7 @@ tbody tr {
   .home-page .lead .section-img img {
     width: 35%;
   }
-  .home-page .helm-water {
+  .home-page .helm-water, .home-page .cabin-water {
     height: auto;
     min-height: unset;
     max-height: unset;
@@ -17247,7 +17242,7 @@ tbody tr {
     background-size: auto 90%;
     border-left: 1px solid #001E2A;
   }
-  .home-page .helm {
+  .home-page .helm, .home-page .cabin {
     height: calc(100% + 7px);
     min-height: unset;
     max-height: unset;
@@ -17285,7 +17280,7 @@ tbody tr {
     padding-left: 15%;
     padding-right: 15%;
   }
-  .home-page .helm-water {
+  .home-page .helm-water, .home-page .cabin-water {
     background-size: 100%;
     background-position-y: 30%;
   }

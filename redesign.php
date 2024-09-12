@@ -30,6 +30,7 @@
             </div>
         </div>
     </section>
+    <div class="bottom-frame z1"></div>
     <section id="wherethekidsare" class="lead d-flex flex-col flex-xxl-row">
         <div class="cabin-water">
             <div class="cabin"></div>

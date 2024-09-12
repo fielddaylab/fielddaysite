@@ -151,12 +151,7 @@
         position: relative;
         text-align: center;
         overflow: hidden;
-    }
-    #wherethekidsare .container {
-        @media (min-width: 1600px) {
-            padding-bottom:0;
-        }
-    }
+    }    
     #modelingroom .hero-text {
         margin-top: auto;
     }
@@ -280,7 +275,7 @@
                 width: 35%;
             }
         }
-        .helm-water {
+        .helm-water,.cabin-water {
             height: auto;
             min-height: unset;
             max-height: unset;
@@ -288,7 +283,7 @@
             background-size: auto 90%;
             border-left: 1px solid #001E2A;
         }
-        .helm {
+        .helm,.cabin {
             height: calc(100% + 7px);
             min-height: unset;
             max-height: unset;
@@ -326,7 +321,7 @@
             padding-left: 15%;
             padding-right: 15%;
         }
-        .helm-water {
+        .helm-water,.cabin-water {
             background-size: 100%;
             background-position-y: 30%;
         }
