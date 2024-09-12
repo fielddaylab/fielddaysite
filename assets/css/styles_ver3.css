@@ -16994,19 +16994,62 @@ tbody tr {
 ------------------------------------------ */
 #footer {
   z-index: 100;
-  padding: 5vw;
+}
+#footer .row {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer .homepage {
+  background: #d0bca9;
+}
+#footer .homepage .footerinfo {
+  border-right: 3px solid #928477;
+}
+@media (max-width: 992px) {
+  #footer .homepage .footerinfo {
+    border-right-style: none;
+  }
+}
+#footer .homepage .footer-signup {
+  padding-top: 5vw;
+}
+#footer .homepage .footer-signup img {
+  width: 250px;
+}
+#footer .homepage .footerlogo {
+  width: 250px;
+}
+#footer .homepage a.button:focus {
+  opacity: 0.9;
+}
+#footer .alt {
   background: #FFDF71;
+}
+#footer .alt .footerinfo {
+  border-right: 3px solid #E0BC4E;
+}
+@media (max-width: 992px) {
+  #footer .alt .footerinfo {
+    border-right-style: none;
+  }
+}
+#footer .alt .footer-signup img {
+  padding-top: 5vw;
+  width: 200px;
+}
+#footer .alt .footerlogo {
+  width: 150px;
 }
 
 .footer {
+  padding: 0 5vw 3em;
   text-align: left;
   margin: 0 auto;
-  max-width: 1800px;
 }
 .footer .footerinfo {
   padding: 3vw;
   margin-top: 5vw;
-  border-right: 3px solid #E0BC4E;
 }
 .footer .footerinfo a {
   color: #001E2A;
@@ -17030,7 +17073,6 @@ tbody tr {
   margin-bottom: 15px;
 }
 .footer .footerlogo {
-  width: 150px;
   height: auto;
   margin-bottom: 20px;
 }

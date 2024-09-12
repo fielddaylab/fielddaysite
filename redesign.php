@@ -128,7 +128,7 @@
 </div>
 
 <!--include footer-->
-<?php include 'includes/footer.php';?>
+<?php include 'includes/footer-homepage.php';?>
 
 <!--include modals-->
 <?php include 'includes/modals.php';?>
