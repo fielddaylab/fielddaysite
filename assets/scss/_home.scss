@@ -224,9 +224,14 @@
         color: #001E2A;
         min-height: 50vw;
         //background: linear-gradient(to bottom, #d5fffa, #086684);
-        background: linear-gradient(to bottom, #d5fffa, #066887);
+        //background: linear-gradient(to bottom, #d5fffa, #066988);
+        background: linear-gradient(to bottom, #D5FFFA, #056382);
         text-align: center;
         align-items: center;
+        
+        .container {
+            z-index: 100;
+        }
 
         h2 {
             line-height: 1em;

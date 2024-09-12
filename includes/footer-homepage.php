@@ -12,7 +12,7 @@
 <footer id="footer">
   <div class="footer homepage">
     <div class="row">
-      <div class="col-md-7 footerinfo homepage">
+      <div class="col-md-7 footerinfo">
         <img class="footerlogo" src="assets/img/logos/fd-learning_games_logo_new_alt.png" alt="the Field Day Lab logo">
         <p class="small">Our <a href="/about">team</a> is based at the Wisconsin Center for Education Research at the University of Wisconsin - Madison. We make learning games that bring contemporary research to the public, and we use the game data to understand how people learn.</p>
         <p class="small">Interested in making something together? email <a href="mailto:djgagnon@wisc.edu">David Gagnon</a><br />
