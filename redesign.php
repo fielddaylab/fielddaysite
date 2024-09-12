@@ -1,9 +1,9 @@
-<?php include 'includes/header.php';?>
+<?php include 'includes/header.php'; ?>
 <title>Field Day Learning Games</title>
 <meta name="description" content="Field Day Lab">
 </head>
 <!--include main navigation-->
-<?php include 'includes/main-nav.php';?>
+<?php include 'includes/main-nav.php'; ?>
 <!-- start page template -->
 <div class="home-page">
     <section id="carousel">
@@ -89,16 +89,18 @@
             <h2>We are Field Day</h2>
             <p>We are a team of artists, engineers, designers, researchers, teachers, subject experts, writers, parents, kids, and game lovers.</p>
             <p>Welcome to our lab. Here's how we steer the ship.</p>
+            <img src="assets/img/home/yellow-arrow.png" alt="down arrow">
         </div>
         <div class="ship">
-            <img src="assets/img/home/site-boat.png">
+            <img src="assets/img/home/site-boat.png" alt="ship cutaway">
         </div>
+        <div class="water-pattern"></div>
     </section>
     <div class="bottom-frame z1"></div>
     <section id="whygames" class="lead d-flex flex-col flex-xxl-row">
         <div class="helm-water">
             <div class="helm"></div>
-            <h3 class="h2 d-xxl-none">Why Games?</h3>
+            <h3 class="d-xxl-none ribbon">Why Games?</h3>
             <div class="helm-frame"></div>
         </div>
         <div class="container d-flex flex-col flex-lg-reverse flex-xxl-col">
@@ -107,7 +109,27 @@
             </div>
             <div class="hero-text">
                 <h4>Games let you try on a new identity.</h4>
-                <p>Games are an important tool for teachers because they allow players to take on the role of scientists, journalists, explorers, and more.</p>
+                <p>Games are an important tool for teachers because they allow players to take on the role of
+                    scientists, journalists, explorers, and more.</p>
+            </div>
+        </div>
+    </section>
+    <div class="bottom-frame z1"></div>
+    <section id="wherethekidsare" class="lead d-flex flex-col flex-xxl-row">
+        <div class="cabin-water">
+            <div class="cabin"></div>
+            <div class="helm-frame"></div>
+        </div>
+        <div class="container d-flex flex-col flex-lg-reverse flex-xxl-col">
+            <div class="section-img">
+                <img src="assets/img/home/kids.png" alt="a group of young explorers posing heroically">
+            </div>
+            <div class="hero-text">
+                <h4>Games are where the kids are.</h4>
+                <p>Kids spend a lot of time playing games these days. We love making something that
+                    can help them interact with the complicated, amazing world that they live in.
+                    Our games get played by millions of kids each year.
+                </p>
             </div>
         </div>
     </section>
@@ -138,14 +160,15 @@
         </div>
         <div class="container hero-text">
             <h4>Games as assessment</h4>
-            <p>Our research team leverages data science to create meaningful insights out of mountains of player data. We help researchers and educators understand how kids learn.</p>
+            <p>Our research team leverages data science to create meaningful insights out of mountains of player data.
+                We help researchers and educators understand how kids learn.</p>
         </div>
     </section>
     <div class="bottom-frame"></div>
 </div>
 
 <!--include footer-->
-<?php include 'includes/footer.php';?>
+<?php include 'includes/footer-homepage.php';?>
 
 <!--include modals-->
 <?php include 'includes/modals.php';?>
@@ -157,4 +180,5 @@
   });
 </script>-->
 </body>
+
 </html>

@@ -16994,19 +16994,62 @@ tbody tr {
 ------------------------------------------ */
 #footer {
   z-index: 100;
-  padding: 5vw;
+}
+#footer .row {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer .homepage {
+  background: #d0bca9;
+}
+#footer .homepage .footerinfo {
+  border-right: 3px solid #928477;
+}
+@media (max-width: 992px) {
+  #footer .homepage .footerinfo {
+    border-right-style: none;
+  }
+}
+#footer .homepage .footer-signup {
+  padding-top: 5vw;
+}
+#footer .homepage .footer-signup img {
+  width: 250px;
+}
+#footer .homepage .footerlogo {
+  width: 250px;
+}
+#footer .homepage a.button:focus {
+  opacity: 0.9;
+}
+#footer .alt {
   background: #FFDF71;
+}
+#footer .alt .footerinfo {
+  border-right: 3px solid #E0BC4E;
+}
+@media (max-width: 992px) {
+  #footer .alt .footerinfo {
+    border-right-style: none;
+  }
+}
+#footer .alt .footer-signup img {
+  padding-top: 5vw;
+  width: 200px;
+}
+#footer .alt .footerlogo {
+  width: 150px;
 }
 
 .footer {
+  padding: 0 5vw 3em;
   text-align: left;
   margin: 0 auto;
-  max-width: 1800px;
 }
 .footer .footerinfo {
   padding: 3vw;
   margin-top: 5vw;
-  border-right: 3px solid #E0BC4E;
 }
 .footer .footerinfo a {
   color: #001E2A;
@@ -17030,7 +17073,6 @@ tbody tr {
   margin-bottom: 15px;
 }
 .footer .footerlogo {
-  width: 150px;
   height: auto;
   margin-bottom: 20px;
 }
@@ -17049,6 +17091,10 @@ tbody tr {
 .home-page h2, .home-page .h2 {
   font-size: 36px;
   font-family: brandon-grotesque, futura-pt, sans-serif;
+  text-transform: uppercase;
+}
+.home-page h3 {
+  font-size: 45px;
   text-transform: uppercase;
 }
 .home-page h4 {
@@ -17087,16 +17133,40 @@ tbody tr {
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5rem;
-  padding-bottom: 10rem;
 }
 .home-page .ship img {
   width: 69vw;
-  padding-top: 2.3vw;
+  max-width: 760px;
 }
 .home-page #welcome {
   color: #fff;
   text-align: center;
+  background-image: url("/assets/img/home/stars-pattern.png"), linear-gradient(180deg, #03283A 22.34%, #0B4F65 47.58%, #32BBC3 73.98%, #FFA490 99.61%);
+  background-position: center 15px, center;
+  background-repeat: repeat-x, repeat-x;
+}
+.home-page #welcome .container {
+  padding-bottom: 0;
+}
+.home-page #welcome h2 {
+  color: #E0B729;
+  margin-top: 15rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home-page #welcome p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-page #welcome .water-pattern {
+  position: relative;
+  background-image: url("/assets/img/home/water.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: 19px;
+  width: 100%;
+  height: 19px;
+  margin-top: -22px;
 }
 .home-page #welcome .container {
   padding-bottom: 0;
@@ -17112,13 +17182,13 @@ tbody tr {
   margin-right: auto;
 }
 .home-page .bottom-frame {
-  background-image: url(../img/home/bulwarks.png);
+  background-image: url("../img/home/bulwarks.png");
   background-repeat: repeat-x;
   width: 100%;
-  height: 42px;
+  height: 40px;
 }
 .home-page .helm-water {
-  background-image: url(../img/home/Helm_Water.png);
+  background-image: url("../img/home/Helm_Water.png");
   background-repeat: no-repeat;
   background-size: max(900px, 100vw);
   width: 100%;
@@ -17129,9 +17199,44 @@ tbody tr {
   text-align: center;
   overflow: hidden;
 }
-.home-page .helm-water .h2 {
+.home-page .helm-water .ribbon {
   position: relative;
-  margin-top: 4rem;
+  background-image: url("/assets/img/home/stars-ribbon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 30vw;
+  max-width: 464px;
+  max-height: 138px;
+  padding-top: 9.5vw;
+  font-size: 9.5vw;
+  color: #E0B729;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 464px) {
+  .home-page .helm-water .ribbon {
+    width: 60vw;
+    font-size: 36px;
+    padding-top: 5%;
+  }
+}
+@media (min-width: 576px) {
+  .home-page .helm-water .ribbon {
+    width: 55vw;
+    font-size: 45px;
+  }
+}
+@media (min-width: 768px) {
+  .home-page .helm-water .ribbon {
+    width: 50vw;
+  }
+}
+@media (min-width: 992px) {
+  .home-page .helm-water .ribbon {
+    padding-top: 45px;
+  }
 }
 @keyframes helm {
   0% {
@@ -17157,7 +17262,7 @@ tbody tr {
   height: 57vw;
   min-height: 400px;
   max-height: 643px;
-  background-image: url(../img/home/Helm_Background.png);
+  background-image: url("../img/home/Helm_Background.png");
   background-size: cover;
   animation: helm 5s linear infinite;
   text-align: center;
@@ -17165,7 +17270,7 @@ tbody tr {
   left: 50%;
 }
 .home-page .helm-frame {
-  background-image: url(../img/home/border-bottom.png);
+  background-image: url("../img/home/border-bottom.png");
   background-position: bottom;
   background-repeat: repeat-x;
   background-size: 25px;
@@ -17174,6 +17279,32 @@ tbody tr {
   width: 100%;
   bottom: 0;
   border-bottom: 4px solid #001E2A;
+}
+.home-page .cabin {
+  position: absolute;
+  top: -2px;
+  width: max(903px, 100% + 5px);
+  height: 57vw;
+  min-height: 400px;
+  max-height: 643px;
+  background-image: url(../img/home/Cabin_Background.png);
+  background-size: cover;
+  animation: helm 5s linear infinite;
+  text-align: center;
+  margin-left: min(-451px, -50%);
+  left: 50%;
+}
+.home-page .cabin-water {
+  background-image: url(../img/home/Cabin_Water.png);
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+  width: 100%;
+  height: 57vw;
+  min-height: 400px;
+  max-height: 643px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
 }
 .home-page #modelingroom .hero-text {
   margin-top: auto;
@@ -17199,7 +17330,7 @@ tbody tr {
   height: 60vw;
   min-height: 400px;
   max-height: 643px;
-  background-image: url(../img/home/border-bottom.png), url(../img/home/ModelingRoom_Background.png);
+  background-image: url("../img/home/border-bottom.png"), url("../img/home/ModelingRoom_Background.png");
   background-size: 25px, cover;
   background-repeat: repeat-x, no-repeat;
   background-position: bottom, top;
@@ -17250,12 +17381,10 @@ tbody tr {
   }
   .home-page h2, .home-page .h2 {
     font-size: 60px;
+    line-height: 60px;
   }
   .home-page h4 {
     font-size: 40px;
-  }
-  .home-page .helm-water .h2 {
-    margin-top: 12rem;
   }
 }
 @media (min-width: 664px) {
@@ -17308,11 +17437,11 @@ tbody tr {
   .home-page .d-xxl-none {
     display: none;
   }
-  .home-page section {
+  .home-page section:not(#welcome) {
     padding-left: 5%;
     padding-right: 5%;
   }
-  .home-page section .container {
+  .home-page section:not(#welcome) .container {
     width: 60%;
   }
   .home-page .lead .section-img {
@@ -17321,7 +17450,13 @@ tbody tr {
   .home-page .lead .section-img img {
     width: 35%;
   }
-  .home-page .helm-water {
+  .home-page #welcome p {
+    max-width: 900px;
+  }
+  .home-page .ship img {
+    max-width: 900px;
+  }
+  .home-page .helm-water, .home-page .cabin-water {
     height: auto;
     min-height: unset;
     max-height: unset;
@@ -17329,7 +17464,7 @@ tbody tr {
     background-size: auto 90%;
     border-left: 1px solid #001E2A;
   }
-  .home-page .helm {
+  .home-page .helm, .home-page .cabin {
     height: calc(100% + 7px);
     min-height: unset;
     max-height: unset;
@@ -17337,7 +17472,7 @@ tbody tr {
     clip-path: xywh(0 3px 100% calc(100% - 6px));
   }
   .home-page .helm-frame {
-    background-image: url(../img/home/border-left.png), url(../img/home/border-right.png);
+    background-image: url("../img/home/border-left.png"), url("../img/home/border-right.png");
     background-position: left, right;
     background-repeat: repeat-y, repeat-y;
     background-size: 9px, 9px;
@@ -17357,7 +17492,7 @@ tbody tr {
     margin-left: calc(max(24%, 267px) * -0.2);
   }
   .home-page .modeling-room {
-    background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/ModelingRoom_Background.png);
+    background-image: url("../img/home/border-left.png"), url("../img/home/border-right.png"), url("../img/home/ModelingRoom_Background.png");
     background-size: 9px, 9px, cover;
     background-repeat: repeat-y, repeat-y, no-repeat;
     background-position: left, right, top;
@@ -17369,11 +17504,14 @@ tbody tr {
   }
 }
 @media (min-width: 2100px) {
-  .home-page section {
+  .home-page section:not(#welcome) {
     padding-left: 15%;
     padding-right: 15%;
   }
-  .home-page .helm-water {
+  .home-page .ship img {
+    max-width: 1200px;
+  }
+  .home-page .helm-water, .home-page .cabin-water {
     background-size: 100%;
     background-position-y: 30%;
   }
