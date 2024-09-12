@@ -89,16 +89,18 @@
             <h2>We are Field Day</h2>
             <p>We are a team of artists, engineers, designers, researchers, teachers, subject experts, writers, parents, kids, and game lovers.</p>
             <p>Welcome to our lab. Here's how we steer the ship.</p>
+            <img src="assets/img/home/yellow-arrow.png" alt="down arrow">
         </div>
         <div class="ship">
-            <img src="assets/img/home/site-boat.png">
+            <img src="assets/img/home/site-boat.png" alt="ship cutaway">
         </div>
+        <div class="water-pattern"></div>
     </section>
     <div class="bottom-frame z1"></div>
     <section id="whygames" class="lead d-flex flex-col flex-xxl-row">
         <div class="helm-water">
             <div class="helm"></div>
-            <h3 class="h2 d-xxl-none">Why Games?</h3>
+            <h3 class="d-xxl-none ribbon">Why Games?</h3>
             <div class="helm-frame"></div>
         </div>
         <div class="container d-flex flex-col flex-lg-reverse flex-xxl-col">
