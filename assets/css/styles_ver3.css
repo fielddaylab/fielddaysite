@@ -17168,19 +17168,6 @@ tbody tr {
   height: 19px;
   margin-top: -22px;
 }
-.home-page #welcome .container {
-  padding-bottom: 0;
-}
-.home-page #welcome h2 {
-  color: #E0B729;
-  margin-top: 20rem;
-  line-height: 60px;
-}
-.home-page #welcome p {
-  max-width: 630px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .home-page .bottom-frame {
   background-image: url("../img/home/bulwarks.png");
   background-repeat: repeat-x;
