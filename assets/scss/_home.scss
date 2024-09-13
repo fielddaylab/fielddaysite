@@ -438,12 +438,12 @@
         color: #F9F7F4;
         top: 5vh;
 
-        @media (min-width: 1132px) and (min-height: 800px){
+        @media (min-width: 2015px) and (min-height: 640px)
+        {
             display: block;
         }
 
-        @media (min-width: 2015px)
-        {
+        @media (min-height: 800px){
             display: block;
         }
 
@@ -611,25 +611,32 @@
 
         li:last-of-type{
             
-            width: 55px;
+            background-color: #FFACAC;
+            color: #001E2A;
+            border: none;
+            width: 62px;
             margin-right: 0;
             
-            .chevron{
-                background-image: url('../img/home/carousel/chevron_sm.svg');
-                width: 23px;
-                height: 35px;
-                background-repeat: no-repeat;
+            .play-our-games-controller{
+               
                 text-align: center;
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 25px;
                 margin-bottom: 25px;
+
+                img{
+                    width: 52px;
+                    height: 43px;
+                }
             }
 
             .thumb-caption{
+                background-color: #FFACAC;
+                color: #001E2A;
                 text-align: left;
                 margin: 0 auto;
-                width: 49px;
+                width: 50px;
             }
 
         }
@@ -644,8 +651,6 @@
         @media (min-width: 370px){
             
             li:last-of-type{
-
-                width: 60px;
 
                 .thumb-caption{
                     width: 50px;
@@ -671,10 +676,17 @@
 
             li:last-of-type{
                 
-                width: 86px;
+                width: 98px;
                 
+                .play-our-games-controller{
+                    img{
+                        width: 75px;
+                        height: 62px;
+                    }
+                }
+
                 .thumb-caption{
-                    width: 78px;
+                    width: 80px;
                 }
             }
         }
@@ -700,11 +712,8 @@
 
             li:last-of-type{
                 
-                width: 129px;
+                width: 132px;
                 
-                .thumb-caption{
-                    width: 100px;
-                }
             }
 
         }
@@ -731,20 +740,6 @@
 
             li.indicator-nomobile{
                 display: inline-block;
-            }
-
-            li:last-of-type{
-                
-                width: 129px;
-                
-                .chevron{
-                    background-image: url('../img/home/carousel/chevron_lg.svg');
-                    width: 36px;
-                    height: 57px;
-                    margin-top: 25px;
-                    margin-bottom: 25px;
-                }
-    
             }
 
         }
