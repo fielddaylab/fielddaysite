@@ -174,6 +174,7 @@
         width: 100%;
         bottom: 0;
         border-bottom: 4px solid #001E2A;
+        pointer-events: none;
     }
     #modelingroom .hero-text {
         margin-top: auto;
@@ -222,48 +223,44 @@
     }
     .deepsea {
         color: #001E2A;
-        min-height: 50vw;
-        //background: linear-gradient(to bottom, #d5fffa, #086684);
-        //background: linear-gradient(to bottom, #d5fffa, #066988);
         background: linear-gradient(to bottom, #D5FFFA, #056382);
         text-align: center;
         align-items: center;
         
         .container {
             z-index: 100;
-        }
-
-        h2 {
-            line-height: 1em;
-            font-weight: bold;
-            letter-spacing: 3.5px;
+            padding-bottom: 0;
         }
 
         h3 {
+            font-size: 35px;
+            line-height: 35px;
+            letter-spacing: 1px;
+        }
+
+        h4:not(.panel h4) {
             font-family: "Fraunces", serif;
             text-align: center;
             margin: auto;
             padding-bottom: 1em;
             letter-spacing: 3.5px;
+            text-transform: none;
+            font-size: 22px;
         }
 
         p {
-            color: black;
-            font-weight: bolder;
             text-align: left;
             padding-bottom: 1em;
         }
 
-        button {
-            color: #04201f;
-            font-weight: bold;
-            margin: auto;
+        button.yellow {
             border-radius: 5px;
             border: 3px solid #04201f;
+            margin: 0 auto 4rem;
         }
 
         .divider {
-            background-image: url(../img/home/wave-divider.png);
+            background-image: url("../img/home/wave-divider.png");
             background-repeat:no-repeat;
             background-size: contain;
             min-height:10px;
@@ -271,31 +268,243 @@
             margin: 0 auto;
             padding: 1em 0;
         }
+        .bios {
+            text-align: center;
+            .gridder-list {
+                background: none;
+                width: 45%;
+            }
+            .partner-img {
+                border: 1px solid transparent;
+                border-radius: 8px;
+                width: 100%;
+            }
+            .gridder-show {
+                .gridder-navigation {
+                    border-top: 0;
+                    border-bottom: 0;
+                    .nav-left {
+                        float: right;
+                        margin-right: 20px;
+                        .gridder-close {
+                            border-left: 0;
+                            border-right: 0;
+                            padding: 10px 5px;
+                            background: unset;
+                            padding:4px 10px 6px 10px;
+                            border-radius:5px;
+
+                            &:hover img {
+                                opacity: 0.9;
+                            }
+                        }
+                    }
+                }
+            }
+            .panel {
+                background-color: unset;
+                box-shadow: none;
+                h4 {
+                    text-transform: none;
+                    font-weight: 500;
+                    margin: 0;
+                }
+                h5 {
+                    font-family: 'Fraunces', serif;
+                    color: #026199;
+                    font-size: 24px;
+                }
+                p {
+                    font-size: 16px;
+                    margin-top: 20px;
+                }
+                .panel-body {
+                    &>div {
+                        margin: 0 2rem;
+                    }
+                    img {
+                        border: 1px solid transparent;
+                        border-radius: 10px;
+                        width: 100%;
+                        margin-bottom: 2rem;
+                    }
+                }
+            }
+            .panel-heading {
+                border: none;
+                background-color: unset;
+            }
+            .panel-group .panel-collapse {
+                position: absolute;
+            }
+        }
+        .bubble-container {
+            position: relative;
+            height: 1250px;
+            width: 100%;
+            max-width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .bubble {
+            background-image: url("data:image/svg+xml, %3Csvg%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%20532%20532%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Ccircle%20cx%3D%22266.088%22%20cy%3D%22265.907%22%20r%3D%22264.272%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%20vector-effect%3D%22non-scaling-stroke%22%2F%3E%0A%3Cpath%20d%3D%22M510.045%20265.907C510.045%20135.764%20404.543%2030.2617%20274.399%2030.2617%22%20stroke%3D%22white%22%20stroke-width%3D%224%22%20vector-effect%3D%22non-scaling-stroke%22%2F%3E%0A%3C%2Fsvg%3E");
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: absolute;
+
+            blockquote {
+                border-left: none;
+                margin: 0;
+                padding: 0 20px;
+                p {
+                    color: #fff;
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+            figcaption {
+                font-family: "Fraunces", serif;
+                font-size: 14px;
+                color: #fff;
+                line-height: normal;
+                &::before {
+                    content: "\02013";
+                }
+            }
+        }
+        .bubble-empty {            
+            background-image: url("data:image/svg+xml, %3Csvg%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%20532%20532%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Ccircle%20cx%3D%22266.088%22%20cy%3D%22265.907%22%20r%3D%22264.272%22%20stroke%3D%22white%22%20stroke-width%3D%221%22%20vector-effect%3D%22non-scaling-stroke%22%2F%3E%0A%3Cpath%20d%3D%22M510.045%20265.907C510.045%20135.764%20404.543%2030.2617%20274.399%2030.2617%22%20stroke%3D%22white%22%20stroke-width%3D%223%22%20vector-effect%3D%22non-scaling-stroke%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: absolute;
+        }
+        .bubble-xl {
+            max-width: 50vw;
+            max-height: 50vw;
+            width: 60%;
+            height: 60%;
+            padding: 25px;
+            top: 0;
+            right: 0;
+        }
+        .bubble-lg {
+            max-width: 44vw;
+            max-height: 44vw;
+            width: 50%;
+            height: 50%;
+            padding: 20px;
+            top: 400px;
+            left: 5%;
+        }
+        .bubble-md {
+            max-width: 35vw;
+            max-height: 35vw;
+            width: 38%;
+            height: 38%;
+            padding: 0;
+            top: 10px;
+            left: 0;
+        }
+        .bubble-sm {
+            max-width: 28vw;
+            max-height: 28vw;
+            width: 30%;
+            height: 30%;
+            padding: 10px;
+            top: 534px;
+            right: 10%;
+        }
+        .bubble-xs {
+            max-width: 139px;
+            max-height: 139px;
+            width: 80%;
+            height: 80%;
+            padding: 20px;
+            top: 760px;
+            left: 48%;
+        }
+        .bubble-xxs {
+            width: 80px;
+            height: 80px;
+            padding: 20px;
+            top: 940px;
+            left: 55%;
+        }
+        .deepsea-sub {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            margin-left: -165px;
+        }
+        @media (max-width: 670px) {
+            // Mobile layout for Make Games section
+            .float, .floatslow {
+                animation: none;
+            }
+            .bubble-container {
+                height: auto;
+            }
+            .bubble, .bubble-empty.bubble-xs {
+                background: none;
+                position: relative;
+                max-width: unset;
+                max-height: unset;
+                width: auto;
+                height: auto;
+                padding: 30px 10px;
+                blockquote p {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                figcaption {
+                    font-size: inherit;
+                    line-height: inherit;
+                }
+            }
+            .bubble-xl, .bubble-lg, .bubble-md, .bubble-sm, .bubble-xs {
+                left: auto;
+                top: auto;
+                right: auto;
+            }
+            .bubble-empty.bubble-xxs {
+                position: relative;
+                top: auto;
+                right: auto;
+                left: -14px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 20px;
+            }
+            .deepsea-sub {
+                position: relative;
+                left: auto;
+            }
+        }
 
         @media (min-width: 768px) {
-            p {
+            p:not(.panel-body p, blockquote p) {
                 font-size: 21px;
             }
 
-            h3 {
-                font-size: 36px;
+            h4:not(.panel h4) {
+                font-size: 30px;
+            }
+            .panel-text {
+                width: 60%;
+            }
+            .panel-img {
+                width: 40%;
             }
         }
     }
 
-    .bios {
-        text-align: left;
-
-        .bio-content {
-            display: flex;
-            flex-direction: row;
-        }
-
-    }
-
     .ocean-floor {
-        min-height: 60vh;
-        background: url(../img/home/ocean-floor.png) repeat-x center;
+        min-height: 687px;
+        background: url("../img/home/ocean-floor.png") repeat-x center;
         background-size: cover;
     }
 
@@ -303,12 +512,15 @@
         .lead .section-img {
             margin-top: -8em;
         }
-        h2, .h2 {
+        h2, .h2, .deepsea h3 {
             font-size: 60px;
             line-height: 60px;
         }
         h4 {
             font-size: 40px;
+        }
+        .deepsea .bios .gridder-list {
+            width: 20%;
         }
     }
     @media (min-width: 664px) {
@@ -317,6 +529,9 @@
         }
     }
     @media (min-width: 768px) {
+        .flex-lg-row {
+            flex-direction: row;
+        }
         .flex-lg-reverse {
             flex-direction: row-reverse;
         }
@@ -324,6 +539,47 @@
     @media (min-width: 992px) {
         .flex-lg-reverse {
             flex-direction: row-reverse;
+        }
+        .deepsea {
+            .bubble-xl {
+                max-width: 532px;
+                max-height: 532px;
+                padding: 50px;
+            }
+            .bubble-lg {
+                max-width: 435px;
+                max-height: 435px;
+                padding: 50px;
+                top: 415px;
+            }
+            .bubble-md {
+                max-width: 351px;
+                max-height: 351px;
+                padding: 40px;
+            }
+            .bubble-sm {
+                max-width: 244px;
+                max-height: 244px;
+                padding: 20px;
+                top: 580px;
+            }
+            .bubble-xs {
+                top: 790px;
+            }
+            .bubble-xxs {
+                top: 950px;
+            }
+            .bubble blockquote {
+                padding: 10px 20px;
+                p {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+            .bubble figcaption {
+                line-height: inherit;
+                font-size: inherit;
+            }
         }
     }
     @media (min-width: 1070px) {
@@ -360,8 +616,11 @@
         }
         .d-xxl-none {
             display: none;
+        }        
+        section .container {
+            max-width: max(1200px, 70%);
         }
-        section:not(#welcome) {
+        section.ship-room {
             padding-left: 5%;
             padding-right: 5%;
             .container {
@@ -422,7 +681,7 @@
         }
     }
     @media (min-width: 2100px) {
-        section:not(#welcome) {
+        section.ship-room {
             padding-left: 15%;
             padding-right: 15%;
         }
@@ -440,6 +699,9 @@
             top: 14.7cqw;
             left: 70%;
             width: 4.75%;
+        }
+        .deepsea .panel-img {
+            padding-right: 4rem;
         }
     }
 
