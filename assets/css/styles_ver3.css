@@ -17716,6 +17716,11 @@ tbody tr {
     width: 50px;
   }
 }
+@media (min-width: 580px) {
+  .home-page ol.carousel-indicators li {
+    height: 195px;
+  }
+}
 @media (min-width: 664px) {
   .home-page ol.carousel-indicators li {
     height: 232px;

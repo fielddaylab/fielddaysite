@@ -655,6 +655,12 @@
             }
         }
 
+        @media (min-width: 580px){
+            li{
+                height: 195px;
+            }
+        }
+
         /* Still three slides */
         @media (min-width: 664px) {
 
