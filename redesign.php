@@ -14,7 +14,7 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active" style="background: url('assets/img/home/carousel/bloom-poster.jpg');">
                     <div class="info">
-                        <img src="assets/img/home/carousel/bloom-logo.png" alt="Field Day - Learning Games" />
+                        <img src="assets/img/home/carousel/bloom-logo.png" alt="Bloom: The Sage of the Fertilizer Economy game logo" />
                         <p>Create trade networks and enact policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers.</p>
                         <a href="play/bloom" class="button yellow filled small">Learn More</a>
                     </div>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="item" style="background: url('assets/img/home/carousel/wake-poster.jpg');">
                     <div class="info">
-                        <img src="assets/img/home/carousel/wake-logo.png" alt="Field Day - Learning Games" />
+                        <img src="assets/img/home/carousel/wake-logo.png" alt="Wake: Tales From the Aqualab game logo" />
                         <p>Take on the role of a scientist as you study ocean ecosystems, travel to exciting ocean research stations, and work with fellow scientists to solve problems.</p>
                         <a href="play/wake" class="button yellow filled small">Learn More</a>
                     </div>
@@ -41,8 +41,8 @@
 
                 <div class="item" style="background: url('assets/img/home/carousel/journalism-poster.jpg');">
                     <div class="info">
-                        <img src="assets/img/home/carousel/headlines-logo.png" alt="Field Day - Learning Games" />
-                        <p>Play as a journalist in the town of Twin Lakes. WIll the stories you publish help the town prepare for the flood of the century?</p>
+                        <img src="assets/img/home/carousel/headlines-logo.png" alt="Headlines and High Water game logo" />
+                        <p>Play as a journalist in the town of Twin Lakes. Will the stories you publish help the town prepare for the flood of the century?</p>
                         <a href="play/headlines" class="button yellow filled small">Learn More</a>
                     </div>
                     <a href="play/headlines">
@@ -54,7 +54,7 @@
                 </div>
                 <div class="item item-nomobile" style="background: url('assets/img/home/carousel/shipwrecks-poster.jpg');">
                     <div class="info">
-                        <img src="assets/img/home/carousel/emerald-logo.png" alt="Field Day - Learning Games" />
+                        <img src="assets/img/home/carousel/emerald-logo.png" alt="Legend of the Lost Emerald game logo" />
                         <p>Play as a maritime archaeologist uncovering shipwrecks in the Great Lakes. Made in partnership with PBS Wisconsin and Wisconsin Sea Grant</p>
                         <a href="play/emerald" class="button yellow filled small">Learn More</a>
                     </div>
