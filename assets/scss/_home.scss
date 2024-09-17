@@ -59,6 +59,8 @@
         }
     }
     #welcome {
+
+        z-index: 5;
         color: #fff;
         text-align: center;
         background-image: url("/assets/img/home/stars-pattern.png"), linear-gradient(180deg, #03283A 22.34%, #0B4F65 47.58%, #32BBC3 73.98%, #FFA490 99.61%);
@@ -793,12 +795,12 @@
         color: #F9F7F4;
         top: 5vh;
 
-        @media (min-width: 1132px) and (min-height: 800px){
+        @media (min-width: 2015px) and (min-height: 640px)
+        {
             display: block;
         }
 
-        @media (min-width: 2015px)
-        {
+        @media (min-height: 800px){
             display: block;
         }
 
@@ -870,7 +872,7 @@
         display: inline-block;
         list-style: none;
         position: absolute;
-        bottom: -40px;
+        bottom: -32px;
         padding-left: 10px;
         width: 100%;
         text-align: center;
@@ -888,7 +890,7 @@
 
         @media(min-width: 880px) and (min-height: 350px)
         {
-            bottom: -10px;
+            bottom: -25px;
         }
 
         @media(min-height: 600px)
@@ -916,7 +918,7 @@
             margin-right: 10px;
             margin-top: 20px;
             width: 23%;
-            height: 165px;
+            height: 175px;
             background-color: #001E2A;
             border: 6px solid #001E2A;
             border-top-left-radius: 10px;
@@ -924,11 +926,6 @@
             cursor: pointer;
             vertical-align: top;
           
-            @media(min-width: 664px)
-            {
-                height: 232px;
-            }
-
             img{
                 width: 100%;
                 object-fit: cover;
@@ -948,7 +945,7 @@
                 font-weight: 450;
                 font-size: 14px;
                 text-align: left;
-                padding: 6px 6px 0 6px;
+                padding: 3px 1px 0 1px;
 
                 a{
                     color: #FAD9D9;
@@ -966,25 +963,32 @@
 
         li:last-of-type{
             
-            width: 55px;
+            background-color: #FFACAC;
+            color: #001E2A;
+            border: none;
+            width: 62px;
             margin-right: 0;
             
-            .chevron{
-                background-image: url('../img/home/carousel/chevron_sm.svg');
-                width: 23px;
-                height: 35px;
-                background-repeat: no-repeat;
+            .play-our-games-controller{
+               
                 text-align: center;
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 25px;
                 margin-bottom: 25px;
+
+                img{
+                    width: 52px;
+                    height: 43px;
+                }
             }
 
             .thumb-caption{
+                background-color: #FFACAC;
+                color: #001E2A;
                 text-align: left;
                 margin: 0 auto;
-                width: 49px;
+                width: 50px;
             }
 
         }
@@ -1000,11 +1004,15 @@
             
             li:last-of-type{
 
-                width: 60px;
-
                 .thumb-caption{
                     width: 50px;
                 }
+            }
+        }
+
+        @media (min-width: 580px){
+            li{
+                height: 195px;
             }
         }
 
@@ -1012,6 +1020,8 @@
         @media (min-width: 664px) {
 
             li{
+                
+                height: 232px;
                 width: 150px;
 
                 img{
@@ -1020,16 +1030,24 @@
                 }
 
                 .thumb-caption{
+                    padding: 6px 6px 0 6px;
                     line-height: 18px;
                 }
             }
 
             li:last-of-type{
                 
-                width: 86px;
+                width: 98px;
                 
+                .play-our-games-controller{
+                    img{
+                        width: 75px;
+                        height: 62px;
+                    }
+                }
+
                 .thumb-caption{
-                    width: 78px;
+                    width: 80px;
                 }
             }
         }
@@ -1055,11 +1073,8 @@
 
             li:last-of-type{
                 
-                width: 129px;
+                width: 132px;
                 
-                .thumb-caption{
-                    width: 100px;
-                }
             }
 
         }
@@ -1088,27 +1103,14 @@
                 display: inline-block;
             }
 
-            li:last-of-type{
-                
-                width: 129px;
-                
-                .chevron{
-                    background-image: url('../img/home/carousel/chevron_lg.svg');
-                    width: 36px;
-                    height: 57px;
-                    margin-top: 25px;
-                    margin-bottom: 25px;
-                }
-    
-            }
-
         }
 
-        @media (min-width: 1205px){
+        @media (min-width: 1204px){
             
             li{
 
                 width: 239px;
+                height: 240px;
 
                 img{
                     width: 227px;
