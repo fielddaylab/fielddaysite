@@ -17122,6 +17122,12 @@ tbody tr {
   max-width: 345px;
   min-width: 195px;
 }
+.home-page p {
+  line-height: 32px;
+}
+.home-page .hero-text h4 {
+  margin-bottom: 2rem;
+}
 .home-page .d-flex {
   display: flex;
 }
@@ -17346,7 +17352,6 @@ tbody tr {
   width: max(34px, 5.1%);
   animation: reel 4s linear infinite;
 }
-
 .home-page .deepsea {
   color: #001E2A;
   background: linear-gradient(to bottom, #D5FFFA, #056382);
@@ -17375,10 +17380,13 @@ tbody tr {
   text-align: left;
   padding-bottom: 1em;
 }
-.home-page .deepsea button.yellow {
+.home-page .deepsea a.button.yellow {
   border-radius: 5px;
   border: 3px solid #04201f;
   margin: 0 auto 4rem;
+}
+.home-page .deepsea a.button.yellow:focus {
+  opacity: 0.9;
 }
 .home-page .deepsea .divider {
   background-image: url("../img/home/wave-divider.png");
@@ -17438,7 +17446,7 @@ tbody tr {
   font-size: 16px;
   margin-top: 20px;
 }
-.home-page .deepsea .bios .panel .panel-body > div {
+.home-page .deepsea .bios .panel .panel-body .panel-img, .home-page .deepsea .bios .panel .panel-body .panel-text {
   margin: 0 2rem;
 }
 .home-page .deepsea .bios .panel .panel-body img {
@@ -17605,18 +17613,22 @@ tbody tr {
   .home-page .deepsea h4:not(.panel h4) {
     font-size: 30px;
   }
-  .home-page .deepsea .panel-text {
-    width: 60%;
+  .home-page .deepsea .bios .panel .panel-body .panel-text {
+    width: 53%;
+    margin-right: 0;
+    margin-left: 1.5rem;
   }
-  .home-page .deepsea .panel-img {
-    width: 40%;
+  .home-page .deepsea .bios .panel .panel-body .panel-img {
+    width: 47%;
+    margin-right: 1.5rem;
+    margin-left: 0;
   }
 }
 .home-page .ocean-floor {
   min-height: 687px;
   background: url("../img/home/ocean-floor.png") repeat-x center;
   background-size: cover;
-
+}
 .home-page #complextopics .container {
   margin-top: auto;
 }

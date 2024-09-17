@@ -114,8 +114,21 @@
             </div>
         </div>
     </section>
+    <div class="bottom-frame"></div>
+    <section id="complextopics" class="ship-room lead d-flex flex-col flex-xxl-reverse">
+        <div class="workshop-container">
+            <div class="workshop">
+            </div>
+        </div>
+        <div class="container hero-text">
+            <h4>Games explore complex topics.</h4>
+            <p>It's hard to communicate super complex topics in a short time frame. Games turn complicated topics into fun,
+                hands-on experiences that actually reach people. Our games get millions of plays.
+            </p>
+        </div>
+    </section>
     <div class="bottom-frame z1"></div>
-    <section id="wherethekidsare" class="lead d-flex flex-col flex-xxl-row">
+    <section id="wherethekidsare" class="ship-room lead d-flex flex-col flex-xxl-row">
         <div class="cabin-water">
             <div class="cabin"></div>
             <div class="helm-frame"></div>
@@ -131,19 +144,6 @@
                     Our games get played by millions of kids each year.
                 </p>
             </div>
-        </div>
-    </section>
-    <div class="bottom-frame"></div>
-    <section id="complextopics" class="lead d-flex flex-col flex-xxl-reverse">
-        <div class="workshop-container">
-            <div class="workshop">
-            </div>
-        </div>
-        <div class="container hero-text">
-            <h4>Games explore complex topics.</h4>
-            <p>It's hard to communicate super complex topics in a short time frame. Games turn complicated topics into fun,
-                hands-on experiences that actually reach people. Our games get millions of plays.
-            </p>
         </div>
     </section>
     <div class="bottom-frame"></div>
@@ -182,20 +182,20 @@
 
             <div class="bios">
                 <!-- Gridder navigation -->
-                <ul class="apps gridder">
-                    <li class="gridder-list app-card" data-griddercontent="#person1">
+                <ul class="apps gridder" role="menu">
+                    <li class="gridder-list app-card" data-griddercontent="#person1" role="menuitem">
                         <img src="/assets/img/home/partners/sue-robinson.jpg" alt="Sue Robinson" class="partner-img">
                         <img class="collapse-arrow invisible" src="/assets/img/home/blue-arrow.png" alt="down arrow">
                     </li>
-                    <li class="gridder-list app-card" data-griddercontent="#person2">
+                    <li class="gridder-list app-card" data-griddercontent="#person2" role="menuitem">
                         <img src="/assets/img/home/partners/victor-zavala.jpg" alt="Victor Zavala" class="partner-img">
                         <img class="collapse-arrow invisible" src="/assets/img/home/blue-arrow.png" alt="down arrow">
                     </li>
-                    <li class="gridder-list app-card" data-griddercontent="#person3">
+                    <li class="gridder-list app-card" data-griddercontent="#person3" role="menuitem">
                         <img src="/assets/img/home/partners/john-pfotenhauer.jpg" alt="John Pfotenhauer" class="partner-img">
                         <img class="collapse-arrow invisible" src="/assets/img/home/blue-arrow.png" alt="down arrow">
                     </li>
-                    <li class="gridder-list app-card" data-griddercontent="#person4">
+                    <li class="gridder-list app-card" data-griddercontent="#person4" role="menuitem">
                         <img src="/assets/img/home/partners/tamara-thomsen.jpg" alt="Tamara Thomsen" class="partner-img">
                         <img class="collapse-arrow invisible" src="/assets/img/home/blue-arrow.png" alt="down arrow">
                     </li>
@@ -311,7 +311,7 @@
                 Our games are always completely free for the public and available online. Funding comes from public
                 projects, partnerships, and grants.
             </p>
-            <button class="button small yellow filled">Play our games</button>
+            <a href="/play" class="button small yellow filled">Play our games</a>
 
             <!-- BUBBLES SECTION -->
             <div class="bubble-container">
@@ -390,6 +390,8 @@
             },
             onContent: function(){
                 //Gridder Content Loaded
+                // add role to close link
+                $('.gridder-close').attr("role", "button").attr("aria-label", "Close");
                 // hide any visible down arrows
                 $('.gridder-list:not(.selectedItem) .collapse-arrow').addClass('invisible');
                 // show arrow for selected person

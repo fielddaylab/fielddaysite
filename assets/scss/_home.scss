@@ -30,6 +30,12 @@
             }
         }
     }
+    p {
+        line-height: 32px;
+    }
+    .hero-text h4 {
+        margin-bottom: 2rem;
+    }
     .d-flex {
         display: flex;
     }
@@ -281,10 +287,13 @@
             padding-bottom: 1em;
         }
 
-        button.yellow {
+        a.button.yellow {
             border-radius: 5px;
             border: 3px solid #04201f;
             margin: 0 auto 4rem;
+            &:focus {
+                opacity: 0.9;
+            }
         }
 
         .divider {
@@ -347,7 +356,7 @@
                     margin-top: 20px;
                 }
                 .panel-body {
-                    &>div {
+                    .panel-img, .panel-text {
                         margin: 0 2rem;
                     }
                     img {
@@ -521,11 +530,15 @@
             h4:not(.panel h4) {
                 font-size: 30px;
             }
-            .panel-text {
-                width: 60%;
+            .bios .panel .panel-body .panel-text {
+                width: 53%;
+                margin-right: 0;
+                margin-left: 1.5rem;
             }
-            .panel-img {
-                width: 40%;
+            .bios .panel .panel-body .panel-img {
+                width: 47%;
+                margin-right: 1.5rem;
+                margin-left: 0;
             }
         }
     }
@@ -534,6 +547,7 @@
         min-height: 687px;
         background: url("../img/home/ocean-floor.png") repeat-x center;
         background-size: cover;
+    }
 
     #complextopics .container {
         margin-top: auto;
