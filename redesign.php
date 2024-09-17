@@ -13,6 +13,11 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active" style="background: url('assets/img/home/carousel/bloom-poster.jpg');">
+                    <div class="info">
+                        <img src="assets/img/home/carousel/bloom-logo.png" alt="Bloom: The Sage of the Fertilizer Economy game logo" />
+                        <p>Create trade networks and enact policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers.</p>
+                        <a href="play/bloom" class="button yellow filled small">Learn More</a>
+                    </div>
                     <a href="play/bloom">
                         <span class="scanlines"></span>
                         <video preload="none" muted loop class="carousel-video">
@@ -21,6 +26,11 @@
                      </a>
                 </div>
                 <div class="item" style="background: url('assets/img/home/carousel/wake-poster.jpg');">
+                    <div class="info">
+                        <img src="assets/img/home/carousel/wake-logo.png" alt="Wake: Tales From the Aqualab game logo" />
+                        <p>Take on the role of a scientist as you study ocean ecosystems, travel to exciting ocean research stations, and work with fellow scientists to solve problems.</p>
+                        <a href="play/wake" class="button yellow filled small">Learn More</a>
+                    </div>
                     <a href="play/wake">
                         <span class="scanlines"></span>
                         <video preload="none" muted loop class="carousel-video">
@@ -30,6 +40,11 @@
                 </div>
 
                 <div class="item" style="background: url('assets/img/home/carousel/journalism-poster.jpg');">
+                    <div class="info">
+                        <img src="assets/img/home/carousel/headlines-logo.png" alt="Headlines and High Water game logo" />
+                        <p>Play as a journalist in the town of Twin Lakes. Will the stories you publish help the town prepare for the flood of the century?</p>
+                        <a href="play/headlines" class="button yellow filled small">Learn More</a>
+                    </div>
                     <a href="play/headlines">
                         <span class="scanlines"></span>
                         <video preload="none" muted loop class="carousel-video">
@@ -38,6 +53,11 @@
                     </a>
                 </div>
                 <div class="item item-nomobile" style="background: url('assets/img/home/carousel/shipwrecks-poster.jpg');">
+                    <div class="info">
+                        <img src="assets/img/home/carousel/emerald-logo.png" alt="Legend of the Lost Emerald game logo" />
+                        <p>Play as a maritime archaeologist uncovering shipwrecks in the Great Lakes. Made in partnership with PBS Wisconsin and Wisconsin Sea Grant</p>
+                        <a href="play/emerald" class="button yellow filled small">Learn More</a>
+                    </div>
                     <a href="play/emerald">
                         <span class="scanlines"></span>
                         <video preload="none" muted loop class="carousel-video">
@@ -68,20 +88,19 @@
                 </li>
                 <li>
                     <a href="play">
-                        <div class="chevron"></div>
+                        <div class="play-our-games-controller">
+                            <img src="assets/img/home/carousel/group-1014.png" alt="Game Controller" />
+                        </div>
                         <div class="thumb-caption">
-                                Play all of our games
+                            Play all of our games
                         </div>
                     </a>
                 </li>
             </ol>
 
-            <div class="info">
-                <img src="assets/img/logos/fd-logo-yellow.png" alt="Field Day - Learning Games" />
-                <p>We're artists and researchers who make beautiful, impactful educational video games.</p>
-                <a href="about" class="button yellow filled small">Learn More</a>
-            </div>
-
+            
+            
+            
         </div>
     </section>
     <section id="welcome">

@@ -17139,6 +17139,7 @@ tbody tr {
   max-width: 760px;
 }
 .home-page #welcome {
+  z-index: 5;
   color: #fff;
   text-align: center;
   background-image: url("/assets/img/home/stars-pattern.png"), linear-gradient(180deg, #03283A 22.34%, #0B4F65 47.58%, #32BBC3 73.98%, #FFA490 99.61%);
@@ -17526,12 +17527,12 @@ tbody tr {
   color: #F9F7F4;
   top: 5vh;
 }
-@media (min-width: 1132px) and (min-height: 800px) {
+@media (min-width: 2015px) and (min-height: 640px) {
   .home-page #carousel-hero .info {
     display: block;
   }
 }
-@media (min-width: 2015px) {
+@media (min-height: 800px) {
   .home-page #carousel-hero .info {
     display: block;
   }
@@ -17595,7 +17596,7 @@ tbody tr {
   display: inline-block;
   list-style: none;
   position: absolute;
-  bottom: -40px;
+  bottom: -32px;
   padding-left: 10px;
   width: 100%;
   text-align: center;
@@ -17617,7 +17618,7 @@ tbody tr {
 }
 @media (min-width: 880px) and (min-height: 350px) {
   .home-page ol.carousel-indicators {
-    bottom: -10px;
+    bottom: -25px;
   }
 }
 @media (min-height: 600px) {
@@ -17645,18 +17646,13 @@ tbody tr {
   margin-right: 10px;
   margin-top: 20px;
   width: 23%;
-  height: 165px;
+  height: 175px;
   background-color: #001E2A;
   border: 6px solid #001E2A;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   cursor: pointer;
   vertical-align: top;
-}
-@media (min-width: 664px) {
-  .home-page ol.carousel-indicators li {
-    height: 232px;
-  }
 }
 .home-page ol.carousel-indicators li img {
   width: 100%;
@@ -17676,7 +17672,7 @@ tbody tr {
   font-weight: 450;
   font-size: 14px;
   text-align: left;
-  padding: 6px 6px 0 6px;
+  padding: 3px 1px 0 1px;
 }
 .home-page ol.carousel-indicators li .thumb-caption a {
   color: #FAD9D9;
@@ -17685,24 +17681,29 @@ tbody tr {
   display: none;
 }
 .home-page ol.carousel-indicators li:last-of-type {
-  width: 55px;
+  background-color: #FFACAC;
+  color: #001E2A;
+  border: none;
+  width: 62px;
   margin-right: 0;
 }
-.home-page ol.carousel-indicators li:last-of-type .chevron {
-  background-image: url("../img/home/carousel/chevron_sm.svg");
-  width: 23px;
-  height: 35px;
-  background-repeat: no-repeat;
+.home-page ol.carousel-indicators li:last-of-type .play-our-games-controller {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 25px;
 }
+.home-page ol.carousel-indicators li:last-of-type .play-our-games-controller img {
+  width: 52px;
+  height: 43px;
+}
 .home-page ol.carousel-indicators li:last-of-type .thumb-caption {
+  background-color: #FFACAC;
+  color: #001E2A;
   text-align: left;
   margin: 0 auto;
-  width: 49px;
+  width: 50px;
 }
 .home-page ol.carousel-indicators li.active {
   -webkit-transform: scale(1.1);
@@ -17711,15 +17712,18 @@ tbody tr {
   transform: scale(1.1);
 }
 @media (min-width: 370px) {
-  .home-page ol.carousel-indicators li:last-of-type {
-    width: 60px;
-  }
   .home-page ol.carousel-indicators li:last-of-type .thumb-caption {
     width: 50px;
   }
 }
+@media (min-width: 580px) {
+  .home-page ol.carousel-indicators li {
+    height: 195px;
+  }
+}
 @media (min-width: 664px) {
   .home-page ol.carousel-indicators li {
+    height: 232px;
     width: 150px;
   }
   .home-page ol.carousel-indicators li img {
@@ -17727,13 +17731,18 @@ tbody tr {
     height: 104px;
   }
   .home-page ol.carousel-indicators li .thumb-caption {
+    padding: 6px 6px 0 6px;
     line-height: 18px;
   }
   .home-page ol.carousel-indicators li:last-of-type {
-    width: 86px;
+    width: 98px;
+  }
+  .home-page ol.carousel-indicators li:last-of-type .play-our-games-controller img {
+    width: 75px;
+    height: 62px;
   }
   .home-page ol.carousel-indicators li:last-of-type .thumb-caption {
-    width: 78px;
+    width: 80px;
   }
 }
 @media (min-width: 880px) {
@@ -17751,10 +17760,7 @@ tbody tr {
     padding: 6px 6px 0 6px;
   }
   .home-page ol.carousel-indicators li:last-of-type {
-    width: 129px;
-  }
-  .home-page ol.carousel-indicators li:last-of-type .thumb-caption {
-    width: 100px;
+    width: 132px;
   }
 }
 @media (min-width: 1132px) {
@@ -17773,20 +17779,11 @@ tbody tr {
   .home-page ol.carousel-indicators li.indicator-nomobile {
     display: inline-block;
   }
-  .home-page ol.carousel-indicators li:last-of-type {
-    width: 129px;
-  }
-  .home-page ol.carousel-indicators li:last-of-type .chevron {
-    background-image: url("../img/home/carousel/chevron_lg.svg");
-    width: 36px;
-    height: 57px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
 }
-@media (min-width: 1205px) {
+@media (min-width: 1204px) {
   .home-page ol.carousel-indicators li {
     width: 239px;
+    height: 240px;
   }
   .home-page ol.carousel-indicators li img {
     width: 227px;
