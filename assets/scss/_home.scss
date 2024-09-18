@@ -170,28 +170,48 @@
             animation: reel 4s linear infinite;
         }
     }
-    #complextopics .container {
-        margin-top: auto;
+    #complextopics {
+        .container {
+            max-height: 643px;
+        }
     }
-    .workshop-container {
+    .observation-tank-container {
         position: relative;
         width: 100%;
     }
-    .workshop {
+    .observation-tank {
         position: relative;
         width: 100%;
         height: 60vw;
         min-height: 400px;
         max-height: 643px;
-        background-image: url(../img/home/border-bottom.png), url(../img/home/Workshop_Background.png);
-        background-size: 25px, cover;
+        background-image: url(../img/home/border-bottom.png), url(../img/home/ObservationTank_Background.png);
+        background-size: 25px, 150%;
         background-repeat: repeat-x, no-repeat;
-        background-position: bottom,top;
+        background-position: bottom,50% 65%;
         text-align: center;
         padding-top: 5em;
         display: flex;
         justify-content: center;
         overflow: hidden;
+        
+        @media (max-width: 472px) {
+            background-position: bottom, top;
+        }
+    }
+    .otter1 {
+        position: relative;
+        width:73px;
+        height:63px;
+        top: 30%;
+        left: 20%;
+    }
+    .otter2 {
+        position: relative;
+        width:63px;
+        height:55px;
+        top: 10%;
+        right: 10%;
     }
 
     @media (min-width: 576px) {
@@ -212,11 +232,20 @@
         .modeling-room .modeling-reel {
             left: calc(50% + 21.5vw);
         }
+        .otter1 {
+            width: 145px;
+            height: 125px;
+        }
+        .otter2 {
+            width: 125px;
+            height: 110px;
+        }
     }
     @media (min-width: 768px) {
         .flex-lg-reverse {
             flex-direction: row-reverse;
         }
+
     }
     @media (min-width: 992px) {
         .flex-lg-reverse {
@@ -243,6 +272,14 @@
                 width: max(24vw, 166px);
                 margin-left: calc(max(24vw, 166px) * -.2);
             }
+        }
+        .otter1 {
+            width: 193px;
+            height: 166px;
+        }
+        .otter2 {
+            width: 166px;
+            height: 146px;
         }
     }
     @media (min-width: 1600px) {
@@ -293,11 +330,11 @@
             background-size: 9px, 9px;
             border-bottom: none;
         }
-        .workshop {
-            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/Workshop_Background.png);
+        .observation-tank {
+            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/ObservationTank_Background.png);
             background-size: 9px, 9px, cover;
             background-repeat: repeat-y, repeat-y, no-repeat;
-            background-position: left, right, top;
+            background-position: left, right, center;
         }
         .modeling-monitor {
             top: 205px;
@@ -316,6 +353,16 @@
                 top: 315px;
                 width: max(5%, 53px);
             }
+        }
+        .otter1 {
+            width: 145px;
+            height: 125px;
+            top: 40%;
+        }
+        .otter2 {
+            width: 125px;
+            height: 110px;
+            top: 25%;
         }
     }
     @media (min-width: 2100px) {
