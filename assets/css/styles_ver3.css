@@ -17629,6 +17629,31 @@ tbody tr {
   min-height: 687px;
   background: url("../img/home/ocean-floor.png") repeat-x center;
   background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.home-page .ocean-floor img {
+  position: absolute;
+  width: auto;
+}
+.home-page .ocean-floor .kelp1 {
+  bottom: 72px;
+  left: calc(50% - 525px);
+}
+.home-page .ocean-floor .kelp2 {
+  bottom: 48px;
+  left: calc(50% - 315px);
+  height: 395px;
+}
+.home-page .ocean-floor .kelp3 {
+  bottom: 55px;
+  left: calc(50% + 155px);
+  height: 383px;
+}
+.home-page .ocean-floor .kelp4 {
+  bottom: 28px;
+  left: calc(50% + 359px);
+  transform: scaleX(-1);
 }
 .home-page #complextopics .container {
   margin-top: auto;
