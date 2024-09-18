@@ -135,15 +135,22 @@
     </section>
     <div class="bottom-frame"></div>
     <section id="complextopics" class="ship-room lead d-flex flex-col flex-xxl-reverse">
-        <div class="workshop-container">
-            <div class="workshop">
+        <div class="observation-tank-container">
+            <div class="observation-tank">
+                <img class="otter1 floatslow" src="assets/img/home/otter1.png" alt="cute otters floating in an observation tank" />
+                <img class="otter2 float" src="assets/img/home/otter2.png" />
             </div>
         </div>
-        <div class="container hero-text">
-            <h4>Games explore complex topics.</h4>
-            <p>It's hard to communicate super complex topics in a short time frame. Games turn complicated topics into fun,
-                hands-on experiences that actually reach people. Our games get millions of plays.
-            </p>
+        <div class="container d-flex flex-col flex-lg-reverse flex-xxl-col">
+            <div class="section-img">
+                <!-- <img src="assets/img/home/gamer-kid.png" alt="a person standing tall with a tablet in hand"> -->
+            </div>
+            <div class="hero-text">
+                <h4>Games explore complex topics.</h4>
+                <p>It's hard to communicate super complex topics in a short time frame. Games turn complicated topics into fun,
+                    hands-on experiences that actually reach people. Our games get millions of plays.
+                </p>
+            </div>
         </div>
     </section>
     <div class="bottom-frame z1"></div>
