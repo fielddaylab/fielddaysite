@@ -29,6 +29,10 @@
     a.button:focus {
       opacity: 0.9;
     }
+    .row {
+      z-index: 100;
+      position: relative;
+    }
   }
   .alt {
     background: $light_yellow;
