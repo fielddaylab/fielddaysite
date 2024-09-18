@@ -378,7 +378,12 @@
             </div>
         </div>
     </section>
-    <div class="ocean-floor"></div>    
+    <div class="ocean-floor">
+        <img class="kelp1" src="/assets/img/home/giant-kelp.png">
+        <img class="kelp2" src="/assets/img/home/giant-kelp.png">
+        <img class="kelp3" src="/assets/img/home/giant-kelp.png">
+        <img class="kelp4" src="/assets/img/home/giant-kelp.png">
+    </div>    
 </div>
 
 <!--include footer-->

@@ -549,6 +549,31 @@
         min-height: 687px;
         background: url("../img/home/ocean-floor.png") repeat-x center;
         background-size: cover;
+        position: relative;
+        overflow: hidden;
+        img {
+            position: absolute;
+            width: auto;
+        }
+        .kelp1 {
+            bottom: 72px;
+            left: calc(50% - 525px);
+        }
+        .kelp2 {
+            bottom: 48px;
+            left: calc(50% - 315px);
+            height: 395px;
+        }
+        .kelp3 {
+            bottom: 55px;
+            left: calc(50% + 155px);
+            height: 383px;
+        }
+        .kelp4 {
+            bottom: 28px;
+            left: calc(50% + 359px);
+            transform: scaleX(-1);
+        }
     }
 
     #complextopics .container {
