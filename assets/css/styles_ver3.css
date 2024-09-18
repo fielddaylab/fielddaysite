@@ -10562,7 +10562,7 @@ p a {
 }
 .mobile-nav-container .content .nav-content .nav-links {
   display: flex;
-  margin-left: 2.5em;
+  margin-left: 4em;
   margin-bottom: 1em;
 }
 @media only screen and (max-width: 768px) {
@@ -17141,6 +17141,14 @@ tbody tr {
   z-index: 1;
   position: relative;
 }
+.home-page .z99 {
+  z-index: 99;
+  position: relative;
+}
+.home-page .z100 {
+  z-index: 100;
+  position: relative;
+}
 .home-page .ship {
   width: 80vw;
   margin-left: auto;
@@ -17307,6 +17315,9 @@ tbody tr {
   text-align: center;
   overflow: hidden;
 }
+.home-page #modelingroom {
+  background-color: #001E2A;
+}
 .home-page #modelingroom .hero-text {
   margin-top: auto;
 }
@@ -17360,7 +17371,6 @@ tbody tr {
   align-items: center;
 }
 .home-page .deepsea .container {
-  z-index: 100;
   padding-bottom: 0;
 }
 .home-page .deepsea h3 {
@@ -17370,6 +17380,7 @@ tbody tr {
 }
 .home-page .deepsea h4:not(.panel h4) {
   font-family: "Fraunces", serif;
+  font-style: italic;
   text-align: center;
   margin: auto;
   padding-bottom: 1em;
@@ -17404,6 +17415,9 @@ tbody tr {
 .home-page .deepsea .bios .gridder-list {
   background: none;
   width: 45%;
+}
+.home-page .deepsea .bios .gridder-list:hover, .home-page .deepsea .bios .gridder-list:focus {
+  transform: scale(1.1);
 }
 .home-page .deepsea .bios .partner-img {
   border: 1px solid transparent;
@@ -17491,6 +17505,7 @@ tbody tr {
 }
 .home-page .deepsea .bubble figcaption {
   font-family: "Fraunces", serif;
+  font-style: italic;
   font-size: 14px;
   color: #fff;
   line-height: normal;
@@ -17656,7 +17671,7 @@ tbody tr {
   transform: scaleX(-1);
 }
 .home-page #complextopics .container {
-  max-height: 643px;
+  margin-top: auto;
 }
 .home-page .observation-tank-container {
   position: relative;

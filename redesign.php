@@ -153,8 +153,8 @@
             </div>
         </div>
     </section>
-    <div class="bottom-frame z1"></div>
-    <section id="wherethekidsare" class="ship-room lead d-flex flex-col flex-xxl-row">
+    <div class="bottom-frame z100"></div>
+    <section id="wherethekidsare" class="ship-room lead d-flex flex-col flex-xxl-row z99">
         <div class="cabin-water">
             <div class="cabin"></div>
             <div class="helm-frame"></div>
@@ -172,8 +172,8 @@
             </div>
         </div>
     </section>
-    <div class="bottom-frame"></div>
-    <section id="modelingroom" class="ship-room lead d-flex flex-col flex-xxl-reverse">
+    <div class="bottom-frame z100"></div>
+    <section id="modelingroom" class="ship-room lead d-flex flex-col flex-xxl-reverse z100">
         <div class="modeling-container">
             <div class="modeling-monitor">
                 <video autoplay muted loop>
@@ -190,9 +190,9 @@
                 We help researchers and educators understand how kids learn.</p>
         </div>
     </section>
-    <div class="bottom-frame"></div>
+    <div class="bottom-frame z100"></div>
     <section id="howdowemake" class="d-flex flex-col deepsea">
-        <div class="container d-flex flex-col">
+        <div class="container d-flex flex-col z100">
             <h3>
                 HOW DO WE MAKE GAMES?
             </h3>
@@ -401,7 +401,7 @@
 <script>
   // toggle navbar spotlight when make games section scrolls into view
   $(window).scroll(function() {
-      $(this).scrollTop() >= $('#howdowemake').offset().top-$('.small-nav').height() ? $('.spotlight').removeClass('hide') : $('.spotlight').addClass('hide');
+      $(this).scrollTop() >= $('#howdowemake').offset().top-$(this).height() ? $('.spotlight').removeClass('hide') : $('.spotlight').addClass('hide');
   });
 
     $(function() {

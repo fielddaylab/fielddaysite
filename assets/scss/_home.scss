@@ -49,6 +49,14 @@
         z-index: 1;
         position: relative;
     }
+    .z99 {
+        z-index: 99;
+        position: relative;
+    }
+    .z100 {
+        z-index: 100;
+        position: relative;
+    }
     .ship {
         width: 80vw;
         margin-left: auto;
@@ -211,8 +219,11 @@
         text-align: center;
         overflow: hidden;
     }    
-    #modelingroom .hero-text {
-        margin-top: auto;
+    #modelingroom {
+        background-color: #001E2A;        
+        .hero-text {
+            margin-top: auto;
+        }
     }
     .modeling-container {
         position: relative;
@@ -264,7 +275,6 @@
         align-items: center;
         
         .container {
-            z-index: 100;
             padding-bottom: 0;
         }
 
@@ -276,6 +286,7 @@
 
         h4:not(.panel h4) {
             font-family: "Fraunces", serif;
+            font-style: italic;
             text-align: center;
             margin: auto;
             padding-bottom: 1em;
@@ -312,6 +323,9 @@
             .gridder-list {
                 background: none;
                 width: 45%;
+                &:hover, &:focus {
+                    transform: scale(1.1);
+                }
             }
             .partner-img {
                 border: 1px solid transparent;
@@ -405,6 +419,7 @@
             }
             figcaption {
                 font-family: "Fraunces", serif;
+                font-style: italic;
                 font-size: 14px;
                 color: #fff;
                 line-height: normal;
