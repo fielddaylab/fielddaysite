@@ -17417,7 +17417,7 @@ tbody tr {
   background: none;
   width: 45%;
 }
-.home-page .deepsea .bios .gridder-list:hover, .home-page .deepsea .bios .gridder-list:focus {
+.home-page .deepsea .bios .gridder-list:hover, .home-page .deepsea .bios .gridder-list:focus, .home-page .deepsea .bios .gridder-list.selectedItem {
   transform: scale(1.1);
 }
 .home-page .deepsea .bios .partner-img {

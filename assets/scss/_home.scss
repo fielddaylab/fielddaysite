@@ -324,7 +324,7 @@
             .gridder-list {
                 background: none;
                 width: 45%;
-                &:hover, &:focus {
+                &:hover, &:focus, &.selectedItem {
                     transform: scale(1.1);
                 }
             }
