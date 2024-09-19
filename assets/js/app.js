@@ -2,13 +2,15 @@
 var mn = $(".small-nav");
     mns = "nav-fixed";
     bd = $('body');
-    ct = $('.curtain-toggle');
+    // ct = $('.curtain-toggle');
     hdr = $('.hero').height();
 
 $(window).scroll(function() {
   if( $(this).scrollTop() > 200 ) {
     mn.addClass(mns);
     bd.addClass(mns);
+    //Curtain scripts. comment out when not in use
+    /*
     ct.addClass('curtain-toggle-hidden');
     bd.removeClass('drawerleft-open');
     bd.removeClass('drawerright-open');
@@ -16,6 +18,7 @@ $(window).scroll(function() {
   }
   else {
     ct.removeClass('curtain-toggle-hidden');
+  */
   }
 });
 
@@ -141,13 +144,14 @@ $(window).scroll(function () {
       }
    });
 });
-
+//Curtain scripts. comment out when not in use
+/*
 $('.curtain-close').click(function(){
   $('#mainwrapper').removeClass('curtain-show');
   $('.curtain').removeClass('curtain-show');
   $('.curtain-toggle').addClass('curtain-toggle-show');
 });
-
+*/
 $('.corrected').buddySystem();
 
 $(document).ready(function(){
@@ -174,7 +178,7 @@ $(document).ready(function() {
         $('body').addClass('curtain-show');
     }
 });
-*/
+
 $(document).ready(function() {
     if ($('body').hasClass('curtain-show')) {
         $('.curtain-toggle').addClass('curtain-toggle-hidden');
@@ -207,7 +211,7 @@ $('.curtain-toggle').click(function(){
   $('.curtain').removeClass('curtain-hidden');
   $('.curtain-toggle').addClass('curtain-toggle-hidden')
 });
-
+*/
 // Function to add scrolling within mobile nav if window height is less than the nav container 
 // (Container height needs to be hard-coded because it starts at 0 prior to the transition effect.)
 function fixNavScroll() {

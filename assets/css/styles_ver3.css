@@ -17096,7 +17096,6 @@ tbody tr {
 }
 .home-page h2, .home-page .h2 {
   font-size: 36px;
-  font-family: brandon-grotesque, futura-pt, sans-serif;
   text-transform: uppercase;
 }
 .home-page h3 {
@@ -17199,6 +17198,7 @@ tbody tr {
   background-image: url("../img/home/Helm_Water.png");
   background-repeat: no-repeat;
   background-size: max(900px, 100vw);
+  background-position-y: -2vw;
   width: 100%;
   height: 57vw;
   min-height: 400px;
@@ -17254,10 +17254,10 @@ tbody tr {
     transform: translate(-1px, -2px) rotate(0.1deg);
   }
   50% {
-    transform: translate(-3px, 2px) rotate(-0.2deg);
+    transform: translate(-3px, 2px) rotate(-0.1deg);
   }
   75% {
-    transform: translate(-2px, -3px) rotate(-0.1deg);
+    transform: translate(-2px, -3px) rotate(-0.05deg);
   }
   100% {
     transform: translate(0, 0) rotate(0);
@@ -17265,11 +17265,11 @@ tbody tr {
 }
 .home-page .helm {
   position: absolute;
-  top: -2px;
+  top: -3px;
   width: max(903px, 100% + 5px);
-  height: 57vw;
+  height: 57.5vw;
   min-height: 400px;
-  max-height: 643px;
+  max-height: 644px;
   background-image: url("../img/home/Helm_Background.png");
   background-size: cover;
   animation: helm 5s linear infinite;
@@ -17291,12 +17291,12 @@ tbody tr {
 }
 .home-page .cabin {
   position: absolute;
-  top: -2px;
+  top: -3px;
   width: max(903px, 100% + 5px);
-  height: 57vw;
+  height: 57.5vw;
   min-height: 400px;
-  max-height: 643px;
-  background-image: url(../img/home/Cabin_Background.png);
+  max-height: 644px;
+  background-image: url("../img/home/Cabin_Background.png");
   background-size: cover;
   animation: helm 5s linear infinite;
   text-align: center;
@@ -17304,9 +17304,10 @@ tbody tr {
   left: 50%;
 }
 .home-page .cabin-water {
-  background-image: url(../img/home/Cabin_Water.png);
+  background-image: url("../img/home/Cabin_Water.png");
   background-repeat: no-repeat;
-  background-size: 100% 90%;
+  background-size: 100%;
+  background-position-y: center;
   width: 100%;
   height: 57vw;
   min-height: 400px;
@@ -17458,7 +17459,6 @@ tbody tr {
   font-size: 24px;
 }
 .home-page .deepsea .bios .panel p {
-  font-size: 16px;
   margin-top: 20px;
 }
 .home-page .deepsea .bios .panel .panel-body .panel-img, .home-page .deepsea .bios .panel .panel-body .panel-text {
@@ -17624,7 +17624,7 @@ tbody tr {
 }
 @media (min-width: 768px) {
   .home-page .deepsea p:not(.panel-body p, blockquote p) {
-    font-size: 21px;
+    font-size: 18px;
   }
   .home-page .deepsea h4:not(.panel h4) {
     font-size: 30px;
@@ -17747,6 +17747,9 @@ tbody tr {
   .home-page .flex-lg-reverse {
     flex-direction: row-reverse;
   }
+  .home-page .lead {
+    font-size: 18px;
+  }
 }
 @media (min-width: 992px) {
   .home-page .flex-lg-reverse {
@@ -17794,16 +17797,16 @@ tbody tr {
 }
 @media (min-width: 1070px) {
   .home-page .modeling-room .modeling-reel {
-    width: max(34px, 5.7cqh);
+    width: max(34px, 6.1cqh);
     left: auto;
-    margin-right: -55cqh;
+    margin-right: -59cqh;
   }
 }
 @media (min-width: 1162px) {
   .home-page .modeling-room .modeling-reel {
-    width: max(34px, 4.9%);
+    width: max(34px, 4.7%);
     top: 27.1vw;
-    left: 69vw;
+    left: calc(50% + 20vw);
     margin-right: auto;
   }
   .home-page .modeling-monitor {
@@ -17863,10 +17866,11 @@ tbody tr {
     max-height: unset;
     margin-top: -3px;
     background-size: auto 90%;
+    background-position-y: unset;
     border-left: 1px solid #001E2A;
   }
   .home-page .helm, .home-page .cabin {
-    height: calc(100% + 7px);
+    height: calc(100% + 9px);
     min-height: unset;
     max-height: unset;
     background-position: top;
@@ -17886,7 +17890,7 @@ tbody tr {
     background-position: left, right, center;
   }
   .home-page .modeling-monitor {
-    top: 205px;
+    top: 203px;
   }
   .home-page .modeling-monitor video {
     width: max(24%, 267px);
@@ -17901,7 +17905,7 @@ tbody tr {
   .home-page .modeling-room .modeling-reel {
     left: calc(50% + 228px);
     top: 315px;
-    width: max(5%, 53px);
+    width: max(4.9%, 53px);
   }
   .home-page .otter1 {
     width: 145px;
@@ -17923,19 +17927,29 @@ tbody tr {
     max-width: 1200px;
   }
   .home-page .helm-water, .home-page .cabin-water {
-    background-size: 100%;
-    background-position-y: 30%;
-  }
-  .home-page .modeling-monitor {
-    top: 9.4cqw;
-  }
-  .home-page .modeling-room .modeling-reel {
-    top: 14.7cqw;
-    left: 70%;
-    width: 4.75%;
+    background-size: 50vw;
+    background-position-y: calc(50% - 2vw);
   }
   .home-page .deepsea .panel-img {
     padding-right: 4rem;
+  }
+}
+@media (min-width: 2800px) {
+  .home-page .helm-water {
+    background-size: 100%;
+    background-position-y: 28%;
+  }
+  .home-page .cabin-water {
+    background-size: contain;
+    background-position-y: 30%;
+  }
+  .home-page .modeling-monitor {
+    top: 7.2cqw;
+  }
+  .home-page .modeling-room .modeling-reel {
+    top: 11.25cqw;
+    left: 70%;
+    width: 4.75%;
   }
 }
 .home-page section#carousel {
@@ -17980,8 +17994,6 @@ tbody tr {
   }
 }
 .home-page #carousel-hero .info p {
-  font-family: Courier;
-  font-size: 18px;
   line-height: 29px;
   margin-top: 20px;
 }
@@ -18131,7 +18143,7 @@ tbody tr {
   margin: 0 auto;
   width: 50px;
 }
-.home-page ol.carousel-indicators li.active {
+.home-page ol.carousel-indicators li.active, .home-page ol.carousel-indicators li:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
