@@ -586,8 +586,10 @@
         }
 
         .section-img {
+            padding-left: 5vw;
+            padding-right: 5vw;
             img {
-                margin-top: -6em;
+                margin-top: 0;
                 min-width: 95px;
                 width: 15vw;
                 @media (min-width: 400px) {
@@ -616,11 +618,11 @@
     .observation-tank {
         position: relative;
         width: 100%;
-        height: 60vw;
+        height: 57vw;
         min-height: 400px;
         max-height: 643px;
         background-image: url(../img/home/border-bottom.png), url(../img/home/ObservationTank_Background.png);
-        background-size: 25px, 150%;
+        background-size: 25px, cover;
         background-repeat: repeat-x, no-repeat;
         background-position: bottom,50% 65%;
         text-align: center;
@@ -630,22 +632,22 @@
         overflow: hidden;
         
         @media (max-width: 472px) {
-            background-position: bottom, top;
+            // background-position: 25px, top;
         }
     }
     .otter1 {
         position: relative;
         width:73px;
         height:63px;
-        top: 30%;
-        left: 20%;
+        top: 35%;
+        left: 15%;
     }
     .otter2 {
         position: relative;
         width:63px;
         height:55px;
-        top: 10%;
-        right: 10%;
+        top: 15%;
+        right: 7%;
     }
 
     @media (min-width: 576px) {
@@ -667,9 +669,13 @@
         .modeling-room .modeling-reel {
             left: calc(50% + 21.5vw);
         }
+        .observation-tank {
+            background-size: 25px, 150%;
+        }
         .otter1 {
             width: 145px;
             height: 125px;
+            left: 20%;
         }
         .otter2 {
             width: 125px;
