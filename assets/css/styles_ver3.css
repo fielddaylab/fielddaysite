@@ -17655,8 +17655,44 @@ tbody tr {
   left: calc(50% + 359px);
   transform: scaleX(-1);
 }
+@media (min-width: 1600px) {
+  .home-page #complextopics {
+    max-height: 643px;
+  }
+}
 .home-page #complextopics .container {
-  max-height: 643px;
+  margin-top: auto;
+}
+.home-page #complextopics .section-img img {
+  margin-top: -6em;
+  min-width: 95px;
+  width: 15vw;
+}
+@media (min-width: 400px) {
+  .home-page #complextopics .section-img img {
+    margin-top: -2em;
+  }
+}
+@media (min-width: 576px) {
+  .home-page #complextopics .section-img img {
+    margin-top: 0;
+  }
+}
+@media (min-width: 768px) {
+  .home-page #complextopics .section-img img {
+    width: 20vw;
+  }
+}
+@media (min-width: 1162px) {
+  .home-page #complextopics .section-img img {
+    width: 15vw;
+  }
+}
+@media (min-width: 1600px) {
+  .home-page #complextopics .section-img img {
+    width: 20%;
+    margin-top: 0;
+  }
 }
 .home-page .observation-tank-container {
   position: relative;

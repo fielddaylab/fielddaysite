@@ -576,8 +576,38 @@
         }
     }
 
-    #complextopics .container {
-        margin-top: auto;
+    #complextopics {
+        @media (min-width: 1600px) {
+            max-height: 643px;
+        }
+    
+        .container {
+            margin-top: auto;
+        }
+
+        .section-img {
+            img {
+                margin-top: -6em;
+                min-width: 95px;
+                width: 15vw;
+                @media (min-width: 400px) {
+                    margin-top: -2em;
+                }
+                @media (min-width: 576px) {
+                    margin-top: 0
+                }
+                @media (min-width: 768px) {
+                    width: 20vw;
+                }
+                @media (min-width: 1162px) {
+                    width: 15vw;
+                }
+                @media (min-width: 1600px) {
+                    width: 20%;
+                    margin-top: 0;
+                }
+            }
+        }
     }
     .observation-tank-container {
         position: relative;
