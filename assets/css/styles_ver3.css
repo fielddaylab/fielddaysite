@@ -17655,8 +17655,48 @@ tbody tr {
   left: calc(50% + 359px);
   transform: scaleX(-1);
 }
+@media (min-width: 1600px) {
+  .home-page #complextopics {
+    max-height: 643px;
+  }
+}
 .home-page #complextopics .container {
-  max-height: 643px;
+  margin-top: auto;
+}
+.home-page #complextopics .section-img {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.home-page #complextopics .section-img img {
+  margin-top: 0;
+  min-width: 95px;
+  width: 15vw;
+}
+@media (min-width: 400px) {
+  .home-page #complextopics .section-img img {
+    margin-top: -2em;
+  }
+}
+@media (min-width: 576px) {
+  .home-page #complextopics .section-img img {
+    margin-top: 0;
+  }
+}
+@media (min-width: 768px) {
+  .home-page #complextopics .section-img img {
+    width: 20vw;
+  }
+}
+@media (min-width: 1162px) {
+  .home-page #complextopics .section-img img {
+    width: 15vw;
+  }
+}
+@media (min-width: 1600px) {
+  .home-page #complextopics .section-img img {
+    width: 20%;
+    margin-top: 0;
+  }
 }
 .home-page .observation-tank-container {
   position: relative;
@@ -17665,11 +17705,11 @@ tbody tr {
 .home-page .observation-tank {
   position: relative;
   width: 100%;
-  height: 60vw;
+  height: 57vw;
   min-height: 400px;
   max-height: 643px;
   background-image: url(../img/home/border-bottom.png), url(../img/home/ObservationTank_Background.png);
-  background-size: 25px, 150%;
+  background-size: 25px, cover;
   background-repeat: repeat-x, no-repeat;
   background-position: bottom, 50% 65%;
   text-align: center;
@@ -17678,24 +17718,19 @@ tbody tr {
   justify-content: center;
   overflow: hidden;
 }
-@media (max-width: 472px) {
-  .home-page .observation-tank {
-    background-position: bottom, top;
-  }
-}
 .home-page .otter1 {
   position: relative;
   width: 73px;
   height: 63px;
-  top: 30%;
-  left: 20%;
+  top: 35%;
+  left: 15%;
 }
 .home-page .otter2 {
   position: relative;
   width: 63px;
   height: 55px;
-  top: 10%;
-  right: 10%;
+  top: 15%;
+  right: 7%;
 }
 @media (min-width: 576px) {
   .home-page .lead .section-img {
@@ -17716,9 +17751,13 @@ tbody tr {
   .home-page .modeling-room .modeling-reel {
     left: calc(50% + 21.5vw);
   }
+  .home-page .observation-tank {
+    background-size: 25px, 150%;
+  }
   .home-page .otter1 {
     width: 145px;
     height: 125px;
+    left: 18%;
   }
   .home-page .otter2 {
     width: 125px;
