@@ -104,6 +104,9 @@
         width: 100%;
         height: 40px;
     }
+    section.ship-room {
+        background-color: $blue-black;
+    }
 
     .helm-water {
         background-image: url("../img/home/Helm_Water.png");
@@ -220,11 +223,8 @@
         text-align: center;
         overflow: hidden;
     }    
-    #modelingroom {
-        background-color: $blue-black;        
-        .hero-text {
-            margin-top: auto;
-        }
+    #modelingroom .hero-text {
+        margin-top: auto;
     }
     .modeling-container {
         position: relative;
