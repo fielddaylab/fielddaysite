@@ -141,9 +141,9 @@
                 <img class="otter2 float" src="assets/img/home/otter2.png" />
             </div>
         </div>
-        <div class="container d-flex flex-col flex-lg-reverse flex-xxl-col">
+        <div class="container d-flex flex-col flex-lg-row flex-xxl-col">
             <div class="section-img">
-                <!-- <img src="assets/img/home/gamer-kid.png" alt="a person standing tall with a tablet in hand"> -->
+                <img src="assets/img/home/gamer-kid.png" alt="a person standing tall with a tablet in hand">
             </div>
             <div class="hero-text">
                 <h4>Games explore complex topics.</h4>

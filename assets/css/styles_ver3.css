@@ -17836,17 +17836,15 @@ tbody tr {
 }
 @media (min-width: 1070px) {
   .home-page .modeling-room .modeling-reel {
-    width: max(34px, 5.9cqh);
-    left: auto;
-    margin-right: -56cqh;
+    width: 54px;
+    left: calc(50% + 230px);
   }
 }
 @media (min-width: 1162px) {
   .home-page .modeling-room .modeling-reel {
     width: max(34px, 4.7%);
-    top: 27.1vw;
+    top: 27.2vw;
     left: calc(50% + 20vw);
-    margin-right: auto;
   }
   .home-page .modeling-monitor {
     top: 17.5vw;

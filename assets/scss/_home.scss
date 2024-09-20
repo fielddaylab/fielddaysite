@@ -645,10 +645,6 @@
         display: flex;
         justify-content: center;
         overflow: hidden;
-        
-        @media (max-width: 472px) {
-            // background-position: 25px, top;
-        }
     }
     .otter1 {
         position: relative;
@@ -756,17 +752,15 @@
     }
     @media (min-width: 1070px) {
         .modeling-room .modeling-reel {
-            width: max(34px, 5.9cqh);
-            left: auto;
-            margin-right: -56cqh;
+            width: 54px;
+            left: calc(50% + 230px);
         }
     }
     @media (min-width: 1162px) {
         .modeling-room .modeling-reel {
             width: max(34px, 4.7%);
-            top: 27.1vw;
+            top: 27.2vw;
             left: calc(50% + 20vw);
-            margin-right: auto;
         }
         .modeling-monitor {
             top: 17.5vw;   
