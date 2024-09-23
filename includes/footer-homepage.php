@@ -27,7 +27,7 @@
         <div class="footer-signup">
           <img class="signup-badge img-responsive" src="/assets/img/illustrations/mask.png" alt="a stylized and colorfully patterned mask">
           <p class="small">Interested in what we're cooking up? We have many ways for you to get involved.</p>
-           <a target="_blank" href="#" class="button white filled xsmall">GET INVOLVED</a>
+           <!-- <a target="_blank" href="#" class="button white filled xsmall">GET INVOLVED</a> -->
         </div>
       </div>
     </div>

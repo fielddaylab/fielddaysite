@@ -15,11 +15,8 @@
   </div>
   <div class="right">
     <ul>
-      <!--<li>
-        <a class="button small yellow">gee game awards</a>
-      </li>-->
       <li>
-        <a class="button xsmall yellow filled hideforsmall" tabindex="0">get involved</a>
+        <!-- <a class="button xsmall yellow filled hideforsmall" tabindex="0">get involved</a> -->
         <div class="mobile-nav-toggle-wrap">
           <button class="btn-link nav-toggle">
             <span class="icon"></span>
