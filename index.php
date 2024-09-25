@@ -258,7 +258,7 @@
                                     Victor Zavala:
                                 </h4>
                                 <h5>
-                                    Professor, Chemical & Biological Engineering College of Engineering at UW-Madison
+                                    Professor, Chemical & Biological Engineering, College of Engineering, UW-Madison
                                 </h5>
                                 <p>
                                     "The most memorable thing about the [game design process] was meeting the high school teachers&hellip; It was refreshing to see how committed they were."
@@ -278,10 +278,10 @@
                                     John Pfotenhauer:
                                 </h4>
                                 <h5>
-                                    Professor Emeritus College of Engineering, UW-Madison
+                                    Professor Emeritus, College of Engineering, UW-Madison
                                 </h5>
                                 <p>
-                                    "Working with the Field Day lab has been a transformative experience for my research group. Via the development of our video games, they have taught me so much about creative thinking, visualization, teaching, and effective communication. I am now implementing some of these practices in our own research. The Field day lab is a special group of individuals that are pushing the boundaries of STEM outreach and education."
+                                    "Working with the Field Day Lab has been a transformative experience for my research group. Via the development of our video games, they have taught me so much about creative thinking, visualization, teaching, and effective communication. I am now implementing some of these practices in our own research. The Field Day Lab is a special group of individuals that are pushing the boundaries of STEM outreach and education."
                                 </p>
                             </div>
                         </div>
