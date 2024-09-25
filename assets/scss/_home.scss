@@ -909,6 +909,9 @@
     section#carousel {
         margin-top: 63px; /* offset for the top nav-bar */
         padding: 0;
+        @media only screen and (max-width: 768px) {
+            margin-top: 53px; /* offset for smaller nav-bar */
+        }
     }
 
     #carousel-hero .info{
@@ -963,8 +966,10 @@
         height: 75vh;
         width: 100vw;
 
-        background-size: cover !important;
+        background-size: auto max(100%, 1080px); /* background-size for 1080p video */
         background-repeat: no-repeat !important;
+        background-position-x: 50%;
+        background-position-y: 25%;
 
         .scanlines{
             background: url('../img/hero-images/crt-pattern.png');
@@ -975,13 +980,13 @@
             height: 100%;
             display: block;
             z-index: 101;
-            opacity: .5;
         }
 
         .carousel-video{
             position: fixed;
-            right: 0;
-            bottom: 0;
+            left: 50%;
+            top: 25%;
+            transform: translate(-50%, -25%);
             min-width: 100%;
             min-height: 100%;
         }
@@ -990,7 +995,15 @@
         {
             height: 80vh;
         }
-
+        /* change background-size when screen hits max video width */
+        @media (min-width: 1676px) {
+            &.narrow-video {
+                background-size: cover; 
+            }
+        }
+        @media (min-width: 1920px) {
+            background-size: cover;
+        }
     }
 
     ol.carousel-indicators{

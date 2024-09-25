@@ -17993,6 +17993,11 @@ tbody tr {
   margin-top: 63px; /* offset for the top nav-bar */
   padding: 0;
 }
+@media only screen and (max-width: 768px) {
+  .home-page section#carousel {
+    margin-top: 53px; /* offset for smaller nav-bar */
+  }
+}
 .home-page #carousel-hero .info {
   display: none;
   position: absolute;
@@ -18041,8 +18046,11 @@ tbody tr {
 .home-page .carousel-inner > .item {
   height: 75vh;
   width: 100vw;
-  background-size: cover !important;
+  background-size: auto max(100%, 1080px); /* background-size for 1080p video */
   background-repeat: no-repeat !important;
+  background-position-x: 50%;
+  background-position-y: 25%;
+  /* change background-size when screen hits max video width */
 }
 .home-page .carousel-inner > .item .scanlines {
   background: url("../img/hero-images/crt-pattern.png");
@@ -18053,18 +18061,28 @@ tbody tr {
   height: 100%;
   display: block;
   z-index: 101;
-  opacity: 0.5;
 }
 .home-page .carousel-inner > .item .carousel-video {
   position: fixed;
-  right: 0;
-  bottom: 0;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -25%);
   min-width: 100%;
   min-height: 100%;
 }
 @media (min-height: 800px) {
   .home-page .carousel-inner > .item {
     height: 80vh;
+  }
+}
+@media (min-width: 1676px) {
+  .home-page .carousel-inner > .item.narrow-video {
+    background-size: cover;
+  }
+}
+@media (min-width: 1920px) {
+  .home-page .carousel-inner > .item {
+    background-size: cover;
   }
 }
 .home-page ol.carousel-indicators {
