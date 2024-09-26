@@ -12,7 +12,7 @@
             
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active" style="background: url('assets/img/home/carousel/bloom-poster.jpg');">
+                <div class="item active narrow-video" style="background-image: url('assets/img/home/carousel/bloom-poster.png');">
                     <div class="info">
                         <img src="assets/img/home/carousel/bloom-logo.png" alt="Bloom: The Sage of the Fertilizer Economy game logo" />
                         <p>Create trade networks and enact policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers.</p>
@@ -21,11 +21,11 @@
                     <a href="play/bloom">
                         <span class="scanlines"></span>
                         <video preload="none" muted loop class="carousel-video">
-                            <source src="assets/video/home/carousel/bloom.mov" type="video/mp4">
+                            <source src="assets/video/home/carousel/bloom.mp4" type="video/mp4">
                         </video>
                      </a>
                 </div>
-                <div class="item" style="background: url('assets/img/home/carousel/wake-poster.jpg');">
+                <div class="item" style="background-image: url('assets/img/home/carousel/wake-poster.png');">
                     <div class="info">
                         <img src="assets/img/home/carousel/wake-logo.png" alt="Wake: Tales From the Aqualab game logo" />
                         <p>Take on the role of a scientist as you study ocean ecosystems, travel to exciting ocean research stations, and work with fellow scientists to solve problems.</p>
@@ -34,12 +34,12 @@
                     <a href="play/wake">
                         <span class="scanlines"></span>
                         <video preload="none" muted loop class="carousel-video">
-                            <source src="assets/video/home/carousel/wake.mov" type="video/mp4">
+                            <source src="assets/video/home/carousel/aqualab.mp4" type="video/mp4">
                         </video>
                     </a>
                 </div>
 
-                <div class="item" style="background: url('assets/img/home/carousel/journalism-poster.jpg');">
+                <div class="item" style="background-image: url('assets/img/home/carousel/journalism-poster.png');">
                     <div class="info">
                         <img src="assets/img/home/carousel/headlines-logo.png" alt="Headlines and High Water game logo" />
                         <p>Play as a journalist in the town of Twin Lakes. Will the stories you publish help the town prepare for the flood of the century?</p>
@@ -48,11 +48,11 @@
                     <a href="play/headlines">
                         <span class="scanlines"></span>
                         <video preload="none" muted loop class="carousel-video">
-                            <source src="assets/video/home/carousel/journalism.mov" type="video/mp4">
+                            <source src="assets/video/home/carousel/journalism.mp4" type="video/mp4">
                         </video>
                     </a>
                 </div>
-                <div class="item item-nomobile" style="background: url('assets/img/home/carousel/shipwrecks-poster.jpg');">
+                <div class="item item-nomobile" style="background-image: url('assets/img/home/carousel/shipwrecks-poster.png');">
                     <div class="info">
                         <img src="assets/img/home/carousel/emerald-logo.png" alt="Legend of the Lost Emerald game logo" />
                         <p>Play as a maritime archaeologist uncovering shipwrecks in the Great Lakes. Made in partnership with PBS Wisconsin and Wisconsin Sea Grant</p>
@@ -61,7 +61,7 @@
                     <a href="play/emerald">
                         <span class="scanlines"></span>
                         <video preload="none" muted loop class="carousel-video">
-                            <source src="assets/video/home/carousel/shipwrecks.mov" type="video/mp4">
+                            <source src="assets/video/home/carousel/shipwrecks.mp4" type="video/mp4">
                         </video>
                      </a>
                 </div>
@@ -222,7 +222,7 @@
                         <img class="collapse-arrow invisible" src="/assets/img/home/blue-arrow.png" alt="down arrow">
                     </li>
                     <li class="gridder-list app-card" data-griddercontent="#person4" role="menuitem">
-                        <img src="/assets/img/home/partners/tamara-thomsen.jpg" alt="Tamara Thomsen" class="partner-img">
+                        <img src="/assets/img/home/partners/anne-moser.jpg" alt="Anne Moser" class="partner-img">
                         <img class="collapse-arrow invisible" src="/assets/img/home/blue-arrow.png" alt="down arrow">
                     </li>
                 </ul>
@@ -238,11 +238,11 @@
                                     Sue Robinson:
                                 </h4>
                                 <h5>
-                                    Headlines and High Water
+                                    Helen Firstbrook Franklin Professor of Journalism, UW-Madison
                                 </h5>
-                                <p>"Working with Field Day Lab on our Headlines and High Water journalism video game has been a highlight of
-                                my career to date. The team is competent, responsive, creative, and brilliant and, furthermore, they are
-                                a dream to collaborate with. I am already seeking new projects we might do together!"</p>
+                                <p>
+                                    "Working with Field Day Lab on our Headlines and High Water journalism video game has been a highlight of my career to date. The team is competent, responsive, creative, and brilliant and, furthermore, they are a dream to collaborate with. I am already seeking new projects we might do together!"
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -251,17 +251,17 @@
                     <div class="panel">
                         <div class="panel-body text-left d-flex flex-col flex-lg-row">
                             <div class="panel-img">
-                                <!-- <img src="/assets/img/gameplay/headlines2.jpg" alt="Headlines and High Water game play"> -->
+                                <img src="/assets/img/gameplay/bloom.jpg" alt="Bloom: The Saga of the Fertilizer Economy">
                             </div>
                             <div class="panel-text">
                                 <h4>
                                     Victor Zavala:
                                 </h4>
                                 <h5>
-                                    <!-- Victor Zavala game -->
+                                    Professor, Chemical & Biological Engineering, College of Engineering, UW-Madison
                                 </h5>
                                 <p>
-                                    <!-- Victor Zavala text -->
+                                    "The most memorable thing about the [game design process] was meeting the high school teachers&hellip; It was refreshing to see how committed they were."
                                 </p>
                             </div>
                         </div>
@@ -271,17 +271,17 @@
                     <div class="panel">
                         <div class="panel-body text-left d-flex flex-col flex-lg-row">
                             <div class="panel-img">
-                                <!-- <img src="/assets/img/gameplay/headlines2.jpg" alt="Headlines and High Water game play"> -->
+                                <img src="/assets/img/gameplay/thermo-lab.jpg" alt="Thermodynamics VR">
                             </div>
                             <div class="panel-text">
                                 <h4>
                                     John Pfotenhauer:
                                 </h4>
                                 <h5>
-                                    <!-- John Pfotenhauer game -->
+                                    Professor Emeritus, College of Engineering, UW-Madison
                                 </h5>
                                 <p>
-                                    <!-- John Pfotenhauer text -->
+                                    "Working with the Field Day Lab has been a transformative experience for my research group. Via the development of our video games, they have taught me so much about creative thinking, visualization, teaching, and effective communication. I am now implementing some of these practices in our own research. The Field Day Lab is a special group of individuals that are pushing the boundaries of STEM outreach and education."
                                 </p>
                             </div>
                         </div>
@@ -291,17 +291,17 @@
                     <div class="panel">
                         <div class="panel-body text-left d-flex flex-col flex-lg-row">
                             <div class="panel-img">
-                                <!-- <img src="/assets/img/gameplay/headlines2.jpg" alt="Headlines and High Water game play"> -->
+                                <img src="/assets/img/gameplay/emerald.jpg" alt="Legend of the Lost Emerald">
                             </div>
                             <div class="panel-text">
                                 <h4>
-                                    Tamara Thomsen:
+                                    Anne Moser:
                                 </h4>
                                 <h5>
-                                    <!-- Tamara Thomsen game -->
+                                    Senior Special Librarian and Education Coordinator, Wisconsin Sea Grant
                                 </h5>
                                 <p>
-                                    <!-- Tamara Thomsen text -->
+                                    "It was an inspiring and rewarding experience to work with the Field Day Lab on our project. Having educators, maritime archaeologists, game designers, writers, Sea Grant specialists, coders and artists in one room to learn from each other and to brainstorm created an educational tool that brings to life our maritime history in a way that is meaningful, impactful and just darn fun. They are a model for working collaboratively, for allowing each practitioner to bring their knowledge and experience to the table."
                                 </p>
                             </div>
                         </div>
