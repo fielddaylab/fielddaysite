@@ -17136,10 +17136,6 @@ tbody tr {
 .home-page .flex-row {
   flex-direction: row;
 }
-.home-page .z1 {
-  z-index: 1;
-  position: relative;
-}
 .home-page .z99 {
   z-index: 99;
   position: relative;
@@ -18002,12 +17998,12 @@ tbody tr {
   display: none;
   position: absolute;
   z-index: 102;
-  width: 410px;
+  width: min(410px, 100vw);
   padding: 34px 34px 34px 15px;
   border-radius: 0 10px 10px 0;
   background-color: #001E2A;
   color: #F9F7F4;
-  top: 5vh;
+  top: calc(50% - 284px);
 }
 @media (min-width: 2015px) and (min-height: 640px) {
   .home-page #carousel-hero .info {
@@ -18019,20 +18015,15 @@ tbody tr {
     display: block;
   }
 }
-@media (min-height: 1000px) {
+@media (min-width: 1024px) and (max-aspect-ratio: 4/3) {
   .home-page #carousel-hero .info {
-    top: 15vh;
+    display: block;
   }
 }
-@media (min-height: 1200px) {
-  .home-page #carousel-hero .info {
-    top: 20vh;
-  }
-}
-@media (min-width: 2400px) {
+@media screen and (min-width: 1024px) {
   .home-page #carousel-hero .info {
     padding-left: 34px;
-    width: 428px;
+    width: 473px;
   }
 }
 .home-page #carousel-hero .info p {
@@ -18046,11 +18037,12 @@ tbody tr {
 .home-page .carousel-inner > .item {
   height: 75vh;
   width: 100vw;
-  background-size: auto max(100%, 1080px); /* background-size for 1080p video */
+  max-height: max(800px, 83.33333vw);
+  background-size: auto 100%; /* background-size for 1080p video */
   background-repeat: no-repeat !important;
   background-position-x: 50%;
   background-position-y: 25%;
-  /* change background-size when screen hits max video width */
+  /* crop height instead of width earlier for narrower video */
 }
 .home-page .carousel-inner > .item .scanlines {
   background: url("../img/hero-images/crt-pattern.png");
@@ -18069,20 +18061,40 @@ tbody tr {
   transform: translate(-50%, -25%);
   min-width: 100%;
   min-height: 100%;
+  height: 100%;
+  width: auto;
+  /* crop height instead of width in landscape */
 }
-@media (min-height: 800px) {
-  .home-page .carousel-inner > .item {
-    height: 80vh;
+@media screen and (min-aspect-ratio: 4/3) {
+  .home-page .carousel-inner > .item .carousel-video {
+    width: 100vw;
+    height: auto;
   }
 }
-@media (min-width: 1676px) {
+@media screen and (min-aspect-ratio: 1.2) {
+  .home-page .carousel-inner > .item {
+    background-size: cover;
+  }
+  .home-page .carousel-inner > .item.narrow-video .carousel-video {
+    width: 100vw;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .home-page .carousel-inner > .item {
+    max-height: 57vw;
+  }
+}
+@media screen and (min-width: 1600px) and (max-aspect-ratio: 1.2) {
+  .home-page .carousel-inner > .item {
+    max-height: 57vw;
+  }
   .home-page .carousel-inner > .item.narrow-video {
     background-size: cover;
   }
-}
-@media (min-width: 1920px) {
-  .home-page .carousel-inner > .item {
-    background-size: cover;
+  .home-page .carousel-inner > .item.narrow-video .carousel-video {
+    width: 100vw;
+    height: auto;
   }
 }
 .home-page ol.carousel-indicators {

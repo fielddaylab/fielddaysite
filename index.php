@@ -18,12 +18,10 @@
                         <p>Create trade networks and enact policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers.</p>
                         <a href="play/bloom" class="button yellow filled small">Learn More</a>
                     </div>
-                    <a href="play/bloom">
-                        <span class="scanlines"></span>
-                        <video preload="none" muted loop class="carousel-video">
-                            <source src="assets/video/home/carousel/bloom.mp4" type="video/mp4">
-                        </video>
-                     </a>
+                    <span class="scanlines"></span>
+                    <video preload="none" muted loop class="carousel-video">
+                        <source src="assets/video/home/carousel/bloom.mp4" type="video/mp4">
+                    </video>
                 </div>
                 <div class="item" style="background-image: url('assets/img/home/carousel/wake-poster.png');">
                     <div class="info">
@@ -31,12 +29,10 @@
                         <p>Take on the role of a scientist as you study ocean ecosystems, travel to exciting ocean research stations, and work with fellow scientists to solve problems.</p>
                         <a href="play/wake" class="button yellow filled small">Learn More</a>
                     </div>
-                    <a href="play/wake">
-                        <span class="scanlines"></span>
-                        <video preload="none" muted loop class="carousel-video">
-                            <source src="assets/video/home/carousel/aqualab.mp4" type="video/mp4">
-                        </video>
-                    </a>
+                    <span class="scanlines"></span>
+                    <video preload="none" muted loop class="carousel-video">
+                        <source src="assets/video/home/carousel/aqualab.mp4" type="video/mp4">
+                    </video>
                 </div>
 
                 <div class="item" style="background-image: url('assets/img/home/carousel/journalism-poster.png');">
@@ -45,12 +41,10 @@
                         <p>Play as a journalist in the town of Twin Lakes. Will the stories you publish help the town prepare for the flood of the century?</p>
                         <a href="play/headlines" class="button yellow filled small">Learn More</a>
                     </div>
-                    <a href="play/headlines">
-                        <span class="scanlines"></span>
-                        <video preload="none" muted loop class="carousel-video">
-                            <source src="assets/video/home/carousel/journalism.mp4" type="video/mp4">
-                        </video>
-                    </a>
+                    <span class="scanlines"></span>
+                    <video preload="none" muted loop class="carousel-video">
+                        <source src="assets/video/home/carousel/journalism.mp4" type="video/mp4">
+                    </video>
                 </div>
                 <div class="item item-nomobile" style="background-image: url('assets/img/home/carousel/shipwrecks-poster.png');">
                     <div class="info">
@@ -58,12 +52,10 @@
                         <p>Play as a maritime archaeologist uncovering shipwrecks in the Great Lakes. Made in partnership with PBS Wisconsin and Wisconsin Sea Grant</p>
                         <a href="play/emerald" class="button yellow filled small">Learn More</a>
                     </div>
-                    <a href="play/emerald">
-                        <span class="scanlines"></span>
-                        <video preload="none" muted loop class="carousel-video">
-                            <source src="assets/video/home/carousel/shipwrecks.mp4" type="video/mp4">
-                        </video>
-                     </a>
+                    <span class="scanlines"></span>
+                    <video preload="none" muted loop class="carousel-video">
+                        <source src="assets/video/home/carousel/shipwrecks.mp4" type="video/mp4">
+                    </video>
                 </div>
 
             </div>
@@ -115,8 +107,8 @@
         </div>
         <div class="water-pattern"></div>
     </section>
-    <div class="bottom-frame z1"></div>
-    <section id="whygames" class="ship-room lead d-flex flex-col flex-xxl-row">
+    <div class="bottom-frame z100"></div>
+    <section id="whygames" class="ship-room lead d-flex flex-col flex-xxl-row z99">
         <div class="helm-water">
             <div class="helm"></div>
             <h3 class="d-xxl-none ribbon">Why Games?</h3>
@@ -133,8 +125,8 @@
             </div>
         </div>
     </section>
-    <div class="bottom-frame"></div>
-    <section id="complextopics" class="ship-room lead d-flex flex-col flex-xxl-reverse">
+    <div class="bottom-frame z100"></div>
+    <section id="complextopics" class="ship-room lead d-flex flex-col flex-xxl-reverse z99">
         <div class="observation-tank-container">
             <div class="observation-tank">
                 <img class="otter1 floatslow" src="assets/img/home/otter1.png" alt="cute otters floating in an observation tank" />

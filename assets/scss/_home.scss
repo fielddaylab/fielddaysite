@@ -44,10 +44,6 @@
     .flex-row {
         flex-direction: row;
     }
-    .z1 {
-        z-index: 1;
-        position: relative;
-    }
     .z99 {
         z-index: 99;
         position: relative;
@@ -919,12 +915,12 @@
         display: none;
         position: absolute;
         z-index: 102;
-        width: 410px;
+        width: min(410px, 100vw);
         padding: 34px 34px 34px 15px;
         border-radius: 0 10px 10px 0;
         background-color: $blue-black;
         color: #F9F7F4;
-        top: 5vh;
+        top: calc(50% - 284px);
 
         @media (min-width: 2015px) and (min-height: 640px)
         {
@@ -935,18 +931,13 @@
             display: block;
         }
 
-        @media (min-height: 1000px){
-            top: 15vh;
-        }
+        @media (min-width: 1024px) and (max-aspect-ratio: 4/3){
+            display: block;
+        }        
 
-        @media (min-height: 1200px){
-            top: 20vh;
-        }
-
-
-        @media (min-width: 2400px){
+        @media screen and (min-width: 1024px){
             padding-left: 34px;
-            width: 428px;
+            width: 473px;
         }
 
         p{
@@ -965,8 +956,9 @@
 
         height: 75vh;
         width: 100vw;
+        max-height: max(800px, 83.33333vw);
 
-        background-size: auto max(100%, 1080px); /* background-size for 1080p video */
+        background-size: auto 100%; /* background-size for 1080p video */
         background-repeat: no-repeat !important;
         background-position-x: 50%;
         background-position-y: 25%;
@@ -989,20 +981,36 @@
             transform: translate(-50%, -25%);
             min-width: 100%;
             min-height: 100%;
-        }
-
-        @media(min-height: 800px)
-        {
-            height: 80vh;
-        }
-        /* change background-size when screen hits max video width */
-        @media (min-width: 1676px) {
-            &.narrow-video {
-                background-size: cover; 
+            height: 100%;
+            width: auto;
+            /* crop height instead of width in landscape */ 
+            @media screen and (min-aspect-ratio: 4/3) {
+                width: 100vw;
+                height: auto;
             }
         }
-        @media (min-width: 1920px) {
+        /* crop height instead of width earlier for narrower video */
+        @media screen and (min-aspect-ratio: 1.2) {
             background-size: cover;
+            &.narrow-video .carousel-video {
+                width: 100vw;
+                height: auto;
+            }
+        }
+        @media screen and (min-width: 1600px)
+        {
+            max-height: 57vw;
+        }
+        @media screen and (min-width: 1600px) and (max-aspect-ratio: 1.2)
+        {
+            max-height: 57vw;
+            &.narrow-video {
+                background-size: cover;
+                .carousel-video {
+                    width: 100vw;
+                    height: auto;
+                }
+            }
         }
     }
 
