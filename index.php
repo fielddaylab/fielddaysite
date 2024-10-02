@@ -15,7 +15,7 @@
                 <div class="item active narrow-video" style="background-image: url('assets/img/home/carousel/bloom-poster.png');">
                     <div class="info">
                         <img src="assets/img/home/carousel/bloom-logo.png" alt="Bloom: The Sage of the Fertilizer Economy game logo" />
-                        <p>Create trade networks and enact policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers.</p>
+                        <p>Create trade networks and make policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers.</p>
                         <a href="play/bloom" class="button yellow filled small">Learn More</a>
                     </div>
                     <span class="scanlines"></span>
