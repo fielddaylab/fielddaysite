@@ -98,7 +98,7 @@
     <section id="welcome">
         <div class="container">
             <h2>We are Field Day</h2>
-            <p>We are a team of artists, engineers, designers, researchers, teachers, subject experts, writers, parents, kids, and game lovers.</p>
+            <p>We are a team of artists, engineers, designers, researchers, writers, and game lovers.</p>
             <p>Welcome to our lab. Here's how we steer the ship.</p>
             <img src="assets/img/home/yellow-arrow.png" alt="down arrow">
         </div>
@@ -120,8 +120,7 @@
             </div>
             <div class="hero-text">
                 <h4>Games let you try on a new identity.</h4>
-                <p>Games are an important tool for teachers because they allow players to take on the role of
-                    scientists, journalists, explorers, and more.</p>
+                <p>Games are an important tool for teachers because they allow players to take on the role of scientists, journalists, explorers, and more.</p>
             </div>
         </div>
     </section>
@@ -157,9 +156,7 @@
             </div>
             <div class="hero-text">
                 <h4>Games are where the kids are.</h4>
-                <p>Kids spend a lot of time playing games these days. We love making something that
-                    can help them interact with the complicated, amazing world that they live in.
-                    Our games get played by millions of kids each year.
+                <p>Kids spend a lot of time playing games these days. We love making something that can help them interact with the complicated, amazing world that they live in. Our games get played by millions of kids each year.
                 </p>
             </div>
         </div>
@@ -178,8 +175,7 @@
         </div>
         <div class="container hero-text">
             <h4>Games as assessment</h4>
-            <p>Our research team leverages data science to create meaningful insights out of mountains of player data.
-                We help researchers and educators understand how kids learn.</p>
+            <p>Our research team leverages data science to create meaningful insights out of mountains of player data. We help researchers and educators understand how kids learn.</p>
         </div>
     </section>
     <div class="bottom-frame z100"></div>
@@ -191,9 +187,6 @@
             <h4>
                 Partnerships are the foundation of our design practice.
             </h4>
-            <p>
-                Field Day Lab was started as a partnership between the Wisconsin Department of Public Instruction and the University of Wisconsin-Madison.
-            </p>
             <p>
                 Each of our games is made in collaboration with a team of researchers, subject matter experts, scientists, teachers, and kids.
             </p>
@@ -253,7 +246,7 @@
                                     Professor, Chemical & Biological Engineering, College of Engineering, UW-Madison
                                 </h5>
                                 <p>
-                                    "The most memorable thing about the [game design process] was meeting the high school teachers&hellip; It was refreshing to see how committed they were."
+                                    "The most memorable thing about the game design process was meeting the high school teachers. It was refreshing to see how committed they were."
                                 </p>
                             </div>
                         </div>
@@ -273,7 +266,7 @@
                                     Professor Emeritus, College of Engineering, UW-Madison
                                 </h5>
                                 <p>
-                                    "Working with the Field Day Lab has been a transformative experience for my research group. Via the development of our video games, they have taught me so much about creative thinking, visualization, teaching, and effective communication. I am now implementing some of these practices in our own research. The Field Day Lab is a special group of individuals that are pushing the boundaries of STEM outreach and education."
+                                    "Working with the Field Day Lab has been a transformative experience for my research group. They have taught me so much about creative thinking, visualization, teaching, and effective communication. I am now implementing some of these practices in our own research. The Field Day Lab is a special group of individuals that are pushing the boundaries of STEM outreach and education."
                                 </p>
                             </div>
                         </div>
@@ -293,7 +286,7 @@
                                     Senior Special Librarian and Education Coordinator, Wisconsin Sea Grant
                                 </h5>
                                 <p>
-                                    "It was an inspiring and rewarding experience to work with the Field Day Lab on our project. Having educators, maritime archaeologists, game designers, writers, Sea Grant specialists, coders and artists in one room to learn from each other and to brainstorm created an educational tool that brings to life our maritime history in a way that is meaningful, impactful and just darn fun. They are a model for working collaboratively, for allowing each practitioner to bring their knowledge and experience to the table."
+                                    "Having educators, maritime archaeologists, game designers, writers, Sea Grant specialists, coders and artists in one room to learn from each other and to brainstorm created an educational tool that brings to life our maritime history in a way that is meaningful, impactful and just darn fun."
                                 </p>
                             </div>
                         </div>
@@ -307,13 +300,13 @@
                 GAMES DESIGNED FOR THE CLASSROOM
             </h3>
             <p>
-                Sure, sure, it feels great when kids ask if they can keep playing our games when class is over (the answer is yes!) but our games are designed and tested to work in class.
+                It feels great when kids ask if they can keep playing our games when class is over (the answer is yes!) but our games are designed and tested to work in class.   You're never too old to learn through play! We make games for elementary through college and beyond.
             </p>
             <p>
-                Our games can provide a meaningful experience in a single class period. We create them with input from education standards and our teacher fellowship program.
+                 We create them with input from education standards and our teacher fellowship program.
             </p>
             <p>
-                You're never too old to learn through play! We make games for elementary through college and beyond.
+              
             </p>            
         
             <div class="divider"></div>
@@ -322,12 +315,7 @@
                 And did we mention they're free?
              </h4>
             <p>
-                We don't ever make pay-to-play games. No ads. No grinding. No subscriptions, no logins, no hidden fees,
-                and no microtransactions.
-            </p>
-            <p>
-                Our games are always completely free for the public and available online. Funding comes from public
-                projects, partnerships, and grants.
+                  Our games are always completely free for the public and available online. No ads. No grinding. No subscriptions, no logins, no hidden fees, and no microtransactions.
             </p>
             <a href="/play" class="button small yellow filled">Play our games</a>
 
@@ -335,21 +323,19 @@
             <div class="bubble-container">
                 <figure class="bubble bubble-xl float">
                     <blockquote>
-                        <p>"Jo Wilder helps develop historical inquiry skills while meeting state standards and, of course, keeps kids engaged and excited! The game brought our existing fourth-grade curriculum full circle."</p>
+                        <p>"Jo Wilder helps develop historical inquiry skills while meeting state standards and, of course, keeps kids engaged and excited!"</p>
                     </blockquote>
                     <figcaption>
                         Mike Scoville<br>
-                        K-12 Library Media Specialist,<br>
                         Gibraltar Area School District
                     </figcaption>
                 </figure>
                 <figure class="bubble bubble-lg float">
                     <blockquote>
-                        <p>"An excellent experience in linking evidence to claims. This well crafted game is well worth those precious classroom minutes. My students keep begging me to play again!"</p>
+                        <p>"This well crafted game is well worth those precious classroom minutes. My students keep begging me to play again!"</p>
                     </blockquote>
                     <figcaption>
                         Katherine Seibel<br>
-                        Educator,<br>
                         Auburndale Elementary
                     </figcaption>
                 </figure>
