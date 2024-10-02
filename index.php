@@ -300,10 +300,7 @@
                 GAMES DESIGNED FOR THE CLASSROOM
             </h3>
             <p>
-                It feels great when kids ask if they can keep playing our games when class is over (the answer is yes!) but our games are designed and tested to work in class.   You're never too old to learn through play! We make games for elementary through college and beyond.
-            </p>
-            <p>
-                 We create them with input from education standards and our teacher fellowship program.
+                It feels great when kids ask if they can keep playing our games when class is over (the answer is yes!) but our games are designed and tested to work in class. We create them with input from education standards and our teacher fellowship program.
             </p>
             <p>
               
