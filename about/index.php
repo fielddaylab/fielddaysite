@@ -177,18 +177,6 @@
       <p>We offer student internships in Game Engineering, Art and Design, and Research. Join our multidisciplinary team and work on learning games that reach classrooms across the country and beyond. Engineering and Art and Design interns will leave with portfolio pieces. Research interns will contribute to academic publications. We’re always taking applications! <a href="https://docs.google.com/forms/d/1GytOoW-J4q7N2r0TPfybcYcgQeGYDmrMVSlrhMDHIok/viewform?edit_requested=true#response=ACYDBNiX1njuwj-Ip-M0Y7F9nl3IL7-o-xtHtoQzFEFzRobQx61s-fLm_Wy2UeGdr-Etiwc" target="_blank">Contact us</a> if you’re interested. Art and Design applicants must include a portfolio. </p>
       <ul class="gridder">
 
-
-        <li class="gridder-list" data-griddercontent="#profile_luke">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/luke.jpeg">
-            <div class="card-summary">
-              <h3>Luke Swanson</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-
         <li class="gridder-list" data-griddercontent="#profile_zach">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/astro.jpg">
