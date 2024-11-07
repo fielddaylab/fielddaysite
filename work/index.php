@@ -147,8 +147,6 @@ Millions of dollars each year are invested in Broader Impacts projects that reac
 
     </section>
 
-    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/ourstuff.php";  include_once($path); ?>
-
     <section class="workwithus">
       <div id="maincta" class="maincta">
         <img alt="flying spaceplane" src="/assets/img/illustrations/spaceplane-flight.png">
@@ -180,7 +178,7 @@ Millions of dollars each year are invested in Broader Impacts projects that reac
           showNav: true,                      // Show Navigation
           nextText: "Next",                   // Next button text
           prevText: "Previous",               // Previous button text
-          closeText: "Close",                 // Close button text
+          closeText: "<img src=\"/assets/img/ui/close-icon.png\">",                 // Close button text
           onStart: function(){
               //Gridder Inititialized
           },
