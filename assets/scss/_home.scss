@@ -56,9 +56,11 @@
         width: 80vw;
         margin-left: auto;
         margin-right: auto;
+        animation: waterfloat 15s linear infinite;
         img {
             width: 69vw;
             max-width: 760px;
+            margin-bottom:-10px;
         }
     }
     #welcome {
@@ -92,6 +94,7 @@
             width: 100%;
             height: 19px;
             margin-top: -22px;
+            animation: horizontalscroll 50s linear infinite;
         }
     }
     .bottom-frame {
@@ -110,7 +113,7 @@
         background-size: max(900px, 100vw);
         background-position-y: -2vw;
         width: 100%;
-        height: 57vw;
+        height: 60vh;
         min-height: 400px;
         max-height: 643px;
         position: relative;
@@ -165,6 +168,31 @@
             transform: translate(0, 0) rotate(0);
         }
     }
+    @keyframes waterfloat {
+        0% {
+            transform: translate(0, 0) rotate(0);
+        }
+        25% {
+            transform: translate(-1px, -2px) rotate(0.1deg);
+        }
+        50% {
+            transform: translate(-3px, 2px) rotate(-0.1deg);
+        }
+        75% {
+            transform: translate(-2px, -3px) rotate(-0.05deg);
+        }
+        100% {
+            transform: translate(0, 0) rotate(0);
+        }
+    }
+    @keyframes horizontalscroll {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: -100% 0;
+      }
+    }
     .helm {
         position: absolute;
         top: -3px;
@@ -212,7 +240,7 @@
         background-size: 100%;
         background-position-y: center;
         width: 100%;
-        height: 57vw;
+        height: 60vh;
         min-height: 400px;
         max-height: 643px;
         position: relative;
@@ -629,7 +657,7 @@
     .observation-tank {
         position: relative;
         width: 100%;
-        height: 57vw;
+        height: 60vh;
         min-height: 400px;
         max-height: 643px;
         background-image: url(../img/home/border-bottom.png), url(../img/home/ObservationTank_Background.png);
@@ -806,9 +834,6 @@
         #welcome p {
             max-width: 900px;
         }
-        .ship img {
-            max-width: 900px;
-        }
         .helm-water, .cabin-water {
             height: auto;
             min-height: unset;
@@ -918,16 +943,17 @@
         width: min(410px, 100vw);
         padding: 34px 34px 34px 15px;
         border-radius: 0 10px 10px 0;
-        background-color: $blue-black;
+        background-color: rgba(1, 28, 37, 0.65);
         color: #F9F7F4;
-        top: calc(50% - 284px);
+
+        top: calc(50% - 269px);
 
         @media (min-width: 2015px) and (min-height: 640px)
         {
             display: block;
         }
 
-        @media (min-height: 800px){
+        @media (min-height: 680px){
             display: block;
         }
 
@@ -947,14 +973,15 @@
 
         a{
             font-weight: 700;
-            margin-top: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
         }
 
     }
 
     .carousel-inner > .item {
 
-        height: 75vh;
+        height: 80vh;
         width: 100vw;
         max-height: max(800px, 83.33333vw);
 
@@ -965,13 +992,14 @@
 
         .scanlines{
             background: url('../img/hero-images/crt-pattern.png');
-            background-size: 40px;
+            background-size: 36px;
             background-repeat: repeat;
             position: absolute;
             width: 100%;
             height: 100%;
             display: block;
             z-index: 101;
+            opacity:0.6
         }
 
         .carousel-video{
@@ -1019,46 +1047,11 @@
         display: inline-block;
         list-style: none;
         position: absolute;
-        bottom: -32px;
+        bottom: -10vh;
         padding-left: 10px;
         width: 100%;
         text-align: center;
         z-index: 10;
-
-        @media(min-height: 400px)
-        {
-            bottom: -55px;
-        }
-
-        @media(min-width: 664px) and (min-height: 350px)
-        {
-            bottom: -55px;
-        }
-
-        @media(min-width: 880px) and (min-height: 350px)
-        {
-            bottom: -25px;
-        }
-
-        @media(min-height: 600px)
-        {
-            bottom: -100px;
-        }
-       
-        @media(min-height: 600px) and (min-width: 1204px)
-        {
-            bottom: -85px;
-        }
-       
-        @media(min-height: 1000px) and (min-width: 1204px)
-        {
-            bottom: -100px;
-        }
-
-        @media(min-height: 1100px) and (min-width: 1204px)
-        {
-            bottom: -135px;
-        }
 
         li{
             display: inline-block;
@@ -1068,8 +1061,7 @@
             height: 175px;
             background-color: $blue-black;
             border: 6px solid $blue-black;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
+            border-radius: 10px;
             cursor: pointer;
             vertical-align: top;
           
@@ -1090,9 +1082,9 @@
                 font-family: brandon-grotesque, futura-pt, sans-serif;
                 line-height: 16px;
                 font-weight: 450;
-                font-size: 14px;
+                font-size: 12px;
                 text-align: left;
-                padding: 3px 1px 0 1px;
+                padding: 3px 1px 5px 1px;
 
                 a{
                     color: #FAD9D9;
@@ -1141,10 +1133,10 @@
         }
 
         li.active, li:hover {
-            -webkit-transform:scale(1.1);
-            -moz-transform:scale(1.1);
-            -o-transform:scale(1.1);
-            transform:scale(1.1);
+            -webkit-transform:scale(1.05);
+            -moz-transform:scale(1.05);
+            -o-transform:scale(1.05);
+            transform:scale(1.05);
         }
 
         @media (min-width: 370px){

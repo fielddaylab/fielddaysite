@@ -217,6 +217,9 @@
       padding-left: 0;
       margin-left: 0;
       padding-top: 90px;
+      &:first-child {
+          padding-top:0px;
+       }
 
       @media #{$break-sm} {
         margin-top: 20px;
@@ -445,6 +448,7 @@
 
       h2 {
         text-transform: uppercase;
+
       }
 
       .fullscreen {
@@ -687,7 +691,7 @@
     }
   }
 
-  /* Template for thermoVR
+  /* Template for thermolab
   ---------------------------*/
   &.thermovr {
     #app-intro {
@@ -740,12 +744,12 @@
 
     .app-title {
       text-indent: -9999px;
-      background: url(/assets/img/logos/colored/thermovr-logo.png) no-repeat;
+      background: url(/assets/img/logos/colored/thermolab-mark.png) no-repeat;
       background-size: contain;
       background-position: left;
       border-right: 0px !important;
-      width: 700px;
-      height: 200px;
+      width: 800px;
+      height:100px;
 
       @media #{$break-sm} {
         width: 90%;

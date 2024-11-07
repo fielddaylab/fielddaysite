@@ -147,8 +147,6 @@ Millions of dollars each year are invested in Broader Impacts projects that reac
 
     </section>
 
-    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/ourstuff.php";  include_once($path); ?>
-
     <section class="workwithus">
       <div id="maincta" class="maincta">
         <img alt="flying spaceplane" src="/assets/img/illustrations/spaceplane-flight.png">

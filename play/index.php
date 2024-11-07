@@ -163,10 +163,10 @@
                                 </div>
                             </li>
                             <li class="gridder-list app-card" data-griddercontent="#game-thermovr">
-                                <img src="/assets/img/games/thumbs/thermovr.jpeg" class="app-logo">
+                                <img src="/assets/img/games/thumbs/thermolab-thumb.png" class="app-logo">
                                 <div class="game-wrapper">
                                     <div class="title">
-                                        <span>Thermodynamics VR</span>
+                                        <span>Thermolab</span>
                                     </div>
                                     <div class="stats">
                                         <p class="italic">Undergraduate Level</p>
@@ -631,22 +631,22 @@
                         <div id="game-thermovr" class="app-expanded gridder-content">
                             <div class="app-info app-pane left">
                                 <span class="close-app">
-                                    <h2>Thermodynamics VR</h2>
+                                    <h2>Thermolab</h2>
                                     <div class="stats">
                                         <p class="tag ">Undergraduate Level</p>
                                         <p>|</p>
                                         <p class="tag ">Thermodynamics</p>
                                     </div>
                                     <p class="small">
-                                        We teamed up with John Pfotenhauer, UW-Madison professor and researcher, to create this VR simulation for teaching undergraduate thermodynamics. The game allows students to interact with the abstract Equation of State in a hands-on, tactile environment.
+                                        Explore the world of thermodynamics by conducting experiments using a water-based piston-cylinder apparatus. The simulation allows users to control a collection of tools: a bunsen burner, cooling coils, weights, stops, and environmental controls, to develop an intuitive understanding of thermodynamic processes.
                                     </p>
                                     <p class="note">
                                         Partners: UW-Madison School of Engineering
                                     </p>
-                                    <a class="button small white filled" href="/play/thermovr" target="_blank">Learn More</a>
+                                    <a class="button small white filled" href="/play/thermolab" target="_blank">Learn More</a>
                             </div>
                             <div class="app-thumbnail app-pane right">
-                                <img src="/assets/img/gameplay/thermovr.jpg">
+                                <img src="/assets/img/gameplay/thermo-lab.jpg">
                             </div>
                         </div>
                         <div id="game-atom" class="app-expanded gridder-content">

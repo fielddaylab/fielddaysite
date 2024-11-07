@@ -7,7 +7,7 @@
 <!-- start page template -->
 <div class="home-page">
     <section id="carousel">
-        <div id="carousel-hero" class="carousel slide">
+        <div id="carousel-hero" class="carousel slide carousel-fade">
 
             
             <!-- Wrapper for slides -->
@@ -15,7 +15,7 @@
                 <div class="item active narrow-video" style="background-image: url('assets/img/home/carousel/bloom-poster.png');">
                     <div class="info">
                         <img src="assets/img/home/carousel/bloom-logo.png" alt="Bloom: The Sage of the Fertilizer Economy game logo" />
-                        <p>Create trade networks and make policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers.</p>
+                        <p class="small">Create trade networks and policies that keep farmers in business, while protecting local lakes and rivers.</p>
                         <a href="play/bloom" class="button yellow filled small">Learn More</a>
                     </div>
                     <span class="scanlines"></span>
@@ -26,7 +26,7 @@
                 <div class="item" style="background-image: url('assets/img/home/carousel/wake-poster.png');">
                     <div class="info">
                         <img src="assets/img/home/carousel/wake-logo.png" alt="Wake: Tales From the Aqualab game logo" />
-                        <p>Take on the role of a scientist as you study ocean ecosystems, travel to exciting ocean research stations, and work with fellow scientists to solve problems.</p>
+                        <p class="small">Take on the role of a scientist as you study ocean ecosystems, travel to exciting ocean research stations, and work with fellow scientists to solve problems.</p>
                         <a href="play/wake" class="button yellow filled small">Learn More</a>
                     </div>
                     <span class="scanlines"></span>
@@ -38,7 +38,7 @@
                 <div class="item" style="background-image: url('assets/img/home/carousel/journalism-poster.png');">
                     <div class="info">
                         <img src="assets/img/home/carousel/headlines-logo.png" alt="Headlines and High Water game logo" />
-                        <p>Play as a journalist in the town of Twin Lakes. Will the stories you publish help the town prepare for the flood of the century?</p>
+                        <p class="small">Play as a journalist in the town of Twin Lakes. Will the stories you publish help the town prepare for the flood of the century?</p>
                         <a href="play/headlines" class="button yellow filled small">Learn More</a>
                     </div>
                     <span class="scanlines"></span>
@@ -49,7 +49,7 @@
                 <div class="item item-nomobile" style="background-image: url('assets/img/home/carousel/shipwrecks-poster.png');">
                     <div class="info">
                         <img src="assets/img/home/carousel/emerald-logo.png" alt="Legend of the Lost Emerald game logo" />
-                        <p>Play as a maritime archaeologist uncovering shipwrecks in the Great Lakes. Made in partnership with PBS Wisconsin and Wisconsin Sea Grant</p>
+                        <p class="small">Play as a maritime archaeologist uncovering shipwrecks in the Great Lakes. Made in partnership with PBS Wisconsin and Wisconsin Sea Grant</p>
                         <a href="play/emerald" class="button yellow filled small">Learn More</a>
                     </div>
                     <span class="scanlines"></span>
@@ -84,7 +84,7 @@
                             <img src="assets/img/home/carousel/group-1014.png" alt="Game Controller" />
                         </div>
                         <div class="thumb-caption">
-                            Play all of our games
+                            More Games
                         </div>
                     </a>
                 </li>
@@ -102,7 +102,7 @@
             <p>Welcome to our lab. Here's how we steer the ship.</p>
             <img src="assets/img/home/yellow-arrow.png" alt="down arrow">
         </div>
-        <div class="ship">
+        <div class="ship floatslow">
             <img src="assets/img/home/site-boat.png" alt="ship cutaway">
         </div>
         <div class="water-pattern"></div>
@@ -111,7 +111,7 @@
     <section id="whygames" class="ship-room lead d-flex flex-col flex-xxl-row z99">
         <div class="helm-water">
             <div class="helm"></div>
-            <h3 class="d-xxl-none ribbon">Why Games?</h3>
+            <!--<h3 class="d-xxl-none ribbon">Why Games?</h3>-->
             <div class="helm-frame"></div>
         </div>
         <div class="container d-flex flex-col flex-lg-reverse flex-xxl-col">
@@ -174,7 +174,7 @@
             </div>
         </div>
         <div class="container hero-text">
-            <h4>Games as assessment</h4>
+            <h4>Games as Assessment</h4>
             <p>Our research team leverages data science to create meaningful insights out of mountains of player data. We help researchers and educators understand how kids learn.</p>
         </div>
     </section>
