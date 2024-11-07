@@ -1,0 +1,1269 @@
+/* Home page styles */
+
+.home-page {
+    background-color: $blue-black;
+    h2, .h2 {
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+    h3 {
+        font-size: 45px;
+        text-transform: uppercase;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    .lead {
+        color: #fff;
+        .h2 {
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), #202F3C -0.1em 0.05em;
+        }
+        margin-bottom: 0;
+        .section-img {
+            margin-top: -6em;
+            text-align: center;
+            img {
+                width: 35vw;
+                max-width: 345px;
+                min-width: 195px;
+            }
+        }
+    }
+    p {
+        line-height: 32px;
+    }
+    .hero-text h4 {
+        margin-bottom: 2rem;
+    }
+    .d-flex {
+        display: flex;
+    }
+    .flex-col {
+        flex-direction: column;
+    }
+    .flex-row {
+        flex-direction: row;
+    }
+    .z99 {
+        z-index: 99;
+        position: relative;
+    }
+    .z100 {
+        z-index: 100;
+        position: relative;
+    }
+    .ship {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        animation: waterfloat 15s linear infinite;
+        img {
+            width: 69vw;
+            max-width: 760px;
+            margin-bottom:-10px;
+        }
+    }
+    #welcome {
+
+        z-index: 5;
+        color: #fff;
+        text-align: center;
+        background-image: url("/assets/img/home/stars-pattern.png"), linear-gradient(180deg, #03283A 22.34%, #0B4F65 47.58%, #32BBC3 73.98%, #FFA490 99.61%);
+        background-position: center 15px, center;
+        background-repeat: repeat-x, repeat-x;
+
+        .container {
+            padding-bottom: 0;
+        }
+        h2 {
+            color: #E0B729;
+            margin-top: 15rem;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        p {
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .water-pattern {
+            position: relative;
+            background-image: url("/assets/img/home/water.png");
+            background-repeat: repeat-x;
+            background-position: bottom;
+            background-size: 19px;
+            width: 100%;
+            height: 19px;
+            margin-top: -22px;
+            animation: horizontalscroll 50s linear infinite;
+        }
+    }
+    .bottom-frame {
+        background-image: url("../img/home/bulwarks.png");
+        background-repeat: repeat-x;
+        width: 100%;
+        height: 40px;
+    }
+    section.ship-room {
+        background-color: $blue-black;
+    }
+
+    .helm-water {
+        background-image: url("../img/home/Helm_Water.png");
+        background-repeat: no-repeat;
+        background-size: max(900px, 100vw);
+        background-position-y: -2vw;
+        width: 100%;
+        height: 60vh;
+        min-height: 400px;
+        max-height: 643px;
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+        .ribbon {
+            position: relative;
+            background-image: url("/assets/img/home/stars-ribbon.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 100vw;
+            height: 30vw;
+            max-width: 464px;
+            max-height: 138px;
+            padding-top: 9.5vw;
+            font-size: 9.5vw;
+            color: #E0B729;
+            margin-top: 0;
+            margin-left: auto;
+            margin-right: auto;
+            @media (min-width: 464px) {
+                width: 60vw;
+                font-size: 36px;
+                padding-top: 5%;
+            }
+            @media (min-width: 576px) {
+                width: 55vw;
+                font-size: 45px;
+            }
+            @media (min-width: 768px) {
+                width: 50vw;
+            }
+            @media (min-width: $screen-md-min) {
+                padding-top: 45px;
+            }
+        }
+    }
+    @keyframes helm {
+        0% {
+            transform: translate(0, 0) rotate(0);
+        }
+        25% {
+            transform: translate(-1px, -2px) rotate(0.1deg);
+        }
+        50% {
+            transform: translate(-3px, 2px) rotate(-0.1deg);
+        }
+        75% {
+            transform: translate(-2px, -3px) rotate(-0.05deg);
+        }
+        100% {
+            transform: translate(0, 0) rotate(0);
+        }
+    }
+    @keyframes waterfloat {
+        0% {
+            transform: translate(0, 0) rotate(0);
+        }
+        25% {
+            transform: translate(-1px, -2px) rotate(0.1deg);
+        }
+        50% {
+            transform: translate(-3px, 2px) rotate(-0.1deg);
+        }
+        75% {
+            transform: translate(-2px, -3px) rotate(-0.05deg);
+        }
+        100% {
+            transform: translate(0, 0) rotate(0);
+        }
+    }
+    @keyframes horizontalscroll {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: -100% 0;
+      }
+    }
+    .helm {
+        position: absolute;
+        top: -3px;
+        width: max(903px, calc(100% + 5px));
+        height: 57.5vw;     
+        min-height: 400px;
+        max-height: 644px;
+        background-image: url("../img/home/Helm_Background.png");
+        background-size: cover;
+        animation: helm 5s linear infinite;
+        text-align: center;
+        margin-left: min(-451px, -50%);
+        left: 50%;
+    }
+    .helm-frame {
+        background-image: url("../img/home/border-bottom.png");
+        background-position: bottom;
+        background-repeat: repeat-x;
+        background-size: 25px;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        bottom: 0;
+        border-bottom: 4px solid $blue-black;
+        pointer-events: none;
+    }
+
+    .cabin {
+        position: absolute;
+        top: -3px;
+        width: max(903px, calc(100% + 5px));
+        height: 57.5vw;     
+        min-height: 400px;
+        max-height: 644px;
+        background-image: url("../img/home/Cabin_Background.png");
+        background-size: cover;
+        animation: helm 5s linear infinite;
+        text-align: center;
+        margin-left: min(-451px, -50%);
+        left: 50%;
+    }
+    .cabin-water {
+        background-image: url("../img/home/Cabin_Water.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: center;
+        width: 100%;
+        height: 60vh;
+        min-height: 400px;
+        max-height: 643px;
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+    }    
+    #modelingroom .hero-text {
+        margin-top: auto;
+    }
+    .modeling-container {
+        position: relative;
+        width: 100%;
+    }
+    .modeling-monitor {
+        position: absolute;
+        top: 31.5%;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        video {
+            width: max(25vw, 166px);
+            margin-left: calc(max(25vw, 166px) * -.2);
+        }
+    }
+    .modeling-room {
+        position: relative;
+        width: 100%;
+        height: 60vw;
+        min-height: 400px;
+        max-height: 643px;
+        background-image: url("../img/home/border-bottom.png"), url("../img/home/ModelingRoom_Background.png");
+        background-size: 25px, cover;
+        background-repeat: repeat-x, no-repeat;
+        background-position: bottom,top;
+        text-align: center;
+        padding-top: 5em;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+
+        @keyframes reel {
+            100% { transform: rotate(360deg); }
+        }
+        .modeling-reel {
+            position: absolute;
+            left: calc(50% + 143px);
+            top: 49%;
+            width: max(34px, 5.1%);
+            animation: reel 4s linear infinite;
+        }
+    }
+
+    .deepsea {
+        color: $blue-black;
+        background: linear-gradient(to bottom, #D5FFFA, #056382);
+        text-align: center;
+        align-items: center;
+        
+        .container {
+            padding-bottom: 0;
+        }
+
+        h3 {
+            font-size: 35px;
+            line-height: 35px;
+            letter-spacing: 1px;
+        }
+
+        h4:not(.panel h4) {
+            font-family: "Fraunces", serif;
+            font-style: italic;
+            text-align: center;
+            margin: auto;
+            padding-bottom: 1em;
+            letter-spacing: 3.5px;
+            text-transform: none;
+            font-size: 22px;
+        }
+
+        p {
+            text-align: left;
+            padding-bottom: 1em;
+        }
+
+        a.button.yellow {
+            border-radius: 5px;
+            border: 3px solid #04201f;
+            margin: 0 auto 4rem;
+            &:focus {
+                opacity: 0.9;
+            }
+        }
+
+        .divider {
+            background-image: url("../img/home/wave-divider.png");
+            background-repeat:no-repeat;
+            background-size: contain;
+            min-height:10px;
+            width: 300px;
+            margin: 0 auto;
+            padding: 1em 0;
+        }
+        .bios {
+            text-align: center;
+            .gridder-list {
+                background: none;
+                width: 45%;
+                &:hover, &:focus, &.selectedItem {
+                    transform: scale(1.1);
+                }
+            }
+            .partner-img {
+                border: 1px solid transparent;
+                border-radius: 8px;
+                width: 100%;
+            }
+            .gridder-show {
+                .gridder-navigation {
+                    border-top: 0;
+                    border-bottom: 0;
+                    .nav-left {
+                        float: right;
+                        margin-right: 20px;
+                        .gridder-close {
+                            border-left: 0;
+                            border-right: 0;
+                            padding: 10px 5px;
+                            background: unset;
+                            padding:4px 10px 6px 10px;
+                            border-radius:5px;
+
+                            &:hover img {
+                                opacity: 0.9;
+                            }
+                        }
+                    }
+                }
+            }
+            .panel {
+                background-color: unset;
+                box-shadow: none;
+                h4 {
+                    text-transform: none;
+                    font-weight: 500;
+                    margin: 0;
+                }
+                h5 {
+                    font-family: 'Fraunces', serif;
+                    color: #026199;
+                    font-size: 24px;
+                }
+                p {
+                    margin-top: 20px;
+                }
+                .panel-body {
+                    .panel-img, .panel-text {
+                        margin: 0 2rem;
+                    }
+                    img {
+                        border: 1px solid transparent;
+                        border-radius: 10px;
+                        width: 100%;
+                        margin-bottom: 2rem;
+                    }
+                }
+            }
+            .panel-heading {
+                border: none;
+                background-color: unset;
+            }
+            .panel-group .panel-collapse {
+                position: absolute;
+            }
+        }
+        .bubble-container {
+            position: relative;
+            height: 1250px;
+            width: 100%;
+            max-width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .bubble {
+            background-image: url("data:image/svg+xml, %3Csvg%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%20532%20532%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Ccircle%20cx%3D%22266.088%22%20cy%3D%22265.907%22%20r%3D%22264.272%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%20vector-effect%3D%22non-scaling-stroke%22%2F%3E%0A%3Cpath%20d%3D%22M510.045%20265.907C510.045%20135.764%20404.543%2030.2617%20274.399%2030.2617%22%20stroke%3D%22white%22%20stroke-width%3D%224%22%20vector-effect%3D%22non-scaling-stroke%22%2F%3E%0A%3C%2Fsvg%3E");
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: absolute;
+
+            blockquote {
+                border-left: none;
+                margin: 0;
+                padding: 0 20px;
+                p {
+                    color: #fff;
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+            figcaption {
+                font-family: "Fraunces", serif;
+                font-style: italic;
+                font-size: 14px;
+                color: #fff;
+                line-height: normal;
+                &::before {
+                    content: "\02013";
+                }
+            }
+        }
+        .bubble-empty {            
+            background-image: url("data:image/svg+xml, %3Csvg%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%20532%20532%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Ccircle%20cx%3D%22266.088%22%20cy%3D%22265.907%22%20r%3D%22264.272%22%20stroke%3D%22white%22%20stroke-width%3D%221%22%20vector-effect%3D%22non-scaling-stroke%22%2F%3E%0A%3Cpath%20d%3D%22M510.045%20265.907C510.045%20135.764%20404.543%2030.2617%20274.399%2030.2617%22%20stroke%3D%22white%22%20stroke-width%3D%223%22%20vector-effect%3D%22non-scaling-stroke%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: absolute;
+        }
+        .bubble-xl {
+            max-width: 50vw;
+            max-height: 50vw;
+            width: 60%;
+            height: 60%;
+            padding: 25px;
+            top: 0;
+            right: 0;
+        }
+        .bubble-lg {
+            max-width: 44vw;
+            max-height: 44vw;
+            width: 50%;
+            height: 50%;
+            padding: 20px;
+            top: 400px;
+            left: 5%;
+        }
+        .bubble-md {
+            max-width: 35vw;
+            max-height: 35vw;
+            width: 38%;
+            height: 38%;
+            padding: 0;
+            top: 10px;
+            left: 0;
+        }
+        .bubble-sm {
+            max-width: 28vw;
+            max-height: 28vw;
+            width: 30%;
+            height: 30%;
+            padding: 10px;
+            top: 534px;
+            right: 10%;
+        }
+        .bubble-xs {
+            max-width: 139px;
+            max-height: 139px;
+            width: 80%;
+            height: 80%;
+            padding: 20px;
+            top: 760px;
+            left: 48%;
+        }
+        .bubble-xxs {
+            width: 80px;
+            height: 80px;
+            padding: 20px;
+            top: 940px;
+            left: 55%;
+        }
+        .deepsea-sub {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            margin-left: -165px;
+        }
+        @media (max-width: 670px) {
+            // Mobile layout for Make Games section
+            .float, .floatslow {
+                animation: none;
+            }
+            .bubble-container {
+                height: auto;
+            }
+            .bubble, .bubble-empty.bubble-xs {
+                background: none;
+                position: relative;
+                max-width: unset;
+                max-height: unset;
+                width: auto;
+                height: auto;
+                padding: 30px 10px;
+                blockquote p {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                figcaption {
+                    font-size: inherit;
+                    line-height: inherit;
+                }
+            }
+            .bubble-xl, .bubble-lg, .bubble-md, .bubble-sm, .bubble-xs {
+                left: auto;
+                top: auto;
+                right: auto;
+            }
+            .bubble-empty.bubble-xxs {
+                position: relative;
+                top: auto;
+                right: auto;
+                left: -14px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 20px;
+            }
+            .deepsea-sub {
+                position: relative;
+                left: auto;
+            }
+        }
+
+        @media (min-width: 768px) {
+            p:not(.panel-body p, blockquote p) {
+                font-size: 18px;
+            }
+
+            h4:not(.panel h4) {
+                font-size: 30px;
+            }
+            .bios .panel .panel-body .panel-text {
+                width: 53%;
+                margin-right: 0;
+                margin-left: 1.5rem;
+            }
+            .bios .panel .panel-body .panel-img {
+                width: 47%;
+                margin-right: 1.5rem;
+                margin-left: 0;
+            }
+        }
+    }
+
+    .ocean-floor {
+        min-height: 687px;
+        background: url("../img/home/ocean-floor.png") repeat-x center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        img {
+            position: absolute;
+            width: auto;
+        }
+        .kelp1 {
+            bottom: 72px;
+            left: calc(50% - 525px);
+        }
+        .kelp2 {
+            bottom: 48px;
+            left: calc(50% - 315px);
+            height: 395px;
+        }
+        .kelp3 {
+            bottom: 55px;
+            left: calc(50% + 155px);
+            height: 383px;
+        }
+        .kelp4 {
+            bottom: 28px;
+            left: calc(50% + 359px);
+            transform: scaleX(-1);
+        }
+    }
+
+    #complextopics {
+        @media (min-width: 1600px) {
+            max-height: 643px;
+        }
+    
+        .container {
+            margin-top: auto;
+        }
+
+        .section-img {
+            padding-left: 5vw;
+            padding-right: 5vw;
+            img {
+                margin-top: 0;
+                min-width: 95px;
+                width: 15vw;
+                @media (min-width: 400px) {
+                    margin-top: -2em;
+                }
+                @media (min-width: 576px) {
+                    margin-top: 0
+                }
+                @media (min-width: 768px) {
+                    width: 20vw;
+                }
+                @media (min-width: 1162px) {
+                    width: 15vw;
+                }
+                @media (min-width: 1600px) {
+                    width: 20%;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    .observation-tank-container {
+        position: relative;
+        width: 100%;
+    }
+    .observation-tank {
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        min-height: 400px;
+        max-height: 643px;
+        background-image: url(../img/home/border-bottom.png), url(../img/home/ObservationTank_Background.png);
+        background-size: 25px, cover;
+        background-repeat: repeat-x, no-repeat;
+        background-position: bottom,50% 65%;
+        text-align: center;
+        padding-top: 5em;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .otter1 {
+        position: relative;
+        width:73px;
+        height:63px;
+        top: 35%;
+        left: 15%;
+    }
+    .otter2 {
+        position: relative;
+        width:63px;
+        height:55px;
+        top: 15%;
+        right: 7%;
+    }
+
+    @media (min-width: 576px) {
+        .lead .section-img {
+            margin-top: -8em;
+        }
+        h2, .h2, .deepsea h3 {
+            font-size: 60px;
+            line-height: 60px;
+        }
+        h4 {
+            font-size: 40px;
+        }
+        .deepsea .bios .gridder-list {
+            width: 20%;
+        }
+    }
+    @media (min-width: 664px) {
+        .modeling-room .modeling-reel {
+            left: calc(50% + 21.5vw);
+        }
+        .observation-tank {
+            background-size: 25px, 150%;
+        }
+        .otter1 {
+            width: 145px;
+            height: 125px;
+            left: 18%;
+        }
+        .otter2 {
+            width: 125px;
+            height: 110px;
+        }
+    }
+    @media (min-width: 768px) {
+        .flex-lg-row {
+            flex-direction: row;
+        }
+        .flex-lg-reverse {
+            flex-direction: row-reverse;
+        }
+        .lead {
+            font-size: 18px;
+        }
+    }
+    @media (min-width: 992px) {
+        .flex-lg-reverse {
+            flex-direction: row-reverse;
+        }
+        .deepsea {
+            .bubble-xl {
+                max-width: 532px;
+                max-height: 532px;
+                padding: 50px;
+            }
+            .bubble-lg {
+                max-width: 435px;
+                max-height: 435px;
+                padding: 50px;
+                top: 415px;
+            }
+            .bubble-md {
+                max-width: 351px;
+                max-height: 351px;
+                padding: 40px;
+            }
+            .bubble-sm {
+                max-width: 244px;
+                max-height: 244px;
+                padding: 20px;
+                top: 580px;
+            }
+            .bubble-xs {
+                top: 790px;
+            }
+            .bubble-xxs {
+                top: 950px;
+            }
+            .bubble blockquote {
+                padding: 10px 20px;
+                p {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+            .bubble figcaption {
+                line-height: inherit;
+                font-size: inherit;
+            }
+        }
+    }
+    @media (min-width: 1070px) {
+        .modeling-room .modeling-reel {
+            width: 54px;
+            left: calc(50% + 230px);
+        }
+    }
+    @media (min-width: 1162px) {
+        .modeling-room .modeling-reel {
+            width: max(34px, 4.7%);
+            top: 27.2vw;
+            left: calc(50% + 20vw);
+        }
+        .modeling-monitor {
+            top: 17.5vw;   
+            video {
+                width: max(24vw, 166px);
+                margin-left: calc(max(24vw, 166px) * -.2);
+            }
+        }
+        .otter1 {
+            width: 193px;
+            height: 166px;
+        }
+        .otter2 {
+            width: 166px;
+            height: 146px;
+        }
+    }
+    @media (min-width: 1600px) {
+        .flex-xxl-row {
+            flex-direction: row;
+        }
+        .flex-xxl-col {
+            flex-direction: column;
+        }
+        .flex-xxl-reverse {
+            flex-direction: row-reverse;
+        }
+        .d-xxl-none {
+            display: none;
+        }        
+        section .container {
+            max-width: max(1200px, 70%);
+        }
+        section.ship-room {
+            padding-left: 5%;
+            padding-right: 5%;
+            .container {
+                width: 60%;
+            }
+        }
+        .lead .section-img {
+            margin-top: 0;
+            img {
+                width: 35%;
+            }
+        }
+        #welcome p {
+            max-width: 900px;
+        }
+        .helm-water, .cabin-water {
+            height: auto;
+            min-height: unset;
+            max-height: unset;
+            margin-top: -3px;
+            background-size: auto 90%;
+            background-position-y: unset;
+            border-left: 1px solid $blue-black;
+        }
+        .helm, .cabin {
+            height: calc(100% + 9px);
+            min-height: unset;
+            max-height: unset;
+            background-position: top;
+            clip-path: xywh(0 3px 100% calc(100% - 6px));
+        }
+        .helm-frame {
+            background-image: url("../img/home/border-left.png"), url("../img/home/border-right.png");
+            background-position: left, right;
+            background-repeat: repeat-y, repeat-y;
+            background-size: 9px, 9px;
+            border-bottom: none;
+        }
+        .observation-tank {
+            background-image: url(../img/home/border-left.png), url(../img/home/border-right.png), url(../img/home/ObservationTank_Background.png);
+            background-size: 9px, 9px, cover;
+            background-repeat: repeat-y, repeat-y, no-repeat;
+            background-position: left, right, center;
+        }
+        .modeling-monitor {
+            top: 203px;
+            video {
+                width: (max(24%, 267px));
+                margin-left: calc(max(24%, 267px) * -.2);
+            }
+        }
+        .modeling-room {
+            background-image: url("../img/home/border-left.png"), url("../img/home/border-right.png"), url("../img/home/ModelingRoom_Background.png");
+            background-size: 9px, 9px, cover;
+            background-repeat: repeat-y, repeat-y, no-repeat;
+            background-position: left, right, top;
+            .modeling-reel {
+                left: calc(50% + 228px);
+                top: 315px;
+                width: max(4.9%, 53px);
+            }
+        }
+        .otter1 {
+            width: 145px;
+            height: 125px;
+            top: 40%;
+        }
+        .otter2 {
+            width: 125px;
+            height: 110px;
+            top: 25%;
+        }
+    }
+    @media (min-width: 2100px) {
+        section.ship-room {
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+        .ship img {
+            max-width: 1200px;
+        }
+        .helm-water, .cabin-water {
+            background-size: 50vw;
+            background-position-y: calc(50% - 2vw);
+        }
+        .deepsea .panel-img {
+            padding-right: 4rem;
+        }
+    }
+    @media (min-width: 2800px) {
+        .helm-water {           
+            background-size: 100%;
+            background-position-y: 28%;
+        };
+        .cabin-water {
+            background-size: contain;
+            background-position-y: 30%;
+        }
+        .modeling-monitor {
+            top: 7.2cqw;
+        }
+        .modeling-room .modeling-reel {
+            top: 11.25cqw;
+            left: 70%;
+            width: 4.75%;
+        }
+    }
+
+    section#carousel {
+        margin-top: 63px; /* offset for the top nav-bar */
+        padding: 0;
+        @media only screen and (max-width: 768px) {
+            margin-top: 53px; /* offset for smaller nav-bar */
+        }
+    }
+
+    #carousel-hero .info{
+
+        display: none;
+        position: absolute;
+        z-index: 102;
+        width: min(410px, 100vw);
+        padding: 34px 34px 34px 15px;
+        border-radius: 0 10px 10px 0;
+        background-color: rgba(1, 28, 37, 0.65);
+        color: #F9F7F4;
+
+        top: calc(50% - 269px);
+
+        @media (min-width: 2015px) and (min-height: 640px)
+        {
+            display: block;
+        }
+
+        @media (min-height: 680px){
+            display: block;
+        }
+
+        @media (min-width: 1024px) and (max-aspect-ratio: 4/3){
+            display: block;
+        }        
+
+        @media screen and (min-width: 1024px){
+            padding-left: 34px;
+            width: 473px;
+        }
+
+        p{
+            line-height: 29px;
+            margin-top: 20px;
+        }
+
+        a{
+            font-weight: 700;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+    }
+
+    .carousel-inner > .item {
+
+        height: 80vh;
+        width: 100vw;
+        max-height: max(800px, 83.33333vw);
+
+        background-size: auto 100%; /* background-size for 1080p video */
+        background-repeat: no-repeat !important;
+        background-position-x: 50%;
+        background-position-y: 25%;
+
+        .scanlines{
+            background: url('../img/hero-images/crt-pattern.png');
+            background-size: 36px;
+            background-repeat: repeat;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: block;
+            z-index: 101;
+            opacity:0.6
+        }
+
+        .carousel-video{
+            position: fixed;
+            left: 50%;
+            top: 25%;
+            transform: translate(-50%, -25%);
+            min-width: 100%;
+            min-height: 100%;
+            height: 100%;
+            width: auto;
+            /* crop height instead of width in landscape */ 
+            @media screen and (min-aspect-ratio: 4/3) {
+                width: 100vw;
+                height: auto;
+            }
+        }
+        /* crop height instead of width earlier for narrower video */
+        @media screen and (min-aspect-ratio: 1.2) {
+            background-size: cover;
+            &.narrow-video .carousel-video {
+                width: 100vw;
+                height: auto;
+            }
+        }
+        @media screen and (min-width: 1600px)
+        {
+            max-height: 57vw;
+        }
+        @media screen and (min-width: 1600px) and (max-aspect-ratio: 1.2)
+        {
+            max-height: 57vw;
+            &.narrow-video {
+                background-size: cover;
+                .carousel-video {
+                    width: 100vw;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    ol.carousel-indicators{
+
+        display: inline-block;
+        list-style: none;
+        position: absolute;
+        bottom: -10vh;
+        padding-left: 10px;
+        width: 100%;
+        text-align: center;
+        z-index: 10;
+
+        li{
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 20px;
+            width: 23%;
+            height: 175px;
+            background-color: $blue-black;
+            border: 6px solid $blue-black;
+            border-radius: 10px;
+            cursor: pointer;
+            vertical-align: top;
+          
+            img{
+                width: 100%;
+                object-fit: cover;
+                object-position: top;
+                text-align: center;
+                margin: 0 auto;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+
+            .thumb-caption{
+                display: block;
+                background-color: $blue-black;
+                color: #FAD9D9;
+                font-family: brandon-grotesque, futura-pt, sans-serif;
+                line-height: 16px;
+                font-weight: 450;
+                font-size: 12px;
+                text-align: left;
+                padding: 3px 1px 5px 1px;
+
+                a{
+                    color: #FAD9D9;
+                }
+            }
+
+        }
+
+        
+        li.indicator-nomobile{
+        
+            display: none;
+        }
+    
+
+        li:last-of-type{
+            
+            background-color: #FFACAC;
+            color: $blue-black;
+            border: none;
+            width: 62px;
+            margin-right: 0;
+            
+            .play-our-games-controller{
+               
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 25px;
+                margin-bottom: 25px;
+
+                img{
+                    width: 52px;
+                    height: 43px;
+                }
+            }
+
+            .thumb-caption{
+                background-color: #FFACAC;
+                color: $blue-black;
+                text-align: left;
+                margin: 0 auto;
+                width: 50px;
+            }
+
+        }
+
+        li.active, li:hover {
+            -webkit-transform:scale(1.05);
+            -moz-transform:scale(1.05);
+            -o-transform:scale(1.05);
+            transform:scale(1.05);
+        }
+
+        @media (min-width: 370px){
+            
+            li:last-of-type{
+
+                .thumb-caption{
+                    width: 50px;
+                }
+            }
+        }
+
+        @media (min-width: 580px){
+            li{
+                height: 195px;
+            }
+        }
+
+        /* Still three slides */
+        @media (min-width: 664px) {
+
+            li{
+                
+                height: 232px;
+                width: 150px;
+
+                img{
+                    width: 138px;
+                    height: 104px;
+                }
+
+                .thumb-caption{
+                    padding: 6px 6px 0 6px;
+                    line-height: 18px;
+                }
+            }
+
+            li:last-of-type{
+                
+                width: 98px;
+                
+                .play-our-games-controller{
+                    img{
+                        width: 75px;
+                        height: 62px;
+                    }
+                }
+
+                .thumb-caption{
+                    width: 80px;
+                }
+            }
+        }
+
+         /* Still three slides, but larger */
+         @media (min-width: 880px){
+
+            li{
+                width: 220px;
+                margin-right: 15px;
+
+                img{
+                    width: 208px;
+                    height: 156px;
+                }
+
+                .thumb-caption{
+                    line-height: 25px;
+                    font-size: 20px;
+                    padding: 6px 6px 0 6px;
+                }
+            }
+
+            li:last-of-type{
+                
+                width: 132px;
+                
+            }
+
+        }
+
+        
+        /* Show all four slides. */
+        /*  If you change this breakpoint width, you must update the "mobileWidthBreakpoint" JavaScript variable, so the carousel resets */
+        @media (min-width: 1132px){
+
+            li{
+                width: 220px;
+
+                img{
+                    width: 208px;
+                    height: 156px;
+                }
+
+                .thumb-caption{
+                    line-height: 25px;
+                    font-size: 20px;
+                    padding: 6px 6px 0 6px;
+                }
+            }
+
+            li.indicator-nomobile{
+                display: inline-block;
+            }
+
+        }
+
+        @media (min-width: 1204px){
+            
+            li{
+
+                width: 239px;
+                height: 240px;
+
+                img{
+                    width: 227px;
+                    height: 164px;
+                }
+    
+                .thumb-caption{
+                    line-height: 28px;
+                    font-size: 22px;
+                    padding: 8px 8px 0 8px;
+                }
+            }
+            
+        }
+
+    }
+}

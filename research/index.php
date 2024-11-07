@@ -609,7 +609,7 @@ $(function() {
         showNav: true,                      // Show Navigation
         nextText: "Next",                   // Next button text
         prevText: "Previous",               // Previous button text
-        closeText: "Close",                 // Close button text
+        closeText: "<img src=\"/assets/img/ui/close-icon.png\">",                 // Close button text
         onStart: function(){
             //Gridder Inititialized
         },

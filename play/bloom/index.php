@@ -2,6 +2,37 @@
 
 <title>Bloom: The Saga of the Poop Fertilizer Economy.</title>
 <meta name="description" content="In this game, you’ll create trade networks and enact policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers." />
+
+<script>
+window.onload = function()
+{
+  function detectMobile() {
+    const toMatch = [
+        /Android/i,
+        /webOS/i,
+        /iPhone/i,
+        /iPad/i,
+        /iPod/i,
+        /BlackBerry/i,
+        /Windows Phone/i
+    ];
+    return toMatch.some((toMatchItem) => {
+        return navigator.userAgent.match(toMatchItem);
+    });
+}
+  console.log("Mobile Device: " + detectMobile());
+  if (detectMobile()) {
+    button = document.getElementById("playButton");
+    button.target="_self";
+    button.href = "javascript:void(0)";
+    button.classList.remove("filled");
+    button.textContent = "Play on Desktop";
+    console.log("In the if");
+  }
+};
+</script>
+
+
 </head>
 <body class="singleapp bloom">
 
@@ -24,7 +55,7 @@
     </div>
     <div class="app-description"><p class="small">In Bloom, you’ll create trade networks and enact policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers.</p></div>
     <div class="buttons">
-              <a class="button small white filled" href="https://fielddaylab.wisc.edu/play/bloom/ci/production/" target="_blank">Play Bloom</a>
+              <a id = "playButton" class="button small white filled" href="https://fielddaylab.wisc.edu/play/bloom/ci/production/" target="_blank">Play Bloom</a>
 
     </div>
   </div>

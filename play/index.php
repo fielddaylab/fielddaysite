@@ -40,6 +40,18 @@
                         <!--<p class="brief padding">We work with researchers to create fun, academically rigorous games that get hundreds of thousands of plays. Researchers love that our games allow for depth and complexity, while providing a playful, engaging experience. We team up with teacher fellows and outreach experts to make sure our games work in classrooms and reach large audiences. <br></p>-->
                         <!-- Gridder navigation -->
                         <ul class="apps gridder">
+                            <li class="gridder-list app-card" data-griddercontent="#game-ontheice">
+                                <img src="/assets/img/games/thumbs/ontheice.jpg" class="app-logo">
+                                <div class="game-wrapper">
+                                    <div class="title">
+                                        <span>On The Ice: Weather Station</span>
+                                    </div>
+                                    <div class="stats">
+                                        <p class="italic">Ages 10+</p>
+                                        <p>Polar Research</p>
+                                    </div>
+                                </div>
+                            </li>
                             <li class="gridder-list app-card" data-griddercontent="#game-bloom">
                                 <img src="/assets/img/games/thumbs/bloom.jpg" class="app-logo">
                                 <div class="game-wrapper">
@@ -89,30 +101,6 @@
                                 </div>
 
                             </li>
-                            <li class="gridder-list app-card" data-griddercontent="#game-waddle">
-                                <img src="/assets/img/games/thumbs/penguins.jpeg" class="app-logo">
-                                <div class="game-wrapper">
-                                    <div class="title">
-                                        <span>Waddle: A Penguin's Tale</span>
-                                    </div>
-                                    <div class="stats">
-                                        <p class="italic"> Ages 5+ </p>
-                                        <p> Polar Research </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="gridder-list app-card" data-griddercontent="#game-icecube">
-                                <img src="/assets/img/games/thumbs/icecube.jpeg" class="app-logo">
-                                <div class="game-wrapper">
-                                    <div class="title">
-                                        <span>Discover IceCube</span>
-                                    </div>
-                                    <div class="stats">
-                                        <p class="italic"> All Ages </p>
-                                        <p> Polar Research </p>
-                                    </div>
-                                </div>
-                            </li>
                             <li class="gridder-list app-card" data-griddercontent="#game-forevermine">
                                 <img src="/assets/img/games/thumbs/forevermine.jpeg" class="app-logo" />
                                 <div class="game-wrapper">
@@ -150,12 +138,35 @@
                                     </div>
                                 </div>
                             </li>
-
-                            <li class="gridder-list app-card" data-griddercontent="#game-thermovr">
-                                <img src="/assets/img/games/thumbs/thermovr.jpeg" class="app-logo">
+                            <li class="gridder-list app-card" data-griddercontent="#game-waddle">
+                                <img src="/assets/img/games/thumbs/penguins.jpeg" class="app-logo">
                                 <div class="game-wrapper">
                                     <div class="title">
-                                        <span>Thermodynamics VR</span>
+                                        <span>Waddle: A Penguin's Tale</span>
+                                    </div>
+                                    <div class="stats">
+                                        <p class="italic"> Ages 5+ </p>
+                                        <p> Polar Research </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="gridder-list app-card" data-griddercontent="#game-icecube">
+                                <img src="/assets/img/games/thumbs/icecube.jpeg" class="app-logo">
+                                <div class="game-wrapper">
+                                    <div class="title">
+                                        <span>Discover IceCube</span>
+                                    </div>
+                                    <div class="stats">
+                                        <p class="italic"> All Ages </p>
+                                        <p> Polar Research </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="gridder-list app-card" data-griddercontent="#game-thermovr">
+                                <img src="/assets/img/games/thumbs/thermolab-thumb.png" class="app-logo">
+                                <div class="game-wrapper">
+                                    <div class="title">
+                                        <span>Thermolab</span>
                                     </div>
                                     <div class="stats">
                                         <p class="italic">Undergraduate Level</p>
@@ -176,9 +187,6 @@
                                 </div>
                             </li>
                         </ul>
-
-
-
 
                         <ul class="apps gridder">
                             <h1 class="collection-title">The Yard Games Collection</h1>
@@ -421,6 +429,24 @@
                     </div>
 
                     <div class="item">
+                        <div id="game-ontheice" class="app-expanded gridder-content">
+                            <div class="app-info app-pane left">
+                                <span class="close-app">
+                                    <h2>On The Ice: Weather Station</h2>
+                                    <div class="stats">
+                                        <p class="tag ">Ages 10+</p>
+                                        <p>|</p>
+                                        <p class="tag ">Polar Research</p>
+                                    </div>
+                                    <p class="small">
+                                        Battle extreme weather conditions in Antarctica while repairing a network of broken weather stations. This VR experience is based on the real world adventures of polar researchers who build and maintain weather stations in Antarctica in order to collect valuable meteorological data.
+                                    </p>
+                                    <a class="button small white filled" href="/play/on-the-ice" target="_blank">Learn More</a>
+                            </div>
+                            <div class="app-thumbnail app-pane right">
+                                <img src="/assets/img/games/thumbs/ontheice.jpg">
+                            </div>
+                        </div>
                         <div id="game-bloom" class="app-expanded gridder-content">
                             <div class="app-info app-pane left">
                                 <span class="close-app">
@@ -605,22 +631,22 @@
                         <div id="game-thermovr" class="app-expanded gridder-content">
                             <div class="app-info app-pane left">
                                 <span class="close-app">
-                                    <h2>Thermodynamics VR</h2>
+                                    <h2>Thermolab</h2>
                                     <div class="stats">
                                         <p class="tag ">Undergraduate Level</p>
                                         <p>|</p>
                                         <p class="tag ">Thermodynamics</p>
                                     </div>
                                     <p class="small">
-                                        We teamed up with John Pfotenhauer, UW-Madison professor and researcher, to create this VR simulation for teaching undergraduate thermodynamics. The game allows students to interact with the abstract Equation of State in a hands-on, tactile environment.
+                                        Explore the world of thermodynamics by conducting experiments using a water-based piston-cylinder apparatus. The simulation allows users to control a collection of tools: a bunsen burner, cooling coils, weights, stops, and environmental controls, to develop an intuitive understanding of thermodynamic processes.
                                     </p>
                                     <p class="note">
                                         Partners: UW-Madison School of Engineering
                                     </p>
-                                    <a class="button small white filled" href="/play/thermovr" target="_blank">Learn More</a>
+                                    <a class="button small white filled" href="/play/thermolab" target="_blank">Learn More</a>
                             </div>
                             <div class="app-thumbnail app-pane right">
-                                <img src="/assets/img/gameplay/thermovr.jpg">
+                                <img src="/assets/img/gameplay/thermo-lab.jpg">
                             </div>
                         </div>
                         <div id="game-atom" class="app-expanded gridder-content">
@@ -1182,7 +1208,7 @@
                 showNav: true, // Show Navigation
                 nextText: "Next", // Next button text
                 prevText: "Previous", // Previous button text
-                closeText: "Close", // Close button text
+                closeText: "<img src=\"/assets/img/ui/close-icon.png\">", // Close button text
                 onStart: function() {
                     //Gridder Inititialized
                 },

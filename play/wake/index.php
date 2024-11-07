@@ -13,29 +13,36 @@ include_once($path); ?>
 </script>
 
 <title>Wake - Field Day</title>
-<meta name="description" content="A 6th-9th grade science game that challenges students with engaging, authentic missions in a variety of ocean-based ecosystems." />
-<!--<script>
+<meta name="description" content="A 6th-9th grade science game that challenges students with engaging, authentic missions in a variety of ocean-based ecosystems. Spanish and English." />
+
+<script>
 window.onload = function()
 {
-  var clickload = document.getElementById("clickload");
-  var iframe = document.getElementById("content");
-
-  function loadiframe()
-  {
-    iframe.style.display = "block";
-    if(location.href.indexOf("?") > -1)
-      iframe.src = "game/iframe.html"+location.href.substring(location.href.indexOf("?"))
-    else
-      iframe.src = "game/iframe.html";
-    clickload.removeEventListener("click",loadiframe);
-    clickload.parentNode.removeChild(clickload);
-    clickload = null;
+  function detectMobile() {
+    const toMatch = [
+        /Android/i,
+        /webOS/i,
+        /iPhone/i,
+        /iPad/i,
+        /iPod/i,
+        /BlackBerry/i,
+        /Windows Phone/i
+    ];
+    return toMatch.some((toMatchItem) => {
+        return navigator.userAgent.match(toMatchItem);
+    });
+}
+  console.log("Mobile Device: " + detectMobile());
+  if (detectMobile()) {
+    button = document.getElementById("playButton");
+    button.target="_self";
+    button.href = "javascript:void(0)";
+    button.classList.remove("filled");
+    button.textContent = "Play on Desktop";
+    console.log("In the if");
   }
-  clickload.addEventListener("click",loadiframe);
-  console.log("v0.0.1");
-  loadiframe();
 };
-</script>-->
+</script>
 </head>
 
 <body class="singleapp wake">
@@ -69,9 +76,10 @@ window.onload = function()
       </div>
 
       <div class="buttons">
-        <a class="button small white filled" href="https://fielddaylab.org/play/wake/ci/production/" target="_blank">Play Wake</a>
-        <a class="button small white" href="https://sites.google.com/wisc.edu/waketeacherguide/home">Support Site</a>
-        <a class="button small white" href="https://docs.google.com/document/d/1CUAAmyAP0YpvhqAlC01GmQvWkoTzx_tMSMQZTEOU50c/edit?usp=sharing">Teaching Guide</a>
+        <a id="playButton" class="button small white filled" href="https://fielddaylab.org/play/wake/ci/production/" target="_blank">Play Wake</a>
+
+        <a class="button small white" href="https://sites.google.com/wisc.edu/waketeacherguide/home">Support</a>
+        <a class="button small white" href="https://docs.google.com/document/d/1fqfRJWGyH9ihAWju6N4ELDG83Nl2GZqbxdle-sM8FDc">Short Guide</a>
         <a class="button small white" href="https://opengamedata.fielddaylab.wisc.edu/gamedata.php?game=AQUALAB">Research Wake</a>
         <!--<a class="button small white" href="#app-about">Learn More</a>-->
       </div>
@@ -80,11 +88,13 @@ window.onload = function()
   </section>
 
   <section id="app-about" class="app-about">
+ 
 
     <div class="row container">
       <div class="col-sm-4">
         <div class="about-nav follow-scroll">
           <ul>
+            <li><a href="#trailer">Trailer</a></li>
             <li><a href="#glance">At a Glance</a></li>
             <li><a href="#practices">Scientific Practices</a></li>
             <li><a href="#standards">Academic Standards</a></li>
@@ -94,8 +104,14 @@ window.onload = function()
         </div>
       </div>
 
-      <div id="glance" class="col-sm-8 about-rightpanel">
-        <h2>At a Glance</h2>
+      <div class="col-sm-8 about-rightpanel">
+
+          <div id="app-video" class="app-video">
+            <div class='embed-container'>
+              <iframe src="https://player.vimeo.com/video/951605886" width="100%" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        <h2 id="glance">At a Glance</h2>
         <ul>
           <li>Grade levels: 6-9 Life Sciences</li>
           <li>Academic Practices: Experimentation, Modeling, Argumentation</li>
@@ -104,6 +120,7 @@ window.onload = function()
           <li>Minimum Session Length: 40-minute minimum for a single session</li>
           <li>Total Gameplay: 10 hours of total gameplay possible</li>
           <li>Compatibility: Chromebook, PC or Mac with Internet access</li>
+          <li>Languages: English and Spanish</li>
         </ul>
         <h2 id="practices">Scientific Practices</h2>
         <p><em>Wake: Tales from the Aqualab</em> targets the NGSS science practices of experimentation, modeling, and argumentation. The tools students will use to explore the ecosystems and complete challenges in the game, include:</p>
