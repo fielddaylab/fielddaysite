@@ -54,7 +54,7 @@ window.onload = function()
         <p class="small">Made in partnership with Maine Math and Science Alliance</p>
       </div>
       <div class="buttons">
-        <a class="button xsmall white filled" href="#app-about">Learn More</a>
+        <a class="button xsmall white filled" href="https://mmsa.org/stemports/">Learn More at MMSA</a>
       </div>
     </div>
   </section>
