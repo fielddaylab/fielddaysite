@@ -226,6 +226,38 @@
 
             <div class="pub-wrap">
             <p class="small">
+Gagnon, D. J., Swanson, L., & Harpstead, E. (2024). Open Game Data: Defining a Pipeline and Standards for Educational Data Mining and Learning Analytics with Video Game Data. 2024 IEEE Conference on Games (CoG), Milan, Italy, 2024, pp. 1-8. <a href ="https://doi.org/10.1109/CoG60054.2024.10645573">https://doi.org/10.1109/CoG60054.2024.10645573</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
+Gagnon, D., Pfotenhauer, J., Berson, A., & Swanson, L. (2024). ThermoVR: Using Virtual Reality and Playful Simulation to Teach and Assess Introductory Thermodynamics Concepts. 2024 ASEE Annual Conference & Exposition Proceedings, 48154.<a href = "https://doi.org/10.18260/1-2--48154">https://doi.org/10.18260/1-2--48154</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
+Liu, X., Slater, S., Swanson, L., Metcalf, S. J., & Gagnon, D. J. (2024). <a href = "https://www.researchgate.net/profile/Ryan-Baker-2/publication/383415934_Identifying_When_and_Why_Students_Choose_to_Quit_Jobs_in_a_Science_Exploration_Game/links/66cc6b5775613475fe7b88c1/Identifying-When-and-Why-Students-Choose-to-Quit-Jobs-in-a-Science-Exploration-Game.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19"> Identifying When and Why Students Choose to Quit Jobs in a Science Exploration Game.</a> 10th International Joint Conference on Serious Games, New York University, New York City, US.
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
+Metcalf, S., Scianna, J., & Gagnon, D. (2024). Experiences of Personal and Social Immersion in a Videogame for Middle School Life Science. Academic Proceedings of the 10th International Conference of the Immersive Learning Research Network (iLRN2024), 201–209. <a href = "https://doi.org/10.56198/U6C0WZQ4R">https://doi.org/10.56198/U6C0WZQ4R</a>
+            </p>
+          </div>
+
+
+            <div class="pub-wrap">
+            <p class="small">
+Scianna, J. & Kim, Y. (2024). Assessing Experimentation: Understanding Implications of Player Choices. In Lindgren, R., Asino, T. I., Kyza, E. A., Looi, C. K., Keifert, D. T., & Suárez, E. (Eds.), Proceedings of the 18th International Conference of the Learning Sciences - ICLS 2024 (pp. 1594-1597). International Society of the Learning Sciences.
+<a href = "https://doi.org/10.22318/icls2024.608791">https://doi.org/10.22318/icls2024.608791</a>
+            </p>
+          </div>          
+
+            <div class="pub-wrap">
+            <p class="small">
 Gagnon, D., Swanson, L. (2023). 
 Open Game Data: A Technical Infrastructure for Open Science with Educational Games. In: Haahr, M., Rojas-Salazar, A., Göbel, S. (eds) Serious Games. JCSG 2023. Lecture Notes in Computer Science, vol 14309. Springer, Cham. <a href = "https://doi.org/10.1007/978-3-031-44751-8_1">https://doi.org/10.1007/978-3-031-44751-8_1</a>
             </p>

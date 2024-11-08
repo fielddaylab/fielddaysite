@@ -5,7 +5,7 @@
       <div class="info">
         <h1 class="corrected">Calling All Teachers!</h1>
         <p class="corrected">If you are using Wake: Tales from the Aqualab with your students, we want to know! Stipend provided.</p>
-        <a target="_blank" href="https://docs.google.com/forms/d/1-G2624W8FURIosn2SeVK_pO7wrMaQ8hmSUWwxexinxM/edit" class="button black filled small">Find out more</a>
+        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeumR3v4Ckix_oy8jNPA7PkbQMivL9SW__c8Wd6dtrzEF0KQA/viewform?usp=sf_link" class="button black filled small">Find out more</a>
       </div>
       <div class="graphic">
         <img class="cloud one" alt="cloud outline" src="/assets/img/illustrations/cloud-outline.png">

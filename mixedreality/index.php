@@ -309,7 +309,7 @@
                       <h2>Siftr</h2>
                       <p class="notsupported">No longer supported</p>
                       <p class="small">Use Siftr to make fieldwork activities easy. Teachers take 5 minutes to create a Siftr and students use mobile devices to collect data and observations outside of the classroom. Siftr helps you focus students, organizes their data and creates automatic visualizations to facilitate discussions in classrooms or online.</p>
-                      <a class="button small small black" href="http://siftr.org" target="_blank">Get Siftr</a>
+                      <a class="button small small black" href="https://jfepublications.org/article/siftr/" target="_blank">Read the Article</a>
                   </div>
                   <div class="app-thumbnail app-pane right">
                     <img class="long" src="/assets/img/thumbnails/siftr-thumbnail.jpg">

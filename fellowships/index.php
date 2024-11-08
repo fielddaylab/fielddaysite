@@ -13,8 +13,8 @@
   <div id="mainwrapper">
     <section class="singlehero page_hero">
       <div class="info">
-        <h1 class="corrected">Teacher <br />Fellowships</h1>
-        <p class="corrected">Join us at a Teacher Fellowship and design a game with us! We want our games to reach classrooms, so we’re partnering up with the classroom experts: teachers like you.</p>
+        <h1 class="corrected">Educator <br />Fellowships</h1>
+        <p class="corrected">Join us at a Educator Fellowship and design a game with us! We want our games to reach classrooms, so we’re partnering up with the experts: educators like you.</p>
         <a href="#page-facts" class="button pink filled small">Learn More</a>
       </div>
       <div class="graphic">
@@ -50,12 +50,12 @@
       <div class="card">
         <h2>Learn</h2>
         <h3>Join our courses and fellowships</h3>
-        <p class="small" >Use our courses and fellowships to find games and tools that work in your classroom. We want to help you become a master teacher with this new media.</p>
+        <p class="small" >Use our courses and fellowships to find games and tools that work in your classroom. We want to help you become a master educator with this new media.</p>
       </div>
       <div class="card">
         <h2>Connect</h2>
         <h3>Sign up to get connected</h3>
-        <p class="small" >We’re building a community of teachers who are willing to try new things, even when it’s messy. Join Field Day to get updates about meetups, events, fellowships and new games.</p>
+        <p class="small" >We’re building a community of educators who are willing to try new things, even when it’s messy. Join Field Day to get updates about meetups, events, fellowships and new games.</p>
       </div>
   </section>-->
 <div class="intro-section">
@@ -76,7 +76,7 @@
       <div class="fact">
         <div class="info">
           <h3>A new kind of Workshop</h3>
-          <p class="small">Our teacher fellowships are boutique events—not normal PD workshops—that are carefully crafted to inspire you. Each event mixes the best of talks, design, tours, and inspiration like art, music and game playing. .</p>
+          <p class="small">Our educator fellowships are boutique events—not normal PD workshops—that are carefully crafted to inspire you. Each event mixes the best of talks, design, tours, and inspiration like art, music and game playing. .</p>
           <p>We’ll start with a cozy get-together, where we’ll sip drinks and chat.  Then we’ll transition into two days of learning, inspiration, and design. After the event, stay connected with online meet-ups, plus a few ways to get kids involved in design work. We’ll end up with a brand new game that will reach kids across the world.</p>
           <p>We offer four fellowships each year. Join us! </p>
           <a href="#fellowships" class="button black filled small" target="_blank">View Fellowships</a>
@@ -121,7 +121,7 @@
         <div class="answers carousel-inner">
           <div class="item active">
             <h3>A stipend and travel costs.</h3>
-            <p class="small" >Each fellowship pays a different amount. We’ll always cover your travel expenses. (Please see individual fellowships for details.) This isn’t a training that you pay for. While we think you’ll learn a lot, you are coming as a professional. We see teachers as experts!</p>
+            <p class="small" >Each fellowship pays a different amount. We’ll always cover your travel expenses. (Please see individual fellowships for details.) This isn’t a training that you pay for. While we think you’ll learn a lot, you are coming as a professional. We see educators as experts!</p>
           </div>
           <div class="item">
             <h3>Your kids will become game testers which is really cool for them. </h3>
@@ -137,7 +137,7 @@
           </div>
           <div class="item">
             <h3>Yes!</h3>
-            <p class="small" >We love it when teachers return. Many of our projects continue over a few semesters and include a few fellowship cohorts. We give priority to teachers who have come to past fellowships. More than anything, we want to build a community of like minded educators to inspire us and each other. Once you join the Field Day community, you are part of our team. </p>
+            <p class="small" >We love it when educators return. Many of our projects continue over a few semesters and include a few fellowship cohorts. We give priority to educators who have come to past fellowships. More than anything, we want to build a community of like minded educators to inspire us and each other. Once you join the Field Day community, you are part of our team. </p>
           </div>
           <div class="item">
             <h3>We do!</h3>
