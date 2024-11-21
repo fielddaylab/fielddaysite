@@ -4,8 +4,9 @@ public website for Field Day
 ## Building the site locally
 
 **Requirements**
-- PHP - v5.4 or newer 
-- Node - newer version (probably)
+- PHP - v5.4 or newer
+- Node - v9.11.2 LTS (recommended)
+  - Warning ⚠️: this site uses packages that are incompatible with Windows (try wsl) 
 - an HTTP server running with vhosts pointing to `%project_dir%`
   Recommendations:
   * PHP [built-in web server](https://www.php.net/manual/en/features.commandline.webserver.php)
