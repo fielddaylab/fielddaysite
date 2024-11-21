@@ -17,16 +17,17 @@ public website for Field Day
 git clone <path-to-dir>/fielddaysite
 cd <path-to-dir>/fielddaysite
 ```
+
 2. Install Node Dependencies
 `npm install` in your `%project_dir%`
 
 ## Build & Run the Site
-1. Run Gulp
+1. Run Gulp from Node Script
 ```
-gulp watch
+npm watch
 ```
 
-2. Start your HTTP Server
+2. With Gulp running start your HTTP Server
 with PHP:
 ```
 php -S localhost:8080`
