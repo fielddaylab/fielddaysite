@@ -25,7 +25,7 @@ cd <path-to-dir>/fielddaysite
 ## Build & Run the Site
 1. Run Gulp from Node Script
 ```
-npm watch
+npm run watch
 ```
 
 2. With Gulp running start your HTTP Server
