@@ -5,7 +5,7 @@ public website for Field Day
 
 **Requirements**
 - PHP - v5.4 or newer
-- Node - v9.11.2 LTS (recommended)
+- Node - v10 or newer (recommended for gulp)
   - Warning ⚠️: this site uses packages that are incompatible with Windows (try wsl) 
 - an HTTP server running with vhosts pointing to `%project_dir%`
   Recommendations:
