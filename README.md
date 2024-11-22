@@ -4,8 +4,9 @@ public website for Field Day
 ## Building the site locally
 
 **Requirements**
-- PHP - v5.4 or newer 
-- Node - newer version (probably)
+- PHP - v5.4 or newer
+- Node - v10 or newer (recommended for gulp)
+  - Warning ⚠️: this site uses packages that are incompatible with Windows (try wsl) 
 - an HTTP server running with vhosts pointing to `%project_dir%`
   Recommendations:
   * PHP [built-in web server](https://www.php.net/manual/en/features.commandline.webserver.php)
@@ -17,16 +18,17 @@ public website for Field Day
 git clone <path-to-dir>/fielddaysite
 cd <path-to-dir>/fielddaysite
 ```
+
 2. Install Node Dependencies
 `npm install` in your `%project_dir%`
 
 ## Build & Run the Site
-1. Run Gulp
+1. Run Gulp from Node Script
 ```
-gulp watch
+npm run watch
 ```
 
-2. Start your HTTP Server
+2. With Gulp running start your HTTP Server
 with PHP:
 ```
 php -S localhost:8080`
