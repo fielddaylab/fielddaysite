@@ -1,78 +1,101 @@
 /* Styles of the Get Involved Page */
 
 .get-involved {
-    background-color: $blue-black;
-    color: white;
-    .page_hero {
+  background-color: $blue-black;
+  color: white;
 
-        text-align: center;
-        background-image: url(/assets/img/hero-images/get-involved-hero.png);
-        background-size: cover;
-        background-position: right;
-        height: 90vh;
-        align-content: center;
+  .page_hero {
+    text-align: center;
+    background-image: url(/assets/img/hero-images/get-involved-hero.png);
+    background-size: cover;
+    background-position: right;
+    height: 90vh;
+    align-content: center;
 
-        h1 {
-            color: white;
-            text-transform: uppercase;
-            font-weight: 600;
-            font-size: 50px;
-            position: relative;
-            display: inline-block;
-            margin-bottom: 25px;
-            z-index: 1;
+    h1 {
+      color: white;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 50px;
+      position: relative;
+      display: inline-block;
+      margin-bottom: 25px;
+      z-index: 1;
 
-            @media #{$break-sm} {
-                margin-top: 60px;
-            }
+      @media #{$break-sm} {
+        margin-top: 60px;
+      }
 
-            &:before {
-                content: "";
-                width: 100%;
-                height: 17px;
-                background: #0F6E8A;
-                display: block;
-                position: absolute;
-                z-index: -1;
-                bottom: 5px;
-                left: -8px;
-            }
-
-            @media #{$break-sm} {
-                font-size: 40px;
-            }
-        }
-    }
-    #marquee {
-        position: relative;
-        overflow: hidden;
-        transform: translate3d(calc(-25% + 20vw), 0, 0);
-
-        span {
-            font-size: 4vw;
-            padding: 0 2vw;
-        }
-
-        .marquee__inner {
-            width: fit-content;
-            display: flex;
-            position: relative;
-            transform: translate3d(var(--move-initial), 0, 0);
-            animation: marquee 5s linear infinite;
-            animation-play-state: paused;
-        }
-
-    }
-    .helm-frame {
-        background-image: url("../img/home/border-bottom.png");
-        background-position: bottom;
-        background-repeat: repeat-x;
-        background-size: 25px;
-        position: absolute;
-        height: 100%;
+      &:before {
+        content: "";
         width: 100%;
-        bottom: 0;
-        border-bottom: 4px solid $blue-black;
-        pointer-events: none;
+        height: 17px;
+        background: #0f6e8a;
+        display: block;
+        position: absolute;
+        z-index: -1;
+        bottom: 5px;
+        left: -8px;
+      }
+
+      @media #{$break-sm} {
+        font-size: 40px;
+      }
     }
+  }
+
+  #marquee {
+    display: flex;
+    margin: 100px auto;
+    align-items: center;
+    height: 12vw;
+    overflow-x: hidden;
+    // transform: translate3d(calc(-25% + 20vw), 0, 0);
+
+    p {
+      color: #094056;
+      font-family: brandon-grotesque, sans-serif;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 29px; /* 58% */
+      letter-spacing: 4.375px;
+      font-size: 4vw;
+      padding: 0 2vw;
+      white-space: nowrap;
+    }
+
+    .marquee-content {
+      padding-inline: 8px;
+      width: fit-content;
+      position: relative;
+      animation: scroll 30s linear infinite;
+    }
+
+    .scroll {
+      animation: scroll 30s linear infinite;
+    }
+
+    @keyframes scroll {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+  }
+
+  .helm-frame {
+    background-image: url("../img/home/border-bottom.png");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 25px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    border-bottom: 4px solid $blue-black;
+    pointer-events: none;
+  }
 }

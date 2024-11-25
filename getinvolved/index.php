@@ -23,10 +23,8 @@
 
         <!-- Marquee Section -->
         <section id="marquee">
-          <div class="marquee__inner" aria-hidden="true">
-            <span>WE ARE PERISHING FOR LACK OF WONDER, NOT FOR LACK OF WONDERS.</span>
-            <!-- <span>WE ARE PERISHING FOR LACK OF WONDER, NOT FOR LACK OF WONDERS.</span>
-            <span>WE ARE PERISHING FOR LACK OF WONDER, NOT FOR LACK OF WONDERS.</span> -->
+          <div class="marquee-content" aria-hidden="true">
+            <p>WE ARE PERISHING FOR LACK OF <span style="color:#1B7FA7"><em>WONDER,</em></span> NOT FOR LACK OF <span style="color:#A1766C"><em>WONDERS.</em></p>
           </div>
         </section>
 
