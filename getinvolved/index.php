@@ -18,15 +18,83 @@
             <div class="container">
                 <h1>Get involved with Field Day</h1>
             </div>
-          <div class="helm-frame"></div>
+          <div class="helm-frame-top"></div>
         </section> 
-
         <!-- Marquee Section -->
         <section id="marquee">
           <div class="marquee-content" aria-hidden="true">
-            <p>WE ARE PERISHING FOR LACK OF <span style="color:#1B7FA7"><em>WONDER,</em></span> NOT FOR LACK OF <span style="color:#A1766C"><em>WONDERS.</em></p>
+				<p><span>WE ARE PERISHING FOR LACK OF<span style="color:#1B7FA7"><em>WONDER,</em></span>NOT FOR LACK OF<span style="color:#A1766C"><em>WONDERS.</em></span>WE ARE PERISHING FOR LACK OF<span style="color:#1B7FA7"><em>WONDER,</em></span>NOT FOR LACK OF<span style="color:#A1766C"><em>WONDERS.</em></span></span></p>
+				<p><span>NOT FOR LACK OF<span style="color:#A1766C"><em>WONDERS.</em></span>WE ARE PERISHING FOR LACK OF<span style="color:#1B7FA7"><em>WONDER,</em></span>NOT FOR LACK OF<span style="color:#A1766C"><em>WONDERS.</em></span>WE ARE PERISHING FOR LACK OF<span style="color:#1B7FA7"><em>WONDER,</em></span></span></p>
+				<p><span>FOR LACK OF<span style="color:#1B7FA7"><em>WONDER,</em></span>NOT FOR LACK OF<span style="color:#A1766C"><em>WONDERS.</em></span>WE ARE PERISHING FOR LACK OF<span style="color:#1B7FA7"><em>WONDER,</em></span>NOT FOR LACK OF<span style="color:#A1766C"><em>WONDERS.</em></span>WE ARE PERISHING </span></p>
           </div>
         </section>
+        <!-- Body -->
+		<section id="content-body">
+        <div class="helm-frame-bottom"></div>
+			<div class="row">
+				<div class="nav-wrap sticky col-sm-4">
+					<div class="nav">
+						<ul>
+						<li><a href="#s1">Join an Teacher Fellowships</a></li>
+						<li><a href="#s2">Make a Game with Us</a></li>
+						<li><a href="#s3">Student Internship</a></li>
+						<li><a href="#s4">Research Partner</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div id="s1" class="wrapper">
+						<div class="img-section left">
+							<img src="/assets/img/get-involved/educator-fellows.png" alt="teacher fellowship">
+						</div>
+						<div class="info-section right">
+							<h2>educator fellowships</h2>
+							<p class="small">
+								All our games are free. No downloads, no in-game purchases, intrusive ads, or pop-ups. Our games play directly from your web browser.
+							</p>
+							<a class="button small yellow filled" href="/fellowships" target="_blank">Learn More</a>
+						</div>
+					</div>
+					<div id="s2" class="wrapper">
+						<div class="info-section left">
+							<h2>make a game with us</h2>
+							<p class="small">
+								Are you a teacher interested in games for learning? Join us at a Teacher Fellowship and design a game with us! We want our games to reach classrooms, so we’re partnering up with the classroom experts: teachers like you.
+							</p>
+							<a class="button small yellow filled" href="/work" target="_blank">Learn More</a>
+						</div>
+						<div class="img-section right">
+							<img src="/assets/img/get-involved/make-a-game.png" alt="teacher fellowship">
+						</div>
+					</div>
+
+					<div id="s3" class="wrapper">
+						<div class="img-section left">
+							<img src="/assets/img/get-involved/educator-fellows.png" alt="teacher fellowship">
+						</div>
+						<div class="info-section right">
+							<h2>college internships</h2>
+							<p class="small">
+								Are you a student looking to work with Field Day? We offer paid  internship positions in Research, Engineering, Design, and Art. 
+							</p>
+							<a class="button small yellow filled" href="/" target="_blank">Learn More</a>
+						</div>
+					</div>
+					<div id="s4" class="wrapper">
+						<div class="info-section left">
+							<h2>Become a research partner</h2>
+							<p class="small">
+								We have built an open-source and community-maintained data storage and processing pipeline for educational game data. From the logging libraries that studios can integrate into their games, all the way to the final visualizations that allow design researchers to build new theory, we are thinking about modularity, scalability and performance.
+							</p>	
+							<a class="button small yellow filled" href="/research" target="_blank">Learn More</a>
+						</div>
+						<div class="img-section right">
+							<img src="/assets/img/get-involved/research-partner.png" alt="teacher fellowship">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
     </div>
 
