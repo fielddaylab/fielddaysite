@@ -14,7 +14,7 @@
 
     <div class="get-involved">
         <!-- Hero Section -->
-        <section class="singlehero page_hero">
+        <section id="heroscope" class="singlehero page_hero">
             <div class="container">
                 <h1>Get involved with Field Day</h1>
             </div>
@@ -103,6 +103,48 @@
 
 <!--include footer -->
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/footer.php";  include_once($path); ?>
+
+<script src='../assets/js/vendor/graphemescope.js'></script>
+<script>
+var images = [
+  "../assets/img/hero-images/getinvolved-bg.jpg"
+];
+
+
+// Let's create graphemescope object inside the container
+var container = $("#heroscope");
+var scope = new Graphemescope( container[0] );
+
+
+var index = 0;
+function changePicture() {
+    scope.setImage(images[index]);  
+    index = (index + 1) % images.length;
+};
+
+setInterval(changePicture, 2000);
+changePicture();
+
+$(window).mousemove(function(event) {
+  var factorx = event.pageX / $(window).width();
+  var factory = event.pageY / $(window).height()
+  
+  // This will move kaleidoscope
+  scope.angleTarget = factorx;
+  scope.zoomTarget  = 1.0 + 0.3 * factory;
+});
+
+
+var resizeHandler = function() {
+  container.width( $(window).width() );
+};
+
+$(window).resize(resizeHandler);
+$(window).resize();
+
+container.click(changePicture);	
+
+</script>
 
 </body>
 </html>

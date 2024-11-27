@@ -6,14 +6,18 @@
 
 	.page_hero {
 		text-align: center;
-		background-image: url(/assets/img/hero-images/get-involved-hero.png);
+		background-image: url(/assets/img/hero-images/getinvolved-bg.jpg);
 		background-size: cover;
 		background-position: right;
-		height: 90vh;
+		height: 70vh;
 		align-content: center;
 
 		.container {
 			padding: 4vw;
+		    position: absolute;
+		    margin: 0 auto;
+		    display: block;
+		    max-width: initial;
 
 			h1 {
 				color: white;
@@ -22,11 +26,11 @@
 				font-size: 4em;
 				position: relative;
 				display: inline-block;
-				width: 100%;
 				margin-bottom: 25px;
 				z-index: 1;
+				margin:0 auto;
 
-				&:after {
+				&:before {
 					content: "";
 					width: 100%;
 					height: 17px;
@@ -57,7 +61,6 @@
 			width: fit-content;
 			height: fit-content;
 			position: relative;
-			animation: scroll 30s linear infinite;
 			margin-bottom: 10px;
 
 			p {
@@ -66,6 +69,12 @@
 				font-weight: 500;
 				letter-spacing: 4.375px;
 				line-height: 30px;
+				animation: scroll 60s linear infinite;
+				&:nth-child(2) {
+					animation: scroll-reverse 60s linear infinite
+				}
+
+
 			}
 
 			span {
@@ -77,7 +86,11 @@
 		}
 
 		.scroll {
-			animation: scroll 30s linear infinite;
+			animation: scroll 50s linear infinite;
+		}
+
+		.scroll-reverse {
+			animation: scroll-reverse 50s linear infinite;
 		}
 
 		@keyframes scroll {
@@ -86,6 +99,14 @@
 			}
 			to {
 				transform: translateX(-49%);
+			}
+		}
+		@keyframes scroll-reverse {
+			from {
+				transform: translateX(-49%);
+			}
+			to {
+				transform: translateX(0);
 			}
 		}
 	}

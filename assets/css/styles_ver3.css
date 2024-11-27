@@ -18302,14 +18302,18 @@ tbody tr {
 }
 .get-involved .page_hero {
   text-align: center;
-  background-image: url(/assets/img/hero-images/get-involved-hero.png);
+  background-image: url(/assets/img/hero-images/getinvolved-bg.jpg);
   background-size: cover;
   background-position: right;
-  height: 90vh;
+  height: 70vh;
   align-content: center;
 }
 .get-involved .page_hero .container {
   padding: 4vw;
+  position: absolute;
+  margin: 0 auto;
+  display: block;
+  max-width: initial;
 }
 .get-involved .page_hero .container h1 {
   color: white;
@@ -18318,11 +18322,11 @@ tbody tr {
   font-size: 4em;
   position: relative;
   display: inline-block;
-  width: 100%;
   margin-bottom: 25px;
   z-index: 1;
+  margin: 0 auto;
 }
-.get-involved .page_hero .container h1:after {
+.get-involved .page_hero .container h1:before {
   content: "";
   width: 100%;
   height: 17px;
@@ -18333,7 +18337,7 @@ tbody tr {
   z-index: -1;
 }
 @media (max-width: 1130px) {
-  .get-involved .page_hero .container h1:after {
+  .get-involved .page_hero .container h1:before {
     display: none;
   }
 }
@@ -18351,7 +18355,6 @@ tbody tr {
   width: fit-content;
   height: fit-content;
   position: relative;
-  animation: scroll 30s linear infinite;
   margin-bottom: 10px;
 }
 .get-involved #marquee .marquee-content p {
@@ -18360,6 +18363,10 @@ tbody tr {
   font-weight: 500;
   letter-spacing: 4.375px;
   line-height: 30px;
+  animation: scroll 60s linear infinite;
+}
+.get-involved #marquee .marquee-content p:nth-child(2) {
+  animation: scroll-reverse 60s linear infinite;
 }
 .get-involved #marquee .marquee-content span {
   color: #094056;
@@ -18368,7 +18375,10 @@ tbody tr {
   white-space: nowrap;
 }
 .get-involved #marquee .scroll {
-  animation: scroll 30s linear infinite;
+  animation: scroll 50s linear infinite;
+}
+.get-involved #marquee .scroll-reverse {
+  animation: scroll-reverse 50s linear infinite;
 }
 @keyframes scroll {
   from {
@@ -18376,6 +18386,14 @@ tbody tr {
   }
   to {
     transform: translateX(-49%);
+  }
+}
+@keyframes scroll-reverse {
+  from {
+    transform: translateX(-49%);
+  }
+  to {
+    transform: translateX(0);
   }
 }
 .get-involved .helm-frame-top {
