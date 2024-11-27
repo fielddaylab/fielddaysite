@@ -43,7 +43,7 @@
 					</div>
 				</div>
 				<div class="col-sm-8">
-					<div id="s1" class="wrapper">
+					<div id="s1" class="fact">
 						<div class="img-section left">
 							<img src="/assets/img/get-involved/educator-fellows.png" alt="teacher fellowship">
 						</div>
@@ -55,7 +55,7 @@
 							<a class="button small yellow filled" href="/fellowships" target="_blank">Learn More</a>
 						</div>
 					</div>
-					<div id="s2" class="wrapper">
+					<div id="s2" class="fact">
 						<div class="info-section left">
 							<h2>make a game with us</h2>
 							<p class="small">
@@ -68,7 +68,7 @@
 						</div>
 					</div>
 
-					<div id="s3" class="wrapper">
+					<div id="s3" class="fact">
 						<div class="img-section left">
 							<img src="/assets/img/get-involved/educator-fellows.png" alt="teacher fellowship">
 						</div>
@@ -80,7 +80,7 @@
 							<a class="button small yellow filled" href="/" target="_blank">Learn More</a>
 						</div>
 					</div>
-					<div id="s4" class="wrapper">
+					<div id="s4" class="fact">
 						<div class="info-section left">
 							<h2>Become a research partner</h2>
 							<p class="small">

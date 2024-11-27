@@ -18332,9 +18332,9 @@ tbody tr {
   bottom: 5px;
   z-index: -1;
 }
-@media only screen and (max-width: 768px) {
-  .get-involved .page_hero .container h1 {
-    font-size: 30px;
+@media (max-width: 1130px) {
+  .get-involved .page_hero .container h1:after {
+    display: none;
   }
 }
 .get-involved #marquee {
@@ -18354,14 +18354,16 @@ tbody tr {
   animation: scroll 30s linear infinite;
   margin-bottom: 10px;
 }
-.get-involved #marquee .marquee-content span {
-  color: #094056;
-  font-family: brandon-grotesque, sans-serif;
+.get-involved #marquee .marquee-content p {
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
-  line-height: 29px; /* 58% */
   letter-spacing: 4.375px;
+  line-height: 30px;
+}
+.get-involved #marquee .marquee-content span {
+  color: #094056;
+  font-family: brandon-grotesque, sans-serif;
   padding: 0 2vw;
   white-space: nowrap;
 }
@@ -18393,13 +18395,16 @@ tbody tr {
   background-position: bottom;
   background-repeat: repeat-x;
   background-size: 30px;
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
   position: absolute;
   height: 100%;
   width: 100%;
-  bottom: 0;
-  border-bottom: 3px solid #001E2A;
+  top: -4px;
+  padding: none;
+  margin: none;
+  border-bottom: 4px solid #001E2A;
   pointer-events: none;
-  transform: scaleY(-1);
 }
 @media only screen and (max-width: 768px) {
   .get-involved #content-body {
@@ -18430,42 +18435,6 @@ tbody tr {
 .get-involved #content-body p {
   margin-bottom: 10px;
 }
-.get-involved #content-body .wrapper {
-  padding: 40px 0px;
-  height: fit-content;
-  border-bottom: 3px solid #f5f5f5;
-  align-items: center;
-  display: flex;
-}
-@media only screen and (max-width: 768px) {
-  .get-involved #content-body .wrapper {
-    display: block;
-  }
-}
-.get-involved #content-body .wrapper .info-section {
-  width: 75%;
-  margin: 0 48px;
-}
-@media only screen and (max-width: 1024px) {
-  .get-involved #content-body .wrapper .info-section {
-    width: 100%;
-    display: block;
-  }
-}
-.get-involved #content-body .wrapper .img-section {
-  width: 25%;
-}
-@media only screen and (max-width: 1024px) {
-  .get-involved #content-body .wrapper .img-section {
-    width: 100%;
-    display: block;
-  }
-}
-.get-involved #content-body .wrapper .img-section img {
-  margin: auto;
-  display: flex;
-  border-radius: 5px;
-}
 @media only screen and (max-width: 768px) {
   .get-involved #content-body .nav-wrap {
     display: none;
@@ -18493,4 +18462,48 @@ tbody tr {
   font-size: 16px;
   letter-spacing: 0px;
   text-transform: uppercase;
+}
+.get-involved #content-body .fact {
+  padding: 40px 0px;
+  height: fit-content;
+  border-bottom: 3px solid #f5f5f5;
+  align-items: center;
+  display: flex;
+  gap: 2vw;
+}
+@media only screen and (min-width: 1025px) {
+  .get-involved #content-body .fact {
+    gap: 8vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .get-involved #content-body .fact {
+    flex-direction: column;
+  }
+  .get-involved #content-body .fact:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+}
+.get-involved #content-body .fact .info-section {
+  width: 75%;
+}
+@media only screen and (max-width: 1024px) {
+  .get-involved #content-body .fact .info-section {
+    margin: 32px;
+    width: 100%;
+  }
+}
+.get-involved #content-body .fact .img-section {
+  width: 25%;
+}
+@media only screen and (max-width: 1024px) {
+  .get-involved #content-body .fact .img-section {
+    margin: 32px;
+    width: 100%;
+  }
+}
+.get-involved #content-body .fact .img-section img {
+  margin: auto;
+  display: flex;
+  border-radius: 5px;
 }
