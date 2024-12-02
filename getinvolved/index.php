@@ -131,7 +131,7 @@ $(window).mousemove(function(event) {
   
   // This will move kaleidoscope
   scope.angleTarget = factorx;
-  scope.zoomTarget  = 1.0 + 0.3 * factory;
+  scope.zoomTarget  = 0.85 + 0.1 * factory;
 });
 
 
