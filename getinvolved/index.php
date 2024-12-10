@@ -32,17 +32,18 @@
 		<section id="content-body">
         <div class="helm-frame-bottom"></div>
 			<div class="row">
-				<div class="nav-wrap sticky col-sm-4">
+				<div class="nav-wrap sticky col-lg-4">
 					<div class="nav">
 						<ul>
 						<li><a href="#s1">Join an Teacher Fellowships</a></li>
 						<li><a href="#s2">Make a Game with Us</a></li>
 						<li><a href="#s3">Student Internship</a></li>
 						<li><a href="#s4">Research Partner</a></li>
+						<li><a href="#s5">Join the Vault</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-sm-8">
+				<div class="col-lg-8">
 					<div id="s1" class="fact">
 						<div class="img-section left">
 							<img src="/assets/img/get-involved/educator-fellows.png" alt="teacher fellowship">
@@ -50,7 +51,7 @@
 						<div class="info-section right">
 							<h2>educator fellowships</h2>
 							<p class="small">
-								All our games are free. No downloads, no in-game purchases, intrusive ads, or pop-ups. Our games play directly from your web browser.
+								Are you a teacher interested in games for learning? Join us at a Teacher Fellowship and design a game with us! We want our games to reach classrooms, so we’re partnering up with the classroom experts: teachers like you.
 							</p>
 							<a class="button small yellow filled" href="/fellowships" target="_blank">Learn More</a>
 						</div>
@@ -59,7 +60,7 @@
 						<div class="info-section left">
 							<h2>make a game with us</h2>
 							<p class="small">
-								Are you a teacher interested in games for learning? Join us at a Teacher Fellowship and design a game with us! We want our games to reach classrooms, so we’re partnering up with the classroom experts: teachers like you.
+								Are you looking to bring your research to the public? We’ll turn your amazing work into a game that reaches huge audiences. Our games cost a fraction of a penny per minute of engagement and last for a decade.
 							</p>
 							<a class="button small yellow filled" href="/work" target="_blank">Learn More</a>
 						</div>
@@ -90,6 +91,18 @@
 						</div>
 						<div class="img-section right">
 							<img src="/assets/img/get-involved/research-partner.png" alt="teacher fellowship">
+						</div>
+					</div>
+					<div id="s5" class="fact">
+						<div class="img-section left">
+							<img src="/assets/img/get-involved/the-vault.png" alt="image of a vintage computer with a logo titled the vault below>
+						</div>
+						<div class="info-section right">
+							<h2>Join the Vault</h2>
+							<p class="small">
+								Be a part of the largest free library of learning games on the web. 
+							</p>
+							<a class="button small yellow filled" href="/" target="_blank">Learn More</a>
 						</div>
 					</div>
 				</div>
@@ -131,7 +144,7 @@ $(window).mousemove(function(event) {
   
   // This will move kaleidoscope
   scope.angleTarget = factorx;
-  scope.zoomTarget  = 0.85 + 0.1 * factory;
+  scope.zoomTarget  = 1.5 + 0.1 * factory;
 });
 
 
