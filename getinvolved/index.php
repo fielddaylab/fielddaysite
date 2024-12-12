@@ -35,16 +35,28 @@
 				<div class="nav-wrap sticky col-lg-4">
 					<div class="nav">
 						<ul>
-						<li><a href="#s1">Join an Teacher Fellowships</a></li>
-						<li><a href="#s2">Make a Game with Us</a></li>
-						<li><a href="#s3">Student Internship</a></li>
-						<li><a href="#s4">Research Partner</a></li>
-						<li><a href="#s5">Join the Vault</a></li>
+						<li><a href="#s1">Join the Vault</a></li>
+						<li><a href="#s2">Join an Teacher Fellowships</a></li>
+						<li><a href="#s3">Make a Game with Us</a></li>
+						<li><a href="#s4">Student Internship</a></li>
+						<li><a href="#s5">Research Partner</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-lg-8">
 					<div id="s1" class="fact">
+						<div class="info-section left">
+							<h2>Join the Vault</h2>
+							<p class="small">
+								Be a part of the largest free library of learning games on the web. 
+							</p>
+							<a class="button small yellow filled" href="/" target="_blank">Learn More</a>
+						</div>
+						<div class="img-section right">
+							<img src="/assets/img/get-involved/the-vault.png" alt="image of a vintage computer with a logo titled the vault below">
+						</div>
+					</div>
+					<div id="s2" class="fact">
 						<div class="img-section left">
 							<img src="/assets/img/get-involved/educator-fellows.png" alt="teacher fellowship">
 						</div>
@@ -56,7 +68,7 @@
 							<a class="button small yellow filled" href="/fellowships" target="_blank">Learn More</a>
 						</div>
 					</div>
-					<div id="s2" class="fact">
+					<div id="s3" class="fact">
 						<div class="info-section left">
 							<h2>make a game with us</h2>
 							<p class="small">
@@ -69,7 +81,7 @@
 						</div>
 					</div>
 
-					<div id="s3" class="fact">
+					<div id="s4" class="fact">
 						<div class="img-section left">
 							<img src="/assets/img/get-involved/educator-fellows.png" alt="teacher fellowship">
 						</div>
@@ -81,7 +93,7 @@
 							<a class="button small yellow filled" href="/" target="_blank">Learn More</a>
 						</div>
 					</div>
-					<div id="s4" class="fact">
+					<div id="s5" class="fact">
 						<div class="info-section left">
 							<h2>Become a research partner</h2>
 							<p class="small">
@@ -91,18 +103,6 @@
 						</div>
 						<div class="img-section right">
 							<img src="/assets/img/get-involved/research-partner.png" alt="teacher fellowship">
-						</div>
-					</div>
-					<div id="s5" class="fact">
-						<div class="img-section left">
-							<img src="/assets/img/get-involved/the-vault.png" alt="image of a vintage computer with a logo titled the vault below>
-						</div>
-						<div class="info-section right">
-							<h2>Join the Vault</h2>
-							<p class="small">
-								Be a part of the largest free library of learning games on the web. 
-							</p>
-							<a class="button small yellow filled" href="/" target="_blank">Learn More</a>
 						</div>
 					</div>
 				</div>
