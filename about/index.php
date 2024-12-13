@@ -121,11 +121,21 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_jenn">
+        <li class="gridder-list" data-griddercontent="#profile_luke">
           <div class="profile-thumbnail">
-            <img alt="Jenn Scianna" src="/assets/img/profiles/jenn.jpg">
+            <img src="/assets/img/profiles/luke.jpeg">
             <div class="card-summary">
-              <h3>Jenn Scianna</h3>
+              <h3>Luke Swanson</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_amelia">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/amelia.jpg">
+            <div class="card-summary">
+              <h3>Amelia Moser</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -143,7 +153,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile_reyna">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/reyna.jpeg">
+            <img src="/assets/img/profiles/reynaa.jpg">
             <div class="card-summary">
               <h3>Reyna Groff</h3>
               <span class="card-triangle"></span>
@@ -167,21 +177,11 @@
       <ul class="gridder">
 
 
-        <li class="gridder-list" data-griddercontent="#profile_luke">
+        <li class="gridder-list" data-griddercontent="#profile_xander">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/luke.jpeg">
+            <img src="/assets/img/profiles/xander.jpg">
             <div class="card-summary">
-              <h3>Luke Swanson</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_amelia">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/amelia.jpg">
-            <div class="card-summary">
-              <h3>Amelia Moser</h3>
+              <h3>Xander Grabowski</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -196,32 +196,12 @@
             </div>
           </div>
         </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_dane">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/astro.jpg">
-            <div class="card-summary">
-              <h3>Dane Bach</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_mia">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/astro.jpg">
-            <div class="card-summary">
-              <h3>Mia Yunqing Xiao</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-      </ul>
+</ul>
 
       <h2 class="section-title centered">Collaborating Artists and Contractors</h2>
 
-
       <ul class="gridder">
+
 <li class="gridder-list" data-griddercontent="#profile_lindy">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/lindy.jpg">
@@ -297,6 +277,16 @@
             <img src="/assets/img/profiles/terra.jpg">
             <div class="card-summary">
               <h3>Terra</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_jenn">
+          <div class="profile-thumbnail">
+            <img alt="Jenn Scianna" src="/assets/img/profiles/jenn.jpg">
+            <div class="card-summary">
+              <h3>Jenn Scianna</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -449,7 +439,7 @@
   <div id="profile_reyna" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Reyna Groff</h3>
-      <span>Art and Design Intern  </span>
+      <span>2D Artist</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
           <p class="small">Reyna is an artist with a flair for storytelling, character, and design. When she’s not making beautiful art here in Madison, you might find Reyna traveling the world and putting her three languages to good use. Kids (and adults) fall in love with Reyna’s whimsical, creative characters. She enjoys tactile hobbies like baking, printmaking, and papermaking, and is a firm believer in helping others develop new passions through playful learning and collaboration.</p>
@@ -592,10 +582,10 @@
   <div id="profile_levi" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Levi Huillet</h3>
-      <span>Game Engineering Intern</span>
+      <span>Game Engineer</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Levi is a student game engineer who cares about using games to make a lasting impact on people’s lives. At Field Day, Levi has worked extensively on game mechanic development for Shipwrecks, as well as supporting and contributing to the writing team. Levi is a computer science major with a game design certificate. He has always been drawn to doing work that benefits people, and he considered psychiatry and writing before discovering game design and its rich potential for learning.</p>
+          <p class="small">Levi is a game engineer who cares about using games to make a lasting impact on people’s lives. At Field Day, Levi has worked extensively on game mechanic development for Shipwrecks, as well as supporting and contributing to the writing team. He has always been drawn to doing work that benefits people, and he considered psychiatry and writing before discovering game design and its rich potential for learning.</p>
           <h4>Field Day projects:</h4>
           <ul>
             <li>Game development for Shipwrecks, including the evidence board mechanic and the sonar mechanic</li>
@@ -606,7 +596,7 @@
             <li>Content, analytics, and game UI for Headlines and High Water</li>
           </ul>
           <p class="small">
-            Levi grew up traveling the world—he has lived in Washington, Hawaii, Qatar, and Germany before moving to the Midwest to study at UW-Madison. In addition to computer science and game design, he is currently studying Finnish—both because he loves the language, and because he’s interested in the technology and game design opportunities in Finland. He has worked on his own game design projects outside of Field Day and joined in game jams with other Field Day interns.
+            Levi grew up traveling the world—he has lived in Washington, Hawaii, Qatar, and Germany before moving to the Midwest to study at UW-Madison. In addition to computer science and game design, he studied Finnish—both because he loves the language, and because he’s interested in the technology and game design opportunities in Finland. He has worked on his own game design projects outside of Field Day and joined in game jams with other Field Day interns.
           </p>
           <p class="small">
             Check out Levi's work <a href="https://stardark-ferry.itch.io/" target="_blank">here!</a>
@@ -619,10 +609,10 @@
   <div id="profile_amelia" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Amelia Moser</h3>
-      <span>Game Engineering Intern</span>
+      <span>Game Engineer</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Amelia is a student game engineer with a knack for story and design. As a biochemistry major working toward certificates in game design and folklore, she brings a unique background and lots of creative insight to our team. Amelia loves working across disciplines. She has impressed everyone with her ability to take on different roles, from game development to prototype design and writing. As a new intern, she took the lead on developing a Twine prototype for Headlines and High Water, plus supporting our writing team in using Twine and adding her own witty, playful story ideas to the mix.</p>
+          <p class="small">Amelia is a game engineer with a knack for story and design. With a biochemistry major and certificates in game design and folklore, she brings a unique background and lots of creative insight to our team. Amelia loves working across disciplines. She has impressed everyone with her ability to take on different roles, from game development to prototype design and writing. When she first joined us, she took the lead on developing a Twine prototype for Headlines and High Water, plus supporting our writing team in using Twine and adding her own witty, playful story ideas to the mix.</p>
           <h4>Field Day projects:</h4>
           <ul>
             <li>Development and implementation of the BrainPop project</li>
@@ -790,6 +780,22 @@
           <p class="small">
             Terra makes her own games at her independent game studio, Potato Interactive. Her most recent project is Crime Reaper, a murder mystery game! She’s also working on a Tarot game anthology, which will include 22 games. Terra does all of the writing, visual design, and sound design for her games, as well as the development. Check out her work <a href="https://rottentater.com/games/" target="_blank">here!</a>
           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_xander" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Xander Grabowski</h3>
+      <span>Graduate Development and Design Intern </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Xander began creating games when he was in middle-school. He graduated from the University of Wisconsin—Madison with a bachelor’s degree in computer science and certificates in game design, digital art, and Japanese communication. Working at Field Day as an undergrad developer inspired him to return for his master's in Design, Informal, and Creative Education (DICE), where he explores the use of new technologies and media in the service of learning and human growth. Now he fills a dual role at Field Day: working in both development and UX and game design. </p>
+
+<p>Xander has a diverse range of experience developing games and tutoring others on their journey in game development. He can frequently be found in international fan games, hackathons, and game jams, expressing his passion for transformational games and FOSS. He has taught as a game development instructor at Maydm Inc. and Code Ninjas, where he was also involved in creating and developing game dev curriculum for kids in K-12. He has also worked as a youth e-sports coach with XPLeague, and a software trainer within UW—Madison’s DoIT Academic Technology.</p>
+
+<p>Check out Xander's portolfio <a href="https://xangrab.com" target="_blank">here.</a></p>
         </div>
       </div>
     </div>
