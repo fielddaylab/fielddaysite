@@ -1,0 +1,13 @@
+{
+"companyName": "Field Day Lab",
+"productName": "AtomTouch",
+"dataUrl": "local-build.data.unityweb",
+"wasmCodeUrl": "local-build.wasm.code.unityweb",
+"wasmFrameworkUrl": "local-build.wasm.framework.unityweb",
+"TOTAL_MEMORY": 402653184,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"}
+}
