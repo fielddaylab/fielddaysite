@@ -18311,9 +18311,14 @@ tbody tr {
 .get-involved .page_hero .container {
   padding: 4vw;
   position: absolute;
-  margin: 0 auto;
   display: block;
   max-width: initial;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  width: fit-content;
+  background: rgba(1, 28, 37, 0.8);
+  border-radius: 20px;
 }
 .get-involved .page_hero .container h1 {
   color: white;
@@ -18340,6 +18345,14 @@ tbody tr {
   .get-involved .page_hero .container h1:before {
     display: none;
   }
+}
+.get-involved .page_hero .container p {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 53vw;
+  font-weight: bold;
+  margin-top: 10px;
 }
 .get-involved #marquee {
   display: flex;
@@ -18508,7 +18521,7 @@ tbody tr {
   }
 }
 .get-involved #content-body .fact .img-section {
-  width: 25%;
+  width: 40%;
 }
 @media only screen and (min-width: 1025px) {
   .get-involved #content-body .fact .img-section {

@@ -17,6 +17,7 @@
         <section id="heroscope" class="singlehero page_hero">
             <div class="container">
                 <h1>Get involved with Field Day</h1>
+                	<p class="small centered white">Whether you're an educator, researcher, game designer, or student, there are countless ways for you to get involved. Explore new opportunities to collaborate with us, share your expertise, and create the next generation of educational games.</p>
             </div>
           <div class="helm-frame-top"></div>
         </section> 
@@ -46,11 +47,11 @@
 				<div class="col-lg-8">
 					<div id="s1" class="fact">
 						<div class="info-section left">
-							<h2>Join the Vault</h2>
+							<h2>Discover New Learning Games</h2>
 							<p class="small">
-								Be a part of the largest free library of learning games on the web. 
+								Explore the largest library of free learning games on the web, including those created by us. Curated by the team at Field Day Lab, these games are designed to make learning fun and engaging.
 							</p>
-							<a class="button small yellow filled" href="/" target="_blank">Learn More</a>
+							<a class="button small yellow filled" href="https://vaultlearninggames.org/" target="_blank">Learn More</a>
 						</div>
 						<div class="img-section right">
 							<img src="/assets/img/get-involved/the-vault.png" alt="image of a vintage computer with a logo titled the vault below">
@@ -61,20 +62,20 @@
 							<img src="/assets/img/get-involved/educator-fellows.png" alt="teacher fellowship">
 						</div>
 						<div class="info-section right">
-							<h2>educator fellowships</h2>
+							<h2>Join an educator fellowship</h2>
 							<p class="small">
-								Are you a teacher interested in games for learning? Join us at a Teacher Fellowship and design a game with us! We want our games to reach classrooms, so we’re partnering up with the classroom experts: teachers like you.
+								Are you a teacher passionate about game-based learning? Apply to our Educator Fellowship and design a game with us! All of our games are developed in collaboration with classroom experts like you.
 							</p>
-							<a class="button small yellow filled" href="/fellowships" target="_blank">Learn More</a>
+							<a class="button small yellow filled" href="/fellowships" target="_blank">Learn More about fellowships</a>
 						</div>
 					</div>
 					<div id="s3" class="fact">
 						<div class="info-section left">
-							<h2>make a game with us</h2>
+							<h2>make a game</h2>
 							<p class="small">
-								Are you looking to bring your research to the public? We’ll turn your amazing work into a game that reaches huge audiences. Our games cost a fraction of a penny per minute of engagement and last for a decade.
+								Bring your research to life through games! If you're a researcher with innovative ideas, we’ll help turn your work into a game that reaches a broad audience.
 							</p>
-							<a class="button small yellow filled" href="/work" target="_blank">Learn More</a>
+							<a class="button small yellow filled" href="/work" target="_blank">Make a game with us</a>
 						</div>
 						<div class="img-section right">
 							<img src="/assets/img/get-involved/make-a-game.png" alt="teacher fellowship">
@@ -86,18 +87,18 @@
 							<img src="/assets/img/get-involved/educator-fellows.png" alt="teacher fellowship">
 						</div>
 						<div class="info-section right">
-							<h2>college internships</h2>
+							<h2>Apply for an internship</h2>
 							<p class="small">
-								Are you a student looking to work with Field Day? We offer paid  internship positions in Research, Engineering, Design, and Art. 
+								We offer paid internship positions in Research, Engineering, Design, and Art. Join our team to gain real-world experience in education and game design.
 							</p>
-							<a class="button small yellow filled" href="/" target="_blank">Learn More</a>
+							<a class="button small yellow filled" href="https://docs.google.com/forms/d/e/1FAIpQLSckj7eC29biieodPyCFRBZFlskKyeMK_Ca3qt5EndYC14XYdw/viewform?usp=sf_link" target="_blank">Apply Now</a>
 						</div>
 					</div>
 					<div id="s5" class="fact">
 						<div class="info-section left">
-							<h2>Become a research partner</h2>
+							<h2>Join our Research Community</h2>
 							<p class="small">
-								We have built an open-source and community-maintained data storage and processing pipeline for educational game data. From the logging libraries that studios can integrate into their games, all the way to the final visualizations that allow design researchers to build new theory, we are thinking about modularity, scalability and performance.
+								Gain access to valuable game data through our Open Game Data project. Researchers can explore data from our games, and game studios can make their data available for study and innovation.
 							</p>	
 							<a class="button small yellow filled" href="/research" target="_blank">Learn More</a>
 						</div>

@@ -15,9 +15,14 @@
 		.container {
 			padding: 4vw;
 		    position: absolute;
-		    margin: 0 auto;
 		    display: block;
 		    max-width: initial;
+			left: 0; 
+			right: 0; 
+			margin-inline: auto; 
+			width: fit-content;
+			background: rgba(1, 28, 37, 0.8);
+			border-radius: 20px;
 
 			h1 {
 				color: white;
@@ -43,6 +48,14 @@
 					bottom: 5px;
 					z-index: -1;
 				}
+			}
+			p {
+				color: #fff;
+				font-size:20px;
+				margin: 0 auto;
+				width: 53vw;
+				font-weight:bold;
+				margin-top:10px;
 			}
 		}
 	}
@@ -237,7 +250,7 @@
 			}
 
 			.img-section {
-				width: 25%;
+				width: 40%;
 
 				@media #{$break-lg} {
 					margin-right: 30px;
