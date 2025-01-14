@@ -51,9 +51,9 @@ include_once($path); ?>
     <h2>Play Atom Touch</h2>
     <div id="content_play" style="width:880px; height:660px;" onclick="playContent()"><span class="button white filled">Play Atom Touch</span></div>
     <iframe id="content" scrolling="no" style="width:880px; height:660px; display:none; margin:10px auto; overflow:hidden; border:0px;" src="build/null.html"></iframe>
-    <h2>You can also download atom touch: </h2>
+    <!-- <h2>You can also download atom touch: </h2>
     <a href="https://itunes.apple.com/us/app/atomtouch/id1022112547?mt=8" target="_blank"><img class="play-button" src="/assets/img/buttons/apple-badge.png"></a>
-    <a href="https://play.google.com/store/apps/details?id=edu.wisc.wid.fielddaylab.atomtouch&hl=en" target="_blank"><img class="play-button" src="/assets/img/buttons/google-play-badge.png"></a>
+    <a href="https://play.google.com/store/apps/details?id=edu.wisc.wid.fielddaylab.atomtouch&hl=en" target="_blank"><img class="play-button" src="/assets/img/buttons/google-play-badge.png"></a> -->
   </section>
 
   <section id="app-about" class="app-about">

@@ -46,7 +46,7 @@ window.onload = function()
     </div>
     <div class="app-description"><p class="small">This town-building game teaches complex systems. Made in partnership with the Scalable Systems Lab at UW-Madison. Played by thousands of kids a month.</p></div>
     <div class="buttons">
-      <a class="button xsmall white filled" href="javascript:window.open('game/iframe.html','lakeland','width=1024,height=660')">Play the Game</a>
+      <a class="button xsmall white filled" href="javascript:window.open('game/','lakeland','width=1024,height=660')">Play the Game</a>
       <a href="#teach" class="button xsmall white">Teach with the Game</a>
       <a target="_blank" href="https://medium.com/fielddaylab/kids-are-using-lakeland-to-play-through-the-phosphorus-cycle-and-talk-about-poop-in-class-7c5bed32461c
 " class="button xsmall white">Read the Story</a>
