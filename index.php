@@ -97,8 +97,8 @@
     </section>
     <section id="welcome">
         <div class="container">
-            <h2>We are Field Day</h2>
-            <p>We are a team of artists, engineers, designers, researchers, writers, and game lovers.</p>
+            <h2>We are Artists Making Games</h2>
+            <p>Field Day is a team of artists, engineers, designers, researchers, writers, and game lovers.</p>
             <p>Welcome to our lab. Here's how we steer the ship.</p>
             <img src="assets/img/home/yellow-arrow.png" alt="down arrow">
         </div>

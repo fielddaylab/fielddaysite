@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics Atom Touch-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72694027-7"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-72694027-7');
-    </script>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <script src="https://cdn.brainpop.com/games/assets/js/html2canvas.js"></script>
-    <script src="https://cdn.brainpop.com/games/assets/js/cameraProxyDOMCrossDomain.js"></script>
+    <title>AtomTouch</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics Atom Touch-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72694027-7"></script>
+
+    <!-- tags for the Vault Dropdown -->
+    <script src="FloatingDropdown/index.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/vis0yeq.css">
+
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+
     <style>
       body,div
       {
@@ -20,71 +22,62 @@
         padding:0px;
       }
     </style>
-    <script src="TemplateData/UnityProgress.js"></script>
+    
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-72694027-7');
+    </script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-    /*
-      //notes on loader:
-      unity "UnityLoader" callback (which needs to get passed to "UnityProgress") actually only
-      passes the percentage of the ajax call (I think) to get the assets. Point is- that takes
-      ~3 seconds [from 0% to 100%] at time of writing this. There's an additional ~5s "white screen"
-      that hogs the CPU, and I have no access to what it's doing/how far it is going in doing it.
-      So- I get the "percentage", and I try to lerp _shown_ percentage towards that @ 10% per frame.
-      Since "real percentage" is 100% for a majority of its loading, this gives the illusion that
-      it's "still working on measuring progress" (even though it's long since "loaded" by unity's def).
-      ^ All this garbage explains the complex timeout below. good luck.
-    */
-      var w_max = 800;
-      var w = 0;
-      var w_target = 0;
-      var h = 20;
-      var x = 880/2-w_max/2;
-      var y = 660/2-h/2;
-      var loading_div = document.createElement('div');
-      loading_div.style.position = "absolute";
-      loading_div.style.top = y+"px";
-      loading_div.style.left = x+"px";
-      loading_div.style.width = w+"px";
-      loading_div.style.height = h+"px";
-      loading_div.style.backgroundColor = "black";
-      loading_div.style.color = "white";
-      loading_div.innerHTML = "&nbsp;loading...";
-      var first = true;
-      var last = false;
-      var running = true;
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/atomtouch.json",
-        {
-          onProgress:function(obj,p)
-          {
-            if(first) document.getElementById("gameContainer").appendChild(loading_div);
-            first = false;
-            UnityProgress(obj,p);
-            w_target = p*w_max;
-            if(p >= 1 && !last)
-            {
-              last = true;
-              setTimeout(function(){ running = false; document.getElementById("gameContainer").removeChild(loading_div);},3500);
-            }
-          }
+      function UnityProgress(gameInstance, progress) {
+        if (!gameInstance.Module)
+          return;
+        if (!gameInstance.logo) {
+          gameInstance.logo = document.createElement("div");
+          gameInstance.logo.className = "logo " + gameInstance.Module.splashScreenStyle;
+          gameInstance.container.appendChild(gameInstance.logo);
         }
-      );
-      var approachTarget;
-      approachTarget = function()
-      {
-        if(!running) return;
-        w = w+(0.05*(w_target-w));
-        loading_div.style.width = w+"px";
-        setTimeout(approachTarget,10);
+        if (!gameInstance.progress) {    
+          gameInstance.progress = document.createElement("div");
+          gameInstance.progress.className = "progress " + gameInstance.Module.splashScreenStyle;
+          gameInstance.progress.empty = document.createElement("div");
+          gameInstance.progress.empty.className = "empty";
+          gameInstance.progress.appendChild(gameInstance.progress.empty);
+          gameInstance.progress.full = document.createElement("div");
+          gameInstance.progress.full.className = "full";
+          gameInstance.progress.appendChild(gameInstance.progress.full);
+          gameInstance.container.appendChild(gameInstance.progress);
+        }
+        gameInstance.progress.full.style.width = (100 * progress) + "%";
+        gameInstance.progress.empty.style.width = (100 * (1 - progress)) + "%";
+        if (progress == 1)
+          gameInstance.logo.style.display = gameInstance.progress.style.display = "none";
       }
-      approachTarget();
+
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/local-build.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
-    <div class="webgl-content">
-      <div id="BrainPOPsnapArea" style="position:relative; height:660px;">
-        <div id="gameContainer" style="width:880px; height:660px"></div>
-      </div>
-      <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"><img src="TemplateData/fullscreen.png"></div>
+    <div class="webgl-content" style="overflow: hidden;">
+      <floating-dropdown>
+          <style>
+              span {
+                  font-family: "brandon-grotesque", sans-serif !important;
+              }
+          </style>
+          <img slot="header" src="FloatingDropdown/vault-library-logo.png" alt="Vault Games Library" width="250px">
+          <span slot="desc" class="content">
+              Field Day presents the largest collection of
+              <span style="color:#00ECD0">FREE</span>
+              learning games on the web.
+          </span>
+          <span slot="button-label" class="content">
+              OPEN VAULT
+          </span>
+      </floating-dropdown>
+      <div id="gameContainer" style="width: 1280px; height: 720px"></div>
     </div>
   </body>
 </html>
