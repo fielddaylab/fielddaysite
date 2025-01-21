@@ -17,7 +17,7 @@
         <section id="heroscope" class="singlehero page_hero">
             <div class="container">
                 <h1>Get involved with Field Day</h1>
-                	<p class="small centered white">Whether you're an educator, researcher, game designer, or student, there are countless ways for you to get involved. Explore new opportunities to collaborate with us, share your expertise, and create the next generation of educational games.</p>
+                	<p class="small centered white">Whether you're an educator, researcher, game designer, or student, there are countless ways for you to get involved.</p>
             </div>
           <div class="helm-frame-top"></div>
         </section> 
@@ -33,7 +33,7 @@
 		<section id="content-body">
         <div class="helm-frame-bottom"></div>
 			<div class="row">
-				<div class="nav-wrap sticky col-lg-4">
+				<!--<div class="nav-wrap sticky col-lg-4">
 					<div class="nav">
 						<ul>
 						<li><a href="#s1">Join the Vault</a></li>
@@ -43,15 +43,15 @@
 						<li><a href="#s5">Research Partner</a></li>
 						</ul>
 					</div>
-				</div>
-				<div class="col-lg-8">
+				</div>-->
+				<div class="col-lg-12">
 					<div id="s1" class="fact">
 						<div class="info-section left">
-							<h2>Discover New Learning Games</h2>
+							<h2>Play Games at The Vault</h2>
 							<p class="small">
 								Explore the largest library of free learning games on the web, including those created by us. Curated by the team at Field Day Lab, these games are designed to make learning fun and engaging.
 							</p>
-							<a class="button small yellow filled" href="https://vaultlearninggames.org/" target="_blank">Learn More</a>
+							<a class="button small yellow filled" href="https://vaultlearninggames.org/" target="_blank">Play</a>
 						</div>
 						<div class="img-section right">
 							<img src="/assets/img/get-involved/the-vault.png" alt="image of a vintage computer with a logo titled the vault below">
@@ -84,7 +84,7 @@
 
 					<div id="s4" class="fact">
 						<div class="img-section left">
-							<img src="/assets/img/get-involved/educator-fellows.png" alt="teacher fellowship">
+							<img src="/assets/img/get-involved/internship.jpg" alt="teacher fellowship">
 						</div>
 						<div class="info-section right">
 							<h2>Apply for an internship</h2>
