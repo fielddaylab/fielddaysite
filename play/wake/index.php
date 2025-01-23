@@ -50,11 +50,11 @@ window.onload = function()
   <?php $path = $_SERVER['DOCUMENT_ROOT'];
   $path .= "/includes/main-nav.php";
   include_once($path); ?>
-  <span class="curtain-toggle">Teaching with Wake?</span>
+  <!-- <span class="curtain-toggle">Teaching with Wake?</span> -->
 
-  <?php $path = $_SERVER['DOCUMENT_ROOT'];
+  <!-- <?php $path = $_SERVER['DOCUMENT_ROOT'];
   $path .= "/includes/curtain.php";
-  include_once($path); ?>
+  include_once($path); ?> -->
 
   <!-- Main Content -->
   <section class="app-hero">
