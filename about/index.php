@@ -196,6 +196,16 @@
             </div>
           </div>
         </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_ameya">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/ameya.jpg">
+            <div class="card-summary">
+              <h3>Ameya Kshirsagar</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
 </ul>
 
       <h2 class="section-title centered">Collaborating Artists and Contractors</h2>
@@ -620,7 +630,7 @@
    <div id="profile_zach" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Zach Studdiford</h3>
-      <span>Undergraduate Data Science Intern </span>
+      <span>Undergraduate Research Intern </span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
           <p class="small">Zach works on feature extraction for Headlines and Wake. He creates insights into when and why players choose to quit when they do, and how we can optimize games for an ideal player experience. Zach is interested in how data from games can inform our understanding of child learning and cognition in ways that traditional studies often can't. </p>
@@ -636,6 +646,26 @@
     </div>
   </div>
 </p>
+
+  <div id="profile_ameya" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Ameya Kshirsagar</h3>
+      <span>Graduate Research Intern </span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">At Field Day, Ameya focuses on analyzing game data to provide actionable insights and improve engagement and learning outcomes.  He's created features to track user behavior in games like Bloom and Thermolab, deveoped data visualization dashboards, and conducted in-depth analyses to enhance gameplay experiences. He's particularly proud of building robust features for several games that enabled deeper insights into player behavior!
+        </p>
+
+            <p>Ameya is pursuing a Master's in Computer and Information Science at UW-Madison.  In his free time, he enjoys experimenting with new machine learning projects, writing, and exploring the outdoors. Fun fact: he's published two books and reviewed several research papers!
+ </p>
+</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</p>
+
+
   <div id="profile_ben" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Ben Nadler</h3>
