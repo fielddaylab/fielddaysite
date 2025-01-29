@@ -6,11 +6,12 @@
     align-items: center;
     &.light_theme {
       .hero-content {
-        color:$blue-black;
+        color: $blue-black;
       }
       .info-panel {
-        li,a {
-          color:$blue-black !important;
+        li,
+        a {
+          color: $blue-black !important;
         }
       }
     }
@@ -32,13 +33,22 @@
       width: 100vw;
       display: block;
       z-index: 10;
-      background: -webkit-linear-gradient(rgba(16, 25, 32, 0.2), rgba(16, 25, 32, 1.0));
+      background: -webkit-linear-gradient(
+        rgba(16, 25, 32, 0.2),
+        rgba(16, 25, 32, 1)
+      );
       /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(rgba(16, 25, 32, 0.2), rgba(16, 25, 32, 1.0));
+      background: -o-linear-gradient(
+        rgba(16, 25, 32, 0.2),
+        rgba(16, 25, 32, 1)
+      );
       /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(rgba(16, 25, 32, 0.2), rgba(16, 25, 32, 1.0));
+      background: -moz-linear-gradient(
+        rgba(16, 25, 32, 0.2),
+        rgba(16, 25, 32, 1)
+      );
       /* For Firefox 3.6 to 15 */
-      background: linear-gradient(rgba(16, 25, 32, 0.2), rgba(16, 25, 32, 1.0));
+      background: linear-gradient(rgba(16, 25, 32, 0.2), rgba(16, 25, 32, 1));
       /* Standard syntax */
     }
 
@@ -121,7 +131,7 @@
 
         p {
           margin-left: 20px;
-          font-family: 'Crete Round', serif;
+          font-family: "Crete Round", serif;
           font-style: italic;
           letter-spacing: 1px;
           font-size: 24px;
@@ -139,11 +149,9 @@
           color: $black;
           border-radius: 5px;
           display: inline-block;
-
         }
 
         &.long-title {
-
           h1,
           p {
             display: inline-block;
@@ -203,8 +211,10 @@
     }
 
     .awardlaurels {
-      max-width:100%;
-      height:auto;
+      max-width: 100%;
+      height: 20vh;
+
+      padding-bottom: 20px;
     }
 
     p {
@@ -218,8 +228,8 @@
       margin-left: 0;
       padding-top: 90px;
       &:first-child {
-          padding-top:0px;
-       }
+        padding-top: 0px;
+      }
 
       @media #{$break-sm} {
         margin-top: 20px;
@@ -313,7 +323,6 @@
       h2 {
         margin-left: 0px;
         text-transform: uppercase;
-
       }
 
       padding: 5vw 5vw 5vw 1vw;
@@ -448,7 +457,6 @@
 
       h2 {
         text-transform: uppercase;
-
       }
 
       .fullscreen {
@@ -530,12 +538,22 @@
     }
 
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.3) 0%, rgba(14, 36, 57, 0.4) 100%), url('/assets/img/hero-images/lakeland.jpg');
+      background-image: linear-gradient(
+          99deg,
+          rgba(14, 36, 57, 0.3) 0%,
+          rgba(14, 36, 57, 0.4) 100%
+        ),
+        url("/assets/img/hero-images/lakeland.jpg");
       background-size: cover;
       background-position: right bottom;
 
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.7) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/hero-images/lakeland.jpg');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.7) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/hero-images/lakeland.jpg");
       }
     }
 
@@ -597,12 +615,22 @@
     }
 
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.3) 0%, rgba(14, 36, 57, 0.4) 100%), url('/assets/img/hero-images/stationmaine_hero.jpg');
+      background-image: linear-gradient(
+          99deg,
+          rgba(14, 36, 57, 0.3) 0%,
+          rgba(14, 36, 57, 0.4) 100%
+        ),
+        url("/assets/img/hero-images/stationmaine_hero.jpg");
       background-size: cover;
       background-position: right top;
 
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.7) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/hero-images/stationmaine_hero.jpg');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.7) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/hero-images/stationmaine_hero.jpg");
       }
     }
 
@@ -663,12 +691,17 @@
     }
 
     .app-hero {
-      background-image:url('/assets/img/hero-images/waddle_hero.jpg');
+      background-image: url("/assets/img/hero-images/waddle_hero.jpg");
       background-size: cover;
       background-position: right bottom;
 
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.7) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/hero-images/waddle_hero.jpg');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.7) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/hero-images/waddle_hero.jpg");
       }
     }
 
@@ -729,12 +762,22 @@
     }
 
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.3) 0%, rgba(14, 36, 57, 0.4) 100%), url('/assets/img/hero-images/thermovr-hero.jpg');
+      background-image: linear-gradient(
+          99deg,
+          rgba(14, 36, 57, 0.3) 0%,
+          rgba(14, 36, 57, 0.4) 100%
+        ),
+        url("/assets/img/hero-images/thermovr-hero.jpg");
       background-size: cover;
       background-position: right bottom;
 
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, 0.7) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/hero-images/thermovr-hero.jpg');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.7) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/hero-images/thermovr-hero.jpg");
       }
     }
 
@@ -749,7 +792,7 @@
       background-position: left;
       border-right: 0px !important;
       width: 800px;
-      height:100px;
+      height: 100px;
 
       @media #{$break-sm} {
         width: 90%;
@@ -795,12 +838,22 @@
     }
 
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(59, 44, 46, 0.3) 0%, rgba(59, 44, 46, 0.4) 100%), url('/assets/img/hero-images/headlines.jpg');
+      background-image: linear-gradient(
+          99deg,
+          rgba(59, 44, 46, 0.3) 0%,
+          rgba(59, 44, 46, 0.4) 100%
+        ),
+        url("/assets/img/hero-images/headlines.jpg");
       background-size: cover;
       background-position: right bottom;
 
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(59, 44, 46, 0.7) 0%, rgba(59, 44, 46, 0.6) 100%), url('/assets/img/hero-images/headlines.jpg');
+        background-image: linear-gradient(
+            99deg,
+            rgba(59, 44, 46, 0.7) 0%,
+            rgba(59, 44, 46, 0.6) 100%
+          ),
+          url("/assets/img/hero-images/headlines.jpg");
       }
     }
 
@@ -926,12 +979,12 @@
     }
 
     .app-about {
-      background: #2C0416;
+      background: #2c0416;
       color: #fff;
 
       .about-rightpanel {
         h2 {
-          color: #89FDFD;
+          color: #89fdfd;
         }
 
         @media #{$break-sm} {
@@ -945,7 +998,7 @@
         margin: 0 auto;
 
         p {
-          font-family: 'courier', serif;
+          font-family: "courier", serif;
           color: #fff;
         }
       }
@@ -968,8 +1021,8 @@
   ---------------------------*/
 
   &.wake {
-    background:black;
-    overflow-x:hidden;
+    background: black;
+    overflow-x: hidden;
     #app-intro {
       padding: 5vw 0vw 5vw 0vw;
       text-align: center;
@@ -1000,7 +1053,7 @@
     }
 
     #app-about {
-      background:#fff;
+      background: #fff;
       h3 {
         margin: 25px 0px 10px 0px;
       }
@@ -1009,11 +1062,11 @@
     .app-hero {
       background-color: #000;
       justify-content: space-between;
-      overflow:hidden;
+      overflow: hidden;
       .hero-content {
         width: calc(50% - 10vw);
         .app-description {
-            width: 45vw;
+          width: 45vw;
         }
       }
       .hero-img {
@@ -1024,18 +1077,18 @@
         flex-wrap: wrap-reverse;
         height: auto;
         .hero-content {
-            width: auto;
-            .app-description {
-                width: 80vw;
-            }
+          width: auto;
+          .app-description {
+            width: 80vw;
+          }
         }
         .hero-img {
-            width: 100%;
-            text-align: center;
+          width: 100%;
+          text-align: center;
         }
         .img-fluid {
-            max-height: 50%;
-            max-width: 50%;
+          max-height: 50%;
+          max-width: 50%;
         }
       }
     }
@@ -1054,14 +1107,14 @@
     }
 
     .standards-block p {
-        margin-bottom: revert;
+      margin-bottom: revert;
     }
 
     .img-fluid {
-        max-height: 100%;
-        width: 100%;
-        max-width: 600px;
-        margin-bottom: 10px;
+      max-height: 100%;
+      width: 100%;
+      max-width: 600px;
+      margin-bottom: 10px;
     }
   }
 
@@ -1129,12 +1182,17 @@
     }
 
     .app-hero {
-    background-image: url('/assets/img/hero-images/bloom-bg.jpg');
-    background-size: cover;
-    background-position: right top;
+      background-image: url("/assets/img/hero-images/bloom-bg.jpg");
+      background-size: cover;
+      background-position: right top;
 
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(59, 44, 46, 0.7) 0%, rgba(59, 44, 46, 0.6) 100%), url('/assets/img/hero-images/bloom-bg.jpg');
+        background-image: linear-gradient(
+            99deg,
+            rgba(59, 44, 46, 0.7) 0%,
+            rgba(59, 44, 46, 0.6) 100%
+          ),
+          url("/assets/img/hero-images/bloom-bg.jpg");
       }
     }
 
@@ -1192,12 +1250,17 @@
     }
 
     .app-hero {
-    background-image: url('/assets/img/hero-images/on_the_ice_bg.jpg');
-    background-size: cover;
-    background-position: right bottom;
+      background-image: url("/assets/img/hero-images/on_the_ice_bg.jpg");
+      background-size: cover;
+      background-position: right bottom;
 
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(59, 44, 46, 0.7) 0%, rgba(59, 44, 46, 0.6) 100%), url('/assets/img/hero-images/bloom-bg.jpg');
+        background-image: linear-gradient(
+            99deg,
+            rgba(59, 44, 46, 0.7) 0%,
+            rgba(59, 44, 46, 0.6) 100%
+          ),
+          url("/assets/img/hero-images/bloom-bg.jpg");
       }
     }
 
@@ -1219,23 +1282,23 @@
   /* Template for yardgames as a whole
   ---------------------------*/
   .app-hero {
-    height:85vh;
+    height: 85vh;
     .app-logo {
-      cursor:pointer;
+      cursor: pointer;
       img {
-        width:120px;
-        margin-left:20px;
-        transform:translateY(-10px);
-        float:right;
+        width: 120px;
+        margin-left: 20px;
+        transform: translateY(-10px);
+        float: right;
       }
       &:hover {
-        opacity:0.8;
+        opacity: 0.8;
       }
     }
   }
   .app-info h1 {
     @media #{$break-sm} {
-      border-right:0px !important;
+      border-right: 0px !important;
     }
   }
 
@@ -1243,16 +1306,26 @@
   ---------------------------*/
   &.antibiotic {
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(14, 36, 57, 1) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/bacteria-thumb.png');
+      background-image: linear-gradient(
+          99deg,
+          rgba(14, 36, 57, 1) 0%,
+          rgba(14, 36, 57, 0.6) 100%
+        ),
+        url("/assets/img/thumbs/bacteria-thumb.png");
       background-size: cover;
       background-position: right top;
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, .9) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/bacteria-thumb.png');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.9) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/thumbs/bacteria-thumb.png");
       }
     }
     .app-info h1 {
       @media #{$break-sm} {
-        border-right:0px !important;
+        border-right: 0px !important;
       }
     }
   }
@@ -1261,16 +1334,26 @@
   ---------------------------*/
   &.balloon {
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(14, 36, 57, 1) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/balloon-thumb.png');
+      background-image: linear-gradient(
+          99deg,
+          rgba(14, 36, 57, 1) 0%,
+          rgba(14, 36, 57, 0.6) 100%
+        ),
+        url("/assets/img/thumbs/balloon-thumb.png");
       background-size: cover;
       background-position: right top;
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, .9) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/balloon-thumb.png');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.9) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/thumbs/balloon-thumb.png");
       }
     }
     .app-info h1 {
       @media #{$break-sm} {
-        border-right:0px !important;
+        border-right: 0px !important;
       }
     }
   }
@@ -1279,16 +1362,26 @@
   ---------------------------*/
   &.carbon-game {
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(14, 36, 57, 1) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/cycle-carbon-thumb.jpg');
+      background-image: linear-gradient(
+          99deg,
+          rgba(14, 36, 57, 1) 0%,
+          rgba(14, 36, 57, 0.6) 100%
+        ),
+        url("/assets/img/thumbs/cycle-carbon-thumb.jpg");
       background-size: cover;
       background-position: right top;
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, .9) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/cycle-carbon-thumb.jpg');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.9) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/thumbs/cycle-carbon-thumb.jpg");
       }
     }
     .app-info h1 {
       @media #{$break-sm} {
-        border-right:0px !important;
+        border-right: 0px !important;
       }
     }
   }
@@ -1297,16 +1390,26 @@
   ---------------------------*/
   &.crystal-cave {
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(14, 36, 57, 1) 0%, rgba(14, 36, 57, 0.7) 100%), url('/assets/img/thumbs/crystal-thumb.png');
+      background-image: linear-gradient(
+          99deg,
+          rgba(14, 36, 57, 1) 0%,
+          rgba(14, 36, 57, 0.7) 100%
+        ),
+        url("/assets/img/thumbs/crystal-thumb.png");
       background-size: cover;
       background-position: right top;
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, .9) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/crystal-thumb.png');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.9) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/thumbs/crystal-thumb.png");
       }
     }
     .app-info h1 {
       @media #{$break-sm} {
-        border-right:0px !important;
+        border-right: 0px !important;
       }
     }
   }
@@ -1315,16 +1418,26 @@
   ---------------------------*/
   &.earthquake {
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(14, 36, 57, 1) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/thumb-earthquake.png');
+      background-image: linear-gradient(
+          99deg,
+          rgba(14, 36, 57, 1) 0%,
+          rgba(14, 36, 57, 0.6) 100%
+        ),
+        url("/assets/img/thumbs/thumb-earthquake.png");
       background-size: cover;
       background-position: right top;
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, .9) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/thumb-earthquake.png');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.9) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/thumbs/thumb-earthquake.png");
       }
     }
     .app-info h1 {
       @media #{$break-sm} {
-        border-right:0px !important;
+        border-right: 0px !important;
       }
     }
   }
@@ -1333,16 +1446,26 @@
   ---------------------------*/
   &.magnet {
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(14, 36, 57, 1) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/thumb-magnetism.png');
+      background-image: linear-gradient(
+          99deg,
+          rgba(14, 36, 57, 1) 0%,
+          rgba(14, 36, 57, 0.6) 100%
+        ),
+        url("/assets/img/thumbs/thumb-magnetism.png");
       background-size: cover;
       background-position: right top;
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, .9) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/thumb-magnetism.png');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.9) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/thumbs/thumb-magnetism.png");
       }
     }
     .app-info h1 {
       @media #{$break-sm} {
-        border-right:0px !important;
+        border-right: 0px !important;
       }
     }
   }
@@ -1351,16 +1474,26 @@
   ---------------------------*/
   &.nitrogen-game {
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(14, 36, 57, 1) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/cycle-nitrogen-thumb.jpg');
+      background-image: linear-gradient(
+          99deg,
+          rgba(14, 36, 57, 1) 0%,
+          rgba(14, 36, 57, 0.6) 100%
+        ),
+        url("/assets/img/thumbs/cycle-nitrogen-thumb.jpg");
       background-size: cover;
       background-position: right top;
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, .9) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/cycle-nitrogen-thumb.jpg');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.9) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/thumbs/cycle-nitrogen-thumb.jpg");
       }
     }
     .app-info h1 {
       @media #{$break-sm} {
-        border-right:0px !important;
+        border-right: 0px !important;
       }
     }
   }
@@ -1369,16 +1502,26 @@
   ---------------------------*/
   &.water-game {
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(14, 36, 57, 1) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/cycle-water-thumb.jpg');
+      background-image: linear-gradient(
+          99deg,
+          rgba(14, 36, 57, 1) 0%,
+          rgba(14, 36, 57, 0.6) 100%
+        ),
+        url("/assets/img/thumbs/cycle-water-thumb.jpg");
       background-size: cover;
       background-position: right top;
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, .9) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/cycle-water-thumb.jpg');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.9) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/thumbs/cycle-water-thumb.jpg");
       }
     }
     .app-info h1 {
       @media #{$break-sm} {
-        border-right:0px !important;
+        border-right: 0px !important;
       }
     }
   }
@@ -1387,16 +1530,26 @@
   ---------------------------*/
   &.wind {
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(14, 36, 57, 1) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/thumb-wind.png');
+      background-image: linear-gradient(
+          99deg,
+          rgba(14, 36, 57, 1) 0%,
+          rgba(14, 36, 57, 0.6) 100%
+        ),
+        url("/assets/img/thumbs/thumb-wind.png");
       background-size: cover;
       background-position: right top;
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, .9) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/thumb-wind.png');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.9) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/thumbs/thumb-wind.png");
       }
     }
     .app-info h1 {
       @media #{$break-sm} {
-        border-right:0px !important;
+        border-right: 0px !important;
       }
     }
   }
@@ -1405,27 +1558,35 @@
   ---------------------------*/
   &.wave {
     .app-hero {
-      background-image: linear-gradient(99deg, rgba(14, 36, 57, 1) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/thumb-wave.png');
+      background-image: linear-gradient(
+          99deg,
+          rgba(14, 36, 57, 1) 0%,
+          rgba(14, 36, 57, 0.6) 100%
+        ),
+        url("/assets/img/thumbs/thumb-wave.png");
       background-size: cover;
       background-position: right top;
       @media #{$break-sm} {
-        background-image: linear-gradient(99deg, rgba(14, 36, 57, .9) 0%, rgba(14, 36, 57, 0.6) 100%), url('/assets/img/thumbs/thumb-wave.png');
+        background-image: linear-gradient(
+            99deg,
+            rgba(14, 36, 57, 0.9) 0%,
+            rgba(14, 36, 57, 0.6) 100%
+          ),
+          url("/assets/img/thumbs/thumb-wave.png");
       }
     }
     .app-info h1 {
       @media #{$break-sm} {
-        border-right:0px !important;
+        border-right: 0px !important;
       }
     }
   }
-
 
   /* Slider CSS
   ---------------------------*/
 
   .glide {
-
-    $that: '.glide' !default;
+    $that: ".glide" !default;
 
     position: relative;
     width: 100%;
@@ -1452,7 +1613,6 @@
       }
     }
 
-
     &__slide {
       width: 100%;
       user-select: none;
@@ -1473,12 +1633,10 @@
       }
     }
 
-
     &__arrows {
       -webkit-touch-callout: none;
       user-select: none;
     }
-
 
     &__arrow {
       cursor: pointer;
@@ -1490,37 +1648,29 @@
     }
 
     &--slider {
-
       #{$that}__slide {
         float: left;
         clear: none;
       }
 
-      #{$that}__arrow {}
-
+      #{$that}__arrow {
+      }
     }
 
-
     &--carousel {
-
       &#{$that}--vertical {
-
         #{$that}__track {
           overflow: visible;
         }
-
       }
 
       #{$that}__slide {
         float: left;
         clear: none;
       }
-
     }
 
-
     &--slideshow {
-
       #{$that}__wrapper {
         height: 100%;
       }
@@ -1539,9 +1689,7 @@
           z-index: 1;
         }
       }
-
     }
-
   }
 
   .glide__bullets {
@@ -1562,5 +1710,4 @@
       background-color: #efefef;
     }
   }
-
 }

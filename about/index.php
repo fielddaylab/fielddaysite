@@ -165,7 +165,7 @@
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/reynaa.jpg">
             <div class="card-summary">
-              <h3>Reyna Groff</h3>
+              <h3>Reyna Groff Zetina</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -187,11 +187,12 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_zach">
+
+        <li class="gridder-list" data-griddercontent="#profile_ameya">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/astro.jpg">
+            <img src="/assets/img/profiles/ameya.jpg">
             <div class="card-summary">
-              <h3>Zach Studdiford</h3>
+              <h3>Ameya Kshirsagar</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -617,18 +618,16 @@
     </div>
   </div>
 
-   <div id="profile_zach" class="gridder-content">
+  <div id="profile_ameya" class="gridder-content">
     <div class="row profile-inner profile-inner">
-      <h3>Zach Studdiford</h3>
-      <span>Undergraduate Data Science Intern </span>
+      <h3>Ameya Kshirsagar</h3>
+      <span>Graduate Research Intern </span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Zach works on feature extraction for Headlines and Wake. He creates insights into when and why players choose to quit when they do, and how we can optimize games for an ideal player experience. Zach is interested in how data from games can inform our understanding of child learning and cognition in ways that traditional studies often can't. </p>
+          <p class="small">At Field Day, Ameya focuses on analyzing game data to provide actionable insights and improve engagement and learning outcomes.  He's created features to track user behavior in games like Bloom and Thermolab, developed data visualization dashboards, and conducted in-depth analyses to enhance gameplay experiences. He's particularly proud of building robust features for several games that enabled deeper insights into player behavior!
+        </p>
 
-            <p>Prior to working at Field Day, Zach worked as a research assistant in the Department of Psychology at UW-Madison, studying how language alters perception and cognition. This has informed his approach to how lower-level data can be used to answer higher-order complex questions, and how to design cognitive tasks that can answer those questions.</p>
-
-
-            <p>Outside of his work at Field Day and classes at UW-Madison, Zach enjoys playing jazz piano, and works part time as a pianist at restaurants and performance venues both in Madison and Minneapolis. He also enjoys hiking and backpacking, and has visited almost all of the national parks in the continental United States.
+            <p>Ameya is pursuing a Master's in Computer and Information Science at UW-Madison.  In his free time, he enjoys experimenting with new machine learning projects, writing, and exploring the outdoors. Fun fact: he's published two books and reviewed several research papers!
  </p>
 </h4>
         </div>
@@ -636,6 +635,8 @@
     </div>
   </div>
 </p>
+
+
   <div id="profile_ben" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Ben Nadler</h3>

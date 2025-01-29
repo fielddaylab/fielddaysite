@@ -93,6 +93,11 @@ window.onload = function()
 
                 <div id="glance" class="col-sm-8 about-rightpanel">
                     <img class="awardlaurels" src="/assets/img/logos/gold_seriousplayaward.png">
+                    <div id="app-video" class="app-video">
+                        <div class='embed-container'>
+                            <iframe src="https://player.vimeo.com/video/722632673" width="100%" frameborder="0" allowfullscreen style="background: black"></iframe>
+                        </div>
+                    </div>
                     <h2 id="glance">At a Glance</h2>
                     <ul>
                         <li>Grade Level: 4-6</li>

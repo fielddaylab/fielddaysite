@@ -31,7 +31,7 @@ npm run watch
 2. With Gulp running start your HTTP Server
 with PHP:
 ```
-php -S localhost:8080`
+php -S localhost:8080
 ```
 or with MAMP:
 * Follow [these](https://documentation.mamp.info/en/MAMP-Mac/First-Steps/index.html) steps to set up MAMP to serve the site

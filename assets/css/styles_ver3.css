@@ -11889,7 +11889,8 @@ hr {
 .singleapp .app-hero.light_theme .hero-content {
   color: #001E2A;
 }
-.singleapp .app-hero.light_theme .info-panel li, .singleapp .app-hero.light_theme .info-panel a {
+.singleapp .app-hero.light_theme .info-panel li,
+.singleapp .app-hero.light_theme .info-panel a {
   color: #001E2A !important;
 }
 .singleapp .app-hero .button {
@@ -12056,7 +12057,8 @@ hr {
 }
 .singleapp .app-about .awardlaurels {
   max-width: 100%;
-  height: auto;
+  height: 20vh;
+  padding-bottom: 20px;
 }
 .singleapp .app-about p {
   margin-bottom: 28px;
@@ -12611,11 +12613,11 @@ hr {
   background-position: center;
 }
 .singleapp.aris .app-about {
-  background: #2C0416;
+  background: #2c0416;
   color: #fff;
 }
 .singleapp.aris .app-about .about-rightpanel h2 {
-  color: #89FDFD;
+  color: #89fdfd;
 }
 @media only screen and (max-width: 768px) {
   .singleapp.aris .app-about .about-rightpanel {
