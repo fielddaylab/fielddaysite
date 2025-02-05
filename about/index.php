@@ -163,9 +163,9 @@
 
         <li class="gridder-list" data-griddercontent="#profile_reyna">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/reynaa.jpg">
+            <img src="/assets/img/profiles/reyna.jpg">
             <div class="card-summary">
-              <h3>Reyna Groff Zetina</h3>
+              <h3>Reyna Groff</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -197,6 +197,17 @@
             </div>
           </div>
         </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_trevor">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/astro.jpg">
+            <div class="card-summary">
+              <h3>Trevor Wotruba</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
 </ul>
 
       <h2 class="section-title centered">Collaborating Artists and Contractors</h2>
@@ -438,6 +449,18 @@
        
           <p class="small">Reyna was the lead artist on Jo Wilder and the Capitol Case, and the lead 2D artist on Legend of the Lost Emerald and Bloom: the Saga of the Fertilizer Economy. She has created art in some capacity for most of our games, whether concepts, comics, cutscenes, final assets, or poster illustration. You can find Reyna on Instagram <a target="_blank" href="https://instagram.com/rey.groff">@rey.groff</a>, and check out her website <a target="_blank" href="http://www.reynagroff.com">here.</a>
 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_trevor" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Trevor Wotruba</h3>
+      <span>Undergraduate Engineering Intern</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Trevor is an enthusiastic Computer Science and Computer Engineering student passionate about game development and software engineering. Currently he's working on our in-development Astronomy game, bringing the creative team's vision to life with his technical skills and creative problem solving. When he's not working or studying, Trevor sometimes serves as a Dungeon Master for his friends, designing immersive worlds and managing dynamic narratives. </p>
         </div>
       </div>
     </div>
