@@ -198,6 +198,16 @@
           </div>
         </li>
 
+        <li class="gridder-list" data-griddercontent="#profile_vijayram">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/vijayram.jpg">
+            <div class="card-summary">
+              <h3>Vijayram Patel</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
         <li class="gridder-list" data-griddercontent="#profile_trevor">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/astro.jpg">
@@ -234,16 +244,6 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_cyril">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/cy.jpg">
-            <div class="card-summary">
-              <h3>Cyril Peck</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
         <li class="gridder-list" data-griddercontent="#profile_forest">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/forest.jpg">
@@ -253,6 +253,27 @@
             </div>
           </div>
         </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_jeremy">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/astro.jpg">
+            <div class="card-summary">
+              <h3>Jeremy Grozavescu</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_rodney">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/rodney.jpeg">
+            <div class="card-summary">
+              <h3>Rodney Lambright II</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
 
         <li class="gridder-list" data-griddercontent="#profile_emily">
           <div class="profile-thumbnail">
@@ -274,41 +295,11 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_rodney">
+        <li class="gridder-list" data-griddercontent="#profile_cyril">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/rodney.jpeg">
+            <img src="/assets/img/profiles/cy.jpg">
             <div class="card-summary">
-              <h3>Rodney Lambright II</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_terra">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/terra.jpg">
-            <div class="card-summary">
-              <h3>Terra</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_jeremy">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/astro.jpg">
-            <div class="card-summary">
-              <h3>Jeremy Grozavescu</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-                <li class="gridder-list" data-griddercontent="#profile_jenn">
-          <div class="profile-thumbnail">
-            <img alt="Jenn Scianna" src="/assets/img/profiles/jenn.jpg">
-            <div class="card-summary">
-              <h3>Jenn Scianna</h3>
+              <h3>Cyril Peck</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -319,6 +310,26 @@
             <img src="/assets/img/profiles/astro.jpg">
             <div class="card-summary">
               <h3>Ben Nadler</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+         <li class="gridder-list" data-griddercontent="#profile_jenn">
+          <div class="profile-thumbnail">
+            <img alt="Jenn Scianna" src="/assets/img/profiles/jenn.jpg">
+            <div class="card-summary">
+              <h3>Jenn Scianna</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_terra">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/terra.jpg">
+            <div class="card-summary">
+              <h3>Terra</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -461,6 +472,19 @@
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
           <p class="small">Trevor is an enthusiastic Computer Science and Computer Engineering student passionate about game development and software engineering. Currently he's working on our in-development Astronomy game, bringing the creative team's vision to life with his technical skills and creative problem solving. When he's not working or studying, Trevor sometimes serves as a Dungeon Master for his friends, designing immersive worlds and managing dynamic narratives. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_vijayram" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Vijayram Chauharyaprasad Patel</h3>
+      <span>Graduate Research Intern</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">As a Data Science Engineer Intern at Field Day, Vijayram develops features, data pipelines, and machine learning models to generate insights about player behavior in games like Lakeland and Wake. He is currently pursuing a Master's in Information at the iSchool. </p>
+          <p class="small">In his spare time, Vijayram loves sitting by the lake, listening to music, and watching the sunset (in summertime, of course)! His favorite personal project is a dashboard that helps users determine the right time to buy a house based on historical pricing trends.</p>
         </div>
       </div>
     </div>
