@@ -60,7 +60,7 @@ jobs:
         remote_key: ${{ secrets.WWWTEST_FIELDDAYLAB_WISC_EDU_DEPLOY_KEY }}
 
     - name: If fieldday-web, deploy to fieldday-web server
-      if: ${{ github.ref == 'refs/heads/staging' }}
+      if: ${{ github.ref == 'refs/heads/fieldday-web' }}
       uses: burnett01/rsync-deployments@5.2
       with:
         switches: -vrc --exclude-from 'rsync-exclude'
