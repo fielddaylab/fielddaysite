@@ -226,6 +226,12 @@
 
             <div class="pub-wrap">
             <p class="small">
+Demonstrating Replay for Highly Scalable and Cost-Effective User Research of Virtual Reality Learning Games. (2025). Immersive Learning Research - Academic, 1(1), 44-50. <a href="https://doi.org/10.56198/54rfwf69">https://doi.org/10.56198/54rfwf69</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
 Swanson, L., Gagnon, D.J. (2025). An Architecture for Repeatable, Large-Scale Educational Game Data Analysis: Building on Open Game Data. In: Plass, J.L., Ochoa, X. (eds) Serious Games. JCSG 2024. Lecture Notes in Computer Science, vol 15259. Springer, Cham. <a href=https://doi.org/10.1007/978-3-031-74138-8_4">https://doi.org/10.1007/978-3-031-74138-8_4</a>
             </p>
           </div>
