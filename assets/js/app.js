@@ -229,6 +229,21 @@ jQuery(function(){
 
   // If we're at a mobile resolution, we'll hide the optional 4th slide
   showOrHideOptionalSlides();
+  
+  // Ensure carousel is properly initialized
+  ensureCarouselVisible();
+  
+  // Add a periodic check to ensure carousel stays visible (safety net)
+  setInterval(function() {
+    let carousel = jQuery('#carousel-hero');
+    let visibleItems = carousel.find('.item:not(.item-mobile-hidden)');
+    let activeItem = carousel.find('.item.active:not(.item-mobile-hidden)');
+    
+    // If no visible items or no active item, fix it
+    if (visibleItems.length === 0 || activeItem.length === 0) {
+      ensureCarouselVisible();
+    }
+  }, 2000); // Check every 2 seconds
 
   // Find the first carousel video
   jQuery('#carousel-hero .item.active .carousel-video:first').each(function(){
@@ -256,13 +271,19 @@ jQuery(function(){
 
   });
 
-  // When the window is resized
+  // When the window is resized - with debouncing to prevent rapid fire issues
+  let resizeTimeout;
   jQuery(window).on('resize', function(){
-      showOrHideOptionalSlides();
-      // Nav scroll fix for mobile landscape
-      if ($('body').hasClass('nav-open')) {
-        fixNavScroll();
-      }
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(function(){
+          showOrHideOptionalSlides();
+          // Ensure carousel is visible after any changes
+          ensureCarouselVisible();
+          // Nav scroll fix for mobile landscape
+          if ($('body').hasClass('nav-open')) {
+            fixNavScroll();
+          }
+      }, 100); // 100ms debounce delay
   });
 
 });
@@ -300,55 +321,66 @@ let showOrHideOptionalSlides = function (){
   // Breakpoint where we transition from 3 to 4 slides
   let mobileWidthBreakpoint = 1132;
 
-  // If we're currently at mobile resolution
-  if (windowWidth < mobileWidthBreakpoint)
-  {
-      // If we've transitioned from desktop to mobile, or if this is the initial page load
-      if(previousWindowWidth > mobileWidthBreakpoint || previousWindowWidth === null)
-      {
-          // Ensure we're not on a slide that we're hiding
-          jQuery('#carousel-hero').carousel(0);
-          jQuery('#carousel-hero').carousel('pause');
+  // Determine current state
+  let isCurrentlyMobile = windowWidth < mobileWidthBreakpoint;
+  let wasPreviouslyMobile = previousWindowWidth !== null && previousWindowWidth < mobileWidthBreakpoint;
+  let isInitialLoad = previousWindowWidth === null;
 
-          // Loop through the slides that we don't show on mobile
+  // Only make changes if we're actually transitioning between states or on initial load
+  let shouldTransition = isInitialLoad || (isCurrentlyMobile !== wasPreviouslyMobile);
+
+  if (shouldTransition) {
+      // Pause carousel and reset to first slide
+      jQuery('#carousel-hero').carousel(0);
+      jQuery('#carousel-hero').carousel('pause');
+
+      if (isCurrentlyMobile) {
+          // Hide mobile slides by adding a specific class
           jQuery('#carousel-hero .item-nomobile').each(function(){
-
-              // Hide slide
-              this.classList.add('hide');
-              this.classList.remove('item');
+              this.classList.add('item-mobile-hidden');
               this.classList.remove('active');
           });
-
-          // If this isn't the initial page load
-          if(previousWindowWidth !== null)
-          {
-              // Reinitialize the carousel
-              initCarousel();
-          }
-          
-
-      }
-
-  }
-  else // We're at desktop resolution
-  { 
-      // If we're switching from mobile to desktop
-      if(previousWindowWidth < mobileWidthBreakpoint)
-      {                
-          jQuery('#carousel-hero').carousel(0);
-          jQuery('#carousel-hero').carousel('pause');
-
-          // Restore slides that were hidden at mobile resolutions
+      } else {
+          // Show all slides for desktop
           jQuery('#carousel-hero .item-nomobile').each(function(){
-              this.classList.add('item');
-              this.classList.remove('hide');
+              this.classList.remove('item-mobile-hidden');
           });
+      }
 
-          // Reinitialize the carousel
+      // Reinitialize the carousel (except on initial load)
+      if (!isInitialLoad) {
           initCarousel();
-
       }
   }
 
+  // Always update the previous width for next comparison
   previousWindowWidth = windowWidth;
+}
+
+// Add a fallback function to ensure carousel is always visible
+let ensureCarouselVisible = function() {
+  // Check if carousel is hidden and restore it
+  let carousel = jQuery('#carousel-hero');
+  let carouselInner = carousel.find('.carousel-inner');
+  
+  if (carouselInner.length && carouselInner.is(':hidden')) {
+    carouselInner.show();
+  }
+  
+  // Ensure at least one item is visible and active
+  let visibleItems = carousel.find('.item:not(.item-mobile-hidden)');
+  if (visibleItems.length === 0) {
+    // If no items are visible, show the first one
+    carousel.find('.item').first().removeClass('item-mobile-hidden');
+  }
+  
+  // Ensure there's an active item
+  let activeItem = carousel.find('.item.active:not(.item-mobile-hidden)');
+  if (activeItem.length === 0) {
+    // Make the first visible item active
+    let firstVisible = carousel.find('.item:not(.item-mobile-hidden)').first();
+    if (firstVisible.length) {
+      firstVisible.addClass('active');
+    }
+  }
 }

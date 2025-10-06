@@ -11841,6 +11841,8 @@ hr {
   ---------------------------*/
   /* Template for headlines and high water
   ---------------------------*/
+  /* Template for Project Hercules
+    ---------------------------*/
   /* Template for Forevor Mine
   ---------------------------*/
   /* Template for Ice Cube
@@ -12539,6 +12541,59 @@ hr {
 }
 @media only screen and (max-width: 768px) {
   .singleapp.headlines .app-title {
+    width: 90%;
+  }
+}
+.singleapp.projecthercules #app-intro {
+  padding: 5vw 0vw 6vw 0vw;
+  text-align: center;
+}
+.singleapp.projecthercules #app-intro .iframe-bg {
+  width: 880px;
+  height: 660px;
+  display: block;
+  margin: 0px auto;
+  overflow: hidden;
+  border: 0px;
+  background-size: cover;
+}
+.singleapp.projecthercules #app-intro h2 {
+  text-transform: uppercase;
+}
+.singleapp.projecthercules #app-intro .fullscreen {
+  text-align: right;
+  margin-top: 10px;
+}
+.singleapp.projecthercules #app-intro .fullscreen img {
+  vertical-align: middle;
+}
+.singleapp.projecthercules #app-about h3 {
+  margin: 25px 0px 10px 0px;
+}
+.singleapp.projecthercules .app-hero {
+  background-image: url("/assets/img/hero-images/astro-bg.jpg");
+  background-size: cover;
+  background-position: right bottom;
+}
+@media only screen and (max-width: 768px) {
+  .singleapp.projecthercules .app-hero {
+    background-image: url("/assets/img/hero-images/astro-bg.jpg");
+  }
+}
+.singleapp.projecthercules .info-panel {
+  border-bottom: 0px !important;
+}
+.singleapp.projecthercules .app-title {
+  text-indent: -9999px;
+  background: url(/assets/img/logos/logo_projectHercules.png) no-repeat;
+  background-size: contain;
+  background-position: left;
+  border-right: 0px !important;
+  width: 600px;
+  height: 150px;
+}
+@media only screen and (max-width: 768px) {
+  .singleapp.projecthercules .app-title {
     width: 90%;
   }
 }

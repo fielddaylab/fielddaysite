@@ -12,7 +12,19 @@
             
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active narrow-video" style="background-image: url('assets/img/home/carousel/bloom-poster.png');">
+                <div class="item active" style="background-image: url('assets/img/hero-images/astro-bg.jpg');">
+                    <div class="info">
+                        <img src="assets/img/logos/logo_projectHercules.png" alt="Project Hercules Game Logo" style="max-width:350px;" />
+                        <p class="small">Play as Astrid as she embarks on an astronomy adventure to unravel the mystery of Project Hercules.
+                        </p>
+                        <a href="play/projecthercules" class="button yellow filled small">Learn More</a>
+                    </div>
+                    <span class="scanlines"></span>
+                    <video preload="none" muted loop class="carousel-video">
+                        <source src="assets/video/home/carousel/hercules2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item narrow-video" style="background-image: url('assets/img/home/carousel/bloom-poster.png');">
                     <div class="info">
                         <img src="assets/img/home/carousel/bloom-logo.png" alt="Bloom: The Sage of the Fertilizer Economy game logo" />
                         <p class="small">Create trade networks and policies that keep farmers in business, while protecting local lakes and rivers.</p>
@@ -35,7 +47,7 @@
                     </video>
                 </div>
 
-                <div class="item" style="background-image: url('assets/img/home/carousel/journalism-poster.png');">
+                <div class="item item-nomobile" style="background-image: url('assets/img/home/carousel/journalism-poster.png');">
                     <div class="info">
                         <img src="assets/img/home/carousel/headlines-logo.png" alt="Headlines and High Water game logo" />
                         <p class="small">Play as a journalist in the town of Twin Lakes. Will the stories you publish help the town prepare for the flood of the century?</p>
@@ -46,38 +58,27 @@
                         <source src="assets/video/home/carousel/journalism.mp4" type="video/mp4">
                     </video>
                 </div>
-                <div class="item item-nomobile" style="background-image: url('assets/img/home/carousel/shipwrecks-poster.png');">
-                    <div class="info">
-                        <img src="assets/img/home/carousel/emerald-logo.png" alt="Legend of the Lost Emerald game logo" />
-                        <p class="small">Play as a maritime archaeologist uncovering shipwrecks in the Great Lakes. Made in partnership with PBS Wisconsin and Wisconsin Sea Grant</p>
-                        <a href="play/emerald" class="button yellow filled small">Learn More</a>
-                    </div>
-                    <span class="scanlines"></span>
-                    <video preload="none" muted loop class="carousel-video">
-                        <source src="assets/video/home/carousel/shipwrecks.mp4" type="video/mp4">
-                    </video>
-                </div>
-
             </div>
 
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#carousel-hero" data-slide-to="0" class="active">
+                    <img src="assets/img/gameplay/astro-gameplay.jpg" alt="Project Hercules Thumbnail" />
+                    <div class="thumb-caption">Project Hercules</div>
+                </li>
+                <li data-target="#carousel-hero" data-slide-to="1">
                     <img src="assets/img/games/thumbs/bloom.jpg" alt="Bloom Thumbnail" />
                     <div class="thumb-caption">Bloom: The Saga of the Fertilizer Economy</div>
                 </li>
-                <li data-target="#carousel-hero" data-slide-to="1">
+                <li data-target="#carousel-hero" data-slide-to="2">
                     <img src="assets/img/games/thumbs/wake.jpg" alt="Wake Thumbnail" />
                     <div class="thumb-caption">Wake: Tales From The Aqualab</div>
                 </li>
-                <li data-target="#carousel-hero" data-slide-to="2">
+                <li data-target="#carousel-hero" data-slide-to="3" class="indicator-nomobile">
                     <img src="assets/img/games/thumbs/headlines-thumb.jpg" alt="Headlines Thumbnail" />
                     <div class="thumb-caption">Headlines and High Water</div>
                 </li>
-                <li data-target="#carousel-hero" data-slide-to="3" class="indicator-nomobile">
-                    <img src="assets/img/games/thumbs/emerald.jpeg" alt="Emerald Thumbnail" />
-                    <div class="thumb-caption">Legend of the Lost Emerald</div>
-                </li>
+
                 <li>
                     <a href="play">
                         <div class="play-our-games-controller">
