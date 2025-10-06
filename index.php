@@ -15,7 +15,7 @@
                 <div class="item active" style="background-image: url('assets/img/hero-images/astro-bg.jpg');">
                     <div class="info">
                         <img src="assets/img/logos/logo_projectHercules.png" alt="Project Hercules Game Logo" style="max-width:350px;" />
-                        <p class="small">Play as Astrid as she embarks on an astronomy adventure to unravel the mystery of Project Hercules.
+                        <p class="small">Play an astronomer in the distant future, working to identify objects in the night sky and uncover the mystery of an impending celestial event.
                         </p>
                         <a href="play/projecthercules" class="button yellow filled small">Learn More</a>
                     </div>

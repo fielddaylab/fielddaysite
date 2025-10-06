@@ -47,7 +47,7 @@
                                         <span>Project Hercules</span>
                                     </div>
                                     <div class="stats">
-                                        <p class="italic">Ages 10+</p>
+                                        <p class="italic">Grade Level: 8-12</p>
                                         <p>Astronomy</p>
                                     </div>
                                 </div>
@@ -446,12 +446,12 @@
                                 <span class="close-app">
                                     <h2>Project Hercules</h2>
                                     <div class="stats">
-                                        <p class="tag ">Ages 10+</p>
+                                        <p class="tag ">Grade Level: 8-12</p>
                                         <p>|</p>
                                         <p class="tag ">Astronomy</p>
                                     </div>
                                     <p class="small">
-                                        A catostrophic Solar Flare has destroyed modern life as we know it, in the recovering aftermath, Play as Astrid as she embarks on an astronomy adventure to unravel the mystery of Project Hercules.
+                                        A catostrophic Solar Flare has destroyed modern life as we know it, in the recovering aftermath, Play as Astrid as she embarks on an astronomy adventure to unravel the mystery of an impending celestial event.
                                     </p>
                                     <a class="button small white filled" href="/play/projecthercules" target="_blank">Learn More</a>
                             </div>
