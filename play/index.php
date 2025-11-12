@@ -40,6 +40,18 @@
                         <!--<p class="brief padding">We work with researchers to create fun, academically rigorous games that get hundreds of thousands of plays. Researchers love that our games allow for depth and complexity, while providing a playful, engaging experience. We team up with teacher fellows and outreach experts to make sure our games work in classrooms and reach large audiences. <br></p>-->
                         <!-- Gridder navigation -->
                         <ul class="apps gridder">
+                            <li class="gridder-list app-card" data-griddercontent="#game-hercules">
+                                <img src="/assets/img/games/thumbs/astro-thumb.jpg" class="app-logo">
+                                <div class="game-wrapper">
+                                    <div class="title">
+                                        <span>Project Hercules</span>
+                                    </div>
+                                    <div class="stats">
+                                        <p class="italic">Grade Level: 8-12</p>
+                                        <p>Astronomy</p>
+                                    </div>
+                                </div>
+                            </li>
                             <li class="gridder-list app-card" data-griddercontent="#game-ontheice">
                                 <img src="/assets/img/games/thumbs/ontheice.jpg" class="app-logo">
                                 <div class="game-wrapper">
@@ -429,6 +441,24 @@
                     </div>
 
                     <div class="item">
+                        <div id="game-hercules" class="app-expanded gridder-content">
+                            <div class="app-info app-pane left">
+                                <span class="close-app">
+                                    <h2>Project Hercules</h2>
+                                    <div class="stats">
+                                        <p class="tag ">Grade Level: 8-12</p>
+                                        <p>|</p>
+                                        <p class="tag ">Astronomy</p>
+                                    </div>
+                                    <p class="small">
+                                        A catostrophic Solar Flare has destroyed modern life as we know it, in the recovering aftermath, Play as Astrid as she embarks on an astronomy adventure to unravel the mystery of an impending celestial event.
+                                    </p>
+                                    <a class="button small white filled" href="/play/projecthercules" target="_blank">Learn More</a>
+                            </div>
+                            <div class="app-thumbnail app-pane right">
+                                <img src="/assets/img/gameplay/astro-gameplay.jpg">
+                            </div>
+                        </div>
                         <div id="game-ontheice" class="app-expanded gridder-content">
                             <div class="app-info app-pane left">
                                 <span class="close-app">

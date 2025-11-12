@@ -121,11 +121,31 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_jenn">
+        <li class="gridder-list" data-griddercontent="#profile_levi">
           <div class="profile-thumbnail">
-            <img alt="Jenn Scianna" src="/assets/img/profiles/jenn.jpg">
+            <img src="/assets/img/profiles/levi.jpg">
             <div class="card-summary">
-              <h3>Jenn Scianna</h3>
+              <h3>Levi Huillet</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_amelia">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/amelia.jpg">
+            <div class="card-summary">
+              <h3>Amelia Moser</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_luke">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/luke.jpeg">
+            <div class="card-summary">
+              <h3>Luke Swanson</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -143,19 +163,9 @@
 
         <li class="gridder-list" data-griddercontent="#profile_reyna">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/reyna.jpeg">
+            <img src="/assets/img/profiles/reyna.jpg">
             <div class="card-summary">
               <h3>Reyna Groff</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_levi">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/levi.jpg">
-            <div class="card-summary">
-              <h3>Levi Huillet</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -167,61 +177,42 @@
       <ul class="gridder">
 
 
-        <li class="gridder-list" data-griddercontent="#profile_luke">
+        <li class="gridder-list" data-griddercontent="#profile_xander">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/luke.jpeg">
+            <img src="/assets/img/profiles/xander.jpg">
             <div class="card-summary">
-              <h3>Luke Swanson</h3>
+              <h3>Xander Grabowski</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_amelia">
+
+        <li class="gridder-list" data-griddercontent="#profile_ameya">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/amelia.jpg">
+            <img src="/assets/img/profiles/ameya.jpg">
             <div class="card-summary">
-              <h3>Amelia Moser</h3>
+              <h3>Ameya Kshirsagar</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_zach">
+        <li class="gridder-list" data-griddercontent="#profile_vijayram">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/astro.jpg">
+            <img src="/assets/img/profiles/vijayram.jpg">
             <div class="card-summary">
-              <h3>Zach Studdiford</h3>
+              <h3>Vijayram Patel</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
         </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_dane">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/astro.jpg">
-            <div class="card-summary">
-              <h3>Dane Bach</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_mia">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/astro.jpg">
-            <div class="card-summary">
-              <h3>Mia Yunqing Xiao</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-      </ul>
+</ul>
 
       <h2 class="section-title centered">Collaborating Artists and Contractors</h2>
 
-
       <ul class="gridder">
+
 <li class="gridder-list" data-griddercontent="#profile_lindy">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/lindy.jpg">
@@ -242,16 +233,6 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_cyril">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/cy.jpg">
-            <div class="card-summary">
-              <h3>Cyril Peck</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
         <li class="gridder-list" data-griddercontent="#profile_forest">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/forest.jpg">
@@ -261,6 +242,27 @@
             </div>
           </div>
         </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_jeremy">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/astro.jpg">
+            <div class="card-summary">
+              <h3>Jeremy Grozavescu</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_rodney">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/rodney.jpeg">
+            <div class="card-summary">
+              <h3>Rodney Lambright II</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
 
         <li class="gridder-list" data-griddercontent="#profile_emily">
           <div class="profile-thumbnail">
@@ -282,31 +284,11 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_rodney">
+        <li class="gridder-list" data-griddercontent="#profile_cyril">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/rodney.jpeg">
+            <img src="/assets/img/profiles/cy.jpg">
             <div class="card-summary">
-              <h3>Rodney Lambright II</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_terra">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/terra.jpg">
-            <div class="card-summary">
-              <h3>Terra</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_jeremy">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/astro.jpg">
-            <div class="card-summary">
-              <h3>Jeremy Grozavescu</h3>
+              <h3>Cyril Peck</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -317,6 +299,26 @@
             <img src="/assets/img/profiles/astro.jpg">
             <div class="card-summary">
               <h3>Ben Nadler</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+         <li class="gridder-list" data-griddercontent="#profile_jenn">
+          <div class="profile-thumbnail">
+            <img alt="Jenn Scianna" src="/assets/img/profiles/jenn.jpg">
+            <div class="card-summary">
+              <h3>Jenn Scianna</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_terra">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/terra.jpg">
+            <div class="card-summary">
+              <h3>Terra</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -427,19 +429,10 @@
   <div id="profile_luke" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Luke Swanson</h3>
-      <span>Graduate Research Intern</span>
+      <span>Data Team Lead</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">As a researcher and software engineer, Luke is drawn to the unique possibilities of games for learning. He understands that some kids aren’t best served by the traditional education system, and he’s interested in how games can help change that. Luke’s programming and data analysis work has allowed us to gain valuable insights into how our games are being used.
-</p>
-          <h4>Field Day projects: </h4>
-          <ul>
-            <li>Real-time game data dashboard for Lakeland</li>
-            <li>Open Game Data website</li>
-            <li>Data analysis and player clustering for Lakeland</li>
-            <li>Thermodynamics VR Interactive</li>
-            <li>Data analysis for Jo Wilder. </li>
-          </ul>
+          <p class="small">As a researcher and software engineer, Luke is drawn to the unique possibilities of games for learning. He understands that some kids aren’t best served by the traditional education system, and he’s interested in how games can help change that. Luke’s programming and data analysis work has allowed us to gain valuable insights into how our games are being used. Luke works tirelessly on the Open Game Data website, and does data analysis for many of our games, including Lakeland and Jo Wilder.</p>
           <p class="small">In his spare time, Luke is an amateur photographer and videographer. You can see some of his photography on the Computer Science department’s website.</p>
         </div>
       </div>
@@ -449,24 +442,26 @@
   <div id="profile_reyna" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Reyna Groff</h3>
-      <span>Art and Design Intern  </span>
+      <span>2D Artist and Assistant to the Director</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Reyna is an artist with a flair for storytelling, character, and design. When she’s not making beautiful art here in Madison, you might find Reyna traveling the world and putting her three languages to good use. Kids (and adults) fall in love with Reyna’s whimsical, creative characters. She enjoys tactile hobbies like baking, printmaking, and papermaking, and is a firm believer in helping others develop new passions through playful learning and collaboration.</p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Painted art for several of the Yard Games</li>
-            <li>Lead artist on Jo Wilder and the Capitol Case</li>
-            <li>Painted art for Lost at the Forever Mine</li>
-            <li>Comic art for our VR game Station: Maine</li>
-            <li>2D art for Legend of the Lost Emerald</li>
-            <li>2D art for Wake: Tales from the Aqualab</li>
-            <li>Concept art for Headlines and High Water</li>
-            <li>Poster art for Jo Wilder, Lost at the Forever Mine, Lakeland, Legend of the Lost Emerald, Station: Maine, Waddle, Wake, and Headlines and High Water</li>
-        
-          </ul>
-          <p class="small">You can find Reyna on Instagram <a target="_blank" href="https://instagram.com/rey.groff">@rey.groff </a>, and check out her website <a target="_blank" href="http://www.reynagroff.com">here.</a>
+          <p class="small">Reyna is an artist with a flair for storytelling, character, and design. When she’s not making beautiful art and keeping administrative things running smoothly here in Madison, you might find Reyna traveling the world and putting her three languages to good use. Kids (and adults) fall in love with Reyna’s whimsical, creative characters. She enjoys tactile hobbies like baking, printmaking, and papermaking, and is a firm believer in helping others develop new passions through playful learning and collaboration.</p>
+       
+          <p class="small">Reyna was the lead artist on Jo Wilder and the Capitol Case, and the lead 2D artist on Legend of the Lost Emerald and Bloom: the Saga of the Fertilizer Economy. She has created art in some capacity for most of our games, whether concepts, comics, cutscenes, final assets, or poster illustration. You can find Reyna on Instagram <a target="_blank" href="https://instagram.com/rey.groff">@rey.groff</a>, and check out her website <a target="_blank" href="http://www.reynagroff.com">here.</a>
 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_vijayram" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Vijayram Chauharyaprasad Patel</h3>
+      <span>Graduate Research Intern</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">As a Data Science Engineer Intern at Field Day, Vijayram develops features, data pipelines, and machine learning models to generate insights about player behavior in games like Lakeland and Wake. He is currently pursuing a Master's in Information at the iSchool. </p>
+          <p class="small">In his spare time, Vijayram loves sitting by the lake, listening to music, and watching the sunset (in summertime, of course)! His favorite personal project is a dashboard that helps users determine the right time to buy a house based on historical pricing trends.</p>
         </div>
       </div>
     </div>
@@ -478,7 +473,7 @@
       <span>Artist and Animator </span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Rodney is a talented game designer, animator, and artist. Officially, he does technical art and animation for our games. He also asks insightful questions, knows a ton about games, and brings awesome energy to the room. Rodney made concept art and animation for Jo Wilder and the Capitol Case, and he contributed animation, technical art, and 8-bit final game art for Lost at the Forever Mine. He’s currently working on Aqualab. Rodney is a full-time animator at PBS Wisconsin, a local partner that we love working with. You can find more of his work on Instagram <a target="_blank" href="https://instagram.com/rodgod38">@rodgod38</a>
+          <p class="small">Rodney is a talented game designer, animator, and artist. Officially, he does technical art and animation for our games. He also asks insightful questions, knows a ton about games, and brings awesome energy to the room. Rodney made concept art and animation for Jo Wilder and the Capitol Case, contributed animation, technical art, and 8-bit final game art for Lost at the Forever Mine, and also worked on Wake: Tales from the Aqualab. Rodney started as a full-time animator at PBS Wisconsin, a local partner that we love working with, and is now a Senior Designer at Buck Studios. You can find more of his work on Instagram <a target="_blank" href="https://instagram.com/rodgod38">@rodgod38</a> and <a target="_blank" href="https://www.rodneylambright.com">on his website.</a>
 </p>
         </div>
       </div>
@@ -492,14 +487,7 @@
       <span>3D Artist</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Forest is a 3D artist with a background in graphic design and business. As a freelancer, he loves moving between different projects and exploring new ideas and styles. He has worked with Eric and Sarah (Art Director and Creative Director) to take their vision for a game and translate it into amazing characters and background art. Forest is also a business owner and musician. He and his brother designed several games together as the small game studio Flippfly—including “Race the Sun,” for which Forest also created the soundtrack. You can find more of Forest’s work on Instagram <a href="https://instagram.com/ForestSanFilippo">@ForestSanFilippo</a>
-</p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>3D art and animation for Station: Maine</li>
-            <li>3D art and animation for Legend of the Lost Emerald</li>
-            <li>3D art for Wake: Tales from the Aqualab</li>
-          </ul>
+          <p class="small">Forest is a 3D artist with a background in graphic design and business. As a freelancer, he loves moving between different projects and exploring new ideas and styles. He has worked with Eric and Sarah (Art Director and Creative Director) to take their vision for games like Wake and Legend of the Lost Emerald, and translate it into amazing characters and background art. Forest is also a business owner and musician. He and his brother designed several games together as the small game studio Flippfly—including “Race the Sun,” for which Forest also created the soundtrack. You can find more of Forest’s work on Instagram <a href="https://instagram.com/ForestSanFilippo">@ForestSanFilippo</a></p>
         </div>
       </div>
     </div>
@@ -511,13 +499,9 @@
       <span>Software Developer </span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Terra is an amazing developer drawn to the challenge of learning games. She taught herself programming in high school and studied game development in college, before moving into a prolific career in educational games. Terra loves finding the balance of creating games that are simple and fun to play, so that kids will actually enjoy playing them, while communicating complex scientific ideas through the game mechanic. In her time as a game engineer at Filament Games, she created games for clients including Scholastic, Square Panda, and iCivics. </p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Lead Developer for The Legend of the Lost Emerald</li>
-          </ul>
+          <p class="small">Terra is an amazing developer drawn to the challenge of learning games. She taught herself programming in high school and studied game development in college, before moving into a prolific career in educational games. Terra loves finding the balance of creating games that are simple and fun to play, so that kids will actually enjoy playing them, while communicating complex scientific ideas through the game mechanic. In her time as a game engineer at Filament Games, she created games for clients including Scholastic, Square Panda, and iCivics. At Field Day, Terra was the Lead Developer for Legend of the Lost Emerald.</p>
           <p class="small">
-            Terra makes her own games at her independent game studio, Potato Interactive. Her most recent project is Crime Reaper, a murder mystery game! She’s also working on a Tarot game anthology, which will include 22 games. Terra does all of the writing, visual design, and sound design for her games, as well as the development. Check out her work <a href="https://rottentater.com/games/" target="_blank">here!</a>
+            Terra makes her own games at her independent game studio, Potato Interactive. Terra does all of the writing, visual design, and sound design for her games, as well as the development. Check out her work <a href="https://rottentater.com/games/" target="_blank">here!</a>
           </p>
         </div>
       </div>
@@ -530,15 +514,7 @@
       <span>In-game music and sound effects</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Every creative team needs someone with the ability to “yes, and…” a story or design problem, and Cy is just about the best there is. He’s also one of the most creative people you’ll ever meet. When it comes to creating music for games, Cy starts by immersing himself in the subject matter--like watching ocean documentaries when he was composing music for Wake: Tales from the Aqualab--and trusting the music to come. It can be challenging to find the right tone for a scene, story, or moment, and Cy’s music helps us find it.
-</p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Music and sound effects for Jo Wilder</li>
-            <li>Music and sound effects for Lost at the Forever Mine</li>
-            <li>Music and sound effects for Wake: Tales from the Aqualab</li>
-            <li>Music and sound effects for Headlines and High Water</li>
-          </ul>
+          <p class="small">Every creative team needs someone with the ability to “yes, and…” a story or design problem, and Cy is just about the best there is. He’s also one of the most creative people you’ll ever meet. When it comes to creating music for games, Cy starts by immersing himself in the subject matter--like watching ocean documentaries when he was composing music for Wake: Tales from the Aqualab--and trusting the music to come. It can be challenging to find the right tone for a scene, story, or moment, and Cy’s music helps us find it. He also brings our game worlds to life with inventive, playful sound effects.</p>
           <p class="small">
             Cy began as a visual artist, creating commissioned album cover artwork and T-shirt designs, before realizing that music had always been a constant in his life. He learned to play the drums through playing Rock Band--the perfect merging of his love for music and video games. When it comes to the creative process, Cy is passionate about improvisation and pushes himself to keep things fresh and different. He shares visual art and poetry on Instagram at
             <a href="https://www.instagram.com/dreamingspiders/" target="_blank">dreamingspiders</a>
@@ -554,18 +530,10 @@
       <span>Artist and animator</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Emily is a concept artist, animator, and game artist who uses art to educate people about unique species and conservation. In addition to being a talented artist, Emily is an amazing researcher with a love of learning. Her detailed concept art, research, and color studies bring depth and richness to our games. Emily is studying natural science illustration and animation at the Rhode Island School of Design. </p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Lead artist for BrainPop projects</li>
-            <li>Concept art and color studies for Wake: Tales from the Aqualab </li>
-            <li>Concept art and color studies for The Legend of the Lost Emerald</li>
-            <li>Concept art, color studies, and movement studies for Waddle: A Penguin's Tale</li>
-            <li>Prototype art and animation for Headlines and High Water</li>
-          </ul>
+          <p class="small">Emily is a concept artist, animator, and game artist who uses art to educate people about unique species and conservation. In addition to being a talented artist, Emily is an amazing researcher with a love of learning. Her detailed concept art, research, and color studies bring depth and richness to our games. Emily studied natural science illustration and animation at the Rhode Island School of Design. </p>
           <p class="small">
             Emily’s passion for natural science illustration began when she drew an endangered species of antelope to share with her art group. The species was so unfamiliar that her group thought she’d made a creature up! That was the spark for Emily’s popular Instagram series, Real and Endangered, in which she shared 125 days of endangered species art with fun facts and conservation status for each animal. Emily believes that education is a powerful, underutilized aspect of conservation. She uses art as a tool to help people connect with nature, because, in her words, when you learn about something, you start to care about it. <br />
-            Check out Emily’s art Instagram <a href="https://www.instagram.com/emilynettie/" target="_blank">here.</a>
+            Check out Emily’s art Instagram <a href="https://www.instagram.com/emilynettie/" target="_blank">here</a> and her website <a href="https://www.emilymeredithlewis.com/" target="_blank">here.</a>
           </p>
         </div>
       </div>
@@ -592,21 +560,12 @@
   <div id="profile_levi" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Levi Huillet</h3>
-      <span>Game Engineering Intern</span>
+      <span>Game Engineer</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Levi is a student game engineer who cares about using games to make a lasting impact on people’s lives. At Field Day, Levi has worked extensively on game mechanic development for Shipwrecks, as well as supporting and contributing to the writing team. Levi is a computer science major with a game design certificate. He has always been drawn to doing work that benefits people, and he considered psychiatry and writing before discovering game design and its rich potential for learning.</p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Game development for Shipwrecks, including the evidence board mechanic and the sonar mechanic</li>
-            <li>Training and collaboration with the writing team</li>
-            <li>Implementing audio into the Shipwrecks game</Li>
-            <li>Proototypes for our in-progress game</li>
-            <li>Content for Wake: Tales from the Aqualab</li>
-            <li>Content, analytics, and game UI for Headlines and High Water</li>
-          </ul>
+          <p class="small">Levi is a game engineer who cares about using games to make a lasting impact on people’s lives. At Field Day, we rely on Levi for the magic of making things work. He worked extensively on game mechanic development for Legend of the Lost Emerald, and continues to build prototypes and implement content for many of our games, as well as support and contribute to the writing team. He has always been drawn to doing work that benefits people, and he considered psychiatry and writing before discovering game design and its rich potential for learning.</p>
           <p class="small">
-            Levi grew up traveling the world—he has lived in Washington, Hawaii, Qatar, and Germany before moving to the Midwest to study at UW-Madison. In addition to computer science and game design, he is currently studying Finnish—both because he loves the language, and because he’s interested in the technology and game design opportunities in Finland. He has worked on his own game design projects outside of Field Day and joined in game jams with other Field Day interns.
+            Levi grew up traveling the world—he has lived in Washington, Hawaii, Qatar, and Germany before moving to the Midwest to study at UW-Madison. In addition to computer science and game design, he studied Finnish—both because he loves the language, and because he’s interested in the technology and game design opportunities in Finland. He has worked on his own game design projects outside of Field Day and joined in game jams with other Field Day interns.
           </p>
           <p class="small">
             Check out Levi's work <a href="https://stardark-ferry.itch.io/" target="_blank">here!</a>
@@ -619,15 +578,10 @@
   <div id="profile_amelia" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Amelia Moser</h3>
-      <span>Game Engineering Intern</span>
+      <span>Game Engineer</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Amelia is a student game engineer with a knack for story and design. As a biochemistry major working toward certificates in game design and folklore, she brings a unique background and lots of creative insight to our team. Amelia loves working across disciplines. She has impressed everyone with her ability to take on different roles, from game development to prototype design and writing. As a new intern, she took the lead on developing a Twine prototype for Headlines and High Water, plus supporting our writing team in using Twine and adding her own witty, playful story ideas to the mix.</p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Development and implementation of the BrainPop project</li>
-            <li>Development of the prototype for Headlines and High Water, in collaboration with the writing team</li>
-          </ul>
+          <p class="small">Amelia is a game engineer with a knack for story and design. With a biochemistry major and certificates in game design and folklore, she brings a unique background and lots of creative insight to our team. Amelia loves working across disciplines. She has impressed everyone with her ability to take on different roles, from game development to prototype design and writing. When she first joined us, she took the lead on developing a Twine prototype for Headlines and High Water, plus supporting our writing team in using Twine and adding her own witty, playful story ideas to the mix.</p>
           <p class="small">
             Amelia has been designing games since she was a kid, creating handmade board games and coming up with elaborate recess activities for her classmates. She has a long list of hobbies and hidden talents—ink and pencil drawing, writing, 3D printing, bicycling and hiking,  her own game design projects, and even being a Dungeons and Dragons dungeon master, which makes sense, considering her on-the-fly storytelling prowess!
           </p>
@@ -645,16 +599,9 @@
       <span>3D Artist</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Mary is a 3D artist with a background in game design and studio art. At Field Day, she primarily creates 3D art with an expertise in modeling, texturing, and animation. Mary brings a rich background in drawing, painting, sculpture-making, and VR. She has a personal mission to encourage curiosity and play  for people of all ages, and especially adults. This is demonstrated through the interactive sensory-based sculptures she creates, as well as by being an artist at Field Day.</p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>3D art for Legend of the Lost Emerald</li>
-            <li>3D art and 2D/3D animation for Wake: Tales from the Aqualab</li>
-            <li>3D art and animation for Waddle: A Penguin's Tale</li>
-            <li>Producer and concept artist for our upcoming games</li>
-          </ul>
-          <p class="small">
-            Mary likes to connect her hobbies with motion and play, which has led to an amazing list of hidden talents--including drumming, fishkeeping, and underwater hockey. During college, she researched and created an independent project about motion and how it relates to physics, psychology, and art. She brings a love of learning to everything she does.
+          <p class="small">Mary is a 3D artist with a background in game design and studio art. At Field Day, she primarily creates 3D art with an expertise in modeling, texturing, and animation. Mary brings a rich background in drawing, painting, sculpture-making, and VR. She has been the lead 3D artist on many of our games, including Legend of the Lost Emerald, Wake: Tales from the Aqualab, and all our VR games. She also produced Thermolab. 
+
+            <p class="small">Mary has a personal mission to encourage curiosity and play  for people of all ages, and especially adults. This is demonstrated through the interactive sensory-based sculptures she creates, as well as by being an artist at Field Day. She likes to connect her hobbies with motion and play, which has led to an amazing list of hidden talents--including drumming, fishkeeping, and underwater hockey. During college, she researched and created an independent project about motion and how it relates to physics, psychology, and art. She brings a love of learning to everything she does.
           </p>
           <p class="small">
             Check out Mary’s portfolio <a href="https://mbenetti.myportfolio.com/" target="_blank">here!</a>
@@ -695,56 +642,24 @@
     </div>
   </div>
 
-   <div id="profile_zach" class="gridder-content">
+  <div id="profile_ameya" class="gridder-content">
     <div class="row profile-inner profile-inner">
-      <h3>Zach Studdiford</h3>
-      <span>Undergraduate Data Science Intern </span>
+      <h3>Ameya Kshirsagar</h3>
+      <span>Graduate Research Intern </span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Zach works on feature extraction for Headlines and Wake. He creates insights into when and why players choose to quit when they do, and how we can optimize games for an ideal player experience. Zach is interested in how data from games can inform our understanding of child learning and cognition in ways that traditional studies often can't. </p>
+          <p class="small">At Field Day, Ameya focuses on analyzing game data to provide actionable insights and improve engagement and learning outcomes.  He's created features to track user behavior in games like Bloom and Thermolab, developed data visualization dashboards, and conducted in-depth analyses to enhance gameplay experiences. He's particularly proud of building robust features for several games that enabled deeper insights into player behavior!
+        </p>
 
-            <p>Prior to working at Field Day, Zach worked as a research assistant in the Department of Psychology at UW-Madison, studying how language alters perception and cognition. This has informed his approach to how lower-level data can be used to answer higher-order complex questions, and how to design cognitive tasks that can answer those questions.</p>
-
-
-            <p>Outside of his work at Field Day and classes at UW-Madison, Zach enjoys playing jazz piano, and works part time as a pianist at restaurants and performance venues both in Madison and Minneapolis. He also enjoys hiking and backpacking, and has visited almost all of the national parks in the continental United States.
+            <p>Ameya is pursuing a Master's in Computer and Information Science at UW-Madison.  In his free time, he enjoys experimenting with new machine learning projects, writing, and exploring the outdoors. Fun fact: he's published two books and reviewed several research papers!
  </p>
 </h4>
         </div>
       </div>
     </div>
   </div>
+</p>
 
-<div id="profile_dane" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>Dane Bach</h3>
-      <span>Undergraduate Data Team Intern </span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Dane is a student data analyst working on player analysis for Wake: Tales from the Aqualab. Data science fascinates Dane because it combines computer science, statistics, and math to reach intelligent decisions based solely on the available data. His work on Wake allows him to apply his data skills in a practical, hands-on setting where he actively works to improve our template for player analysis. </p>
-
-          <p>In the winter Dane enjoys snowboarding and snowshoeing. When the weather is nice, he likes to watch Madison Mallards games or go for a run around the lake.
- </p>
-</h4>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="profile_mia" class="gridder-content">
-    <div class="row profile-inner profile-inner">
-      <h3>Mia Yunqing Xiao</h3>
-      <span>Undergraduate Data Team Intern </span>
-      <div class="wrapper">
-        <div class="col-md-12 profile-expanded">
-          <p class="small">Mia’s data background and passion for game design come together at Field Day in her game data analysis work. Mia is fascinated by how games can educate and impact people. Focusing on VR games like IceCube and Waddle, she builds proper features, provides data analysis and evaluation from player data, and generates models, all to help us better understand how our games are being used. </p>
-
-          <p>In her free time, Mia is also passionate about traveling and music. She is the manager of an R&B band called <a href="https://www.instagram.com/revival_uw_madison/" target="_blank">Revival Band at UW-Madison.</a> You can usually find them performing at live shows on campus.
- </p>
-</h4>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <div id="profile_ben" class="gridder-content">
     <div class="row profile-inner profile-inner">
@@ -776,20 +691,17 @@
     </div>
   </div>
 
-  <div id="profile_terra" class="gridder-content">
+  <div id="profile_xander" class="gridder-content">
     <div class="row profile-inner profile-inner">
-      <h3>Mary Benetti</h3>
-      <span>Software Developer </span>
+      <h3>Xander Grabowski</h3>
+      <span>Graduate Development and Design Intern </span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
-          <p class="small">Terra is an amazing developer drawn to the challenge of learning games. She taught herself programming in high school and studied game development in college, before moving into a prolific career in educational games. Terra loves finding the balance of creating games that are simple and fun to play, so that kids will actually enjoy playing them, while communicating complex scientific ideas through the game mechanic. In her time as a game engineer at Filament Games, she created games for clients including Scholastic, Square Panda, and iCivics. </p>
-          <h4>Field Day projects:</h4>
-          <ul>
-            <li>Lead Developer for The Legend of the Lost Emerald</li>
-          </ul>
-          <p class="small">
-            Terra makes her own games at her independent game studio, Potato Interactive. Her most recent project is Crime Reaper, a murder mystery game! She’s also working on a Tarot game anthology, which will include 22 games. Terra does all of the writing, visual design, and sound design for her games, as well as the development. Check out her work <a href="https://rottentater.com/games/" target="_blank">here!</a>
-          </p>
+          <p class="small">Xander began creating games when he was in middle-school. He graduated from the University of Wisconsin—Madison with a bachelor’s degree in computer science and certificates in game design, digital art, and Japanese communication. Working at Field Day as an undergrad developer inspired him to return for his master's in Design, Informal, and Creative Education (DICE), where he explores the use of new technologies and media in the service of learning and human growth. Now he fills a dual role at Field Day: working in both development and UX and game design. </p>
+
+<p>Xander has a diverse range of experience developing games and tutoring others on their journey in game development. He can frequently be found in international fan games, hackathons, and game jams, expressing his passion for transformational games and FOSS. He has taught as a game development instructor at Maydm Inc. and Code Ninjas, where he was also involved in creating and developing game dev curriculum for kids in K-12. He has also worked as a youth e-sports coach with XPLeague, and a software trainer within UW—Madison’s DoIT Academic Technology.</p>
+
+<p>Check out Xander's portolfio <a href="https://xangrab.com" target="_blank">here.</a></p>
         </div>
       </div>
     </div>

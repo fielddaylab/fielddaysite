@@ -226,6 +226,24 @@
 
             <div class="pub-wrap">
             <p class="small">
+Demonstrating Replay for Highly Scalable and Cost-Effective User Research of Virtual Reality Learning Games. (2025). Immersive Learning Research - Academic, 1(1), 44-50. <a href="https://doi.org/10.56198/54rfwf69">https://doi.org/10.56198/54rfwf69</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
+Swanson, L., Gagnon, D.J. (2025). An Architecture for Repeatable, Large-Scale Educational Game Data Analysis: Building on Open Game Data. In: Plass, J.L., Ochoa, X. (eds) Serious Games. JCSG 2024. Lecture Notes in Computer Science, vol 15259. Springer, Cham. <a href=https://doi.org/10.1007/978-3-031-74138-8_4">https://doi.org/10.1007/978-3-031-74138-8_4</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
+Liu, X., Slater, S., Swanson, L., Metcalf, S.J., Gagnon, D.J., Baker, R.S. (2025). Identifying When and Why Students Choose to Quit Jobs in a Science Exploration Game. In: Plass, J.L., Ochoa, X. (eds) Serious Games. JCSG 2024. Lecture Notes in Computer Science, vol 15259. Springer, Cham. <a href=https://doi.org/10.1007/978-3-031-74138-8_5">https://doi.org/10.1007/978-3-031-74138-8_5</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
 Gagnon, D. J., Swanson, L., & Harpstead, E. (2024). Open Game Data: Defining a Pipeline and Standards for Educational Data Mining and Learning Analytics with Video Game Data. 2024 IEEE Conference on Games (CoG), Milan, Italy, 2024, pp. 1-8. <a href ="https://doi.org/10.1109/CoG60054.2024.10645573">https://doi.org/10.1109/CoG60054.2024.10645573</a>
             </p>
           </div>

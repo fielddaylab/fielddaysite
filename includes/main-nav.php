@@ -16,7 +16,7 @@
   <div class="right">
     <ul>
       <li>
-        <!-- <a class="button xsmall yellow filled hideforsmall" tabindex="0">get involved</a> -->
+        <a class="button xsmall yellow filled hideforsmall" tabindex="0" href="/getinvolved">get involved</a>
         <div class="mobile-nav-toggle-wrap">
           <button class="btn-link nav-toggle">
             <span class="icon"></span>

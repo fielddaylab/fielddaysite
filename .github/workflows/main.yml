@@ -58,4 +58,15 @@ jobs:
         remote_host: ${{ secrets.WWWTEST_FIELDDAYLAB_WISC_EDU_DEPLOY_HOST }}
         remote_user: ${{ secrets.WWWTEST_FIELDDAYLAB_WISC_EDU_DEPLOY_USER }}
         remote_key: ${{ secrets.WWWTEST_FIELDDAYLAB_WISC_EDU_DEPLOY_KEY }}
+
+    - name: If fieldday-web, deploy to fieldday-web server
+      if: ${{ github.ref == 'refs/heads/fieldday-web' }}
+      uses: burnett01/rsync-deployments@5.2
+      with:
+        switches: -vrc --exclude-from 'rsync-exclude'
+        path: /*
+        remote_path: ${{ secrets.FIELDDAY_WEB_DEPLOY_DIR }}
+        remote_host: ${{ secrets.FIELDDAYLAB_WEB_DEPLOY_HOST }}
+        remote_user: ${{ secrets.FIELDDAYLAB_WEB_DEPLOY_USER }}
+        remote_key: ${{ secrets.FIELDDAYLAB_WEB_DEPLOY_KEY }}
     
