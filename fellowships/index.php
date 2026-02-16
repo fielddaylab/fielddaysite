@@ -149,10 +149,15 @@
 </div>
 
     <section id="fellowships" class="section grid fellowships-content">
-      <h2 class="section-title centered">Current Fellowships</h2>
+      <!--<h2 class="section-title centered">Current Fellowships</h2>-->
       <ul class="gridder">
 
         <!-- Begin Current Fellowships-->
+        
+
+      <!-- Begin Past Fellowships-->
+      <h2 class="section-title centered">Past Fellowships</h2>
+
         <li class="gridder-list" data-griddercontent="#game21">
           <div class="game-thumbnail">
             <img alt="little yellow robot on a weather station" src="/assets/img/fellowships/waddle.jpg">
@@ -179,9 +184,6 @@
             <span class="card-triangle"></span>
           </div>
         </li>
-
-      <!-- Begin Past Fellowships-->
-      <h2 class="section-title centered">Past Fellowships</h2>
 
         <li class="gridder-list" data-griddercontent="#game19">
           <div class="game-thumbnail">
@@ -975,7 +977,8 @@
     </div>
   </div>
 </div>
-</div>
+        </section>
+
 <!--include footer
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/footer.php";  include_once($path); ?>

@@ -10,12 +10,12 @@
 <script src='/assets/js/vendor/stickyfill.js'></script>
 <script src='/assets/js/app.js'></script>
 <footer id="footer">
-  <div class="footer homepage">
+  <div class="footer global homepage">
     <div class="row">
-      <div class="col-md-7 footerinfo">
-        <img class="footerlogo" src="assets/img/logos/fd-learning_games_logo_new_alt.png" alt="the Field Day Lab logo">
-        <p class="small">Our <a href="/about">team</a> is based at the Wisconsin Center for Education Research at the University of Wisconsin - Madison. We make learning games that bring contemporary research to the public, and we use the game data to understand how people learn.</p>
-        <p class="small">Interested in making something together? email <a href="mailto:djgagnon@wisc.edu">David Gagnon</a><br />
+      <div class="col-md-6 footerinfo">
+        <img class="footerlogo" src="/assets/img/logos/fd-logo-new-dark.png" alt="the Field Day Lab logo">
+        <p class="xsmall">Field Day studio makes beautiful narrative driven learning games that encourage meaningful play. Our team was started at Field Day Lab at UW Madison in 2015. It operates as a model studio to bridge research with learning games.</p>
+        <p class="xsmall">Interested in making something together? email <a href="mailto:djgagnon@wisc.edu">David Gagnon</a><br />
         for all other inquiries, please contact <a href="mailto:rgroff@wisc.edu">Reyna Groff</a></p>
         <div class="social-links">
           <a target="_blank" href="http://facebook.com/fielddaylab"><img src="/assets/img/logos/social-facebook.png"></a>
@@ -23,13 +23,26 @@
           <a target="_blank" href="http://instagram.com/fielddaylab"><img src="/assets/img/logos/social-insta.png"></a>
         </div>
       </div>
-      <div class="col-md-5">
-        <div class="footer-signup">
-          <img class="signup-badge img-responsive" src="/assets/img/illustrations/mask.png" alt="a stylized and colorfully patterned mask">
-          <!--<p class="small">Interested in what we're cooking up? We have many ways for you to get involved.</p>
-            <a target="_blank" href="#" class="button white filled xsmall">GET INVOLVED</a> -->
+      <div class="col-md-4 footernav">
+        <p class="small centered creme">Our Projects</p>
+        <div class="partner-grid">
+          <a href="https://vaultlearninggames.org/" class="partner-tile"><img src="/assets/img/logos/logo-vault.png" alt="partner logo"></a>
+          <a href="https://opengamedata.fielddaylab.wisc.edu/" class="partner-tile"><img src="/assets/img/logos/logo-ogd.png" alt="partner logo"></a>
+          <a href="https://www.geeawards.com/" class="partner-tile"><img src="/assets/img/logos/logo-gee-awards.png" alt="partner logo"></a>
+          <a href="https://fielddaylearninggames.org/" class="partner-tile"><img src="/assets/img/logos/logo-fd-lab.png" alt="partner logo"></a>
         </div>
       </div>
+      <div class="col-md-2">
+        <div class="footer-signup">
+          <img class="signup-badge img-responsive" src="/assets/img/illustrations/neon-head.png" alt="a stylized and colorfully patterned mask">
+          <p class="small creme">Interested in what we're cooking up? We have many ways for you to get involved.</p>
+            <a href="/getinvolved" class="button creme filled small">GET INVOLVED</a>
+        </div>
+      </div>
+      
     </div>
+  </div>
+  <div class="col-md-12 text-center uw-logo-row">
+      <img class="uw-logo" src="/assets/img/logos/UW-logo-centered.png" alt="University of Wisconsin–Madison logo">
   </div>
 </footer>

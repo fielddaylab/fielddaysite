@@ -4,7 +4,7 @@
     background:#fff;
   }
   .page_hero {
-    background: $blue-black;
+    background: $warm-black;
     padding: 3vw 0vw 0vw 0vw;
     position:relative;
     a {
@@ -101,7 +101,7 @@
           border-left:4px solid $dark-yellow;
         }
         a {
-          color: $blue-black;
+          color: $warm-black;
           font-size:16px;
           letter-spacing:0px;
           text-transform:uppercase;
@@ -129,7 +129,7 @@
         cursor: pointer;
         &.active {
           a {
-            color: $blue-black;
+            color: $warm-black;
             background: #fff;
           }
         }
@@ -176,7 +176,7 @@
         margin: 15px 0px;
         border-radius:10px;
         padding:15px;
-        color:$black;
+        color:$warm-black;
         box-shadow: 0 0 13px 0 rgba(0,0,0,0.10);
         float:left;
         display:inline;
@@ -202,7 +202,7 @@
           font-style: italic;
         }
         a {
-          color:$black;
+          color:$warm-black;
           font-family: 'Courier', 'courier-new', serif;
           font-size:14px;
           display:flex;
@@ -262,7 +262,7 @@
       border-radius:10px;
       text-align:center;
       padding:2vw;
-      color:$black;
+      color:$warm-black;
       transition: all 0.1s ease-in-out;
       .twoXone {
         width:56%;

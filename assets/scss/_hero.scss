@@ -49,7 +49,7 @@
         width: 45vw;
         margin-left:10vw;
         &.dark {
-          color:$black;
+          color:$warm-black;
         }
         h2 {
           margin-bottom: 10px;
@@ -262,7 +262,7 @@
         .bullet {
           background: url(../img/ui/bullet-filled.png) no-repeat;
           background-size: contain;
-          color:$black;
+          color:$warm-black;
         }
       }
     }

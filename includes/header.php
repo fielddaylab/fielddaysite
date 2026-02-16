@@ -33,4 +33,4 @@
 
   gtag('config', 'G-1HWP7FMPWX');
 </script>
-<link rel="stylesheet" href="/assets/css/styles_ver3.css?cb=20190820">
+<link rel="stylesheet" href="/assets/css/styles_ver3.css?cb=<?php echo filemtime('assets/css/styles_ver3.css'); ?>">
