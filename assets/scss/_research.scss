@@ -4,7 +4,7 @@
     background:#fff;
   }
   .page_hero {
-    background: $blue-black;
+    background: $warm-black;
     padding: 3vw 0vw;
     position:relative;
     a {
@@ -92,7 +92,7 @@
           border-left:4px solid $light_red;
         }
         a {
-          color: $blue-black;
+          color: $warm-black;
           font-size:16px;
           letter-spacing:0px;
           text-transform:uppercase;
@@ -120,7 +120,7 @@
         cursor: pointer;
         &.active {
           a {
-            color: $blue-black;
+            color: $warm-black;
             background: #fff;
           }
         }

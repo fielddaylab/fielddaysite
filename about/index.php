@@ -22,8 +22,18 @@
         <img alt="artwork with many different faces" src="/assets/img/hero-images/about-hero.jpg">
       </div>
     </section>
+    <!-- Marquee Section -->
+    <section id="marquee">
+      <div class="marquee-content" aria-hidden="true">
+        <p><span>WE ARE PERISHING FOR LACK OF<span style="color:#d08177"><em>WONDER,</em></span>NOT FOR LACK OF<span style="color:#75E5C6"><em>WONDERS.</em></span>WE ARE PERISHING FOR LACK OF<span style="color:#d08177"><em>WONDER,</em></span>NOT FOR LACK OF<span style="color:#75E5C6"><em>WONDERS.</em></span></span></p>
+        <p><span>NOT FOR LACK OF<span style="color:#75E5C6"><em>WONDERS.</em></span>WE ARE PERISHING FOR LACK OF<span style="color:#d08177"><em>WONDER,</em></span>NOT FOR LACK OF<span style="color:#75E5C6"><em>WONDERS.</em></span>WE ARE PERISHING FOR LACK OF<span style="color:#d08177"><em>WONDER,</em></span></span></p>
+        <p><span>FOR LACK OF<span style="color:#d08177"><em>WONDER,</em></span>NOT FOR LACK OF<span style="color:#75E5C6"><em>WONDERS.</em></span>WE ARE PERISHING FOR LACK OF<span style="color:#d08177"><em>WONDER,</em></span>NOT FOR LACK OF<span style="color:#75E5C6"><em>WONDERS.</em></span>WE ARE PERISHING </span></p>
+      </div>
+    </section>
+    
 <div class="intro-section">
     <section id="page-facts" class="page-facts">
+      <div class="helm-frame-bottom"></div>
       <div class="fact">
         <div class="photo">
           <img class="supporting-image" alt="David Gagnon" src="/assets/img/callouts/aboutthumb_1.jpg">
@@ -113,7 +123,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile_autumn">
           <div class="profile-thumbnail">
-            <img alt="Autumn Beauchesne" src="/assets/img/profiles/astro.jpg">
+            <img alt="Autumn Beauchesne" src="/assets/img/profiles/autumn.jpg">
             <div class="card-summary">
               <h3>Autumn Beauchesne</h3>
               <span class="card-triangle"></span>
@@ -151,15 +161,6 @@
           </div>
         </li>
 
-        <li class="gridder-list" data-griddercontent="#profile_mary">
-          <div class="profile-thumbnail">
-            <img alt="Lindy Biller" src="/assets/img/profiles/mary.jpg">
-            <div class="card-summary">
-              <h3>Mary Benetti</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
 
         <li class="gridder-list" data-griddercontent="#profile_reyna">
           <div class="profile-thumbnail">
@@ -209,11 +210,21 @@
         </li>
 </ul>
 
-      <h2 class="section-title centered">Collaborating Artists and Contractors</h2>
+      <h2 class="section-title centered">Collaborators</h2>
 
       <ul class="gridder">
 
-<li class="gridder-list" data-griddercontent="#profile_lindy">
+         <li class="gridder-list" data-griddercontent="#profile_mary">
+          <div class="profile-thumbnail">
+            <img alt="Lindy Biller" src="/assets/img/profiles/mary.jpg">
+            <div class="card-summary">
+              <h3>Mary Benetti</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_lindy">
           <div class="profile-thumbnail">
             <img src="/assets/img/profiles/lindy.jpg">
             <div class="card-summary">
@@ -379,7 +390,7 @@
 <div id="profile_eric" class="gridder-content">
   <div class="row profile-inner profile-inner">
     <h3>Eric Lang</h3>
-    <span>Art Director and Lead Designer</span>
+    <span>Art Director</span>
     <div class="wrapper">
       <div class="col-md-12 profile-expanded">
         <p class="small">Eric Lang is a designer with a unique combination of skills ranging from the artistic to the technical. He carries a heavy load as Lead Designer for UI and graphic design across all of our games, mixed reality projects, web content, print material, and front end development. 

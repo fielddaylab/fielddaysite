@@ -11,13 +11,13 @@
       padding: 2vw;
     }
     .info {
-      color: $black;
+      color: $warm-black;
       width: 40%;
       padding: 8vw 0vw 8vw 8vw;
       margin-right:10%;
       p {
         margin-bottom:20px;
-        color:$black;
+        color:$warm-black;
       }
       @media #{$break-sm} {
         width:100%;
@@ -163,7 +163,7 @@
       padding:0px;
     }
     .app-card {
-      background: $black;
+      background: $warm-black;
       width: 16vw;
       box-shadow:0 0px 13px 0 rgba(0, 0, 0, 0.15);
       z-index:75;

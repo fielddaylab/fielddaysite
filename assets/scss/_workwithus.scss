@@ -120,11 +120,11 @@
             @media #{$break-sm} {
               background: #fff;
               h3, p{
-                color: $black;
+                color: $warm-black;
               }
               .button {
-                color:$black;
-                border:2px solid $black;
+                color:$warm-black;
+                border:2px solid $warm-black;
               }
             }
 

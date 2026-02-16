@@ -19,7 +19,7 @@
         <!--Start page content
   ------------------------>
 
-        <section class="singlehero page_hero">
+        <!--<section class="singlehero page_hero">
             <span class="scanlines"></span>
             <video autoplay muted loop id="playback">
                 <source src="../assets/video/gameplay_footage.mp4#t=0.1" type="video/mp4">
@@ -30,8 +30,10 @@
                 <p class="small corrected">We work with researchers to create fun, academically rigorous games that get millions of plays.</p>
                 <a href="#game_section" class="button yellow filled small hideforsmall">Check out our games</a>
             </div>
-        </section>
-
+        </section>-->
+        <!--<section class="singlehero page_hero">
+            <h1 class="creme centered">Games</h1>
+        </section>-->
 
         <section id="ourstuff" class="ourstuff">
             <!-- <h1 class="section-title centered cap">What we've made</h1> -->
@@ -40,6 +42,18 @@
                         <!--<p class="brief padding">We work with researchers to create fun, academically rigorous games that get hundreds of thousands of plays. Researchers love that our games allow for depth and complexity, while providing a playful, engaging experience. We team up with teacher fellows and outreach experts to make sure our games work in classrooms and reach large audiences. <br></p>-->
                         <!-- Gridder navigation -->
                         <ul class="apps gridder">
+                            <li class="gridder-list app-card" data-griddercontent="#game-hatched">
+                                <img src="/assets/img/games/thumbs/hatched-thumb.jpg" class="app-logo">
+                                <div class="game-wrapper">
+                                    <div class="title">
+                                        <span>On the Ice: Hatched</span>
+                                    </div>
+                                    <div class="stats">
+                                        <p class="italic">Ages 10+</p>
+                                        <p>Polar Research</p>
+                                    </div>
+                                </div>
+                            </li>
                             <li class="gridder-list app-card" data-griddercontent="#game-hercules">
                                 <img src="/assets/img/games/thumbs/astro-thumb.jpg" class="app-logo">
                                 <div class="game-wrapper">
@@ -441,6 +455,24 @@
                     </div>
 
                     <div class="item">
+                        <div id="game-hatched" class="app-expanded gridder-content">
+                            <div class="app-info app-pane left">
+                                <span class="close-app">
+                                    <h2>On the Ice: Hatched</h2>
+                                    <div class="stats">
+                                        <p class="tag ">Ages 10+</p>
+                                        <p>|</p>
+                                        <p class="tag ">Polar Research</p>
+                                    </div>
+                                    <p class="small">
+                                        n On the Ice: Hatched, you play as a novice wildlife biologist making your first visit to Ross Island in Antarctica to study Adélie penguins. Your daily research tasks, such as conducting population counts, placing identification bands, and removing GPS trackers can be challenging - especially when the penguins don’t cooperate. But don’t worry, you’ll have Margo, your trusted digital assistant to guide you. The game takes place across a single research season and mirrors the tasks that real scientists do as they study how Adélie penguins behave and interact with each other. 
+                                    </p>
+                                    <a class="button small white filled" href="/play/hatched" target="_blank">Learn More</a>
+                            </div>
+                            <div class="app-thumbnail app-pane right">
+                                <img src="/assets/img/gameplay/hatched-gameplay.jpg">
+                            </div>
+                        </div>
                         <div id="game-hercules" class="app-expanded gridder-content">
                             <div class="app-info app-pane left">
                                 <span class="close-app">

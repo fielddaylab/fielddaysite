@@ -10,7 +10,7 @@
   border: 1px solid $dark_gray;
   text-transform: uppercase;
   letter-spacing: .2em;
-  color: $black;
+  color: $warm-black;
   font-weight: 600;
   background: transparent;
   box-shadow: none;
@@ -40,7 +40,7 @@
     color: $pink; border-color: $pink; background: transparent;
     i { color: $pink; }
     &:hover, &.filled {
-      background: $pink; color: $black;
+      background: $pink; color: $warm-black;
       i { color: #fff; }
     }
   }
@@ -64,8 +64,8 @@
     color: $yellow; border-color: $yellow; background: transparent;
     i { color: $yellow; }
     &:hover, &.filled {
-      background: $yellow; color: $black;
-      i { color: $black; }
+      background: $yellow; color: $warm-black;
+      i { color: $warm-black; }
     }
   }
   &.light-blue {
@@ -77,10 +77,10 @@
     }
   }
   &.blue-black {
-    color: $blue-black; border-color: $blue-black; background: transparent;
-    i { color: $blue-black; }
+    color: $warm-black; border-color: $warm-black; background: transparent;
+    i { color: $warm-black; }
     &:hover, &.filled {
-      background: $black; color: #fff;
+      background: $warm-black; color: #fff;
       i { color: #fff; }
     }
   }
@@ -104,8 +104,16 @@
     color: #fff; border-color: #fff; background: transparent;
     i { color: #fff; }
     &:hover, &.filled {
-      background: #fff; color: $black !important;
-      i { color: $black; }
+      background: #fff; color: $warm-black !important;
+      i { color: $warm-black; }
+    }
+  }
+  &.creme {
+    color: #fff; border-color: $creme; background: transparent;
+    i { color: $creme; }
+    &:hover, &.filled {
+      background: $creme; color: $warm-black !important;
+      i { color: $warm-black; }
     }
   }
   &.small { letter-spacing:3px; min-width: auto; font-size: 14px; padding: 6px 15px; }

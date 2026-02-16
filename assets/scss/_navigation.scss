@@ -67,7 +67,7 @@
       top: 0;
       height: auto;
       opacity: 0;
-      background: $blue-black;
+      background: $warm-black;
 
       .drawer-contents {
         position: relative !important;
@@ -279,9 +279,10 @@
   width: 100%;
   height: 897px;
   top: 50px;
+  opacity: 0.6;
 }
 .small-nav {
-  background: #fff;
+  background: $warm-black;
   display: flex;
   position: fixed;
   justify-content: space-between;
@@ -295,7 +296,7 @@
   transition: opacity .3s ease-in-out;
   box-shadow: 0px 5px 0px 0 rgba(0, 0, 0, 0.10);
   transform: translateY(-60px);
-  border: 4px solid $black;
+  padding: 4px;
   min-height: 52px;
 
   .right {
@@ -382,11 +383,11 @@
 
       a {
         text-transform: uppercase;
-        color: $black;
+        color: $creme;
         padding: 10px 15px;
         display: inline-block;
         cursor: pointer;
-        font-family: brandon-grotesque;
+        font-family: 'ibm-plex-mono', 'brandon-grotesque', serif;
         font-size: 14px;
 
         @media #{$break-md} {
@@ -400,9 +401,9 @@
         }
 
         &:hover {
-          color: $dark-yellow;
+          color: $warm-black;
           text-decoration: none;
-          background: $black;
+          background: $creme;
         }
       }
     }
@@ -561,8 +562,8 @@
   height: 58px;
   z-index: 2;
   position: fixed;
-  right: -2px;
-  top: -2px;
+  right: 2px;
+  top: 0px;
   z-index: 1001;
 
   button {
@@ -593,7 +594,7 @@
   transform: translateY(-100vh);
   z-index: -1000;
   opacity: 0;
-  background: $black;
+  background: $warm-black;
   right: -4px;
   top: 59px;
   width: 380px;
@@ -694,7 +695,7 @@
 
           &.main {
             width: 28%;
-            border-right: 2px solid $black;
+            border-right: 2px solid $warm-black;
             margin-right: 5vw;
 
             @media #{$break-sm} {
@@ -756,7 +757,7 @@
 .icon {
   width: 20px;
   height: 4px;
-  background-color: $black;
+  background-color: $creme;
   position: absolute;
   top: 28px;
   left: 20px;
@@ -778,7 +779,7 @@
 
   .mobile-nav-toggle-wrap {
     box-shadow: none;
-    background: $black; 
+    background: $warm-black; 
   }
 
   .mobile-nav-toggle-wrap .icon {
@@ -833,7 +834,7 @@
 .mobile-nav-toggle-wrap .icon:after {
   width: 20px;
   height: 4px;
-  background-color: $black;
+  background-color: $creme;
   content: "";
   border-radius: 10px;
   position: absolute;

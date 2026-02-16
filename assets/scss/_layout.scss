@@ -32,7 +32,7 @@ section {
     height: 130vh;
     -webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
-    background: $black;
+    background: $warm-black;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -193,7 +193,7 @@ section {
 }
 
 .contact-modal {
-  background: $black;
+  background: $warm-black;
   color: #fff;
   padding: 5vw;
   text-align: center;

@@ -49,13 +49,13 @@
           box-shadow:0 10px 40px 0 rgba(0, 0, 0, 0.1);
       }
       &.selectedItem {
-        background: $black;
+        background: $warm-black;
       }
       .profile-thumbnail {
         width:100%;
         overflow:hidden;
         position:relative;
-        background: $black;
+        background: $warm-black;
         img {
           width:100%;
         }
@@ -86,7 +86,7 @@
         }
       }
       .card-triangle {
-        border-top: 15px solid $black;
+        border-top: 15px solid $warm-black;
       }
     }
     .gridder-expanded-content {
@@ -102,7 +102,7 @@
         margin-top:20px;
         padding:2vw;
         .fellows {
-          font-family: 'Courier', 'courier-new', serif;
+          font-family: 'ibm-plex-mono''Courier', 'courier-new', serif;
           column-count: 2;
           a {
             display:block;
@@ -158,7 +158,7 @@
     }
   }
   .page-facts {
-    background:$light_yellow;
+    background:$creme;
     .info {
       padding: 6vw;
       h3 {
@@ -173,7 +173,7 @@
         padding-left: 17px;
       }
       li {
-        font-family: 'courier', sans-serif;
+        font-family: 'ibm-plex-mono''Courier', 'courier-new', serif;
       }
     }
     .fact {
@@ -265,7 +265,7 @@
     }
   }
   .page_hero {
-    background: $black;
+    background: $warm-black;
     padding: 5vw 0vw;
     @media #{$break-sm} {
       flex-direction: column;

@@ -28,10 +28,10 @@
         width:98%
       }
       &:hover {
-        background: $black;
+        background: $warm-black;
       }
       &.selectedItem {
-        background: $black;
+        background: $warm-black;
       }
       .game-thumbnail {
         height:200px;
@@ -54,7 +54,7 @@
         }
       }
       .card-triangle {
-        border-top: 15px solid $black;
+        border-top: 15px solid $warm-black;
       }
     }
     .gridder-expanded-content {
@@ -212,7 +212,7 @@
     }
   }
   .page_hero {
-    background: $black;
+    background: $warm-black;
     padding: 5vw 0vw;
     @media #{$break-sm} {
       flex-direction: column-reverse;

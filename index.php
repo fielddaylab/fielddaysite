@@ -12,7 +12,7 @@
             
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active" style="background-image: url('assets/img/hero-images/astro-bg.jpg');">
+                <div class="item active" style="background-image: url('assets/img/home/carousel/hercules-poster.jpg');">
                     <div class="info">
                         <img src="assets/img/logos/logo_projectHercules.png" alt="Project Hercules Game Logo" style="max-width:350px;" />
                         <p class="small">Play an astronomer in the distant future, working to identify objects in the night sky and uncover the mystery of an impending celestial event.
@@ -21,7 +21,7 @@
                     </div>
                     <span class="scanlines"></span>
                     <video preload="none" muted loop class="carousel-video">
-                        <source src="assets/video/home/carousel/hercules2.mp4" type="video/mp4">
+                        <source src="assets/video/home/carousel/hercules3.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="item narrow-video" style="background-image: url('assets/img/home/carousel/bloom-poster.png');">
@@ -79,7 +79,7 @@
                     <div class="thumb-caption">Headlines and High Water</div>
                 </li>
 
-                <li>
+                <!--<li class="more-games-card">
                     <a href="play">
                         <div class="play-our-games-controller">
                             <img src="assets/img/home/carousel/group-1014.png" alt="Game Controller" />
@@ -88,7 +88,7 @@
                             More Games
                         </div>
                     </a>
-                </li>
+                </li>-->
             </ol>
 
             
