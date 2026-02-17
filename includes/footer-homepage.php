@@ -13,7 +13,7 @@
   <div class="footer global homepage">
     <div class="row">
       <div class="col-md-6 footerinfo">
-        <img class="footerlogo" src="/assets/img/logos/fd-logo-new-dark.png" alt="the Field Day Lab logo">
+        <img class="footerlogo" src="/assets/img/logos/FD-logo-new-dark.png" alt="the Field Day Lab logo">
         <p class="xsmall">Field Day studio makes beautiful narrative driven learning games that encourage meaningful play. Our team was started at Field Day Lab at UW Madison in 2015. It operates as a model studio to bridge research with learning games.</p>
         <p class="xsmall">Interested in making something together? email <a href="mailto:djgagnon@wisc.edu">David Gagnon</a><br />
         for all other inquiries, please contact <a href="mailto:rgroff@wisc.edu">Reyna Groff</a></p>
