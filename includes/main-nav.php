@@ -5,7 +5,7 @@
   include_once($path); ?>
   <div class="left">
     <ul>
-      <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/fd-logo-new.png"></a></li>
+      <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/FD-logo-new.png"></a></li>
       <li class="small-navlink hide-for-nav-narrow"><a href="/play">games</a></li>
       <li class="small-navlink hide-for-nav-narrow"><a href="/about">about us</a></li>
       <li class="small-navlink hide-for-nav-xsmall"><a href="/fellowships">fellowships</a></li>
