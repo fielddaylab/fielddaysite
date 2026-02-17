@@ -29,7 +29,7 @@
           <a href="https://vaultlearninggames.org/" class="partner-tile"><img src="/assets/img/logos/logo-vault.png" alt="partner logo"></a>
           <a href="https://opengamedata.fielddaylab.wisc.edu/" class="partner-tile"><img src="/assets/img/logos/logo-ogd.png" alt="partner logo"></a>
           <a href="https://www.geeawards.com/" class="partner-tile"><img src="/assets/img/logos/logo-gee-awards.png" alt="partner logo"></a>
-          <a href="https://fielddaylearninggames.org/" class="partner-tile"><img src="/assets/img/logos/logo-fd-lab.png" alt="partner logo"></a>
+          <a href="https://sites.google.com/wisc.edu/gameworks-incubator" class="partner-tile"><img src="/assets/img/logos/gameworks-logo.png" alt="partner logo"></a>
         </div>
       </div>
       <div class="col-md-2">
