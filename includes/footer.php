@@ -19,7 +19,7 @@
         for all other inquiries, please contact <a href="mailto:rgroff@wisc.edu">Reyna Groff</a></p>
         <div class="social-links">
           <a target="_blank" href="http://facebook.com/fielddaylab"><img src="/assets/img/logos/social-facebook-white.png"></a>
-          <a target="_blank" href="http://twitter.com/fielddaylab"><img src="/assets/img/logos/social-twitter-white.png"></a>
+          <a target="_blank" href="https://twitter.com/fielddaylab"><img src="/assets/img/logos/social-twitter-white.png"></a>
           <a target="_blank" href="http://instagram.com/fielddaylab"><img src="/assets/img/logos/social-insta-white.png"></a>
         </div>
       </div>

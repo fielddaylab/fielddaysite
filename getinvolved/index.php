@@ -52,11 +52,11 @@
 							<img src="/assets/img/get-involved/educator-fellows.png" alt="teacher fellowship">
 						</div>
 						<div class="info-section right">
-							<h2>Join an educator fellowship</h2>
+							<h2>Join a Game Incubator</h2>
 							<p class="small">
-								Are you a teacher passionate about game-based learning? Apply to our Educator Fellowship and design a game with us! All of our games are developed in collaboration with classroom experts like you.
+								Are you a teacher, researcher, or organization ready to shape the next generation of learning games? Our Game Incubators bring educators, scientists, and sponsors together to design and build free classroom games from cutting-edge research — in one intensive kickoff event plus follow-up sessions. Educators receive a stipend and travel. Researchers get lasting public outreach. Sponsors get a creative seat and real reach.
 							</p>
-							<a class="button small yellow filled" href="/fellowships" target="_blank">Learn More about fellowships</a>
+							<a class="button small yellow filled" href="/fellowships-incubators" target="_blank">See the Incubators</a>
 						</div>
 					</div>
 					<div id="s3" class="fact">
@@ -94,6 +94,18 @@
 						</div>
 						<div class="img-section right">
 							<img src="/assets/img/get-involved/research-partner.png" alt="teacher fellowship">
+						</div>
+					</div>
+					<div id="s6" class="fact">
+						<div class="img-section left">
+							<img src="/assets/img/get-involved/sponsor-incubator.png" alt="Researchers and educators collaborating at a Field Day Game Incubator kickoff event">
+						</div>
+						<div class="info-section right">
+							<h2>Sponsor An Incubator</h2>
+							<p class="small">
+								Every Game Incubator runs because an organization believed in the mission. As a sponsor, you bring the theme and the question — Field Day brings researchers, educators, and game designers together to build a free classroom game around it. Sponsors participate in the full creative process, get a seat at the green-light decision, and see their research reach students nationwide. Costs vary by cohort size and scope.
+							</p>
+							<a class="button small yellow filled" href="mailto:djgagnon@wisc.edu">Reach Out</a>
 						</div>
 					</div>
 				</div>

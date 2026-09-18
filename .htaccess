@@ -1,0 +1,8 @@
+Options -Indexes
+
+# 301 redirect original fellowships page to the merged page
+RedirectMatch 301 ^/fellowships/?$ /fellowships-incubators/
+
+# Incubator cohort pages retired -> cohort Google Docs
+RedirectMatch 301 ^/fellowships-incubators/2026-frontiers-of-biotechnology(/.*)?$ https://docs.google.com/document/d/1lF7dXQfFvWfRmKtryryqbQhTbPj4UUzH5dx4z8IyXHI/edit
+RedirectMatch 301 ^/fellowships-incubators/2025-practices-of-life-science(/.*)?$ https://docs.google.com/document/d/1_Ys3TQ19cYKtFCwhJ95X8v4meWKtUTCVYlOVmFAVLk4/edit

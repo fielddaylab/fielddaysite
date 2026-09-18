@@ -464,7 +464,7 @@
     <div class="wrapper">
       <div class="col-md-7 game-expanded">
         <p>We’re looking for librarians in rural communities throughout Wisconsin to help us grow our PolarVR project, which focuses on designing Virtual Reality (VR) experiences for use in informal learning spaces. We are specifically seeking participants who are motivated to develop, promote, and implement VR-based library programming focused specifically on Latine audiences.</p>
-        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd7k-_t-EnOobxzszKgJ3LGYZ1iRx0h0rTU7a3auCSPgRXFYw/viewform" class="button small black" target="_blank">Apply</a>
+        <a target="_blank" href="https://fielddaylab.wisc.edu/play/on-the-ice/" class="button small black">See the Resulting Game</a>
       </div>
       <div class="col-md-5 cta">
         <img class="expanded-thumb img-responsive" alt="game dashboard" src="/assets/img/fellowships/argo.jpg">

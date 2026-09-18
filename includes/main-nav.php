@@ -8,7 +8,7 @@
       <li class="logo"><a href="/"><img class="darklogo" src="/assets/img/logos/FD-logo-new.png"></a></li>
       <li class="small-navlink hide-for-nav-narrow"><a href="/play">games</a></li>
       <li class="small-navlink hide-for-nav-narrow"><a href="/about">about us</a></li>
-      <li class="small-navlink hide-for-nav-xsmall"><a href="/fellowships">fellowships</a></li>
+      <li class="small-navlink hide-for-nav-xsmall"><a href="/fellowships-incubators" class="teachers">fellowships and incubators</a></li>
       <li class="small-navlink hide-for-nav"><a href="/research">research</a></li>
       <li class="small-navlink hide-for-nav"><a href="/work">work with us</a></li>
     </ul>

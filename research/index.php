@@ -223,6 +223,13 @@
         </div>
         <div class="col-sm-8">
           <h2 id="pub4">Written by Field Day Lab Staff</h2>
+            <div class="pub-wrap">
+            <p class="small">
+Ponto, K., Tredinnick, R., Gagnon, S., &amp; Gagnon, D. (2025). Virtual Reality Antarctic Weather Station Repair for Informal STEM Learning. In <em>2025 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)</em>, Saint Malo, France, pp. 1624&ndash;1625. <a href="https://doi.org/10.1109/VRW66409.2025.00457">https://doi.org/10.1109/VRW66409.2025.00457</a> | <a href="https://par.nsf.gov/servlets/purl/10591768">NSF Public Access</a>
+            </p>
+          </div>
+
+
 
             <div class="pub-wrap">
             <p class="small">
@@ -313,6 +320,13 @@ Liu, X., Slater, S., Andres, J., Swanson, L., Scianna, J., Gagnon, D., Baker, R.
             <div class="pub-wrap">
             <p class="small">
 Metcalf, S.,M., Gagnon, D., Slater, S. (2023). Shifts in Student Attitudes and Beliefs about Science Through Extended Play in an Immersive Science Game. 2023 9th International Conference of the Immersive Learning Network (iLRN). San Luis Obispo, USA.
+            </p>
+          </div>
+
+
+            <div class="pub-wrap">
+            <p class="small">
+Madsen, J. D. (2022). Story-based Virtual Reality Experiences to Engage New Audiences in Polar Research: Expedition VRctica. <em>AGU Fall Meeting 2022</em>, Chicago, IL. Session ED52A: Immersing the Public in Polar Research via Education and Outreach Programs I. <a href="https://ui.adsabs.harvard.edu/abs/2022AGUFMED52A..07M/abstract">https://ui.adsabs.harvard.edu/abs/2022AGUFMED52A..07M/abstract</a>
             </p>
           </div>
 
