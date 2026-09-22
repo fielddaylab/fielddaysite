@@ -59,19 +59,6 @@
 							<a class="button small yellow filled" href="/fellowships-incubators" target="_blank">See the Incubators</a>
 						</div>
 					</div>
-					<div id="s3" class="fact">
-						<div class="info-section left">
-							<h2>make a game</h2>
-							<p class="small">
-								Bring your research to life through games! If you're a researcher with innovative ideas, we’ll help turn your work into a game that reaches a broad audience.
-							</p>
-							<a class="button small yellow filled" href="/fellowships-incubators" target="_blank">See the Incubators</a>
-						</div>
-						<div class="img-section right">
-							<img src="/assets/img/get-involved/make-a-game.png" alt="teacher fellowship">
-						</div>
-					</div>
-
 					<div id="s4" class="fact">
 						<div class="img-section left">
 							<img src="/assets/img/get-involved/internship.jpg" alt="teacher fellowship">

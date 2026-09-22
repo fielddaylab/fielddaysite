@@ -162,11 +162,32 @@
         </li>
 
 
-        <li class="gridder-list" data-griddercontent="#profile_reyna">
+
+        <li class="gridder-list" data-griddercontent="#profile_yuheng">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/reyna.jpg">
+            <img src="/assets/img/profiles/yuheng.jpg">
             <div class="card-summary">
-              <h3>Reyna Groff</h3>
+              <h3>Yuheng Chen</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_laure">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/laure.jpg">
+            <div class="card-summary">
+              <h3>Laure Haak</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_shari">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/shari.jpg">
+            <div class="card-summary">
+              <h3>Shari Metcalf</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -177,6 +198,70 @@
       <p>We offer student internships in Game Engineering, Art and Design, and Research. Join our multidisciplinary team and work on learning games that reach classrooms across the country and beyond. Engineering and Art and Design interns will leave with portfolio pieces. Research interns will contribute to academic publications. We’re always taking applications! <a href="https://docs.google.com/forms/d/e/1FAIpQLSckj7eC29biieodPyCFRBZFlskKyeMK_Ca3qt5EndYC14XYdw/viewform?usp=sf_link" target="_blank">Contact us</a> if you’re interested. Art and Design applicants must include a portfolio. </p>
       <ul class="gridder">
 
+        <li class="gridder-list" data-griddercontent="#profile_jiyun">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/jiyun.jpg">
+            <div class="card-summary">
+              <h3>Jiyun (Siena) Moon</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_cody">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/cody.jpg">
+            <div class="card-summary">
+              <h3>Cody Summerson</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_qingru">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/qingru.jpg">
+            <div class="card-summary">
+              <h3>Qingru (Alice) Zhou</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_isla">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/isla.jpg">
+            <div class="card-summary">
+              <h3>Isla Holmstrom</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_atlas">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/atlas.jpg">
+            <div class="card-summary">
+              <h3>Atlas Rea</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_julia">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/julia.jpg">
+            <div class="card-summary">
+              <h3>Julia Bueno</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <h2 class="section-title centered">Prior Staff</h2>
+      <p>People who have shipped work with us and moved on.</p>
+      <ul class="gridder">
 
         <li class="gridder-list" data-griddercontent="#profile_xander">
           <div class="profile-thumbnail">
@@ -187,7 +272,6 @@
             </div>
           </div>
         </li>
-
 
         <li class="gridder-list" data-griddercontent="#profile_ameya">
           <div class="profile-thumbnail">
@@ -208,21 +292,21 @@
             </div>
           </div>
         </li>
-</ul>
 
-      <h2 class="section-title centered">Collaborators</h2>
-
-      <ul class="gridder">
-
-         <li class="gridder-list" data-griddercontent="#profile_mary">
+        <li class="gridder-list" data-griddercontent="#profile_mary">
           <div class="profile-thumbnail">
-            <img alt="Lindy Biller" src="/assets/img/profiles/mary.jpg">
+            <img alt="Mary Benetti" src="/assets/img/profiles/mary.jpg">
             <div class="card-summary">
               <h3>Mary Benetti</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
         </li>
+      </ul>
+
+      <h2 class="section-title centered">Collaborators</h2>
+
+      <ul class="gridder">
 
         <li class="gridder-list" data-griddercontent="#profile_lindy">
           <div class="profile-thumbnail">
@@ -718,6 +802,84 @@
     </div>
   </div>
 
+
+  <div id="profile_yuheng" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Yuheng Chen</h3>
+      <span>Research Intern</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Yuheng develops reusable research tools for the Open Game Data research community.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_laure" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Laure Haak</h3>
+      <span>Scientist II</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Laure develops research infrastructure operations, strategy and development.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_shari" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Shari Metcalf</h3>
+      <span>Scientist II</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Shari develops research proposals and conducts usability and qualitative research.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile_jiyun" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Jiyun (Siena) Moon</h3>
+      <span>Game Developer Intern</span>
+    </div>
+  </div>
+
+  <div id="profile_cody" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Cody Summerson</h3>
+      <span>Game Developer Intern</span>
+    </div>
+  </div>
+
+  <div id="profile_qingru" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3><a href="https://www.linkedin.com/in/qingru-zhou-3b28bb286/" target="_blank">Qingru (Alice) Zhou</a></h3>
+      <span>Game Developer Intern</span>
+    </div>
+  </div>
+
+  <div id="profile_isla" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Isla Holmstrom</h3>
+      <span>2D Game Artist</span>
+    </div>
+  </div>
+
+  <div id="profile_atlas" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Atlas Rea</h3>
+      <span>Quality Assurance Intern</span>
+    </div>
+  </div>
+
+  <div id="profile_julia" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3><a href="https://www.linkedin.com/in/julia-bueno-a4333b277/" target="_blank">Julia Bueno</a></h3>
+      <span>Writing Intern</span>
+    </div>
+  </div>
 </div>
 
 </div><!-- main wrapper closing div-->

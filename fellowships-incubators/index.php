@@ -341,8 +341,8 @@ li.gridder-list:focus-visible {
           <div class="card-summary">
             <div class="info">
               <h3>2026 Computation and Food Systems</h3>
-              <h4 class="date">December 2026 &middot; Recruitment coming soon</h4>
-              <span class="cohort-status-badge" aria-label="Status: Recruitment coming soon">Recruitment coming soon</span>
+              <h4 class="date">December 2026 &middot; Sponsors being identified</h4>
+              <span class="cohort-status-badge" aria-label="Status: Sponsors Being Identified">Sponsors Being Identified</span>
               <p>A new incubator exploring the robotics, drones, sensing, and data tools reshaping modern agriculture &mdash; from farm to farmers market.</p>
             </div>
             <span class="card-triangle"></span>
@@ -433,8 +433,8 @@ li.gridder-list:focus-visible {
       <div class="row game-inner">
         <h3>2026 Computation and Food Systems</h3>
         <span>Partners: UW&ndash;Madison Dept. of Planning and Landscape Architecture &middot; Wisconsin DPI</span>
-        <span>Early December 2026 &middot; Recruitment coming soon &middot; date and location TBA</span>
-        <span class="cohort-status">Status: Recruitment coming soon</span>
+        <span>Early December 2026 &middot; Sponsors being identified &middot; date and location TBA</span>
+        <span class="cohort-status">Status: Sponsors Being Identified</span>
 <!-- <img class="groupshot" alt="Autonomous farm robot working a crop field" src="/assets/img/fellowships/incubator-foodsystems.jpg"> -->
 
         <div class="col-md-6 game-expanded fellows-list cohort-people">
@@ -1299,9 +1299,11 @@ online course
 
   $(function() {
     $('.gridder').gridderExpander({
-      scroll: true,
-      scrollOffset: 100,
-      scrollTo: "listitem",
+      // Scroll is handled in onContent below so the X + title land at the top
+      // of the viewport when a card opens (2026-09-22). Gridder's own scroll
+      // targets the list item (the card), which leaves the expanded panel below.
+      scroll: false,
+      scrollOffset: 60,
       animationSpeed: 900,
       animationEasing: "easeInOutExpo",
       showNav: true,
@@ -1309,7 +1311,15 @@ online course
       prevText: "Previous",
       closeText: "<img src=\"/assets/img/ui/close-icon.png\">",
       onStart: function(){},
-      onContent: function(){},
+      onContent: function(mybloc){
+        // Land the top of the expanded panel (X button + card title) ~60px from
+        // the viewport top so it clears the 63px fixed nav bar.
+        var $show = mybloc.closest(".gridder-show");
+        if ($show && $show.length) {
+          var target = $show.first().offset().top - 60;
+          $("html, body").stop(true, true).animate({ scrollTop: target }, 900, "easeInOutExpo");
+        }
+      },
       onClosed: function(){}
     });
   });
@@ -1372,6 +1382,14 @@ online course
   white-space: normal;
   line-height: 1.7;
   margin-bottom: 4px;
+  /* 2026-09-22: participant listings must match the plain
+     "Name — Affiliation" reference lines — body font, standard
+     case, no letter-spacing. The generic .gridder-expanded-content
+     span rule uppercases and re-fonts every span; opt out here. */
+  font-family: inherit;
+  text-transform: none;
+  letter-spacing: normal;
+  color: inherit;
 }
 .teachers .fellowships-content .gridder-expanded-content .cohort-people .fellows .cohort-tba {
   display: block;
