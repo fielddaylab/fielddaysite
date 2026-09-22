@@ -449,8 +449,7 @@ li.gridder-list:focus-visible {
           </div>
           <h4>Researchers &amp; Educators:</h4>
           <div class="fellows">
-            <span class="person">To be announced (recruitment coming soon.)</span>
-
+            <span class="cohort-tba">To be announced &mdash; recruitment coming soon.</span>
           </div>
         </div>
         <div class="col-md-6 cta fellowship-summary cohort-cta">
@@ -458,7 +457,7 @@ li.gridder-list:focus-visible {
           <p>A new Game Incubator from Field Day Lab, the UW&ndash;Madison Department of Planning and Landscape Architecture, and Wisconsin DPI. The cohort will co-design a free, browser-based game that introduces youth to the &ldquo;new face&rdquo; of agriculture: robotics, drones, sensors, and AI tools across the farm-to-consumer pipeline, anchored by a farmers-market simulation.</p>
           <p>The incubator community is funded by the Reimagining Next Phase Research Initiative (UW&ndash;Madison) and Wisconsin DPI. The production sponsorship &mdash; the Gameworks sponsorship &mdash; is still being sought. The kickoff takes place in early December 2026.</p>
           <a class="button small black" href="https://docs.google.com/document/d/1zrlSgH1G9wnGwyUdYBwmv3JeUBPMFUmJNWMskx9_vHc/edit" target="_blank" rel="noopener" aria-label="Learn More: 2026 Computation and Food Systems (opens in Google Docs)">Learn More</a>
-          <a class="button small black" href="/contact" aria-label="Sponsor this incubator">Sponsor This Incubator</a>
+          <a class="button small black" href="mailto:djgagnon@wisc.edu" aria-label="Sponsor this incubator">Sponsor This Incubator</a>
         </div>
       </div>
     </div>
@@ -1375,6 +1374,10 @@ online course
   white-space: normal;
   line-height: 1.7;
   margin-bottom: 4px;
+}
+.teachers .fellowships-content .gridder-expanded-content .cohort-people .fellows .cohort-tba {
+  display: block;
+  line-height: 1.7;
 }
 .teachers .fellowships-content .gridder-expanded-content .cohort-people h4 {
   margin: 30px 0 8px;
