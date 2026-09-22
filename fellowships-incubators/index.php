@@ -452,8 +452,8 @@ li.gridder-list:focus-visible {
         </div>
         <div class="col-md-6 cta fellowship-summary cohort-cta">
           <h4>About the Incubator</h4>
-          <p>This incubator brings together farmers, food transportation and retail professionals, community leaders, educators, librarians, and UW&ndash;Madison researchers to explore challenges facing Wisconsin&rsquo;s interconnected food systems and how emerging technologies might help address them. The community&rsquo;s first project will be the collaborative design of a free learning game that helps students and adults understand how food moves from field to table&mdash;and how robotics, AI, sensors, and other technologies are changing the systems that make it possible.</p>
-          <p>Partially funded by the Reimagining Next Phase Research Initiative at UW&ndash;Madison and Wisconsin DPI. Additional sponsorship is being sought.</p>
+          <p>A new Game Incubator from Field Day Lab, the UW&ndash;Madison Department of Planning and Landscape Architecture, and Wisconsin DPI. The cohort will co-design a free, browser-based game that introduces youth to the &ldquo;new face&rdquo; of agriculture: robotics, drones, sensors, and AI tools across the farm-to-consumer pipeline, anchored by a farmers-market simulation.</p>
+          <p>The incubator community is funded by the Reimagining Next Phase Research Initiative (UW&ndash;Madison) and Wisconsin DPI. The production sponsorship &mdash; the Gameworks sponsorship &mdash; is still being sought. The kickoff takes place in early December 2026.</p>
           <a class="button small black" href="https://docs.google.com/document/d/1zrlSgH1G9wnGwyUdYBwmv3JeUBPMFUmJNWMskx9_vHc/edit" target="_blank" rel="noopener" aria-label="Learn More: 2026 Computation and Food Systems (opens in Google Docs)">Learn More</a>
           <a class="button small black" href="mailto:djgagnon@wisc.edu" aria-label="Sponsor this incubator">Sponsor This Incubator</a>
         </div>

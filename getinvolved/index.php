@@ -28,8 +28,7 @@
 						<ul>
 						<li><a href="#s1">Join the Vault</a></li>
 						<li><a href="#s2">Join an Teacher Fellowships</a></li>
-						<li><a href="#s3">Make a Game with Us</a></li>
-						<li><a href="#s4">Student Internship</a></li>
+											<li><a href="#s4">Student Internship</a></li>
 						<li><a href="#s5">Research Partner</a></li>
 						</ul>
 					</div>
