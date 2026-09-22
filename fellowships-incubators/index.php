@@ -106,68 +106,12 @@ a[href^='mailto:']:hover { color: #5A4208; }
 }
 .cohort-status { font-style: italic; }
 
-/* Get Involved CTA band */
-.incubator-cta-band {
-  background: #F9F7F4;
-  padding: 40px 20px;
-  text-align: center;
+/* How an Incubator Works — tighten spacing between the three phases
+   (site-wide .page-facts .info padding is 8vw on every side) */
+#how-it-works .fact .info {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
-.incubator-cta-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: center;
-  margin-top: 24px;
-}
-
-/* What comes out of an incubator */
-.incubator-outcomes {
-  background: #fff;
-  padding: 48px 20px;
-}
-.incubator-outcomes .outcomes-list {
-  max-width: 800px;
-  margin: 32px auto 0;
-  padding-left: 0;
-  list-style: none;
-}
-.incubator-outcomes .outcomes-list li {
-  padding: 16px 0;
-  border-top: 1px solid #e0e0e0;
-  font-size: 16px;
-  line-height: 1.6;
-}
-.incubator-outcomes .outcomes-list li:first-child { border-top: none; }
-
-/* Legacy fellowships collapsible toggle */
-.legacy-toggle-wrap {
-  text-align: center;
-  padding: 32px 20px 8px;
-  background: #F9F7F4;
-}
-.legacy-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  background: none;
-  border: 2px solid #1C1D0A;
-  border-radius: 4px;
-  padding: 10px 24px;
-  font-family: brandon-grotesque, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #1C1D0A;
-  cursor: pointer;
-}
-.legacy-toggle:focus-visible {
-  outline: 3px solid #7A5B0B;
-  outline-offset: 2px;
-}
-.legacy-toggle .legacy-toggle-icon { font-size: 12px; transition: transform 0.3s; }
-.legacy-toggle[aria-expanded='true'] .legacy-toggle-icon { transform: rotate(180deg); }
-.legacy-collapsible[hidden] { display: none !important; }
 </style>
 <meta name="description" content="Field Day Game Incubators bring researchers, educators, game designers, and sponsors together to create learning games for classrooms everywhere.">
 </head>
@@ -233,19 +177,6 @@ li.gridder-list:focus-visible {
       </div>
     </section>
 
-
-    <!-- Get Involved CTA Band -->
-    <section class="incubator-cta-band">
-      <div class="container text-center">
-        <h2 class="section-title centered">Get Involved</h2>
-        <div class="incubator-cta-buttons">
-          <a href="/getinvolved/#s5" class="button pink filled">I'm a Researcher</a>
-          <a href="/getinvolved/#s2" class="button pink filled">I'm an Educator</a>
-          <a href="/getinvolved/#s6" class="button pink filled">I Want to Sponsor</a>
-        </div>
-        <p class="small" style="margin-top: 16px;">Already have games to play? <a href="/play/">Play our games</a> with your students.</p>
-      </div>
-    </section>
 
     <div class="intro-section">
       <section id="what-is-an-incubator" class="page-facts">
@@ -338,7 +269,7 @@ li.gridder-list:focus-visible {
 
     <!-- FAQ -->
     <section class="faq">
-      <h2 class="uppercase centered header">Common Questions</h2>
+      <h2 class="section-title centered">Common Questions</h2>
       <div id="faq" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="questions">
           <ul class="carousel-indicators">
@@ -356,7 +287,7 @@ li.gridder-list:focus-visible {
         <div class="answers carousel-inner" role="listbox">
           <div class="item active">
             <h3>A stipend and travel costs.</h3>
-            <p class="small">Each cohort pays a different stipend — see individual incubator pages for details. We always cover your travel expenses to the kickoff event. This isn't a training you pay for. You are coming as a professional; we see educators as experts.</p>
+            <p class="small">Each cohort pays a different stipend — see individual incubator pages for details. We always cover your travel expenses to the kickoff event. And can pay for substitute teachers to free you up for a day or two. This isn't a training you pay for. You are coming as a professional; we see educators as experts.</p>
           </div>
           <div class="item">
             <h3>Yes — and they'll love it.</h3>
@@ -661,31 +592,11 @@ li.gridder-list:focus-visible {
       </div>
     </div>
 
-    <!-- Legacy Fellowships -->
-
-    <!-- What comes out of an incubator -->
-    <section class="incubator-outcomes">
-      <div class="container">
-        <h2 class="section-title centered">What comes out of an incubator?</h2>
-        <ul class="outcomes-list">
-          <li><strong>Free, browser-based, no student accounts</strong> &mdash; Every game is free to play, runs in any modern browser (including Chromebooks), and requires no student login or data collection. <a href="/play/">See our games &rarr;</a></li>
-          <li><strong>Research-backed</strong> &mdash; Field Day games are built with and studied by researchers; findings are published in peer-reviewed venues. <a href="/research/">See the research &rarr;</a></li>
-          <li><strong>Accessibility &amp; privacy</strong> &mdash; Games are browser-based, require no student accounts, and collect no personally identifiable information. A full accessibility and privacy statement is in development.</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Legacy Fellowships Toggle -->
-    <div class="legacy-toggle-wrap">
-      <button class="legacy-toggle" aria-expanded="false" aria-controls="legacy-fellowships-content">
-        <span class="legacy-toggle-label">Legacy Fellowships (2015&ndash;2024)</span>
-        <span class="legacy-toggle-icon" aria-hidden="true">&#9660;</span>
-      </button>
-    </div>
-    <section id="fellowships" class="section grid fellowships-content legacy-collapsible" hidden>
+    <!-- Original Fellowships -->
+    <section id="fellowships" class="section grid fellowships-content">
 
       <ul class="gridder">
-        <h2 class="section-title centered legacy-header">Legacy Fellowships</h2>
+        <h2 class="section-title centered legacy-header">Original Fellowships</h2>
         <p class="centered legacy-intro">Before the incubator model, Field Day ran educator fellowships — intensive design events focused on teacher expertise. This work shaped everything we do today.</p>
 
         <li class="gridder-list" role="button" tabindex="0" aria-expanded="false" data-griddercontent="#game21">
@@ -1312,7 +1223,7 @@ online course
     $('.gridder').gridderExpander({
       scroll: true,
       scrollOffset: 100,
-      scrollTo: "panel",
+      scrollTo: "listitem",
       animationSpeed: 900,
       animationEasing: "easeInOutExpo",
       showNav: true,
@@ -1343,34 +1254,13 @@ online course
           if (panel.length && panel.is(':visible')) {
             $(clicked).attr('aria-expanded', 'true');
             if (!panel.attr('tabindex')) { panel.attr('tabindex', '-1'); }
-            panel.focus();
+            // Focus the panel for keyboard/screen-reader users without re-scrolling
+            // the page — a plain focus() scrolls the whole panel into view, which
+            // fights the gridder scroll and leaves the clicked card out of view.
+            panel[0].focus({ preventScroll: true });
           }
         }
       }, 950);
-    });
-  });
-
-  // Legacy fellowships toggle
-  $(function() {
-    var $btn = $('.legacy-toggle');
-    var $section = $('.legacy-collapsible');
-    $btn.on('click', function() {
-      var expanded = $btn.attr('aria-expanded') === 'true';
-      if (expanded) {
-        $section.attr('hidden', '');
-        $btn.attr('aria-expanded', 'false');
-      } else {
-        $section.removeAttr('hidden');
-        $btn.attr('aria-expanded', 'true');
-        // Re-init gridder in case items weren't visible when initialized
-        try { $section.find('.gridder').gridderExpander('destroy'); } catch(e) {}
-        $section.find('.gridder').gridderExpander({
-          scroll: true, scrollOffset: 100, scrollTo: 'panel',
-          animationSpeed: 900, animationEasing: 'easeInOutExpo',
-          showNav: true, nextText: 'Next', prevText: 'Previous',
-          closeText: '<img src="/assets/img/ui/close-icon.png">'
-        });
-      }
     });
   });
 </script>
