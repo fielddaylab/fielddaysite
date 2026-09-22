@@ -136,7 +136,10 @@ li.gridder-list:focus-visible {
       <div class="info">
         <h1 class="corrected">Game<br />Incubators</h1>
         <p class="corrected">Researchers, educators, game designers, and sponsors — together in a room, building something new. Each incubator cohort turns cutting-edge science into a free learning game that reaches classrooms everywhere.</p>
-        <a href="#what-is-an-incubator" class="button pink filled small">Learn More</a>
+        <div class="hero-cta-row">
+          <a href="#what-is-an-incubator" class="button pink filled small">Learn More</a>
+          <a href="#incubators" class="button pink filled small">Current Opportunities</a>
+        </div>
       </div>
       <div class="graphic">
         <img class="cloud one" alt="cloud outline" src="/assets/img/illustrations/cloud-outline.png">
@@ -331,6 +334,21 @@ li.gridder-list:focus-visible {
       <ul class="gridder">
         <h2 class="section-title centered">Incubator Cohorts</h2>
 
+<li class="gridder-list" role="button" tabindex="0" aria-expanded="false" data-griddercontent="#incubator-food">
+          <div class="game-thumbnail">
+            <img alt="Autonomous farm robot working a crop field" src="/assets/img/fellowships/incubator-foodsystems.jpg">
+          </div>
+          <div class="card-summary">
+            <div class="info">
+              <h3>2026 Computation and Food Systems</h3>
+              <h4 class="date">December 2026 &middot; Recruitment coming soon</h4>
+              <span class="cohort-status-badge" aria-label="Status: Recruitment coming soon">Recruitment coming soon</span>
+              <p>A new incubator exploring the robotics, drones, sensing, and data tools reshaping modern agriculture &mdash; from farm to farmers market.</p>
+            </div>
+            <span class="card-triangle"></span>
+          </div>
+        </li>
+
         <li class="gridder-list" role="button" tabindex="0" aria-expanded="false" data-griddercontent="#incubator2">
           <div class="game-thumbnail">
             <img alt="Researcher working at a microscope in a biomedical lab" src="/assets/img/fellowships/incubator-biotech.jpg">
@@ -411,14 +429,49 @@ li.gridder-list:focus-visible {
     </section>
 
     <!-- Incubator expanded content panels -->
-    <div id="incubator2" class="gridder-content">
+        <div id="incubator-food" class="gridder-content">
+      <div class="row game-inner">
+        <h3>2026 Computation and Food Systems</h3>
+        <span>Partners: UW&ndash;Madison Dept. of Planning and Landscape Architecture &middot; Wisconsin DPI</span>
+        <span>Early December 2026 &middot; Recruitment coming soon &middot; date and location TBA</span>
+        <span class="cohort-status">Status: Recruitment coming soon</span>
+<!-- <img class="groupshot" alt="Autonomous farm robot working a crop field" src="/assets/img/fellowships/incubator-foodsystems.jpg"> -->
+
+        <div class="col-md-6 game-expanded fellows-list cohort-people">
+          <h4>Leadership:</h4>
+          <div class="fellows">
+            <span class="person">David Gagnon (PI, Field Day Lab)</span>
+
+            <span class="person">Alfonso Morales (Co-PI, Dept. of Planning and Landscape Architecture)</span>
+
+            <span class="person">Monae Verbeke (Evaluator, Institute for Learning Innovation)</span>
+
+          </div>
+          <h4>Researchers &amp; Educators:</h4>
+          <div class="fellows">
+            <span class="person">To be announced (recruitment coming soon.)</span>
+
+          </div>
+        </div>
+        <div class="col-md-6 cta fellowship-summary cohort-cta">
+          <h4>About the Incubator</h4>
+          <p>A new Game Incubator from Field Day Lab, the UW&ndash;Madison Department of Planning and Landscape Architecture, and Wisconsin DPI. The cohort will co-design a free, browser-based game that introduces youth to the &ldquo;new face&rdquo; of agriculture: robotics, drones, sensors, and AI tools across the farm-to-consumer pipeline, anchored by a farmers-market simulation.</p>
+          <p>The incubator community is funded by the Reimagining Next Phase Research Initiative (UW&ndash;Madison) and Wisconsin DPI. The production sponsorship &mdash; the Gameworks sponsorship &mdash; is still being sought. The kickoff takes place in early December 2026.</p>
+          <a class="button small black" href="https://docs.google.com/document/d/1zrlSgH1G9wnGwyUdYBwmv3JeUBPMFUmJNWMskx9_vHc/edit" target="_blank" rel="noopener" aria-label="Learn More: 2026 Computation and Food Systems (opens in Google Docs)">Learn More</a>
+          <a class="button small black" href="/contact" aria-label="Sponsor this incubator">Sponsor This Incubator</a>
+        </div>
+      </div>
+    </div>
+
+<div id="incubator2" class="gridder-content">
       <div class="row game-inner">
         <h3>2026 Frontiers of Biotechnology</h3>
         <span>Sponsor: Howard Hughes Medical Institute &mdash; Tangled Bank Studios</span>
         <span>May 5, 2026 &middot; UW&ndash;Madison</span>
         <span class="cohort-status">Status: Concepts In Review</span>
-        <img class="groupshot" alt="Researcher working at a microscope in a biomedical lab" src="/assets/img/fellowships/incubator-biotech.jpg">
-        <div class="col-md-6 game-expanded fellows-list">
+<!-- <img class="groupshot" alt="Researcher working at a microscope in a biomedical lab" src="/assets/img/fellowships/incubator-biotech.jpg"> -->
+
+        <div class="col-md-6 game-expanded fellows-list cohort-people">
           <h4>Researchers:</h4>
           <div class="fellows">
             Krishanu Saha<br />
@@ -444,7 +497,7 @@ li.gridder-list:focus-visible {
             MacKenzie Saha<br />
           </div>
         </div>
-        <div class="col-md-6 cta fellowship-summary">
+        <div class="col-md-6 cta fellowship-summary cohort-cta">
           <h4>About the Incubator</h4>
           <p>Field Day partnered with Tangled Bank Studios at the Howard Hughes Medical Institute to develop learning game concepts exploring cutting-edge biotechnology research and the careers it opens up. Over a full day at UW&ndash;Madison, researchers in biomedical engineering, conservation genetics, and biomedical imaging worked shoulder-to-shoulder with Wisconsin educators, HHMI media producers, and the Field Day design team.</p>
           <p>The day moved from open brainstorming to lab tours with the Skala and Saha groups, then to researcher interviews and a second design session that turned real laboratory practice into playable ideas. It closed with team game pitches. Those concepts are now in review with HHMI.</p>
@@ -459,8 +512,9 @@ li.gridder-list:focus-visible {
         <span>Sponsor: NSF (PI Gagnon) &middot; Wisconsin DPI</span>
         <span>2025 &middot; UW&ndash;Madison</span>
         <span>Status: Game In Production</span>
-        <img class="groupshot" alt="Ladybug on a leaf &mdash; life science field research" src="/assets/img/fellowships/incubator-lifescience.jpg">
-        <div class="col-md-6 game-expanded fellows-list">
+<!-- <img class="groupshot" alt="Ladybug on a leaf &mdash; life science field research" src="/assets/img/fellowships/incubator-lifescience.jpg"> -->
+
+        <div class="col-md-6 game-expanded fellows-list cohort-people">
           <h4>Researchers:</h4>
           <div class="fellows">
             Styliani Avraamidou<br />
@@ -487,7 +541,7 @@ li.gridder-list:focus-visible {
             Beth VanCurine<br />
           </div>
         </div>
-        <div class="col-md-6 cta fellowship-summary">
+        <div class="col-md-6 cta fellowship-summary cohort-cta">
           <h4>About the Incubator</h4>
           <p>A cohort built around a single question: what does it actually look like to do science? Thirteen UW&ndash;Madison researchers &mdash; from systematic entomology to fungal biology to hydroecology &mdash; joined Wisconsin educators and librarians and the Field Day design team to turn the daily practice of their labs into game mechanics.</p>
           <p>Six design sessions took the group from free-form brainstorming to naming the &ldquo;boss levels&rdquo; of each discipline and pitching new research stations in the style of Field Day&rsquo;s game <em>Wake</em>. Four concepts came out of the day. One &mdash; anchored in UW entomology research &mdash; has been greenlit for a $250,000 production round.</p>
@@ -504,21 +558,29 @@ li.gridder-list:focus-visible {
         <span>Partners: Illinois-Indiana Sea Grant &middot; Wisconsin Center for Education Research</span>
         <span>November 17, 2025 &middot; Chicago Botanic Garden, Glencoe, IL</span>
         <span>Status: Game In Production</span>
-                <img class="groupshot" alt="Zebra mussels encrusting a shell" src="/assets/img/fellowships/incubator-ais.jpg">
-        <div class="col-md-6 game-expanded fellows-list">
+<!-- <img class="groupshot" alt="Zebra mussels encrusting a shell" src="/assets/img/fellowships/incubator-ais.jpg"> -->
+
+        <div class="col-md-6 game-expanded fellows-list cohort-people">
           <h4>Scientists &amp; Outreach Specialists:</h4>
           <div class="fellows">
-            John Bieber &mdash; Loyola University<br />
-            Karter Burgdorf &mdash; Illinois-Indiana Sea Grant<br />
-            Julie Fiorito &mdash; Illinois-Indiana Sea Grant<br />
-            Greg Hitzroth &mdash; Illinois-Indiana Sea Grant<br />
-            Parker Maynard &mdash; Illinois-Indiana Sea Grant<br />
-            Peter Nagle &mdash; Chicago Botanic Garden<br />
+            <span class="person">John Bieber (Loyola University)</span>
+
+            <span class="person">Karter Burgdorf (Illinois-Indiana Sea Grant)</span>
+
+            <span class="person">Julie Fiorito (Illinois-Indiana Sea Grant)</span>
+
+            <span class="person">Greg Hitzroth (Illinois-Indiana Sea Grant)</span>
+
+            <span class="person">Parker Maynard (Illinois-Indiana Sea Grant)</span>
+
+            <span class="person">Peter Nagle (Chicago Botanic Garden)</span>
+
             Katie O&rsquo;Reilly &mdash; Illinois-Indiana Sea Grant<br />
-            Claire Snyder &mdash; Illinois DNR<br />
+            <span class="person">Claire Snyder (Illinois DNR)</span>
+
           </div>
         </div>
-        <div class="col-md-6 cta fellowship-summary">
+        <div class="col-md-6 cta fellowship-summary cohort-cta">
           <h4>About the Incubator</h4>
           <p>Field Day partnered with Illinois-Indiana Sea Grant to develop a learning game concept exploring aquatic invasive species and their impact on Great Lakes health. Over a day at the Chicago Botanic Garden, educators and invasive species scientists worked together to translate ecological research into game mechanics building players&rsquo; ecological literacy.</p>
           <a class="button small black" href="https://docs.google.com/document/d/1Ifuce1ulsZhh0TjaZ8UOsY6ZhX_Z5ay640EdXuTN5LM/edit" target="_blank" rel="noopener" aria-label="Learn More: 2025 Practices of Life Science (opens in Google Docs)">Learn More</a>
@@ -532,26 +594,35 @@ li.gridder-list:focus-visible {
         <span>Partners: dfusion &middot; Wisconsin Center for Education Research &middot; NIH/NIEHS</span>
         <span>October 24, 2025 &middot; UW&ndash;Madison, Madison WI</span>
         <span>Status: Game In Production</span>
-                <img class="groupshot" alt="Indoor air quality sensor in a home" src="/assets/img/fellowships/incubator-envhealth.jpg">
-        <div class="col-md-6 game-expanded fellows-list">
+<!-- <img class="groupshot" alt="Indoor air quality sensor in a home" src="/assets/img/fellowships/incubator-envhealth.jpg"> -->
+
+        <div class="col-md-6 game-expanded fellows-list cohort-people">
           <h4>Scientists &amp; Health Advocates:</h4>
           <div class="fellows">
-            Neil Klepeis &mdash; San Diego State University<br />
-            BA Laris &mdash; dfusion<br />
+            <span class="person">Neil Klepeis (San Diego State University)</span>
+
+            <span class="person">BA Laris (dfusion)</span>
+
             Jonathan Patz &mdash; UW&ndash;Madison<br />
             Michelle Robinson &mdash; Foundation for Black Women&rsquo;s Wellness<br />
           </div>
           <h4>Educators:</h4>
           <div class="fellows">
-            Joy Aragones &mdash; The Prairie School<br />
-            Abbey Brown &mdash; Bartels Middle School<br />
-            Michael Caliendo &mdash; Madison Metropolitan School District<br />
-            Craig Corcoran &mdash; Rockford Public Schools<br />
-            Heather Messer &mdash; Clark Street Community School<br />
-            Robert Turner &mdash; Omro High School<br />
+            <span class="person">Joy Aragones (The Prairie School)</span>
+
+            <span class="person">Abbey Brown (Bartels Middle School)</span>
+
+            <span class="person">Michael Caliendo (Madison Metropolitan School District)</span>
+
+            <span class="person">Craig Corcoran (Rockford Public Schools)</span>
+
+            <span class="person">Heather Messer (Clark Street Community School)</span>
+
+            <span class="person">Robert Turner (Omro High School)</span>
+
           </div>
         </div>
-        <div class="col-md-6 cta fellowship-summary">
+        <div class="col-md-6 cta fellowship-summary cohort-cta">
           <h4>About the Incubator</h4>
           <p>Field Day partnered with dfusion and the Wisconsin Center for Education Research on a NIH-funded incubator focused on environmental health literacy. The one-day workshop at UW&ndash;Madison brought together public health scientists and classroom teachers to generate game concepts centered on indoor air quality &mdash; helping players understand how their environment affects their health and how to use data to assess and communicate environmental risks.</p>
           <a class="button small black" href="https://docs.google.com/document/d/10ksfvYo4rmFifI1iMlK1NingY1-Ebm58J3eii3FV7aI/edit" target="_blank" rel="noopener" aria-label="Learn More: 2025 Practices of Life Science (opens in Google Docs)">Learn More</a>
@@ -565,26 +636,37 @@ li.gridder-list:focus-visible {
         <span>Partners: IEEE TryEngineering &middot; IEEE Oceanic Engineering Society &middot; Wisconsin Center for Education Research</span>
         <span>September 29, 2025 &middot; Navy Pier, Chicago</span>
         <span class="cohort-status">Status: Game In Production</span>
-                <img class="groupshot" alt="Autonomous underwater vehicle navigating the ocean" src="/assets/img/fellowships/incubator-auv.jpg">
-        <div class="col-md-6 game-expanded fellows-list">
+<!-- <img class="groupshot" alt="Autonomous underwater vehicle navigating the ocean" src="/assets/img/fellowships/incubator-auv.jpg"> -->
+
+        <div class="col-md-6 game-expanded fellows-list cohort-people">
           <h4>Engineers &amp; Experts:</h4>
           <div class="fellows">
-            Nuno Alexandre Cruz &mdash; INESC TEC / University of Porto<br />
-            Jacqueline Nichols &mdash; Cellula Robotics<br />
-            Luyuan Peng &mdash; Acoustic Research Laboratory, NUS<br />
-            Dawna J. Schultz &mdash; IEEE<br />
-            Sophie Scopazzi &mdash; Aspect Wave LLC<br />
-            Christopher Whitt &mdash; Whitt Consulting<br />
+            <span class="person">Nuno Alexandre Cruz (INESC TEC / University of Porto)</span>
+
+            <span class="person">Jacqueline Nichols (Cellula Robotics)</span>
+
+            <span class="person">Luyuan Peng (Acoustic Research Laboratory, NUS)</span>
+
+            <span class="person">Dawna J. Schultz (IEEE)</span>
+
+            <span class="person">Sophie Scopazzi (Aspect Wave LLC)</span>
+
+            <span class="person">Christopher Whitt (Whitt Consulting)</span>
+
           </div>
           <h4>Educators:</h4>
           <div class="fellows">
-            Craig Corcoran &mdash; Rockford Public Schools<br />
-            Raul Figueroa-Rivera &mdash; CTU Foundation Quest Center<br />
-            Raymond Mitchell &mdash; Curie Metropolitan HS, CPS<br />
-            Mike Stachyra &mdash; Von Steuben Metro Science Center, CPS<br />
+            <span class="person">Craig Corcoran (Rockford Public Schools)</span>
+
+            <span class="person">Raul Figueroa-Rivera (CTU Foundation Quest Center)</span>
+
+            <span class="person">Raymond Mitchell (Curie Metropolitan HS, CPS)</span>
+
+            <span class="person">Mike Stachyra (Von Steuben Metro Science Center, CPS)</span>
+
           </div>
         </div>
-        <div class="col-md-6 cta fellowship-summary">
+        <div class="col-md-6 cta fellowship-summary cohort-cta">
           <h4>About the Incubator</h4>
           <p>Field Day partnered with IEEE TryEngineering and the IEEE Oceanic Engineering Society to develop a learning game concept around autonomous underwater vehicles. At Navy Pier in Chicago, educators and practicing engineers translated cutting-edge AUV and ROV design practices into playable game concepts for middle and high school science classrooms.</p>
           <a class="button small black" href="https://docs.google.com/document/d/1MQsqX2ZH5IecKftDO5_bt7FlWMpoDdzMNSLUYii_SsU/edit" target="_blank" rel="noopener" aria-label="Learn More: 2025 Practices of Life Science (opens in Google Docs)">Learn More</a>
@@ -592,8 +674,7 @@ li.gridder-list:focus-visible {
       </div>
     </div>
 
-    <!-- Original Fellowships -->
-    <section id="fellowships" class="section grid fellowships-content">
+    <!-- Original Fellowships -->    <section id="fellowships" class="section grid fellowships-content">
 
       <ul class="gridder">
         <h2 class="section-title centered legacy-header">Original Fellowships</h2>
@@ -1265,5 +1346,47 @@ online course
   });
 </script>
 
-</body>
-</html>
+
+<style>
+/* Hero buttons (2026-09-21): Current Opportunities sits to the right of
+   Learn More when the info column is wide enough; when the column narrows
+   (small screens) it wraps to its own line, left-justified. */
+.page .page_hero .info .hero-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 12px;
+  row-gap: 8px;
+}
+.page .page_hero .info .hero-cta-row .button { margin: 0 0 20px 0; }
+/* Expanded-cohort-card readability pass (2026-09-21).
+   Scoped to .cohort-people / .cohort-cta (classes on the inner column
+   divs — the outer panel div's classes do not survive Gridder's clone
+   into .gridder-expanded-content). Legacy fellowship panels keep their
+   base styling. groupshot images are commented out of the cohort
+   panels; person lines render "Name (Organization)", one per line. */
+.teachers .fellowships-content .gridder-expanded-content .cohort-people .fellows {
+  column-count: 1 !important;
+  margin-bottom: 30px !important;
+}
+.teachers .fellowships-content .gridder-expanded-content .cohort-people .fellows .person {
+  display: block;
+  white-space: normal;
+  line-height: 1.7;
+  margin-bottom: 4px;
+}
+.teachers .fellowships-content .gridder-expanded-content .cohort-people h4 {
+  margin: 30px 0 8px;
+}
+.teachers .fellowships-content .gridder-expanded-content .cohort-people h4:first-child {
+  margin-top: 0;
+}
+.teachers .fellowships-content .gridder-expanded-content .cohort-cta h4 {
+  margin: 30px 0 8px;
+}
+.teachers .fellowships-content .gridder-expanded-content .cohort-cta h4:first-child {
+  margin-top: 0;
+}
+</style>
+</body></html>

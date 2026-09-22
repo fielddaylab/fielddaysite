@@ -1,5 +1,8 @@
 Options -Indexes
 
+# /work retired -> get involved
+RedirectMatch 301 ^/work(/.*)? /getinvolved/
+
 # 301 redirect original fellowships page to the merged page
 RedirectMatch 301 ^/fellowships/?$ /fellowships-incubators/
 

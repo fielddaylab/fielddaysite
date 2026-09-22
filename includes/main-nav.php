@@ -10,7 +10,7 @@
       <li class="small-navlink hide-for-nav-narrow"><a href="/about">about us</a></li>
       <li class="small-navlink hide-for-nav-xsmall"><a href="/fellowships-incubators" class="teachers">fellowships and incubators</a></li>
       <li class="small-navlink hide-for-nav"><a href="/research">research</a></li>
-      <li class="small-navlink hide-for-nav"><a href="/work">work with us</a></li>
+      <li class="small-navlink hide-for-nav"><a href="/getinvolved">get involved</a></li>
     </ul>
   </div>
   <div class="right">

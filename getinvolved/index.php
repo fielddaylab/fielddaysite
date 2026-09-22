@@ -65,7 +65,7 @@
 							<p class="small">
 								Bring your research to life through games! If you're a researcher with innovative ideas, we’ll help turn your work into a game that reaches a broad audience.
 							</p>
-							<a class="button small yellow filled" href="/work" target="_blank">Make a game with us</a>
+							<a class="button small yellow filled" href="/fellowships-incubators" target="_blank">See the Incubators</a>
 						</div>
 						<div class="img-section right">
 							<img src="/assets/img/get-involved/make-a-game.png" alt="teacher fellowship">

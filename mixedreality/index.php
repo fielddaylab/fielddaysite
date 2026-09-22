@@ -353,7 +353,7 @@
           <h4>How much does it cost?</h4>
           <p>Cost depends on how you’d like to use it. There are different tiers of involvement, from simply customizing your own quests to partnering with us to rebrand the platform with unique art, characters, and story. We’re looking for people interested in testing and prototyping. If you’re familiar with ARIS and have worked with us before, reach out to us.</p>
           <p class="supersmall note">Partners: Vanderbilt University, Smart & Connected Communities Grant through the National Science Foundation</p>
-          <a href="/work" class="button pink filled small">Have an idea? Let's talk!</a>
+          <a href="/getinvolved" class="button pink filled small">Have an idea? Let's talk!</a>
         </div>
       </div>
     </div>

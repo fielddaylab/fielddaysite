@@ -1171,7 +1171,7 @@
                         <p>
                             If the information feels too complicated, kids won’t engage. Our games allow for depth and complexity, while creating a playful, engaging experience for kids. Set up a meeting to learn more! We’re excited to partner with you.
                         </p>
-                        <a href="/work" class="button pink filled small">Have an idea? Let's talk!</a>
+                        <a href="/getinvolved" class="button pink filled small">Have an idea? Let's talk!</a>
                     </div>
                 </div>
             </div>
