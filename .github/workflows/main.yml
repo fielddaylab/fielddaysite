@@ -9,7 +9,7 @@ on:
   #    - '*'
   workflow_dispatch:
   push:
-     branches: [ production ] 
+     branches: [ doit-production ] 
   
 jobs:
   deploy:
@@ -37,8 +37,8 @@ jobs:
   
     # Deploy Steps
     
-    - name: If production, deploy to production web server
-      if: ${{ github.ref == 'refs/heads/production' }}
+    - name: If doit-production, deploy to production web server (DoIT)
+      if: ${{ github.ref == 'refs/heads/doit-production' }}
       uses: burnett01/rsync-deployments@5.2
       with:
         switches: -vrc --exclude-from 'rsync-exclude'
