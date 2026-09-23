@@ -1,0 +1,21 @@
+# Mirrors rsync-exclude: keep build tooling and repo metadata out of the image.
+.git
+.github
+.gitignore
+.gitmodules
+.DS_Store
+node_modules
+assets/scss
+Gulpfile.js
+package.json
+package-lock.json
+Makefile
+README.md
+DEVELOPMENT.md
+rsync-exclude
+Dockerfile
+.dockerignore
+
+# incubator page working artifacts
+fellowships-incubators/mockups
+*.bak-*
