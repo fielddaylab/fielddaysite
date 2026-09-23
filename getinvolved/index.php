@@ -28,7 +28,7 @@
 						<ul>
 						<li><a href="#s1">Join the Vault</a></li>
 						<li><a href="#s2">Join an Teacher Fellowships</a></li>
-											<li><a href="#s4">Student Internship</a></li>
+						<li><a href="#s4">Student Internship</a></li>
 						<li><a href="#s5">Research Partner</a></li>
 						</ul>
 					</div>
@@ -76,7 +76,7 @@
 							<p class="small">
 								Gain access to valuable game data through our Open Game Data project. Researchers can explore data from our games, and game studios can make their data available for study and innovation.
 							</p>	
-							<a class="button small yellow filled" href="https://opengamedata.fielddaylab.wisc.edu/" target="_blank">Learn More</a>
+							<a class="button small yellow filled" href="https://opengamedata.io" target="_blank">Learn More</a>
 						</div>
 						<div class="img-section right">
 							<img src="/assets/img/get-involved/research-partner.png" alt="teacher fellowship">

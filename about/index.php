@@ -259,51 +259,6 @@
         </li>
       </ul>
 
-      <h2 class="section-title centered">Prior Staff</h2>
-      <p>People who have shipped work with us and moved on.</p>
-      <ul class="gridder">
-
-        <li class="gridder-list" data-griddercontent="#profile_xander">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/xander.jpg">
-            <div class="card-summary">
-              <h3>Xander Grabowski</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_ameya">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/ameya.jpg">
-            <div class="card-summary">
-              <h3>Ameya Kshirsagar</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_vijayram">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/vijayram.jpg">
-            <div class="card-summary">
-              <h3>Vijayram Patel</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_mary">
-          <div class="profile-thumbnail">
-            <img alt="Mary Benetti" src="/assets/img/profiles/mary.jpg">
-            <div class="card-summary">
-              <h3>Mary Benetti</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-      </ul>
-
       <h2 class="section-title centered">Collaborators</h2>
 
       <ul class="gridder">
@@ -313,16 +268,6 @@
             <img src="/assets/img/profiles/lindy.jpg">
             <div class="card-summary">
               <h3>Lindy Biller</h3>
-              <span class="card-triangle"></span>
-            </div>
-          </div>
-        </li>
-
-        <li class="gridder-list" data-griddercontent="#profile_phil">
-          <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/phil.jpg">
-            <div class="card-summary">
-              <h3>Phil Dougherty</h3>
               <span class="card-triangle"></span>
             </div>
           </div>
@@ -419,6 +364,61 @@
           </div>
         </li>
 
+      </ul>
+
+      <h2 class="section-title centered">Prior Staff</h2>
+      <p>People who have shipped work with us and moved on.</p>
+      <ul class="gridder">
+
+        <li class="gridder-list" data-griddercontent="#profile_xander">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/xander.jpg">
+            <div class="card-summary">
+              <h3>Xander Grabowski</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_ameya">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/ameya.jpg">
+            <div class="card-summary">
+              <h3>Ameya Kshirsagar</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_vijayram">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/vijayram.jpg">
+            <div class="card-summary">
+              <h3>Vijayram Patel</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_mary">
+          <div class="profile-thumbnail">
+            <img alt="Mary Benetti" src="/assets/img/profiles/mary.jpg">
+            <div class="card-summary">
+              <h3>Mary Benetti</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_phil">
+          <div class="profile-thumbnail">
+            <img src="/assets/img/profiles/phil.jpg">
+            <div class="card-summary">
+              <h3>Phil Dougherty</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
       </ul>
 
 

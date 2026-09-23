@@ -9744,13 +9744,13 @@ hr {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1072px) {
   .hide-for-nav-xsmall {
     display: none !important;
   }
 }
 
-@media only screen and (max-device-width: 430px), only screen and (max-width: 430px) {
+@media only screen and (max-width: 1072px) {
   .hide-for-nav-narrow {
     display: none !important;
   }
@@ -10499,6 +10499,15 @@ p a {
 
 /* mobile navigation
 ----------------------------------------*/
+/* Responsive header switch (card 6ab41551): at or above 1073px the full inline
+   link row is shown and the hamburger is removed (display:none, not focusable).
+   Below 1073px only logo + hamburger remain; all inline links hide at 1072px. */
+@media only screen and (min-width: 1073px) {
+  .mobile-nav-toggle-wrap {
+    display: none !important;
+  }
+}
+
 .mobile-nav-toggle-wrap {
   width: 58px;
   height: 58px;
