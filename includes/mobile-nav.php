@@ -8,7 +8,6 @@
           <li class="small-navlink"><a href="/fellowships-incubators" class="teachers" tabindex="-1">Fellowships and Incubators</a></li>
           <li class="small-navlink"><a href="/research" class="research" tabindex="-1">research</a></li>
           <li class="small-navlink"><a href="/getinvolved" tabindex="-1">get involved</a></li>
-          <!-- <li><a class="button xsmall yellow filled" tabindex="-1">get involved</a></li> -->
         </ul>
       </div>
    </div>

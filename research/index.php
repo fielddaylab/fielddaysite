@@ -225,6 +225,30 @@
           <h2 id="pub4">Written by Field Day Lab Staff</h2>
             <div class="pub-wrap">
             <p class="small">
+Lake, A., Rom&acirc;n, D., Ponto, K., Baker, C., Gagnon, D., Verbeke, M., &amp; Matthews, J. (2026). Libraries as Activity Systems: A Systematic Review of Outreach Initiatives for Hispanic Communities. <em>Public Library Quarterly</em> (in press; published online 12 Apr 2026). <a href="https://doi.org/10.1080/01616846.2026.2655076">https://doi.org/10.1080/01616846.2026.2655076</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
+Liu, X., Scianna, J., Metcalf, S. J., Wei, Z., Baker, R. S., Barany, A., Swanson, L., &amp; Gagnon, D. J. (2025). Modeling Player Progression in an Educational Game Using Ordered Networks. In: Carmona, G. et al. (eds) International Conference on Quantitative Ethnography (ICQE 2025). Communications in Computer and Information Science, vol 2677. Springer, Cham, pp. 369&ndash;383. <a href="https://doi.org/10.1007/978-3-032-12229-2_24">https://doi.org/10.1007/978-3-032-12229-2_24</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
+Liu, X., Wei, Z., Baker, R. S., Metcalf, S. J., Zhang, J., Barany, A., Slater, S., Swanson, L., &amp; Gagnon, D. J. (2025). Integrating Large Language Models and Machine Learning to Detect Struggle in Educational Games. In: Cristea, A. I., Walker, E., Lu, Y., Santos, O. C., &amp; Isotani, S. (eds) Artificial Intelligence in Education &ndash; 26th International Conference (AIED 2025), Palermo, Italy. Lecture Notes in Computer Science, vol 15881. Springer, Cham, pp. 398&ndash;405. <a href="https://doi.org/10.1007/978-3-031-98462-4_50">https://doi.org/10.1007/978-3-031-98462-4_50</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
+Gagnon, D. J., Berson, A., &amp; Pfotenhauer, J. M. (2025). Virtual Labs for Undergraduate Engineering: Does Virtual Reality Have Any Advantages Over a Web-Based Simulation or Traditional Homework Assignment? 2025 ASEE Annual Conference &amp; Exposition, Montreal, Quebec, Canada. <a href="https://doi.org/10.18260/1-2--57329">https://doi.org/10.18260/1-2--57329</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
 Ponto, K., Tredinnick, R., Gagnon, S., &amp; Gagnon, D. (2025). Virtual Reality Antarctic Weather Station Repair for Informal STEM Learning. In <em>2025 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)</em>, Saint Malo, France, pp. 1624&ndash;1625. <a href="https://doi.org/10.1109/VRW66409.2025.00457">https://doi.org/10.1109/VRW66409.2025.00457</a> | <a href="https://par.nsf.gov/servlets/purl/10591768">NSF Public Access</a>
             </p>
           </div>
@@ -239,7 +263,7 @@ Demonstrating Replay for Highly Scalable and Cost-Effective User Research of Vir
 
             <div class="pub-wrap">
             <p class="small">
-Swanson, L., Gagnon, D.J. (2025). An Architecture for Repeatable, Large-Scale Educational Game Data Analysis: Building on Open Game Data. In: Plass, J.L., Ochoa, X. (eds) Serious Games. JCSG 2024. Lecture Notes in Computer Science, vol 15259. Springer, Cham. <a href=https://doi.org/10.1007/978-3-031-74138-8_4">https://doi.org/10.1007/978-3-031-74138-8_4</a>
+Swanson, L., Gagnon, D.J. (2025). An Architecture for Repeatable, Large-Scale Educational Game Data Analysis: Building on Open Game Data. In: Plass, J.L., Ochoa, X. (eds) Serious Games. JCSG 2024. Lecture Notes in Computer Science, vol 15259. Springer, Cham. <a href="https://doi.org/10.1007/978-3-031-74138-8_4">https://doi.org/10.1007/978-3-031-74138-8_4</a>
             </p>
           </div>
 
@@ -313,6 +337,7 @@ Harpstead, E., Gagnon, D., Seif El-Nasr, M., Swanson, L. (2023). Using Open Game
           </div>
 
             <div class="pub-wrap">
+            <p class="small">
 Liu, X., Slater, S., Andres, J., Swanson, L., Scianna, J., Gagnon, D., Baker, R.S. (2023). Struggling to Detect Struggle in Students Playing a Science Exploration Game. CHI PLAY Companion '23: Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play. <a href = "https://dl.acm.org/doi/10.1145/3573382.3616080">https://dl.acm.org/doi/10.1145/3573382.3616080</a>
             </p>
           </div>      

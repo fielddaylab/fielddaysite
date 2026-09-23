@@ -175,7 +175,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile_laure">
           <div class="profile-thumbnail">
-            <img alt="Laure Haak" src="/assets/img/profiles/placeholder.jpg">
+            <img alt="Laure Haak" src="/assets/img/profiles/laure.jpg">
             <div class="card-summary">
               <h3>Laure Haak</h3>
               <span class="card-triangle"></span>
@@ -818,7 +818,7 @@
   <div id="profile_laure" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Laure Haak</h3>
-      <span>Scientist II</span>
+      <span>Project Manager</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
           <p class="small">Laure develops research infrastructure operations, strategy and development.</p>
@@ -830,7 +830,7 @@
   <div id="profile_shari" class="gridder-content">
     <div class="row profile-inner profile-inner">
       <h3>Shari Metcalf</h3>
-      <span>Scientist II</span>
+      <span>Project Manager</span>
       <div class="wrapper">
         <div class="col-md-12 profile-expanded">
           <p class="small">Shari develops research proposals and conducts usability and qualitative research.</p>
