@@ -165,7 +165,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile_yuheng">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/yuheng.jpg">
+            <img alt="Yuheng Chen" src="/assets/img/profiles/yuheng.jpg">
             <div class="card-summary">
               <h3>Yuheng Chen</h3>
               <span class="card-triangle"></span>
@@ -175,7 +175,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile_laure">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/laure.jpg">
+            <img alt="Laure Haak" src="/assets/img/profiles/placeholder.jpg">
             <div class="card-summary">
               <h3>Laure Haak</h3>
               <span class="card-triangle"></span>
@@ -185,7 +185,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile_shari">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/shari.jpg">
+            <img alt="Shari Metcalf" src="/assets/img/profiles/shari.jpg">
             <div class="card-summary">
               <h3>Shari Metcalf</h3>
               <span class="card-triangle"></span>
@@ -200,7 +200,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile_jiyun">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/jiyun.jpg">
+            <img alt="Jiyun (Siena) Moon" src="/assets/img/profiles/jiyun.jpg">
             <div class="card-summary">
               <h3>Jiyun (Siena) Moon</h3>
               <span class="card-triangle"></span>
@@ -210,7 +210,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile_cody">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/cody.jpg">
+            <img alt="Cody Summerson" src="/assets/img/profiles/placeholder.jpg">
             <div class="card-summary">
               <h3>Cody Summerson</h3>
               <span class="card-triangle"></span>
@@ -220,7 +220,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile_qingru">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/qingru.jpg">
+            <img alt="Qingru (Alice) Zhou" src="/assets/img/profiles/placeholder.jpg">
             <div class="card-summary">
               <h3>Qingru (Alice) Zhou</h3>
               <span class="card-triangle"></span>
@@ -230,7 +230,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile_isla">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/isla.jpg">
+            <img alt="Isla Holmstrom" src="/assets/img/profiles/isla.jpg">
             <div class="card-summary">
               <h3>Isla Holmstrom</h3>
               <span class="card-triangle"></span>
@@ -240,7 +240,7 @@
 
         <li class="gridder-list" data-griddercontent="#profile_atlas">
           <div class="profile-thumbnail">
-            <img src="/assets/img/profiles/atlas.jpg">
+            <img alt="Atlas Rea" src="/assets/img/profiles/placeholder.jpg">
             <div class="card-summary">
               <h3>Atlas Rea</h3>
               <span class="card-triangle"></span>
