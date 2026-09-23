@@ -572,7 +572,7 @@ li.gridder-list:focus-visible {
 
             <span class="person">Peter Nagle (Chicago Botanic Garden)</span>
 
-            Katie O&rsquo;Reilly &mdash; Illinois-Indiana Sea Grant<br />
+            <span class="person">Katie O&rsquo;Reilly &mdash; Illinois-Indiana Sea Grant</span>
             <span class="person">Claire Snyder (Illinois DNR)</span>
 
           </div>
@@ -600,8 +600,8 @@ li.gridder-list:focus-visible {
 
             <span class="person">BA Laris (dfusion)</span>
 
-            Jonathan Patz &mdash; UW&ndash;Madison<br />
-            Michelle Robinson &mdash; Foundation for Black Women&rsquo;s Wellness<br />
+            <span class="person">Jonathan Patz &mdash; UW&ndash;Madison</span>
+            <span class="person">Michelle Robinson &mdash; Foundation for Black Women&rsquo;s Wellness</span>
           </div>
           <h4>Educators:</h4>
           <div class="fellows">
@@ -1376,17 +1376,23 @@ online course
 .teachers .fellowships-content .gridder-expanded-content .cohort-people .fellows {
   column-count: 1 !important;
   margin-bottom: 30px !important;
+  /* 2026-09-22 (spec: name-font-consistency): participant name lines must
+     read in the site body font (Roboto, set on body at 16px) so every
+     incubator card uses one typeface for names. The global
+     .fellows-list .fellows rule forces Courier on the container;
+     override it here so .person spans, bare "Name — Org" lines, and
+     bare name-only lines all inherit the same body typeface. */
+  font-family: "Roboto", sans-serif;
 }
 .teachers .fellowships-content .gridder-expanded-content .cohort-people .fellows .person {
   display: block;
   white-space: normal;
   line-height: 1.7;
   margin-bottom: 4px;
-  /* 2026-09-22: participant listings must match the plain
-     "Name — Affiliation" reference lines — body font, standard
-     case, no letter-spacing. The generic .gridder-expanded-content
-     span rule uppercases and re-fonts every span; opt out here. */
-  font-family: inherit;
+  /* 2026-09-22: participant listings use the body font (Roboto), standard
+     case, normal tracking — the generic .gridder-expanded-content span
+     rule uppercases and re-fonts every span; opt out here. */
+  font-family: "Roboto", sans-serif;
   text-transform: none;
   letter-spacing: normal;
   color: inherit;
