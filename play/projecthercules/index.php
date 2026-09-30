@@ -63,7 +63,7 @@ window.onload = function()
       </div>
 
       <div class="buttons">
-        <a id="playButton" class="button small white filled" href="https://fielddaylab.wisc.edu/play/astrogame/ci/production/" target="_blank" onClick="window.open('https://fielddaylab.wisc.edu/play/astrogame/ci/production/','pagename','resizable,height=768,width=1024'); return false;">Play the game</a>
+        <a id="playButton" class="button small white filled" href="https://fielddaylab.wisc.edu/play/project-hercules/ci/production/" target="_blank" onClick="window.open('https://fielddaylab.wisc.edu/play/project-hercules/ci/production/','pagename','resizable,height=768,width=1024'); return false;">Play the game</a>
       </div>
     </div>
   </section>
