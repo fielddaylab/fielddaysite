@@ -930,8 +930,8 @@
     section#carousel {
         margin-top: 63px; /* offset for the top nav-bar */
         padding: 0;
-        @media only screen and (max-width: 768px) {
-            margin-top: 53px; /* offset for smaller nav-bar */
+        @media #{$break-nav} {
+            margin-top: 52px; /* nav-bar shrinks to ~52px at <=1072px; a larger offset shows a white gap */
         }
     }
 

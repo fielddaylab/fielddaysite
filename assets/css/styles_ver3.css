@@ -18215,9 +18215,9 @@ tbody tr {
   margin-top: 63px; /* offset for the top nav-bar */
   padding: 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-device-width: 1072px), only screen and (max-width: 1072px) {
   .home-page section#carousel {
-    margin-top: 53px; /* offset for smaller nav-bar */
+    margin-top: 52px; /* nav-bar shrinks to ~52px at <=1072px; a larger offset shows a white gap */
   }
 }
 .home-page #carousel-hero .info {
