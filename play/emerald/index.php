@@ -6,35 +6,6 @@ include_once($path); ?>
 <title>The Legend of the Lost Emerald - Field Day</title>
 <meta name="description" content="Play as a maritime archaeologist uncovering shipwrecks in the Great Lakes.">
 
-<script>
-window.onload = function()
-{
-  function detectMobile() {
-    const toMatch = [
-        /Android/i,
-        /webOS/i,
-        /iPhone/i,
-        /iPad/i,
-        /iPod/i,
-        /BlackBerry/i,
-        /Windows Phone/i
-    ];
-    return toMatch.some((toMatchItem) => {
-        return navigator.userAgent.match(toMatchItem);
-    });
-}
-  console.log("Mobile Device: " + detectMobile());
-  if (detectMobile()) {
-    button = document.getElementById("playButton");
-    button.target="_self";
-    button.href = "javascript:void(0)";
-    button.classList.remove("filled");
-    button.textContent = "Play on Desktop";
-    console.log("In the if");
-  }
-};
-</script>
-
 </head>
 
 <body class="singleapp emerald">
@@ -67,7 +38,7 @@ window.onload = function()
                     </p>
                 </div>
                 <div class="buttons">
-                    <a id = "playButton" target="_blank" href="https://pbswisconsineducation.org/emerald/about/" class="button xsmall white filled">Play</a>
+                    <a id = "playButton" target="_blank" href="https://vaultlearninggames.org/legend-of-the-lost-emerald" class="button xsmall white filled">Play</a>
                     <a target="_blank" href="#app-about" class="button xsmall white">Learn More</a>
                     <a target="_blank" href="https://medium.com/fielddaylab/shipwrecks-and-sea-shanties-designing-a-game-to-teach-the-great-lakes-3339abddd865" class="button xsmall white">Read the Story</a>
                     <a target="_blank" href="https://opengamedata.fielddaylab.wisc.edu/gamedata.php?game=SHIPWRECKS" class="button xsmall white">Research Emerald</a>
