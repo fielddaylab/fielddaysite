@@ -6,6 +6,7 @@ FROM php:8.3-apache
 ENV PORT=8080
 RUN sed -i 's/Listen 80$/Listen ${PORT}/' /etc/apache2/ports.conf \
  && sed -i 's/<VirtualHost \*:80>/<VirtualHost *:${PORT}>/' /etc/apache2/sites-available/000-default.conf \
+ && sed -i 's|<VirtualHost \*:${PORT}>|&\n\t# Cloud Run terminates TLS; build self-referential URLs (e.g. /play -> /play/) as https on the default port, not http://host:8080\n\tServerName https://localhost:443|' /etc/apache2/sites-available/000-default.conf \
  && echo 'ServerName localhost' > /etc/apache2/conf-available/servername.conf \
  && a2enconf servername \
  && sed -i "/<Directory \/var\/www\/>/,/<\/Directory>/ s/AllowOverride None/AllowOverride All/" /etc/apache2/apache2.conf \
