@@ -5,35 +5,6 @@ include_once($path); ?>
 <title>Project Hercules - Field Day</title>
 <meta name="description" content="A astronomy puzzle game set in a post apocolyptic future." />
 
-<script>
-window.onload = function()
-{
-  function detectMobile() {
-    const toMatch = [
-        /Android/i,
-        /webOS/i,
-        /iPhone/i,
-        /iPad/i,
-        /iPod/i,
-        /BlackBerry/i,
-        /Windows Phone/i
-    ];
-    return toMatch.some((toMatchItem) => {
-        return navigator.userAgent.match(toMatchItem);
-    });
-}
-  console.log("Mobile Device: " + detectMobile());
-  if (detectMobile()) {
-    button = document.getElementById("playButton");
-    button.target="_self";
-    button.href = "javascript:void(0)";
-    button.classList.remove("filled");
-    button.textContent = "Play on Desktop";
-    console.log("In the if");
-  }
-};
-</script>
-
 </head>
 
 
@@ -63,7 +34,7 @@ window.onload = function()
       </div>
 
       <div class="buttons">
-        <a id="playButton" class="button small white filled" href="https://fielddaylab.wisc.edu/play/project-hercules/ci/production/" target="_blank" onClick="window.open('https://fielddaylab.wisc.edu/play/project-hercules/ci/production/','pagename','resizable,height=768,width=1024'); return false;">Play the game</a>
+        <a id="playButton" class="button small white filled" href="https://vaultlearninggames.org/project-hercules" target="_blank">Play the game</a>
       </div>
     </div>
   </section>

@@ -41,7 +41,7 @@ include_once($path); ?>
         <div class="buttons">
           <!-- <a target="_blank" href="https://pbswisconsineducation.org/emerald/about/" class="button xsmall white filled">Play the Game</a> -->
           <a target="_blank" href="#app-about" class="button xsmall white filled">Learn about the Game</a>
-          <a target="_blank" href="https://theyardgames.org/game/earthquake.html" class="button xsmall white">Play the Game</a>
+          <a target="_blank" href="https://vaultlearninggames.org/earthquake" class="button xsmall white">Play the Game</a>
         </div>
       </div>
     </section>

@@ -5,35 +5,6 @@ include_once($path); ?>
 <title>Headlines and High Water - Field Day</title>
 <meta name="description" content="A journalism adventure game in a the charming, but flooded, city of Twin Lakes." />
 
-<script>
-window.onload = function()
-{
-  function detectMobile() {
-    const toMatch = [
-        /Android/i,
-        /webOS/i,
-        /iPhone/i,
-        /iPad/i,
-        /iPod/i,
-        /BlackBerry/i,
-        /Windows Phone/i
-    ];
-    return toMatch.some((toMatchItem) => {
-        return navigator.userAgent.match(toMatchItem);
-    });
-}
-  console.log("Mobile Device: " + detectMobile());
-  if (detectMobile()) {
-    button = document.getElementById("playButton");
-    button.target="_self";
-    button.href = "javascript:void(0)";
-    button.classList.remove("filled");
-    button.textContent = "Play on Desktop";
-    console.log("In the if");
-  }
-};
-</script>
-
 </head>
 
 
@@ -63,7 +34,7 @@ window.onload = function()
       </div>
 
       <div class="buttons">
-        <a id="playButton" class="button small white filled" href="https://fielddaylab.wisc.edu/play/headlines/ci/production/" target="_blank" onClick="window.open('https://fielddaylab.wisc.edu/play/headlines/ci/production/','pagename','resizable,height=660,width=1024'); return false;">Play the game</a>
+        <a id="playButton" class="button small white filled" href="https://vaultlearninggames.org/headlines-and-high-water" target="_blank">Play the game</a>
         <a class="button small white" href="https://docs.google.com/document/d/1waTcuT112QfpT7UhR4P25robWF4D0YhpFHl1NQK9dbQ/edit?usp=sharing">Teaching Guide</a>
         <a class="button small white" href="https://opengamedata.fielddaylab.wisc.edu/gamedata.php?game=JOURNALISM">Research Headlines</a>
       </div>
