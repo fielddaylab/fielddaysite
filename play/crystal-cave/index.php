@@ -40,7 +40,7 @@ include_once($path); ?>
         <div class="buttons">
           <!-- <a target="_blank" href="https://pbswisconsineducation.org/emerald/about/" class="button xsmall white filled">Play the Game</a> -->
           <a target="_blank" href="#app-about" class="button xsmall white filled">Learn about the Game</a>
-          <a target="_blank" href="https://vaultlearninggames.org/crystal-cave" class="button xsmall white">Play on the Vault</a>
+          <a target="_blank" href="https://vaultlearninggames.org/crystal-cave#play" class="button xsmall white">Play on the Vault</a>
         </div>
       </div>
     </section>

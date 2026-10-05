@@ -34,7 +34,7 @@ include_once($path); ?>
       </div>
 
       <div class="buttons">
-        <a id="playButton" class="button small white filled" href="https://vaultlearninggames.org/project-hercules" target="_blank">Play on the Vault</a>
+        <a id="playButton" class="button small white filled" href="https://vaultlearninggames.org/project-hercules#play" target="_blank">Play on the Vault</a>
       </div>
     </div>
   </section>

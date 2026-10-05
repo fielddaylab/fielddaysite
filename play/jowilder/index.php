@@ -72,7 +72,7 @@ window.onload = function()
 
 </p></div>
     <div class="buttons">
-      <a target="_blank" href="https://vaultlearninggames.org/jowilder" class="button xsmall white filled">Play on the Vault</a>
+      <a target="_blank" href="https://vaultlearninggames.org/jowilder#play" class="button xsmall white filled">Play on the Vault</a>
       <a target="_blank" href="#app-about" class="button xsmall white">Learn about the Game</a>
     </div>
   </div>

@@ -34,7 +34,7 @@ include_once($path); ?>
       </div>
 
       <div class="buttons">
-        <a id="playButton" class="button small white filled" href="https://vaultlearninggames.org/headlines-and-high-water" target="_blank">Play on the Vault</a>
+        <a id="playButton" class="button small white filled" href="https://vaultlearninggames.org/headlines-and-high-water#play" target="_blank">Play on the Vault</a>
         <a class="button small white" href="https://docs.google.com/document/d/1waTcuT112QfpT7UhR4P25robWF4D0YhpFHl1NQK9dbQ/edit?usp=sharing">Teaching Guide</a>
         <a class="button small white" href="https://opengamedata.fielddaylab.wisc.edu/gamedata.php?game=JOURNALISM">Research Headlines</a>
       </div>
