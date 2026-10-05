@@ -42,7 +42,7 @@ include_once($path); ?>
         </p>
       </div>
       <div class="buttons">
-        <a target="_blank" href="https://vaultlearninggames.org/atom-touch" class="button xsmall white filled">Play Atom Touch</a>
+        <a target="_blank" href="https://vaultlearninggames.org/atom-touch" class="button xsmall white filled">Play on the Vault</a>
         <a target="_blank" href="#app-about" class="button xsmall white">Learn about Atom Touch</a>
       </div>
     </div>

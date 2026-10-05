@@ -42,7 +42,7 @@ include_once($path); ?>
       </div>
 
       <div class="buttons">
-        <a id="playButton" class="button small white filled" href="https://vaultlearninggames.org/wake" target="_blank">Play Wake</a>
+        <a id="playButton" class="button small white filled" href="https://vaultlearninggames.org/wake" target="_blank">Play on the Vault</a>
 
         <a class="button small white" href="https://sites.google.com/wisc.edu/waketeacherguide/home">Support</a>
         <a class="button small white" href="https://docs.google.com/document/d/1fqfRJWGyH9ihAWju6N4ELDG83Nl2GZqbxdle-sM8FDc">Short Guide</a>

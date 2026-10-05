@@ -9,3 +9,19 @@ RedirectMatch 301 ^/fellowships/?$ /fellowships-incubators/
 # Incubator cohort pages retired -> cohort Google Docs
 RedirectMatch 301 ^/fellowships-incubators/2026-frontiers-of-biotechnology(/.*)?$ https://docs.google.com/document/d/1lF7dXQfFvWfRmKtryryqbQhTbPj4UUzH5dx4z8IyXHI/edit
 RedirectMatch 301 ^/fellowships-incubators/2025-practices-of-life-science(/.*)?$ https://docs.google.com/document/d/1_Ys3TQ19cYKtFCwhJ95X8v4meWKtUTCVYlOVmFAVLk4/edit
+
+# Old game play URLs -> the game's Vault page with the player open (#play).
+# These are every play address the Field Day site has linked to (from git history).
+# Keep in sync with docs/plesk-nginx-redirects.conf: the DoIT/Plesk host ignores .htaccess.
+# On hold until their Vault page plays from the Vault CDN (redirecting now would loop or
+# cut off the fallback): /play/thermovr/ci/desktop, /play/headlines/ci/production,
+# /play/journalism/ci/production, /play/atom-touch/build.
+# mod_rewrite, not RedirectMatch: QSD drops any query string (Apache would append it after
+# the fragment, giving "#play?x=y", which Vault doesn't recognise) and NE keeps "#" unescaped.
+RewriteEngine On
+RewriteRule ^play/wake/ci/production(/.*)?$ https://vaultlearninggames.org/wake#play [R=301,L,NE,QSD]
+RewriteRule ^play/(bloom|zavala)/ci/production(/.*)?$ https://vaultlearninggames.org/bloom#play [R=301,L,NE,QSD]
+RewriteRule ^play/(project-hercules|astrogame)/ci/production(/.*)?$ https://vaultlearninggames.org/project-hercules#play [R=301,L,NE,QSD]
+RewriteRule ^play/lakeland/game(/.*)?$ https://vaultlearninggames.org/lakeland#play [R=301,L,NE,QSD]
+RewriteRule ^play/forevermine/game(/.*)?$ https://vaultlearninggames.org/forever-mine#play [R=301,L,NE,QSD]
+RewriteRule ^play/jowilder/(game|build)(/.*)?$ https://vaultlearninggames.org/jowilder#play [R=301,L,NE,QSD]

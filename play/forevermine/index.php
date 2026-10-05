@@ -44,7 +44,7 @@ window.onload = function()
     </div>
     <div class="app-description"><p class="small">This space adventure brings mathematical modeling straight to the classroom. Made in partnership with the UW-MRSEC research center.</p></div>
     <div class="buttons">
-      <a target="_blank" href="https://vaultlearninggames.org/forever-mine" class="button xsmall white filled">Play the Game</a>
+      <a target="_blank" href="https://vaultlearninggames.org/forever-mine" class="button xsmall white filled">Play on the Vault</a>
       <a target="_blank" href="#teach" class="button xsmall white">Teach with the Game</a>
     </div>
   </div>

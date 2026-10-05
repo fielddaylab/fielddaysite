@@ -38,7 +38,7 @@ include_once($path); ?>
                     </p>
                 </div>
                 <div class="buttons">
-                    <a id = "playButton" target="_blank" href="https://vaultlearninggames.org/legend-of-the-lost-emerald" class="button xsmall white filled">Play</a>
+                    <a id = "playButton" target="_blank" href="https://vaultlearninggames.org/legend-of-the-lost-emerald" class="button xsmall white filled">Play on the Vault</a>
                     <a target="_blank" href="#app-about" class="button xsmall white">Learn More</a>
                     <a target="_blank" href="https://medium.com/fielddaylab/shipwrecks-and-sea-shanties-designing-a-game-to-teach-the-great-lakes-3339abddd865" class="button xsmall white">Read the Story</a>
                     <a target="_blank" href="https://opengamedata.fielddaylab.wisc.edu/gamedata.php?game=SHIPWRECKS" class="button xsmall white">Research Emerald</a>

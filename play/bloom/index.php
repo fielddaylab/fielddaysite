@@ -25,7 +25,7 @@
     </div>
     <div class="app-description"><p class="small">In Bloom, you’ll create trade networks and enact policies that keep farmers in business, while stopping excess manure from entering local lakes and rivers.</p></div>
     <div class="buttons">
-              <a id = "playButton" class="button small white filled" href="https://vaultlearninggames.org/bloom" target="_blank">Play Bloom</a>
+              <a id = "playButton" class="button small white filled" href="https://vaultlearninggames.org/bloom" target="_blank">Play on the Vault</a>
 
     </div>
   </div>
