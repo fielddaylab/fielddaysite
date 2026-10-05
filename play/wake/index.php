@@ -15,34 +15,6 @@ include_once($path); ?>
 <title>Wake - Field Day</title>
 <meta name="description" content="A 6th-9th grade science game that challenges students with engaging, authentic missions in a variety of ocean-based ecosystems. Spanish and English." />
 
-<script>
-window.onload = function()
-{
-  function detectMobile() {
-    const toMatch = [
-        /Android/i,
-        /webOS/i,
-        /iPhone/i,
-        /iPad/i,
-        /iPod/i,
-        /BlackBerry/i,
-        /Windows Phone/i
-    ];
-    return toMatch.some((toMatchItem) => {
-        return navigator.userAgent.match(toMatchItem);
-    });
-}
-  console.log("Mobile Device: " + detectMobile());
-  if (detectMobile()) {
-    button = document.getElementById("playButton");
-    button.target="_self";
-    button.href = "javascript:void(0)";
-    button.classList.remove("filled");
-    button.textContent = "Play on Desktop";
-    console.log("In the if");
-  }
-};
-</script>
 </head>
 
 <body class="singleapp wake">
@@ -70,7 +42,7 @@ window.onload = function()
       </div>
 
       <div class="buttons">
-        <a id="playButton" class="button small white filled" href="https://fielddaylab.org/play/wake/ci/production/" target="_blank">Play Wake</a>
+        <a id="playButton" class="button small white filled" href="https://vaultlearninggames.org/wake" target="_blank">Play Wake</a>
 
         <a class="button small white" href="https://sites.google.com/wisc.edu/waketeacherguide/home">Support</a>
         <a class="button small white" href="https://docs.google.com/document/d/1fqfRJWGyH9ihAWju6N4ELDG83Nl2GZqbxdle-sM8FDc">Short Guide</a>
