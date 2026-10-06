@@ -11,7 +11,7 @@ RedirectMatch 301 ^/fellowships-incubators/2026-frontiers-of-biotechnology(/.*)?
 RedirectMatch 301 ^/fellowships-incubators/2025-practices-of-life-science(/.*)?$ https://docs.google.com/document/d/1_Ys3TQ19cYKtFCwhJ95X8v4meWKtUTCVYlOVmFAVLk4/edit
 
 # Old game play URLs (ci/master and ci/production builds, old game paths) -> the game's Vault page with the player open (#play), 301.
-# Same block on doit-production (fielddaylab.wisc.edu) and wwwtest (wwwtest.fielddaylab.wisc.edu); Plesk deploys
+# Same block on production (fielddaylab.wisc.edu) and wwwtest (wwwtest.fielddaylab.wisc.edu); Plesk deploys
 # this file with the rest of the branch, and the DoIT Apache honours it (checked 2026-10-05). See DEVELOPMENT.md.
 # On hold until their Vault page plays from the Vault CDN (redirecting now would loop or cut off the fallback):
 # /play/thermovr/ci/desktop, /play/atom-touch/build.
