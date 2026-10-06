@@ -1,16 +1,12 @@
-# Field Day Website ⛳🧑‍🚀
+# Field Day Website
 public website for Field Day
 
 ## Building the site locally
 
 **Requirements**
 - PHP - v5.4 or newer
-- Node - v10 or newer (recommended for gulp)
-  - Warning ⚠️: this site uses packages that are incompatible with Windows (try wsl) 
+- Node - v10 or newer (recommended for gulp, not compatible with a windows build)
 - an HTTP server running with vhosts pointing to `%project_dir%`
-  Recommendations:
-  * PHP [built-in web server](https://www.php.net/manual/en/features.commandline.webserver.php)
-  * [MAMP](https://www.mamp.info/en/windows/)
 
 ## Initial Installation
 1. Clone the repo
@@ -38,7 +34,7 @@ or with MAMP:
 
 ## Deploying
 
-The site is hosted by DoIT on Plesk, and Plesk deploys it straight from this repository (Plesk → Websites & Domains → the domain → Git). Only the two branches below are deployed; `master` is not. Changes for the live site go to `wwwtest`, then `production`, and the files below (`.htaccess`, `.github/workflows/plesk-deploy.yml`) live on those branches.
+The site is hosted by UW Madison DoIT on Plesk, and Plesk deploys it straight from this repository (Plesk → Websites & Domains → the domain → Git). Only the two branches below are deployed; `master` is not. Changes for the live site go to `wwwtest`, then `production`, and the files below (`.htaccess`, `.github/workflows/plesk-deploy.yml`) live on those branches.
 
 | Branch | Site |
 |---|---|
