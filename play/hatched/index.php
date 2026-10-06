@@ -31,7 +31,7 @@ include_once($path); ?>
                 <p>Experience what it’s like to be a wildlife biologist as you spend a season in Antarctica studying Adélie Penguins.</p>
             </div>
             <div class="buttons">
-                <a class="button small white filled" href="https://www.meta.com/experiences/on-the-ice-hatched/8377427255613669/" target="_blank">Play Hatched</a>
+                <a class="button small white filled" href="https://www.meta.com/experiences/on-the-ice-hatched/8377427255613669/" target="_blank">Play on the Meta Store</a>
             </div>
         </div>
     </section>
