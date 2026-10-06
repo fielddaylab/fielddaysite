@@ -19,6 +19,16 @@ RedirectMatch 301 ^/fellowships-incubators/2025-practices-of-life-science(/.*)?$
 # string (Apache would append it after the fragment, giving "#play?x=y", which Vault doesn't recognise) and NE keeps
 # "#" unescaped.
 RewriteEngine On
+# PBS Wisconsin Education's "Play the game" pages open these games' old addresses in a popup (window.open, which sends
+# their Referer). Those players get the game itself from the Vault CDN, without the Vault player's bar, as before
+# Vault; everyone else gets the Vault page below. The Vault CDN's Cloudflare rule "CDN builds only play in the Vault
+# player" lets exactly these files through for PBS Wisconsin referrers. Each game's own analytics then tells PBS
+# players (referrer pbswisconsineducation.org) from Vault players (vaultlearninggames.org). 302, not 301: the
+# redirect depends on the Referer, and browsers keep a 301 for the address whoever sent them.
+RewriteCond %{HTTP_REFERER} ^https?://([^/]+\.)?pbswisconsineducation\.org(/|$) [NC]
+RewriteRule ^play/+jowilder/+game/+iframe\.html$ https://cdn.vaultlearninggames.org/fieldday/jowilder/iframe.html [R=302,L,QSD]
+RewriteCond %{HTTP_REFERER} ^https?://([^/]+\.)?pbswisconsineducation\.org(/|$) [NC]
+RewriteRule ^play/+emerald/+ci/+production/*(index\.html)?$ https://cdn.vaultlearninggames.org/fieldday/emerald/ [R=302,L,QSD]
 RewriteRule ^play/+wake/+(ci(/+(master|main|production|desktop)(/.*)?|/*)|game(/.*)?)$ https://vaultlearninggames.org/wake#play [R=301,L,NE,QSD]
 RewriteRule ^play/+(bloom|zavala)/+(ci(/+(master|main|production|desktop)(/.*)?|/*)|game(/.*)?)$ https://vaultlearninggames.org/bloom#play [R=301,L,NE,QSD]
 RewriteRule ^play/+emerald/+(ci(/+(master|main|production|desktop)(/.*)?|/*)|game(/.*)?)$ https://vaultlearninggames.org/legend-of-the-lost-emerald#play [R=301,L,NE,QSD]
