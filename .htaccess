@@ -40,4 +40,11 @@ RewriteRule ^play/wave/ci/(master|production)(/.*)?$ https://vaultlearninggames.
 RewriteRule ^play/wind/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/wind-simulator#play [R=301,L,NE,QSD]
 RewriteRule ^play/lakeland/game(/.*)?$ https://vaultlearninggames.org/lakeland#play [R=301,L,NE,QSD]
 RewriteRule ^play/forevermine/game(/.*)?$ https://vaultlearninggames.org/forever-mine#play [R=301,L,NE,QSD]
+# PBS Wisconsin Education's "Play the game" opens /play/jowilder/game/iframe.html in a popup: those players get the
+# game itself from the Vault CDN, without the Vault player's bar, as before Vault. The CDN's "CDN builds only play in
+# the Vault player" rule lets that one file through when the Referer is PBS Wisconsin. The game's analytics then tells
+# them from Vault players by referrer. A 302, because it depends on the Referer (browsers keep a 301 for the address).
+# Everyone else gets Jo Wilder's Vault page.
+RewriteCond %{HTTP_REFERER} ^https?://([^/]+\.)?pbswisconsineducation\.org(/|$) [NC]
+RewriteRule ^play/jowilder/game/iframe\.html$ https://cdn.vaultlearninggames.org/fieldday/jowilder/iframe.html [R=302,L,QSD]
 RewriteRule ^play/jowilder/(game|build)(/.*)?$ https://vaultlearninggames.org/jowilder#play [R=301,L,NE,QSD]
