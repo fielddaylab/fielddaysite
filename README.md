@@ -54,4 +54,4 @@ Until 2026-10-05, `.github/workflows/main.yml` rsynced `doit-production` to the 
 
 ### Redirects
 
-`.htaccess` holds the site's redirects, and the DoIT Apache honours it. The old game play URLs (`/play/<game>/ci/production`, `/play/lakeland/game`, `/play/forevermine/game`, `/play/jowilder/game|build`) 301 to the game's Vault Learning Games page with the player open (`https://vaultlearninggames.org/<slug>#play`). Keep the block the same on `doit-production` and `wwwtest`. Before adding a game, check that its Vault listing plays from the Vault CDN, not from the URL being redirected, or the redirect will loop.
+`.htaccess` holds the site's redirects, and the DoIT Apache honours it. The old game play URLs (`/play/<game>/ci/master` and `/ci/production`, `/play/lakeland/game`, `/play/forevermine/game`, `/play/jowilder/game|build`) 301 to the game's Vault Learning Games page with the player open (`https://vaultlearninggames.org/<slug>#play`). Keep the block the same on `doit-production` and `wwwtest`. Before adding a game, check that its Vault listing plays from the Vault CDN, not from the URL being redirected, or the redirect will loop.
