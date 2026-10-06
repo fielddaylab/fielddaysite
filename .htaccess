@@ -9,3 +9,26 @@ RedirectMatch 301 ^/fellowships/?$ /fellowships-incubators/
 # Incubator cohort pages retired -> cohort Google Docs
 RedirectMatch 301 ^/fellowships-incubators/2026-frontiers-of-biotechnology(/.*)?$ https://docs.google.com/document/d/1lF7dXQfFvWfRmKtryryqbQhTbPj4UUzH5dx4z8IyXHI/edit
 RedirectMatch 301 ^/fellowships-incubators/2025-practices-of-life-science(/.*)?$ https://docs.google.com/document/d/1_Ys3TQ19cYKtFCwhJ95X8v4meWKtUTCVYlOVmFAVLk4/edit
+
+# Old CI production builds retired -> the game's Vault page, opening its player (#play)
+RedirectMatch 301 ^/play/antibiotic/ci/production(/.*)?$ https://vaultlearninggames.org/antibiotic-resistance#play
+RedirectMatch 301 ^/play/atom-touch/ci/production(/.*)?$ https://vaultlearninggames.org/atom-touch#play
+RedirectMatch 301 ^/play/balloon/ci/production(/.*)?$ https://vaultlearninggames.org/hot-air-balloon#play
+RedirectMatch 301 ^/play/bloom/ci/production(/.*)?$ https://vaultlearninggames.org/bloom#play
+RedirectMatch 301 ^/play/carbon-game/ci/production(/.*)?$ https://vaultlearninggames.org/carbon-cycle-game#play
+RedirectMatch 301 ^/play/crystal-cave/ci/production(/.*)?$ https://vaultlearninggames.org/crystal-cave#play
+RedirectMatch 301 ^/play/earthquake/ci/production(/.*)?$ https://vaultlearninggames.org/earthquake#play
+RedirectMatch 301 ^/play/emerald/ci/production(/.*)?$ https://vaultlearninggames.org/legend-of-the-lost-emerald#play
+RedirectMatch 301 ^/play/forevermine/ci/production(/.*)?$ https://vaultlearninggames.org/forever-mine#play
+RedirectMatch 301 ^/play/headlines/ci/production(/.*)?$ https://vaultlearninggames.org/headlines-and-high-water#play
+RedirectMatch 301 ^/play/jowilder/ci/production(/.*)?$ https://vaultlearninggames.org/jowilder#play
+RedirectMatch 301 ^/play/lakeland/ci/production(/.*)?$ https://vaultlearninggames.org/lakeland#play
+RedirectMatch 301 ^/play/magnet/ci/production(/.*)?$ https://vaultlearninggames.org/magnet-hunt#play
+RedirectMatch 301 ^/play/nitrogen-game/ci/production(/.*)?$ https://vaultlearninggames.org/nitrogen-cycle-game#play
+RedirectMatch 301 ^/play/project-hercules/ci/production(/.*)?$ https://vaultlearninggames.org/project-hercules#play
+RedirectMatch 301 ^/play/projecthercules/ci/production(/.*)?$ https://vaultlearninggames.org/project-hercules#play
+RedirectMatch 301 ^/play/thermolab/ci/production(/.*)?$ https://vaultlearninggames.org/thermolab#play
+RedirectMatch 301 ^/play/wake/ci/production(/.*)?$ https://vaultlearninggames.org/wake#play
+RedirectMatch 301 ^/play/water-game/ci/production(/.*)?$ https://vaultlearninggames.org/water-cycle-game#play
+RedirectMatch 301 ^/play/wave/ci/production(/.*)?$ https://vaultlearninggames.org/wave-combinator#play
+RedirectMatch 301 ^/play/wind/ci/production(/.*)?$ https://vaultlearninggames.org/wind-simulator#play
