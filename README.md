@@ -45,7 +45,7 @@ The site is hosted by DoIT on Plesk, and Plesk deploys it straight from this rep
 | `production` | https://fielddaylab.wisc.edu |
 | `wwwtest` | https://wwwtest.fielddaylab.wisc.edu |
 
-- Pushing to one of those branches runs `.github/workflows/plesk-deploy.yml`. It joins the campus VPN and calls that site's Plesk webhook (repository secrets `PLESK_WEBHOOK_PRODUCTION`/`PLESK_WEBHOOK_WWWTEST`), and Plesk pulls the branch into the site's `/httpdocs`. The webhooks (port 8443 on porky and petunia) only answer from the campus network, so GitHub's own webhooks can't reach them. If a deploy doesn't show up, re-run that workflow or use **Pull now** on the domain's Git page.
+- Pushing to one of those branches runs `.github/workflows/plesk-deploy.yml`. It joins the campus VPN, SSHes into porky with the fielddaylab.wisc.edu deploy key, and from there calls that site's Plesk webhook (repository secrets `PLESK_WEBHOOK_PRODUCTION`/`PLESK_WEBHOOK_WWWTEST`), and Plesk pulls the branch into the site's `/httpdocs`. The webhooks (port 8443 on porky and petunia) only answer inside the campus network, not from GitHub's webhooks and not over the VPN. If a deploy doesn't show up, re-run that workflow or use **Pull now** on the domain's Git page.
 - Plesk copies the whole branch, dotfiles included, so `.htaccess` deploys like any other file.
 - Plesk leaves files that aren't in the repository alone, such as the Unity builds the game repositories upload to `/play/<game>/ci/<branch>/`.
 - Test on `wwwtest` first, then bring the same commits to `production`. `doit-production` was the production branch until 2026-10-05 and is no longer deployed.
