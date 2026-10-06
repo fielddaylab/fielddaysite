@@ -32,3 +32,6 @@ RedirectMatch 301 ^/play/wake/ci/production(/.*)?$ https://vaultlearninggames.or
 RedirectMatch 301 ^/play/water-game/ci/production(/.*)?$ https://vaultlearninggames.org/water-cycle-game#play
 RedirectMatch 301 ^/play/wave/ci/production(/.*)?$ https://vaultlearninggames.org/wave-combinator#play
 RedirectMatch 301 ^/play/wind/ci/production(/.*)?$ https://vaultlearninggames.org/wind-simulator#play
+
+# Jo Wilder's old embed page -> its Vault page, opening the player
+RedirectMatch 301 ^/play/jowilder/game/iframe\.html$ https://vaultlearninggames.org/jowilder#play
