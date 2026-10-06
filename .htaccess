@@ -13,8 +13,6 @@ RedirectMatch 301 ^/fellowships-incubators/2025-practices-of-life-science(/.*)?$
 # Old game play URLs (ci/master and ci/production builds, old game paths) -> the game's Vault page with the player open (#play), 301.
 # Same block on production (fielddaylab.wisc.edu) and wwwtest (wwwtest.fielddaylab.wisc.edu); Plesk deploys
 # this file with the rest of the branch, and the DoIT Apache honours it (checked 2026-10-05). See DEVELOPMENT.md.
-# On hold until their Vault page plays from the Vault CDN (redirecting now would loop or cut off the fallback):
-# /play/thermovr/ci/desktop, /play/atom-touch/build.
 # mod_rewrite, not RedirectMatch: QSD drops any query string (Apache would append it after the fragment, giving
 # "#play?x=y", which Vault doesn't recognise) and NE keeps "#" unescaped.
 RewriteEngine On
@@ -41,3 +39,6 @@ RewriteRule ^play/wind/ci/(master|production)(/.*)?$ https://vaultlearninggames.
 RewriteRule ^play/lakeland/game(/.*)?$ https://vaultlearninggames.org/lakeland#play [R=301,L,NE,QSD]
 RewriteRule ^play/forevermine/game(/.*)?$ https://vaultlearninggames.org/forever-mine#play [R=301,L,NE,QSD]
 RewriteRule ^play/jowilder/(game|build)(/.*)?$ https://vaultlearninggames.org/jowilder#play [R=301,L,NE,QSD]
+# Atom Touch and ThermoLab play from the Vault CDN since 2026-10-05, so their old addresses can go too.
+RewriteRule ^play/atom-touch/build(/.*)?$ https://vaultlearninggames.org/atom-touch#play [R=301,L,NE,QSD]
+RewriteRule ^play/thermovr/ci/(desktop|master|production)(/.*)?$ https://vaultlearninggames.org/thermolab#play [R=301,L,NE,QSD]
