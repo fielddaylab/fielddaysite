@@ -9,3 +9,35 @@ RedirectMatch 301 ^/fellowships/?$ /fellowships-incubators/
 # Incubator cohort pages retired -> cohort Google Docs
 RedirectMatch 301 ^/fellowships-incubators/2026-frontiers-of-biotechnology(/.*)?$ https://docs.google.com/document/d/1lF7dXQfFvWfRmKtryryqbQhTbPj4UUzH5dx4z8IyXHI/edit
 RedirectMatch 301 ^/fellowships-incubators/2025-practices-of-life-science(/.*)?$ https://docs.google.com/document/d/1_Ys3TQ19cYKtFCwhJ95X8v4meWKtUTCVYlOVmFAVLk4/edit
+
+# Old game play URLs (ci/master and ci/production builds, old game paths) -> the game's Vault page with the player open (#play), 301.
+# Same block on doit-production (fielddaylab.wisc.edu) and wwwtest (wwwtest.fielddaylab.wisc.edu); Plesk deploys
+# this file with the rest of the branch, and the DoIT Apache honours it (checked 2026-10-05). See DEVELOPMENT.md.
+# On hold until their Vault page plays from the Vault CDN (redirecting now would loop or cut off the fallback):
+# /play/thermovr/ci/desktop, /play/atom-touch/build.
+# mod_rewrite, not RedirectMatch: QSD drops any query string (Apache would append it after the fragment, giving
+# "#play?x=y", which Vault doesn't recognise) and NE keeps "#" unescaped.
+RewriteEngine On
+RewriteRule ^play/wake/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/wake#play [R=301,L,NE,QSD]
+RewriteRule ^play/(bloom|zavala)/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/bloom#play [R=301,L,NE,QSD]
+RewriteRule ^play/emerald/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/legend-of-the-lost-emerald#play [R=301,L,NE,QSD]
+RewriteRule ^play/(headlines|journalism)/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/headlines-and-high-water#play [R=301,L,NE,QSD]
+RewriteRule ^play/(project-hercules|projecthercules|astrogame)/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/project-hercules#play [R=301,L,NE,QSD]
+RewriteRule ^play/antibiotic/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/antibiotic-resistance#play [R=301,L,NE,QSD]
+RewriteRule ^play/atom-touch/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/atom-touch#play [R=301,L,NE,QSD]
+RewriteRule ^play/balloon/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/hot-air-balloon#play [R=301,L,NE,QSD]
+RewriteRule ^play/carbon-game/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/carbon-cycle-game#play [R=301,L,NE,QSD]
+RewriteRule ^play/crystal-cave/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/crystal-cave#play [R=301,L,NE,QSD]
+RewriteRule ^play/earthquake/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/earthquake#play [R=301,L,NE,QSD]
+RewriteRule ^play/forevermine/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/forever-mine#play [R=301,L,NE,QSD]
+RewriteRule ^play/jowilder/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/jowilder#play [R=301,L,NE,QSD]
+RewriteRule ^play/lakeland/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/lakeland#play [R=301,L,NE,QSD]
+RewriteRule ^play/magnet/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/magnet-hunt#play [R=301,L,NE,QSD]
+RewriteRule ^play/nitrogen-game/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/nitrogen-cycle-game#play [R=301,L,NE,QSD]
+RewriteRule ^play/thermolab/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/thermolab#play [R=301,L,NE,QSD]
+RewriteRule ^play/water-game/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/water-cycle-game#play [R=301,L,NE,QSD]
+RewriteRule ^play/wave/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/wave-combinator#play [R=301,L,NE,QSD]
+RewriteRule ^play/wind/ci/(master|production)(/.*)?$ https://vaultlearninggames.org/wind-simulator#play [R=301,L,NE,QSD]
+RewriteRule ^play/lakeland/game(/.*)?$ https://vaultlearninggames.org/lakeland#play [R=301,L,NE,QSD]
+RewriteRule ^play/forevermine/game(/.*)?$ https://vaultlearninggames.org/forever-mine#play [R=301,L,NE,QSD]
+RewriteRule ^play/jowilder/(game|build)(/.*)?$ https://vaultlearninggames.org/jowilder#play [R=301,L,NE,QSD]
