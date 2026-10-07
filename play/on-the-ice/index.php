@@ -31,7 +31,7 @@ include_once($path); ?>
                 <p class="small white">Battle extreme weather conditions in Antarctica while repairing a network of broken weather stations. This VR experience is based on the real world adventures of polar researchers who build and maintain weather stations in Antarctica in order to collect valuable meteorological data. </p>
             </div>
             <div class="buttons">
-                <!--<a class="button small white filled" href="https://www.meta.com/experiences/5621806444549296" target="_blank">Play Weather Station</a>-->
+                <a class="button small white filled" href="https://www.meta.com/experiences/on-the-ice-weather-station/7405617912803425/" target="_blank">Play Weather Station</a>
                 <a class="button small white filled" href="#app-about">Learn More</a>
             </div>
         </div>
