@@ -155,7 +155,7 @@
               </li>
               <li class="gridder-list app-card" data-griddercontent="#arvr-app2">
                 <img class="app-logo" src="/assets/img/logos/colored/icecube-logo.png">
-                <span>Discover IceCube</span>
+                <span>Exploring the Universe from Antarctica</span>
               </li>
             </ul>
 
@@ -174,9 +174,9 @@
             <div id="arvr-app2" class="app-expanded gridder-content">
               <div class="app-info app-pane left">
                 <span class="close-app">
-                  <h2>IceCube</h2>
+                  <h2>Exploring the Universe from Antarctica</h2>
                   <p class="small">The IceCube Virtual Reality experience puts you in the role of an astrophysicist. You will journey deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica. Players learn about the IceCube observatory at the South Pole and the neutrinos they detect. Play at the Wisconsin Institute for Discovery in Madison, WI or download for your own VR device.</p>
-                  <a class="button small black" href="/play/ice-cube" target="_blank">Learn about Discover IceCube</a>
+                  <a class="button small black" href="/play/ice-cube" target="_blank">Learn More</a>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/thumbs/icecube-thumb.png">

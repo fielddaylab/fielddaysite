@@ -180,7 +180,7 @@
                                 <img src="/assets/img/games/thumbs/icecube.jpeg" class="app-logo">
                                 <div class="game-wrapper">
                                     <div class="title">
-                                        <span>Discover IceCube</span>
+                                        <span>Exploring the Universe from Antarctica</span>
                                     </div>
                                     <div class="stats">
                                         <p class="italic"> All Ages </p>
@@ -609,7 +609,7 @@
                         <div id="game-icecube" class="app-expanded gridder-content">
                             <div class="app-info app-pane left">
                                 <span class="close-app">
-                                    <h2>Discover IceCube </h2>
+                                    <h2>Exploring the Universe from Antarctica</h2>
                                     <div class="stats">
                                         <p class="tag ">All Ages</p>
                                         <p>|</p>
