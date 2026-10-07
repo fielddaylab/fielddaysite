@@ -1,16 +1,13 @@
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/header.php";  include_once($path); ?>
+<?php
+// Primary play link for this game: the Meta Quest store listing for
+// "Exploring the Universe from Antarctica". Single source of truth so
+// the URL is trivially editable in one place.
+$ICECUBE_META_URL = 'https://www.meta.com/experiences/exploring-the-universe-from-antarctica/4404368699688285/';
+?>
 
-<title>Discover IceCube - Field Day Learning Games</title>
-<meta name="description" content="Discover IceCube - Field Day">
-<script>
-  function playContent()
-  {
-    document.getElementById("content_play").innerHTML = "";
-    document.getElementById("content_play").style.display = "none";
-    document.getElementById("content").src = "build/iframe.html";
-    document.getElementById("content").style.display = "block";
-  }
-</script>
+<title>Exploring the Universe from Antarctica - Field Day Learning Games</title>
+<meta name="description" content="Exploring the Universe from Antarctica - Field Day">
 </head>
 <body class="singleapp icecube">
 
@@ -25,18 +22,19 @@
         <img class="breadcrumb-arrow" src="/assets/img/ui/breadcrumb-arrow.png">
         <li>Play</li>
         <img class="breadcrumb-arrow" src="/assets/img/ui/breadcrumb-arrow.png">
-        <li>Discover IceCube</li>
+        <li>Exploring the Universe from Antarctica</li>
       </ul>
     </div>
     <div class="app-info long-title">
-      <h1 class="app-title">Discover IceCube</h1><br>
+      <h1 class="app-title">Exploring the Universe from Antarctica</h1><br>
       <p class="app-tag">Chasing down the most extreme objects in the universe from the South Pole</p>
     </div>
-    <div class="app-description"><p class="small">The IceCube VR experience puts you in the role of an astrophysicist who journeys deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica.
+    <div class="app-description"><p class="small">This project was created in partnership with Francis Halzen, principal investigator of the IceCube Neutrino Observatory and winner of the 2026 Nobel Prize in Physics for discoveries made with the IceCube experiment that this game explores.</p>
+<p class="small">The IceCube VR experience puts you in the role of an astrophysicist who journeys deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica.
 
 </p></div>
     <div class="buttons">
-      <a href="https://github.com/fielddaylab/ICECUBEVR/releases" target="_blank" target="_blank" class="button xsmall white filled">Download</a>
+      <a href="<?php echo $ICECUBE_META_URL; ?>" target="_blank" rel="noopener noreferrer" class="button xsmall white filled">Play on Meta Quest</a>
       <a href="#app-video" class="button xsmall white">Watch Video</a>
       <a href="#app-about" class="button xsmall white">Learn More</a>
     </div>
@@ -69,7 +67,7 @@
     </div>
 
     <div id="about" class="col-sm-8 about-rightpanel">
-      <h2>About Discover IceCube</h2>
+      <h2>About Exploring the Universe from Antarctica</h2>
       <p>The IceCube VR experience puts you in the role of an astrophysicist who journeys deep into space to track down the source of a neutrino detected by the IceCube observatory in Antarctica. At the research station at the South Pole, you will see the large instrument, buried in the ice, detect a mesage from across the universe. Using your “impossibility drive,” you will follow the neutrinos path back to the black hole it was emitted from.
 Along the way, you will be able to take in awe inspiring views from the edge of the solar system, looking back from the milky way and dangerously close to a black hole. You will be able to see using not only your normal visible spectrum, but also using X-ray vision and neutrino vision, revealing entirely different views of space.
 </p>
