@@ -61,7 +61,9 @@ $ICECUBE_META_URL = 'https://www.meta.com/experiences/exploring-the-universe-fro
         <li><a href="#museums">Museums</a></li>
         <li><a href="#production">Production Team</a></li>
         <li><a href="#source">Source Code</a></li>
+        <li><a href="#partners">Partners</a></li>
         <li><a href="#funding">Funding</a></li>
+        <li><a href="#related">Related</a></li>
         </ul>
       </div>
     </div>
@@ -78,10 +80,11 @@ Along the way, you will be able to take in awe inspiring views from the edge of 
       <ul>
         <li>IceCube is a research project in Antartica that studies the universe by detecting Neutrinos</li>
         <li>Neutrinos are very interesting particles that usually pass right through matter and allow us to detect extreme objects like black holes.</li>
+        <li>IceCube's detection of high-energy neutrinos from beyond our galaxy, the science you trace in this experience, earned the 2026 Nobel Prize in Physics.</li>
       </ul>
       
       <h2 id="museums">Museums</h2>
-      <p>We are looking for additional museums who would like to put this VR experience on exhibit. Feel free to use it right now, no strings attached. Better yet, reach out by clicking "Work With Us" if you would like a consultation or would like to discuss customization.</p>
+      <p>We are looking for additional museums who would like to put this VR experience on exhibit. With IceCube's science newly honored by the Nobel Prize, this is a timely, free exhibit for science centers and planetariums. Feel free to use it right now, no strings attached. Better yet, reach out by clicking "Work With Us" if you would like a consultation or would like to discuss customization.</p>
 
 
       <h2 id="production">Production Team</h2>
@@ -95,17 +98,27 @@ Along the way, you will be able to take in awe inspiring views from the edge of 
         <li>Lindy Biller : Script Writing</li>
         <li>Andrew Fitzpatrick : Music, Sound</li>
         <li>Ross Tredinnick : Design Consulting, Playtesting Coordination</li>
-        <li>Silvia Bravo : Subject Expert</li>
-        <li>James Madsen : Subject Expert</li>
+        <li>Silvia Bravo (WIPAC) : Subject Expert</li>
+        <li>James Madsen (WIPAC) : Subject Expert</li>
         <li>Rebecca Cors : Evaluation</li>
       </ul>
       
       <h2 id="source">Source Code</h2>
       <p>This is a MIT Licensed, Opensource project. Contribute to the code at <a href="https://github.com/fielddaylab/ICECUBEVR" target="_blank">https://github.com/fielddaylab/ICECUBEVR</a></p>
       
+      <h2 id="partners">Partners</h2>
+      <ul>
+        <li>National Science Foundation (NSF)</li>
+        <li>Wisconsin Institute for Discovery</li>
+        <li><a href="https://wipac.wisc.edu" target="_blank">Wisconsin IceCube Particle Astrophysics Center (WIPAC)</a></li>
+      </ul>
+      
       <h2 id="funding">Funding</h2>
       <img alt="NSF" src="/assets/img/logos/colored/nsf1.jpg">
       <p>This project was funded by NSF OPP #1612504</p>
+      
+      <h2 id="related">Related</h2>
+      <p><a href="/play/projecthercules/">Project Hercules</a> shows why instruments like IceCube are needed; the VR experience shows what IceCube does.</p>
     </div>
   </div>
 </section>
