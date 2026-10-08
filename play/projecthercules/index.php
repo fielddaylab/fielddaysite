@@ -49,6 +49,7 @@ include_once($path); ?>
             <li><a href="#academicstandards">Academic Standards</a></li>
             <li><a href="#ngssstandards">NGSS Standards</a></li>
             <li><a href="#partners">Partners</a></li>
+            <li><a href="#related">Related</a></li>
           </ul>
         </div>
       </div>
@@ -83,6 +84,8 @@ include_once($path); ?>
         </div>
         <h2 id="partners">Partners</h2>
         <p>Project Hercules was created through a partnership between Field Day, The Department of Public Instruction, The Wisconsin IceCube Particle Astrophysics Center (WIPAC), and an amazing group of Wisconsin librarians and teachers. Special thanks to Jim Lattis and the Washburn Observatory (at UW-Madison).</p>
+        <h2 id="related">Related</h2>
+        <p>Project Hercules shows why instruments like IceCube are needed; <a href="/play/ice-cube/">Exploring the Universe from Antarctica (VR)</a> shows what IceCube does.</p>
       </div>
     </div>
   </section>
