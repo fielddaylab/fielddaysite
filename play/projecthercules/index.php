@@ -30,7 +30,7 @@ include_once($path); ?>
         <h1 class="app-title">Project Hercules</h1>
       </div>
       <div class="app-description">
-        <p class="small">In Project Hercules, you play Astrid, an astronomer in the distant future, working to identify objects in the night sky and uncover the mystery of an impending celestial event.</p>
+        <p class="small">In Project Hercules, you play Astrid, an astronomer in the distant future, working to identify objects in the night sky and uncover the mystery of an impending celestial event. Made in collaboration with WIPAC, home of IceCube and 2026 Nobel laureate Francis Halzen.</p>
       </div>
 
       <div class="buttons">
@@ -55,6 +55,7 @@ include_once($path); ?>
 
       <div id="glance" class="col-sm-8 about-rightpanel">
         <h2 id="glance">At a Glance</h2>
+        <p>Project Hercules was created in collaboration with WIPAC, the Wisconsin IceCube Particle Astrophysics Center, home of IceCube principal investigator Francis Halzen, whose work with the IceCube Neutrino Observatory earned the 2026 Nobel Prize in Physics. The game sets the stage for why cutting-edge instruments like IceCube are needed: it imagines a world where human knowledge advances in lockstep with the instruments we build to explore the cosmos.</p>
         <p>Project Hercules is designed to spark excitement and curiosity about astronomy by communicating the professional practices of observational astronomers, including the use of instruments like visible telescopes, photometers, and spectrograms, as well as participation in a community of scientists. Players will learn about technologies of astronomical observation, the data they are able to collect, and the various types of celestial objects they allow us to study.</p>
         <h2 id="glance">Target Audience</h2>
         <ul>
