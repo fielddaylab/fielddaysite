@@ -257,6 +257,16 @@
             </div>
           </div>
         </li>
+
+        <li class="gridder-list" data-griddercontent="#profile_bear">
+          <div class="profile-thumbnail">
+            <img alt="Bear Gagnon" src="/assets/img/profiles/bear.jpg">
+            <div class="card-summary">
+              <h3>Bear Gagnon</h3>
+              <span class="card-triangle"></span>
+            </div>
+          </div>
+        </li>
       </ul>
 
       <h2 class="section-title centered">Collaborators</h2>
@@ -878,6 +888,18 @@
     <div class="row profile-inner profile-inner">
       <h3><a href="https://www.linkedin.com/in/julia-bueno-a4333b277/" target="_blank">Julia Bueno</a></h3>
       <span>Writing Intern</span>
+    </div>
+  </div>
+
+  <div id="profile_bear" class="gridder-content">
+    <div class="row profile-inner profile-inner">
+      <h3>Bear Gagnon</h3>
+      <span>Quality Assurance Intern</span>
+      <div class="wrapper">
+        <div class="col-md-12 profile-expanded">
+          <p class="small">Bear is an avid game player, maker and gatherer. He loves to find the glitches in games!</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
