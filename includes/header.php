@@ -22,7 +22,7 @@
 
   ga('create', 'UA-72694027-1', 'auto');
   ga('send', 'pageview');
-  ga('linker:autoLink', ['arisgames.org','fielddaylab.org','siftr.org'], false, true);
+  ga('linker:autoLink', ['fielddaylab.org'], false, true);
 </script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HWP7FMPWX"></script>
