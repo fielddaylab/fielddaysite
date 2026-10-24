@@ -708,9 +708,6 @@
 
             <p class="small">Mary has a personal mission to encourage curiosity and play  for people of all ages, and especially adults. This is demonstrated through the interactive sensory-based sculptures she creates, as well as by being an artist at Field Day. She likes to connect her hobbies with motion and play, which has led to an amazing list of hidden talents--including drumming, fishkeeping, and underwater hockey. During college, she researched and created an independent project about motion and how it relates to physics, psychology, and art. She brings a love of learning to everything she does.
           </p>
-          <p class="small">
-            Check out Mary’s portfolio <a href="https://mbenetti.myportfolio.com/" target="_blank">here!</a>
-          </p>
         </div>
       </div>
     </div>
@@ -806,7 +803,7 @@
 
 <p>Xander has a diverse range of experience developing games and tutoring others on their journey in game development. He can frequently be found in international fan games, hackathons, and game jams, expressing his passion for transformational games and FOSS. He has taught as a game development instructor at Maydm Inc. and Code Ninjas, where he was also involved in creating and developing game dev curriculum for kids in K-12. He has also worked as a youth e-sports coach with XPLeague, and a software trainer within UW—Madison’s DoIT Academic Technology.</p>
 
-<p>Check out Xander's portolfio <a href="https://xangrab.com" target="_blank">here.</a></p>
+<p>Check out Xander's portfolio <a href="https://xangrab.itch.io/" target="_blank">here.</a></p>
         </div>
       </div>
     </div>

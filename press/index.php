@@ -138,7 +138,7 @@
             <div class="pub-wrap">
               <p class="small">
                 <span class="bold">Nomen (2012).</span><br> University of Wisconsin Mobile Learning Incubator. PIs Gagnon, D. & McGee, S.. $30,000. Develop a mobile utility for identifying prairie grasses flowers, a research study into the efficiency and accuracy of digital application in comparison to traditional dichotomous keys.
-                <br><a href="http://itunes.apple.com/us/app/key-to-woody-plants-wisconsin/id462075116?mt=8" target="_blank">Wisconsin Key to Woody Plants</a> (2011). Wisconsin Environmental Education Board (WEEB). PI Woodward, C. $12,000. Develop a mobile application for identifying trees shrubs and vines.
+                <br>Wisconsin Key to Woody Plants (2011). Wisconsin Environmental Education Board (WEEB). PI Woodward, C. $12,000. Develop a mobile application for identifying trees shrubs and vines.
               </p>
             </div>
             <h2 id="pub3">Learning Games & Virtual Reality</h2>

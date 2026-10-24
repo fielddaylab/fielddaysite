@@ -197,7 +197,7 @@
                 <span class="close-app">
                   <h2>Siftr</h2>
                   <p class="small">Use Siftr to make fieldwork activities easy. Teachers take 5 minutes to create a Siftr and students use mobile devices to collect data and observations outside of the classroom. Siftr helps you focus students, organizes their data and creates automatic visualizations to facilitate discussions in classrooms or online.</p>
-                  <a class="button small small black" href="http://siftr.org" target="_blank">Get Siftr</a>
+                  <p class="small"><em>The Siftr website is no longer online.</em></p>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/hero-images/arishero.jpg">

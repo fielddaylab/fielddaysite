@@ -122,7 +122,7 @@
             <div class="pub-wrap">
               <p class="small">
                 <span class="bold">Nomen (2012).</span><br> University of Wisconsin Mobile Learning Incubator. PIs Gagnon, D. & McGee, S.. $30,000. Develop a mobile utility for identifying prairie grasses flowers, a research study into the efficiency and accuracy of digital application in comparison to traditional dichotomous keys.
-                <br><a href="http://itunes.apple.com/us/app/key-to-woody-plants-wisconsin/id462075116?mt=8" target="_blank">Wisconsin Key to Woody Plants</a> (2011). Wisconsin Environmental Education Board (WEEB). PI Woodward, C. $12,000. Develop a mobile application for identifying trees shrubs and vines.
+                <br>Wisconsin Key to Woody Plants (2011). Wisconsin Environmental Education Board (WEEB). PI Woodward, C. $12,000. Develop a mobile application for identifying trees shrubs and vines.
               </p>
             </div>
             <h2 id="pub3">Learning Games & Virtual Reality</h2>
@@ -357,13 +357,13 @@ Madsen, J. D. (2022). Story-based Virtual Reality Experiences to Engage New Audi
 
             <div class="pub-wrap">
             <p class="small">
-Kim, Y.J., Metcalf, S.,M., Scianna, J., & Gagnon, D. (2022). <a target="_blank" href="https://icce2022.apsce.net/uploads/P2_WIPP_093.pdf">Aqualab: Establishing Validity of an Adventure Game for Middle School Science Practices.</a> Proceedings of the 30th International Conference on Computers in Education. Kuala Lumpur, Malaysia.
+Kim, Y.J., Metcalf, S.J., Scianna, J., Perez, G., & Gagnon, D.J. (2022). <a target="_blank" href="https://library.apsce.net/index.php/ICCE/article/view/4655">Aqualab: Establishing Validity of an Adventure Game for Middle School Science Practices.</a> Proceedings of the 30th International Conference on Computers in Education. Kuala Lumpur, Malaysia.
             </p>
           </div>
 
             <div class="pub-wrap">
             <p class="small">
-Slater, S., Baker, R.S., Gagnon, D.J., Harpstead, E., Andres, J. & Swanson, L.  (2022). <a target="_blank" href="https://icce2022.apsce.net/uploads/P1_C5_77.pdf">Changing Students’ Perceptions of a History
+Slater, S., Baker, R.S., Gagnon, D.J., Harpstead, E., Andres, J. & Swanson, L.  (2022). <a target="_blank" href="https://library.apsce.net/index.php/ICCE/article/view/4527">Changing Students’ Perceptions of a History
 Exploration Game Using Different Scripts.</a> Proceedings of the 30th International Conference on Computers in Education. Kuala Lumpur, Malaysia.
             </p>
           </div>
@@ -386,8 +386,7 @@ Gagnon, D., Baker, R., Gagnon, S., Swanson, L., Spevecek, N., Andres, J., Harpst
           </div>
 <div class="pub-wrap">
             <p class="small">
-Swanson, L., Gagnon, D., Scianna, J., Mccloskey, J., Spevecek, E., Slater, S. & Harpsted, E. (2022). Leveraging Cluster Analysis to Understand Educational Game Player Styles and Support Design. GLS 13.0 Conference Proceedings. Games, Learning, Society, Irvine, CA. <a target="_blank" href="
-https://doi.org/10.48550/arXiv.2210.09911">https://doi.org/10.48550/arXiv.2210.09911</a>
+Swanson, L., Gagnon, D., Scianna, J., Mccloskey, J., Spevecek, E., Slater, S. & Harpsted, E. (2022). Leveraging Cluster Analysis to Understand Educational Game Player Styles and Support Design. GLS 13.0 Conference Proceedings. Games, Learning, Society, Irvine, CA. <a target="_blank" href="https://doi.org/10.48550/arXiv.2210.09911">https://doi.org/10.48550/arXiv.2210.09911</a>
             </p>
           </div>
 <div class="pub-wrap">
@@ -442,7 +441,7 @@ Gagnon, D. (2015) Educational Mobile Games and the Tools that Invite Participati
           </div>
           <div class="pub-wrap">
             <p class="small">
-Gagnon, D., Vang, R., & Litts, B. K. (2015). Learning through design: ARIS. In K. Caldwell, S. Seyler, A. Ochsner, & C. Steinkuehler (Eds), <a href="10.1184/R1/6686777">Proceedings of the eleventh annual Games+Learning+Society Conference</a> (pp. 282-288). ETC Press: Pittsburgh, PA.
+Gagnon, D., Vang, R., & Litts, B. K. (2015). Learning through design: ARIS. In K. Caldwell, S. Seyler, A. Ochsner, & C. Steinkuehler (Eds), <a target="_blank" href="https://doi.org/10.1184/R1/6686777">Proceedings of the eleventh annual Games+Learning+Society Conference</a> (pp. 282-288). ETC Press: Pittsburgh, PA.
             </p>
           </div>
           <div class="pub-wrap">
@@ -462,12 +461,12 @@ Gagnon, D., Holden, C., Gottlieb, O., Long, K., Quintanilla, E., Kavaloski, A., 
           </div>
           <div class="pub-wrap">
             <p class="small">
-              Holden, C. L., Gagnon, D. J., Litts, B. K., & Smith, G. (2014). <a target="_blank" href="doi:10.4018/978-1-4666-4542-4.ch002">ARIS: An Open-Source Platform for Widespread Mobile Augmented Reality Experimentation.</a> In F. Neto (Eds.), Technology Platform Innovations and Forthcoming Trends in Ubiquitous Learning (pp. 19-34). Hershey, PA: IGI Global. doi:10.4018/978-1-4666-4542-4.ch002
+              Holden, C. L., Gagnon, D. J., Litts, B. K., & Smith, G. (2014). <a target="_blank" href="https://doi.org/10.4018/978-1-4666-4542-4.ch002">ARIS: An Open-Source Platform for Widespread Mobile Augmented Reality Experimentation.</a> In F. Neto (Eds.), Technology Platform Innovations and Forthcoming Trends in Ubiquitous Learning (pp. 19-34). Hershey, PA: IGI Global. doi:10.4018/978-1-4666-4542-4.ch002
             </p>
           </div>
           <div class="pub-wrap">
             <p class="small">
-Gagnon, D. McGee, S., Litts, B., Martin, J., Moeller, J., Heindl, N., Dougherty, P. (2014). <a target="_blank" href="https://drive.google.com/file/d/1pp92cftIWig0oolQ0UGnJFmpicyXqOR5/view?usp"=sharing>Mobile‐Enhanced Field Research: Increasing Plant Identification Accuracy and Efficiency.</a> University of Wisconsin Mobile Learning Incubator.
+Gagnon, D. McGee, S., Litts, B., Martin, J., Moeller, J., Heindl, N., Dougherty, P. (2014). <a target="_blank" href="https://drive.google.com/file/d/0B3XkHYR1Or_fLUZ4MG5KMUpRbEk/view?usp=sharing">Mobile‐Enhanced Field Research: Increasing Plant Identification Accuracy and Efficiency.</a> University of Wisconsin Mobile Learning Incubator.
             </p>
           </div>
           <div class="pub-wrap">
