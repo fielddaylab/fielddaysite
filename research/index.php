@@ -357,13 +357,13 @@ Madsen, J. D. (2022). Story-based Virtual Reality Experiences to Engage New Audi
 
             <div class="pub-wrap">
             <p class="small">
-Kim, Y.J., Metcalf, S.,M., Scianna, J., & Gagnon, D. (2022). <a target="_blank" href="https://icce2022.apsce.net/uploads/P2_WIPP_093.pdf">Aqualab: Establishing Validity of an Adventure Game for Middle School Science Practices.</a> Proceedings of the 30th International Conference on Computers in Education. Kuala Lumpur, Malaysia.
+Kim, Y.J., Metcalf, S.J., Scianna, J., Perez, G., & Gagnon, D.J. (2022). <a target="_blank" href="https://library.apsce.net/index.php/ICCE/article/view/4655">Aqualab: Establishing Validity of an Adventure Game for Middle School Science Practices.</a> Proceedings of the 30th International Conference on Computers in Education. Kuala Lumpur, Malaysia.
             </p>
           </div>
 
             <div class="pub-wrap">
             <p class="small">
-Slater, S., Baker, R.S., Gagnon, D.J., Harpstead, E., Andres, J. & Swanson, L.  (2022). <a target="_blank" href="https://icce2022.apsce.net/uploads/P1_C5_77.pdf">Changing Students’ Perceptions of a History
+Slater, S., Baker, R.S., Gagnon, D.J., Harpstead, E., Andres, J. & Swanson, L.  (2022). <a target="_blank" href="https://library.apsce.net/index.php/ICCE/article/view/4527">Changing Students’ Perceptions of a History
 Exploration Game Using Different Scripts.</a> Proceedings of the 30th International Conference on Computers in Education. Kuala Lumpur, Malaysia.
             </p>
           </div>
