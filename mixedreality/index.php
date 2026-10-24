@@ -9,10 +9,6 @@
 ------------------------>
 <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/main-nav.php";  include_once($path); ?>
 
-<!--<div class="header-notification">
-  <h4>looking for Aris? go <a href="/make/aris">here</a></h4>
-</div>-->
-
   <div id="mainwrapper">
   <!--Start page content
   ------------------------>
@@ -135,7 +131,6 @@
                       <h2>ARIS</h2>
                       <p class="notsupported">No longer supported</p>
                       <p class="small">Create mobile games, tours and interactive stories with ARIS games. Players experience a hybrid world of virtual characters and media in physical space. Anyone who can read can play and design these games. Used in classrooms or informally. IOS device required.</p>
-                      <a class="button small black" href="/make/aris" target="_blank">Learn More</a>
                   </div>
                   <div class="app-thumbnail app-pane right">
                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -163,7 +158,6 @@
                       <h2>ARIS</h2>
                       <p class="notsupported">No longer supported</p>
                       <p class="small">Create mobile games, tours and interactive stories with ARIS games. Players experience a hybrid world of virtual characters and media in physical space. Anyone who can read can play and design these games. Used in classrooms or informally. IOS device required.</p>
-                      <a class="button small black" href="/make/aris" target="_blank">Learn More</a>
                   </div>
                   <div class="app-thumbnail app-pane right">
                     <img src="/assets/img/hero-images/arishero.jpg">
@@ -358,7 +352,7 @@
       </div>
     </div>
   </section>
-  <section class="whataboutaris">
+  <section class="whataboutaris" id="whataboutaris">
     <div class="container">
       <img class="centered" src="/assets/img/logos/aris-logo-dark.png">
       <h2 class="section-title centered cap">What about Aris?</h2>
@@ -368,7 +362,6 @@
       <br />
       <p>What’s next? There isn’t a tool that directly replaces ARIS, which leaves a gap for many designers. But we haven’t given up on AR. Siftr includes the field collection elements from ARIS. The Station, also focused on fieldwork, is a customizable game with quest-driven mechanics. We’ll continue to share new opportunities for collaborative design projects. </p>
       <br />
-      <a class="button small black" href="/make/aris" target="_blank">Learn More</a>
 
     </div>
   </section>
