@@ -150,7 +150,7 @@
           <div class="item">
             <ul class="apps gridder">
               <li class="gridder-list app-card" data-griddercontent="#arvr-app1">
-                <img class="app-logo" src="/make/aris/assets/img/logo-thumb1.png">
+                <img class="app-logo" src="/assets/img/logos/aris-logo-thumb.png">
                 <span>ARIS</span>
               </li>
               <li class="gridder-list app-card" data-griddercontent="#arvr-app2">
@@ -164,7 +164,7 @@
                 <span class="close-app">
                   <h2>ARIS</h2>
                   <p class="small">Create mobile games, tours and interactive stories with ARIS games. Players experience a hybrid world of virtual characters and media in physical space. Anyone who can read can play and design these games. Used in classrooms or informally. IOS device required.</p>
-                  <a class="button small black" href="/make/aris" target="_blank">Make a game with ARIS</a>
+                  <p class="small"><em>ARIS is no longer supported.</em></p>
               </div>
               <div class="app-thumbnail app-pane right">
                 <img src="/assets/img/hero-images/arishero.jpg">

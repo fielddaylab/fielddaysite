@@ -11,11 +11,7 @@
     $path .= "/includes/main-nav.php";
     include_once($path); ?>
 
-    <!--<div class="header-notification">
-  <h4>looking for Aris? go <a href="/make/aris">here</a></h4>
-</div>-->
-
-    <div id="mainwrapper">
+        <div id="mainwrapper">
         <!--Start page content
   ------------------------>
 

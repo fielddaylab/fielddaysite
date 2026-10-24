@@ -3,6 +3,12 @@ Options -Indexes
 # /work retired -> get involved
 RedirectMatch 301 ^/work(/.*)? /getinvolved/
 
+# ARIS page retired 2026-10-24: arisgames.org lapsed and now serves a gambling site.
+# Bare page only - /make/aris/assets/* is intentionally NOT matched (nothing links it now,
+# but a greedy rule would have redirected image requests). Production (Plesk) ignores
+# .htaccess, so make/aris/index.php also emits this 301 in PHP.
+RedirectMatch 301 ^/make/aris/?$ /mixedreality/#whataboutaris
+
 # 301 redirect original fellowships page to the merged page
 RedirectMatch 301 ^/fellowships/?$ /fellowships-incubators/
 
