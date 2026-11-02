@@ -25,7 +25,6 @@
     <div class="app-description"><p class="small">Create mobile games, tours and interactive stories with ARIS games. Players experience a hybrid world of virtual characters and media in physical space.</p></div>
     <div class="buttons">
       <a target="_blank" href="https://itunes.apple.com/ca/app/aris/id371788434?mt=8" class="button xsmall white filled">Get ARIS</a>
-      <a target="_blank" href="http://arisgames.org/editor" onclick="ga('send', 'event', 'Editor', 'Launch');" class="button xsmall white">Make Games</a>
       <a href="#learn" target="_blank" class="button xsmall white">Learn ARIS</a>
     </div>
   </div>
@@ -120,7 +119,7 @@
     <div class="col-sm-4 learn-card">
       <img src="assets/img/logo-thumb1.png">
       <h3>ARIS Manual</h3>
-      <a href="http://manual.arisgames.org" onclick="ga('send', 'event', 'ARIS Manual', 'Click');" class="button white xsmall">Open Manual</a>
+      <p class="small">The online manual is no longer available.</p>
     </div>
     <div class="col-sm-4 learn-card">
       <img src="assets/img/logo-thumb2.png">
@@ -165,7 +164,7 @@
       <p>ARIS works on iOS devices and requires an internet connection to play. ARIS consists of three pieces of software. </p>
       <ul>
         <li><a class="small" href="https://itunes.apple.com/ca/app/aris/id371788434?mt=8" target="_blank">Client</a> (The iOS App) - to play games and collect data</li>
-        <li><a class="small" href="http://arisgames.org/editor/" onclick="ga('send', 'event', 'Editor', 'Launch');" target="_blank">Editor</a> - to make ARIS games.</li>
+        <li>Editor - to make ARIS games. The editor is no longer available.</li>
         <li>Server - Games live on a database in the cloud. The client and editor read from and write to it.</li>
       </ul>
       <h2 id="pricing">Pricing</h2>
@@ -184,7 +183,6 @@
       </ul>
       <h2 id="make">Make Games with ARIS</h2>
       <p>ARIS Allows you to create Mobile Games, Interactive Stories, Scavenger Hunts, Tours and Data Collection Activities</p>
-      <a class="button xsmall white" href="http://arisgames.org/editor/" onclick="ga('send', 'event', 'Editor', 'Launch');" target="_blank">Launch Editor</a>
       <h2 id="licensing">Licensing</h2>
       <p>ARIS Games is open-source under the MIT license and free to use. The MIT License is a permissive free software license.</p>
       <h2 id="production">Production Team</h2>
@@ -209,7 +207,6 @@
   });
 </script>
 
-<iframe src="https://arisgames.org/server/status/" style="width: 100%; height: 300px; border: none; margin: 0; padding: 0;"></iframe>
 
 </body>
 </html>
