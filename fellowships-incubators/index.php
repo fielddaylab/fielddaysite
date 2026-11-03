@@ -340,8 +340,8 @@ li.gridder-list:focus-visible {
           </div>
           <div class="card-summary">
             <div class="info">
-              <h3>2026 Computation and Food Systems</h3>
-              <h4 class="date">December 2026 &middot; Sponsors being identified</h4>
+              <h3>2027 Computation and Food Systems</h3>
+              <h4 class="date">February 4&ndash;5, 2027 &middot; Sponsors being identified</h4>
               <span class="cohort-status-badge" aria-label="Status: Sponsors Being Identified">Sponsors Being Identified</span>
               <p>A new incubator exploring the robotics, drones, sensing, and data tools reshaping modern agriculture &mdash; from farm to farmers market.</p>
             </div>
@@ -431,9 +431,9 @@ li.gridder-list:focus-visible {
     <!-- Incubator expanded content panels -->
         <div id="incubator-food" class="gridder-content">
       <div class="row game-inner">
-        <h3>2026 Computation and Food Systems</h3>
+        <h3>2027 Computation and Food Systems</h3>
         <span>Partners: UW&ndash;Madison Dept. of Planning and Landscape Architecture &middot; Wisconsin DPI</span>
-        <span>Early December 2026 &middot; Sponsors being identified &middot; date and location TBA</span>
+        <span>February 4&ndash;5, 2027 &middot; UW&ndash;Madison campus &middot; Sponsors being identified</span>
         <span class="cohort-status">Status: Sponsors Being Identified</span>
 <!-- <img class="groupshot" alt="Autonomous farm robot working a crop field" src="/assets/img/fellowships/incubator-foodsystems.jpg"> -->
 
@@ -453,8 +453,8 @@ li.gridder-list:focus-visible {
         <div class="col-md-6 cta fellowship-summary cohort-cta">
           <h4>About the Incubator</h4>
           <p>A new Game Incubator from Field Day Lab, the UW&ndash;Madison Department of Planning and Landscape Architecture, and Wisconsin DPI. The cohort will co-design a free, browser-based game that introduces youth to the &ldquo;new face&rdquo; of agriculture: robotics, drones, sensors, and AI tools across the farm-to-consumer pipeline, anchored by a farmers-market simulation.</p>
-          <p>The incubator community is funded by the Reimagining Next Phase Research Initiative (UW&ndash;Madison) and Wisconsin DPI. The production sponsorship &mdash; the Gameworks sponsorship &mdash; is still being sought. The kickoff takes place in early December 2026.</p>
-          <a class="button small black" href="https://docs.google.com/document/d/1zrlSgH1G9wnGwyUdYBwmv3JeUBPMFUmJNWMskx9_vHc/edit" target="_blank" rel="noopener" aria-label="Learn More: 2026 Computation and Food Systems (opens in Google Docs)">Learn More</a>
+          <p>The incubator community is funded by the Reimagining Next Phase Research Initiative (UW&ndash;Madison) and Wisconsin DPI. The production sponsorship &mdash; the Gameworks sponsorship &mdash; is still being sought. The kickoff event takes place February 4&ndash;5, 2027 on the UW&ndash;Madison campus.</p>
+          <a class="button small black" href="https://docs.google.com/document/d/1zrlSgH1G9wnGwyUdYBwmv3JeUBPMFUmJNWMskx9_vHc/edit" target="_blank" rel="noopener" aria-label="Learn More: 2027 Computation and Food Systems (opens in Google Docs)">Learn More</a>
           <a class="button small black" href="mailto:djgagnon@wisc.edu" aria-label="Sponsor this incubator">Sponsor This Incubator</a>
         </div>
       </div>
