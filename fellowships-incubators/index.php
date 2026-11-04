@@ -334,7 +334,7 @@ li.gridder-list:focus-visible {
       <ul class="gridder">
         <h2 class="section-title centered">Incubator Cohorts</h2>
 
-<li class="gridder-list" role="button" tabindex="0" aria-expanded="false" data-griddercontent="#incubator-food">
+<li class="gridder-list" role="button" id="2027Computation" tabindex="0" aria-expanded="false" data-griddercontent="#incubator-food">
           <div class="game-thumbnail">
             <img alt="Autonomous farm robot working a crop field" src="/assets/img/fellowships/incubator-foodsystems.jpg">
           </div>
@@ -349,7 +349,7 @@ li.gridder-list:focus-visible {
           </div>
         </li>
 
-        <li class="gridder-list" role="button" tabindex="0" aria-expanded="false" data-griddercontent="#incubator2">
+        <li class="gridder-list" role="button" id="2026Biotechnology" tabindex="0" aria-expanded="false" data-griddercontent="#incubator2">
           <div class="game-thumbnail">
             <img alt="Researcher working at a microscope in a biomedical lab" src="/assets/img/fellowships/incubator-biotech.jpg">
           </div>
@@ -365,7 +365,7 @@ li.gridder-list:focus-visible {
         </li>
 
 
-        <li class="gridder-list" role="button" tabindex="0" aria-expanded="false" data-griddercontent="#incubator-ais">
+        <li class="gridder-list" role="button" id="2025AquaticInvasives" tabindex="0" aria-expanded="false" data-griddercontent="#incubator-ais">
           <div class="game-thumbnail">
                         <img alt="Zebra mussels encrusting a shell" src="/assets/img/fellowships/incubator-ais.jpg">
           </div>
@@ -380,7 +380,7 @@ li.gridder-list:focus-visible {
           </div>
         </li>
 
-        <li class="gridder-list" role="button" tabindex="0" aria-expanded="false" data-griddercontent="#incubator-envhealth">
+        <li class="gridder-list" role="button" id="2025EnvironmentalHealth" tabindex="0" aria-expanded="false" data-griddercontent="#incubator-envhealth">
           <div class="game-thumbnail">
                         <img alt="Indoor air quality sensor in a home" src="/assets/img/fellowships/incubator-envhealth.jpg">
           </div>
@@ -395,7 +395,7 @@ li.gridder-list:focus-visible {
           </div>
         </li>
 
-        <li class="gridder-list" role="button" tabindex="0" aria-expanded="false" data-griddercontent="#incubator-auv">
+        <li class="gridder-list" role="button" id="2025OceanExplorers" tabindex="0" aria-expanded="false" data-griddercontent="#incubator-auv">
           <div class="game-thumbnail">
                         <img alt="Autonomous underwater vehicle navigating the ocean" src="/assets/img/fellowships/incubator-auv.jpg">
           </div>
@@ -410,7 +410,7 @@ li.gridder-list:focus-visible {
           </div>
         </li>
 
-        <li class="gridder-list" role="button" tabindex="0" aria-expanded="false" data-griddercontent="#incubator1">
+        <li class="gridder-list" role="button" id="2025LifeScience" tabindex="0" aria-expanded="false" data-griddercontent="#incubator1">
           <div class="game-thumbnail">
             <img alt="Ladybug on a leaf — life science field research" src="/assets/img/fellowships/incubator-lifescience.jpg">
           </div>
@@ -1324,6 +1324,78 @@ online course
     });
   });
 
+  // Deep links: /fellowships-incubators/#2027Computation opens that cohort card.
+  // Named anchors live as ids on the <li class="gridder-list"> elements; the
+  // panel ids (#incubator-food, #game13, ...) also work as a fallback so every
+  // card is linkable, including the legacy fellowships.
+  $(function() {
+    function cardForId(id) {
+      if (!id) { return null; }
+      var el = document.getElementById(id);
+      if (!el) { return null; }
+      if (el.classList && el.classList.contains('gridder-list')) {
+        return $(el);
+      }
+      if (el.classList && el.classList.contains('gridder-content')) {
+        var $match = $('li.gridder-list').filter(function() {
+          return $(this).data('griddercontent') === '#' + id;
+        });
+        return $match.length ? $match.first() : null;
+      }
+      return null;
+    }
+
+    function anchorFor($card) {
+      var id = $card.attr('id');
+      if (id) { return id; }
+      var target = $card.data('griddercontent');
+      return (typeof target === 'string' && target.indexOf('#') === 0) ? target.slice(1) : null;
+    }
+
+    function openFromHash() {
+      var raw = window.location.hash;
+      if (!raw || raw.length < 2) { return; }
+      var id;
+      try { id = decodeURIComponent(raw.slice(1)); } catch (e) { id = raw.slice(1); }
+      var $card = cardForId(id);
+      // Not a card anchor (e.g. #incubators, #how-it-works) — leave it alone.
+      if (!$card || !$card.length) { return; }
+      if ($card.hasClass('selectedItem')) {
+        var $show = $card.nextAll('.gridder-show').first();
+        if ($show.length) {
+          $('html, body').stop(true, true).animate({ scrollTop: $show.offset().top - 60 }, 400, 'easeInOutExpo');
+        }
+        return;
+      }
+      $card.trigger('click');
+    }
+
+    // Keep the URL shareable: opening a card writes its anchor, closing clears it.
+    // replaceState does not fire hashchange, so this cannot loop.
+    $(document).on('click', '.gridder-list', function() {
+      var $card = $(this);
+      setTimeout(function() {
+        if (!window.history || !window.history.replaceState) { return; }
+        var base = window.location.pathname + window.location.search;
+        if ($card.hasClass('selectedItem')) {
+          var anchor = anchorFor($card);
+          if (anchor) { window.history.replaceState(null, '', base + '#' + anchor); }
+        } else {
+          window.history.replaceState(null, '', base);
+        }
+      }, 50);
+    });
+
+    $(window).on('hashchange', openFromHash);
+    // The X button does not fire the .gridder-list handler, so clear the hash here.
+    $(document).on('click', '.gridder-close', function() {
+      if (window.history && window.history.replaceState) {
+        window.history.replaceState(null, '', window.location.pathname + window.location.search);
+      }
+    });
+    // Run after layout settles so the scroll lands in the right place.
+    $(window).on('load', function() { setTimeout(openFromHash, 350); });
+  });
   // Keyboard accessibility for gridder cards (WCAG 2.1 AA)
   $(function() {
     $(document).on('keydown', '.gridder-list', function(e) {
