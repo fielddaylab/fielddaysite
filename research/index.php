@@ -225,6 +225,12 @@
           <h2 id="pub4">Written by Field Day Lab Staff</h2>
             <div class="pub-wrap">
             <p class="small">
+Gagnon, D. J., &amp; Gee, J. P. (2027). Playable Epistemologies: Serious Games as Epistemic Rehearsal Environments. In: Ochoa, X., Plass, J. L. (eds) Serious Games. JCSG 2026. Lecture Notes in Computer Science, vol 17233. Springer, Cham, pp. 3-16. <a href="https://doi.org/10.1007/978-3-032-43871-3_1">https://doi.org/10.1007/978-3-032-43871-3_1</a>
+            </p>
+          </div>
+
+            <div class="pub-wrap">
+            <p class="small">
 Lake, A., Rom&acirc;n, D., Ponto, K., Baker, C., Gagnon, D., Verbeke, M., &amp; Matthews, J. (2026). Libraries as Activity Systems: A Systematic Review of Outreach Initiatives for Hispanic Communities. <em>Public Library Quarterly</em> (in press; published online 12 Apr 2026). <a href="https://doi.org/10.1080/01616846.2026.2655076">https://doi.org/10.1080/01616846.2026.2655076</a>
             </p>
           </div>
