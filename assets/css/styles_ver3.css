@@ -12311,6 +12311,22 @@ hr {
   background-size: cover;
   background-position: center 25%;
 }
+@media (max-width: 768px) {
+  /* Below 768px the carousel video is display:none, so the poster is the only
+     visual. The Locke's Gambit poster puts its planet/ship in the right third;
+     at the default 50% x-position the phone crop is empty black space, so pull
+     the focal point into frame. */
+  .home-page .carousel-inner > .item[style*="lockesgambit-poster"] {
+    background-position-x: 90%;
+  }
+  /* The Locke's Gambit logo is far taller per unit width (685x403) than the
+     other hero logos, so a flat 350px cap makes the info panel outgrow the
+     hero on small phones. Scale it to the panel instead. */
+  .home-page #carousel-hero .item .info img[alt="Locke's Gambit game logo"] {
+    max-width: min(260px, 72vw) !important;
+    height: auto;
+  }
+}
 .singleapp.emerald #app-intro {
   padding: 5vw 0vw 5vw 0vw;
   text-align: center;
@@ -18341,6 +18357,17 @@ tbody tr {
   max-width: 1000px;
   grid-template-rows: 1fr;
   align-items: stretch;
+}
+@media (max-width: 1131px) {
+  /* The 4th hero slide carries .item-nomobile and is hidden below the 1132px
+     breakpoint by showOrHideOptionalSlides(). Hide its indicator too, or
+     tapping it activates a display:none slide and the hero goes blank. */
+  .home-page ol.carousel-indicators {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .home-page ol.carousel-indicators li.indicator-nomobile {
+    display: none;
+  }
 }
 .home-page ol.carousel-indicators li {
   display: flex;

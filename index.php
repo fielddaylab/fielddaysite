@@ -12,7 +12,18 @@
             
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active" style="background-image: url('assets/img/home/carousel/hercules-poster.jpg');">
+                <div class="item active narrow-video" style="background-image: url('assets/img/home/carousel/lockesgambit-poster.jpg');">
+                    <div class="info">
+                        <img src="assets/img/home/carousel/lockesgambit-logo.png" alt="Locke's Gambit game logo" style="max-width:350px;" />
+                        <p class="small">Explore a distant star system aboard a microchip fabrication ship, researching materials and designing the chips that keep it flying.</p>
+                        <a href="play/lockesgambit" class="button yellow filled small">Learn More</a>
+                    </div>
+                    <span class="scanlines"></span>
+                    <video preload="none" muted loop class="carousel-video">
+                        <source src="assets/video/home/carousel/lockesgambit.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item" style="background-image: url('assets/img/home/carousel/hercules-poster.jpg');">
                     <div class="info">
                         <img src="assets/img/logos/logo_projectHercules.png" alt="Project Hercules Game Logo" style="max-width:350px;" />
                         <p class="small">Play an astronomer in the distant future, working to identify objects in the night sky and uncover the mystery of an impending celestial event.
@@ -35,7 +46,7 @@
                         <source src="assets/video/home/carousel/bloom.mp4" type="video/mp4">
                     </video>
                 </div>
-                <div class="item" style="background-image: url('assets/img/home/carousel/wake-poster.png');">
+                <div class="item item-nomobile" style="background-image: url('assets/img/home/carousel/wake-poster.png');">
                     <div class="info">
                         <img src="assets/img/home/carousel/wake-logo.png" alt="Wake: Tales From the Aqualab game logo" />
                         <p class="small">Take on the role of a scientist as you study ocean ecosystems, travel to exciting ocean research stations, and work with fellow scientists to solve problems.</p>
@@ -46,37 +57,25 @@
                         <source src="assets/video/home/carousel/aqualab.mp4" type="video/mp4">
                     </video>
                 </div>
-
-                <div class="item item-nomobile narrow-video" style="background-image: url('assets/img/home/carousel/lockesgambit-poster.jpg');">
-                    <div class="info">
-                        <img src="assets/img/home/carousel/lockesgambit-logo.png" alt="Locke's Gambit game logo" style="max-width:350px;" />
-                        <p class="small">Explore a distant star system aboard a microchip fabrication ship. Research materials, build supply chains, design chips, and fabricate wafers in this puzzle strategy game.</p>
-                        <a href="play/lockesgambit" class="button yellow filled small">Learn More</a>
-                    </div>
-                    <span class="scanlines"></span>
-                    <video preload="none" muted loop class="carousel-video">
-                        <source src="assets/video/home/carousel/lockesgambit.mp4" type="video/mp4">
-                    </video>
-                </div>
             </div>
 
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#carousel-hero" data-slide-to="0" class="active">
+                    <img src="assets/img/games/thumbs/lockesgambit-thumb.jpg" alt="Locke's Gambit Thumbnail" />
+                    <div class="thumb-caption">Locke's Gambit: The Silicon Frontier</div>
+                </li>
+                <li data-target="#carousel-hero" data-slide-to="1">
                     <img src="assets/img/gameplay/astro-gameplay.jpg" alt="Project Hercules Thumbnail" />
                     <div class="thumb-caption">Project Hercules</div>
                 </li>
-                <li data-target="#carousel-hero" data-slide-to="1">
+                <li data-target="#carousel-hero" data-slide-to="2">
                     <img src="assets/img/games/thumbs/bloom.jpg" alt="Bloom Thumbnail" />
                     <div class="thumb-caption">Bloom: The Saga of the Fertilizer Economy</div>
                 </li>
-                <li data-target="#carousel-hero" data-slide-to="2">
+                <li data-target="#carousel-hero" data-slide-to="3" class="indicator-nomobile">
                     <img src="assets/img/games/thumbs/wake.jpg" alt="Wake Thumbnail" />
                     <div class="thumb-caption">Wake: Tales From The Aqualab</div>
-                </li>
-                <li data-target="#carousel-hero" data-slide-to="3" class="indicator-nomobile">
-                    <img src="assets/img/games/thumbs/lockesgambit-thumb.jpg" alt="Locke's Gambit Thumbnail" />
-                    <div class="thumb-caption">Locke's Gambit: The Silicon Frontier</div>
                 </li>
 
                 <!--<li class="more-games-card">
