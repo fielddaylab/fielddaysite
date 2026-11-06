@@ -102,6 +102,18 @@
                                     </div>
                                 </div>
                             </li>
+                            <li class="gridder-list app-card" data-griddercontent="#game-lockesgambit">
+                                <img src="/assets/img/games/thumbs/lockesgambit-thumb.jpg" class="app-logo">
+                                <div class="game-wrapper">
+                                    <div class="title">
+                                        <span>Locke's Gambit</span>
+                                    </div>
+                                    <div class="stats">
+                                        <p class="italic">Grades 5-12 </p>
+                                        <p>Engineering, Science</p>
+                                    </div>
+                                </div>
+                            </li>
                             <li class="gridder-list app-card" data-griddercontent="#game-wake">
                                 <img src="/assets/img/games/thumbs/wake.jpg" class="app-logo">
                                 <div class="game-wrapper">
@@ -544,6 +556,24 @@
                             </div>
                             <div class="app-thumbnail app-pane right">
                                 <img src="/assets/img/gameplay/headlines.jpg">
+                            </div>
+                        </div>
+                        <div id="game-lockesgambit" class="app-expanded gridder-content">
+                            <div class="app-info app-pane left">
+                                <span class="close-app">
+                                    <h2>Locke's Gambit</h2>
+                                    <div class="stats">
+                                        <p class="tag ">Grades 5-12</p>
+                                        <p>|</p>
+                                        <p class="tag ">Engineering, Science</p>
+                                    </div>
+                                    <p class="small">
+                                        In <em>Locke's Gambit,</em> players explore a distant star system aboard a microchip fabrication ship in the distant future. They research materials, build supply chains, design chips, and fabricate wafers—mastering the science and engineering of microchip fabrication along the way.
+                                    </p>
+                                    <a class="button small white filled" href="/play/lockesgambit" target="_blank">Learn More</a>
+                            </div>
+                            <div class="app-thumbnail app-pane right">
+                                <img src="/assets/img/gameplay/lockesgambit.jpg">
                             </div>
                         </div>
                         <div id="game-wake" class="app-expanded gridder-content">

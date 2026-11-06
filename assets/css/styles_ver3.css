@@ -12306,6 +12306,11 @@ hr {
   width: 31vw;
   height: 14vw;
 }
+.singleapp.lockesgambit .app-hero {
+  background: linear-gradient(99deg, rgba(8, 10, 18, 0.55) 0%, rgba(8, 10, 18, 0.15) 100%), url(../img/home/carousel/lockesgambit-poster.jpg) no-repeat;
+  background-size: cover;
+  background-position: center 25%;
+}
 .singleapp.emerald #app-intro {
   padding: 5vw 0vw 5vw 0vw;
   text-align: center;

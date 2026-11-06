@@ -47,15 +47,15 @@
                     </video>
                 </div>
 
-                <div class="item item-nomobile" style="background-image: url('assets/img/home/carousel/journalism-poster.png');">
+                <div class="item item-nomobile narrow-video" style="background-image: url('assets/img/home/carousel/lockesgambit-poster.jpg');">
                     <div class="info">
-                        <img src="assets/img/home/carousel/headlines-logo.png" alt="Headlines and High Water game logo" />
-                        <p class="small">Play as a journalist in the town of Twin Lakes. Will the stories you publish help the town prepare for the flood of the century?</p>
-                        <a href="play/headlines" class="button yellow filled small">Learn More</a>
+                        <img src="assets/img/home/carousel/lockesgambit-logo.png" alt="Locke's Gambit game logo" style="max-width:350px;" />
+                        <p class="small">Explore a distant star system aboard a microchip fabrication ship. Research materials, build supply chains, design chips, and fabricate wafers in this puzzle strategy game.</p>
+                        <a href="play/lockesgambit" class="button yellow filled small">Learn More</a>
                     </div>
                     <span class="scanlines"></span>
                     <video preload="none" muted loop class="carousel-video">
-                        <source src="assets/video/home/carousel/journalism.mp4" type="video/mp4">
+                        <source src="assets/video/home/carousel/lockesgambit.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
@@ -75,8 +75,8 @@
                     <div class="thumb-caption">Wake: Tales From The Aqualab</div>
                 </li>
                 <li data-target="#carousel-hero" data-slide-to="3" class="indicator-nomobile">
-                    <img src="assets/img/games/thumbs/headlines-thumb.jpg" alt="Headlines Thumbnail" />
-                    <div class="thumb-caption">Headlines and High Water</div>
+                    <img src="assets/img/games/thumbs/lockesgambit-thumb.jpg" alt="Locke's Gambit Thumbnail" />
+                    <div class="thumb-caption">Locke's Gambit: The Silicon Frontier</div>
                 </li>
 
                 <!--<li class="more-games-card">
